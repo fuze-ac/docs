@@ -1,4 +1,4 @@
-# Foundation Vault
+# FOUNDATION VAULT SPEC
 
 ## 1. Purpose
 
