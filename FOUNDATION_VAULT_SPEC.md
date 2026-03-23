@@ -1,4 +1,4 @@
-# foundation-vault.spec.md
+# Foundation Vault
 
 ## 1. Purpose
 
