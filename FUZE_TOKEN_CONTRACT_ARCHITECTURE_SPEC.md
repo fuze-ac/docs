@@ -1,4 +1,4 @@
-# FUZE_TOKEN_CONTRACT_ARCHITECTURE_SPEC.md
+# The master on-chain architecture for FUZE token allocation contracts
 
 ## 1. Purpose
 
