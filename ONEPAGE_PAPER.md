@@ -1,72 +1,56 @@
 # FUZE One-Page Paper
 
-## What is FUZE
+## Overview
 
-**FUZE is a transparency-first SaaS platform ecosystem.** It builds AI-powered software products across trading, token operations, events, SMEs, and automation, while using a Web3-native model for holder alignment, profit participation, and transparency.
+**FUZE is the central platform layer behind a growing ecosystem of AI-powered SaaS products.**  
+It is designed as a transparency-first SaaS platform ecosystem that combines shared infrastructure, a unified platform credits system, multiple AI-powered products, Web3-native holder alignment, and transparent profit participation.
 
-FUZE is no longer positioned as only a crypto-facing project. It is now a broader platform company with multiple SaaS products, shared infrastructure, and a token that acts as the participation and alignment layer of the ecosystem.
+FUZE is not meant to be understood as only a token project or only a single application.  
+It is a **platform company first**.
 
-## Core Platform Thesis
+---
 
-FUZE serves as the **central platform backbone** for a family of SaaS businesses. Instead of each product rebuilding its own systems, FUZE provides shared platform resources such as identity, user systems, organization/workspace systems, credit and billing systems, payment rails, AI orchestration, automation, analytics, audit logs, wallet connectivity, and transparency infrastructure.
+## Core Thesis
 
-This architecture allows FUZE to scale as a product ecosystem rather than a single app.
+FUZE provides the shared systems that power current and future products across the ecosystem.
 
-## Product Portfolio
+Instead of each product rebuilding identity, billing, wallet connectivity, AI orchestration, and internal commerce from zero, FUZE acts as the reusable operating layer for:
+- identity and account systems
+- wallet and token-aware user systems
+- subscriptions and usage billing
+- multi-rail payments
+- platform credits
+- AI orchestration
+- workflow automation
+- transparency and audit infrastructure
+- governance and treasury control architecture
+- stablecoin profit participation
 
-FUZE’s current product portfolio is:
+This gives FUZE the structure of a connected platform rather than a loose collection of products.
 
-1. **QTB — Quant AI Trade Brain**  
-   AI trading SaaS.
+---
 
-2. **AIMM — AI Market Maker**  
-   AI market-making infrastructure.
+## Product Ecosystem on Top of FUZE
 
-3. **ZAGA — Token Utility OS**  
-   Token Utility OS for token projects.
+The current product ecosystem on top of FUZE includes:
 
-4. **AIE — Event Intelligence**  
-   Event discovery and intelligence.
+- **QTB — Quant AI Trade Brain**
+- **AIMM — AI Market Maker**
+- **ZAGA — Token Utility OS**
+- **AIE — Event Intelligence**
+- **HerHelp — AI-assisted business that starts with sheet-to-app — an AI SaaS for SMEs**
+- **Botmad — AI desktop employee**
+- **and more**
 
-5. **HerHelp — AI-assisted sheet-to-app SaaS for SMEs**
+This matters because FUZE is designed to support a growing family of SaaS products over time, not only the current list.
 
-6. **Botmad — AI desktop employee**
+---
 
-This makes FUZE a multi-product SaaS ecosystem, not a single-product company.
+## FUZE Platform Credits
 
-## Why FUZE is Different
+A key part of FUZE is the **Platform Credits** layer.
 
-FUZE combines two ideas that are usually separated:
-
-- a **real SaaS platform business** with multiple revenue-generating products
-- a **Web3-native participation model** where eligible token holders can benefit from platform success through transparent rules
-
-The result is a model closer to a **decentralized, transparency-first SaaS platform inspired by public-company discipline**.
-
-## FUZE Token Role
-
-The **FUZE token** is the platform participation token of the FUZE ecosystem.
-
-Its main utilities are:
-
-- **Platform profit participation**  
-  Eligible FUZE holders receive a share of audited or policy-defined distributable platform profit, paid in stablecoins, based on the published quarterly transparency report and payout ledger.
-
-- **Holder rank / level**  
-  FUZE holdings can determine rank-based status across the ecosystem.
-
-- **Cross-product unlocks**  
-  Holder levels can unlock features, benefits, limits, credits, and access across FUZE SaaS products.
-
-- **DAO-lite governance**  
-  FUZE holders may later participate in selected governance matters under a controlled governance model.
-
-FUZE is therefore not just a payment token or a speculative asset. It is an **access, alignment, participation, and transparency token**.
-
-## Payment and Credit System
-
-FUZE is designed as a **multi-rail payment platform**. It can support:
-
+Users may pay through multiple rails, including:
 - fiat / Stripe
 - USDT / stablecoins
 - FUZE token
@@ -74,57 +58,118 @@ FUZE is designed as a **multi-rail payment platform**. It can support:
 - Apple In-App Purchase
 - Google Play Billing
 
-These payment rails connect into a shared internal system of **platform credits**, allowing different products and surfaces to operate under one unified commerce and entitlement framework.
+After payment verification, value is converted into **FUZE Platform Credits**.
 
-## Transparency Model
+These credits become the unified internal consumption unit of the ecosystem and can be used for:
+- subscriptions
+- usage billing
+- AI actions
+- premium features
+- add-ons
+- feature unlocks
+- platform services across FUZE products
 
-Transparency is one of FUZE’s defining principles.
+This gives FUZE one shared internal economic layer across all products.
 
-The platform is designed around:
+---
 
-- published quarterly transparency reports
-- payout ledgers for stablecoin profit participation
-- policy-defined distributable profit rules
-- dedicated smart-contract allocation architecture
-- clearly separated treasury, foundation, team, incentives, partnership, and liquidity buckets
+## Why Payment -> Credits -> On-Chain
 
-This is intended to make FUZE more trustworthy than traditional opaque token projects.
+FUZE uses the model:
 
-## Token Architecture Direction
+**payment rail -> verified payment -> platform credits -> on-chain ledger**
 
-FUZE tokenomics are being redesigned around a **trust-minimized smart contract structure** where each major allocation is held in a purpose-specific contract, including:
+This exists for three main reasons:
 
-- Community Presale
-- BOARD Migration
-- Team Vesting Vault
-- Foundation Vault
-- Treasury Reserve Vault
-- Holder Incentives Vault
-- Ecosystem Partnership Vault
-- Liquidity Operations Vault
-- Advisor Vesting Vault
-- Transparency / Stability Vault
+- **Transparent** — issuance and usage can be tracked more clearly
+- **Secure** — one shared ledger is stronger than fragmented product-specific balances
+- **Trackable** — top-ups, spends, refunds, and adjustments can be reconciled consistently
 
-This creates a visible and policy-driven on-chain structure instead of hidden discretionary wallets.
+---
 
-## Foundation Model
+## FUZE Token Role
 
-One of the strongest trust signals in FUZE is the planned **Foundation Vault**.
+The **FUZE token** is the ecosystem participation token of the platform.
 
-The Foundation will hold **35,000,000 FUZE** in a permanently locked contract. The principal cannot be sold, transferred, or operationally deployed. The Foundation only benefits through stablecoin profit participation like another eligible holder, and any proceeds are routed through approved governance-controlled operations.
+It is separate from Platform Credits.
 
-This reinforces long-term alignment and reduces fear of insider sell pressure.
+Its role is to support:
+- ecosystem participation
+- holder rank / level
+- cross-product benefits and unlocks
+- future governance participation
+- stablecoin profit participation eligibility under published policy
+
+This distinction is important:
+
+- **FUZE token** = ecosystem participation layer
+- **Platform Credits** = internal consumption layer
+- **Stablecoin payouts** = profit participation layer
+
+These should not be confused with one another.
+
+---
+
+## Transparency and Profit Participation
+
+Transparency is one of FUZE’s strongest defining principles.
+
+The platform is being designed around:
+- published transparency reports
+- payout ledgers
+- visible smart contract architecture
+- clear treasury and reserve separation
+- policy-defined profit participation logic
+- public-facing trust infrastructure
+
+Eligible FUZE holders may receive a share of policy-defined or audited distributable platform profit in stablecoins, based on published payout cycles and holder-eligibility rules.
+
+This gives FUZE a stronger trust model than traditional opaque token projects.
+
+---
+
+## Chain Architecture
+
+FUZE uses a layered chain architecture:
+
+- **FUZE token stays on Ethereum**
+- **FUZE Platform Credits run on Base**
+- **Stablecoin profit participation runs on Base using Ethereum FUZE-holder snapshots as the eligibility source**
+
+This structure keeps:
+- Ethereum as the canonical token layer
+- Base as the practical low-cost operational layer
+
+That gives FUZE stronger token credibility while keeping app usage, credit activity, and profit-participation claims cheaper and more scalable.
+
+---
 
 ## Strategic Positioning
 
-FUZE is best described as:
+The clearest way to describe FUZE is:
 
-> **A transparency-first SaaS platform ecosystem that builds AI-powered products across trading, token operations, events, SMEs, and automation, while giving eligible FUZE holders Web3-native participation in published distributable platform profit.**
+> **FUZE is the central platform layer and shared operating system for a growing ecosystem of AI-powered SaaS products, with transparent platform credits, transparent profit participation, and Web3-native holder alignment built into the foundation.**
 
-In simpler form:
+Simpler version:
 
-> **FUZE is a Web3-native SaaS platform company with transparent profit participation for eligible token holders.**
+> **FUZE is the core platform layer that powers the FUZE SaaS ecosystem.**
+
+Investor-friendly version:
+
+> **FUZE is building a multi-product SaaS platform with a shared commerce layer, a unified credits system, and a transparent token-aligned participation model.**
+
+---
 
 ## Closing
 
-FUZE is no longer only a crypto product. It is now a broader SaaS platform company with a stronger business foundation, a clearer product ecosystem, and a more credible token model. Its long-term goal is to combine real software revenue, transparent operating discipline, and Web3-native holder alignment into a single ecosystem.
+FUZE is building more than a token and more than a single app.
+
+It is building:
+- one central platform layer
+- one shared credits economy
+- one transparent token-aligned participation model
+- many products on top
+
+That is the long-term direction of FUZE.
+
+And that is why FUZE can be positioned as a **transparency-first SaaS platform ecosystem** for the AI and Web3 era.
