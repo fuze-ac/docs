@@ -1,5 +1,4 @@
-# FUZE_CHAIN_ARCHITECTURE_SPEC.md
-
+# FUZE CHAIN ARCHITECTURE
 ## 1. Purpose
 
 This specification defines the chain architecture of the FUZE ecosystem.
