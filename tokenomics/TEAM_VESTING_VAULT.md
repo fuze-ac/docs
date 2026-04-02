@@ -1,5 +1,4 @@
-# TEAM_VESTING_VAULT_SPEC.md
-
+# TEAM VESTING VAULT
 ## 1. Purpose
 
 This specification defines the `FuzeTeamVestingVault` contract.
