@@ -153,7 +153,6 @@ The clearest way to describe FUZE is:
 
 ---
 
-## Closing
 
 FUZE is building more than a token and more than a single app.
 
