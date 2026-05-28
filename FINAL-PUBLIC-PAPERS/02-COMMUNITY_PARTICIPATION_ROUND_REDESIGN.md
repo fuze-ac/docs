@@ -1,5 +1,3 @@
-# FILE NAME: 02-COMMUNITY_PARTICIPATION_ROUND_REDESIGN-PUBLIC.md
-
 # Community Participation Round Redesign
 
 ## Executive Summary
