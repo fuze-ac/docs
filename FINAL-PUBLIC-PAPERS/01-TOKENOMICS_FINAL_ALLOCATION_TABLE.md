@@ -1,5 +1,3 @@
-# FILE NAME: 01-TOKENOMICS_FINAL_ALLOCATION_TABLE-PUBLIC.md
-
 # Tokenomics Final Allocation Table
 
 ## Executive Summary
