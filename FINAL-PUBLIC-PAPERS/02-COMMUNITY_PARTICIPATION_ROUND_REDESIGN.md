@@ -1,6 +1,4 @@
-# 02. COMMUNITY PARTICIPATION ROUND REDESIGN
 
-## Purpose
 
 This document clarifies the redesigned FUZE Community Participation Round for FUZE v2.
 
@@ -391,4 +389,3 @@ The active Community Participation unlock schedule should be:
 
 The strongest final principle is:
 
-> FUZE’s Community Participation Round should no longer be a discount-based token sale narrative. It should become a product-aligned, compliance-aware, transparent participation system for real users, contributors, and long-term ecosystem supporters.

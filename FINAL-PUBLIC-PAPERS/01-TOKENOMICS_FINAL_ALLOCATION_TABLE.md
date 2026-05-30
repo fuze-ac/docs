@@ -1,6 +1,4 @@
-# 01. TOKENOMICS FINAL ALLOCATION TABLE
 
-## Purpose
 
 This document clarifies and locks the FUZE v2 final tokenomics allocation table before creating the final investor one-pager, pitch deck, tokenomics paper, and whitepaper.
 
@@ -277,4 +275,3 @@ The allocation model should be communicated as **purpose-specific, vault-based, 
 
 The strongest summary line is:
 
-> FUZE tokenomics is built around a fixed 500M supply divided into ten purpose-specific allocations, each intended to support long-term product execution, ecosystem participation, transparent controls, and responsible circulation.
