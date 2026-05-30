@@ -1,302 +1,277 @@
-# Tokenomics Final Allocation Table
 
-## Executive Summary
 
-FUZE uses a fixed total supply of **500,000,000 FUZE** and organizes that supply across ten purpose-specific allocation categories. The allocation model supports FUZE as a transparency-first AI SaaS platform, not a token-first project.
+This document clarifies and locks the FUZE v2 final tokenomics allocation table before creating the final investor one-pager, pitch deck, tokenomics paper, and whitepaper.
 
-FUZE applies a tokenomics structure built around purpose-specific allocation, vault-based control, controlled circulation, product-first utility, and long-term ecosystem alignment. Each allocation category has a defined role, a defined strategic purpose, and a public interpretation that connects tokenomics to product execution, platform infrastructure, community trust, and ecosystem participation.
+The goal is to establish one consistent numerical source of truth for:
 
-FUZE separates the FUZE token, Platform Credits, and stablecoin payout systems. FUZE token is for ecosystem participation. Platform Credits are for product usage. Stablecoin payout systems, where legally permitted and operationally ready, relate to the long-term profit participation direction and remain subject to legal, accounting, treasury, technical, and transparency controls.
+- total FUZE supply
+- allocation bucket names
+- allocation amounts
+- percentage of total supply
+- purpose summary per bucket
+- strategic grouping
+- vault / contract mapping direction
+- communication rules for public, community, and investor materials
 
-## 1. FUZE Position
+This document is not the full tokenomics paper. It is the locked allocation-table clarification file that future FUZE documents should reference.
 
-FUZE defines the final FUZE token supply as:
+## Current FUZE v2 Context
 
-| Item | Value |
-|---|---:|
-| Token name | FUZE |
-| Canonical token role | Ecosystem participation asset |
-| Canonical token chain | Ethereum mainnet |
-| Total supply | 500,000,000 FUZE |
-| Internal consumption asset | FUZE Platform Credits |
-| Profit participation asset | Stablecoin payouts |
-| Credits and payout operational chain | Base |
+FUZE v2 is a transparency-first AI SaaS platform moving from broad vision into disciplined product-first execution.
 
-FUZE keeps the total supply fixed at **500,000,000 FUZE**.
+The active execution order is:
 
-FUZE uses ten primary allocation categories:
+> Product usage first. Platform rails second. Broader ecosystem participation after that.
 
-1. Community Participation Allocation
-2. BOARD / Surfboard Migration
-3. Team Allocation
-4. Foundation Reserve
-5. Treasury Reserve
-6. Holder Incentives
-7. Ecosystem Growth & Partnerships
-8. Liquidity & Market Operations
-9. Advisors / Strategic Contributors
-10. Transparency / Stability Reserve
+The active tokenomics principle is:
 
-FUZE tokenomics uses the following principle:
+> FUZE tokenomics should be purpose-specific, vault-based, transparency-first, and designed for controlled circulation.
 
-**Purpose-specific allocation. Vault-based control. Controlled circulation. Product-first utility. Long-term ecosystem alignment.**
+The active vault principle is:
 
-FUZE does not present tokenomics as short-term speculation. FUZE presents tokenomics as a controlled ecosystem structure connected to real products, long-term platform rails, responsible release policy, and public transparency.
+> One allocation bucket = one dedicated contract = one clear purpose = one visible rule set.
 
-## 2. Platform Context
+The current canonical tokenomics reference states that FUZE has a fixed total supply of **500,000,000 FUZE**, with FUZE token positioned as the ecosystem participation asset on Ethereum mainnet, Platform Credits as the internal consumption asset, and stablecoin payouts as the profit participation asset. The same reference also separates token, credits, and payout layers clearly. The tokenomics table source lists ten primary allocation categories and validates that they sum to 500,000,000 FUZE and 100.00% of total supply.
 
-FUZE is a transparency-first AI SaaS platform building practical products on top of shared infrastructure for identity, credits, payments, AI orchestration, reporting, and ecosystem participation.
+## Key Decision / Recommended Direction
 
-FUZE execution order is:
+The recommended direction is to **keep the current 500,000,000 FUZE total supply and the current ten-bucket allocation table unchanged for FUZE v2**, but update the public naming, interpretation, and policy language to match the latest FUZE v2 strategy.
 
-**Product usage first. Platform rails second. Broader ecosystem participation after that.**
+This means:
 
-The allocation table supports this execution model by separating long-term ecosystem participation from internal product usage and payout-related systems. FUZE keeps the economic layers distinct:
+1. The total supply remains **500,000,000 FUZE**.
+2. The allocation structure remains divided into **ten purpose-specific buckets**.
+3. The old “Community Presale” language should be updated in public materials to **Community Participation / Community Presale** during the transition, then eventually standardized as **Community Participation** after the redesigned round is finalized.
+4. The old “Foundation Reserve” language should be described as **Foundation Vault / Foundation Reserve** because the intended structure is a dedicated vault.
+5. Treasury, incentives, partnerships, liquidity, advisors, and transparency/stability should remain separate allocations and should not be merged.
+6. This document does not yet redesign unlock schedules, community participation mechanics, vault access windows, or market-price purchase rules. Those are handled in later clarification topics.
 
-| Layer | Canonical Asset / System | Primary Role | Chain |
-|---|---|---|---|
-| Ecosystem participation layer | FUZE token | Holder alignment, ecosystem participation, eligibility source, future governance readiness | Ethereum mainnet |
-| Internal consumption layer | FUZE Platform Credits | Product spending, subscriptions, usage billing, internal purchasing power | Base |
-| Profit participation layer | Stablecoin payout cycles | Future policy-defined holder profit participation, subject to legal, accounting, treasury, technical, and transparency readiness | Base |
+Recommended master statement:
 
-FUZE v2 launch focus is **HerHelp.com** and **ZAGA.io**, supported by FUZE Core Platform rails and accelerated internally by **Botmad**.
+> FUZE v2 keeps a fixed 500,000,000 FUZE supply divided across ten purpose-specific allocations. Each major allocation should map to a dedicated vault or contract structure with a clear purpose, visible rules, and controlled release logic.
 
-The allocation table connects to the FUZE platform in the following way:
+## Detailed Policy / Framework
 
-| Platform Area | Tokenomics Relationship |
-|---|---|
-| FUZE Core Platform | Provides shared identity, credits, payments, AI orchestration, reporting, transparency, and governance rails |
-| HerHelp.com | Product-first SaaS execution surface for practical AI services and SME workflows |
-| ZAGA.io | Product and ecosystem surface for token utility, participation, and user engagement |
-| Platform Credits | Product usage layer separate from FUZE token |
-| Ethereum FUZE token | Ecosystem participation layer |
-| Base credits and payout rails | Operational layer for credits and future payout execution |
-| Transparency systems | Public reporting, vault visibility, allocation explanation, and controlled circulation communication |
-| Governance direction | Long-term governance readiness without overstating live governance control |
-| Compliance posture | Clear boundaries around token price, liquidity, participation eligibility, payout systems, jurisdiction, and product readiness |
+## Final Allocation Table
 
-FUZE uses AI to move faster, but uses structured standards to stay controlled. Tokenomics therefore connects to a wider platform governance model rather than standing alone as an isolated token table.
-
-## 3. Public Model
-
-### 3.1 Final Allocation Table
-
-| Allocation Category | Amount (FUZE) | % of Total Supply | FUZE v2 Role |
+| Allocation Bucket | Amount (FUZE) | % of Total Supply | Purpose Summary |
 |---|---:|---:|---|
-| Community Participation Allocation | 110,000,000 | 22.00% | Public/community participation, product-user participation, contributor participation, and community reserve |
-| BOARD / Surfboard Migration | 25,000,000 | 5.00% | Legacy-holder migration continuity allocation |
-| Team Allocation | 45,000,000 | 9.00% | Long-term builder and operator alignment |
-| Foundation Reserve | 35,000,000 | 7.00% | Long-horizon ecosystem stewardship and permanent principal reserve |
-| Treasury Reserve | 120,000,000 | 24.00% | Strategic platform reserve for long-term FUZE ecosystem development |
-| Holder Incentives | 55,000,000 | 11.00% | Holder, user, product, community, and contribution incentive programs |
-| Ecosystem Growth & Partnerships | 40,000,000 | 8.00% | Strategic ecosystem expansion, integrations, and partnerships |
-| Liquidity & Market Operations | 30,000,000 | 6.00% | Liquidity, listing readiness, LP support, and market-structure operations |
-| Advisors / Strategic Contributors | 15,000,000 | 3.00% | Strategic contributor and advisor alignment |
-| Transparency / Stability Reserve | 25,000,000 | 5.00% | Trust, transparency, stability, and exceptional governance-approved support |
-| **Total** | **500,000,000** | **100.00%** | **Full FUZE token supply** |
+| Community Participation / Community Presale | 110,000,000 | 22.00% | Public/community participation, early holder distribution, and future redesigned community access structure. |
+| BOARD / Surfboard Migration | 25,000,000 | 5.00% | Legacy-holder continuity allocation for fair migration under defined eligibility and claim rules. |
+| Team Allocation | 45,000,000 | 9.00% | Long-term builder, operator, and core contributor alignment through controlled vesting. |
+| Foundation Vault | 35,000,000 | 7.00% | Long-horizon stewardship reserve intended to remain locked as principal and support future foundation participation infrastructure. |
+| Platform Treasury Reserve | 120,000,000 | 24.00% | Strategic platform reserve for long-term ecosystem development, platform support, runway policy, and approved strategic uses. |
+| Community / Holder Incentives | 55,000,000 | 11.00% | Holder, user, and community-facing incentive programs tied to real participation, product usage, and contribution. |
+| Ecosystem Growth & Partnerships | 40,000,000 | 8.00% | Strategic partnerships, ecosystem integrations, contributor programs, and milestone-based external growth. |
+| Liquidity & Market Operations | 30,000,000 | 6.00% | Liquidity, listing readiness, LP support, market-structure support, and approved market operations. |
+| Advisors / Strategic Contributors | 15,000,000 | 3.00% | Long-term advisor and strategic contributor alignment through vesting, milestones, and contribution-based rules. |
+| Transparency / Stability Reserve | 25,000,000 | 5.00% | Trust, transparency, stability, audit, risk, and exceptional governance-approved support reserve. |
+| **Total Supply** | **500,000,000** | **100.00%** | **Full fixed FUZE token supply.** |
 
-### 3.2 Allocation Grouping Summary
+## Allocation Grouping Summary
 
-| Strategic Group | Included Categories | Amount (FUZE) | % of Total Supply | Purpose |
+| Strategic Group | Included Buckets | Amount (FUZE) | % of Total Supply | Purpose |
 |---|---|---:|---:|---|
-| Public / Community Entry and Migration | Community Participation Allocation, BOARD / Surfboard Migration | 135,000,000 | 27.00% | Public/community distribution and legacy-holder migration continuity |
-| Core Team and Contributors | Team Allocation, Advisors / Strategic Contributors | 60,000,000 | 12.00% | Long-term builder, operator, advisor, and contributor alignment |
-| Long-Term Stewardship and Strategic Reserve | Foundation Reserve, Treasury Reserve, Transparency / Stability Reserve | 180,000,000 | 36.00% | Stewardship, strategic reserve, and trust-supporting reserve architecture |
-| Community / Ecosystem Activation | Holder Incentives, Ecosystem Growth & Partnerships | 95,000,000 | 19.00% | Community activation, product participation, partnerships, and ecosystem expansion |
-| Market Structure Support | Liquidity & Market Operations | 30,000,000 | 6.00% | Liquidity and market operations support |
-| **Total** | **All categories** | **500,000,000** | **100.00%** | **Full FUZE token supply** |
+| Public / Community Entry and Continuity | Community Participation / Community Presale, BOARD / Surfboard Migration | 135,000,000 | 27.00% | Community participation, early distribution, and legacy-holder continuity. |
+| Core Builders and Strategic Contributors | Team Allocation, Advisors / Strategic Contributors | 60,000,000 | 12.00% | Long-term builder, operator, advisor, and contributor alignment. |
+| Long-Term Stewardship and Strategic Reserves | Foundation Vault, Platform Treasury Reserve, Transparency / Stability Reserve | 180,000,000 | 36.00% | Long-term stewardship, strategic reserve capacity, stability, and transparency support. |
+| Community and Ecosystem Activation | Community / Holder Incentives, Ecosystem Growth & Partnerships | 95,000,000 | 19.00% | Real usage incentives, community activation, ecosystem growth, and partnerships. |
+| Market Structure Support | Liquidity & Market Operations | 30,000,000 | 6.00% | Liquidity, listing readiness, LP support, and market-operations control. |
+| **Total** | **All buckets** | **500,000,000** | **100.00%** | **Full FUZE token supply.** |
 
-### 3.3 Contract and Vault Mapping
+## Allocation Ranking by Size
 
-FUZE maps each allocation to a dedicated structural home. This model supports clearer reporting, controlled release rules, and public understanding of allocation purpose.
+| Rank | Allocation Bucket | Amount (FUZE) | % of Total Supply |
+|---:|---|---:|---:|
+| 1 | Platform Treasury Reserve | 120,000,000 | 24.00% |
+| 2 | Community Participation / Community Presale | 110,000,000 | 22.00% |
+| 3 | Community / Holder Incentives | 55,000,000 | 11.00% |
+| 4 | Team Allocation | 45,000,000 | 9.00% |
+| 5 | Ecosystem Growth & Partnerships | 40,000,000 | 8.00% |
+| 6 | Foundation Vault | 35,000,000 | 7.00% |
+| 7 | Liquidity & Market Operations | 30,000,000 | 6.00% |
+| 8 | BOARD / Surfboard Migration | 25,000,000 | 5.00% |
+| 9 | Transparency / Stability Reserve | 25,000,000 | 5.00% |
+| 10 | Advisors / Strategic Contributors | 15,000,000 | 3.00% |
 
-| Allocation Category | Intended Structure / Contract Environment | FUZE v2 Structural Notes |
+## Contract / Vault Mapping Direction
+
+| Allocation Bucket | Intended Structure / Contract Environment | Structural Interpretation |
 |---|---|---|
-| Community Participation Allocation | Community Participation contract / vault / round structure | Public/community access under FUZE v2 rules |
-| BOARD / Surfboard Migration | Migration contract / migration vault | Claim-based migration for eligible legacy holders, not public sale inventory |
-| Team Allocation | Team Vesting Vault | Long-term vesting and stablecoin compensation separation |
-| Foundation Reserve | Foundation Vault | Permanent principal lock; no sale, transfer, or liquidity use |
-| Treasury Reserve | Treasury Reserve Vault | Policy-based strategic reserve; no automatic unlock |
-| Holder Incentives | Holder Incentives Vault | Earned incentives, campaigns, product usage, contribution rewards |
-| Ecosystem Growth & Partnerships | Ecosystem Partnership Vault | Milestone-based partnership release or market-aligned strategic participation |
-| Liquidity & Market Operations | Liquidity Operations Vault | Listing, liquidity, LP, market-maker, and market-structure support |
-| Advisors / Strategic Contributors | Advisor Vesting Vault | Contribution-based vesting and optional stablecoin or milestone compensation |
-| Transparency / Stability Reserve | Transparency / Stability Vault | Trust and stability reserve; no normal public sale use |
+| Community Participation / Community Presale | Community Participation Round / Community Participation Vault | Redesigned community access structure; not discount-to-TGE hype. |
+| BOARD / Surfboard Migration | BOARD / Surfboard Migration Vault | Claim-based migration continuity for eligible legacy holders. |
+| Team Allocation | Team Vesting Vault | Long-term builder alignment; not short-term cash compensation. |
+| Foundation Vault | Foundation Vault | Permanent or long-horizon locked stewardship principal. |
+| Platform Treasury Reserve | Treasury Reserve Vault | Strategic reserve; no automatic unlock; policy-based use only. |
+| Community / Holder Incentives | Holder Incentives Vault | Capped, earned, usage/contribution-based incentives. |
+| Ecosystem Growth & Partnerships | Ecosystem Partnership Vault | Milestone-based partner and ecosystem deployment. |
+| Liquidity & Market Operations | Liquidity Operations Vault | Controlled liquidity, listing, LP, and market-structure support. |
+| Advisors / Strategic Contributors | Advisor Vesting Vault | Vested and contribution-based strategic advisor alignment. |
+| Transparency / Stability Reserve | Transparency / Stability Vault | Special-purpose trust and stability reserve. |
 
-### 3.4 Allocation Policy Interpretation
+## Interpretation Rules
 
-| Allocation Category | Time Horizon | Governance Sensitivity | Constraint Profile |
-|---|---|---|---|
-| Community Participation Allocation | Medium to long-term | Moderate to High | Participation-specific controls, eligibility, vesting, compliance readiness |
-| BOARD / Surfboard Migration | Transitional | Moderate to High | Migration eligibility, claim window, snapshot, unclaimed token policy |
-| Team Allocation | Long-term | High | Long vesting, no large liquid unlocks, stablecoin compensation separation |
-| Foundation Reserve | Permanent / long-term | Very High | Permanent lock, no principal sale, no liquidity use |
-| Treasury Reserve | Long-term | High | Policy-defined strategic reserve usage, market-aligned releases only under approved controls |
-| Holder Incentives | Medium to long-term | Moderate to High | Earned rewards, capped campaigns, anti-bot controls, delayed claims |
-| Ecosystem Growth & Partnerships | Medium to long-term | High | Milestone-based release, lockups, market-aligned strategic participation |
-| Liquidity & Market Operations | Ongoing operational | High | Controlled liquidity, listing, and market-structure deployment |
-| Advisors / Strategic Contributors | Long-term | Moderate to High | Vesting, milestone contribution, inactivity controls |
-| Transparency / Stability Reserve | Long-term / exceptional | High | Special-purpose trust and stability reserve, not general spending |
+1. **No bucket should be treated as an unrestricted admin wallet.**
+2. **No reserve should be treated as hidden sale inventory.**
+3. **No team/advisor allocation should be treated as immediate liquidity.**
+4. **No migration allocation should be sold to the public.**
+5. **No liquidity allocation should be used as a normal community sale bucket.**
+6. **No foundation principal should become operational inventory.**
+7. **No holder incentive allocation should encourage bot-driven farming.**
+8. **No public document should frame allocations around guaranteed returns, TGE multiples, or price speculation.**
 
-### 3.5 Naming Policy
+## What This Means for Investors
 
-FUZE uses public-facing names that reduce token-first confusion and make each allocation easier to understand.
+For investors, this final allocation table shows that FUZE v2 has a fixed and structured token supply with clear allocation logic.
 
-| Old / Historical Name | FUZE v2 Public Name | Public Interpretation |
-|---|---|---|
-| Community Presale | Community Participation Allocation / Community Participation Round | Community and product-participation access, subject to legal, compliance, jurisdiction, product, platform, and smart contract readiness review |
-| BOARD Migration | BOARD / Surfboard Migration | Legacy-holder migration continuity |
-| Team Allocation | Team Allocation / Team Vesting Allocation | Long-term builder and operator alignment |
-| Foundation Reserve | Foundation Reserve / Foundation Vault | Long-horizon stewardship and permanent principal reserve |
-| Treasury Reserve | Treasury Reserve / Platform Treasury Reserve | Strategic platform reserve |
-| Holder Incentives | Holder Incentives | Earned participation, product usage, and contribution incentives |
-| Ecosystem Growth & Partnerships | Ecosystem Growth & Partnerships | Milestone-based ecosystem expansion and partnership support |
-| Liquidity & Market Operations | Liquidity & Market Operations | Listing, liquidity, LP, market-maker, and market-structure support |
-| Advisors / Strategic Contributors | Advisors / Strategic Contributors | Contribution-based alignment |
-| Transparency / Stability Reserve | Transparency / Stability Reserve | Trust, stability, and exceptional governance-approved support |
+Key investor points:
 
-### 3.6 Validation
+- FUZE is not creating an undefined or unlimited token supply.
+- Major allocations are separated by purpose.
+- Treasury, foundation, stability, liquidity, team, advisors, and community incentives are not mixed together.
+- FUZE tokenomics is designed to support long-term platform development, not short-term token speculation.
+- Seed investor token-related exposure, if included, will be handled separately as a private, legally reviewed component of the investment structure.
+- The Community Participation Round is being redesigned and should not be understood as the current Seed Round.
 
-| Validation Check | Result |
-|---|---|
-| Total supply | 500,000,000 FUZE |
-| Number of primary allocation categories | 10 |
-| Sum of allocation amounts | 500,000,000 FUZE |
-| Sum of allocation percentages | 100.00% |
-| Token, credits, and payout layers separated | Yes |
-| Allocation categories structurally separated by purpose | Yes |
-| Suitable for vault-based policy design | Yes |
-| Suitable for FUZE v2 Controlled Circulation Policy | Yes |
+Investor-facing summary:
 
-## 4. Investor and Community Relevance
+> FUZE v2 keeps a fixed 500M FUZE supply and organizes tokenomics around purpose-specific vaults, controlled release logic, long-term alignment, and transparent allocation boundaries.
 
-The FUZE allocation table gives investors, community members, holders, product users, strategic partners, and public readers a clear view of how FUZE organizes ecosystem supply.
+## What This Means for Community / Holders
 
-For investors, the table explains:
+For community members and holders, this allocation table provides clarity about where tokens are intended to belong and why.
 
-- fixed total supply
-- purpose-specific allocation categories
-- long-term treasury and reserve structure
-- controlled circulation direction
-- team and advisor alignment controls
-- liquidity and market-structure separation
-- product-first utility posture
-- public reporting direction
+Community-facing meaning:
 
-For community members and holders, the table explains:
+- The community allocation remains a major part of the supply.
+- Legacy migration remains separate from public/community participation.
+- Team and advisor allocations are separate and should be vested or contribution-based.
+- Holder incentives are reserved for real participation and product usage, not random unrestricted giveaways.
+- Liquidity operations are reserved for market-structure support, not hidden dumping.
+- The Foundation Vault and Transparency/Stability Reserve are trust-oriented allocations with special rules.
 
-- how community participation fits into the wider ecosystem
-- how legacy-holder migration receives a dedicated allocation
-- how holder incentives differ from short-term giveaway behavior
-- how FUZE separates token participation from product credits
-- how transparency and stability reserves support long-term trust
-- how FUZE avoids presenting every allocation as liquid sale inventory
+Community-facing summary:
 
-For product users, the allocation table clarifies that FUZE token is not the same as Platform Credits. Platform Credits are for product usage, subscriptions, internal spending, and operational consumption. FUZE token is for ecosystem participation and long-term alignment.
+> FUZE v2 tokenomics is designed to make allocation purpose clearer and token movement more transparent. Each major bucket has a specific role and should follow rules aligned with that role.
 
-For strategic partners, the allocation table clarifies that partnership-related tokens have a dedicated category and fit a milestone-based ecosystem expansion model rather than informal discretionary distribution.
+## What This Means for Product / Platform Execution
 
-FUZE is not relying on token speculation as the only exit path. FUZE is building real products, real users, revenue potential, shared platform rails, and strategic acquisition optionality.
+The allocation table supports FUZE v2’s product-first strategy.
 
-## 5. Public Boundary
+Product and platform implications:
 
-FUZE publicly presents the allocation amounts, percentage structure, purpose categories, economic role separation, and controlled-circulation direction.
+- HerHelp.com and ZAGA.io remain the first launch focus.
+- Treasury Reserve can support long-term platform execution under policy.
+- Community / Holder Incentives can support real product adoption, ZAGA participation, HerHelp usage, and community contribution.
+- Ecosystem Growth & Partnerships can support strategic integrations and distribution partnerships.
+- Liquidity & Market Operations can support responsible token market structure after product and listing readiness.
+- Platform Credits remain separate from FUZE token and should be used for product consumption, billing, and usage rails.
 
-FUZE keeps sensitive operational, compensation, investor, legal, wallet, and contract-level details subject to the correct review process before public release.
+The allocation table should not be used to imply that every bucket enters circulation quickly. FUZE v2 should combine the table with controlled-circulation rules, release policies, vault access rules, vesting, and legal/compliance review.
 
-The following areas remain subject to legal, accounting, compliance, jurisdiction, product, platform, smart contract, and transparency readiness review where applicable:
+## Smart Contract / Technical Implications
 
-- Community Participation Round structure
-- participation eligibility rules
-- jurisdiction restrictions
-- pricing rules
-- lockups and vesting rules
-- public vault access
-- migration snapshot and claim rules
-- unclaimed-token treatment
-- exact wallet registry publication timing
-- liquidity and listing partner details
-- Seed Round structure and terms
-- contributor compensation detail
-- stablecoin payout implementation
-- governance participation mechanics
+The tokenomics table should map directly into smart contract and vault architecture.
 
-FUZE is preparing a Private Strategic Seed Round for strategic investors, operator-angels, and early-stage partners. Full details, structure, and terms are shared privately with qualified interested parties. This is not a public token sale.
+Recommended technical implications:
 
-Any future Community Participation Round is subject to legal, compliance, jurisdiction, product, platform, and smart contract readiness review.
+1. Each major allocation should be assigned to a dedicated vault or contract environment.
+2. Each vault should expose public read functions for allocation amount, current balance, vault type, governance address, policy hash, and operational status where applicable.
+3. Each vault should emit explicit events for privileged actions and token movements.
+4. Sensitive actions should require multisig, timelock, policy hash updates, and public event visibility.
+5. The smart contract system should support controlled release models, including permanent lock, vesting, migration claim, earned incentives, market-aligned access windows, liquidity deployment, and exceptional reserve use.
+6. Public registry and wallet maps should reflect the allocation table, but official public registry truth should remain governed and not be inferred only from deployment scripts or private spreadsheets.
 
-Public Vault Access, if implemented, is subject to eligibility, jurisdiction, compliance, platform readiness, market-aligned pricing rules, lockups, and final policy approval.
+Technical principle:
 
-Platform Credits are for product usage and are not investment assets, payout assets, or FUZE tokens.
+> Allocation table truth defines numerical intent. Vault contracts enforce purpose-specific token custody and release behavior.
 
-Profit participation is a long-term design direction and is not immediate or guaranteed. Any future framework requires legal, accounting, treasury, technical, and transparency readiness.
+## Public Communication Guidance
 
-## 6. Risk Boundaries and Safeguards
+Recommended public wording:
 
-FUZE does not guarantee token price, liquidity, listing, profit, return, payout, or market performance.
+> FUZE has a fixed total supply of 500,000,000 FUZE. The supply is divided across ten purpose-specific allocations covering community participation, legacy migration, team and advisor alignment, foundation stewardship, treasury reserve, holder incentives, ecosystem growth, liquidity operations, and transparency/stability support.
+>
+> FUZE v2 does not treat tokenomics as short-term speculation. The allocation model is designed around transparency, clear purpose, controlled circulation, and long-term ecosystem alignment.
 
-FUZE applies the following safeguards around the allocation table:
+Use these terms:
 
-| Risk Area | FUZE Safeguard |
-|---|---|
-| Token-first perception | FUZE uses Community Participation Allocation / Community Participation Round language instead of relying on presale-first framing |
-| Allocation table misread as sale inventory | FUZE pairs allocation data with vault policy, vesting rules, controlled circulation, participation limits, and no-public-access categories |
-| Treasury Reserve appears too large | FUZE presents Treasury Reserve as a long-term strategic platform reserve, not a scheduled unlock or discretionary liquid bucket |
-| Team and advisor allocation concern | FUZE uses long-term vesting, stablecoin compensation separation, milestone logic, and clear public policy |
-| Holder incentive abuse | FUZE defines earned participation, product usage, anti-bot controls, campaign caps, and delayed claims |
-| Liquidity allocation confusion | FUZE states that Liquidity & Market Operations supports listing, LP, exchange, market-maker, and market-structure needs, not ordinary public sale inventory |
-| Token / credits / payout confusion | FUZE repeats the separation between FUZE token, Platform Credits, and stablecoin payout systems |
-| Legal overstatement | FUZE uses compliance-aware language and avoids claims around token price, liquidity, listing, payout, return, or market outcome |
+- Community Participation Round
+- purpose-specific vaults
+- controlled circulation
+- long-term ecosystem alignment
+- treasury policy
+- holder incentives
+- migration continuity
+- liquidity and market-structure support
+- transparency and stability reserve
 
-FUZE does not guarantee exchange listing, listing timing, liquidity, price performance, or market outcome.
+Avoid these terms:
 
-FUZE uses standards-inspired or standards-aligned processes. FUZE does not claim formal certification unless certification has been completed.
+- guaranteed return
+- guaranteed profit
+- passive income
+- dividend
+- TGE multiple
+- discount-to-TGE return framing
+- buy before listing
+- listing soon
+- ICO
+- public token sale
+- everyone can invest
 
-## 7. Reporting and Transparency Direction
+## Risk and Compliance Notes
 
-FUZE publishes and reports tokenomics through public-facing materials that make the allocation model understandable without exposing sensitive operational details before readiness.
+This allocation table does not create an investment offer, public token sale, guaranteed return, or liquidity promise.
 
-The allocation table is suitable for use across:
+Important risk and compliance notes:
 
-- public website tokenomics section
-- investor materials
-- public paper library
-- community FAQ
-- tokenomics paper
-- whitepaper-compatible documentation
-- vault dashboard
-- transparency dashboard
-- public contract and wallet registry
-- governance reporting
-- controlled circulation documentation
-- liquidity and listing policy documentation
-- migration policy documentation
-- Platform Credits education
-- stablecoin payout boundary education
+- The allocation table should not be marketed as a promise of token price performance.
+- Community Participation mechanics require separate legal, compliance, platform, and contract review.
+- Seed Round terms should remain private and shared only with qualified interested parties.
+- Any token-related investor exposure must be legally reviewed.
+- Profit participation is not defined by this allocation table and must remain subject to legal, accounting, treasury, technical, and transparency controls.
+- Listing readiness is not guaranteed by the liquidity allocation.
+- Market operations tokens should not be described as price support or market-price guarantee.
+- Jurisdiction and eligibility controls may apply to future participation windows.
 
-FUZE transparency direction includes:
+Safe disclaimer-style wording:
 
-| Reporting Area | Public Transparency Direction |
-|---|---|
-| Total supply | Publish fixed 500,000,000 FUZE supply |
-| Allocation categories | Publish ten purpose-specific categories |
-| Allocation percentages | Publish category percentages and totals |
-| Vault mapping | Publish structural homes where readiness allows |
-| Release policy | Publish category-level control logic and circulation boundaries |
-| Migration | Publish eligibility and claim rules when ready |
-| Liquidity operations | Publish policy-level purpose and boundaries |
-| Platform Credits | Publish clear separation from FUZE token |
-| Stablecoin payouts | Publish long-term boundary language and readiness requirements |
-| Governance | Publish governance direction and reporting framework as systems mature |
+> This allocation table is provided for transparency and planning purposes. It does not constitute a public token sale, investment offer, listing promise, guaranteed return, or financial advice. Final participation, vesting, access, and utility rules remain subject to legal, compliance, technical, and platform-readiness review.
 
-FUZE maintains tokenomics communication as an education and trust layer. The public allocation table gives readers a clear numerical foundation while the reporting layer explains how allocation control, release logic, vault policy, and economic separation work in practice.
+## Open Questions / Items To Confirm
 
-## 8. Conclusion
+The allocation table is recommended to remain unchanged, but these items still need confirmation in later topic files:
 
-FUZE uses a fixed **500,000,000 FUZE** supply and a ten-category allocation model to support long-term ecosystem alignment, controlled circulation, product-first utility, and transparent platform growth.
+1. Should “Community Presale” be fully renamed to “Community Participation Round” in all future documents?
+2. How should the 110M community allocation be split between participation purchase, product-user participation, contributors, and reserve?
+3. What happens to the existing deployed Community Participation / Presale contract?
+4. Are there existing participants whose allocations must be honored, refunded, or migrated?
+5. Should “BOARD Migration” be publicly renamed “BOARD / Surfboard Migration” or standardized as one term?
+6. What exact vesting rules apply to team and advisors?
+7. What exact release rules apply to treasury, incentives, partnerships, liquidity, and transparency/stability reserves?
+8. Which vaults can use Public Vault Access windows?
+9. Which vaults must remain display-only with no buy button?
+10. What public registry and wallet map will be used after contract redesign?
 
-The allocation table is not only a numerical supply map. It is the foundation for vault policy, release control, migration continuity, team alignment, treasury reserve management, holder incentives, ecosystem partnerships, liquidity operations, strategic contributor alignment, and transparency support.
+## Official Summary
 
-FUZE separates FUZE token, Platform Credits, and stablecoin payout systems. FUZE token is for ecosystem participation. Platform Credits are for product usage. Profit participation is a long-term design direction, not an immediate or guaranteed promise.
+FUZE v2 will keep the fixed total supply of **500,000,000 FUZE** and the ten-bucket allocation model.
 
-FUZE tokenomics is built for a transparency-first AI SaaS platform where product execution, shared platform rails, and responsible ecosystem participation work together under clear public boundaries.
+The final allocation table is:
+
+- **110,000,000 FUZE** — Community Participation / Community Presale
+- **25,000,000 FUZE** — BOARD / Surfboard Migration
+- **45,000,000 FUZE** — Team Allocation
+- **35,000,000 FUZE** — Foundation Vault
+- **120,000,000 FUZE** — Platform Treasury Reserve
+- **55,000,000 FUZE** — Community / Holder Incentives
+- **40,000,000 FUZE** — Ecosystem Growth & Partnerships
+- **30,000,000 FUZE** — Liquidity & Market Operations
+- **15,000,000 FUZE** — Advisors / Strategic Contributors
+- **25,000,000 FUZE** — Transparency / Stability Reserve
+
+The allocation model should be communicated as **purpose-specific, vault-based, transparency-first, and controlled-circulation oriented**.
+
+The strongest summary line is:
+

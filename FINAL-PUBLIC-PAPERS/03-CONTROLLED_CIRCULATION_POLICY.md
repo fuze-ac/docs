@@ -1,455 +1,482 @@
-# FILE NAME: 03-CONTROLLED_CIRCULATION_POLICY-PUBLIC.md
+# 03. CONTROLLED CIRCULATION POLICY
 
-# Controlled Circulation Policy
+## Purpose
 
-## Executive Summary
+This document defines the FUZE Controlled Circulation Policy: the rule set that prevents unnecessary automatic token unlocks and separates stablecoin compensation from FUZE token circulation.
 
-FUZE uses a **Controlled Circulation Policy** to govern how FUZE token allocations move from vaults, reserves, vesting schedules, incentive programs, and operational allocations into active circulation.
+The purpose is to make FUZE tokenomics more stable, more transparent, and more aligned with FUZE v2’s product-first direction.
 
-The policy protects FUZE from treating every allocation as automatic liquid supply. FUZE separates the need for cash compensation from the purpose of token alignment. Stablecoins pay for work. FUZE tokens align long-term participation. Platform Credits power product usage.
+The core principle is:
 
-Controlled Circulation supports FUZE v2 as a transparency-first AI SaaS platform by connecting token release to real ecosystem purpose, product readiness, contribution, governance controls, liquidity operations, and public reporting. The policy reduces unnecessary supply pressure, strengthens public trust, and keeps token movement connected to long-term ecosystem development instead of short-term market speculation.
+> Do not release FUZE tokens when the real need is cash compensation. Use stablecoins for compensation and FUZE tokens for long-term alignment.
 
-FUZE does not present Controlled Circulation as price support, liquidity protection, listing assurance, or return protection. It is a governance, release, reporting, and vault-control policy for responsible token circulation.
+This policy is designed to reduce avoidable supply pressure, improve holder trust, support investor confidence, and make vault releases more disciplined.
 
-## 1. FUZE Position
+---
 
-FUZE applies Controlled Circulation as a core FUZE v2 tokenomics principle.
+## Current FUZE v2 Context
 
-FUZE tokens enter circulation when they support ecosystem utility, contribution, governance readiness, liquidity, product participation, or long-term alignment. FUZE avoids releasing tokens only because a person, team, contributor, advisor, or partner needs immediate cash compensation.
+FUZE v2 is a transparency-first AI SaaS platform moving from broad vision into disciplined product-first execution.
 
-FUZE core policy:
+The active execution order is:
 
-**FUZE does not release FUZE tokens when the real need is cash compensation. FUZE uses stablecoins or fiat-equivalent value for compensation and FUZE tokens for long-term alignment.**
+> Product usage first. Platform rails second. Broader ecosystem participation after that.
 
-Controlled Circulation applies across:
+FUZE tokenomics should support this execution order. The token should not be treated as short-term sell inventory, and vault allocations should not automatically become market pressure simply because a date has passed.
 
-- allocation vaults
-- unlock schedules
-- compensation design
-- public vault access
-- treasury actions
-- ecosystem partnerships
-- holder incentives
-- product-user incentives
-- liquidity operations
-- strategic contributor alignment
-- transparency and stability reserves
+FUZE’s current tokenomics structure is based on a fixed total supply of 500,000,000 FUZE across ten purpose-specific allocation buckets:
 
-FUZE uses the following release categories:
+| Allocation Bucket | Amount | % of Supply |
+|---|---:|---:|
+| Community Participation / Community Presale | 110,000,000 FUZE | 22.00% |
+| BOARD / Surfboard Migration | 25,000,000 FUZE | 5.00% |
+| Team Allocation | 45,000,000 FUZE | 9.00% |
+| Foundation Vault | 35,000,000 FUZE | 7.00% |
+| Platform Treasury Reserve | 120,000,000 FUZE | 24.00% |
+| Community / Holder Incentives | 55,000,000 FUZE | 11.00% |
+| Ecosystem Growth & Partnerships | 40,000,000 FUZE | 8.00% |
+| Liquidity & Market Operations | 30,000,000 FUZE | 6.00% |
+| Advisors / Strategic Contributors | 15,000,000 FUZE | 3.00% |
+| Transparency / Stability Reserve | 25,000,000 FUZE | 5.00% |
+| **Total Supply** | **500,000,000 FUZE** | **100.00%** |
 
-| Release Type | Meaning | Best Fit |
+The active vault principle is:
+
+> One allocation bucket = one dedicated contract = one clear purpose = one visible rule set.
+
+The Controlled Circulation Policy adds one more layer:
+
+> One vault release should have one clear reason, one approved release model, one public policy boundary, and one visible evidence trail.
+
+---
+
+## Key Decision / Recommended Direction
+
+FUZE should adopt a Controlled Circulation Policy across all token allocation vaults.
+
+The policy should replace the old assumption that tokens automatically unlock and transfer into recipient wallets.
+
+Instead, every allocation should use the release model that fits its purpose:
+
+1. **Permanent lock** for allocations that should never circulate.
+2. **Long-term vesting** for team, advisors, and strategic contributors.
+3. **Stablecoin compensation** when the actual need is salary, contractor payment, advisory payment, or operating cash.
+4. **Market-aligned public vault access** for selected vaults or sub-allocations where transparent community or strategic purchase is appropriate.
+5. **Milestone-based release** for partners and contributors who deliver measurable value.
+6. **Earned campaign release** for product users, holders, community contributors, and ecosystem participants.
+7. **Controlled liquidity deployment** for listing, LP, exchange, and market-structure support.
+8. **Exceptional reserve use** for transparency, stability, or trust-preserving cases.
+
+The strongest recommended rule is:
+
+> FUZE tokens should enter circulation because they support ecosystem utility, contribution, governance, liquidity, product usage, or long-term alignment — not because someone needs to sell tokens to pay expenses.
+
+---
+
+## Detailed Policy / Framework
+
+## 1. Policy Principle
+
+FUZE will separate three different economic needs:
+
+| Need | Best Instrument | Reason |
 |---|---|---|
-| Permanent Lock | Tokens never sell, transfer, or unlock | Foundation Vault |
-| Long-Term Vesting | Tokens vest slowly for alignment | Team, advisors, strategic contributors |
-| Stablecoin Compensation | Work is paid in USDT, USDC, or fiat-equivalent value | Team, advisors, contributors, selected partners |
-| Market-Aligned Purchase | Eligible participants buy tokens from selected vaults under transparent pricing rules | Treasury, community participation, selected ecosystem windows |
-| Milestone-Based Release | Tokens release after verifiable contribution or partnership milestone | Ecosystem partnerships, contributors, advisors |
-| Earned Campaign Release | Tokens are earned through product usage or contribution | Holder incentives, product-user rewards |
-| Controlled Operational Deployment | Tokens are deployed for market-structure needs | Liquidity operations |
-| Exceptional Reserve Use | Tokens move for trust or stability needs under strict governance | Transparency / Stability Reserve |
+| Work compensation | Stablecoins / fiat-equivalent payment | People need predictable cash value for work. |
+| Long-term alignment | Vested FUZE allocation | Tokens should align contributors with ecosystem growth. |
+| Community participation | Market-aligned or participation-based access | Community access should be transparent and rule-based. |
 
-## 2. Platform Context
+This prevents FUZE from using unlocked tokens as a shortcut for operational expenses.
 
-FUZE is a transparency-first AI SaaS platform building practical products on top of shared infrastructure for identity, credits, payments, AI orchestration, reporting, and ecosystem participation.
+## 2. Stablecoin Compensation Rule
 
-FUZE execution order is:
+When team members, advisors, contributors, or service providers need payment for work, FUZE should prefer:
 
-**Product usage first. Platform rails second. Broader ecosystem participation after that.**
+- USDT
+- USDC
+- fiat-equivalent payment
+- product revenue proceeds
+- approved Seed Round operating funds
+- approved treasury policy proceeds
+- approved public vault access proceeds
 
-Controlled Circulation fits this execution order by ensuring token movement follows platform maturity, product usage, governance controls, public reporting, and clear economic purpose.
+This is separate from token grants.
 
-FUZE v2 launch focus is **HerHelp.com** and **ZAGA.io**, supported by FUZE Core Platform rails and accelerated internally by **Botmad**.
+Official rule:
 
-The Controlled Circulation Policy connects to FUZE platform layers in the following way:
+> Stablecoins pay for work. FUZE tokens align long-term participation.
 
-| Platform Area | Controlled Circulation Relationship |
-|---|---|
-| FUZE Core Platform | Provides identity, eligibility, reporting, audit, governance, and control rails |
-| HerHelp.com | Creates product usage signals for product-linked participation and incentives |
-| ZAGA.io | Creates ecosystem participation surfaces for users, players, and token utility |
-| Platform Credits | Product usage layer separate from FUZE token circulation |
-| Ethereum FUZE token | Ecosystem participation layer and long-term alignment asset |
-| Base operational rails | Platform Credits and future payout execution layer, separate from Ethereum FUZE ownership |
-| Public Vault Access System | Enables visible, eligibility-controlled, market-aligned access windows where policy allows |
-| Transparency dashboard | Reports vault status, allocation status, unlock rules, and controlled release records |
-| Governance direction | Supports policy-controlled allocation movement, multisig, timelock, and public reporting |
-| Compliance posture | Keeps release, pricing, jurisdiction, eligibility, and payout boundaries clear |
+## 3. Token Alignment Rule
 
-FUZE token, Platform Credits, and stablecoin payout systems are separate systems with separate roles.
+Token allocations should be used for:
 
-| Layer | Canonical Asset / System | Primary Role | Chain |
-|---|---|---|---|
-| Ecosystem participation layer | FUZE token | Holder alignment, ecosystem participation, eligibility source, future governance readiness | Ethereum mainnet |
-| Internal consumption layer | FUZE Platform Credits | Product spending, subscriptions, usage billing, internal purchasing power | Base |
-| Profit participation layer | Stablecoin payout cycles | Future policy-defined holder profit participation, subject to legal, accounting, treasury, technical, and transparency readiness | Base |
+- long-term builder alignment
+- contribution recognition
+- product participation
+- ecosystem incentives
+- governance readiness
+- holder participation
+- strategic ecosystem growth
+- future platform utility
 
-## 3. Public Model
+Token allocations should not be treated as immediate payroll, emergency cash, or hidden sell inventory.
 
-### 3.1 Core Policy Statement
+## 4. Vault Release Type Classification
 
-FUZE v2 avoids unnecessary automatic token unlocks. Where contributors, team members, advisors, or partners need compensation, FUZE uses stablecoins, fiat-equivalent payments, milestone payments, or product revenue rather than relying on large liquid FUZE token releases.
-
-FUZE token allocations are used for long-term ecosystem alignment, product utility, contribution, governance readiness, liquidity support, and approved ecosystem development.
-
-This approach reduces unnecessary supply pressure, improves holder trust, and keeps token circulation connected to real product growth, contribution, and approved ecosystem use.
-
-### 3.2 Compensation vs Alignment
-
-FUZE separates compensation, alignment, product usage, and future participation.
-
-| Need | Best Payment / Asset | Purpose |
+| Release Type | Meaning | Suitable Buckets |
 |---|---|---|
-| Work compensation | USDT, USDC, fiat-equivalent payment, product revenue | Pay people for real work, operations, services, development, advisory, or delivery |
-| Long-term alignment | Vested FUZE token allocation | Align builders, advisors, contributors, users, and partners with long-term ecosystem value |
-| Product usage | Platform Credits | Pay for AI usage, SaaS features, tools, games, workflows, and internal platform consumption |
-| Future participation | Stablecoin payout system, subject to legal, accounting, treasury, technical, and transparency readiness | Long-term profit participation framework where legally permitted and operationally ready |
+| Permanent Lock | Tokens never transfer or sell | Foundation Vault |
+| Long-Term Vesting | Tokens vest slowly over time | Team, advisors, strategic contributors |
+| Stablecoin Compensation Conversion | Tokens stay in vault while proceeds from approved access windows pay contributors | Limited team/advisor/contributor windows |
+| Market-Aligned Public Vault Access | Eligible participants buy from selected vaults at market-aligned prices | Treasury, Community Participation, selected Ecosystem Partnership |
+| Milestone-Based Release | Tokens release after verified milestone delivery | Ecosystem Partnership, advisors, contributors |
+| Earned Campaign Release | Tokens are earned through real usage or contribution | Holder Incentives, product user rewards |
+| Controlled Liquidity Deployment | Tokens deploy to LP/listing/market-structure use | Liquidity Operations |
+| Exceptional Reserve Use | Rare trust/stability use only | Transparency / Stability Reserve |
 
-Official principle:
+## 5. Public Vault Access Boundary
 
-**Stablecoins pay for work. FUZE tokens align long-term participation. Platform Credits power product usage.**
+Public vault access should not apply to all vaults.
 
-### 3.3 Token Release Types
+### Can use public vault access under policy
 
-#### Type 1 — Permanent Lock
+- Treasury Reserve — selected market-aligned windows
+- Community Participation Round portion — main participation access
+- Ecosystem Partnership — selected / allowlisted strategic windows
+- Limited Team / Advisor compensation conversion windows — strict policy only
 
-Permanent Lock applies when tokens do not enter circulation.
+### Should not use public buy access
 
-Best fit:
+- Foundation Vault — permanent lock
+- BOARD / Surfboard Migration — claim-based migration only
+- Profit Participation system — stablecoin payout system, not token sale
+- Product user reward portions — earned, not bought
+- Airdrop / reward portions — earned, not bought
 
-- Foundation Vault
+### Usually should not use public buy access
 
-Rule:
+- Liquidity Operations Vault — listing, LP, exchange, and market-structure use
+- Transparency / Stability Reserve — special-purpose trust and stability reserve, rare exceptional use only
 
-**Foundation principal remains permanently locked and is not sold, transferred, used for liquidity, used as collateral, or used as operational inventory.**
+## 6. Compensation Conversion Windows
 
-#### Type 2 — Long-Term Vesting
+A compensation conversion window is a controlled mechanism where tokens remain in a vault instead of being released directly to a team/advisor/contributor wallet.
 
-Long-Term Vesting applies to long-term builder, advisor, and contributor alignment.
+The vault may open a transparent access window where eligible participants buy FUZE at market-aligned prices using supported stablecoins. Stablecoin proceeds then go to an approved compensation or operations destination.
 
-Best fit:
+This can reduce the need for team members, advisors, or contributors to sell unlocked tokens on the market.
 
-- Team Allocation
-- Advisors / Strategic Contributors
-- selected contributor grants
+Required controls:
 
-Public examples:
+- vault-specific policy
+- approved proceeds destination
+- sale window cap
+- wallet eligibility rules
+- market-aligned pricing
+- minimum price floor
+- lockup or vesting for large purchases
+- public events
+- multisig approval
+- timelock where appropriate
+- public UI display
+- risk disclosure
 
-| Allocation | Vesting Model |
-|---|---|
-| Team | 12-month cliff + 36-month linear vesting |
-| Advisor | 6-month cliff + 24-month vesting |
-| Strategic Advisor | 12-month cliff + 36-month vesting |
-| Seed token-related exposure, where included | 0% at TGE, 6-month cliff, 24-month vesting |
+## 7. Market-Aligned Pricing
 
-Vesting is designed for alignment rather than short-term liquidity.
+Market-aligned vault access should use the active FUZE price mechanism:
 
-#### Type 3 — Stablecoin Compensation
+### Early stage
 
-Stablecoin Compensation applies when the real need is compensation.
+> Final Price = max(signedApprovedPrice, approvedMinimumPrice)
 
-Best fit:
+### Mature stage
 
-- team salaries
-- contractors
-- advisors
-- contributors
-- selected partners
-- product development work
-- legal, accounting, and security services
+> Final Price = max(24h TWAP × premiumMultiplier, signedReferencePrice, approvedMinimumPrice)
 
-Stablecoin or fiat-equivalent compensation reduces pressure to release liquid FUZE tokens for operating needs.
+No single admin should be able to manually set price without policy, evidence, and governance controls.
 
-Possible stablecoin sources include:
+## 8. No Price Guarantee
 
-- Private Strategic Seed Round capital
-- product revenue
-- treasury policy sale, where approved
-- Public Vault Access proceeds, where applicable
-- strategic partner payments
-- service revenue where applicable
+The Controlled Circulation Policy is designed to reduce unnecessary supply pressure and improve transparency. It does not guarantee price stability, liquidity, token performance, listing, profit, or return.
 
-#### Type 4 — Market-Aligned Purchase
+Approved language:
 
-Market-Aligned Purchase applies when eligible participants access selected vault tokens under transparent rules.
+> This policy is designed to reduce avoidable supply pressure and improve long-term alignment. It does not guarantee market price, liquidity, or token performance.
 
-Best fit:
+---
 
-- Treasury Reserve selected windows
-- Community Participation Round
-- selected Ecosystem Partnership windows
-- limited Team / Advisor compensation conversion windows
-- selected Community Reserve windows
+## What This Means for Investors
 
-Tokens enter circulation through approved access windows where eligible participants purchase FUZE at market-aligned prices under clear smart contract rules, lockups, purchase caps, and compliance controls.
+For investors, the Controlled Circulation Policy shows that FUZE is not treating tokenomics as simple unlock-and-sell mechanics.
 
-This model connects to the Public Vault Access System.
+It shows that FUZE aims to manage supply entry through:
 
-#### Type 5 — Milestone-Based Release
+- purpose-specific vaults
+- long-term vesting
+- stablecoin compensation
+- controlled treasury policy
+- market-aligned access windows
+- milestone-based partner releases
+- earned community incentives
+- transparent reporting
 
-Milestone-Based Release applies when tokens are earned by delivery.
+This strengthens investor confidence because it reduces the risk that major allocations become sudden sell pressure.
 
-Best fit:
+Investors should understand that this is a risk-control and alignment framework, not a promise of token price performance.
 
-- ecosystem partners
-- strategic contributors
-- advisors
-- ambassadors
-- integrations
-- distribution partners
-- development contributors
+Investor-facing summary:
 
-Tokens release after measurable milestones, contribution, or approved partnership value.
+> FUZE’s Controlled Circulation Policy is designed to reduce unnecessary token unlock pressure by separating stablecoin compensation from FUZE token alignment. Contributors can be paid in stablecoins where appropriate, while FUZE tokens remain governed by vesting, vault policy, market-aligned access, milestone release, or earned participation rules.
 
-#### Type 6 — Earned Campaign Release
+---
 
-Earned Campaign Release applies to product-user and community incentive programs.
+## What This Means for Community / Holders
 
-Best fit:
+For community members and holders, this policy means FUZE will avoid treating all vault allocations as automatic circulating supply.
 
-- Holder Incentives
-- ZAGA players
-- HerHelp users
-- product pilots
-- referral programs
-- loyalty programs
-- community quests
-- contributor campaigns
+The community should be able to see:
 
-Incentives are earned through real usage, contribution, participation, or eligibility, not distributed as unrestricted bot-farmable giveaways.
+- which vaults are locked
+- which vaults are vesting
+- which vaults can open access windows
+- which vaults are reserved for rewards or migration claims
+- which vaults are reserved for liquidity or stability
+- which actions are approved, executed, or under review
 
-#### Type 7 — Controlled Operational Deployment
+The policy supports holder trust because:
 
-Controlled Operational Deployment applies to liquidity and market operations.
+- team and advisor allocations are not immediate liquid sell inventory
+- treasury releases require policy and visibility
+- airdrops and product rewards are earned, not sold
+- liquidity allocations are reserved for market structure
+- Foundation principal remains permanently locked
+- public vault access is transparent and eligibility-controlled
 
-Best fit:
+Community-facing summary:
 
-- Liquidity Operations Vault
+> FUZE will not treat all token unlocks as automatic circulation. Tokens should move only when there is a clear purpose, visible rule set, and approved release model.
 
-Liquidity tokens are deployed only to approved liquidity, LP, exchange, market-maker, or market-structure destinations under policy controls.
+---
 
-Liquidity tokens are not ordinary public sale inventory.
+## What This Means for Product / Platform Execution
 
-#### Type 8 — Exceptional Reserve Use
+The Controlled Circulation Policy supports FUZE’s product-first execution.
 
-Exceptional Reserve Use applies to trust and stability actions.
+It allows FUZE to:
 
-Best fit:
+- fund work with stablecoins or product revenue instead of forced token selling
+- reward real product usage through earned incentive campaigns
+- support HerHelp and ZAGA growth without creating unnecessary token pressure
+- keep platform credits separate from FUZE token circulation
+- connect future utility to actual product adoption
+- preserve treasury reserves for long-term platform growth
 
-- Transparency / Stability Reserve
+This policy also supports the FUZE platform narrative:
 
-Transparency / Stability Reserve tokens remain locked unless a trust-preserving, stability-related, or exceptional governance-approved policy action is triggered.
+> Real products create usage. Usage supports platform rails. Platform rails support long-term ecosystem participation.
 
-### 3.4 Vault Classification Under Controlled Circulation
+---
 
-| Vault / Allocation | Controlled Circulation Model | Public Buy Access | Primary Rule |
-|---|---|---:|---|
-| Community Participation Allocation | Participation + product-user + contributor + reserve split | Yes, for selected participation windows | Eligibility-controlled, product-aligned, vested |
-| BOARD / Surfboard Migration | Claim-based migration | No | Reserved for eligible legacy-holder claims |
-| Team Allocation | Stablecoin compensation + long-term vesting | Limited / policy-controlled | Avoids forced team token selling for cash needs |
-| Foundation Reserve | Permanent lock | No | Principal never enters circulation |
-| Treasury Reserve | Policy-based reserve + market-aligned access | Yes, selected windows | No scheduled unlock; approved policy use only |
-| Holder Incentives | Earned campaigns + delayed claims | Usually no | Earned by real usage and contribution |
-| Ecosystem Growth & Partnerships | Milestone-based + market-aligned strategic participation | Sometimes | No unrestricted partner grants |
-| Liquidity & Market Operations | Controlled liquidity deployment | Usually no | Listing, liquidity, and market-structure support only |
-| Advisors / Strategic Contributors | Stablecoin or milestone compensation + vesting | Limited / optional | Contribution-based alignment |
-| Transparency / Stability Reserve | Exceptional reserve use | Rare | Trust and stability reserve, not sale inventory |
+## Smart Contract / Technical Implications
 
-### 3.5 Stablecoin Compensation Flow
+The Controlled Circulation Policy has direct smart contract implications.
 
-FUZE compensation flow:
+## 1. Purpose-Specific Vault Contracts
 
-1. FUZE raises or earns stablecoin or fiat-equivalent capital.
-2. FUZE pays team, advisors, contributors, contractors, and service providers in stablecoins or fiat-equivalent value for actual work.
-3. FUZE token allocations remain vested, locked, or policy-controlled.
-4. Contributors receive long-term token alignment instead of immediate liquid sell pressure.
-5. Eligible parties access additional token exposure through market-aligned purchase windows under policy where applicable.
+Each allocation should remain in a purpose-specific vault or contract environment.
 
-| Old Model | FUZE Controlled Circulation Model |
-|---|---|
-| Team receives liquid FUZE and sells for salary | Team receives USDT/USDC salary; FUZE vests long-term |
-| Advisor receives unlocked FUZE and sells | Advisor receives milestone stablecoin payment; FUZE vests or unlocks by contribution |
-| Partner receives discounted liquid tokens | Partner receives milestone-based allocation or buys under lockup |
-| Treasury unlocks and sells manually | Treasury uses approved policy, market-aligned access, caps, timelock, and reporting |
-| Airdrop tokens distributed broadly | Incentives are earned by real usage and anti-abuse checks |
+Examples:
 
-### 3.6 Public Vault Access Relationship
+- `FuzeTeamVestingVault`
+- `FuzeAdvisorVestingVault`
+- `FuzeFoundationVault`
+- `FuzeTreasuryReserveVault`
+- `FuzeHolderIncentivesVault`
+- `FuzeEcosystemPartnershipVault`
+- `FuzeLiquidityOperationsVault`
+- `FuzeTransparencyStabilityVault`
+- `FuzeBoardMigrationVault`
+- `FuzeCommunityParticipationRound`
 
-Controlled Circulation supports the Public Vault Access System.
+## 2. Public Vault Access Module
 
-When selected vault tokens become available under policy, FUZE can open a visible access window on the FUZE website.
+Selected vaults may connect to a shared public access module.
 
-Each access window presents:
+Possible contract name:
 
-- source vault
-- purpose
-- token amount
-- pricing method
-- payment token
+> `FuzePublicVaultAccessModule`
+
+This module should manage:
+
+- access windows
+- token amount available
+- buyer eligibility
+- payment collection
+- price policy
 - purchase caps
-- eligibility rules
-- lockup and vesting terms
-- proceeds destination
-- policy hash
-- contract address
-- sale window status
-- transaction history
-- risk notice
+- lockup rules
+- proceeds routing
+- event reporting
 
-Not every vault has public buy access.
+## 3. Market Price Policy Module
 
-Public access is:
+Possible contract name:
 
-**publicly visible, eligibility-controlled, market-aligned, lockup-aware, and compliance-gated.**
+> `FuzeMarketPricePolicyOracle`
 
-### 3.7 Market-Aligned Pricing
+This module should support:
 
-Controlled Circulation does not use arbitrary admin pricing.
+- signed price attestations
+- TWAP when reliable liquidity exists
+- approved minimum price floor
+- premium or discount controls
+- stale price rejection
+- max deviation checks
+- policy hash references
 
-Market-aligned vault purchases use approved price policies such as signed approved prices, time-weighted average price references, minimum price floors, premium multipliers, purchase caps, lockups, and multisig or timelock governance.
+## 4. Purchased Token Lockup
 
-Early stage pricing principle:
+Large or discounted purchases should not necessarily transfer directly to liquid wallets.
 
-**Final Price = max(signedApprovedPrice, approvedMinimumPrice)**
+Possible contract name:
 
-Mature stage pricing principle:
+> `FuzePurchasedTokenLockupVault`
 
-**Final Price = max(24h TWAP × premiumMultiplier, signedReferencePrice, approvedMinimumPrice)**
+This should support:
 
-The Market Price Mechanism paper defines this model in more detail.
+- lockup schedules
+- vesting schedules
+- claim logic
+- buyer-level records
+- purchase window references
 
-### 3.8 What Controlled Circulation Is Not
+## 5. Events
 
-Controlled Circulation is not:
+Every controlled circulation action should emit public events.
 
-- a guarantee that token price will not fall
-- a guaranteed price support system
-- a promise of liquidity
-- a promise of listing
-- a promise of returns
-- a way to hide insider sales
-- a way to bypass securities or public sale rules
-- a replacement for legal review
-- a replacement for product revenue
-- a replacement for treasury discipline
+Example events:
 
-Controlled Circulation is a governance, release, reporting, and vault-control policy.
+```solidity
+event VaultAccessWindowOpened(
+    bytes32 indexed windowId,
+    address indexed sourceVault,
+    uint256 fuzeAmount,
+    bytes32 policyHash
+);
 
-## 4. Investor and Community Relevance
+event MarketAlignedPurchaseExecuted(
+    bytes32 indexed windowId,
+    address indexed buyer,
+    uint256 fuzeAmount,
+    address paymentToken,
+    uint256 paymentAmount,
+    uint256 priceUsed
+);
 
-Controlled Circulation gives investors, holders, product users, contributors, and strategic partners a clearer understanding of how FUZE manages token supply discipline.
+event StablecoinProceedsRouted(
+    bytes32 indexed windowId,
+    address indexed destination,
+    address paymentToken,
+    uint256 amount
+);
+```
 
-For investors, the policy shows that FUZE connects token movement to platform strategy, product readiness, public reporting, and governance controls. The policy reduces the perception that every unlock becomes immediate sell pressure.
+## 6. Required Technical Controls
 
-For community members, Controlled Circulation explains why some allocations are locked, some vest, some are earned, some support liquidity operations, and some are only available through eligibility-controlled access windows.
+- multisig ownership for sensitive actions
+- timelock for policy changes
+- no single-admin price control
+- public getters for vault status
+- policy hash or metadata URI
+- per-window caps
+- per-wallet caps
+- eligibility controls
+- emergency pause
+- proceeds destination whitelist
+- transparent event history
 
-For contributors and team members, the policy separates payment for work from long-term alignment. This gives FUZE a cleaner compensation model and reduces the need for liquid token releases as operating payment.
+---
 
-For product users, the policy clarifies that Platform Credits remain the product usage asset, while FUZE token remains the ecosystem participation asset.
+## Public Communication Guidance
 
-For strategic partners, the policy creates a clearer structure for milestone-based participation, market-aligned access, lockups, and contribution-based alignment.
+Recommended public wording:
 
-FUZE is not relying on token speculation as the only exit path. FUZE is building real products, real users, revenue potential, shared platform rails, and strategic acquisition optionality.
+> FUZE v2 will use a Controlled Circulation Policy to avoid unnecessary automatic token unlocks. Some allocations will remain permanently locked, some will vest over time, some will be earned through real product or community participation, and selected vaults may open transparent market-aligned access windows under approved rules.
+>
+> FUZE will separate operational compensation from token circulation. Where team members, advisors, contributors, or partners need compensation for work, FUZE may use stablecoins, fiat-equivalent payments, milestone payments, or product revenue rather than relying on large unlocked FUZE releases.
+>
+> FUZE token allocations should support long-term ecosystem alignment, product usage, contribution, governance readiness, and approved ecosystem activity. This policy does not guarantee token price, liquidity, listing, profit, or return.
 
-## 5. Public Boundary
+Avoid saying:
 
-FUZE publicly presents Controlled Circulation as a token release and vault-control policy.
+- this prevents dumping
+- this guarantees price stability
+- this protects token price
+- holders are guaranteed safe
+- team tokens will never sell under any condition unless the policy explicitly says so
+- everyone can buy
+- guaranteed return
+- guaranteed profit
+- listing soon
 
-FUZE publicly explains:
+Use safer wording:
 
-- the separation between compensation and token alignment
-- the use of stablecoins or fiat-equivalent payments for work
-- the use of FUZE tokens for long-term participation
-- the separation between FUZE token, Platform Credits, and stablecoin payouts
-- the controlled use of vaults
-- the difference between vesting, lockups, earned incentives, market-aligned purchases, and operational liquidity deployment
-- the connection between circulation control and transparency reporting
+- designed to reduce unnecessary supply pressure
+- market-aligned access
+- eligible participants
+- approved policy
+- long-term alignment
+- subject to legal and compliance review
+- no guaranteed outcome
 
-FUZE keeps sensitive or readiness-dependent details subject to the correct review process, including:
+---
 
-- exact wallet addresses before registry publication
-- compensation amounts
-- private investor terms
-- contributor agreements
-- legal and tax treatment
-- final public vault access rules
-- final pricing parameters
-- market-maker or exchange operational details
-- jurisdiction and eligibility rules
-- payout-related implementation details
+## Risk and Compliance Notes
 
-Platform Credits are for product usage and are not investment assets, payout assets, or FUZE tokens.
+The Controlled Circulation Policy must be implemented carefully.
 
-Profit participation is a long-term design direction and is not immediate or guaranteed. Any future framework requires legal, accounting, treasury, technical, and transparency readiness.
+Key risks:
 
-FUZE’s Seed Round discussions are private strategic fundraising conversations. Full details, structure, and terms are shared privately with qualified interested parties. This is not a public token sale.
+1. **Public sale risk** — public vault access windows may be interpreted as token sales depending on jurisdiction.
+2. **Compensation classification risk** — stablecoin payments to team/advisors/contributors may require legal, tax, payroll, contractor, or accounting treatment.
+3. **Securities risk** — token access, vesting, profit participation, and investor exposure must avoid public return-promise framing.
+4. **Market manipulation risk** — market-aligned pricing must not be controlled by a single admin or weak oracle.
+5. **Transparency risk** — if public vault access is not visible and rule-based, it may look like hidden token selling.
+6. **Treasury misuse risk** — treasury tokens must not become an unmanaged operating wallet.
+7. **Liquidity risk** — controlled circulation does not guarantee market depth or price stability.
 
-## 6. Risk Boundaries and Safeguards
+Required safety language:
 
-FUZE does not guarantee token price, liquidity, listing, profit, return, payout, or market performance.
+> FUZE does not guarantee token price, liquidity, listing, profit, return, or payout. All token-related exposure, participation, and release mechanisms are subject to legal, compliance, market, product, and platform-readiness review.
 
-FUZE applies the following safeguards under Controlled Circulation:
+---
 
-| Risk Area | FUZE Safeguard |
-|---|---|
-| Automatic unlock pressure | FUZE uses vault controls, vesting, lockups, and release categories |
-| Forced token selling for compensation | FUZE uses stablecoins or fiat-equivalent payments for work where applicable |
-| Team and advisor sell-pressure concern | FUZE uses long-term vesting and milestone-based alignment |
-| Partner allocation misuse | FUZE uses milestone-based release and lockup-aware structures |
-| Bot-farmed incentives | FUZE ties incentives to usage, contribution, eligibility, caps, and anti-abuse controls |
-| Treasury ambiguity | FUZE uses policy-based reserve management, public reporting, and market-aligned access windows where applicable |
-| Liquidity allocation confusion | FUZE keeps liquidity tokens for approved market-structure use, not ordinary public sale inventory |
-| Public vault access confusion | FUZE uses eligibility, jurisdiction, purchase caps, lockups, risk notices, and policy hashes |
-| Token / credits / payout confusion | FUZE separates FUZE token, Platform Credits, and stablecoin payout systems |
-| Legal overstatement | FUZE uses compliance-aware public language and avoids price, liquidity, listing, payout, or return claims |
+## Open Questions / Items To Confirm
 
-FUZE does not guarantee exchange listing, listing timing, liquidity, price performance, or market outcome.
+1. What percentage of Team Allocation should remain pure long-term vesting versus eligible for compensation conversion windows?
+2. What percentage of Advisor Allocation should be milestone-based stablecoin compensation versus vested token grants?
+3. Should Treasury Reserve be allowed to open public market-aligned access windows immediately, or only after product milestones?
+4. What is the approved stablecoin destination model for compensation proceeds?
+5. Should proceeds from public vault access go directly to compensation wallets or first to treasury-controlled settlement wallets?
+6. What minimum price floor policy should be used before there is deep liquidity?
+7. What lockup should apply to tokens purchased through public vault access windows?
+8. Which jurisdictions should be restricted or require eligibility review?
+9. Should public vault access require KYC or wallet allowlisting?
+10. What public dashboard fields are mandatory before any access window opens?
 
-Controlled Circulation does not remove market risk. It defines how FUZE manages release discipline, vault structure, compensation separation, public reporting, and responsible circulation controls.
+---
 
-## 7. Reporting and Transparency Direction
+## Official Summary
 
-FUZE reports Controlled Circulation through public materials and dashboards that explain how allocation movement is governed.
+FUZE v2 should adopt a Controlled Circulation Policy.
 
-Controlled Circulation can appear in:
+The policy separates stablecoin compensation from FUZE token circulation.
 
-- tokenomics paper
-- public website tokenomics section
-- vault dashboard
-- transparency dashboard
-- public contract and wallet registry
-- Public Vault Access interface
-- investor materials
-- community FAQ
-- governance reporting
-- liquidity and listing policy documentation
-- contributor and incentive program documentation
-- whitepaper-compatible public documentation
+The core rule is:
 
-FUZE transparency direction includes:
+> Do not release FUZE tokens when the real need is cash compensation. Use stablecoins for compensation and FUZE tokens for long-term alignment.
 
-| Reporting Area | Public Transparency Direction |
-|---|---|
-| Vault classification | Publish each allocation’s controlled circulation model |
-| Release type | Explain whether tokens are locked, vested, earned, purchased, deployed, or reserved |
-| Public access | Show access availability only where policy allows |
-| Eligibility | Present jurisdiction, wallet, compliance, and final-rule boundaries |
-| Pricing policy | Publish applicable pricing method where public vault access exists |
-| Lockup and vesting | Publish claim, cliff, vesting, and lockup rules where applicable |
-| Proceeds destination | Show where proceeds flow when vault access windows exist |
-| Policy hash | Publish policy references where supported |
-| Contract address | Publish verified contract references when registry-ready |
-| Transaction history | Show relevant public activity where contract design supports it |
-| Risk notice | Display boundaries around price, liquidity, listing, return, payout, and market outcome |
+Under this model, FUZE allocations do not automatically become circulating supply. Each vault uses the release model that fits its purpose: permanent lock, long-term vesting, stablecoin compensation, market-aligned public vault access, milestone release, earned campaign release, controlled liquidity deployment, or exceptional reserve use.
 
-FUZE uses public reporting to make circulation understandable. The reporting layer helps readers distinguish between locked supply, vested supply, earned incentives, reserve tokens, public access windows, and operational liquidity deployment.
+The strongest final message is:
 
-## 8. Conclusion
-
-FUZE uses Controlled Circulation to connect tokenomics with responsible platform execution.
-
-The policy prevents token allocations from being treated as automatic liquid supply. It separates compensation from token alignment, keeps Platform Credits separate from FUZE token, connects incentives to real product usage and contribution, and governs vault movement through clear release categories.
-
-Controlled Circulation supports FUZE as a transparency-first AI SaaS platform. It gives investors and the community a clearer view of how supply, vaults, compensation, incentives, liquidity operations, and long-term alignment work together under public boundaries.
-
-FUZE does not treat tokenomics as hype. FUZE treats tokenomics as long-term ecosystem infrastructure.
+> FUZE tokens should enter circulation because they support ecosystem utility, contribution, governance, liquidity, product usage, or long-term alignment — not because someone needs to sell tokens to pay expenses.
