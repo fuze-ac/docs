@@ -1,4 +1,3 @@
-# FILE NAME: 15-BOTMAD_PUBLIC.md
 # Botmad
 
 ## Executive Summary

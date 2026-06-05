@@ -1,4 +1,3 @@
-# FILE NAME: 09-BOARD_SURFBOARD_MIGRATION-PUBLIC.md
 # BOARD / Surfboard Migration
 
 ## Executive Summary

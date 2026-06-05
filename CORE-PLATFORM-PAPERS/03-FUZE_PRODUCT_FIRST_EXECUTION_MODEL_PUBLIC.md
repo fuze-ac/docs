@@ -1,5 +1,4 @@
-# FILE NAME: 03-FUZE_PRODUCT_FIRST_EXECUTION_MODEL_PUBLIC.md
-# FUZE Product-First Execution Model
+\# FUZE Product-First Execution Model
 
 ## Executive Summary
 

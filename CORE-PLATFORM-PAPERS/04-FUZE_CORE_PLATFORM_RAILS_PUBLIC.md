@@ -1,4 +1,3 @@
-# FILE NAME: 04-FUZE_CORE_PLATFORM_RAILS_PUBLIC.md
 # FUZE Core Platform Rails
 
 ## Executive Summary

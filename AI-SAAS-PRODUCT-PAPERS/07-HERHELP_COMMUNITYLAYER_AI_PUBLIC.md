@@ -1,4 +1,3 @@
-# FILE NAME: 07-HERHELP_COMMUNITYLAYER_AI_PUBLIC.md
 # HerHelp CommunityLayer AI
 
 ## Executive Summary

@@ -1,4 +1,3 @@
-# FILE NAME: 06-MARKET_PRICE_MECHANISM-PUBLIC.md
 # Market Price Mechanism
 
 ## Executive Summary

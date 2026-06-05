@@ -1,4 +1,3 @@
-# FILE NAME: 15-GOVERNANCE_MULTISIG_TIMELOCK_MODEL-PUBLIC.md
 # Governance / Multisig / Timelock Model
 
 ## Executive Summary

@@ -1,4 +1,3 @@
-# FILE NAME: 07-STABLECOIN_COMPENSATION_POLICY-PUBLIC.md
 # Stablecoin Compensation Policy
 
 ## Executive Summary

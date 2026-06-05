@@ -1,4 +1,3 @@
-# FILE NAME: 10-LIQUIDITY_AND_LISTING_POLICY-PUBLIC.md
 # Liquidity and Listing Policy
 
 ## Executive Summary

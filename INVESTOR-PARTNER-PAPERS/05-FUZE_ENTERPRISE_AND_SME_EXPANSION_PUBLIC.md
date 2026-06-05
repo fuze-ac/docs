@@ -1,4 +1,3 @@
-# FILE NAME: 05-FUZE_ENTERPRISE_AND_SME_EXPANSION_PUBLIC.md
 # FUZE Enterprise and SME Expansion
 
 ## Executive Summary

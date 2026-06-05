@@ -1,4 +1,3 @@
-# FILE NAME: 08-TEAM_ADVISOR_PARTNER_VESTING-PUBLIC.md
 # Team / Advisor / Partner Vesting
 
 ## Executive Summary

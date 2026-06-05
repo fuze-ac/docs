@@ -1,4 +1,3 @@
-# FILE NAME: 04-FUZE_STRATEGIC_PARTNER_MODEL_PUBLIC.md
 # FUZE Strategic Partner Model
 
 ## Executive Summary

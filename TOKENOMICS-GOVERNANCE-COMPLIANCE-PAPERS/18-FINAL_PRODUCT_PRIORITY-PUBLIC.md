@@ -1,4 +1,3 @@
-# FILE NAME: 18-FINAL_PRODUCT_PRIORITY-PUBLIC.md
 # Final Product Priority
 
 ## Executive Summary

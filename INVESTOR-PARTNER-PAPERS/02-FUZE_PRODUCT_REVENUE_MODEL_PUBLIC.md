@@ -1,4 +1,3 @@
-# FILE NAME: 02-FUZE_PRODUCT_REVENUE_MODEL_PUBLIC.md
 # FUZE Product Revenue Model
 
 ## Executive Summary

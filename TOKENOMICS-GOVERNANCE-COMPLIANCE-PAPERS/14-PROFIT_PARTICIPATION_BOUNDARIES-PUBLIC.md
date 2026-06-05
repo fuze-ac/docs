@@ -1,4 +1,3 @@
-# FILE NAME: 14-PROFIT_PARTICIPATION_BOUNDARIES-PUBLIC.md
 # Profit Participation Boundaries
 
 ## Executive Summary

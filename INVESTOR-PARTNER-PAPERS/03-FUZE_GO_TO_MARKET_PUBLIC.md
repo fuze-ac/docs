@@ -1,4 +1,3 @@
-# FILE NAME: 03-FUZE_GO_TO_MARKET_PUBLIC.md
 # FUZE Go-To-Market
 
 ## Executive Summary

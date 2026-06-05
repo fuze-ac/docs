@@ -1,4 +1,3 @@
-# FILE NAME: 09-ZAGA_ARENA_PUBLIC.md
 # ZAGA Arena
 
 ## Executive Summary

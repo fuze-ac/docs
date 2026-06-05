@@ -1,4 +1,3 @@
-# FILE NAME: 06-HERHELP_TRAINLAYER_AI_PUBLIC.md
 # HerHelp TrainLayer AI
 
 ## Executive Summary

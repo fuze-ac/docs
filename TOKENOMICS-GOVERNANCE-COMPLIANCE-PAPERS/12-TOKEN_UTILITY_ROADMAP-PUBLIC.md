@@ -1,4 +1,3 @@
-# FILE NAME: 12-TOKEN_UTILITY_ROADMAP-PUBLIC.md
 # Token Utility Roadmap
 
 ## Executive Summary

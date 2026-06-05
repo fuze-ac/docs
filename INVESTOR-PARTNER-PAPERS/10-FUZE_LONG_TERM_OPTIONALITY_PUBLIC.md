@@ -1,4 +1,3 @@
-# FILE NAME: 10-FUZE_LONG_TERM_OPTIONALITY_PUBLIC.md
 # FUZE Long-Term Optionality
 
 ## Executive Summary

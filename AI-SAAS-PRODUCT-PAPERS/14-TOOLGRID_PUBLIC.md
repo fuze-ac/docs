@@ -1,4 +1,3 @@
-# FILE NAME: 14-TOOLGRID_PUBLIC.md
 # ToolGrid
 
 ## Executive Summary

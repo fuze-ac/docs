@@ -1,4 +1,3 @@
-# FILE NAME: 20-PUBLIC_LANGUAGE_DICTIONARY-PUBLIC.md
 # Public Language Dictionary
 
 ## Executive Summary

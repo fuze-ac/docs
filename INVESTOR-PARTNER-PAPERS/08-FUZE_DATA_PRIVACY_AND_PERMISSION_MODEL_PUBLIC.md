@@ -1,4 +1,3 @@
-# FILE NAME: 08-FUZE_DATA_PRIVACY_AND_PERMISSION_MODEL_PUBLIC.md
 # FUZE Data Privacy and Permission Model
 
 ## Executive Summary

@@ -1,4 +1,3 @@
-# FILE NAME: 08-ZAGA_PUBLIC.md
 # ZAGA
 
 ## Executive Summary

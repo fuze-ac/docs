@@ -1,4 +1,3 @@
-# FILE NAME: 03-HERHELP_SHEETLAYER_AI_PUBLIC.md
 # HerHelp SheetLayer AI
 
 ## Executive Summary

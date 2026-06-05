@@ -1,4 +1,3 @@
-# FILE NAME: 11-QTB_PUBLIC.md
 # QTB
 
 ## Executive Summary

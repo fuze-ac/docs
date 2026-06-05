@@ -1,4 +1,3 @@
-# FILE NAME: 16-LEGAL_AND_COMPLIANCE_MESSAGING-PUBLIC.md
 # Legal and Compliance Messaging
 
 ## Executive Summary

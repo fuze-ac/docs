@@ -1,4 +1,3 @@
-# FILE NAME: 17-GROWTH_EXIT_M_AND_A-PUBLIC.md
 # Growth / Exit / M&A
 
 ## Executive Summary

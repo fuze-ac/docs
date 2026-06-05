@@ -1,4 +1,3 @@
-# FILE NAME: 06-FUZE_WEB3_COMMUNITY_EXPANSION_PUBLIC.md
 # FUZE Web3 Community Expansion
 
 ## Executive Summary

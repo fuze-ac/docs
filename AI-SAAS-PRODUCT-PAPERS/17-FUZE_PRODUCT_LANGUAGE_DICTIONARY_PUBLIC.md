@@ -1,4 +1,3 @@
-# FILE NAME: 17-FUZE_PRODUCT_LANGUAGE_DICTIONARY_PUBLIC.md
 # FUZE Product Language Dictionary
 
 ## Executive Summary

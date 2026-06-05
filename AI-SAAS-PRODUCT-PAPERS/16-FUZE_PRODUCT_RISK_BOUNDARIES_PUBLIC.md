@@ -1,4 +1,3 @@
-# FILE NAME: 16-FUZE_PRODUCT_RISK_BOUNDARIES_PUBLIC.md
 # FUZE Product Risk Boundaries
 
 ## Executive Summary

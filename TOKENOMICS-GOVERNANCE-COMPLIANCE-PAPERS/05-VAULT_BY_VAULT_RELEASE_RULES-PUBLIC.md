@@ -1,4 +1,3 @@
-# FILE NAME: 05-VAULT_BY_VAULT_RELEASE_RULES-PUBLIC.md
 # Vault-by-Vault Release Rules
 
 ## Executive Summary

@@ -1,4 +1,3 @@
-# FILE NAME: 10-ZAGA_DISTRICTS_PUBLIC.md
 # ZAGA Districts
 
 ## Executive Summary

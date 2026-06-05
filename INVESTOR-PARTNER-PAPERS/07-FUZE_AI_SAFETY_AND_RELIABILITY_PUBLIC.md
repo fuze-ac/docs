@@ -1,4 +1,3 @@
-# FILE NAME: 07-FUZE_AI_SAFETY_AND_RELIABILITY_PUBLIC.md
 # FUZE AI Safety and Reliability
 
 ## Executive Summary

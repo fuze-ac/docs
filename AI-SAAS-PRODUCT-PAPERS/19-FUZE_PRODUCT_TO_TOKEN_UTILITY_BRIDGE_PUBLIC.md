@@ -1,4 +1,3 @@
-# FILE NAME: 19-FUZE_PRODUCT_TO_TOKEN_UTILITY_BRIDGE_PUBLIC.md
 # FUZE Product to Token Utility Bridge
 
 ## Executive Summary

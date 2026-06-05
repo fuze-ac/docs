@@ -1,4 +1,3 @@
-# FILE NAME: 13-AIE_PUBLIC.md
 # AIE
 
 ## Executive Summary

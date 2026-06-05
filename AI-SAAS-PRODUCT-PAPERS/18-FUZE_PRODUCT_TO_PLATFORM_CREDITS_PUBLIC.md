@@ -1,4 +1,3 @@
-# FILE NAME: 18-FUZE_PRODUCT_TO_PLATFORM_CREDITS_PUBLIC.md
 # FUZE Product to Platform Credits
 
 ## Executive Summary

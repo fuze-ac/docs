@@ -1,4 +1,3 @@
-# FILE NAME: 20-FUZE_PRODUCT_LAUNCH_SEQUENCE_PUBLIC.md
 # FUZE Product Launch Sequence
 
 ## Executive Summary

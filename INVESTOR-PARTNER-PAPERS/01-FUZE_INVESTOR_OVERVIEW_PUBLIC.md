@@ -1,4 +1,3 @@
-# FILE NAME: 01-FUZE_INVESTOR_OVERVIEW_PUBLIC.md
 # FUZE Investor Overview
 
 ## Executive Summary

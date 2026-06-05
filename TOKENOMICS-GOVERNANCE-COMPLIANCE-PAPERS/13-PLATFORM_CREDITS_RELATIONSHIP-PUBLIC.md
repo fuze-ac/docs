@@ -1,4 +1,3 @@
-# FILE NAME: 13-PLATFORM_CREDITS_RELATIONSHIP-PUBLIC.md
 # Platform Credits Relationship
 
 ## Executive Summary

@@ -1,4 +1,3 @@
-# FILE NAME: 09-FUZE_PUBLIC_METRICS_AND_TRANSPARENCY_PUBLIC.md
 # FUZE Public Metrics and Transparency
 
 ## Executive Summary

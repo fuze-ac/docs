@@ -1,4 +1,3 @@
-# FILE NAME: 11-SEED_ROUND_STRUCTURE_AND_TOKEN_RELATED_EXPOSURE-PUBLIC.md
 # Seed Round Structure and Token-Related Exposure
 
 ## Executive Summary

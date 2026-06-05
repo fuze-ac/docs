@@ -1,4 +1,3 @@
-# FILE NAME: 03-CONTROLLED_CIRCULATION_POLICY-PUBLIC.md
 # Controlled Circulation Policy
 
 ## Executive Summary

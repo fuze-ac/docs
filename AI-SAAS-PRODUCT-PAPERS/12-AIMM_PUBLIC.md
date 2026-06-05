@@ -1,4 +1,3 @@
-# FILE NAME: 12-AIMM_PUBLIC.md
 # AIMM
 
 ## Executive Summary

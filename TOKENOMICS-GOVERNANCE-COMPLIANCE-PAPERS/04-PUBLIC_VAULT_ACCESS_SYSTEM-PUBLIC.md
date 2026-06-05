@@ -1,4 +1,3 @@
-# FILE NAME: 04-PUBLIC_VAULT_ACCESS_SYSTEM-PUBLIC.md
 # Public Vault Access System
 
 ## Executive Summary

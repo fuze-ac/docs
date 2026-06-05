@@ -1,4 +1,3 @@
-# FILE NAME: 05-HERHELP_SPEAKSHOP_AI_PUBLIC.md
 # HerHelp SpeakShop AI
 
 ## Executive Summary

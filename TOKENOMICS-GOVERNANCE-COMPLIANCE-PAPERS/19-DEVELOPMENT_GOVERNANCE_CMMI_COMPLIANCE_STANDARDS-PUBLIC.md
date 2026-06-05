@@ -1,4 +1,3 @@
-# FILE NAME: 19-DEVELOPMENT_GOVERNANCE_CMMI_COMPLIANCE_STANDARDS-PUBLIC.md
 # Development Governance / CMMI / Compliance Standards
 
 ## Executive Summary
