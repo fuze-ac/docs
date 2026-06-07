@@ -2,613 +2,1340 @@
 
 ## Executive Summary
 
-FUZE uses the **Data Privacy and Permission Model** to define how data, permissions, roles, workspaces, AI access, product records, customer information, community data, wallet context, Platform Credits, reporting, integrations, and public transparency are handled across the FUZE ecosystem.
+FUZE Data Privacy and Permission Model explains how FUZE treats user data, workspace permissions, product data access, AI data boundaries, wallet-level transparency, private verification separation, partner access, reporting, public identity protection, and investor-facing data trust.
 
-FUZE is a transparency-first AI SaaS platform building practical products on top of shared infrastructure for identity, credits, payments, AI orchestration, reporting, and ecosystem participation.
+FUZE is a transparency-first AI SaaS platform building practical products on shared infrastructure for identity, credits, payments, AI orchestration, wallet-based records, reporting, and ecosystem participation.
 
-FUZE’s privacy and permission model follows one public execution order:
+FUZE follows product-first execution. Product usage comes first, platform rails come second, and broader ecosystem participation comes after that.
 
-**Product usage first. Platform rails second. Broader ecosystem participation after that.**
+FUZE uses one token only: FUZE token.
 
-The first public launch focus is:
+FUZE token is the single ecosystem token of FUZE. It supports product-connected utility, ecosystem participation, platform alignment, governance direction where applicable, and wallet-based participation ability.
 
-**FUZE launch focus is HerHelp.com and ZAGA.io, supported by FUZE Core Platform rails and accelerated internally by Botmad.**
+Data privacy and permission controls matter because FUZE products may process business spreadsheets, shop records, customer records, community messages, AI prompts, AI outputs, product reports, Platform Credit records, payment records, stablecoin settlement records, wallet addresses, vault activity, report hashes, product usage records, partner records, and private verification records where required.
 
-FUZE products can involve many data types: business spreadsheets, shop menus, orders, queue records, payment status, customer profiles, staff workflows, community messages, moderation records, wallet-aware access context, game/community participation, market data, sponsored placements, AI work artifacts, reports, and product usage records. Because these products handle sensitive operational context, FUZE uses role-based access, workspace separation, permission-aware workflows, data minimization direction, reviewable artifacts, audit records where applicable, public-safe reporting, and product-specific boundaries.
+FUZE uses wallet-level transparency without public identity exposure.
 
-FUZE does not present its data privacy and permission model as a completed legal certification, universal regulatory compliance claim, perfect security claim, privacy guarantee, data breach impossibility claim, or unlimited data-access model. Data privacy and permission controls reduce risk and improve trust, but sensitive uses remain subject to product, technical, legal, privacy, security, jurisdiction, platform, enterprise, and operational review.
+Public systems may show wallet addresses, vault activity, report hashes, audit records, token release records, snapshot records, eligibility status, and claim status where applicable.
 
-FUZE token is for ecosystem participation. Platform Credits are for product usage. Stablecoins pay for work. FUZE tokens align long-term participation.
+FUZE does not publish personal names, emails, phone numbers, ID documents, passports, home addresses, investor identities, contributor identities, customer identities, private agreements, or private verification records publicly by default.
 
-This paper defines FUZE’s data privacy and permission position, data categories, role and workspace model, AI permission model, product-specific privacy boundaries, wallet-aware access rules, reporting direction, public boundary, and risk safeguards.
+Private verification, if required by law, regulation, treasury controls, exchange requirements, eligibility review, investor agreement, custody review, or jurisdiction rules, stays off-chain, permissioned, access-controlled, and separated from public blockchain records.
 
-## 1. FUZE Position
+Platform Credits are product usage credits and are separate from FUZE token.
 
-FUZE presents data privacy and permissioning as a core platform control.
+Stablecoins are payment, settlement, treasury, and compensation rails.
 
-FUZE position:
+Wallet-based participation ability is not a second token, not automatic for every wallet, and not active as a guaranteed public payout right.
 
-**FUZE organizes product data through role-aware workspaces, permission controls, data boundaries, source-of-truth documentation, public-safe reporting, and product-specific privacy safeguards.**
+FUZE does not guarantee perfect privacy, zero data incident, zero unauthorized access, AI accuracy, business revenue, customer growth, community growth, token demand, token price, listing, liquidity, payout, income, yield, profit, acquisition, exit, or investment return.
 
-FUZE uses privacy and permission controls to support:
+---
 
-| Control Area | Public Meaning |
+## 1. Investor or Partner Purpose
+
+This paper explains FUZE’s public data privacy and permission model for investors, partners, product users, communities, and public readers.
+
+It answers:
+
+- What data may FUZE products handle?
+- How should FUZE separate public wallet transparency from private identity?
+- How should workspace permissions work?
+- How should AI access user data?
+- How should product data, payment records, Platform Credit records, stablecoin records, and wallet records be protected?
+- How should private verification stay separated from public blockchain records?
+- How should partners access data only when permitted?
+- How should public reporting protect user and customer privacy?
+- What data and permission claims should FUZE avoid?
+
+This paper is not a privacy policy, legal opinion, tax opinion, accounting policy, security audit, data-processing agreement, customer contract, investor agreement, or guarantee of data protection.
+
+It is a public data privacy and permission model paper.
+
+---
+
+## 2. FUZE Data Privacy Position
+
+FUZE’s public data privacy position is:
+
+FUZE uses permission-controlled product data, wallet-level transparency, off-chain private verification where required, and public-safe reporting to support practical products while avoiding unnecessary public identity exposure.
+
+This position has eight parts.
+
+| Area | FUZE Position |
 |---|---|
-| User trust | Users understand which data belongs to which product, workspace, role, or account |
-| Product safety | Products access only the data needed for their intended use where possible |
-| AI safety | AI workflows use permission-aware context and reviewable outputs |
-| Business privacy | Shops, teams, SMEs, agencies, communities, and enterprises can separate sensitive records |
-| Customer protection | Customer records, loyalty data, orders, birthdays, and payment-related context require responsible handling |
-| Community safety | Community messages, moderation records, and role data require platform-aware controls |
-| Wallet-aware utility | Wallet context is used only where legally and technically ready |
-| Reporting clarity | Public reporting uses aggregate or public-safe categories where appropriate |
-| Governance | Sensitive actions, data access, integrations, and public claims require review |
+| Product data | Product data should be accessed only for supported product workflows. |
+| Workspace permissions | Users, teams, admins, partners, and AI tools should receive only appropriate access. |
+| AI data boundaries | AI should use only the data needed for the task and should respect permission controls. |
+| Wallet-level transparency | Public wallet records may support transparency without public identity exposure. |
+| Private verification | Sensitive identity or eligibility checks stay off-chain and permissioned where required. |
+| Partner access | Partners access only approved data for approved roles and workflows. |
+| Public reporting | Public reports use summaries, hashes, categories, or wallet-level records where appropriate. |
+| No perfect-security guarantee | Controls reduce risk but do not guarantee zero incident. |
 
-FUZE treats data privacy as a product requirement, not only a legal statement.
+FUZE separates transparency from exposure.
 
-## 2. Platform Context
+Transparency helps public trust.
 
-FUZE’s data privacy and permission model applies across all products and shared rails.
+Exposure of private identity or unnecessary sensitive data is avoided.
 
-| Product / System | Privacy and Permission Role |
+---
+
+## 3. Why Data Privacy and Permission Controls Matter
+
+Data privacy and permission controls matter because FUZE products can touch real business, community, wallet, payment, and AI workflow data.
+
+Without clear controls, users may worry about:
+
+- who can see their business data
+- who can access shop records
+- who can view customer data
+- who can read community messages
+- who can access AI prompts and outputs
+- who can view payment records
+- who can see Platform Credit records
+- who can view wallet records
+- whether public wallet records expose personal identity
+- whether private verification becomes public
+- whether partners can access user data without permission
+- whether AI can use confidential files
+- whether reports expose sensitive details
+
+FUZE needs a model that is simple enough for public understanding and strong enough for investor and partner review.
+
+Boundary:
+
+Data privacy controls reduce exposure risk, but they do not guarantee perfect privacy, zero breach, zero misuse, or zero human error.
+
+---
+
+## 4. Data Categories in FUZE
+
+FUZE data can be organized into categories.
+
+| Data Category | Examples |
 |---|---|
-| HerHelp | Business workflows, workspace records, reports, templates, team data, and product usage |
-| SheetLayer AI | Spreadsheets, tabs, formulas, dashboards, sync records, sensitive fields, and role-safe views |
-| ShopOS AI | Menus, orders, queue records, payment status, loyalty, customer profiles, staff workflows, stock checks, and owner dashboards |
-| SpeakShop AI | Voice scripts, shop announcements, schedules, sound packs, device context, and owner approval records |
-| TrainLayer AI | Training data, learning records, assistant scope, validation reports, deployment records, and improvement logs |
-| CommunityLayer AI | Community messages, approved answers, moderation support, contributor recognition, analytics, and safety escalation records |
-| ZAGA | Wallet-aware access, utility actions, eligibility context, participation systems, and reports where applicable |
-| ZAGA Arena | Player profiles, gameplay records, leaderboard data, event participation, rooms, share cards, and reports |
-| ZAGA Districts | Community city data, roles, NPC systems, quests, contribution records, and digital-asset utility where applicable |
-| QTB | Watchlists, market reports, research context, alerts, user-defined topics, and workspace reports |
-| AIMM | Market-operations records, monitoring, alerts, scenario reviews, operator workflows, and evidence records |
-| AIE | Event lists, opportunity records, alerts, watchlists, partner notes, and preparation workflows |
-| ToolGrid | Sponsored placements, advertiser records, campaign reports, destination checks, review status, and takedown records |
-| Botmad | Work sessions, prompts, documents, code support, research artifacts, delivery records, hashes, logs, and review notes |
-| FUZE Core Platform | Identity, Platform Credits, payments, AI orchestration, reporting, privacy, security, governance, and transparency |
+| Account Data | User account, workspace membership, login records, role records |
+| Product Data | Product settings, workflows, reports, templates, usage records |
+| Business Data | Spreadsheets, sales data, stock data, customer lists, shop data |
+| Community Data | Group messages, moderation notes, support requests, summaries |
+| AI Data | Prompts, source inputs, AI outputs, generated reports, model instructions |
+| Payment Data | Product payments, invoices, receipts, refunds, chargebacks |
+| Platform Credit Data | Credit purchases, credit usage, workspace credits, adjustment records |
+| Stablecoin Data | Settlement records, treasury records, compensation records, conversion proof |
+| Wallet Data | Wallet addresses, vault activity, public transaction references |
+| Public Reporting Data | Report hashes, public-safe summaries, vault labels, token release records |
+| Private Verification Data | Identity review, eligibility review, KYC or AML records where required |
+| Partner Data | Partner accounts, customer assignments, implementation records |
+| Security Data | Logs, access events, incident records, permission records |
 
-The same platform rails support multiple products, so permission boundaries remain central.
+Not all products use all data categories.
 
-## 3. Public Model
+Each product should access only the categories needed for its purpose.
 
-### 3.1 Data Privacy and Permission Model Definition
+Boundary:
 
-The FUZE Data Privacy and Permission Model is the platform-wide approach for controlling how users, teams, products, AI workflows, integrations, and reports access data.
+Data category definition supports governance, but it does not guarantee complete data accuracy or zero incident.
 
-| Model Area | Public Meaning |
+---
+
+## 5. Public Data vs Private Data
+
+FUZE separates public data from private data.
+
+### 5.1 Public Data
+
+Public data may include:
+
+- public paper content
+- product status summaries
+- roadmap categories
+- public-safe product descriptions
+- public-safe metrics
+- wallet addresses where public blockchain records apply
+- vault labels
+- vault activity
+- token release records
+- report hashes
+- audit record references where public
+- public dashboard summaries
+- eligibility status where applicable and public-safe
+- claim status where applicable and public-safe
+
+### 5.2 Private Data
+
+Private data may include:
+
+- personal names
+- emails
+- phone numbers
+- ID documents
+- passports
+- home addresses
+- customer records
+- investor records
+- contributor records
+- private agreements
+- private verification records
+- private KYC or AML records where applicable
+- tax records
+- payroll or compensation records
+- internal legal records
+- confidential business data
+- customer spreadsheets
+- private support tickets
+- private AI prompts and outputs
+- private partner records
+
+Boundary:
+
+Public transparency should not require public exposure of private identity or private business data.
+
+---
+
+## 6. Wallet-Level Transparency Without Public Identity Exposure
+
+FUZE uses wallet-level transparency without public identity exposure.
+
+This means public systems may show wallet-level records without publishing personal identity publicly by default.
+
+Public wallet-level records may include:
+
+- wallet address
+- vault label
+- vault activity
+- transaction reference
+- token release record
+- circulating supply category
+- snapshot record where applicable
+- eligibility status where applicable
+- claim status where applicable
+- report hash
+- audit record reference
+- conversion proof reference
+- public vault access status
+
+FUZE should not publicly attach wallet addresses to personal names unless legally required, explicitly approved, and handled through an appropriate process.
+
+Boundary:
+
+Wallet transparency supports public review, but it does not mean doxxing, public identity exposure, public treasury control, or guaranteed eligibility.
+
+---
+
+## 7. Private Verification Separation
+
+Private verification may be required in some contexts.
+
+Private verification may apply to:
+
+- investor agreements
+- jurisdiction review
+- KYC or AML requirements where applicable
+- sanctions or restricted-party screening where required
+- treasury controls
+- exchange requirements
+- custody review
+- OTC transfer review
+- eligibility review
+- claim review if a framework becomes active
+- tax or accounting review where required
+- contributor or partner verification
+- legal agreement review
+
+Private verification should stay:
+
+- off-chain
+- permissioned
+- access-controlled
+- separated from public blockchain records
+- separated from public vault records
+- separated from public dashboards
+- separated from public reporting unless aggregated or legally required
+- protected from unnecessary partner access
+- logged where appropriate
+- retained only under defined rules where applicable
+
+Boundary:
+
+Private verification may support compliance or eligibility review, but it does not guarantee eligibility, claim rights, payout, or public identity exposure.
+
+---
+
+## 8. Workspace Permission Model
+
+FUZE products may use workspace-based permissions.
+
+A workspace may represent:
+
+- individual user workspace
+- shop workspace
+- business workspace
+- team workspace
+- community workspace
+- event workspace
+- enterprise workspace
+- partner-managed workspace
+- ZAGA community workspace
+- Web3 project workspace
+
+Permission roles may include:
+
+- owner
+- admin
+- manager
+- staff
+- viewer
+- finance role
+- support role
+- partner operator
+- community moderator
+- report viewer
+- AI user
+- AI reviewer
+- billing manager
+- developer role
+- auditor role where applicable
+- restricted role
+
+Each role should access only what it needs.
+
+Boundary:
+
+Workspace permissions reduce access risk, but they do not guarantee zero misuse, zero configuration error, or zero security incident.
+
+---
+
+## 9. Product Permission Model
+
+Each FUZE product should have product-specific permission boundaries.
+
+### 9.1 HerHelp
+
+HerHelp permissions may control access to AI tools, generated content, workspace files, reports, and product modules.
+
+### 9.2 SheetLayer AI
+
+SheetLayer AI permissions may control spreadsheet access, tab mapping, dashboards, formulas, and data summaries.
+
+### 9.3 ShopOS AI
+
+ShopOS AI permissions may control menu edits, order records, queue operations, payments, stock, staff tasks, loyalty, reports, and device settings.
+
+### 9.4 SpeakShop AI
+
+SpeakShop AI permissions may control script generation, sound-pack access, campaign drafts, and shop or event announcements.
+
+### 9.5 TrainLayer AI
+
+TrainLayer AI permissions may control training content, quiz creation, learning records, staff onboarding materials, and customer education guides.
+
+### 9.6 CommunityLayer AI
+
+CommunityLayer AI permissions may control moderation tools, verification workflows, group summaries, reports, support records, and safety notes.
+
+### 9.7 ZAGA
+
+ZAGA permissions may control game accounts, community records, wallet-linked gameplay surfaces, leaderboard records, and community management.
+
+### 9.8 QTB
+
+QTB permissions may control market interpretation reports, watchlists, private notes, research records, and community-facing summaries.
+
+### 9.9 AIMM
+
+AIMM permissions may control liquidity-operation reports, venue notes, order-book observations, market-maker communication summaries, and public-safe updates.
+
+### 9.10 AIE
+
+AIE permissions may control event data, sponsor notes, participant feedback, summaries, and event reports.
+
+### 9.11 ToolGrid AI
+
+ToolGrid AI permissions may control tool listings, sponsored visibility campaigns, descriptions, campaign reports, and partner access.
+
+### 9.12 Botmad
+
+Botmad permissions may control file access, task access, message drafts, operational checklists, workflow sessions, and AI-assisted actions.
+
+Boundary:
+
+Product-specific permissions support safer use, but they do not guarantee perfect access control or perfect output.
+
+---
+
+## 10. AI Data Access Model
+
+AI data access should follow permission controls.
+
+AI should not automatically access all user data.
+
+AI access should depend on:
+
+- product scope
+- user role
+- workspace permission
+- file permission
+- task permission
+- report permission
+- payment record permission
+- wallet record permission
+- partner access rule
+- admin setting
+- user confirmation where appropriate
+- sensitivity of the action
+- data minimization rules
+
+AI tools should use the minimum needed data for a task where practical.
+
+For example:
+
+- SheetLayer AI needs the selected spreadsheet, not every file in the workspace.
+- ShopOS AI needs relevant shop records, not unrelated private messages.
+- CommunityLayer AI needs group context for moderation, not private identity documents.
+- Botmad needs permissioned files or workflows, not unrestricted system access.
+- QTB needs market context and research data, not personal investor identity.
+- AIMM needs liquidity operation records, not private customer data.
+
+Boundary:
+
+AI access controls reduce risk, but AI systems can still produce errors, expose unintended data if misconfigured, or require human review.
+
+---
+
+## 11. AI Output Privacy
+
+AI outputs may contain private or sensitive information if inputs contain private or sensitive information.
+
+AI output privacy should consider:
+
+- whether outputs include customer names
+- whether outputs include payment records
+- whether outputs include private messages
+- whether outputs include wallet addresses
+- whether outputs include investor records
+- whether outputs include staff records
+- whether outputs include private agreements
+- whether outputs include confidential business data
+- whether outputs include moderation decisions
+- whether outputs include unsupported public claims
+- whether outputs are intended for public sharing
+- whether outputs need redaction
+- whether outputs need human review
+
+Outputs intended for public use should be reviewed before publication.
+
+Boundary:
+
+AI-generated output should not be treated as automatically public-safe.
+
+---
+
+## 12. Payment Data Permissions
+
+Payment data may include:
+
+- product payment status
+- invoice records
+- receipt records
+- refund records
+- chargeback records
+- payment method category
+- customer account reference
+- payment timestamp
+- stablecoin transaction reference
+- fiat payment reference
+- settlement status
+- failed payment status
+- payment dispute status
+
+Payment data should be accessed only by users or roles with a legitimate product, billing, support, finance, reconciliation, or admin need.
+
+Boundary:
+
+Payment data access supports operations, but payment records are not public token records or automatic approved distributable value.
+
+---
+
+## 13. Platform Credit Data Permissions
+
+Platform Credit data may include:
+
+- credit purchase record
+- credit balance
+- workspace credit balance
+- credit usage record
+- product module usage
+- bonus credit record
+- promotional credit record
+- failed-task adjustment
+- refund adjustment
+- credit expiration where applicable
+- credit package type
+- billing reference
+- usage report
+
+Platform Credit data should be separated from FUZE token records.
+
+Platform Credits are product usage credits.
+
+Boundary:
+
+Platform Credit data does not create token rights, income rights, participation rights, governance rights, or claim rights.
+
+---
+
+## 14. Stablecoin Data Permissions
+
+Stablecoin data may include:
+
+- product payment transactions
+- Platform Credit purchases
+- partner settlement
+- contributor compensation
+- vendor payment
+- treasury transfer
+- reserve transfer
+- conversion proof
+- payment wallet
+- treasury wallet
+- settlement wallet
+- transaction hash
+- amount
+- asset type
+- date or block reference
+- reconciliation status
+
+Some stablecoin records may be public on-chain.
+
+Other stablecoin records may include private customer, partner, contributor, or investor context.
+
+Boundary:
+
+Stablecoin transaction visibility does not mean all related private context should be public.
+
+---
+
+## 15. Wallet Record Permissions
+
+Wallet records may include:
+
+- wallet address
+- connected wallet status
+- self-custody or custody category
+- public transaction references
+- vault labels
+- token release category
+- snapshot status where applicable
+- eligibility status where applicable
+- claim status where applicable
+- exchange custody status where applicable
+- OTC transfer review where applicable
+- private verification status where applicable
+
+Wallet records can support public transparency.
+
+Private details behind wallet records may need permission controls.
+
+Boundary:
+
+Wallet address visibility does not mean public identity exposure or automatic eligibility.
+
+---
+
+## 16. Partner Data Access
+
+Partners may support implementation, customer onboarding, product delivery, reporting, payment setup, community operations, event support, or enterprise deployment.
+
+Partner access should be limited by:
+
+- partner role
+- customer permission
+- product scope
+- workspace assignment
+- data category
+- time period
+- service agreement
+- confidentiality rules
+- support need
+- reporting requirement
+- audit logs
+- revocation ability
+
+Partners should not receive broad access by default.
+
+Partner access should be reviewed when the partner handles:
+
+- customer data
+- shop data
+- community data
+- payment records
+- Platform Credit records
+- stablecoin records
+- wallet records
+- AI prompts or outputs
+- enterprise data
+- private verification records
+
+Boundary:
+
+Partner involvement does not remove FUZE’s need for data privacy, permission controls, and public identity protection.
+
+---
+
+## 17. Enterprise Data Controls
+
+Enterprise users may require stronger controls.
+
+Enterprise data controls may include:
+
+- single sign-on where applicable
+- role-based access control
+- workspace segmentation
+- admin approval workflows
+- access logs
+- audit trails
+- data retention settings
+- export controls
+- deletion workflows where applicable
+- API access controls
+- integration permission controls
+- partner access control
+- security review
+- incident notification process
+- contract-specific data terms
+- private deployment review where applicable
+- AI data usage restrictions
+- human review settings
+
+Enterprise customers may also require evidence for procurement and security review.
+
+Boundary:
+
+Enterprise controls reduce risk, but they do not guarantee zero breach, zero misuse, or perfect compliance.
+
+---
+
+## 18. SME Data Controls
+
+SME users need simpler controls.
+
+SME data controls may include:
+
+- owner and staff roles
+- simple workspace permissions
+- report access controls
+- payment access controls
+- menu edit permissions
+- stock edit permissions
+- queue operation permissions
+- customer data privacy
+- Google Sheets connection control
+- device access control
+- partner setup access
+- export options
+- simple activity history
+- AI prompt and output review
+
+SME users need controls that are easy to understand.
+
+Boundary:
+
+Simple controls improve usability, but they do not remove privacy, security, or human-error risks.
+
+---
+
+## 19. Community Data Controls
+
+Community data controls matter for Telegram, Discord, Web3, game, and customer communities.
+
+Community data may include:
+
+- messages
+- usernames
+- moderation history
+- verification status
+- support tickets
+- member notes
+- summaries
+- scam reports
+- admin notes
+- event participation
+- public announcement drafts
+- community rules
+- campaign records
+- group settings
+
+CommunityLayer AI and Botmad may help process this data.
+
+Controls should define who can view, summarize, export, delete, or act on community data.
+
+Boundary:
+
+Community data tools support moderation and operations, but they do not guarantee perfect moderation, scam prevention, abuse prevention, or community growth.
+
+---
+
+## 20. Public Reporting Privacy
+
+FUZE may publish public-safe reports.
+
+Public reports should protect private data while supporting transparency.
+
+Public-safe reports may include:
+
+- product status category
+- roadmap status category
+- product usage category
+- Platform Credit usage category
+- stablecoin payment category
+- token release category
+- vault label
+- report hash
+- audit record reference
+- public wallet address where appropriate
+- snapshot category where applicable
+- eligibility status where applicable
+- claim status where applicable
+- risk boundary summary
+
+Public reports should avoid exposing:
+
+- customer identity
+- investor identity
+- contributor identity
+- private agreement details
+- private verification records
+- private tax records
+- confidential business data
+- private customer messages
+- private AI prompts or outputs
+- non-public payment context
+
+Boundary:
+
+Public reporting supports transparency, but it should not expose unnecessary private data.
+
+---
+
+## 21. Report Hash Privacy
+
+A report hash can show that a report existed in a specific form at a specific time.
+
+Report hashes can support record integrity without exposing the full report publicly.
+
+A report hash may be used for:
+
+- product status report
+- revenue summary report
+- vault report
+- token release report
+- conversion proof report
+- audit reference
+- public paper version
+- participation readiness report where applicable
+- claim status report where applicable
+
+A report hash does not reveal the content by itself.
+
+A report hash also does not prove that a report is correct.
+
+Boundary:
+
+Report hashes support transparency and integrity, but they are not full audits, legal approvals, accounting approvals, or payout approvals.
+
+---
+
+## 22. Data Retention and Deletion Direction
+
+FUZE data retention and deletion should be defined by product, data category, legal need, customer need, operational need, and reporting need.
+
+Retention questions include:
+
+- how long product records are kept
+- how long payment records are kept
+- how long Platform Credit records are kept
+- how long stablecoin records are kept
+- how long wallet records are kept
+- how long AI prompts and outputs are kept
+- how long community summaries are kept
+- how long support records are kept
+- how long partner records are kept
+- how long private verification records are kept
+- how legal or tax requirements affect retention
+- how users can request deletion where applicable
+- how public blockchain records differ from off-chain records
+
+Public blockchain records may be permanent.
+
+Off-chain product records may follow retention rules.
+
+Boundary:
+
+Deletion ability may be limited by legal, accounting, security, tax, dispute, audit, or blockchain constraints.
+
+---
+
+## 23. Data Minimization
+
+Data minimization means FUZE should collect, access, use, and expose only what is needed for the product workflow.
+
+Examples:
+
+- A shop queue tool does not need investor identity documents.
+- A QTB market report does not need customer phone numbers.
+- A CommunityLayer AI summary does not need treasury private keys.
+- A ToolGrid AI listing does not need payment card details beyond payment processing needs.
+- A public vault dashboard does not need private home addresses.
+- A Botmad task should not access files outside the permitted workspace.
+- A partner should not access all customers when assigned to one implementation.
+
+Boundary:
+
+Data minimization reduces exposure risk, but it does not guarantee zero risk.
+
+---
+
+## 24. Access Logs and Audit Trails
+
+Access logs and audit trails can support accountability.
+
+Logs may record:
+
+- user login
+- admin access
+- partner access
+- AI tool access
+- file access
+- report access
+- payment record access
+- Platform Credit changes
+- role changes
+- workspace changes
+- API calls
+- export actions
+- deletion actions
+- wallet connection events
+- sensitive settings changes
+- incident review actions
+
+Audit trails can help investigate issues.
+
+Boundary:
+
+Logs support review and accountability, but they do not prevent every misuse or guarantee perfect security.
+
+---
+
+## 25. Incident Handling for Data and Permissions
+
+Data and permission incidents may include:
+
+- unauthorized access
+- wrong permission setting
+- private data exposed in a report
+- AI output includes sensitive data
+- partner accesses wrong workspace
+- payment data shown to wrong role
+- Platform Credit balance error
+- wallet identity confusion
+- private verification data exposure
+- export mistake
+- prompt injection
+- data leakage
+- account compromise
+- API key compromise
+- admin role misuse
+- public report error
+
+Incident handling may include:
+
+- issue intake
+- severity classification
+- access review
+- affected data review
+- user notification where appropriate
+- permission correction
+- public-safe notice where appropriate
+- report correction
+- credential rotation
+- audit log review
+- partner access suspension
+- AI workflow update
+- prevention update
+
+Boundary:
+
+Incident response improves resilience, but it does not guarantee zero future incidents or zero harm.
+
+---
+
+## 26. Wallet-Based Participation Privacy
+
+Wallet-based participation ability, if activated, may require privacy-aware design.
+
+Privacy questions may include:
+
+- which wallet records are public
+- which eligibility records are public
+- which claim records are public
+- which verification records remain private
+- whether jurisdiction status is public-safe
+- how exchange custody records are handled
+- how OTC transfer records are handled
+- how snapshot status is shown
+- how disputes are handled
+- how claim status is shown
+- how personal identity stays separated
+- how report hashes support transparency without exposing private data
+
+Boundary:
+
+Wallet-based participation privacy must balance transparency, eligibility, legal review, and private identity protection.
+
+---
+
+## 27. Exchange Custody Privacy
+
+Exchange custody can create privacy and eligibility complexity.
+
+Exchange-held tokens may be inside exchange wallets that represent many users.
+
+Public blockchain records may show the exchange wallet, not individual user accounts.
+
+Exchange custody privacy questions include:
+
+- can the exchange provide user-level records?
+- can user-level records remain private?
+- can public dashboards avoid exposing exchange users?
+- can snapshot support work without public identity exposure?
+- can claim support work without public account disclosure?
+- can private verification be completed where required?
+- can jurisdiction restrictions be handled?
+- can exchange cooperation be documented?
+
+Boundary:
+
+Exchange custody may require separate treatment and does not automatically support user-level participation or public reporting.
+
+---
+
+## 28. OTC Transfer Privacy
+
+OTC transfer may require private records.
+
+OTC privacy questions include:
+
+- buyer and seller identity where required
+- transfer date
+- wallet addresses
+- private agreement terms
+- lockup status
+- vesting status
+- eligibility status
+- claim status if activated
+- jurisdiction review
+- tax review
+- private verification
+- settlement record
+- dispute record
+
+Not all OTC details should be public.
+
+Public records may show wallet transfers, but private agreement context may stay permissioned.
+
+Boundary:
+
+OTC transfer visibility does not mean all private agreement details are public or that eligibility transfers automatically.
+
+---
+
+## 29. Data Privacy and FUZE Token
+
+FUZE token connects to product utility, ecosystem participation, platform alignment, governance direction where applicable, and wallet-based participation ability.
+
+Token-related systems may involve wallet records, public vaults, token release records, eligibility records, and claim status records where applicable.
+
+Token-related privacy rules should separate:
+
+- public wallet records
+- public vault records
+- token release records
+- circulating supply records
+- private investor records
+- private contributor records
+- private agreements
+- private verification records
+- eligibility review records
+- jurisdiction records
+
+Boundary:
+
+FUZE token transparency does not require public exposure of private identity.
+
+---
+
+## 30. Data Privacy and Platform Credits
+
+Platform Credits are product usage credits.
+
+Platform Credit data may be private product account data.
+
+Credit data may include:
+
+- user account
+- workspace
+- credit balance
+- credit package
+- purchase method
+- usage history
+- product module usage
+- adjustment records
+- billing records
+- refund records
+
+Public reporting may use aggregate or category summaries where appropriate.
+
+Boundary:
+
+Platform Credit records are product usage records, not public token records, investment rights, participation rights, or claim rights.
+
+---
+
+## 31. Data Privacy and Stablecoins
+
+Stablecoin transactions may be public on-chain, but payment context may still be private.
+
+A stablecoin transaction may relate to:
+
+- product payment
+- Platform Credit purchase
+- partner settlement
+- contributor compensation
+- vendor payment
+- treasury movement
+- reserve transfer
+- conversion proof
+- investor funding
+- non-revenue transfer
+
+The blockchain may show transaction data, but FUZE should avoid exposing unnecessary private context in public reports.
+
+Boundary:
+
+Stablecoin visibility does not make all related private records public or distributable.
+
+---
+
+## 32. Product-Specific Data Privacy
+
+### 32.1 HerHelp
+
+HerHelp may process user prompts, documents, workflow outputs, product settings, and reports.
+
+Boundary:
+
+HerHelp data should be permission-controlled by user, workspace, and product scope.
+
+### 32.2 SheetLayer AI
+
+SheetLayer AI may process spreadsheets, formulas, tabs, columns, dashboards, and business data.
+
+Boundary:
+
+Spreadsheet data may be sensitive and should not be exposed without permission.
+
+### 32.3 ShopOS AI
+
+ShopOS AI may process menus, orders, queues, payments, stock, staff records, customer records, loyalty records, delivery records, and reports.
+
+Boundary:
+
+Shop and customer records should be protected from unnecessary public or partner access.
+
+### 32.4 SpeakShop AI
+
+SpeakShop AI may process promotional text, shop information, event messages, sound packs, and announcement scripts.
+
+Boundary:
+
+Promotional content should be reviewed before public use.
+
+### 32.5 TrainLayer AI
+
+TrainLayer AI may process SOPs, training materials, quizzes, guides, staff records, and learning records.
+
+Boundary:
+
+Training data may include internal procedures and should be permission-controlled.
+
+### 32.6 CommunityLayer AI
+
+CommunityLayer AI may process messages, moderation data, verification status, support issues, and summaries.
+
+Boundary:
+
+Community data should be handled with admin permission and member privacy awareness.
+
+### 32.7 ZAGA
+
+ZAGA may process game accounts, wallet-linked records, gameplay records, community records, leaderboards, and event records.
+
+Boundary:
+
+Game records and wallet records should not create public personal identity exposure by default.
+
+### 32.8 QTB
+
+QTB may process market notes, watchlists, reports, user research inputs, and community market summaries.
+
+Boundary:
+
+QTB data should not be used to imply financial advice or guaranteed trading results.
+
+### 32.9 AIMM
+
+AIMM may process liquidity-operation notes, venue notes, order-book observations, market maker communication summaries, and liquidity reports.
+
+Boundary:
+
+AIMM data should not be used to imply price support, guaranteed liquidity, or market manipulation.
+
+### 32.10 AIE
+
+AIE may process event agendas, sponsor notes, participant feedback, campaign summaries, and event reports.
+
+Boundary:
+
+Participant and sponsor information should be handled carefully and public summaries should be reviewed.
+
+### 32.11 ToolGrid AI
+
+ToolGrid AI may process tool listings, sponsor records, campaign data, descriptions, and visibility reports.
+
+Boundary:
+
+Sponsored visibility should be clear, and private sponsor records should be protected.
+
+### 32.12 Botmad
+
+Botmad may process files, tasks, messages, documents, checklists, support drafts, reports, and operational workflows.
+
+Boundary:
+
+Botmad requires strong permission controls because it may assist across many work surfaces.
+
+---
+
+## 33. Investor View of Data Privacy and Permissions
+
+Investors can evaluate FUZE data privacy and permission model by asking:
+
+- What data categories do FUZE products process?
+- Which products handle sensitive data?
+- How are workspaces and roles defined?
+- How does AI access data?
+- How are prompts and outputs handled?
+- How are payment records protected?
+- How are Platform Credit records separated from token records?
+- How are stablecoin records classified?
+- How are wallet records shown publicly?
+- How is personal identity protected?
+- How is private verification separated from public blockchain records?
+- How do partners access data?
+- How are access logs and audit trails handled?
+- How are incidents handled?
+- What public reports protect privacy?
+- What enterprise controls exist or are planned?
+- What risks remain?
+
+Investors should evaluate privacy as an operating discipline, not as a perfect-security claim.
+
+Boundary:
+
+Data privacy discipline does not guarantee zero incidents, product adoption, revenue, token demand, liquidity, listing, payout, exit, or investment return.
+
+---
+
+## 34. Community View of Data Privacy and Permissions
+
+The FUZE community should understand data privacy in simple terms.
+
+Community members can say:
+
+- FUZE uses wallet-level transparency without public identity exposure.
+- Public wallet records can show wallet activity without showing personal identity by default.
+- Private verification stays off-chain and permissioned where required.
+- Platform Credit records are product usage records.
+- Stablecoin records are payment and settlement records.
+- AI should access only permissioned data.
+- Partners should access only approved customer or workspace data.
+- Public reports should avoid exposing private data.
+- Botmad and AI agents need permission controls.
+- Wallet-based participation, if activated, needs privacy-aware eligibility and claim records.
+
+Community members should not say:
+
+- wallet transparency means doxxing
+- all investor identities are public
+- all customer data is public
+- partners can access everything
+- AI can use all files automatically
+- public vaults expose private agreements
+- stablecoin transactions reveal all private context
+- public records guarantee eligibility
+- private verification is never required
+
+This keeps community education accurate.
+
+---
+
+## 35. Data Privacy and Permission Risk Boundary Matrix
+
+| Area | Boundary |
 |---|---|
-| Identity | Identifies users, teams, shops, communities, players, partners, advertisers, agencies, and workspaces |
-| Workspace separation | Separates business, shop, agency, community, enterprise, product, or partner data |
-| Role permissions | Controls what each role can see, change, approve, export, or report |
-| Product scope | Limits data access to product purpose where possible |
-| AI permissioning | Keeps AI workflows tied to allowed context and reviewable outputs |
-| Sensitive fields | Protects customer, payment, wallet, business, staff, community, and private records |
-| Audit records | Records sensitive actions where applicable |
-| Reporting controls | Uses aggregate or public-safe reporting where appropriate |
-| Integration review | Reviews payments, wallets, devices, messaging, data, and enterprise connections |
-| Public boundaries | Explains that privacy controls reduce risk without removing all risk |
-
-This model helps FUZE keep product usage safer and more explainable.
-
-### 3.2 Data Category Map
-
-FUZE products can use different categories of data.
-
-| Data Category | Examples | Primary Control Direction |
-|---|---|---|
-| Account data | User account, email, phone, login method, workspace membership | Identity and access controls |
-| Business data | Tasks, documents, business records, reports, dashboards | Workspace and role permissions |
-| Spreadsheet data | Sheets, tabs, columns, formulas, rows, synced records | Sheet access, role-safe views, validation |
-| Shop data | Menus, orders, queue, staff, stock, delivery, reports | Owner/admin/staff roles and dashboard controls |
-| Customer data | Name, phone, birthday, loyalty, usual order, customer profile | Consent-aware product policy and restricted access |
-| Payment-related data | Payment status, checkout records, invoice references, provider context | Payment provider rules and sensitive-field controls |
-| Community data | Messages, member roles, moderation actions, contributor records | Admin/moderator roles and platform-rule awareness |
-| Wallet context | Wallet address, eligibility, holder status, token/NFT context where applicable | Legal/compliance review and wallet-aware access limits |
-| Game data | Player profile, match data, leaderboard, rooms, events, game resources | Game account and product rules |
-| Market data | Prices, liquidity context, watchlists, reports, alerts | Data source review and no-advice boundaries |
-| Sponsored data | Advertiser profiles, placements, destinations, campaign reports | Review gates, sponsored labeling, takedown controls |
-| AI work data | Prompts, files, outputs, work sessions, artifacts, logs, hashes | User review, access control, and evidence records |
-| Platform Credit data | Credit purchases, grants, usage, balances, refunds, expiry | Billing and workspace reporting controls |
-| Public reporting data | Aggregated status, product categories, release notes, public metrics | Public-safe disclosure review |
-
-Different data categories require different permission levels.
-
-### 3.3 Role-Based Permission Model
-
-FUZE can use role-based permissions across products.
-
-| Role | Public Meaning |
-|---|---|
-| Owner | Controls workspace, billing, users, data, and product settings |
-| Admin | Manages product settings, users, reports, and operational workflows |
-| Manager | Reviews reports, tasks, staff workflows, campaigns, or product status |
-| Staff | Uses assigned product workflows |
-| Viewer | Reads allowed dashboards or reports |
-| Moderator | Reviews community messages, onboarding, safety workflows, and contributor records |
-| Operator | Reviews market, event, game, sponsored, or technical workflows |
-| Analyst | Reads reports, dashboards, watchlists, and intelligence outputs |
-| Advertiser | Manages sponsored placements and campaign reports |
-| Partner | Accesses assigned client, campaign, integration, or workspace functions |
-| Client | Reviews assigned deliverables, dashboards, reports, or artifacts |
-| Player | Uses game-related product and participation features |
-| Community member | Uses assigned community features |
-| System service | Performs automated product functions under controlled permissions |
-| AI workflow | Uses scoped product context and produces reviewable output |
-
-Roles can vary by product and workspace.
-
-### 3.4 Workspace Model
-
-FUZE uses workspaces to separate data.
-
-| Workspace Type | Data Boundary |
-|---|---|
-| Personal workspace | Individual user records and outputs |
-| Shop workspace | Menus, orders, queue, staff, customers, stock, devices, reports, and owner settings |
-| Business workspace | Team workflows, reports, spreadsheets, documents, and users |
-| Agency workspace | Agency users, client workspaces, campaigns, reports, and deliverables |
-| Community workspace | Members, moderators, approved answers, rules, reports, roles, and activity |
-| Web3 project workspace | Token utility, wallet-aware access, campaigns, reports, market intelligence, and community tools |
-| Advertiser workspace | Sponsored placements, creative assets, destination checks, campaign reports, and billing |
-| Game workspace | Rooms, events, leaderboards, player activity, reports, and community campaigns |
-| Enterprise workspace | Departments, roles, permissions, reports, integrations, billing, and governance settings |
-| Partner workspace | Shared product, campaign, integration, support, or reporting workspace |
-
-Workspace separation helps prevent data mixing across customers, partners, communities, and products.
-
-### 3.5 Permission Action Model
-
-FUZE permissions can be defined by action type.
-
-| Action Type | Permission Meaning |
-|---|---|
-| View | Read records, dashboards, reports, or artifacts |
-| Create | Create new records, tasks, campaigns, reports, or files |
-| Edit | Change records, settings, content, or workflows |
-| Approve | Approve customer messages, voice scripts, sponsored placements, AI outputs, or workflow actions |
-| Export | Download or transfer allowed data |
-| Delete | Remove records where product rules allow |
-| Invite | Add users, staff, moderators, partners, or clients |
-| Configure | Change product settings, permissions, integrations, or billing |
-| Spend credits | Use Platform Credits for product actions |
-| Manage billing | Purchase, allocate, refund, or review credit usage where allowed |
-| Connect integration | Link payment, device, wallet, data, messaging, or enterprise system |
-| Run AI workflow | Use AI with scoped context |
-| Publish | Make content, reports, placements, or pages public |
-| Pause / takedown | Pause unsafe campaigns, placements, workflows, or access |
-| View audit record | Review sensitive action history where applicable |
-
-Action-based permissions make products easier to govern.
-
-### 3.6 AI Permission Model
-
-AI workflows require special permission controls.
-
-| AI Permission Area | Public Role |
-|---|---|
-| Context scope | AI uses only the data allowed for the product and user role where possible |
-| Source labeling | Approved source files, business records, or product data are separated from instructions |
-| Human review | Sensitive outputs remain reviewable before publication, customer use, market action, or operational action |
-| Tool limits | AI tools receive limited permissions based on task type |
-| File access | Files and artifacts require workspace and role access |
-| Output approval | Public, customer-facing, sponsored, voice, market, legal, financial, or sensitive outputs require review |
-| Logging | Work sessions, outputs, hashes, and evidence records can be captured where applicable |
-| Abuse controls | Rate limits, prompt-injection awareness, and misuse review apply |
-| Sensitive data protection | Secrets, credentials, private keys, customer data, payment records, and confidential information require stronger controls |
-
-AI access is not unlimited access.
-
-### 3.7 Customer Data Model
-
-FUZE products can support customer data for shops and business workflows.
-
-| Customer Data Area | Privacy Direction |
-|---|---|
-| Name | Used for customer profile and service workflow where collected |
-| Phone number | Used for login, profile, loyalty, or service workflow where applicable |
-| Birthday | Used for birthday promotion where collected and allowed |
-| Usual order | Used for customer service and loyalty where product rules allow |
-| Loyalty activity | Used for rewards, points, offers, or owner dashboard where applicable |
-| Order history | Used for reports, customer service, and operations |
-| Payment status | Used for checkout and queue workflow, not unnecessary exposure |
-| Delivery context | Used for order fulfillment and channel reporting |
-| Customer notes | Restricted by role and product rules |
-| Promotion consent | Managed according to product terms and applicable rules |
-
-Customer data requires responsible collection, access control, retention, and product-policy handling.
-
-### 3.8 ShopOS AI Privacy Model
-
-ShopOS AI handles shop operations and customer flow.
-
-| ShopOS Data | Permission Direction |
-|---|---|
-| Menu | Owner/admin manages; staff can view where assigned |
-| Orders | Staff and owner view by role |
-| Queue | Staff, owner, and customer display use limited views |
-| Payment status | Displayed only as needed for order workflow |
-| Loyalty | Owner/admin manages; customer-facing views stay limited |
-| Customer profile | Restricted by role |
-| Birthday promotion | Used only where collected and allowed |
-| Stock | Owner/admin/staff roles by product rule |
-| Staff workflow | Staff see assigned tasks; owner sees wider reports |
-| Dashboard | Owner/admin reporting role |
-| Devices | Device-specific views show only needed information |
-
-ShopOS AI privacy supports practical shop use without exposing unnecessary data.
-
-### 3.9 SheetLayer AI Privacy Model
-
-SheetLayer AI handles spreadsheet and business data.
-
-| SheetLayer Data | Permission Direction |
-|---|---|
-| Sheet source | Connected only with allowed access |
-| Tabs and columns | Mapped according to business meaning |
-| Sensitive fields | Hidden or restricted where role-safe views apply |
-| Formulas | Reviewed and explained where possible |
-| Dashboards | Display only allowed data |
-| Sync records | Track update status and errors where applicable |
-| Workflow actions | Assigned by user role and task type |
-| Reports | Limited by workspace and role |
-| Exports | Controlled by permissions |
-| Integrations | Reviewed for data access and security |
-
-SheetLayer AI privacy depends on source data quality and access configuration.
-
-### 3.10 SpeakShop AI Privacy Model
-
-SpeakShop AI handles promotional voice content.
-
-| SpeakShop Data | Permission Direction |
-|---|---|
-| Voice scripts | Owner/admin approval before use |
-| Product information | Owner validates menu, price, ingredient, and promotion accuracy |
-| Sound packs | Stored and used by workspace rules |
-| Schedule | Owner/admin manages |
-| Device context | Limited to required device workflow |
-| Campaign history | Owner/admin reporting access |
-| Customer-specific content | Used only where allowed and reviewed |
-| Generated voice | Reviewed before customer-facing playback |
-| Local rules | Owner remains responsible for noise and placement compliance |
-
-SpeakShop AI prioritizes approval and product accuracy before public playback.
-
-### 3.11 TrainLayer AI Privacy Model
-
-TrainLayer AI handles learning and assistant-building data.
-
-| TrainLayer Data | Permission Direction |
-|---|---|
-| Training materials | Access limited by course or workspace |
-| User learning progress | Protected by user/workspace rules |
-| Uploaded data | Used only within the intended training or assistant-building scope |
-| Assistant configuration | Workspace-controlled |
-| Validation reports | Shared by role |
-| Deployment records | Restricted by workspace permissions |
-| Improvement logs | Used for review and iteration |
-| Sensitive examples | Avoided or protected where needed |
-| Team records | Limited by organization role |
-
-TrainLayer AI helps users learn and build safely, but users remain responsible for data quality and sensitive content handling.
-
-### 3.12 CommunityLayer AI Privacy Model
-
-CommunityLayer AI handles community operations data.
-
-| Community Data | Permission Direction |
-|---|---|
-| Member list | Owner/admin/moderator access by role |
-| Messages | Used for moderation support and approved-answer workflows where allowed |
-| Rules and FAQ | Owner/admin approved |
-| Moderator notes | Restricted to moderators/admins |
-| Scam reports | Restricted and reviewed |
-| Contributor recognition | Reviewed by community owners |
-| Analytics | Aggregated where appropriate |
-| Platform context | Telegram, Facebook Groups, Discord, and other platform rules apply |
-| Escalation records | Restricted and handled carefully |
-
-CommunityLayer AI supports communities but does not replace human owners or platform enforcement.
-
-### 3.13 ZAGA and Wallet-Aware Privacy Model
-
-ZAGA can use wallet-aware access where legally and technically ready.
-
-| Wallet-Aware Area | Permission Direction |
-|---|---|
-| Wallet address | Used for access or eligibility checks where applicable |
-| Holder status | Used for role or recognition where allowed |
-| Token/NFT context | Used for utility checks where applicable |
-| Eligibility | Determined by final policy and jurisdiction rules |
-| Participation records | Reported in public-safe categories |
-| Public Vault Access | Uses eligibility-controlled and policy-defined access where implemented |
-| Community Participation | Uses readiness and compliance review |
-| Utility reporting | Aggregated or public-safe where appropriate |
-| Wallet connection | User-controlled and scoped where possible |
-
-Wallet-aware access does not mean unrestricted wallet surveillance or automatic financial entitlement.
-
-### 3.14 ZAGA Arena and ZAGA Districts Privacy Model
-
-Game/community products use gameplay and participation data.
-
-| Product | Data Area | Permission Direction |
-|---|---|---|
-| ZAGA Arena | Player profile | Game account and display controls |
-| ZAGA Arena | Match records | Used for gameplay, reports, leaderboards, and share cards |
-| ZAGA Arena | Leaderboards | Public or community-visible according to game rules |
-| ZAGA Arena | Events and rooms | Access controlled by event, community, or product rules |
-| ZAGA Districts | City records | Community/city workspace controls |
-| ZAGA Districts | Roles and NPCs | City owner/admin rules |
-| ZAGA Districts | Quests and contribution | Community permission controls |
-| ZAGA Districts | Digital-asset utility | Product and legal readiness controls |
-
-Game data is used for gameplay and community participation, not financial-return promises.
-
-### 3.15 QTB, AIMM, and AIE Privacy Model
-
-Intelligence products use market, event, and workspace context.
-
-| Product | Data Area | Permission Direction |
-|---|---|---|
-| QTB | Watchlists | User or workspace controlled |
-| QTB | Market reports | Shared by workspace and subscription rules |
-| QTB | User notes | Restricted to user/workspace |
-| AIMM | Monitoring records | Operator/workspace controlled |
-| AIMM | Scenario reviews | Restricted by project/workspace |
-| AIMM | Evidence records | Used for operator review and reporting |
-| AIE | Event watchlists | User/workspace controlled |
-| AIE | Opportunity notes | Restricted by workspace |
-| AIE | Alerts | Delivered according to user settings |
-
-Market and event data require source verification and user review.
-
-### 3.16 ToolGrid Privacy and Permission Model
-
-ToolGrid handles sponsored visibility and advertiser data.
-
-| ToolGrid Data | Permission Direction |
-|---|---|
-| Advertiser profile | Restricted by advertiser and admin role |
-| Sponsored placement | Reviewed before publication |
-| Destination URL | Checked for safety and relevance |
-| Creative assets | Reviewed for claims and policy |
-| Campaign reports | Shared with advertiser and platform roles |
-| Review status | Visible according to product rules |
-| Takedown records | Admin/reviewer controlled |
-| Scam/phishing flags | Restricted and reviewed |
-| Public sponsored label | Visible where applicable |
-
-ToolGrid uses review gates to protect public trust.
-
-### 3.17 Botmad Privacy and Permission Model
-
-Botmad handles supervised work and artifacts.
-
-| Botmad Data | Permission Direction |
-|---|---|
-| Work session | User/workspace controlled |
-| Uploaded files | Access by workspace and task scope |
-| Generated artifact | Reviewable and permission-bound |
-| Code support | Requires user review before use |
-| Research notes | Source-aware and reviewable |
-| Delivery records | File names, hashes, and completion summaries |
-| Logs | Restricted according to workspace and product rules |
-| Secrets | Protected and not exposed publicly |
-| Private documents | Kept within workspace and access scope |
-
-Botmad does not remove human review or operate as uncontrolled automation.
-
-### 3.18 Platform Credits Privacy Model
-
-Platform Credits create usage and billing records.
-
-| Credit Data | Permission Direction |
-|---|---|
-| Credit balance | Visible to owner/admin/billing roles |
-| Credit usage | Reported by product, workspace, and user role where applicable |
-| Purchases | Billing role access |
-| Grants | Admin or product role access |
-| Refunds / reversals | Billing and product policy controls |
-| Expiry | Product terms and account reporting |
-| Abuse flags | Restricted admin/review access |
-| Workspace allocation | Owner/admin controls |
-| Public metrics | Aggregate or public-safe only |
-
-Credit data supports product usage and billing, not token exposure.
-
-### 3.19 Integration Privacy Model
-
-Integrations require additional review.
-
-| Integration Type | Permission Direction |
-|---|---|
-| Payment integration | Payment provider rules, sensitive data controls, and transaction status limits |
-| Messaging integration | Telegram, LINE, email, SMS, or platform rules apply |
-| Spreadsheet integration | Source access, sync permission, and role-safe outputs |
-| Device integration | Device-specific data minimization and local setup responsibility |
-| Wallet integration | Wallet-aware access scope and user consent where applicable |
-| Market data integration | Licensing, source quality, and report boundaries |
-| Event data integration | Source verification and change monitoring |
-| Enterprise integration | Security, privacy, procurement, and data-processing review |
-| Advertising integration | Sponsored labeling, destination checks, and takedown controls |
-
-Integrations expand usefulness but require permission discipline.
-
-### 3.20 Public Reporting Privacy Model
-
-FUZE uses public-safe reporting.
-
-| Reporting Type | Public-Safe Direction |
-|---|---|
-| Product status | Live, in development, future-stage, partner-ready, or subject-to-review |
-| Product usage | Aggregated categories where accurate and appropriate |
-| Platform Credits | Usage categories, package categories, and product usage |
-| Tokenomics | Allocation, vault, controlled circulation, access-window, and migration categories |
-| Community activity | Aggregated activity and public-safe status |
-| Game activity | Leaderboards, events, and share cards according to game rules |
-| Sponsored visibility | Placement status, review status, and campaign reports where applicable |
-| Governance | Policy references, transaction references, and vault status where public-safe |
-| Incidents | Public-safe summaries where appropriate |
-| Privacy updates | Policy and product updates where relevant |
-
-Public reporting avoids exposing personal, customer, wallet-sensitive, security-sensitive, confidential partner, or private business data.
-
-## 4. Investor and Community Relevance
-
-Data privacy and permissioning matter because FUZE spans AI SaaS, shops, communities, Web3 utility, games, sponsored visibility, market intelligence, event intelligence, and supervised AI work.
-
-Investor relevance:
-
-- Shows FUZE treats privacy and permissions as platform infrastructure
-- Supports enterprise and SME readiness
-- Shows how Platform Credits, workspaces, roles, and reports can scale across products
-- Shows sensitive product categories have product-specific controls
-- Shows AI permissioning and data access are bounded
-- Shows wallet-aware access does not imply unrestricted wallet surveillance
-- Shows public reporting uses public-safe categories
-- Supports diligence around privacy, security, governance, and data controls
-
-Community relevance:
-
-- Helps users understand how product data is separated by role and workspace
-- Helps shop owners understand customer and shop data boundaries
-- Helps community owners understand moderation and member data handling
-- Helps Web3 users understand wallet-aware access boundaries
-- Helps advertisers understand ToolGrid review and reporting boundaries
-- Helps Botmad users understand artifacts, files, logs, and evidence records
-- Helps holders understand public reporting without private-data exposure
-- Reduces confusion around AI access and data visibility
-
-Strategic partner relevance:
-
-| Partner Type | Privacy and Permission Value |
-|---|---|
-| SMEs | Role-safe business workflows and customer data care |
-| Shops | ShopOS AI customer, order, queue, staff, payment-status, and dashboard controls |
-| Communities | CommunityLayer AI moderation support and member-data boundaries |
-| Web3 projects | ZAGA wallet-aware access and utility-reporting boundaries |
-| Advertisers | ToolGrid sponsor data, review status, and campaign reports |
-| Agencies | Client workspaces, Botmad artifacts, and report permissions |
-| Enterprises | Workspaces, roles, reporting, privacy, security, integrations, and governance |
-| Education partners | TrainLayer AI learner and assistant-building data controls |
-
-Privacy and permissioning help FUZE become more partner-ready.
-
-## 5. Public Boundary
-
-FUZE publicly presents the Data Privacy and Permission Model as a platform control model.
-
-FUZE publicly explains:
-
-- products use data for product-specific purposes
-- workspaces separate business, shop, community, agency, enterprise, game, advertiser, and partner data
-- roles control view, edit, approve, export, billing, integration, AI workflow, and reporting permissions
-- AI access is scoped and reviewable
-- customer data requires responsible handling
-- wallet-aware access uses scoped context where legally and technically ready
-- public reporting uses aggregate or public-safe categories where appropriate
-- integrations require product, privacy, security, and legal review
-- Platform Credits create product usage and billing records
-- privacy controls reduce risk but do not eliminate all risk
+| Wallet transparency | Does not mean public identity exposure. |
+| Private verification | Stays off-chain and permissioned where required. |
+| Workspace permissions | Reduce access risk but do not eliminate all risk. |
+| AI data access | Should follow permissions, but outputs require review. |
+| Partner access | Limited by role, agreement, and user permission. |
+| Platform Credits | Product usage records, not token rights. |
+| Stablecoin records | Payment records, not automatic distributions. |
+| Public reports | Should protect private data. |
+| Report hashes | Support integrity, not full audit or approval. |
+| Enterprise controls | Reduce risk but do not guarantee zero incident. |
+| SME controls | Improve usability but do not remove human-error risk. |
+| Community data | Requires admin permission and privacy awareness. |
+| Exchange custody | May require separate private records. |
+| OTC transfer | Public transfer does not expose all private agreement terms. |
+| Botmad | Requires permission controls for work-assistance access. |
+| Incident response | Improves resilience but cannot guarantee zero harm. |
 
-FUZE keeps the following areas subject to product, technical, legal, accounting, tax, privacy, compliance, payment, platform, AI provider, data, security, enterprise, partner, governance, jurisdiction, and operational review where applicable:
+---
 
-- exact privacy policy
-- exact data-processing terms
-- exact retention periods
-- exact deletion process
-- exact access-control architecture
-- exact encryption architecture
-- exact security controls
-- exact audit-log format
-- exact incident-response process
-- exact enterprise data terms
-- exact payment data handling
-- exact customer consent flow
-- exact wallet integration
-- exact data exports
-- exact integration contracts
-- exact public reporting format
-- exact regulatory status
-- exact certification status
-- exact AI provider data handling
-- exact third-party processor list
+## 36. Public Communication Standards
 
-The Data Privacy and Permission Model is not a privacy guarantee, security guarantee, breach-impossibility claim, legal compliance guarantee, regulatory approval claim, formal certification claim, or unlimited data-use policy.
+Approved data privacy wording:
 
-## 6. Risk Boundaries and Safeguards
+- wallet-level transparency
+- no public identity exposure by default
+- private verification stays off-chain and permissioned
+- workspace permissions
+- role-based access
+- product-specific permissions
+- AI data boundaries
+- data minimization
+- partner access controls
+- public-safe reporting
+- report hashes
+- audit trails where appropriate
+- access logs where appropriate
+- privacy-aware wallet participation
+- public records without personal identity exposure
+- data incident handling
 
-FUZE applies risk boundaries around data privacy and permissions.
+Avoided data privacy wording:
 
-### 6.1 Privacy Boundary
+- wallet transparency means all identities are public
+- FUZE publishes investor identities
+- FUZE publishes customer identities
+- public vaults expose private agreements
+- AI can access all user data
+- partners can access everything
+- no private verification is ever required
+- privacy is guaranteed perfectly
+- data breach is impossible
+- public reports prove full compliance
+- report hashes prove full audit
+- wallet records guarantee payout
+- stablecoin records guarantee distribution
 
-Privacy controls support responsible data handling. Product use can still require user consent, role permissions, retention rules, data-processing terms, platform rules, and jurisdiction-specific review.
+Data privacy language should be clear, practical, and careful.
 
-### 6.2 Security Boundary
+---
 
-Security controls reduce risk but do not eliminate all vulnerabilities, operational risks, human errors, third-party risks, platform risks, infrastructure risks, model risks, integration risks, device risks, or incident risks.
+## 37. Development Direction
 
-### 6.3 AI Access Boundary
+FUZE data privacy and permission model can develop through phases.
 
-AI workflows can only be as safe as their permissions, source quality, review process, and product controls. AI outputs can be incomplete, outdated, incorrect, or sensitive to source quality.
+### Phase 1: Data Category Mapping
 
-### 6.4 Customer Data Boundary
+Define account data, product data, business data, community data, AI data, payment data, Platform Credit data, stablecoin data, wallet data, private verification data, partner data, and security data.
 
-Customer data such as names, phone numbers, birthdays, orders, loyalty records, and payment-status context requires responsible collection, access limitation, retention handling, and product-policy review.
+### Phase 2: Workspace Permission Design
 
-### 6.5 Wallet-Aware Access Boundary
+Define owner, admin, manager, staff, viewer, finance, support, partner operator, AI user, AI reviewer, billing manager, developer, auditor, and restricted roles where appropriate.
 
-Wallet-aware access supports eligibility, access, recognition, and utility checks where legally and technically ready. It does not create unrestricted wallet surveillance, automatic financial entitlement, or token outcome assurance.
+### Phase 3: Product Permission Design
 
-### 6.6 Platform Credits Boundary
+Define permissions for HerHelp, SheetLayer AI, ShopOS AI, SpeakShop AI, TrainLayer AI, CommunityLayer AI, ZAGA, QTB, AIMM, AIE, ToolGrid AI, and Botmad.
 
-Platform Credits are for product usage and are not investment assets, payout assets, or FUZE tokens.
+### Phase 4: AI Data Boundary Design
 
-### 6.7 Public Reporting Boundary
+Define what each AI product can access, generate, store, summarize, export, or act on.
 
-Public reporting uses public-safe categories where appropriate and does not expose private user data, customer data, confidential business data, private wallet-sensitive information, security-sensitive records, private legal materials, or confidential partner terms.
+### Phase 5: Wallet and Public Record Design
 
-### 6.8 Integration Boundary
+Define wallet-level transparency, public vault labels, report hashes, token release records, snapshot records, eligibility status, and claim status without public identity exposure.
 
-Integrations with payments, wallets, messaging platforms, devices, market data, event data, spreadsheets, and enterprise systems can create additional privacy, security, reliability, and compliance risks. Integrations require review.
+### Phase 6: Private Verification Separation
 
-### 6.9 Community Data Boundary
+Define how legal, investor, jurisdiction, custody, eligibility, and claim-related verification stays off-chain, permissioned, and access-controlled.
 
-CommunityLayer AI supports moderation, safety, onboarding, engagement, analytics, and growth workflows. It does not replace human community owners, legal judgment, platform enforcement rules, or emergency safety escalation.
+### Phase 7: Partner Access Control
 
-### 6.10 Development Standards Boundary
+Define partner roles, customer permissions, product scope, data scope, reporting scope, audit logs, and revocation process.
 
-FUZE uses standards-inspired or standards-aligned processes. FUZE does not claim formal certification unless certification has been completed.
+### Phase 8: Public Reporting Privacy
 
-## 7. Reporting and Transparency Direction
+Define public-safe summaries, private data exclusions, report hashes, audit references, customer privacy, and correction process.
 
-FUZE reports data privacy and permission direction through public documentation, product pages, privacy-related pages, Platform Credit documentation, public papers, release notes, community FAQ, partner materials, enterprise materials, governance references, and transparency surfaces where applicable.
+### Phase 9: Ongoing Review
 
-Reporting areas include:
+Continue improving privacy, permissions, AI access, partner access, incident handling, retention, deletion, and reporting as products and user needs evolve.
 
-| Reporting Area | Public Direction |
-|---|---|
-| Data categories | Account, business, spreadsheet, shop, customer, payment-related, community, wallet, game, market, sponsored, AI work, and Platform Credit data |
-| Role permissions | Owner, admin, manager, staff, viewer, moderator, operator, analyst, advertiser, partner, client, player, community member, service, and AI workflow roles |
-| Workspace model | Personal, shop, business, agency, community, Web3 project, advertiser, game, enterprise, and partner workspaces |
-| Product privacy | HerHelp, SheetLayer AI, ShopOS AI, SpeakShop AI, TrainLayer AI, CommunityLayer AI, ZAGA, ZAGA Arena, ZAGA Districts, QTB, AIMM, AIE, ToolGrid, and Botmad controls |
-| AI permissioning | Scoped context, source separation, human review, tool limits, output approval, and logging where applicable |
-| Integrations | Payment, messaging, spreadsheet, device, wallet, market data, event data, advertising, and enterprise integration review |
-| Public reporting | Aggregated and public-safe categories |
-| Risk boundaries | Privacy, security, AI access, customer data, wallet-aware access, Platform Credits, public reporting, integrations, and community data boundaries |
+These phases are development directions, not guaranteed launch dates.
 
-FUZE uses reporting to make privacy and permission direction understandable without exposing sensitive details.
+---
 
-## 8. Conclusion
+## 38. Key Takeaways
 
-FUZE uses the Data Privacy and Permission Model to make product usage safer, clearer, and more scalable.
+FUZE Data Privacy and Permission Model explains user data handling, workspace permissions, wallet-level transparency, private verification separation, AI data boundaries, product data access, partner access, and public identity protection.
 
-The model connects workspaces, roles, permissions, AI workflows, sensitive data controls, customer data care, wallet-aware access, Platform Credits, integrations, public-safe reporting, and product-specific privacy boundaries.
+FUZE is product-first.
 
-HerHelp, SheetLayer AI, ShopOS AI, SpeakShop AI, TrainLayer AI, CommunityLayer AI, ZAGA, ZAGA Arena, ZAGA Districts, QTB, AIMM, AIE, ToolGrid, Botmad, and FUZE Core Platform all depend on responsible data handling and permission design.
+FUZE is a transparency-first AI SaaS platform.
 
-FUZE token is for ecosystem participation. Platform Credits are for product usage. Stablecoins pay for work. FUZE tokens align long-term participation.
+FUZE uses one token only: FUZE token.
 
-Product usage comes first. Platform rails come second. Broader ecosystem participation comes after that.
+FUZE token is the single ecosystem token of FUZE.
+
+FUZE uses wallet-level transparency without public identity exposure.
+
+Public wallet records may show wallet addresses, vault activity, report hashes, audit records, token release records, snapshot records, eligibility status, and claim status where applicable.
+
+FUZE does not publish personal identity publicly by default.
+
+Private verification, if required, stays off-chain, permissioned, access-controlled, and separated from public blockchain records.
+
+Workspace permissions define who can access product data, reports, payment records, Platform Credit records, wallet records, AI outputs, and partner workflows.
+
+AI data access should follow product scope, user permission, workspace permission, file permission, and data minimization principles.
+
+Partner data access should be limited by role, customer permission, product scope, agreement, reporting need, and audit logs.
+
+Platform Credit records are product usage records and are separate from FUZE token.
+
+Stablecoin records are payment, settlement, treasury, and compensation records.
+
+Public reports should protect customer identity, investor identity, private agreements, private verification records, private AI prompts, confidential business data, and sensitive payment context.
+
+Report hashes support record integrity, but they are not full audits, legal approvals, accounting approvals, or payout approvals.
+
+Botmad and AI-agent workflows need strong permission controls because they may assist across files, tasks, reports, messages, and operational workflows.
+
+Wallet-based participation ability, if activated, requires privacy-aware eligibility, snapshot, claim, private verification, jurisdiction, custody, and reporting design.
+
+Data privacy controls reduce risk, but they do not guarantee perfect privacy, zero data incident, zero unauthorized access, AI accuracy, product adoption, business revenue, token demand, liquidity, listing, payout, exit, or investment return.
+
+FUZE does not guarantee perfect privacy, zero data incident, zero unauthorized access, business revenue, customer growth, community growth, AI accuracy, token demand, token price, listing, liquidity, market support, trading volume, payout, income, yield, profit, acquisition, exit, smart-contract security, or investment return.

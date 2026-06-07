@@ -2,603 +2,1222 @@
 
 ## Executive Summary
 
-FUZE uses a product-first revenue model built around practical AI SaaS usage, Platform Credits, subscriptions, add-ons, partner packages, sponsored visibility, intelligence reports, supervised work sessions, game/community product actions, and managed services.
+FUZE Product Revenue Model explains how FUZE products may generate revenue, how Platform Credit revenue is treated, how stablecoin payments support settlement, how product revenue is classified, what value is excluded, how reconciliation works, how reserves and costs affect revenue, and how product revenue differs from approved distributable value.
 
-FUZE’s revenue model starts from a simple principle:
+FUZE is a transparency-first AI SaaS platform building practical products on shared infrastructure for identity, credits, payments, AI orchestration, wallet-based records, reporting, and ecosystem participation.
 
-**Product usage first. Platform rails second. Broader ecosystem participation after that.**
+FUZE follows product-first execution. Product usage comes first, platform rails come second, and broader ecosystem participation comes after that.
 
-FUZE is not designed as a token-first revenue story. FUZE is designed as a transparency-first AI SaaS platform where products create usage, Platform Credits measure usage, shared rails reduce duplicated infrastructure, and ecosystem participation grows after product value becomes clearer.
+FUZE uses one token only: FUZE token.
 
-FUZE launch focus is HerHelp.com and ZAGA.io, supported by FUZE Core Platform rails and accelerated internally by Botmad.
+FUZE token is the single ecosystem token of FUZE. It supports product-connected utility, ecosystem participation, platform alignment, governance direction where applicable, and wallet-based participation ability.
 
-HerHelp.com creates practical AI SaaS revenue direction for SMEs, shop owners, creators, educators, teams, and communities. ZAGA.io creates token utility, wallet-aware access, game/community participation, and Web3 utility surfaces. FUZE Core Platform creates shared rails for identity, credits, payments, AI orchestration, reporting, privacy, security, governance, and transparency. Botmad accelerates internal execution and creates supervised-work product optionality.
+The FUZE revenue model is based on practical product usage, not token speculation alone.
 
-FUZE token is for ecosystem participation. Platform Credits are for product usage. Stablecoins pay for work. FUZE tokens align long-term participation.
+Possible revenue paths may come from Platform Credit purchases, AI SaaS subscriptions, usage-based product fees, product modules, shop packages, training packages, community operation packages, event intelligence packages, sponsored visibility packages, QTB reports, AIMM reports, Botmad work-assistance sessions, ZAGA utility services where defined and compliant, and partner service fees tied to product delivery.
 
-This paper defines the public FUZE revenue model, product-by-product revenue directions, Platform Credits economics, subscription and usage-pack model, add-on revenue model, partner and enterprise packages, sponsored visibility model, managed-service model, reporting direction, public boundary, and risk safeguards.
+Product revenue, if generated, does not automatically become approved distributable value.
 
-## 1. FUZE Position
+Approved distributable value is a narrower, reviewed, reconciled, adjusted, reserved, reported, and approved concept. It may matter only if a wallet-based participation framework becomes active and all required gates are ready.
 
-FUZE presents revenue as product usage revenue, not token speculation.
+FUZE does not guarantee product revenue, customer growth, business revenue, approved distributable value, payout, income, dividend, yield, profit, token price, listing, liquidity, market support, trading volume, exit, acquisition, game earnings, AI accuracy, community growth, or investment return.
 
-FUZE position:
+---
 
-**FUZE revenue direction comes from practical products, usage-based software actions, subscriptions, Platform Credits, add-ons, partner packages, sponsored visibility, supervised work, intelligence reports, and product services.**
+## 1. Investor Purpose
 
-FUZE uses public revenue language carefully. FUZE can describe revenue direction and business model categories, but FUZE does not guarantee product revenue, user growth, customer growth, shop revenue, sponsored performance, enterprise adoption, investor return, token price, liquidity, listing, payout, or market outcome.
+This paper gives investors a clear view of how FUZE can create product revenue and how that revenue is separated from token claims, treasury balances, seed funding, Platform Credits, stablecoin rails, and possible future wallet-based participation.
 
-The model is structured around five revenue pillars:
+It answers:
 
-| Revenue Pillar | Public Meaning |
+- What are FUZE’s possible product revenue sources?
+- How do Platform Credits connect to product revenue?
+- How do stablecoin payments support payment and settlement?
+- How should FUZE classify revenue?
+- What is excluded from product revenue?
+- What is excluded from approved distributable value?
+- How does revenue reconciliation work?
+- Why does product revenue not automatically go to token holders?
+- How can product revenue support investor evaluation?
+- What risk boundaries should investors understand?
+
+This paper is not an accounting policy, tax policy, legal opinion, securities opinion, financial advice, investment advice, token sale document, private investor agreement, payout policy, claim instruction, revenue guarantee, or return promise.
+
+It is a public investor-facing revenue model explanation.
+
+---
+
+## 2. FUZE Revenue Position
+
+FUZE’s public revenue position is:
+
+FUZE product revenue comes from practical product usage when users, customers, partners, or communities pay for supported FUZE products or services.
+
+This position has six parts.
+
+| Area | FUZE Position |
 |---|---|
-| SaaS subscriptions | Recurring access to FUZE products and modules |
-| Platform Credits | Product usage credits for AI actions, reports, workflows, sponsored visibility, game-related product actions, and supervised work |
-| Add-ons and usage packs | Extra modules, higher usage, devices, branches, reports, seats, automations, campaigns, or workspaces |
-| Partner and managed-service packages | Agency, enterprise, community, Web3, advertiser, SME network, and implementation packages |
-| Sponsored visibility and intelligence products | ToolGrid placements, QTB reports, AIMM monitoring, AIE event intelligence, and product-specific reports |
+| Product-first revenue | Revenue is connected to useful products and services, not token speculation alone. |
+| Platform Credit usage | Platform Credits support product usage and may create product payment records. |
+| Stablecoin rails | Stablecoins may support payment, settlement, treasury, and compensation. |
+| Revenue classification | Product revenue must be recorded, confirmed, reconciled, and classified. |
+| Approved distributable value separation | Product revenue does not automatically become approved distributable value. |
+| No-guarantee boundary | Revenue is not guaranteed and does not guarantee payout, token price, liquidity, or return. |
 
-The revenue model is product-first and measurable.
+FUZE revenue language must remain clear because product revenue can easily be misunderstood as token-holder income.
 
-## 2. Platform Context
+Boundary:
 
-FUZE is a transparency-first AI SaaS platform building practical products on top of shared infrastructure for identity, credits, payments, AI orchestration, reporting, and ecosystem participation.
+FUZE may build revenue paths, but it does not guarantee revenue.
 
-The revenue model connects to FUZE’s platform layers in the following way:
+---
 
-| Platform Layer | Revenue Relationship |
+## 3. Why the Revenue Model Matters to Investors
+
+Investors need to understand whether FUZE has practical ways to earn from products, not only from token attention.
+
+A strong revenue model helps investors evaluate:
+
+- product usefulness
+- customer payment willingness
+- pricing logic
+- credit usage
+- subscription potential
+- usage-based revenue potential
+- service revenue potential
+- reporting quality
+- reconciliation discipline
+- operating costs
+- reserves
+- long-term sustainability
+- token utility context
+- wallet-based participation boundaries
+
+Revenue clarity also prevents confusion.
+
+Public readers should not assume that every product payment becomes token-holder payout.
+
+Product revenue is a business input.
+
+Approved distributable value, if ever activated, is a separate reviewed output.
+
+Boundary:
+
+Revenue model clarity supports investor evaluation, but it does not guarantee revenue, payout, token demand, liquidity, listing, exit, or investment return.
+
+---
+
+## 4. Core Product Revenue Thesis
+
+FUZE revenue thesis is based on product usage across multiple practical product lines.
+
+The thesis is:
+
+Users pay for useful AI SaaS workflows, shop systems, community tools, training tools, event intelligence, market interpretation, liquidity operation reports, sponsored visibility, desktop work assistance, and game utility services. FUZE organizes those payments through Platform Credits, direct product fees, subscriptions, stablecoin rails, and product-specific packages where appropriate.
+
+The revenue thesis has four layers.
+
+### 4.1 Product Layer
+
+Products create user-facing value.
+
+### 4.2 Payment Layer
+
+Users pay through Platform Credits, subscriptions, usage fees, packages, direct service fees, or supported payment rails.
+
+### 4.3 Record Layer
+
+Payments, credits, usage, refunds, chargebacks, fees, costs, and reserves require accurate records.
+
+### 4.4 Reporting Layer
+
+Revenue categories may be summarized in public-safe reports where appropriate.
+
+Boundary:
+
+A revenue thesis is not a revenue guarantee.
+
+---
+
+## 5. Product Revenue Source Categories
+
+FUZE may generate revenue from multiple product categories where products are active and users pay for supported services.
+
+| Revenue Category | Description |
 |---|---|
-| Product layer | HerHelp, ZAGA, ZAGA Arena, ZAGA Districts, QTB, AIMM, AIE, ToolGrid, Botmad, and related modules create use cases |
-| Platform Credits layer | Credits meter product usage and help connect AI cost to user value |
-| Payment layer | Subscriptions, usage packs, add-ons, partner packages, sponsored visibility, and services require payment workflows |
-| AI orchestration layer | AI usage becomes productized through reports, workflows, generated assets, validation, monitoring, and supervised output |
-| Reporting layer | Credit usage, product usage, billing reports, workspace dashboards, and public-safe metrics improve transparency |
-| Governance layer | Product terms, refund rules, expiry rules, sponsored review, legal boundaries, and risk language protect public trust |
-| Ecosystem layer | FUZE token and ZAGA utility support broader participation without replacing product revenue |
-| Transparency layer | Public papers and dashboards explain revenue categories without unsupported financial claims |
-
-This structure allows FUZE to build products that can monetize independently while benefiting from shared rails.
-
-## 3. Public Model
+| Platform Credit Purchases | Users buy credits for supported product usage. |
+| AI SaaS Subscriptions | Users or teams pay recurring fees for access to products or modules. |
+| Usage-Based Product Fees | Users pay based on tasks, reports, AI runs, seats, usage volume, or workflow volume. |
+| Product Module Fees | Users pay for specific modules, add-ons, dashboards, agents, or integrations. |
+| Shop Packages | Shops pay for ShopOS AI workflows, QR menu, queue, reports, loyalty, stock, delivery, or device support. |
+| Training Packages | Users, teams, shops, or communities pay for TrainLayer AI materials, quizzes, SOPs, and guides. |
+| Community Operation Packages | Groups pay for CommunityLayer AI moderation, summaries, verification, safety, support, and reports. |
+| Event Intelligence Packages | Events pay for AIE planning, recaps, sponsor reports, feedback summaries, and campaign summaries. |
+| Sponsored Visibility Packages | Projects pay for ToolGrid AI visibility, listing support, descriptions, and campaign reporting. |
+| QTB Reports | Users pay for market interpretation reports, summaries, watchlists, or research workflows. |
+| AIMM Reports | Users pay for liquidity operation summaries, venue notes, order-book observations, and market-operation reports. |
+| Botmad Sessions | Users pay for AI Desktop Employee work-assistance sessions or packages. |
+| ZAGA Utility Services | Users pay for game utility surfaces where defined and compliant. |
+| Partner Service Fees | Partners pay for implementation, setup, integration, reporting, or product delivery services. |
 
-### 3.1 Revenue Model Definition
+These are possible revenue paths, not guaranteed revenue.
 
-FUZE revenue model means product usage monetization across product lines.
+---
 
-| Revenue Type | Public Role |
-|---|---|
-| Subscription revenue | Recurring product access for individuals, shops, teams, communities, agencies, or businesses |
-| Platform Credit revenue | Usage-based product actions measured by credits |
-| Usage-pack revenue | Additional credits for higher-volume users |
-| Add-on revenue | Optional modules, premium features, devices, branches, reports, automations, or integrations |
-| Workspace revenue | Team, business, shop, agency, enterprise, community, or project workspace billing |
-| Partner package revenue | Packages for agencies, advertisers, Web3 projects, communities, SME networks, and enterprise partners |
-| Managed-service revenue | Setup, implementation, documentation, report delivery, campaign support, or supervised work |
-| Sponsored visibility revenue | ToolGrid placements, sponsored cards, promoted tools, campaign reports, and review workflows |
-| Intelligence product revenue | QTB, AIMM, and AIE reports, alerts, monitoring, scenario reviews, and workflow outputs |
-| Game/community product revenue | ZAGA Arena and ZAGA Districts product actions, events, rooms, city services, reports, and campaigns where product rules allow |
-
-Revenue direction remains subject to actual adoption, market fit, product readiness, payment rails, pricing, support capacity, operations, legal review, and customer demand.
+## 6. Product-by-Product Revenue View
 
-### 3.2 Why Platform Credits Matter
+FUZE products may have different revenue logic.
 
-Recent AI software pricing trends show a move away from unlimited or unclear AI usage and toward measurable usage, outcome alignment, cost visibility, and spending controls. AI usage can create unpredictable costs when products depend on generation, reasoning, data processing, and agent-like workflows. FUZE’s Platform Credits model directly addresses this by giving product usage a measurable rail.
+### 6.1 HerHelp
 
-Platform Credits support:
-
-| Credit Function | Investor-Relevant Role |
-|---|---|
-| Meter usage | Tracks product actions, AI actions, reports, workflows, and sponsored visibility |
-| Control AI cost | Connects AI consumption to user plans, limits, and credit balances |
-| Support freemium entry | Allows limited free usage or trial usage where product rules allow |
-| Support subscriptions | Bundles credits into recurring packages |
-| Support add-ons | Allows users to buy more usage without changing product structure |
-| Support partner billing | Gives agencies, enterprises, communities, and advertisers workspace-level usage |
-| Support reporting | Creates dashboards, billing records, owner reports, and usage analytics |
-| Support fairness | Reduces abuse and clarifies high-usage behavior |
+HerHelp may generate revenue through AI SaaS subscriptions, Platform Credit usage, product modules, workflow packs, business tools, reports, and service packages.
 
-Platform Credits are product usage credits and are not investment assets, payout assets, or FUZE tokens.
+Boundary:
 
-### 3.3 Product Revenue Stack
+HerHelp does not guarantee business revenue, customer growth, or perfect AI output.
 
-FUZE revenue can be organized into one product stack.
+### 6.2 SheetLayer AI
 
-| Stack Layer | Revenue Direction |
-|---|---|
-| Entry layer | Free package, starter package, trials, limited credits, demo access, public tools, onboarding |
-| Core subscription layer | Monthly or annual plans by product, workspace, shop, team, community, agency, or business |
-| Usage layer | Platform Credits for AI actions, reports, workflows, sponsored visibility, game-related product actions, and supervised work |
-| Add-on layer | Devices, branches, seats, premium reports, automations, campaigns, integrations, advanced analytics, and higher limits |
-| Partner layer | Agency, advertiser, community, Web3 project, SME network, and enterprise packages |
-| Managed-service layer | Setup, migration, implementation, content, documentation, analysis, campaign operation, and delivery services |
-| Intelligence layer | Market, event, opportunity, liquidity, and reporting products |
-| Sponsored layer | ToolGrid sponsored placements and campaign reports |
-| Ecosystem layer | ZAGA utility, public vault access where approved, community participation where final policy allows, and ecosystem reporting |
+SheetLayer AI may generate revenue through spreadsheet mapping, dashboards, formula explanation, workflow automation, data sync summaries, and business data views.
 
-This stack lets FUZE monetize at different user maturity levels.
+Boundary:
 
-### 3.4 HerHelp Revenue Model
+SheetLayer AI does not guarantee data accuracy, accounting correctness, tax correctness, or financial correctness.
 
-HerHelp is FUZE’s practical AI SaaS suite for SMEs, shop owners, creators, educators, teams, and community-based businesses.
+### 6.3 ShopOS AI
 
-HerHelp revenue directions include:
+ShopOS AI may generate revenue through shop packages, QR menu tools, checkout, queue, loyalty, stock, staff, delivery, reports, TrustCheck, device support, Google Sheets sync, and AI assistance.
 
-| Revenue Direction | Public Role |
-|---|---|
-| Subscription plans | Recurring access to HerHelp and selected modules |
-| Platform Credit usage | AI actions, reports, dashboards, workflow actions, summaries, and automations |
-| Module add-ons | SheetLayer AI, ShopOS AI, SpeakShop AI, TrainLayer AI, CommunityLayer AI |
-| Workspace billing | Business, team, shop, classroom, community, or client workspace usage |
-| Setup packages | Assisted onboarding, data import, workflow setup, dashboard setup, and guided configuration |
-| Template packs | Business templates, shop templates, training templates, community templates, and report templates |
-| Support packages | Priority support, implementation support, review support, and managed product assistance |
-| Partner packages | Agency, SME network, school, community, or franchise packages |
+Boundary:
 
-HerHelp revenue is practical and Web2-friendly. Users can pay for software usage without needing token exposure.
+ShopOS AI does not guarantee shop revenue, foot traffic, payment approval, customer retention, delivery result, or staff performance.
 
-### 3.5 SheetLayer AI Revenue Model
+### 6.4 SpeakShop AI
 
-SheetLayer AI turns messy business spreadsheets into ready-to-use dashboards, role-safe views, workflows, sync systems, and LINE-ready business tools.
+SpeakShop AI may generate revenue through promotional voice scripts, sound packs, announcement packs, queue announcements, event audio, and campaign message packs.
 
-Revenue directions include:
+Boundary:
 
-| Revenue Direction | Public Role |
-|---|---|
-| Sheet mapping credits | Credits for mapping sheets, columns, tabs, formulas, and business meaning |
-| Dashboard plans | Recurring access to dashboards, tables, role-safe views, and mobile views |
-| Sync usage | Credits or add-ons for daily sync, scheduled sync, or data update workflows |
-| Workflow actions | Credits for converting records into tasks, follow-ups, approvals, and reports |
-| Permission add-ons | Role-safe views, sensitive-field handling, access control, and reporting |
-| Implementation packages | Migration, setup, data cleanup, template creation, and business workflow design |
-| Team workspace | Multi-user business access and shared dashboard usage |
-| Enterprise / agency package | Managed spreadsheet-to-dashboard deployment for clients or departments |
+SpeakShop AI does not guarantee customer conversion, foot traffic, sales growth, or campaign success.
 
-SheetLayer AI creates revenue from a familiar business-data problem: spreadsheets that need structure, dashboards, workflows, and safer access.
+### 6.5 TrainLayer AI
 
-### 3.6 ShopOS AI Revenue Model
+TrainLayer AI may generate revenue through training packages, quizzes, guides, SOP conversion, onboarding materials, and staff or customer education workflows.
 
-ShopOS AI turns one QR code into a small-shop operating system for menu, checkout, queue, payment, loyalty, delivery order, stock check, staff workflow, and owner dashboard.
+Boundary:
 
-Revenue directions include:
+TrainLayer AI does not guarantee learning outcomes, certification validity, compliance, or staff performance.
 
-| Revenue Direction | Public Role |
-|---|---|
-| Starter subscription | Low-cost monthly access for small shops |
-| Platform Credit usage | AI reports, promotion text, TrustCheck, customer summaries, loyalty actions, and owner dashboard insights |
-| Add-on modules | Loyalty, stock, staff, branches, delivery channel tracking, campaigns, and advanced reports |
-| Device add-ons | Queue screen, kitchen screen, printer, speaker, cashier display, and device management |
-| Payment / checkout support | Payment workflows where product and payment provider rules allow |
-| Setup package | Menu setup, QR setup, product import, branch setup, staff setup, and training |
-| Branch package | Multi-branch owner dashboard, branch reports, staff controls, and shared product lists |
-| Partner / franchise package | Packages for malls, food courts, SME networks, agencies, and shop groups |
+### 6.6 CommunityLayer AI
 
-ShopOS AI revenue depends on product adoption, local market fit, payment rails, support quality, device compatibility, and shop owner value.
+CommunityLayer AI may generate revenue through community packages for moderation, verification, safety, support, reporting, summaries, and community operations.
 
-### 3.7 SpeakShop AI Revenue Model
+Boundary:
 
-SpeakShop AI turns a phone, tablet, or connected speaker into an AI front-shop voice promoter for small businesses.
+CommunityLayer AI does not guarantee perfect moderation, scam prevention, abuse prevention, support resolution, or community growth.
 
-Revenue directions include:
+### 6.7 ZAGA
 
-| Revenue Direction | Public Role |
-|---|---|
-| Subscription plan | Monthly access to voice promotion features |
-| Voice generation credits | Credits for AI-generated scripts and voice files |
-| Sound packs | Pre-made promotion packs, seasonal campaigns, language packs, and product packs |
-| Campaign scheduling | Scheduled announcements, time slots, daypart campaigns, and event campaigns |
-| Device support | Phone, tablet, speaker, queue speaker, or connected device workflows |
-| Shop package | Bundle with ShopOS AI for menu, queue, promotion, and customer flow |
-| Setup service | Voice style setup, script writing, device setup, and campaign setup |
-| Partner package | Mall, market, event, franchise, and agency voice promotion packages |
+ZAGA may generate revenue through game utility services, ecosystem utility surfaces, community game tools, and product-connected game services where defined and compliant.
 
-SpeakShop AI supports AI-generated voice promotion. Shop owners remain responsible for message approval, local noise rules, product accuracy, customer experience, and device placement.
+Boundary:
 
-### 3.8 TrainLayer AI Revenue Model
+ZAGA game values and game economies are game mechanics or controlled utility surfaces, not guaranteed financial earnings.
 
-TrainLayer AI helps non-technical teams learn practical AI concepts, prepare their own data, build specialized AI assistants, validate quality and safety, deploy into real workflows, and improve over time.
+### 6.8 QTB
 
-Revenue directions include:
+QTB may generate revenue through AI market interpretation reports, research summaries, watchlist notes, market education workflows, and trader journal support.
 
-| Revenue Direction | Public Role |
-|---|---|
-| Course subscriptions | Recurring learning access for individuals, schools, teams, and organizations |
-| Workshop packages | Paid workshops for AI basics, data preparation, assistant building, validation, and deployment |
-| Assistant-building credits | Credits for assistant setup, testing, evaluation, and improvement |
-| Validation reports | Paid reports for quality, hallucination risk, safety, and workflow readiness |
-| Team packages | Business, classroom, SME, community, or enterprise training bundles |
-| Certification-style completion records | Course completion and skill records without unsupported formal certification claims |
-| Implementation support | Assisted deployment into real workflows |
-| Partner packages | Schools, training centers, agencies, communities, and organizations |
+Boundary:
 
-TrainLayer AI supports learning and deployment. It does not guarantee perfect AI accuracy, complete hallucination removal, legal compliance by default, or fully automated operational replacement.
+QTB is not financial advice, investment advice, trading instruction, guaranteed market prediction, or autonomous trading execution.
 
-### 3.9 CommunityLayer AI Revenue Model
+### 6.9 AIMM
 
-CommunityLayer AI helps community owners protect members, welcome newcomers, answer repeated questions, create lively conversations, recognize contributors, track community health, and grow safely across Telegram, Facebook Groups, Discord, and future community platforms.
+AIMM may generate revenue through liquidity operation summaries, venue comparison notes, order-book observation reports, market maker communication summaries, liquidity risk reports, and public-safe market operation reports.
 
-Revenue directions include:
+Boundary:
 
-| Revenue Direction | Public Role |
-|---|---|
-| Community subscription | Monthly access by group, server, community, or workspace |
-| Moderation-support credits | Credits for review, summaries, scam screening, and approved-answer workflows |
-| Onboarding add-ons | Welcome flows, rules, FAQ, role setup, verification, and newcomer journeys |
-| Analytics reports | Community health, engagement, contributor, safety, and growth workflow reports |
-| Campaign packages | Events, contributor programs, referral campaigns, and community activation workflows |
-| Platform packages | Telegram, Facebook Groups, Discord, and future platform support |
-| Managed community setup | Done-with-you setup, policy setup, FAQ setup, and moderation workflow setup |
-| Web3 community package | Token/NFT/wallet-aware access, role recognition, reporting, and ZAGA utility integration where allowed |
+AIMM does not guarantee liquidity, price support, listing, market outcome, trading volume, trading profit, payout, income, yield, profit, or investment return.
 
-CommunityLayer AI supports moderation, safety, onboarding, engagement, analytics, and growth workflows. It does not replace human community owners, legal judgment, platform enforcement rules, or emergency safety escalation.
+### 6.10 AIE
 
-### 3.10 ZAGA Revenue Model
+AIE may generate revenue through event intelligence packages, planning support, sponsor reports, campaign summaries, participant feedback summaries, and event recaps.
 
-ZAGA is FUZE’s Token Utility OS for structured token utility, wallet-aware access, participation systems, and day-one utility surfaces.
+Boundary:
 
-Revenue directions include:
+AIE does not guarantee attendance, ticket sales, sponsor revenue, partner conversion, or campaign success.
 
-| Revenue Direction | Public Role |
-|---|---|
-| Utility setup packages | Token utility setup, wallet-aware access, campaign setup, and participation-system setup |
-| Platform Credit usage | Access checks, reports, campaigns, utility actions, and product services |
-| Partner utility packages | Web3 projects, communities, games, and ecosystems using ZAGA utility surfaces |
-| Public Vault Access support | Setup and reporting where final policy allows |
-| Community Participation support | Participation window setup, eligibility, lockup, reporting, and risk messaging where final policy allows |
-| ZAGA Arena integrations | Game utility, events, rooms, recognition, and community campaigns |
-| ZAGA Districts integrations | Community city setup, roles, utility systems, and reporting |
-| Reporting packages | Utility reports, participation reports, campaign reports, and wallet-aware access reports |
+### 6.11 ToolGrid AI
 
-ZAGA revenue direction is product utility revenue, not token-sale revenue.
+ToolGrid AI may generate revenue through sponsored visibility, listing packages, tool descriptions, comparison summaries, campaign reports, and utility network placement.
 
-### 3.11 ZAGA Arena Revenue Model
+Boundary:
 
-ZAGA Arena is the fast battle arena game where players survive, fight bosses, collect game resources, build Net Worth, and compete in Telegram-ready multiplayer arenas.
+ToolGrid AI does not guarantee ranking, clicks, conversion, sales, or user acquisition.
 
-Revenue directions include:
+### 6.12 Botmad
 
-| Revenue Direction | Public Role |
-|---|---|
-| Game-related product actions | Platform Credit usage for events, rooms, reports, share cards, or premium product actions where rules allow |
-| Cosmetic items | Visual customization where product rules allow |
-| Event access | Community events, private rooms, competitions, and partner campaigns where applicable |
-| Sponsor campaigns | Sponsored game events or branded campaigns subject to review |
-| Community packages | Telegram community game rooms, group events, and leaderboard campaigns |
-| Partner packages | Web3 community campaigns, launches, product events, and game participation workflows |
-| Reporting | Player, event, room, community, and campaign reports |
-| ZAGA utility integration | Wallet-aware recognition and utility surfaces where allowed |
+Botmad may generate revenue through AI Desktop Employee sessions, workflow assistance packages, team seats, document drafting, operational summaries, and permission-controlled work support.
 
-ZAGA Arena uses market-inspired game resources and scoring language. Public communication separates gameplay progression, leaderboard scoring, and in-game resources from financial return promises.
+Boundary:
 
-### 3.12 ZAGA Districts Revenue Model
+Botmad does not guarantee perfect output, error-free work, productivity improvement, or business success.
 
-ZAGA Districts is a Telegram-native cyberpunk MMORPG where real communities build cities, manage economies, hire NPCs, and compete for power.
+---
 
-Revenue directions include:
+## 7. Platform Credit Revenue Model
 
-| Revenue Direction | Public Role |
-|---|---|
-| City packages | Community city creation, role systems, city tools, and setup |
-| Platform Credit usage | City actions, NPC systems, quest tools, reports, AI content support, and access tools |
-| Community packages | Telegram group onboarding, city dashboards, quests, contribution systems, and reporting |
-| Digital-asset utility services | Identity, access, utility, contribution, and reward systems where applicable |
-| Partner campaigns | Sponsored districts, quests, events, and community activations under review |
-| Managed setup | City design, economy setup, NPC setup, quest setup, and community training |
-| Reports | City health, contribution, event, economy, and community reports |
-| ZAGA integration | Wallet-aware roles and utility where legally and technically ready |
+Platform Credits are product usage credits.
 
-ZAGA Districts is not positioned as a casino, pure play-to-earn scheme, or guaranteed income product.
+They can support revenue by giving users a simple product-usage payment layer.
 
-### 3.13 QTB Revenue Model
+Platform Credit revenue may come from:
 
-QTB is FUZE’s AI-powered trading intelligence and market interpretation product for crypto participants.
+- credit purchases
+- monthly credit packages
+- prepaid credit bundles
+- workspace credit top-ups
+- product-specific credit packs
+- bonus credit campaigns where paid value is clearly separated from promotional value
+- enterprise or shop credit plans
+- community credit plans
+- report credit usage
+- AI workflow credit usage
+- Botmad session credit usage
 
-Revenue directions include:
+Platform Credits may be useful because they can make pricing easier across multiple products.
 
-| Revenue Direction | Public Role |
-|---|---|
-| Subscription plans | Recurring access to market intelligence and watchlists |
-| Report credits | Credits for market summaries, token reports, watchlists, alerts, and research packs |
-| Workspace plans | Team or community access to reports and dashboards |
-| Web3 community packages | Community research, content, market summaries, and education reports |
-| Partner reports | Custom research packs for Web3 projects, communities, or operators |
-| API / data packages | Data access where technically and legally ready |
-| Managed research | Analyst-assisted reports and market context preparation |
-| Education packages | Market literacy and interpretation guides |
+Instead of every product having a separate billing method, FUZE can use credits as a shared product usage layer.
 
-QTB provides AI-assisted market intelligence, interpretation, research support, and decision-support workflows. QTB does not provide financial advice, guaranteed trading results, autonomous trading execution, or profit assurance.
+Boundary:
 
-### 3.14 AIMM Revenue Model
+Platform Credits are not FUZE token, not investment rights, not income rights, not governance rights, not participation rights, and not claim rights.
 
-AIMM is FUZE’s AI-powered market-making and liquidity-operations support product for digital-asset ecosystems.
+---
 
-Revenue directions include:
+## 8. Direct Subscription Revenue
 
-| Revenue Direction | Public Role |
-|---|---|
-| Monitoring subscriptions | Recurring access to market-operations dashboards and alerts |
-| Report credits | Credits for liquidity reports, scenario reviews, venue summaries, and operations records |
-| Operator workspace | Team-based workflows for market-operations monitoring and review |
-| Project packages | Web3 projects and token ecosystems needing market-operations intelligence |
-| Exchange-readiness support | Documentation, monitoring, and reporting support where applicable |
-| Scenario review packages | Unlock, listing-readiness, liquidity, volatility, campaign, and treasury movement scenario reviews |
-| Audit / evidence reports | Reviewable records for operator decisions and public-safe summaries |
-| Managed operations support | Human-reviewed workflows and operator context preparation |
+FUZE products may also use direct subscriptions.
 
-AIMM provides AI-assisted market-operations intelligence, monitoring, workflow support, and operator-ready context. AIMM does not guarantee liquidity, trading profit, listing performance, market outcome, or autonomous market action without controlled permissions.
+Possible subscription models include:
 
-### 3.15 AIE Revenue Model
+- monthly user plan
+- monthly workspace plan
+- shop plan
+- community plan
+- team plan
+- enterprise plan
+- report plan
+- AI agent plan
+- training plan
+- sponsored visibility plan
+- game utility plan where compliant
+- Botmad seat plan
 
-AIE is FUZE’s AI-powered event intelligence and opportunity discovery product.
+Subscriptions may create more predictable product revenue than one-time usage fees, but they depend on product quality, retention, pricing, customer support, and user demand.
 
-Revenue directions include:
+Boundary:
 
-| Revenue Direction | Public Role |
-|---|---|
-| Event discovery subscriptions | Recurring access to curated event intelligence |
-| Alert credits | Credits for event alerts, opportunity maps, and relevance scoring |
-| Report packs | Event summaries, grant lists, conference opportunities, partner opportunities, and campaign calendars |
-| Workspace plans | Team access for business development, partnerships, community, investor relations, or marketing |
-| Partner packages | Web3 projects, startups, communities, agencies, and enterprises tracking opportunities |
-| Preparation services | Event briefings, application preparation, outreach lists, and follow-up workflows |
-| API / integration packages | Event data integrations where technically ready |
-| Managed research | Human-reviewed event and opportunity research packages |
+Subscriptions do not guarantee customer retention, recurring revenue, profitability, approved distributable value, or investment return.
 
-AIE supports discovery and preparation. It does not guarantee event access, funding, partnership, business outcome, or growth outcome.
+---
 
-### 3.16 ToolGrid Revenue Model
+## 9. Usage-Based Revenue
 
-ToolGrid is FUZE’s AI utility network with structured sponsored visibility across web, Telegram, and Web3-native surfaces.
+Usage-based revenue may come from product activity.
 
-Revenue directions include:
+Examples include:
 
-| Revenue Direction | Public Role |
-|---|---|
-| Sponsored placements | Paid visibility blocks, sponsored cards, promoted tools, and premium positions |
-| Campaign credits | Platform Credits for placement, review, reporting, scheduling, and updates |
-| Advertiser packages | Packages for tool creators, Web3 projects, SaaS companies, communities, and agencies |
-| Publisher packages | Partner surfaces and utility discovery channels where applicable |
-| Review fees | Destination checks, advertiser review, claim review, scam screening, and creative review |
-| Analytics reports | Campaign reports, placement reports, and audience summaries |
-| Managed campaign service | Campaign setup, creative support, reporting, and takedown handling |
-| API / embed packages | Tool discovery widgets or sponsored placement integrations where technically ready |
+- AI task runs
+- reports generated
+- dashboards generated
+- shop orders processed
+- queue sessions
+- voice scripts generated
+- sound packs produced
+- training quizzes created
+- community summaries generated
+- moderation reports processed
+- market reports generated
+- liquidity operation reports generated
+- event reports generated
+- sponsored listing actions
+- Botmad work sessions
+- ZAGA utility services where defined and compliant
 
-ToolGrid sponsored placements are subject to advertiser review, destination checks, sponsored-labeling rules, prohibited-claim rules, scam and phishing screening, takedown controls, and public trust safeguards.
+Usage-based revenue can align payment with product use.
 
-Sponsored visibility does not guarantee clicks, conversions, revenue, community growth, investment activity, token performance, user signups, or business outcome.
+However, usage-based revenue may be less predictable than subscriptions.
 
-### 3.17 Botmad Revenue Model
+Boundary:
 
-Botmad is FUZE’s AI Desktop Employee for structured digital work, delivery queues, reviewable artifacts, and execution evidence.
+Usage volume does not guarantee revenue quality, customer retention, approved distributable value, or token demand.
 
-Revenue directions include:
+---
 
-| Revenue Direction | Public Role |
-|---|---|
-| Work-session credits | Credits for supervised work sessions |
-| Artifact packages | Paid packages for documents, specs, code support, reports, research, and delivery files |
-| Subscription plans | Recurring access for teams, agencies, founders, operators, and builders |
-| Managed delivery | Done-with-you or done-for-you work packages under human review |
-| Evidence packages | Hashes, logs, references, version records, and delivery summaries |
-| Team workspace | Multi-user delivery queues, approvals, and review workflows |
-| Agency packages | Client workspaces, delivery artifacts, campaign reports, and implementation support |
-| Enterprise packages | Controlled workflows, permissioning, audit records, and supervised automation |
+## 10. Product Module and Add-On Revenue
 
-Botmad supports supervised work sessions, reviewable artifacts, and execution evidence. It does not remove human review, expose secrets publicly, or operate as uncontrolled automation.
+FUZE products may generate revenue through product modules and add-ons.
 
-### 3.18 Partner and Enterprise Revenue Model
+Examples include:
 
-FUZE can package products for partners and enterprises.
+- extra dashboard modules
+- advanced reporting modules
+- AI workflow templates
+- shop loyalty module
+- delivery module
+- device support module
+- Google Sheets sync module
+- staff training module
+- community safety module
+- verification module
+- sponsor reporting module
+- QTB watchlist module
+- AIMM liquidity report module
+- ToolGrid sponsored visibility module
+- Botmad workspace automation module
 
-| Package Type | Public Role |
-|---|---|
-| Agency package | Client workspaces, Botmad artifacts, HerHelp setup, ToolGrid campaigns, and reports |
-| SME network package | ShopOS AI, SheetLayer AI, SpeakShop AI, and HerHelp onboarding for groups of businesses |
-| Community package | CommunityLayer AI, ZAGA utility, ZAGA Districts, and Telegram community workflows |
-| Web3 project package | ZAGA, QTB, AIMM, AIE, ToolGrid, CommunityLayer AI, and token utility support |
-| Advertiser package | ToolGrid placements, sponsor review, campaign reports, and creative support |
-| Education package | TrainLayer AI, Botmad, assistant building, validation, and learning reports |
-| Enterprise package | Workspace billing, permissions, reporting, AI orchestration, privacy, security, and integrations |
-| Franchise / branch package | ShopOS AI, device support, branch reports, staff workflows, and owner dashboards |
+Module pricing helps users pay only for what they need.
 
-Partner revenue depends on product fit, partner demand, operational capacity, implementation quality, and commercial terms.
+Boundary:
 
-### 3.19 Managed-Service Revenue Model
+Module availability, adoption, and revenue are not guaranteed.
 
-FUZE can monetize implementation and supervised work.
+---
 
-| Service Type | Public Role |
-|---|---|
-| Setup service | Onboarding, workspace setup, menu setup, sheet setup, community setup, and product configuration |
-| Data preparation | Spreadsheet cleaning, field mapping, imports, permission setup, and validation |
-| Content creation | Product pages, ads, scripts, sound packs, community content, reports, and training materials |
-| Technical implementation | Integrations, dashboards, APIs, workflow setup, and product configuration |
-| AI assistant setup | Data preparation, assistant building, validation, deployment, and improvement |
-| Campaign service | Sponsored campaigns, community campaigns, game events, and partner campaigns |
-| Research service | Market, event, opportunity, liquidity, and product research reports |
-| Documentation service | Public papers, specs, guides, investor materials, release notes, and evidence records |
+## 11. Service and Setup Revenue
 
-Managed services can support early revenue while products mature.
+Some FUZE products may include setup, service, or implementation revenue.
 
-### 3.20 Revenue Reporting Model
+Examples include:
 
-FUZE can report revenue direction through public-safe categories.
+- shop onboarding setup
+- QR menu setup
+- device connection setup
+- Google Sheets sync setup
+- staff training setup
+- community bot setup
+- event report setup
+- ToolGrid listing setup
+- Botmad workflow setup
+- partner integration setup
+- custom dashboard setup
+- business workflow setup
 
-| Reporting Area | Public Direction |
-|---|---|
-| Revenue categories | Subscriptions, Platform Credits, add-ons, partner packages, sponsored visibility, managed services, intelligence reports, and game/community product actions |
-| Product usage | Product activity categories where accurate and public-safe |
-| Platform Credits | Credit usage, packages, workspace usage, and product categories |
-| Product status | Live, in development, future-stage, partner-ready, or subject-to-review status |
-| Customer categories | SMEs, shops, communities, Web3 projects, agencies, advertisers, partners, teams, and enterprises where appropriate |
-| Public metrics | Aggregate metrics where accurate, approved, and public-safe |
-| Pricing updates | Credit packages, plans, add-ons, and product terms where public-ready |
-| Risk boundaries | No revenue, customer growth, sponsored performance, token, listing, liquidity, payout, or market-outcome assurance |
+Service revenue can help bridge early product adoption.
 
-FUZE reports revenue direction without inventing metrics or exposing private commercial terms.
+It can also create operational workload.
 
-## 4. Investor and Community Relevance
+Boundary:
 
-The FUZE Product Revenue Model matters because it shows how FUZE can monetize product usage without depending only on token-market activity.
+Service revenue does not guarantee scalable SaaS revenue, customer retention, or product-market fit.
 
-Investor relevance:
+---
 
-- Shows multiple product revenue directions
-- Shows Platform Credits as a measurable usage rail
-- Shows HerHelp as practical SaaS foundation
-- Shows ZAGA as token utility and participation product layer
-- Shows Botmad as internal acceleration and future supervised-work product
-- Shows ToolGrid, QTB, AIMM, and AIE as expansion revenue categories
-- Shows partner, agency, enterprise, advertiser, SME, and Web3 package potential
-- Separates product revenue from token price, listing, liquidity, payout, and market outcome
-- Supports diligence around AI cost control and usage metering
-- Makes FUZE easier to understand as a platform business
+## 12. Sponsored Visibility Revenue
 
-Community relevance:
+ToolGrid AI may support sponsored visibility.
 
-- Helps holders understand that FUZE revenue direction is product-first
-- Explains Platform Credits separately from FUZE token
-- Explains how HerHelp and ZAGA support launch focus
-- Explains product-by-product revenue directions without financial-return promises
-- Clarifies that product revenue does not automatically create token-holder payout
-- Reduces speculation around listing, liquidity, and token price
-- Supports confidence through product usage, reporting, and public boundaries
+Sponsored visibility revenue may include:
 
-Strategic partner relevance:
+- paid listing placement
+- sponsored category visibility
+- campaign summaries
+- product comparison content
+- report generation
+- visibility tracking
+- partner campaigns
+- utility discovery packages
 
-| Partner Type | Revenue Model Value |
-|---|---|
-| Strategic investors | Clearer product monetization paths and usage-based economics |
-| SMEs | HerHelp, ShopOS AI, SheetLayer AI, SpeakShop AI, and TrainLayer AI packages |
-| Web3 communities | ZAGA, ZAGA Arena, ZAGA Districts, CommunityLayer AI, QTB, AIMM, AIE, and ToolGrid |
-| Agencies | Botmad, HerHelp implementation, ToolGrid campaigns, community setup, and reports |
-| Advertisers | ToolGrid sponsored placements and campaign reports |
-| Enterprises | Workspace billing, Platform Credits, AI orchestration, reporting, privacy, and security |
-| Education partners | TrainLayer AI and Botmad learning/workflow packages |
-| Game partners | ZAGA Arena events and ZAGA Districts community campaigns |
+Sponsored visibility must be transparent and should not mislead users.
 
-The model makes partnership conversations more concrete.
+Boundary:
 
-## 5. Public Boundary
+Sponsored visibility does not guarantee ranking, clicks, conversion, sales, user acquisition, token demand, or investment return.
 
-FUZE publicly presents the Product Revenue Model as revenue direction and product monetization structure.
+---
 
-FUZE publicly explains:
+## 13. Report Revenue
 
+Several FUZE products may produce report-based revenue.
+
+Report revenue may come from:
+
+- SheetLayer AI business reports
+- ShopOS AI sales and stock reports
+- CommunityLayer AI moderation and safety reports
+- TrainLayer AI learning reports
+- AIE event reports
+- QTB market interpretation reports
+- AIMM liquidity operation reports
+- ToolGrid AI visibility reports
+- Botmad work summaries
+- ZAGA game or community reports where appropriate
+
+Reports can create investor-relevant evidence because they show product outputs.
+
+Boundary:
+
+Reports may support user decision-making, but they do not guarantee accuracy, business result, trading result, liquidity result, product success, or revenue.
+
+---
+
+## 14. Stablecoin Payment Revenue
+
+Stablecoins are payment, settlement, treasury, and compensation rails.
+
+Stablecoins may support product payments where legally and operationally appropriate.
+
+Stablecoin-related revenue records may include:
+
+- product payments
+- Platform Credit purchases
+- report purchases
+- service fees
+- partner settlement
+- customer payments
+- usage fees
 - subscriptions
-- Platform Credits
-- usage packs
-- add-ons
-- workspace billing
-- partner packages
-- sponsored visibility
-- intelligence products
-- managed services
-- game/community product actions
-- product services
-- public-safe reporting
-- token / credits separation
-- stablecoin compensation separation
-- product revenue boundaries
-- risk safeguards
+- enterprise payments
+- Web3 community payments
 
-FUZE keeps the following areas subject to product, technical, legal, accounting, tax, privacy, compliance, payment, platform, app-store, enterprise, partner, treasury, governance, security, jurisdiction, market, advertising, community-platform, and operational review where applicable:
+Stablecoin payments require classification.
 
-- exact prices
-- exact packages
-- exact margins
-- exact revenue numbers
-- exact user counts
-- exact customer counts
-- exact contract terms
-- exact enterprise pricing
-- exact partner pricing
-- exact sponsored placement rates
-- exact Platform Credit conversion rates
-- exact app-store rules
-- exact payment rails
-- exact refunds and expiry terms
-- exact taxes
-- exact service-level terms
-- exact commercial forecasts
-- exact product launch dates
-- exact product availability
-- exact public metrics
+A stablecoin inflow may be:
 
-The Product Revenue Model is not a financial projection, revenue guarantee, customer-growth guarantee, margin guarantee, investment-return plan, token price model, public token sale, listing plan, liquidity promise, payout plan, or market-performance plan.
+- product revenue
+- customer prepayment
+- Platform Credit purchase
+- treasury transfer
+- investor funding
+- partner settlement
+- vendor refund
+- reserve movement
+- compensation return
+- conversion proceeds
+- non-revenue transfer
 
-## 6. Risk Boundaries and Safeguards
+Boundary:
 
-FUZE applies risk boundaries around product revenue.
+Stablecoin inflow is not automatically product revenue or approved distributable value.
 
-### 6.1 Product Revenue Boundary
+---
 
-Product revenue can support operations, development, stablecoin compensation, treasury planning, reserves, and future review areas. Product revenue does not automatically create token-holder payout, revenue entitlement, ownership interest, or financial-return right.
+## 15. Non-Revenue Categories
 
-### 6.2 Platform Credits Boundary
+Not every inflow is product revenue.
 
-Platform Credits are for product usage and are not investment assets, payout assets, or FUZE tokens.
+Non-revenue categories include:
 
-### 6.3 Product Adoption Boundary
+- seed-round funds
+- investor funds
+- token sale proceeds
+- treasury transfers
+- internal wallet transfers
+- reserve transfers
+- liquidity pool transfers
+- market-making inventory transfers
+- grants that are not product revenue
+- loans where applicable
+- partner deposits not tied to product delivery
+- refundable deposits
+- failed payments
+- refunded payments
+- chargebacks
+- promotional credits
+- bonus credits
+- unreconciled payments
+- disputed payments
+- test payments
+- game mechanic values
+- unrealized token value
+- token price movement
+- liquidity pool value
+- accounting reclassification entries
 
-Product plans, pricing, Platform Credits, subscriptions, add-ons, partner packages, and managed services do not guarantee product adoption, user growth, customer growth, revenue, margins, profitability, enterprise adoption, partner adoption, or business outcome.
+These categories must be separated so public readers do not misunderstand revenue.
 
-### 6.4 General Token Boundary
+Boundary:
 
-FUZE does not guarantee token price, liquidity, listing, profit, return, payout, or market performance.
+Non-revenue inflows must not be described as product revenue.
 
-### 6.5 Profit Participation Boundary
+---
 
-Profit participation is a long-term design direction and is not immediate or guaranteed. Any future framework requires legal, accounting, treasury, technical, and transparency readiness.
+## 16. Excluded Value from Approved Distributable Value
 
-### 6.6 Sponsored Visibility Boundary
+Even when product revenue exists, many items may be excluded before any approved distributable value can be considered.
 
-ToolGrid sponsored placements are subject to advertiser review, destination checks, sponsored-labeling rules, prohibited-claim rules, scam and phishing screening, takedown controls, and public trust safeguards. Sponsored visibility does not guarantee clicks, conversions, revenue, community growth, investment activity, token performance, user signups, or business outcome.
+Excluded value may include:
 
-### 6.7 QTB Boundary
+- gross revenue before review
+- taxes
+- processing fees
+- gas fees
+- platform fees
+- refunds
+- chargebacks
+- failed payments
+- disputed payments
+- promotional credits
+- bonus credits
+- operating costs
+- AI API costs
+- infrastructure costs
+- support costs
+- vendor costs
+- partner costs
+- legal costs
+- audit costs
+- accounting costs
+- security costs
+- reserves
+- restricted revenue
+- unreconciled revenue
+- seed-round funds
+- investor funds
+- token sale proceeds
+- general treasury balance
+- treasury transfers
+- liquidity pool value
+- game reward values
+- market price movement
 
-QTB provides AI-assisted market intelligence, interpretation, research support, and decision-support workflows. QTB does not provide financial advice, guaranteed trading results, autonomous trading execution, or profit assurance.
+Boundary:
 
-### 6.8 AIMM Boundary
+Approved distributable value is not gross revenue.
 
-AIMM provides AI-assisted market-operations intelligence, monitoring, workflow support, and operator-ready context. AIMM does not guarantee liquidity, trading profit, listing performance, market outcome, or autonomous market action without controlled permissions.
+---
 
-### 6.9 Game Product Boundary
+## 17. Revenue Reconciliation Model
 
-ZAGA Arena uses market-inspired game resources and scoring language. Public communication separates gameplay progression, leaderboard scoring, and in-game resources from financial return promises. ZAGA Districts uses digital assets for identity, access, utility, contribution, and reward systems where applicable and is not positioned as a casino, pure play-to-earn scheme, or guaranteed income product.
+Revenue reconciliation is the process of confirming what revenue exists and how it should be classified.
 
-### 6.10 Development Standards Boundary
+A basic FUZE revenue reconciliation model may include:
 
-FUZE uses standards-inspired or standards-aligned processes. FUZE does not claim formal certification unless certification has been completed.
+1. Payment received.
+2. Payment method identified.
+3. Product or service linked.
+4. Customer or workspace record matched.
+5. Product usage record confirmed.
+6. Refund risk checked.
+7. Chargeback risk checked.
+8. Fees deducted.
+9. Taxes considered.
+10. Costs allocated where appropriate.
+11. Promotional credits separated.
+12. Bonus credits separated.
+13. Non-revenue transfers removed.
+14. Stablecoin conversions recorded where applicable.
+15. Revenue category assigned.
+16. Product revenue pool status reviewed.
+17. Reserve requirements applied.
+18. Report hash created where appropriate.
+19. Accounting review completed where required.
+20. Public-safe reporting prepared where appropriate.
 
-## 7. Reporting and Transparency Direction
+This model helps avoid mixing operational payments, investor funds, treasury movement, product revenue, and approved distributable value.
 
-FUZE reports product revenue direction through public documentation, product pages, pricing pages, Platform Credit documentation, investor materials, community FAQ, release notes, product-status pages, workspace dashboards, owner dashboards, partner reports, sponsored reports, and transparency surfaces where applicable.
+Boundary:
 
-Reporting areas include:
+Reconciliation supports clarity, but it does not guarantee approved distributable value or payout.
 
-| Reporting Area | Public Direction |
+---
+
+## 18. Cost and Deduction Model
+
+Revenue must be considered together with costs and deductions.
+
+Possible deductions may include:
+
+- payment processing fees
+- blockchain gas fees
+- stablecoin conversion fees
+- refund costs
+- chargeback costs
+- taxes
+- AI model costs
+- cloud infrastructure costs
+- database costs
+- storage costs
+- bandwidth costs
+- customer support costs
+- staff or contributor costs
+- vendor costs
+- partner costs
+- marketplace fees
+- legal costs
+- accounting costs
+- audit costs
+- compliance costs
+- security review costs
+- incident response costs
+- product maintenance costs
+- game server costs
+- event operation costs
+
+Investors should review revenue quality after cost consideration.
+
+Boundary:
+
+Revenue does not equal profit, and profit does not automatically equal approved distributable value.
+
+---
+
+## 19. Reserve Model
+
+FUZE may need reserves before any value can be considered available.
+
+Reserve categories may include:
+
+- operating reserve
+- refund reserve
+- chargeback reserve
+- tax reserve
+- legal reserve
+- audit reserve
+- security reserve
+- AI cost reserve
+- infrastructure reserve
+- customer support reserve
+- incident response reserve
+- treasury stability reserve
+- product development reserve
+- partner obligation reserve
+- game operation reserve
+- liquidity-related reserve where appropriate
+- future participation readiness reserve where appropriate
+
+Reserves protect the platform from operational and financial stress.
+
+Boundary:
+
+Reserved value is not approved distributable value unless released through defined review and approval.
+
+---
+
+## 20. Product Revenue Pool Model
+
+A product revenue pool is a defined category of revenue tied to specific FUZE products or services.
+
+Possible product revenue pools may include:
+
+- HerHelp revenue pool
+- SheetLayer AI revenue pool
+- ShopOS AI revenue pool
+- SpeakShop AI revenue pool
+- TrainLayer AI revenue pool
+- CommunityLayer AI revenue pool
+- ZAGA utility revenue pool where defined and compliant
+- QTB report revenue pool
+- AIMM report revenue pool
+- AIE event intelligence revenue pool
+- ToolGrid AI sponsored visibility revenue pool
+- Botmad work-assistance revenue pool
+- partner service revenue pool
+- Platform Credit purchase revenue pool
+
+Product revenue pools help FUZE organize reporting and possible future review.
+
+Boundary:
+
+Being part of a revenue pool does not mean the revenue is approved distributable value.
+
+---
+
+## 21. Approved Distributable Value Model
+
+Approved distributable value is a narrower concept than product revenue.
+
+It may exist only after:
+
+- product revenue exists
+- product revenue is confirmed
+- product revenue is reconciled
+- excluded categories are removed
+- deductions are applied
+- reserves are applied
+- treasury review is completed
+- accounting review is completed
+- legal review is completed
+- audit review is completed where required
+- jurisdiction review is completed
+- product revenue pool rules are applied
+- reporting is prepared
+- approval process is completed
+- participation framework is active
+
+Approved distributable value is relevant only if a wallet-based participation framework becomes active.
+
+Boundary:
+
+Approved distributable value is conditional, not guaranteed, and not automatically available to every wallet.
+
+---
+
+## 22. Revenue and Wallet-Based Participation
+
+Wallet-based participation ability may relate to approved distributable value only if the framework becomes active.
+
+The relationship is:
+
+1. Product usage may create product revenue.
+2. Product revenue requires reconciliation.
+3. Reconciled revenue may be adjusted by costs, fees, refunds, taxes, and reserves.
+4. A product revenue pool may be reviewed.
+5. Approved distributable value may be defined only if gates are ready.
+6. Eligible FUZE-holding wallets may participate only if the framework is active and the wallet meets eligibility rules.
+
+This chain should not be shortened in public communication.
+
+Boundary:
+
+Product revenue does not automatically become wallet payout.
+
+---
+
+## 23. Revenue and FUZE Token
+
+FUZE token is not a revenue receipt by default.
+
+FUZE token supports product-connected utility, ecosystem participation, platform alignment, governance direction where applicable, and wallet-based participation ability.
+
+Revenue may support the platform thesis by showing product usage and business activity.
+
+However, revenue does not guarantee token demand or token price.
+
+Revenue may also be needed for operations, reserves, development, support, compliance, audits, and growth.
+
+Boundary:
+
+Revenue does not guarantee token price, liquidity, listing, payout, income, yield, profit, exit, or investment return.
+
+---
+
+## 24. Revenue and Platform Credits
+
+Platform Credits can be a major revenue bridge because they connect multiple products to one usage layer.
+
+A user may buy credits for:
+
+- AI tasks
+- reports
+- shop features
+- training materials
+- community summaries
+- event intelligence
+- QTB market reports
+- AIMM reports
+- ToolGrid visibility
+- Botmad sessions
+- ZAGA utility surfaces where supported
+
+Credit usage can help FUZE understand which products users value.
+
+Credit purchase records can support revenue reporting if properly reconciled.
+
+Boundary:
+
+Credit purchase revenue does not automatically become approved distributable value, and credit usage does not automatically create FUZE token demand.
+
+---
+
+## 25. Revenue and Stablecoins
+
+Stablecoins can support faster settlement and Web3-friendly payment flows.
+
+Stablecoins may be used for:
+
+- product payments
+- Platform Credit purchases
+- subscriptions
+- service payments
+- reports
+- contributor compensation
+- vendor payments
+- partner settlement
+- treasury operations
+- reserve management
+- conversion proof
+
+Stablecoins help with settlement, but they require careful classification.
+
+Boundary:
+
+Stablecoin payments do not automatically create product revenue, approved distributable value, wallet-based participation eligibility, or token demand.
+
+---
+
+## 26. Revenue and Product Evidence
+
+Product revenue can become investor evidence only when it is supported by records.
+
+Useful evidence may include:
+
+- product payment records
+- Platform Credit purchase records
+- credit usage records
+- subscription records
+- service invoices
+- stablecoin transaction references
+- product usage logs
+- customer account records
+- workspace records
+- refund records
+- chargeback records
+- support records
+- revenue reports
+- reconciliation reports
+- report hashes
+- accounting summaries where available
+- audit references where available
+
+Investors should evaluate evidence quality, not only revenue claims.
+
+Boundary:
+
+Revenue evidence supports evaluation, but it does not guarantee future revenue or investment return.
+
+---
+
+## 27. Revenue Reporting Direction
+
+FUZE revenue reporting may develop through public-safe reports.
+
+Possible reports include:
+
+- product revenue category summary
+- Platform Credit purchase summary
+- Platform Credit usage summary
+- stablecoin payment summary
+- subscription summary
+- report revenue summary
+- service revenue summary
+- product revenue pool summary
+- excluded value summary
+- refund and chargeback summary
+- reserve summary
+- reconciliation status summary
+- report hash
+- audit reference where available
+
+Public reports should protect customer privacy and avoid exposing confidential records.
+
+Boundary:
+
+Revenue reporting supports transparency, but it does not guarantee revenue, audit completion, approved distributable value, payout, token price, liquidity, listing, exit, or investment return.
+
+---
+
+## 28. Revenue Recognition Caution
+
+Product revenue may require accounting review.
+
+Revenue recognition may depend on:
+
+- whether a product or service has been delivered
+- whether credits are prepaid
+- whether credits expire
+- whether refunds are available
+- whether service obligations remain
+- whether subscription periods are active
+- whether usage is consumed
+- whether partner obligations exist
+- whether chargeback risk remains
+- whether stablecoin valuation is required
+- whether jurisdiction-specific accounting rules apply
+- whether tax rules apply
+- whether revenue is gross or net
+- whether platform fees apply
+- whether product delivery is complete
+
+Public papers should not act as accounting policies.
+
+Boundary:
+
+FUZE public documents do not provide accounting advice or final revenue recognition treatment.
+
+---
+
+## 29. Revenue Risk Factors
+
+Revenue risk factors include:
+
+- product adoption risk
+- pricing risk
+- payment failure
+- refund risk
+- chargeback risk
+- subscription churn
+- competition
+- customer support burden
+- AI cost increases
+- infrastructure cost increases
+- low usage
+- product delays
+- product quality issues
+- data privacy issues
+- legal restrictions
+- stablecoin payment restrictions
+- tax treatment
+- partner dependency
+- device integration issues
+- game economy risk
+- QTB market interpretation limitations
+- AIMM liquidity operation limitations
+- ToolGrid campaign performance risk
+- Botmad permission and workflow risk
+
+Boundary:
+
+FUZE does not guarantee revenue, customer growth, business performance, profitability, or approved distributable value.
+
+---
+
+## 30. Investor View of Revenue Quality
+
+Investors can evaluate revenue quality through several questions.
+
+| Area | Investor Question |
 |---|---|
-| Revenue categories | Subscriptions, Platform Credits, add-ons, usage packs, partner packages, sponsored visibility, managed services, reports, and game/community product actions |
-| Platform Credits | Credit packages, credit usage, product categories, workspace usage, refunds, expiry, and product terms |
-| Product status | Live, in development, future-stage, partner-ready, or subject-to-review status |
-| HerHelp revenue | SaaS plans, modules, setup, reports, and workspace usage |
-| ZAGA revenue | Utility setup, product actions, partner packages, game/community utility, and reporting |
-| ToolGrid revenue | Sponsored placements, review workflows, reports, and campaigns |
-| Intelligence revenue | QTB, AIMM, and AIE reports, alerts, monitoring, and workspaces |
-| Botmad revenue | Work sessions, artifacts, managed delivery, team workspaces, and evidence records |
-| Partner revenue | Agency, enterprise, SME network, Web3, advertiser, education, and community packages |
-| Risk boundaries | Revenue, adoption, token, listing, liquidity, payout, market, game, sponsored, and AI boundaries |
+| Source | Which product created the revenue? |
+| Payment method | Was payment made by fiat, stablecoin, credits, or another method? |
+| Delivery | Was the product or service delivered? |
+| Recurrence | Is it one-time, usage-based, or recurring? |
+| Margin | What costs are required to deliver it? |
+| Refund risk | Can the customer refund or charge back? |
+| Credit treatment | Was the payment a credit purchase or actual consumed usage? |
+| Stablecoin treatment | Was stablecoin value classified correctly? |
+| Reconciliation | Was the payment matched to product usage? |
+| Privacy | Can reporting avoid exposing customer identity? |
+| Legal | Is the product revenue allowed in the relevant jurisdiction? |
+| Reporting | Is there a public-safe report or hash? |
+| Approved value | Is it excluded, reserved, under review, or approved? |
 
-FUZE uses reporting to show revenue direction while avoiding unsupported financial claims.
+Revenue quality matters more than revenue claims.
 
-## 8. Conclusion
+Boundary:
 
-FUZE uses a product-first revenue model.
+High-quality revenue records do not guarantee future revenue or investment return.
 
-HerHelp.com creates practical AI SaaS revenue direction. ZAGA.io creates token utility and participation product revenue direction. FUZE Core Platform rails support identity, Platform Credits, payments, AI orchestration, reporting, privacy, security, governance, and transparency. Botmad accelerates execution and creates supervised-work product optionality.
+---
 
-FUZE revenue direction includes subscriptions, Platform Credits, usage packs, add-ons, workspace billing, partner packages, sponsored visibility, intelligence products, game/community product actions, and managed services.
+## 31. Investor Questions Answered
 
-FUZE token is for ecosystem participation. Platform Credits are for product usage. Stablecoins pay for work. FUZE tokens align long-term participation.
+### 31.1 Does FUZE have only token-based revenue?
 
-Product usage comes first. Platform rails come second. Broader ecosystem participation comes after that.
+No. FUZE revenue thesis is based on product usage, Platform Credits, subscriptions, usage fees, reports, service packages, sponsored visibility, and other product-connected services.
+
+### 31.2 Are Platform Credits revenue?
+
+Platform Credit purchases may create product payment records, but accounting treatment requires reconciliation and review. Platform Credits are product usage credits, not FUZE token.
+
+### 31.3 Are stablecoin payments revenue?
+
+Only if the stablecoin payment is tied to a product or service and properly confirmed, recorded, reconciled, and classified. Stablecoin inflow is not automatically revenue.
+
+### 31.4 Does product revenue go to token holders?
+
+No. Product revenue does not automatically go to token holders.
+
+### 31.5 What is approved distributable value?
+
+Approved distributable value is a narrower reviewed concept that may exist only after reconciliation, deductions, reserves, legal review, accounting review, audit review where required, reporting, approval, and activation of a participation framework.
+
+### 31.6 Are seed round funds revenue?
+
+No. Seed round funds are private fundraising capital, not product revenue.
+
+### 31.7 Are game rewards revenue?
+
+Game rewards and game values are game mechanics or controlled utility surfaces. They are not approved distributable value by default.
+
+### 31.8 Can revenue support token demand?
+
+Revenue can support product trust and platform thesis, but it does not guarantee token demand, token price, liquidity, listing, payout, or investment return.
+
+### 31.9 Can FUZE report revenue publicly?
+
+FUZE may publish public-safe revenue category summaries where appropriate, but public reporting must protect privacy and avoid unsupported claims.
+
+### 31.10 Is revenue guaranteed?
+
+No. FUZE does not guarantee product revenue, customer growth, profitability, approved distributable value, or investment return.
+
+---
+
+## 32. Community View of FUZE Revenue
+
+The FUZE community should understand revenue in simple terms.
+
+Community members can say:
+
+- FUZE revenue thesis comes from product usage.
+- Platform Credits are product usage credits.
+- Stablecoins are payment and settlement rails.
+- Product revenue must be recorded and reconciled.
+- Product revenue is not the same as approved distributable value.
+- Product revenue does not automatically go to token holders.
+- Wallet-based participation is not active as a guaranteed public payout right.
+- Seed funds are not product revenue.
+- Game values are game mechanics.
+- Revenue does not guarantee token price.
+- Listing and liquidity are not guaranteed.
+
+Community members should not say:
+
+- all revenue goes to holders
+- holders get guaranteed share
+- FUZE token pays dividends
+- product revenue guarantees payout
+- revenue protects price
+- credit purchases go directly to token holders
+- stablecoin treasury goes to holders
+- seed funds go to holders
+- game rewards are profit share
+- revenue removes market risk
+
+This protects community credibility.
+
+---
+
+## 33. Public Communication Standards
+
+Approved revenue wording:
+
+- product revenue, if generated
+- product usage revenue
+- Platform Credit purchase records
+- stablecoin payment records
+- revenue reconciliation
+- product revenue pool
+- excluded value
+- reserve treatment
+- cost and deduction review
+- approved distributable value if activated
+- public-safe revenue reporting
+- no guaranteed revenue
+- no automatic holder payout
+
+Avoided revenue wording:
+
+- guaranteed revenue
+- all revenue goes to holders
+- gross revenue is shared
+- product revenue guarantees payout
+- product revenue protects token price
+- Platform Credits give profit rights
+- stablecoin treasury guarantees payout
+- seed funds are distributable
+- revenue removes market risk
+- every holder earns from services
+- FUZE token pays dividends
+
+Revenue language should be clear, practical, and safe.
+
+---
+
+## 34. Revenue Risk Boundary Matrix
+
+| Area | Boundary |
+|---|---|
+| Product revenue | Not guaranteed. |
+| Platform Credits | Product usage credits, not investment or claim rights. |
+| Stablecoins | Payment and settlement rails, not automatic revenue or distribution. |
+| Subscriptions | May churn or fail to renew. |
+| Usage fees | Depend on product adoption and user activity. |
+| Reports | Do not guarantee user decisions or business results. |
+| Service fees | May be operationally intensive and not fully scalable. |
+| Sponsored visibility | Does not guarantee clicks, conversion, or sales. |
+| QTB reports | Not financial advice or trading instruction. |
+| AIMM reports | Not liquidity guarantee or price support. |
+| ZAGA utility | Game and utility surfaces, not guaranteed earnings. |
+| Gross revenue | Not approved distributable value. |
+| Net result | May be reduced by costs, fees, taxes, and reserves. |
+| Approved distributable value | Conditional and not guaranteed. |
+| Wallet participation | Not active as guaranteed payout. |
+| Revenue reporting | Supports transparency but does not guarantee audit or payout. |
+
+---
+
+## 35. Development Direction
+
+FUZE product revenue model can develop through phases.
+
+### Phase 1: Product Revenue Category Definition
+
+Define revenue categories for HerHelp, SheetLayer AI, ShopOS AI, SpeakShop AI, TrainLayer AI, CommunityLayer AI, ZAGA, QTB, AIMM, AIE, ToolGrid AI, Botmad, Platform Credits, services, and partner fees.
+
+### Phase 2: Platform Credit Revenue Records
+
+Define credit purchase records, usage records, bonus credit records, promotional credit records, failed-task adjustments, refunds, and product module mapping.
+
+### Phase 3: Stablecoin Payment Records
+
+Define stablecoin product payments, treasury classification, settlement records, conversion proof, compensation records, and reserve records.
+
+### Phase 4: Reconciliation Workflow
+
+Build payment matching, product usage confirmation, refund review, chargeback review, fee deduction, tax consideration, cost allocation, reserve treatment, and report hashes.
+
+### Phase 5: Product Revenue Pool Reporting
+
+Organize revenue by product, pool, category, period, payment method, and reconciliation status.
+
+### Phase 6: Approved Distributable Value Separation
+
+Define excluded categories, costs, deductions, reserves, legal review, accounting review, audit review, approval process, and activation status.
+
+### Phase 7: Public-Safe Reporting
+
+Publish public-safe summaries that protect customer privacy and avoid guaranteed-return language.
+
+### Phase 8: Investor Data Room Evidence
+
+Prepare deeper investor materials with revenue evidence, reconciliation records, product usage evidence, assumptions, risks, and private documents where applicable.
+
+### Phase 9: Ongoing Review
+
+Update revenue model as products mature, pricing changes, payment rails expand, legal review develops, and product evidence improves.
+
+These phases are development directions, not guaranteed launch dates.
+
+---
+
+## 36. Key Takeaways
+
+FUZE Product Revenue Model explains product revenue sources, Platform Credit revenue, stablecoin payments, product revenue classification, excluded value, reconciliation, reserves, reporting, and the difference between revenue and approved distributable value.
+
+FUZE is product-first.
+
+FUZE revenue thesis comes from practical product usage, not token speculation alone.
+
+Possible revenue paths include Platform Credit purchases, AI SaaS subscriptions, usage-based product fees, product modules, shop packages, training packages, community operation packages, event intelligence packages, sponsored visibility packages, QTB reports, AIMM reports, Botmad sessions, ZAGA utility services where defined and compliant, and partner service fees tied to product delivery.
+
+Platform Credits are product usage credits and are separate from FUZE token.
+
+Stablecoins are payment, settlement, treasury, and compensation rails.
+
+Stablecoin inflows are not automatically product revenue.
+
+Seed round funds are not product revenue.
+
+Token sale proceeds are not product revenue.
+
+Treasury transfers are not product revenue.
+
+Game mechanic values are not approved distributable value by default.
+
+Product revenue must be confirmed, recorded, reconciled, reviewed, and classified.
+
+Product revenue does not automatically become approved distributable value.
+
+Approved distributable value is a narrower, conditional, reviewed, adjusted, reserved, reported, and approved concept.
+
+Wallet-based participation ability is not a second token, not automatic for every wallet, and not active as a guaranteed public payout right.
+
+Revenue reporting supports transparency, but it does not guarantee payout, token price, liquidity, listing, exit, or investment return.
+
+Investors should evaluate revenue quality, not only revenue categories.
+
+FUZE does not guarantee product revenue, customer growth, business revenue, approved distributable value, payout, income, dividend, yield, profit, token price, listing, liquidity, market support, trading volume, exchange support, withdrawal support, OTC buyer availability, exit, acquisition, game earnings, AI accuracy, smart-contract security, community growth, or investment return.
