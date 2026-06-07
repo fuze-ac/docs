@@ -1,674 +1,552 @@
 # Legal and Compliance Messaging
-
 ## Executive Summary
-
-FUZE uses **Legal and Compliance Messaging** to keep public communication clear, careful, product-first, and risk-aware across FUZE Core Platform, HerHelp, ZAGA, ZAGA Arena, ZAGA Districts, QTB, AIMM, AIE, ToolGrid, Botmad, Platform Credits, tokenomics, public vault access, community participation, liquidity, governance, and future economic design areas.
-
-The purpose of this paper is not to provide legal advice. The purpose is to define public communication boundaries so FUZE avoids confusing product users, investors, community members, holders, partners, SMEs, Web3 communities, advertisers, educators, and public readers.
-
-FUZE uses the following master language:
-
-**FUZE is a transparency-first AI SaaS platform building practical products on top of shared infrastructure for identity, credits, payments, AI orchestration, reporting, and ecosystem participation.**
-
-FUZE uses the following execution order:
-
+FUZE uses legal and compliance messaging to keep public communication clear, product-first, risk-aware, and consistent across the FUZE platform, FUZE token, Platform Credits, FPPU, ZAGA, HerHelp, AI products, market-intelligence products, liquidity-support products, public vault systems, private fundraising discussions, and community participation.
+FUZE is a transparency-first AI SaaS platform building practical products on shared infrastructure for identity, Platform Credits, payments, AI orchestration, reporting, privacy, security, governance, and ecosystem participation.
+FUZE execution order is:
 **Product usage first. Platform rails second. Broader ecosystem participation after that.**
-
-FUZE uses the following token / credits separation:
-
-**FUZE token is for ecosystem participation. Platform Credits are for product usage.**
-
-FUZE uses the following compensation principle:
-
-**Stablecoins pay for work. FUZE tokens align long-term participation.**
-
-This paper defines the approved public legal and compliance messaging model, product-specific boundaries, token and credit boundaries, market-product boundaries, game boundaries, sponsored-visibility boundaries, AI boundaries, investor communication boundaries, public reporting direction, and risk safeguards.
-
+FUZE separates:
+| System | Public Role |
+|---|---|
+| Platform Credits | Product usage |
+| FUZE token | Ecosystem utility, ZAGA participation, wallet-aware access, community participation, and governance-aware direction where applicable |
+| FPPU | Eligible profit participation unit connected to approved distributable net profit |
+| USDT | Distribution currency for approved FPPU distributions and one supported product-payment rail where applicable |
+| Stablecoins / fiat / app-store proceeds | Revenue collection, work payment, treasury, or conversion sources depending on the payment channel |
+FUZE does not describe Platform Credits as tokens, investment contracts, equity, payout assets, profit rights, or return-bearing instruments. FUZE does not describe FUZE token ownership as automatic profit participation, automatic dividend rights, automatic FPPU eligibility, guaranteed income, guaranteed price appreciation, guaranteed liquidity, or guaranteed exit. FUZE describes FPPU separately as the FUZE Profit Participation Unit for eligible holders, subject to revenue reconciliation, reserve checks, audit, approval controls, smart contract funding, record-date snapshot logic, and public risk disclosure.
+This paper defines the public language boundaries that FUZE uses to avoid unsafe claims, unsupported investment framing, unclear token language, misleading yield language, inaccurate AI claims, market-manipulation language, game-earning promises, privacy confusion, and premature listing or distribution promises.
 ## 1. FUZE Position
-
-FUZE presents legal and compliance messaging as a public trust system.
-
 FUZE position:
-
-**FUZE uses legal and compliance messaging to keep public communication accurate, product-first, transparent, and risk-aware across products, token utility, Platform Credits, community participation, investor materials, public pages, and partner communication.**
-
-FUZE does not use public messaging to create unsupported claims around:
-
-- token price
-- token liquidity
-- exchange listing
-- profit
-- return
-- payout
-- market performance
-- trading results
-- market-making outcomes
-- game earnings
-- shop revenue
-- AI accuracy
-- community growth
-- sponsored performance
-- enterprise adoption
-- formal certification
-- future legal structures
-
-FUZE uses public boundaries to explain what each product does, what each product does not do, and what remains subject to legal, compliance, product, technical, accounting, treasury, jurisdiction, platform, or operational readiness.
-
-## 2. Platform Context
-
-Legal and compliance messaging connects to all FUZE platform layers.
-
-| Platform Area | Messaging Role |
+**FUZE communicates as a product-first AI SaaS and Web3 utility platform with clear separation between product usage, ecosystem utility, profit participation, stablecoin payment, revenue collection, and public transparency.**
+FUZE uses the following public messaging principles:
+| Principle | Public Meaning |
 |---|---|
-| FUZE Core Platform | Explains identity, Platform Credits, payments, AI orchestration, reporting, privacy, security, and governance |
-| HerHelp | Explains practical AI SaaS product usage for SMEs, shops, creators, educators, teams, and communities |
-| ZAGA | Explains Token Utility OS, wallet-aware access, participation systems, and utility surfaces |
-| ZAGA Arena | Explains market-inspired gameplay, scoring, resources, and leaderboard language without financial-return framing |
-| ZAGA Districts | Explains community MMORPG, city systems, digital-asset utility, access, contribution, and reward systems without casino or income framing |
-| QTB | Explains market intelligence and interpretation without financial-advice or trading-result framing |
-| AIMM | Explains market-operations intelligence without liquidity, price, listing, or market-outcome assurances |
-| AIE | Explains event intelligence and opportunity discovery without event, funding, partnership, or business outcome assurances |
-| ToolGrid | Explains sponsored visibility with advertiser review, destination checks, scam screening, labeling, and takedown controls |
-| Botmad | Explains supervised work sessions, artifacts, and execution evidence without uncontrolled automation framing |
-| Platform Credits | Explains product usage credits, not token or payout assets |
-| FUZE token | Explains ecosystem participation, not price, profit, payout, listing, or liquidity assurance |
-
-FUZE launch focus is HerHelp.com and ZAGA.io, supported by FUZE Core Platform rails and accelerated internally by Botmad.
-
-Legal and compliance messaging protects that launch focus by keeping product communication clear and public-safe.
-
+| Product-first | FUZE leads with HerHelp, ZAGA, ShopOS AI, ZAGA Arena, CommunityLayer AI, and FUZE Core Platform rails |
+| Clear separation | Platform Credits, FUZE token, FPPU, USDT, and stablecoin work payments are separate systems |
+| FPPU clarity | FPPU is the profit participation unit for eligible holders, not an automatic right from holding FUZE token |
+| No guarantee language | FUZE avoids guaranteed income, fixed yield, payout, profit, price, liquidity, listing, resale, or exit claims |
+| AI boundary | AI supports workflows, analysis, generation, routing, reporting, and decision support with human review and safeguards |
+| Market boundary | QTB and AIMM use strict non-advice and no-guarantee language |
+| Game boundary | ZAGA Arena and ZAGA Districts use game/community mechanics language, not guaranteed earning language |
+| Public transparency | FUZE uses public papers, reporting, dashboards, vaults, AI-assisted audit, community audit, and public-safe disclosure |
+| Private terms separation | Seed Round, FPPU eligibility, token-related exposure, and private investor terms are handled through appropriate private or eligibility-controlled channels where applicable |
+FUZE public communication avoids language that creates unsupported expectations around securities, profit, dividends, yield, liquidity, token price, exchange listings, trading results, game earnings, AI accuracy, or acquisition outcomes.
+## 2. Public Context
+FUZE now uses a layered public model.
+| Layer | Public Description |
+|---|---|
+| Product layer | HerHelp.com, ShopOS AI, SheetLayer AI, SpeakShop AI, TrainLayer AI, CommunityLayer AI, ZAGA, ZAGA Arena, ZAGA Districts, QTB, AIMM, AIE, ToolGrid, Botmad |
+| Platform Credits layer | Product usage credits for AI actions, reports, workflows, dashboards, sponsored visibility, supervised work, and product-specific actions |
+| FUZE token layer | Ecosystem utility, ZAGA participation, wallet-aware access, community participation, governance-aware direction where applicable, and long-term alignment |
+| FPPU layer | Eligible profit participation unit connected to approved distributable net profit |
+| USDT distribution layer | Approved FPPU distributions paid in USDT through smart contract claims where funded and available |
+| Revenue-to-distribution layer | Revenue tagging, reconciliation, costs, reserves, audit, multisig, timelock, and distribution contract funding |
+| Governance layer | Vaults, multisig, timelock, public reporting, audit process, public-safe metrics, and risk disclosures |
+This structure allows FUZE to be investor-readable, community-readable, product-readable, and compliance-aware without mixing product credits, token utility, profit participation, work payment, fundraising, and trading language into one unclear claim.
 ## 3. Public Model
-
-### 3.1 Messaging Rule Model
-
-Every public FUZE message follows a simple control model.
-
-| Messaging Rule | Public Meaning |
+### 3.1 Platform Credits Messaging
+FUZE describes Platform Credits as product usage credits.
+Approved language:
+| Topic | Public Language |
 |---|---|
-| State the product role | Explain what the product or policy does |
-| State the boundary | Explain what the product or policy does not do |
-| Avoid unsupported outcomes | Do not promise results, returns, revenue, growth, trading performance, listings, or liquidity |
-| Separate systems | Keep FUZE token, Platform Credits, stablecoin compensation, product revenue, and public vault access separate |
-| Use readiness language | Use subject-to-review language where features depend on legal, compliance, technical, product, or jurisdiction readiness |
-| Use product-first language | Explain practical usage before ecosystem participation |
-| Use public-safe reporting | Report categories, status, references, and boundaries where appropriate |
-| Protect private information | Do not expose private investor terms, legal materials, personal data, customer data, confidential partner terms, or security-sensitive details |
-| Avoid hype | Use accurate product and platform language |
-| Maintain consistency | Repeat approved risk language across pages, papers, FAQs, decks, and public posts |
-
-This model keeps FUZE public communication aligned and safer.
-
-### 3.2 Master Approved Language
-
-FUZE uses approved master language across public materials.
-
-| Topic | Approved Public Language |
+| Platform Credits | Product usage credits |
+| Credit use | AI actions, reports, dashboards, workflows, product actions, sponsored visibility, supervised work |
+| Credit purchase | Product payment or usage-pack purchase |
+| Credit status | Not FUZE token, not FPPU, not equity, not investment contract, not payout asset |
+| Credit reporting | Product usage and credit usage can be reported in public-safe categories |
+FUZE avoids saying:
+- Platform Credits are tokens.
+- Platform Credits are investment assets.
+- Platform Credits create profit participation.
+- Platform Credits create dividend rights.
+- Platform Credits create yield.
+- Platform Credits guarantee revenue, user results, business results, or operational results.
+### 3.2 FUZE Token Messaging
+FUZE describes FUZE token as the ecosystem utility and participation layer.
+Approved language:
+| Topic | Public Language |
 |---|---|
-| FUZE positioning | FUZE is a transparency-first AI SaaS platform building practical products on top of shared infrastructure for identity, credits, payments, AI orchestration, reporting, and ecosystem participation. |
-| Execution order | Product usage first. Platform rails second. Broader ecosystem participation after that. |
-| Tokenomics principle | Purpose-specific allocation. Vault-based control. Controlled circulation. Product-first utility. Long-term ecosystem alignment. |
-| Compensation principle | Stablecoins pay for work. FUZE tokens align long-term participation. |
-| Token / credits separation | FUZE token is for ecosystem participation. Platform Credits are for product usage. |
-| Seed Round | FUZE is preparing a Private Strategic Seed Round for strategic investors, operator-angels, and early-stage partners. Full details, structure, and terms are shared privately with qualified interested parties. This is not a public token sale. |
-| Product priority | FUZE launch focus is HerHelp.com and ZAGA.io, supported by FUZE Core Platform rails and accelerated internally by Botmad. |
-| Development governance | FUZE uses AI to move faster, but uses structured standards to stay controlled. |
-| Growth / exit | FUZE is not relying on token speculation as the only exit path. FUZE is building real products, real users, revenue potential, shared platform rails, and strategic acquisition optionality. |
-
-These sentences give FUZE a consistent public voice.
-
-### 3.3 Token and Tokenomics Messaging
-
-FUZE token messaging uses ecosystem participation language.
-
-| Topic | Public Messaging |
+| FUZE token | Ecosystem utility and participation token |
+| Utility | ZAGA utility, wallet-aware access, community participation, ecosystem recognition, product-connected utility, governance-aware direction where applicable |
+| Alignment | Long-term ecosystem alignment |
+| Relationship to FPPU | FUZE token ownership alone does not automatically create FPPU distribution rights unless specific FPPU eligibility or conversion rules formally define that relationship |
+| Relationship to Credits | FUZE token is separate from Platform Credits |
+| Relationship to USDT | FUZE token is separate from USDT distribution currency |
+FUZE avoids saying:
+- FUZE token is a guaranteed dividend token.
+- FUZE token automatically pays profit.
+- FUZE token guarantees FPPU eligibility.
+- FUZE token guarantees listing, liquidity, resale, buyback, redemption, or exit.
+- FUZE token guarantees price appreciation or investment return.
+- FUZE token holder automatically receives USDT.
+### 3.3 FPPU Messaging
+FUZE describes FPPU as the FUZE Profit Participation Unit.
+Approved language:
+| Topic | Public Language |
 |---|---|
-| FUZE token | FUZE token is for ecosystem participation |
-| Utility | Token utility connects to product-linked participation, ZAGA utility, wallet-aware access, community systems, game utility, partner utility, and reporting where applicable |
-| Allocation | Allocation uses purpose-specific categories and vault-based control |
-| Circulation | Token movement follows Controlled Circulation Policy |
-| Public Vault Access | Selected vault access, if implemented, is eligibility-controlled and subject to policy |
-| Community Participation | Future community participation remains subject to legal, compliance, jurisdiction, product, platform, and smart contract readiness review |
-| Migration | BOARD / Surfboard Migration is a separate legacy-holder continuity allocation |
-| Platform Credits | Credits are separate from FUZE token |
-| Risk boundary | FUZE does not guarantee token price, liquidity, listing, profit, return, payout, or market performance |
-
-FUZE avoids token-first market-promotion language.
-
-### 3.4 Platform Credits Messaging
-
-Platform Credits are product usage credits.
-
-| Topic | Public Messaging |
+| FPPU | FUZE Profit Participation Unit |
+| Role | Eligible profit participation unit connected to approved distributable net profit |
+| Distribution currency | USDT |
+| Distribution condition | Distribution occurs only when approved distributable net profit exists and the Revenue-to-Distribution Control System is completed |
+| Claim method | Eligible holders at the record-date snapshot can connect wallet and claim proportional USDT when claims are open |
+| Audit model | AI-assisted audit, community audit, valid finding resolution, multisig approval, timelock where applicable |
+| Boundary | No guaranteed amount, frequency, yield, passive income, liquidity, resale, token price, or exit |
+FUZE avoids saying:
+- FPPU guarantees quarterly income.
+- FPPU guarantees yearly income.
+- FPPU is fixed APY.
+- FPPU is risk-free.
+- FPPU is passive income.
+- FPPU always distributes net profit.
+- All FUZE token holders automatically receive FPPU distributions.
+- FPPU can always be sold.
+- FPPU guarantees exit.
+### 3.4 USDT and Stablecoin Messaging
+FUZE separates USDT distribution currency from stablecoin work payment and product payment rails.
+| Use | Public Role |
 |---|---|
-| Platform Credits | Product usage credits for FUZE products and services |
-| Product usage | Credits can support AI usage, reports, workflows, dashboards, tools, sponsored visibility, game-related product actions, and services |
-| Billing | Credits can support subscriptions, usage packs, add-ons, workspace billing, partner packages, and managed-service packages |
-| Refund / expiry | Refunds, reversals, failed usage, expiry, chargebacks, and disputes follow product terms and payment rules |
-| Token separation | Platform Credits are not FUZE tokens |
-| Asset boundary | Platform Credits are not investment assets or payout assets |
-| Public reporting | Credits can support usage reports, billing reports, workspace dashboards, and public-safe product activity categories |
+| USDT for credit purchase | One supported product-payment rail where available |
+| USDT for FPPU distribution | Approved distribution currency deposited into the FPPU Distribution Smart Contract |
+| Stablecoins for work payment | Payment for contributors, contractors, vendors, services, and operations |
+| Stablecoin revenue collection | Revenue rail where applicable |
+| Non-USDT revenue conversion | Controlled conversion process after reconciliation and approval |
+FUZE avoids saying:
+- USDT in a credit vault automatically belongs to FPPU holders.
+- Stablecoin work payment is token-holder income.
+- Stablecoins guarantee FPPU payouts.
+- Non-USDT revenue becomes distribution without reconciliation.
+- Any one person can convert and distribute funds alone.
+### 3.5 Revenue-to-Distribution Messaging
+FUZE uses a controlled Revenue-to-Distribution Control System.
+Approved language:
+```text
+Revenue is tagged. Revenue is reconciled. Costs and reserves are handled. Approved distributable net profit is calculated. AI-assisted audit reviews it. Community audit checks it. Multisig approves it. Timelock protects it. USDT funds the FPPU Distribution Smart Contract. Eligible FPPU holders claim it.
+
+FUZE avoids saying:
+
+* Gross revenue is distribution.
+* Credit sales equal profit.
+* Net revenue equals distributable net profit.
+* Net profit is always distributed.
+* A distribution date is active before audit and contract funding.
+* One operator can approve and move distribution funds alone.
+* Distribution can happen without reserve checks.
+
+4. Product Messaging Boundaries
+
+4.1 HerHelp and AI SaaS Products
+
+FUZE describes HerHelp as a practical AI SaaS suite.
+
+Approved language:
+
+Product	Public Language
+HerHelp	Practical AI SaaS suite for SMEs, shops, creators, educators, teams, and communities
+SheetLayer AI	Spreadsheet and business data layer
+ShopOS AI	AI-powered shop operating system for QR menu, checkout, queue, payment, loyalty, stock, staff, delivery, reports, TrustCheck, device support, Google Sheets sync, and AI assistance
+SpeakShop AI	Promotional voice scripts, sound packs, and speaker announcements
+TrainLayer AI	AI learning, training materials, quizzes, and workflows
+CommunityLayer AI	Community moderation, safety, verification, support, reporting, summaries, and operations
+Botmad	AI Desktop Employee under permission controls and supervised work review
+
+FUZE avoids saying these products guarantee:
+
+* business revenue,
+* shop revenue,
+* user acquisition,
+* customer growth,
+* community growth,
+* perfect AI output,
+* operational result,
+* legal accuracy,
+* financial accuracy,
+* business success.
+
+4.2 ZAGA Messaging
+
+FUZE describes ZAGA as the Web3 game and utility ecosystem.
+
+Approved language:
+
+Product	Public Language
+ZAGA	FUZE game and token-utility ecosystem
+ZAGA.io	Token Utility OS and Web3 participation hub
+ZAGA Arena	Fast battle arena game where players survive, fight bosses, collect game resources, build Net Worth, and compete in Telegram-ready multiplayer arenas
+ZAGA Districts	Telegram-native cyberpunk MMORPG where real communities build cities, manage economies, hire NPCs, and compete for power
+
+FUZE keeps these rules:
+
+* ZAGA Districts is not a mode inside ZAGA Arena.
+* ZAGA Arena reward/value language is game mechanics or controlled utility surface language.
+* ZAGA Districts city economies, NPCs, treasuries, taxes, defenses, and token/NFT utility are game/community mechanics.
+* ZAGA products do not guarantee financial earnings, passive income, payout, token price, liquidity, or return.
+
+4.3 QTB and AIMM Messaging
+
+FUZE uses strict market-related boundaries.
+
+Product	Public Boundary
+QTB	AI trading intelligence and market interpretation support, not financial advice or guaranteed trading result
+AIMM	AI market-making and liquidity operations support, not guaranteed liquidity, price support, listing performance, market outcome, autonomous market action, or trading profit
+AIE	Event intelligence support, not guaranteed event outcome or trading result
+
+FUZE avoids:
+
+* trading instructions,
+* guaranteed trading profit,
+* investment advice,
+* guaranteed market result,
+* price support claims,
+* fake volume,
+* wash trading,
+* spoofing,
+* market manipulation,
+* guaranteed liquidity,
+* guaranteed listing performance.
+
+5. Private Fundraising and Community Participation Messaging
+
+5.1 Seed Round Messaging
 
-FUZE avoids presenting Platform Credits as token exposure, investment exposure, or payout exposure.
-
-### 3.5 Stablecoin Compensation Messaging
-
-Stablecoin compensation is work payment.
-
-| Topic | Public Messaging |
-|---|---|
-| Stablecoin compensation | Work payment for approved contributors, contractors, advisors, vendors, service providers, selected partners, and operators where applicable |
-| Compensation principle | Stablecoins pay for work. FUZE tokens align long-term participation. |
-| Funding sources | Product revenue, treasury operations, Public Vault Access proceeds, strategic funding, partner payments, or service revenue where approved |
-| Token separation | Compensation is separate from FUZE token allocation and token utility |
-| Credits separation | Compensation is separate from Platform Credits |
-| Public boundary | Stablecoin compensation is not token-holder income, investment return, profit participation, investment-yield framing, or market-performance payment |
-| Reporting | FUZE can report compensation categories and policy while protecting private personal and contract details |
+FUZE describes Seed Round discussions as private strategic fundraising conversations.
 
-FUZE avoids confusing contributor payment with token-holder economics.
+Approved language:
 
-### 3.6 Seed Round Messaging
+Topic	Public Language
+Seed Round	Private Strategic Seed Round
+Audience	Strategic investors, operator-angels, early-stage partners, and qualified interested parties
+Terms	Shared privately with qualified interested parties where appropriate
+Public sale status	Not a public token sale, not a public investment offer, not a public solicitation
+Token-related exposure	Private, legally reviewed, eligibility-based, and subject to terms where included
+FPPU exposure	Separate from general FUZE token utility and subject to eligibility and official terms where included
 
-Seed Round messaging is private and qualified-party only.
+FUZE avoids public language that presents Seed Round as:
 
-| Topic | Public Messaging |
-|---|---|
-| Round name | Private Strategic Seed Round |
-| Audience | Strategic investors, operator-angels, early-stage partners, and qualified interested parties |
-| Terms | Full details, structure, and terms are shared privately with qualified interested parties |
-| Public boundary | This is not a public token sale |
-| Token-related exposure | Private, legally reviewed, qualified-party only, and subject to final structure, eligibility, lockups, transfer restrictions, jurisdiction rules, compliance review, and private terms |
-| Community separation | Seed Round is separate from Community Participation Round |
-| Platform Credits separation | Seed Round is separate from Platform Credits |
-| Risk boundary | No token price, liquidity, listing, profit, return, payout, or market-performance assurance |
+* public token sale,
+* public investment offer,
+* public solicitation,
+* guaranteed allocation,
+* guaranteed listing access,
+* guaranteed FPPU distribution,
+* guaranteed return,
+* guaranteed exit.
 
-FUZE avoids open public sale language for the Seed Round.
+5.2 Community Participation Round Messaging
 
-### 3.7 Community Participation Messaging
+FUZE describes Community Participation Round as a separate public/community structure only when rules are ready.
 
-Community Participation messaging is eligibility-controlled and readiness-based.
+Approved language:
 
-| Topic | Public Messaging |
-|---|---|
-| Public name | Community Participation Round |
-| Allocation | Community Participation Allocation is 110,000,000 FUZE, equal to 22.00% of fixed supply |
-| Purpose | Eligible community participation, product-user participation, contributor recognition, and future community programs |
-| Readiness | Subject to legal, compliance, jurisdiction, product, platform, and smart contract readiness review |
-| Public Vault Access | Can support selected windows where final policy allows |
-| Lockups | Access can include lockups, vesting, staged release, or eligibility controls |
-| Migration separation | BOARD / Surfboard Migration is separate at 25,000,000 FUZE |
-| Risk boundary | Not a price-promise, listing-promise, liquidity-promise, payout-promise, or financial-return plan |
+Topic	Public Language
+Community Participation Round	Structured participation round under published rules where applicable
+Timing	Readiness-based
+Relationship to FPPU	FPPU eligibility is separate unless formally defined
+Relationship to listing	Listing, liquidity, and resale are not guaranteed
+Risk boundary	Participation does not guarantee price, profit, payout, liquidity, resale, or exit
 
-FUZE avoids discount-first, pre-market, or upside-framed messaging.
+FUZE avoids announcing Community Participation Round dates before product readiness, tokenomics clarity, FPPU clarity, contract readiness, risk disclosures, and public guidance are prepared.
 
-### 3.8 Profit Participation Messaging
+6. Listing and Market Messaging
 
-Profit participation language is tightly bounded.
+FUZE treats listing and market access as readiness-based.
 
-| Topic | Public Messaging |
-|---|---|
-| Public position | Profit participation is a long-term design direction |
-| Immediate status | Not immediate |
-| Assurance status | Not guaranteed |
-| Required readiness | Legal, accounting, treasury, technical, and transparency readiness |
-| Token boundary | FUZE token does not automatically create profit participation |
-| Product revenue boundary | Product revenue does not automatically create token-holder payout, revenue entitlement, ownership interest, or financial-return right |
-| Credits boundary | Platform Credits are not profit-participation instruments |
-| Seed boundary | Seed Round does not create public profit-participation rights |
-| Public reporting | Any future framework requires public documentation and review before use |
+Approved language:
 
-FUZE avoids automatic-income, payout, revenue entitlement, or investment-yield framing.
+Topic	Public Language
+DEX listing	Can be discussed only when official contract, chain, pair, liquidity policy, risk disclosure, and timing are confirmed
+CEX listing	Can be discussed only when agreement, technical setup, compliance materials, deposit/withdrawal rules, and risk language are ready
+FPPU market path	May require eligibility, transfer restrictions, compliant venues, or approved transfer processes
+Listing risk	FUZE does not guarantee listing, listing timing, liquidity, trading volume, price, price appreciation, resale, or exit
 
-### 3.9 Liquidity and Listing Messaging
+FUZE avoids:
 
-Liquidity and listing language stays operational and bounded.
+* “listing soon” without confirmation,
+* price targets,
+* price support,
+* guaranteed liquidity,
+* guaranteed exchange listing,
+* guaranteed CEX date,
+* guaranteed DEX exit,
+* buy-before-listing messaging,
+* market manipulation language,
+* fake volume or wash trading framing.
+
+7. Surfboard / BOARD Migration Messaging
+
+FUZE may include Surfboard / BOARD holder migration as a legacy-holder pathway.
+
+Approved language:
+
+Topic	Public Language
+Migration purpose	Legacy Surfboard / BOARD holder continuity and ecosystem alignment
+Migration timing	Announced only after eligibility, snapshot, ratio, supported chains, claim process, anti-scam guidance, and contract readiness are prepared
+FPPU relationship	FPPU eligibility is separate unless formally defined in migration rules
+Claim process	Official migration page, official contracts, supported wallets, eligibility check, claim guidance, and support channel
+Risk boundary	Migration does not guarantee price, liquidity, listing, payout, distribution, FPPU eligibility, or exit
+
+FUZE avoids announcing migration dates, contract addresses, ratios, or FPPU eligibility before official readiness.
+
+8. AI, Data, and Privacy Messaging
+
+FUZE uses AI with controls.
+
+Approved language:
+
+Topic	Public Language
+AI role	AI supports workflow, analysis, generation, routing, reporting, review, and decision support
+Human review	Human review, permission controls, auditability, and safeguards apply where relevant
+AI audit	AI-assisted audit supports FPPU and revenue-to-distribution review
+Community audit	Community audit improves public review with public-safe data and bounty logic
+Data handling	User, customer, investor, partner, payment, and security-sensitive data are protected through permission controls and public-safe reporting
+Public reports	Reports use categories, aggregates, proofs, hashes, vault records, and on-chain records where appropriate
+
+FUZE avoids saying:
 
-| Topic | Public Messaging |
-|---|---|
-| Liquidity & Market Operations allocation | 30,000,000 FUZE, equal to 6.00% of fixed supply |
-| Role | Market-structure support allocation |
-| Pairing capital | Stablecoin or ETH pairing capital is budgeted separately and is not assumed without treasury planning |
-| Listing readiness | Exchange readiness is preparation, not assurance |
-| AIMM support | AIMM provides market-operations intelligence and workflow support |
-| QTB support | QTB provides market intelligence and interpretation |
-| Public boundary | FUZE does not guarantee exchange listing, listing timing, liquidity, price performance, or market outcome |
-| Market integrity | FUZE does not support wash trading, spoofing, fake volume, deceptive market activity, or manipulative market behavior |
+* AI is always correct,
+* AI audit guarantees accuracy,
+* AI removes human review,
+* AI provides legal or financial certainty,
+* community audit finds every issue,
+* public reporting exposes private customer or user data,
+* private investor data is public.
 
-FUZE avoids listing-timing language, price-support language, and market-outcome language.
+9. Public Vault, Multisig, and Timelock Messaging
 
-### 3.10 QTB Messaging Boundary
+FUZE uses vault, multisig, and timelock language to support transparency and control.
 
-QTB is FUZE’s AI-powered trading intelligence and market interpretation product for crypto participants.
+Approved language:
 
-QTB public boundary:
+Topic	Public Language
+Public Vault Access	Transparency mechanism
+Multisig	Shared control and approval process
+Timelock	Delay mechanism for sensitive actions
+Vault reporting	Public-safe vault balances and movements where available
+FPPU distribution contract	Receives approved USDT distribution pool only after completed process
 
-**QTB provides AI-assisted market intelligence, interpretation, research support, and decision-support workflows. QTB does not provide financial advice, guaranteed trading results, autonomous trading execution, or profit assurance.**
+FUZE avoids saying:
 
-Public language:
+* Public Vault Access gives unrestricted operational control.
+* Public Vault Access guarantees token access.
+* Vault transparency removes all risk.
+* Multisig removes all risk.
+* Timelock removes all risk.
+* Any vault balance is automatically distributable.
+* One signer controls the full process.
 
-| QTB Area | Public Messaging |
-|---|---|
-| Purpose | Market intelligence, interpretation, research support, and decision-support workflows |
-| User role | Users make their own decisions |
-| Product output | Summaries, watchlists, alerts, reports, research context, and interpretation |
-| Risk boundary | Not financial advice, not autonomous trading execution, not profit assurance |
-| Data boundary | Market data and AI outputs can be incomplete, delayed, incorrect, or sensitive to source quality |
-| Compliance boundary | Users remain responsible for legal, tax, trading, investment, and jurisdiction decisions |
+10. Public Language Standards
 
-FUZE avoids presenting QTB as trading signals that assure outcome.
+10.1 Preferred Language
 
-### 3.11 AIMM Messaging Boundary
+FUZE public papers use official present-tense language:
 
-AIMM is FUZE’s AI-powered market-making and liquidity-operations support product for digital-asset ecosystems.
+* FUZE uses
+* FUZE applies
+* FUZE defines
+* FUZE separates
+* FUZE maintains
+* FUZE treats
+* FUZE presents
+* FUZE organizes
+* FUZE structures
+* FUZE governs
+* FUZE avoids
+* FUZE does not guarantee
+* FUZE keeps
+* FUZE aligns
+* FUZE connects
+* FUZE supports
+* FUZE publishes
+* FUZE reports
 
-AIMM public boundary:
+10.2 Avoided Language
 
-**AIMM provides AI-assisted market-operations intelligence, monitoring, workflow support, and operator-ready context. AIMM does not guarantee liquidity, price-performance assurance, trading profit, listing performance, market outcome, or autonomous market action without controlled permissions.**
+FUZE avoids public language that creates unfinished, speculative, or unsafe framing, including:
 
-Public language:
+* guaranteed return
+* guaranteed profit
+* guaranteed payout
+* guaranteed dividend
+* guaranteed passive income
+* guaranteed fixed yield
+* guaranteed liquidity
+* guaranteed listing
+* guaranteed exit
+* price target
+* token price prediction
+* buy before listing
+* listing soon
+* risk-free
+* fixed APY
+* passive income
+* guaranteed game earnings
+* guaranteed AI accuracy
+* market support
+* price support
+* public investment offer
+* public solicitation
+* unrestricted revenue share
+* automatic holder dividend
 
-| AIMM Area | Public Messaging |
-|---|---|
-| Purpose | Market-operations intelligence, monitoring, reports, scenario review, alerts, and operator workflows |
-| User role | Operators review and control actions |
-| Product output | Liquidity reports, alerts, scenario summaries, market-operations context, and evidence records |
-| Risk boundary | No liquidity assurance, no market outcome assurance, no autonomous action without controlled permissions |
-| Compliance boundary | Market operations remain subject to law, venue rules, treasury controls, and operational governance |
-| Integrity boundary | No deceptive market activity support |
+FUZE also avoids confusing public language that mixes FUZE token, FPPU, Platform Credits, USDT, stablecoin compensation, and private Seed Round terms into one claim.
 
-FUZE avoids presenting AIMM as market manipulation, autonomous market-making, or outcome-assurance software.
+11. Practical Examples
 
-### 3.12 ZAGA Arena Messaging Boundary
+11.1 Investor Question: “If I hold FUZE, do I earn?”
 
-ZAGA Arena is the fast battle arena game where players survive, fight bosses, collect game resources, build Net Worth, and compete in Telegram-ready multiplayer arenas.
+Correct answer:
 
-ZAGA Arena public boundary:
+FUZE token supports ecosystem utility and participation. FPPU is the separate FUZE Profit Participation Unit. Eligible FPPU holders may claim proportional USDT only when approved distributable net profit exists, the Revenue-to-Distribution Control System is completed, audit review is completed, USDT is deposited into the FPPU Distribution Smart Contract, and the holder is eligible at the applicable record-date snapshot. FUZE does not guarantee payout amount, payout frequency, fixed yield, liquidity, resale, token price, or exit.
 
-**ZAGA Arena uses market-inspired game resources and scoring language. Public communication separates gameplay progression, leaderboard scoring, and in-game resources from financial return promises.**
+11.2 Investor Question: “Is FPPU quarterly?”
 
-Public language:
+Correct answer:
 
-| ZAGA Arena Area | Public Messaging |
-|---|---|
-| Product identity | Fast battle arena game |
-| Resources | Game resources and scoring elements |
-| Net Worth | Game score and progression language |
-| Competition | Leaderboards, events, rooms, and recognition |
-| Token / credits | Token utility and Platform Credits remain separate systems |
-| Boundary | No game-earnings assurance, no financial-return framing, no casino positioning |
-| Telegram | Telegram-ready product surface, subject to platform rules and product readiness |
+FUZE can review FPPU distribution eligibility quarterly, but quarterly review does not guarantee quarterly payout. A distribution occurs only when approved distributable net profit exists and all audit, reserve, approval, contract funding, and eligibility conditions are completed.
 
-FUZE avoids presenting gameplay as income.
+11.3 Community Question: “Does buying Platform Credits give profit rights?”
 
-### 3.13 ZAGA Districts Messaging Boundary
+Correct answer:
 
-ZAGA Districts is a Telegram-native cyberpunk MMORPG where real communities build cities, manage economies, hire NPCs, and compete for power.
+No. Platform Credits are product usage credits. They can be used for AI actions, reports, workflows, dashboards, ShopOS AI actions, Botmad supervised work sessions, ToolGrid visibility, ZAGA product actions, and other supported product usage. Platform Credits are not FPPU and do not create profit participation rights.
 
-ZAGA Districts public boundary:
+11.4 Community Question: “Does USDT in the credit vault go straight to FPPU holders?”
 
-**ZAGA Districts uses digital assets for identity, access, utility, contribution, and reward systems where applicable. It is not positioned as a casino, pure play-to-earn scheme, or guaranteed income product.**
+Correct answer:
 
-Public language:
+No. USDT received through product usage or credit purchases enters the revenue and reconciliation process. FUZE handles refunds, chargebacks, fees, taxes, operating costs, reserves, product reinvestment, AI-assisted audit, community audit, approval controls, and timelock before any approved USDT distribution pool can fund the FPPU Distribution Smart Contract.
 
-| ZAGA Districts Area | Public Messaging |
-|---|---|
-| Product identity | Telegram-native cyberpunk MMORPG and community city-builder |
-| Community role | Telegram groups become cities and communities |
-| Digital assets | Identity, access, utility, contribution, and reward systems where applicable |
-| Economy | Gameplay economy and community management system |
-| Boundary | Not casino, not pure play-to-earn, not guaranteed income |
-| Token / credits | FUZE token, ZAGA utility, Platform Credits, and game resources remain clearly explained |
-| Risk | Game rules, digital-asset systems, and community features remain subject to product, legal, technical, and platform readiness |
+11.5 Market Question: “Can FPPU trade on DEX?”
 
-FUZE avoids casino or guaranteed-income framing.
+Correct answer:
 
-### 3.14 ToolGrid Messaging Boundary
+FPPU is a profit participation unit and may require eligibility, transfer controls, jurisdiction limits, and approved transfer processes. FUZE does not guarantee DEX listing, CEX listing, liquidity, resale, buyer availability, market price, redemption, buyback, or exit.
 
-ToolGrid is FUZE’s AI utility network with structured sponsored visibility across web, Telegram, and Web3-native surfaces.
+12. Platform Credits / Token / Data Relationship
 
-ToolGrid public boundary:
+12.1 Platform Credits
 
-**ToolGrid sponsored placements are subject to advertiser review, destination checks, sponsored-labeling rules, prohibited-claim rules, scam and phishing screening, takedown controls, and public trust safeguards.**
+Platform Credits are product usage credits. They are not FUZE token, FPPU, equity, investment contracts, profit participation rights, payout assets, return-bearing instruments, or yield products.
 
-Public language:
+12.2 FUZE Token
 
-| ToolGrid Area | Public Messaging |
-|---|---|
-| Product identity | AI utility network with sponsored visibility |
-| Sponsored label | Sponsored placements are clearly labeled where applicable |
-| Review controls | Advertiser review, destination checks, claim review, scam screening, and takedown controls |
-| Credit usage | Platform Credits can support sponsored placements, reports, and campaigns |
-| Boundary | No traffic, conversion, revenue, investment, community growth, token performance, or business outcome assurance |
-| User safety | Scam, phishing, misleading claim, prohibited claim, and destination risk controls apply |
-| Public reporting | Campaign summaries, review status, and takedowns can be reported where appropriate |
+FUZE token is the ecosystem utility and participation layer. FUZE token can support ZAGA utility, wallet-aware access, community participation, product access tiers, ecosystem recognition, governance-aware direction where applicable, partner eligibility where allowed, and long-term alignment.
 
-FUZE avoids presenting sponsored visibility as guaranteed performance.
+FUZE token ownership alone does not automatically create FPPU claim rights.
 
-### 3.15 TrainLayer AI Messaging Boundary
+12.3 FPPU
+
+FPPU is the profit participation layer. Eligible FPPU holders may claim USDT only when approved distributable net profit exists and the full Revenue-to-Distribution Control System is completed.
+
+12.4 USDT
+
+USDT is the preferred distribution currency for approved FPPU claims and one supported product-payment rail where applicable. USDT in a platform vault is not automatically distributable to FPPU holders.
 
-TrainLayer AI helps non-technical teams learn practical AI concepts, prepare their own data, build specialized AI assistants, validate quality and safety, deploy into real workflows, and improve over time.
+12.5 Data
 
-TrainLayer AI public boundary:
+FUZE uses public-safe reporting. User data, customer data, payment details, investor data, partner data, security-sensitive data, and confidential contract information are not exposed unnecessarily in public reports. Public reports can use category totals, proof hashes, contract addresses, on-chain transaction records, and aggregate reporting where appropriate.
 
-**TrainLayer AI supports learning, data preparation, assistant building, validation, deployment, and improvement. It does not guarantee perfect AI accuracy, complete hallucination removal, legal compliance by default, or fully automated operational replacement.**
+13. Public Boundary
 
-Public language:
+This paper explains FUZE legal and compliance messaging. It is not a securities offering, public token sale, public solicitation, prospectus, legal advice, tax advice, financial advice, investment recommendation, exchange listing announcement, liquidity commitment, price statement, guaranteed dividend, fixed-yield product, income promise, payout promise, trading instruction, or acquisition promise.
 
-| TrainLayer AI Area | Public Messaging |
-|---|---|
-| Purpose | AI learning, data preparation, assistant building, validation, deployment, and improvement |
-| User role | Teams remain responsible for data quality, review, approval, and use |
-| Product output | Training workflows, assistants, validation reports, usage guides, and improvement plans |
-| Boundary | No perfect AI accuracy, no complete hallucination removal, no legal compliance by default |
-| Review | Human review remains important for sensitive or consequential use |
-| Privacy | Training data, business data, and user records require access controls and permission rules |
+FUZE, FUZE token, Platform Credits, and FPPU do not guarantee:
 
-FUZE avoids presenting TrainLayer AI as automatic perfect compliance or replacement.
+* product revenue
+* customer growth
+* shop revenue
+* community growth
+* game activity
+* user retention
+* enterprise adoption
+* partner adoption
+* approved distributable net profit
+* quarterly distribution
+* yearly distribution
+* fixed dividend
+* fixed yield
+* passive income
+* payout amount
+* distribution frequency
+* USDT availability
+* token price
+* token appreciation
+* liquidity
+* listing
+* trading volume
+* market-making result
+* resale opportunity
+* buyer availability
+* buyback
+* redemption
+* exit
+* AI accuracy
+* community audit completeness
+* fraud-free operation
+* error-free reporting
+* smart contract safety
+* stablecoin stability
+* M&A
+* acquisition outcome
 
-### 3.16 CommunityLayer AI Messaging Boundary
+FPPU may require eligibility rules, wallet verification, transfer restrictions, KYC/AML where applicable, jurisdiction controls, legal review, tax review, reporting standards, smart contract review, security controls, and public-safe documentation.
 
-CommunityLayer AI helps community owners protect members, welcome newcomers, answer repeated questions, create lively conversations, recognize contributors, track community health, and grow safely across Telegram, Facebook Groups, Discord, and future community platforms.
+Private Seed Round details, FPPU eligibility terms, token-related exposure, investor rights, jurisdiction-specific materials, transfer rules, and private legal materials are shared privately or through appropriate eligibility-controlled channels where applicable.
 
-CommunityLayer AI public boundary:
+14. Reporting and Transparency Direction
 
-**CommunityLayer AI supports moderation, safety, onboarding, engagement, analytics, and growth workflows. It does not replace human community owners, legal judgment, platform enforcement rules, or emergency safety escalation.**
+FUZE legal and compliance messaging connects to public reporting.
 
-Public language:
+Reporting Area	Public Direction
+Product status	Reports live, prototype, preparation, and planned product status clearly
+Platform Credits	Reports usage categories and credit examples where available
+FUZE token	Reports token utility, allocation, circulation, release, and vault logic where available
+FPPU	Reports approved distributable net profit, distribution pool, snapshot, claim status, and audit status where available
+Revenue-to-distribution	Reports revenue categories, cost categories, reserves, conversion proofs, audit reports, multisig approvals, and vault records where public-safe
+AI safety	Reports human review, safeguards, auditability, and AI boundaries
+Data privacy	Reports permission controls and public-safe disclosure approach
+Market-related products	Reports QTB and AIMM boundaries clearly
+ZAGA products	Reports game/community mechanics without guaranteed earning language
+Risk updates	Reports updated public boundaries as products, token systems, and FPPU systems develop
 
-| CommunityLayer AI Area | Public Messaging |
-|---|---|
-| Purpose | Community trust, onboarding, approved answers, moderation support, engagement, analytics, and reporting |
-| User role | Community owners remain responsible for human judgment and final decisions |
-| Platform rules | Telegram, Facebook Groups, Discord, and other platform rules still apply |
-| Safety | Emergency or high-risk safety issues require human escalation |
-| Boundary | Does not replace legal judgment or platform enforcement |
-| Data | Community data requires privacy, permission, and access controls |
+Transparency improves reviewability but does not remove business, product, legal, tax, technical, operational, market, payment-channel, stablecoin, smart contract, or security risk.
 
-FUZE avoids presenting CommunityLayer AI as fully automatic community control.
+15. Related Papers
 
-### 3.17 SpeakShop AI Messaging Boundary
+Related Paper	Relationship
+TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/22-FUZE_FPPU_PROFIT_PARTICIPATION_UNIT_PUBLIC.md	Defines FPPU model
+TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/23-FUZE_REVENUE_TO_DISTRIBUTION_CONTROL_SYSTEM_PUBLIC.md	Defines revenue-to-distribution process
+TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/24-FUZE_FPPU_RISK_DISCLOSURE_PUBLIC.md	Defines FPPU risk disclosure
+TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/01-TOKENOMICS_FINAL_ALLOCATION_TABLE-PUBLIC.md	FUZE token allocation and ecosystem supply model
+TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/03-CONTROLLED_CIRCULATION_POLICY-PUBLIC.md	Controlled circulation direction
+TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/04-PUBLIC_VAULT_ACCESS_SYSTEM-PUBLIC.md	Public vault transparency direction
+TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/05-VAULT_BY_VAULT_RELEASE_RULES-PUBLIC.md	Vault release logic
+TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/07-STABLECOIN_COMPENSATION_POLICY-PUBLIC.md	Stablecoin work-payment separation
+TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/09-BOARD_SURFBOARD_MIGRATION-PUBLIC.md	Surfboard / BOARD migration relationship
+TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/10-LIQUIDITY_AND_LISTING_POLICY-PUBLIC.md	Liquidity and listing boundary
+TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/11-SEED_ROUND_STRUCTURE_AND_TOKEN_RELATED_EXPOSURE-PUBLIC.md	Private round and exposure relationship
+TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/13-PLATFORM_CREDITS_RELATIONSHIP-PUBLIC.md	Platform Credits separation
+TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/14-PROFIT_PARTICIPATION_BOUNDARIES-PUBLIC.md	Profit participation boundary
+TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/15-GOVERNANCE_MULTISIG_TIMELOCK_MODEL-PUBLIC.md	Multisig and timelock governance
+TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/21-FUZE_TOKEN_RELEASE_AND_CIRCULATION_CLARITY_PUBLIC.md	Token release and circulation clarity
+CORE-PLATFORM-PAPERS/06-FUZE_PLATFORM_CREDITS_USAGE_EXAMPLES_PUBLIC.md	Platform Credits product usage examples
+CORE-PLATFORM-PAPERS/07-FUZE_DATA_PRIVACY_AND_AI_DATA_HANDLING_PUBLIC.md	Data privacy and AI data handling
+AI-SAAS-PRODUCT-PAPERS/16-FUZE_PRODUCT_RISK_BOUNDARIES_PUBLIC.md	Product risk boundaries
+AI-SAAS-PRODUCT-PAPERS/18-FUZE_PRODUCT_TO_PLATFORM_CREDITS_PUBLIC.md	Product-to-credits bridge
+AI-SAAS-PRODUCT-PAPERS/19-FUZE_PRODUCT_TO_TOKEN_UTILITY_BRIDGE_PUBLIC.md	Product-to-token utility bridge
+INVESTOR-PARTNER-PAPERS/07-FUZE_AI_SAFETY_AND_RELIABILITY_PUBLIC.md	AI safety and reliability
+INVESTOR-PARTNER-PAPERS/08-FUZE_DATA_PRIVACY_AND_PERMISSION_MODEL_PUBLIC.md	Data privacy and permission model
+INVESTOR-PARTNER-PAPERS/09-FUZE_PUBLIC_METRICS_AND_TRANSPARENCY_PUBLIC.md	Public metrics and transparency
+INVESTOR-PARTNER-PAPERS/20-FUZE_INVESTOR_RISK_DISCLOSURE_PUBLIC.md	Investor risk disclosure
 
-SpeakShop AI turns a phone, tablet, or connected speaker into an AI front-shop voice promoter for small businesses.
+16. Conclusion
 
-SpeakShop AI public boundary:
+FUZE legal and compliance messaging now reflects the updated FUZE structure:
 
-**SpeakShop AI supports AI-generated voice promotion for shops. Shop owners remain responsible for message approval, local noise rules, product accuracy, customer experience, and device placement.**
+Platform Credits are for product usage. FUZE token is for ecosystem utility and participation. FPPU is for eligible profit participation. USDT is used for approved FPPU distributions. Stablecoins, fiat, app-store proceeds, and other payment rails are handled through controlled revenue, treasury, and conversion processes where applicable.
 
-Public language:
+FUZE keeps public communication clear by separating product value, ecosystem utility, profit participation, private fundraising, community participation, listing readiness, market intelligence, game mechanics, AI outputs, data handling, and treasury controls.
 
-| SpeakShop AI Area | Public Messaging |
-|---|---|
-| Purpose | AI voice promotion, scripts, sound packs, schedules, and shop announcements |
-| User role | Shop owners approve messages and usage |
-| Local rules | Noise, shop operation, mall, landlord, and local public-space rules still apply |
-| Product accuracy | Shop owners remain responsible for accurate menu, price, ingredient, and promotion information |
-| Device placement | Device placement remains owner responsibility |
-| Boundary | No shop revenue assurance or customer-response assurance |
+FUZE uses FPPU to create a transparent, Web3-native, public-company-inspired profit participation model, while keeping public risk boundaries visible.
 
-FUZE avoids presenting voice promotion as guaranteed sales.
+FPPU distributions depend on real product revenue, reconciliation, deductions, reserves, approved distributable net profit, AI-assisted audit, community audit, dispute resolution, multisig approval, timelock controls, smart contract funding, snapshot logic, and holder eligibility.
 
-### 3.18 Botmad Messaging Boundary
-
-Botmad is FUZE’s AI Desktop Employee for structured digital work, delivery queues, reviewable artifacts, and execution evidence.
-
-Botmad public boundary:
-
-**Botmad supports supervised work sessions, reviewable artifacts, and execution evidence. It does not remove human review, expose secrets publicly, or operate as uncontrolled automation.**
-
-Public language:
-
-| Botmad Area | Public Messaging |
-|---|---|
-| Purpose | Structured digital work, document generation, code support, research support, artifacts, and evidence records |
-| User role | Humans review and approve sensitive work |
-| Output | Reviewable artifacts, reports, files, summaries, logs, and references |
-| Boundary | Does not remove human review or operate as uncontrolled automation |
-| Security | Secrets, credentials, private keys, private files, and sensitive data require protection |
-| Compliance | Legal, tax, financial, medical, security, and consequential work requires appropriate review |
-
-FUZE avoids presenting Botmad as unsupervised autonomous execution.
-
-### 3.19 AIE Messaging Boundary
-
-AIE is FUZE’s AI-powered event intelligence and opportunity discovery product.
-
-| AIE Area | Public Messaging |
-|---|---|
-| Purpose | Event discovery, opportunity tracking, relevance scoring, alerts, summaries, and workflow preparation |
-| User role | Users decide which events or opportunities to pursue |
-| Product output | Event lists, opportunity maps, reminders, reports, and preparation workflows |
-| Boundary | No event access assurance, funding assurance, partnership assurance, grant assurance, business outcome assurance, or growth assurance |
-| Data boundary | Event data can change and requires verification before action |
-| Compliance | Users remain responsible for eligibility, applications, terms, deadlines, and participation rules |
-
-AIE supports discovery and preparation, not outcome assurance.
-
-### 3.20 Privacy and Data Messaging
-
-FUZE products can involve business records, shop data, community data, wallet context, market data, AI usage, customer information, and product reports.
-
-| Data Area | Public Messaging |
-|---|---|
-| Business data | Managed through role-safe workflows, permission controls, and product terms where applicable |
-| Shop data | Orders, queues, payments, loyalty, stock, staff, and reports require access controls and product policy |
-| Community data | Group activity, moderation, onboarding, and analytics require permission, privacy, and platform-rule alignment |
-| Wallet context | Wallet-aware access uses only applicable context where legally and technically ready |
-| AI usage | AI workflows depend on approved source material and review |
-| Customer data | Customer information requires responsible collection, retention, and access controls |
-| Public reporting | Uses aggregate or public-safe categories where applicable |
-| Sensitive information | Private keys, secrets, passwords, payment credentials, and confidential records require protection |
-
-FUZE avoids presenting data systems as unlimited or permissionless.
-
-### 3.21 Public Reporting Language
-
-FUZE reports public-safe categories rather than private sensitive data.
-
-| Reporting Area | Public Messaging |
-|---|---|
-| Product status | Live, in development, future-stage, partner-ready, or subject-to-review status |
-| Tokenomics | Allocation, vault, release, and controlled circulation categories |
-| Platform Credits | Product usage categories and billing direction |
-| Public Vault Access | Source vault, status, pricing method, eligibility, lockup, and policy reference where implemented |
-| Migration | Claim status, claimed amount, remaining amount, and contract reference where available |
-| Liquidity | Market-structure allocation and public boundaries |
-| Governance | Multisig, timelock, policy, and transaction references where public-safe |
-| Product usage | Aggregated product activity where accurate and appropriate |
-| Risk boundaries | Repeated across public surfaces |
-
-Reporting builds trust without exposing private details.
-
-## 4. Investor and Community Relevance
-
-Legal and compliance messaging matters because FUZE spans AI SaaS, Web3 utility, games, market intelligence, market operations, sponsored visibility, community products, Platform Credits, private fundraising, and tokenomics.
-
-Investor relevance:
-
-- Reduces public communication risk
-- Separates products, tokens, credits, compensation, and future economic design areas
-- Supports due diligence through clear boundaries
-- Shows how FUZE communicates risk across products
-- Protects private Seed Round communication
-- Clarifies liquidity and listing boundaries
-- Clarifies QTB and AIMM market-product boundaries
-- Clarifies game and sponsored visibility boundaries
-- Supports long-term platform trust
-
-Community relevance:
-
-- Helps holders understand what FUZE token does and does not represent
-- Helps product users understand Platform Credits
-- Helps players understand ZAGA Arena and ZAGA Districts without income framing
-- Helps community owners understand CommunityLayer AI responsibility boundaries
-- Helps shop owners understand ShopOS AI and SpeakShop AI product-use boundaries
-- Helps public readers understand Seed Round and Community Participation separation
-- Reduces misunderstanding around market, token, listing, profit, and payout language
-
-Strategic partner relevance:
-
-| Partner Type | Messaging Value |
-|---|---|
-| Strategic investors | Clearer investor and public-risk language |
-| SMEs | Product usage and payment boundaries |
-| Web3 communities | Token utility and participation boundaries |
-| Game partners | Gameplay and digital-asset communication controls |
-| Advertisers | Sponsored visibility review and public trust rules |
-| Market partners | QTB and AIMM product-risk boundaries |
-| Legal partners | Clear public communication baseline |
-| Compliance partners | Clear readiness, jurisdiction, and eligibility language |
-| Enterprise partners | AI, privacy, data, and workflow responsibility boundaries |
-
-Legal and compliance messaging makes FUZE easier to trust.
-
-## 5. Public Boundary
-
-FUZE publicly presents legal and compliance messaging as a public communication control system.
-
-FUZE publicly explains:
-
-- FUZE platform positioning
-- product-first execution order
-- token / credits separation
-- stablecoin compensation separation
-- Seed Round private boundary
-- Community Participation readiness boundary
-- Public Vault Access boundary
-- profit participation boundary
-- liquidity and listing boundary
-- product-specific boundaries
-- AI and data boundaries
-- privacy and permission boundaries
-- public reporting boundaries
-- governance and development standards boundaries
-
-FUZE keeps the following areas subject to product, technical, legal, accounting, tax, privacy, compliance, payment, platform, app-store, exchange, market, treasury, governance, security, jurisdiction, smart contract, advertising, community-platform, employment, contractor, and operational review where applicable:
-
-- legal status
-- token treatment
-- jurisdiction eligibility
-- fundraising terms
-- Seed Round terms
-- Community Participation rules
-- Public Vault Access rules
-- Platform Credit pricing
-- payment terms
-- refund terms
-- product metrics
-- enterprise terms
-- privacy notices
-- data-processing terms
-- advertising rules
-- sponsored placement rules
-- AI model policies
-- game economy rules
-- wallet-aware access methods
-- smart contract deployment
-- exchange discussions
-- listing readiness
-- public dashboard format
-
-Legal and compliance messaging is not legal advice, not investment advice, not tax advice, not accounting advice, not financial advice, not trading advice, and not a promise of any legal, regulatory, product, market, or business outcome.
-
-## 6. Risk Boundaries and Safeguards
-
-FUZE applies the following risk boundaries across public communication.
-
-### 6.1 General Token Boundary
-
-FUZE does not guarantee token price, liquidity, listing, profit, return, payout, or market performance.
-
-### 6.2 Seed Round Boundary
-
-FUZE’s Seed Round discussions are private strategic fundraising conversations. Full details, structure, and terms are shared privately with qualified interested parties. This is not a public token sale.
-
-### 6.3 Community Participation Boundary
-
-Any future Community Participation Round is subject to legal, compliance, jurisdiction, product, platform, and smart contract readiness review.
-
-### 6.4 Public Vault Access Boundary
-
-Public Vault Access, if implemented, is subject to eligibility, jurisdiction, compliance, platform readiness, market-aligned pricing rules, lockups, and final policy approval.
-
-### 6.5 Platform Credits Boundary
-
-Platform Credits are for product usage and are not investment assets, payout assets, or FUZE tokens.
-
-### 6.6 Profit Participation Boundary
-
-Profit participation is a long-term design direction and is not immediate or guaranteed. Any future framework requires legal, accounting, treasury, technical, and transparency readiness.
-
-### 6.7 Listing Boundary
-
-FUZE does not guarantee exchange listing, listing timing, liquidity, price performance, or market outcome.
-
-### 6.8 Development Standards Boundary
-
-FUZE uses standards-inspired or standards-aligned processes. FUZE does not claim formal certification unless certification has been completed.
-
-### 6.9 QTB Boundary
-
-QTB provides AI-assisted market intelligence, interpretation, research support, and decision-support workflows. QTB does not provide financial advice, guaranteed trading results, autonomous trading execution, or profit assurance.
-
-### 6.10 AIMM Boundary
-
-AIMM provides AI-assisted market-operations intelligence, monitoring, workflow support, and operator-ready context. AIMM does not guarantee liquidity, price-performance assurance, trading profit, listing performance, market outcome, or autonomous market action without controlled permissions.
-
-### 6.11 ZAGA Arena Boundary
-
-ZAGA Arena uses market-inspired game resources and scoring language. Public communication separates gameplay progression, leaderboard scoring, and in-game resources from financial return promises.
-
-### 6.12 ZAGA Districts Boundary
-
-ZAGA Districts uses digital assets for identity, access, utility, contribution, and reward systems where applicable. It is not positioned as a casino, pure play-to-earn scheme, or guaranteed income product.
-
-### 6.13 ToolGrid Boundary
-
-ToolGrid sponsored placements are subject to advertiser review, destination checks, sponsored-labeling rules, prohibited-claim rules, scam and phishing screening, takedown controls, and public trust safeguards.
-
-### 6.14 TrainLayer AI Boundary
-
-TrainLayer AI supports learning, data preparation, assistant building, validation, deployment, and improvement. It does not guarantee perfect AI accuracy, complete hallucination removal, legal compliance by default, or fully automated operational replacement.
-
-### 6.15 CommunityLayer AI Boundary
-
-CommunityLayer AI supports moderation, safety, onboarding, engagement, analytics, and growth workflows. It does not replace human community owners, legal judgment, platform enforcement rules, or emergency safety escalation.
-
-### 6.16 SpeakShop AI Boundary
-
-SpeakShop AI supports AI-generated voice promotion for shops. Shop owners remain responsible for message approval, local noise rules, product accuracy, customer experience, and device placement.
-
-### 6.17 Botmad Boundary
-
-Botmad supports supervised work sessions, reviewable artifacts, and execution evidence. It does not remove human review, expose secrets publicly, or operate as uncontrolled automation.
-
-## 7. Reporting and Transparency Direction
-
-FUZE reports legal and compliance messaging through public documentation, product pages, tokenomics pages, risk pages, public papers, community FAQ, investor materials, ZAGA.io, HerHelp.com, Platform Credit documentation, ToolGrid sponsor policies, game pages, market-product pages, governance pages, release notes, and transparency surfaces where applicable.
-
-Reporting areas include:
-
-| Reporting Area | Public Direction |
-|---|---|
-| Master language | FUZE positioning, execution order, token / credits separation, and compensation principle |
-| Product boundaries | HerHelp, ZAGA, QTB, AIMM, AIE, ToolGrid, Botmad, ZAGA Arena, ZAGA Districts, and HerHelp module boundaries |
-| Token boundaries | Token price, liquidity, listing, profit, return, payout, and market-performance boundaries |
-| Platform Credits | Product usage credit rules, refunds, expiry, billing, and usage categories |
-| Fundraising | Seed Round private boundary and qualified-party process |
-| Community participation | Eligibility, jurisdiction, readiness, lockups, and Public Vault Access relationship |
-| Governance | Multisig, timelock, vault controls, policy references, and public-safe reporting |
-| Privacy and data | Data, permission, source-of-truth, AI usage, and public reporting boundaries |
-| Sponsored visibility | Review, labeling, destination checks, prohibited claims, scam screening, and takedowns |
-| Product status | Live, in development, future-stage, partner-ready, or subject-to-review status |
-
-FUZE uses consistent reporting to reduce confusion and preserve trust.
-
-## 8. Conclusion
-
-FUZE uses Legal and Compliance Messaging to keep public communication clear, product-first, risk-aware, and investor-readable.
-
-The model protects FUZE’s public story across AI SaaS products, Web3 utility, games, market intelligence, liquidity-operations support, sponsored visibility, community products, Platform Credits, private fundraising, public tokenomics, governance, and transparency reporting.
-
-FUZE token is for ecosystem participation. Platform Credits are for product usage. Stablecoins pay for work. FUZE tokens align long-term participation.
-
-FUZE is building real products, real users, revenue potential, shared platform rails, and strategic acquisition optionality. FUZE is not relying on token speculation as the only exit path.
-
-Product usage comes first. Platform rails come second. Broader ecosystem participation comes after that.
+FUZE does not guarantee income, payout amount, distribution frequency, fixed yield, liquidity, listing, resale opportunity, token price appreciation, or exit.

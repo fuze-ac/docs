@@ -2,504 +2,944 @@
 
 ## Executive Summary
 
+ZAGA Districts is the Telegram-native cyberpunk MMORPG and community city-builder under the ZAGA and FUZE ecosystem.
+
+ZAGA Districts is designed around real communities. Telegram groups can become gangs, districts, cities, factions, or power blocs inside a stylized cyberpunk world. Communities can recruit members, hire NPCs, build and upgrade structures, manage game treasuries, use taxes and salaries as game mechanics, defend against rivals, complete quests, and compete for influence.
+
+Its public one-line description is:
+
 ZAGA Districts is a Telegram-native cyberpunk MMORPG where real communities build cities, manage economies, hire NPCs, and compete for power.
 
-ZAGA Districts turns Telegram communities into living cyberpunk cities. Group owners, admins, and members can become city leaders, officers, citizens, workers, defenders, traders, recruiters, contributors, and builders inside a shared city-based game world. Each community can create a city identity, develop buildings, manage resources, support NPC workers, run quests, organize treasury activity, defend against rivals, and compete for influence across a stylized cyberpunk environment.
+ZAGA Districts is separate from ZAGA Arena. ZAGA Arena is the fast battle arena game where players survive, fight bosses, collect USDT and Token Value, build Net Worth, and compete in Telegram-ready multiplayer arenas. ZAGA Districts is not a mode inside ZAGA Arena.
 
-ZAGA Districts is part of the ZAGA product family under FUZE. It is separate from ZAGA Arena. ZAGA Arena is the fast battle arena game where players survive, fight bosses, collect game resources, build Net Worth, and compete in Telegram-ready multiplayer arenas. ZAGA Districts is the community MMORPG and city-builder game where real Telegram groups become playable cities.
+FUZE is a transparency-first AI SaaS platform building practical products on shared infrastructure for identity, credits, payments, AI orchestration, wallet-based records, reporting, and ecosystem participation. ZAGA Districts gives FUZE a community-native game surface where group identity, social coordination, strategy, progression, and token-utility design can connect.
 
-ZAGA Districts is not positioned as a casino, pure play-to-earn scheme, or guaranteed income product. It uses digital assets for identity, access, utility, contribution, and reward systems where applicable. Public communication separates gameplay, community contribution, city progression, and digital-asset utility from financial return promises.
+FUZE uses one token only: FUZE token. FUZE token is the single ecosystem token of FUZE. Wallet-based participation ability is not a second token, not automatic for every wallet, and not active as a guaranteed public payout right.
 
-Inside FUZE, ZAGA Districts gives ZAGA a community-first utility surface. It connects Telegram-native communities, wallet-aware access where applicable, Platform Credits usage where product rules allow, community identity, quests, city systems, game progression, reporting, and risk-aware public documentation.
+ZAGA Districts city economies, NPCs, treasuries, taxes, salaries, defenses, buildings, quests, token/NFT utility, and community competition are game and community mechanics. They are not passive-income systems, not guaranteed financial systems, not investment contracts, not guaranteed earning systems, and not guaranteed token outcomes.
 
-## 1. FUZE Position
+---
 
-FUZE presents ZAGA Districts as the Telegram-native community MMORPG and city-builder game in the ZAGA product family.
+## 1. Product Purpose
 
-FUZE position:
+ZAGA Districts exists to turn communities into playable cyberpunk cities.
 
-**ZAGA Districts is a Telegram-native cyberpunk MMORPG where real communities build cities, manage economies, hire NPCs, and compete for power.**
+The product purpose is to create a Telegram-native MMORPG/community city-builder where real online groups can play together, organize identity, make strategic decisions, build assets inside the game world, and compete against other communities.
 
-ZAGA Districts supports the FUZE execution order:
+ZAGA Districts is designed to support:
 
-**Product usage first. Platform rails second. Broader ecosystem participation after that.**
+- Telegram group-based gameplay
+- community city creation
+- faction or gang identity
+- member recruitment
+- NPC hiring
+- building and structure upgrades
+- game treasury mechanics
+- tax and salary mechanics as gameplay systems
+- defense and attack mechanics
+- quests and missions
+- AI-driven world events where supported
+- community competition
+- game dashboards and status reports
+- token and NFT utility surfaces where defined
+- public-safe community activity reporting
 
-ZAGA Districts creates product usage through community gameplay. FUZE Core Platform connects the game through identity, Platform Credits, payments, AI orchestration, reporting, security, wallet-aware context where applicable, Telegram surfaces, public documentation, and governance. Broader ecosystem participation can connect later through community-linked utility, holder recognition, eligibility systems, token/NFT verification where applicable, and ZAGA utility modules where legally, technically, and operationally ready.
+ZAGA Districts is not designed as a passive-income product.
 
-ZAGA Districts is a game-first and community-first product. It is not a casino, pure play-to-earn scheme, token price promise, exchange-listing promise, payout product, or guaranteed income product.
+Its value comes from community gameplay, strategy, identity, social coordination, world-building, and competition.
 
-## 2. Platform Context
+---
 
-FUZE is a transparency-first AI SaaS platform building practical products on top of shared infrastructure for identity, credits, payments, AI orchestration, reporting, and ecosystem participation.
+## 2. User Problem and Game Context
 
-ZAGA Districts connects to FUZE and ZAGA platform rails in the following way:
+Many Web3 communities, Telegram groups, gaming groups, creator communities, and online tribes need more than chat activity.
 
-| FUZE Platform Rail | ZAGA Districts Relationship |
+A community can become active during a campaign, launch, or token event, but after that, members often need new reasons to return, coordinate, and participate.
+
+Common community problems include:
+
+- members become inactive after initial hype
+- communities have no shared long-term goal
+- group identity is weak
+- community competition is limited to social posts
+- token utility is difficult to explain without product surfaces
+- games often focus only on individual players, not real communities
+- community admins need more structured engagement tools
+- Telegram groups need lightweight game mechanics that fit chat behavior
+- economic game language can confuse users if boundaries are not clear
+
+ZAGA Districts addresses this by making the community itself part of the game.
+
+Instead of only asking each player to play alone, ZAGA Districts lets communities build, manage, defend, and compete together.
+
+This makes the product relevant for:
+
+- Telegram groups
+- Web3 communities
+- gaming communities
+- NFT communities
+- creator communities
+- local fan communities
+- event communities
+- guilds
+- project communities
+- FUZE and ZAGA community members
+
+ZAGA Districts is a community product first and a game economy product second. Game economy mechanics must remain clearly framed as gameplay, not investment promises.
+
+---
+
+## 3. ZAGA Districts Product Model
+
+ZAGA Districts has several core product layers.
+
+| Layer | Role |
 |---|---|
-| Identity and accounts | Players, Telegram users, group owners, admins, community members, holders, and partners can connect through account-based access where applicable |
-| Telegram-native access | Telegram groups, bots, Mini App surfaces, group-linked cities, city announcements, and community activity support social gameplay |
-| Wallet-aware context | Wallet connection can support eligibility, recognition, access, identity, utility, or digital-asset verification where applicable |
-| Platform Credits | Credits can support game-related product usage, city actions, reports, community tools, events, or platform services where product rules allow |
-| Payments | Optional product services, city tools, campaigns, or partner surfaces can connect to supported payment rails where applicable |
-| AI orchestration | AI can support NPC behavior, quests, event context, summaries, moderation assistance, reporting, and community operations where applicable |
-| Workflow infrastructure | City creation, quests, events, treasury records, NPC tasks, member roles, reports, and community actions become structured workflows |
-| Reporting | City progress, member activity, quests, events, contribution, and public-safe analytics can create product evidence |
-| Security and fairness | Server authority, access validation, abuse controls, economy controls, event rules, and audit logs protect game integrity |
-| Governance and transparency | Public documentation, risk boundaries, token/credits separation, game rules, and product status keep public communication clear |
-
-Telegram has become a strong environment for community-native products because groups already contain real social networks, admins, identities, discussions, campaigns, events, and community memory. ZAGA Districts builds on that behavior by turning existing groups into playable city identities rather than forcing players to start from disconnected guild systems.
-
-## 3. Public Model
-
-### 3.1 ZAGA Districts Product Model
-
-ZAGA Districts follows a community-to-city model:
-
-**Telegram group → city identity → members become citizens → city systems activate → quests and economy develop → communities compete for power**
-
-| Layer | Public Role |
-|---|---|
-| Telegram group | Existing community and social headquarters |
-| City identity | Group becomes a cyberpunk city with name, role structure, and progression |
-| Members | Members become citizens, workers, defenders, recruiters, traders, officers, or contributors |
-| Buildings | City systems unlock quests, NPCs, resources, defenses, markets, and governance functions |
-| NPC workforce | Hired NPCs support city services, quests, defense, production, and world activity |
-| Treasury and resources | City tracks resources, contribution, taxes, rewards, upgrades, and operations where applicable |
-| Quests and events | Members complete tasks, defend the city, recruit, craft, gather, and support city growth |
-| Rivalry and alliances | Cities can compete, defend, trade, cooperate, or form alliances where product rules allow |
-| Reporting | City activity, contribution, resource movement, member participation, and public-safe progress can become visible |
-| Digital-asset utility | Identity, access, utility, contribution, and reward systems can connect where applicable |
-
-Public product promise:
-
-**Your Telegram group becomes a living cyberpunk city.**
-
-### 3.2 Core Fantasy
-
-ZAGA Districts is built around community ownership and city progression.
-
-The fantasy is not only individual character growth. The central fantasy is that an existing Telegram community becomes a playable faction and city.
-
-| Community Role | Game Role |
-|---|---|
-| Group owner | City lord or city leader |
-| Admins | Officers, managers, defense coordinators, economy managers |
-| Members | Citizens, workers, traders, recruiters, defenders, hackers, medics, contributors |
-| Active contributors | Recognized builders, quest leaders, ambassadors, resource supporters |
-| New members | New citizens entering the city |
-| Partner communities | Neighboring cities, rivals, allies, markets, or campaign partners |
-
-The group no longer only chats. It becomes a living economy and playable faction.
-
-### 3.3 Telegram Group to City System
-
-The foundation of ZAGA Districts is the Telegram Group to City System.
-
-| Step | Public Flow |
-|---:|---|
-| 1 | A Telegram group connects with the ZAGA Districts bot or Mini App where available |
-| 2 | The system verifies the group and admin context where applicable |
-| 3 | The group creates a city identity |
-| 4 | The group selects or unlocks city options where product rules allow |
-| 5 | Members connect Telegram accounts |
-| 6 | Members can connect wallets where product rules, privacy settings, and eligibility requirements allow |
-| 7 | The group becomes a playable community city |
-| 8 | The city begins quests, member roles, treasury activity, upgrades, and competition |
-
-This makes ZAGA Districts naturally Telegram-native. It begins from real groups with real members instead of empty fictional guilds.
-
-### 3.4 City System
-
-Each city can contain a structured game economy and progression model.
-
-| City Area | Public Role |
-|---|---|
-| City name | Public identity of the community city |
-| City leader | Owner or leader role |
-| Officers | Admin and management roles |
-| Citizens | Members who participate in city activity |
-| City level | Progression status |
-| Treasury | City resource and contribution tracking where applicable |
-| Buildings | Unlock services, NPCs, quests, defenses, markets, and upgrades |
-| NPC workforce | Hired workers or characters that support city operations |
-| Defenses | City protection and rivalry systems |
-| Internal economy | Resource use, contribution, upkeep, taxes, and market settings where product rules allow |
-| Quests | Member tasks, city missions, recruitment, defense, and world events |
-| Reputation | Public status, contribution, activity, and influence |
-| War readiness | City preparation for rivalry or defense events where available |
-
-City systems give groups a reason to coordinate and participate.
-
-### 3.5 City Buildings
-
-Buildings are a core progression system.
-
-Example building categories can include:
-
-| Building Type | Public Role |
-|---|---|
-| City Hall | Main city level, governance, upgrades, and role control |
-| Quest Terminal | Member quests, tasks, missions, and contribution workflows |
-| Market | Trading, price settings, item movement, and city economy features where applicable |
-| Treasury Office | Contribution tracking, resource records, tax settings, and city accounting where applicable |
-| NPC Guild | Hiring, salary, tasks, and NPC management |
-| Defense Tower | City protection and defensive readiness |
-| Workshop | Crafting, upgrades, production, and item systems |
-| Training Center | Member skill growth, tutorials, and contribution paths |
-| Recruitment Center | Invite campaigns, onboarding, and citizen growth |
-| Intelligence Hub | Reports, alerts, city analytics, and AI-assisted summaries where applicable |
-| Medical Center | Recovery, support, and survival-related city functions |
-| Energy Plant | Resource production and upkeep mechanics |
-
-Buildings create visible progression and give members shared goals.
-
-### 3.6 NPC Workforce
-
-ZAGA Districts can use NPCs to make cities feel alive and operational.
-
-NPCs can support:
-
-| NPC Function | Public Role |
-|---|---|
-| Workers | Produce resources, support buildings, and maintain city functions |
-| Guards | Support defenses and city protection |
-| Traders | Support market systems and item flow |
-| Quest givers | Create missions, daily tasks, and story hooks |
-| Technicians | Support city upgrades and infrastructure |
-| Medics | Support recovery or city support systems |
-| Hackers | Support cyberpunk-themed missions and intelligence systems |
-| Recruiters | Support invite campaigns and citizen growth |
-| Event characters | Support temporary world events or city storylines |
-
-NPC systems can support AI-generated context where product rules allow, while game rules and human review remain important for public communication and balance.
-
-### 3.7 Economy and Treasury
-
-ZAGA Districts uses city economy mechanics to create community coordination.
-
-| Economy Area | Public Role |
-|---|---|
-| City treasury | Tracks city-level resources and contribution records where applicable |
-| Resource production | Buildings and NPCs can create or use resources |
-| Taxes and upkeep | City systems can require contributions or upkeep where product rules allow |
-| NPC salaries | Cities can allocate resources to support NPC workers |
-| Building upgrades | Cities spend resources to improve city systems |
-| Internal market | Cities can manage item flow and prices where available |
-| Member contribution | Players can support the city through quests, resources, recruitment, defense, or tasks |
-| Reporting | City economy records can become public-safe summaries |
-
-Economy systems are gameplay systems. Public communication separates city economy progression from financial return promises.
-
-### 3.8 Quests and Community Activity
-
-Quests are the activity engine of ZAGA Districts.
-
-Quest types can include:
-
-| Quest Type | Public Role |
-|---|---|
-| Daily quests | Simple recurring tasks for citizens |
-| City quests | Shared goals that help buildings, resources, defense, or growth |
-| Recruitment quests | Invite, onboarding, and activation tasks |
-| Defense quests | Prepare or defend against rival activity |
-| Crafting quests | Gather resources and craft items where available |
-| NPC quests | Complete missions from city characters |
-| Event quests | Temporary campaign or seasonal activities |
-| Partner quests | Partner community or ecosystem campaigns where product rules allow |
-| Contribution quests | Recognize members who help the city, community, or project |
-| Learning quests | Tutorial and onboarding missions for new players |
-
-Quests turn community activity into structured gameplay.
-
-### 3.9 Rivalry, Alliances, and Competition
-
-ZAGA Districts can support city-vs-city activity.
-
-| Competition Area | Public Role |
-|---|---|
-| City ranking | Compares city progress, activity, and influence |
-| Rival cities | Communities can compete for territory, events, or status where available |
-| Alliances | Cities can cooperate, share events, or coordinate campaigns where product rules allow |
-| Defense events | Cities can prepare against attacks or world threats |
-| Market competition | Cities can compete in resource or trade systems where available |
-| Seasonal events | Time-limited competitions and leaderboards |
-| Reputation | Public city identity and status |
-| Contribution boards | Recognizes members who support the city |
-
-Competition supports community fun and identity, not harmful financial expectations.
-
-### 3.10 Digital-Asset Utility
-
-ZAGA Districts can use digital assets for identity, access, utility, contribution, and reward systems where applicable.
-
-| Digital-Asset Area | Public Role |
-|---|---|
-| Identity | City badges, player profiles, roles, cosmetics, recognition |
-| Access | Holder rooms, city access, event eligibility, or premium areas where applicable |
-| Utility | Special quests, city functions, role recognition, participation benefits where product rules allow |
-| Contribution | Records of member participation, city support, or campaign activity |
-| Rewards | Game rewards, recognition, badges, items, or digital assets where policy allows |
-| Verification | Token/NFT holder verification where product rules, platform rules, and legal review allow |
-| Partner utility | Partner projects can connect eligible utility where approved |
-| Reporting | Utility activity can become public-safe product evidence |
-
-Digital assets support gameplay and community identity where applicable. They do not create financial return promises.
-
-### 3.11 Platform Credits in ZAGA Districts
-
-Platform Credits are the product usage rail for ZAGA Districts where product rules allow.
-
-Possible credit usage categories include:
-
-| Credit Usage | Public Meaning |
-|---|---|
-| City actions | Product usage actions related to city setup, upgrades, events, or tools |
-| NPC systems | NPC hiring, task setup, reports, or city support features where available |
-| Quest tools | Quest creation, event quests, partner quests, or campaign workflows |
-| Community reports | City analytics, member activity summaries, contribution reports, or event reports |
-| AI content support | AI-assisted quests, summaries, city lore, NPC text, and moderation support where applicable |
-| Access tools | Role, city, event, or verification tools where product rules allow |
-| Partner campaigns | Partner city events or ecosystem campaigns within approved boundaries |
-| Platform services | Infrastructure-backed services connected to gameplay |
-
-Platform Credits are for product usage and are not investment assets, payout assets, or FUZE tokens.
-
-### 3.12 ZAGA Districts and FUZE Token Utility
-
-ZAGA Districts can support FUZE token utility where applicable through community-linked participation.
-
-Potential utility areas include:
-
-| Utility Area | Public Role |
-|---|---|
-| Holder recognition | City badges, role labels, access status, or profile recognition where product rules allow |
-| Wallet-aware cities | Eligibility-based city access or events where legally and technically ready |
-| Community utility | Group-based quests, city campaigns, and participation systems |
-| Digital identity | Player, city, and community identity where product rules allow |
-| Partner city campaigns | Partner project cities, events, or quests where approved |
-| Contribution records | Public-safe activity records and recognition |
-| ZAGA utility modules | Access, eligibility, campaigns, and reporting systems connected to ZAGA |
-
-FUZE token is for ecosystem participation. Platform Credits are for product usage.
-
-ZAGA Districts does not turn gameplay or community activity into financial return promises.
-
-### 3.13 ZAGA Districts and CommunityLayer AI
-
-ZAGA Districts can connect naturally with CommunityLayer AI.
-
-| CommunityLayer AI Area | ZAGA Districts Connection |
-|---|---|
-| CommunityGuard | Helps protect Telegram groups from spam, scams, phishing, fake admins, and harmful patterns |
-| CommunityGuide | Helps onboard citizens with rules, official links, city guides, and quests |
-| CommunityAI | Supports approved answers, city summaries, event summaries, and admin guidance |
-| CommunityFlow | Supports scheduled events, member recognition, quests, and community rhythm |
-| CommunityPulse | Tracks community health, activity, contributors, retention, and repeated questions |
-| CommunityGate | Supports access, roles, premium communities, invite tracking, and token/NFT verification where applicable |
-
-This connection helps ZAGA Districts become more than a game. It becomes a community operating layer with gameplay identity.
-
-### 3.14 ZAGA Districts and ZAGA Arena Relationship
-
-ZAGA Districts and ZAGA Arena are separate games under the ZAGA brand.
-
-| Game | Public Identity |
-|---|---|
-| ZAGA Arena | Fast action arena game where players survive, fight bosses, collect game resources, build Net Worth, and compete |
-| ZAGA Districts | Telegram-native cyberpunk MMORPG where real communities build cities, manage economies, hire NPCs, and compete for power |
+| Community Identity Layer | Turns groups into gangs, cities, districts, factions, or alliances |
+| City-Building Layer | Supports structures, upgrades, land-style zones, facilities, and city progress |
+| NPC Layer | Supports hiring, assigning, upgrading, and paying NPCs as game mechanics |
+| Game Economy Layer | Supports treasuries, taxes, salaries, resources, production, and spending as gameplay systems |
+| Defense and Conflict Layer | Supports defenses, attacks, rival competition, raids, and strategic conflict |
+| Quest and Event Layer | Supports missions, world events, AI-driven events, community objectives, and seasonal challenges |
+| Telegram-Native Layer | Connects gameplay to Telegram groups, bots, mini apps, announcements, and community coordination |
+| Utility and Records Layer | Supports token/NFT utility, wallet-aware records, public-safe reporting, and game dashboards where defined |
+| Platform Layer | Connects with FUZE rails, Platform Credits where supported, FUZE token utility, reporting, and public boundaries |
+
+This product model is built around group-based play.
+
+ZAGA Districts is not only a map or chat game. It is a community operating game where a group’s decisions shape its city, economy, defense, and power.
+
+---
+
+## 4. Community City Model
+
+The community city model is the center of ZAGA Districts.
+
+A Telegram group can become a city, district, gang, faction, or alliance inside the game world.
+
+Community city features may include:
+
+- city name
+- district identity
+- faction logo or visual style
+- member roster
+- leader or admin roles
+- city level
+- city reputation
+- structures
+- NPCs
+- treasury mechanics
+- defense status
+- quest progress
+- resource status
+- rival relationships
+- event history
+- leaderboard position
+- public city profile where supported
+
+The city gives the community a shared objective.
+
+Instead of members only chatting, they can contribute to a city’s growth, defense, strategy, and reputation.
+
+Boundary:
+
+A community city is a game identity and progression system. It is not a legal entity, investment vehicle, guaranteed income pool, or real-world treasury.
+
+---
+
+## 5. Recruitment and Membership
+
+ZAGA Districts can use recruitment as a game mechanic.
+
+Recruitment may include:
+
+- inviting Telegram group members
+- assigning member roles
+- joining a city or faction
+- member contribution tracking where supported
+- group-based tasks
+- activity missions
+- referral-style community growth mechanics where appropriate
+- member rank progression
+- city loyalty systems
+- role-based permissions
+- community contribution summaries
+
+Recruitment gives cities a social growth path.
+
+A larger or more active community may have more gameplay options, but activity must be balanced to prevent spam, bot abuse, or unfair farming.
+
+Boundary:
+
+Recruitment mechanics do not guarantee community growth, user retention, rewards, revenue, token demand, or financial outcome.
+
+---
+
+## 6. NPC Hiring and Management
+
+NPCs are a core game mechanic in ZAGA Districts.
+
+Communities may hire NPCs to support city operations, defense, production, quests, or services where designed.
+
+NPC types may include:
+
+- guards
+- builders
+- traders
+- scouts
+- technicians
+- hackers
+- medics
+- engineers
+- tax collectors
+- shopkeepers
+- quest agents
+- city managers
+- defense operators
+- event NPCs
+
+NPC systems may include:
+
+- hiring
+- salaries
+- upgrades
+- assignments
+- cooldowns
+- loyalty
+- productivity
+- skill levels
+- risk events
+- injury or downtime where designed
+- mission outcomes
+- city contribution
+
+NPCs make the city feel alive and give communities strategic choices.
+
+Boundary:
+
+NPC salaries, productivity, and output are game mechanics. They are not employment contracts, real-world salaries, passive-income systems, or guaranteed financial returns.
+
+---
+
+## 7. Building and Upgrade System
+
+ZAGA Districts can include city structures and upgrades.
+
+Possible structures may include:
+
+- headquarters
+- defense tower
+- marketplace
+- factory
+- training center
+- energy station
+- treasury vault
+- communication hub
+- hacker den
+- clinic
+- workshop
+- warehouse
+- city wall
+- transport hub
+- resource facility
+- faction hall
+
+Buildings can create goals for the community.
+
+Upgrade mechanics may include:
+
+- resource requirements
+- time requirements
+- NPC requirements
+- member contribution
+- city level requirements
+- event requirements
+- defense effects
+- production effects
+- quest unlocks
+- reputation effects
+
+Boundary:
+
+Buildings and upgrades are game progression systems. They do not guarantee real-world asset value, resale value, token price, income, or investment return.
+
+---
+
+## 8. Game Treasury and Resource Mechanics
+
+ZAGA Districts may include game treasury and resource mechanics.
+
+These may support:
+
+- city treasury balance as a game value
+- resource collection
+- resource spending
+- taxes as game mechanics
+- NPC salaries as game mechanics
+- building costs
+- upgrade costs
+- defense costs
+- event costs
+- reward pools where designed
+- city maintenance
+- treasury reports
+- community decision-making
+- public-safe city dashboards
+
+The game treasury gives the community a shared strategy system.
+
+However, public communication must be careful.
+
+Boundary:
+
+ZAGA Districts treasury mechanics are game mechanics. They are not real-world treasury rights, passive-income systems, guaranteed payout systems, securities, income pools, or investment accounts.
+
+---
+
+## 9. Taxes and Salaries as Game Mechanics
+
+ZAGA Districts may use taxes and salaries as part of gameplay.
+
+Tax mechanics may include:
+
+- city tax rate
+- market tax
+- resource tax
+- transaction-style game tax
+- defense contribution
+- event contribution
+- community contribution
+- treasury allocation
+
+Salary mechanics may include:
+
+- NPC salary
+- role-based NPC cost
+- maintenance cost
+- city service cost
+- guard salary
+- builder salary
+- specialist salary
+
+These mechanics create strategic trade-offs. A city may choose higher tax for faster growth, lower tax for member happiness, higher salaries for stronger NPCs, or lower costs for treasury preservation.
+
+Boundary:
+
+Tax and salary language is game mechanic language. It is not real-world tax advice, employment compensation, financial distribution, yield, dividend, or passive income.
+
+---
+
+## 10. Defense, Conflict, and Rival Competition
+
+ZAGA Districts can include defense and conflict systems.
+
+Possible conflict mechanics include:
+
+- city defense setup
+- rival attacks
+- raids
+- territory contests
+- resource battles
+- NPC defense assignments
+- alliance defense
+- cyberpunk hacking events
+- defense cooldowns
+- attack preparation
+- strategic risk decisions
+- city damage and repair
+- leaderboard competition
+
+Conflict gives communities a reason to coordinate.
+
+A city may need to choose between expansion, defense, resource production, and diplomacy.
+
+Boundary:
+
+Conflict mechanics are game systems. They do not guarantee rewards, token value, financial return, or real-world ownership.
+
+---
+
+## 11. Quests and World Events
+
+ZAGA Districts may include quests and world events.
+
+Quest types may include:
+
+- city growth quests
+- recruitment quests
+- defense quests
+- NPC missions
+- production quests
+- exploration quests
+- alliance quests
+- rival challenge quests
+- event season quests
+- community participation quests
+- Telegram activity quests where appropriate
+- AI-driven world events where supported
+
+World events can make the game feel alive.
+
+Examples may include:
+
+- market crash event inside game world
+- city blackout
+- NPC strike
+- rival invasion
+- resource shortage
+- cyber attack
+- faction war
+- special boss event
+- district election
+- city festival
+- resource boom
+
+Boundary:
+
+Quest rewards and event outcomes are game mechanics. They are not guaranteed financial earnings, guaranteed token rewards, or investment returns.
+
+---
+
+## 12. Telegram-Native Gameplay
+
+ZAGA Districts is Telegram-native.
+
+Telegram-native direction may include:
+
+- Telegram group identity
+- Telegram bot commands
+- Telegram Mini App interface
+- group announcements
+- city status updates
+- member recruitment
+- role assignment
+- quest notifications
+- NPC management
+- treasury updates as game records
+- defense alerts
+- attack notices
+- event reminders
+- community reports
+- leaderboard posts
+
+Telegram is important because communities already coordinate there.
+
+A group can receive game updates inside the same environment where members already talk.
+
+Boundary:
+
+Telegram-native access does not guarantee community growth, player growth, user retention, game revenue, or token demand.
+
+---
+
+## 13. ZAGA Districts and ZAGA Arena Separation
+
+ZAGA Districts and ZAGA Arena are separate products.
+
+ZAGA Districts is the Telegram-native cyberpunk MMORPG and community city-builder.
+
+ZAGA Arena is the fast battle arena game where players survive, fight bosses, collect USDT and Token Value, build Net Worth, and compete in Telegram-ready multiplayer arenas.
 
 They can share:
 
-| Shared Layer | Public Role |
+- ZAGA brand
+- FUZE ecosystem rails
+- community support
+- wallet-aware utility direction
+- token-utility surfaces where defined
+- art direction
+- reporting concepts
+- public risk boundaries
+- event and community activity
+
+They should not be described as the same game.
+
+ZAGA Districts is not a mode inside ZAGA Arena.
+
+This distinction protects user understanding, investor clarity, and product positioning.
+
+---
+
+## 14. ZAGA Districts and Platform Credits
+
+Platform Credits are product usage credits.
+
+ZAGA Districts may use Platform Credits where supported for game-related utility, community tools, reporting, or ecosystem features.
+
+Possible Platform Credit use cases include:
+
+- city report generation
+- district dashboard features
+- community event tools
+- AI-generated quest summaries
+- NPC activity summaries
+- public-safe treasury-style game reports
+- alliance reports
+- city profile customization where supported
+- community campaign tools
+- player support workflows
+- event setup and reports
+- premium utility surfaces where supported
+
+Platform Credits are separate from FUZE token.
+
+Platform Credits are not FUZE token, equity, debt, investment contracts, income rights, participation rights, profit share, yield products, governance rights, or wallet-based participation claims.
+
+Using Platform Credits in ZAGA Districts does not create wallet-based participation ability.
+
+---
+
+## 15. ZAGA Districts and FUZE Token
+
+FUZE token is the single ecosystem token of FUZE.
+
+ZAGA Districts can support FUZE token utility through game and ecosystem surfaces where defined.
+
+Potential token-utility connections may include:
+
+- city utility access
+- ecosystem participation
+- event participation where defined
+- community participation
+- game utility surfaces
+- governance direction where applicable
+- wallet-aware game records
+- ZAGA ecosystem alignment
+- wallet-based participation ability if activated under the broader FUZE model
+
+However, ZAGA Districts does not make FUZE token a guaranteed earning instrument.
+
+FUZE token does not guarantee:
+
+- payout
+- income
+- dividend
+- yield
+- profit
+- token price
+- listing
+- liquidity
+- market support
+- exit
+- game earnings
+- business revenue
+- user growth
+- community growth
+- investment return
+
+ZAGA Districts supports product utility and gameplay. It does not guarantee token market performance.
+
+---
+
+## 16. ZAGA Districts and Wallet-Based Participation
+
+Wallet-based participation ability is a possible FUZE token-related framework where eligible FUZE-holding wallets may participate in approved distributable value from defined FUZE product revenue pools if the framework becomes active.
+
+ZAGA Districts may become relevant to this model only if ZAGA Districts product revenue becomes part of a defined product revenue pool under approved rules.
+
+However:
+
+- ZAGA Districts revenue is not guaranteed.
+- ZAGA Districts player growth is not guaranteed.
+- ZAGA Districts community growth is not guaranteed.
+- ZAGA Districts product revenue does not automatically become approved distributable value.
+- Gross revenue is not approved distributable value.
+- Game treasury mechanics are not approved distributable value.
+- Game rewards are not approved distributable value.
+- Platform Credit usage does not create participation rights.
+- Game users do not automatically become eligible FUZE-holding wallets.
+- FUZE token holders do not automatically receive wallet-based participation ability.
+
+Wallet-based participation ability is not a second token, not automatic for every wallet, and not active as a guaranteed public payout right.
+
+It may activate only after legal, accounting, treasury, audit, reporting, smart-contract, and jurisdiction gates are ready.
+
+---
+
+## 17. ZAGA Districts and CommunityLayer AI
+
+ZAGA Districts connects naturally with CommunityLayer AI because the product is based on real communities.
+
+CommunityLayer AI may help with:
+
+- city community summaries
+- repeated-question detection
+- member onboarding
+- community announcements
+- moderation support
+- support routing
+- faction event reports
+- alliance communication
+- player issue summaries
+- public-safe community reports
+- ZAGA Arena and ZAGA Districts distinction reminders
+
+CommunityLayer AI can help admins manage the social layer behind ZAGA Districts gameplay.
+
+Boundary:
+
+CommunityLayer AI support does not guarantee player growth, community growth, perfect moderation, safety, or retention.
+
+---
+
+## 18. ZAGA Districts and TrainLayer AI
+
+ZAGA Districts can connect with TrainLayer AI for community onboarding and gameplay education.
+
+TrainLayer AI may help create:
+
+- beginner guides
+- city leader guides
+- NPC management tutorials
+- treasury mechanic explanations
+- tax mechanic explanations
+- defense strategy guides
+- quest participation guides
+- moderator training
+- community admin training
+- wallet safety education where appropriate
+- game boundary education
+
+Boundary:
+
+Training support does not guarantee player performance, learning outcomes, user retention, game success, or safety.
+
+---
+
+## 19. ZAGA Districts and AIE
+
+ZAGA Districts can connect with AIE for community game events and cyberpunk world events.
+
+AIE may support:
+
+- district event planning
+- faction tournament planning
+- city war event summaries
+- alliance event reports
+- player feedback summaries
+- sponsor notes where applicable
+- post-event reports
+- community campaign summaries
+- public-safe event documentation
+
+Boundary:
+
+Event intelligence support does not guarantee event attendance, player participation, sponsor revenue, community growth, or game revenue.
+
+---
+
+## 20. Data, AI, Privacy, and Permission Controls
+
+ZAGA Districts may involve community, game, and account data.
+
+This can include:
+
+- Telegram group records
+- player profiles
+- usernames or display names
+- wallet addresses where applicable
+- city membership
+- faction roles
+- admin roles
+- NPC records
+- building records
+- city treasury game records
+- tax game records
+- salary game records
+- quest results
+- conflict results
+- leaderboard positions
+- community reports
+- event participation
+- support requests
+- moderation notes
+- public sharing data
+- payment or credit usage where supported
+
+ZAGA Districts should separate public game records from private identity records.
+
+Public game records may include city names, district status, leaderboard positions, public event results, public city reports, NPC status, building levels, and wallet-linked records where designed.
+
+Private records may include personal identity, payment details, private account data, private support records, private verification data, private agreements, sensitive moderation records, and private community information.
+
+FUZE uses wallet-level transparency and does not publish personal identity publicly.
+
+Public records may show wallet addresses, vault activity, report hashes, audit records, snapshot records, eligibility status, and claim status where applicable. Public systems should not publish personal names, emails, phone numbers, ID documents, passports, home addresses, investor identities, contributor identities, or private agreements.
+
+Boundary:
+
+Players and community admins should understand which game records are public, which records are private, and how wallet-linked records are handled.
+
+---
+
+## 21. AI and Game World Direction
+
+ZAGA Districts may use AI-supported systems where appropriate.
+
+AI may support:
+
+- world event generation
+- NPC behavior direction
+- quest summaries
+- city report generation
+- player onboarding
+- community summaries
+- moderation support
+- faction status reports
+- event recap content
+- public-safe reporting
+- risk-language review
+- support routing
+
+AI can help the game world feel more alive and help community admins manage game activity.
+
+Boundary:
+
+AI support does not guarantee game balance, fair outcomes, perfect moderation, player retention, community growth, safety, AI accuracy, game earnings, or market outcomes.
+
+---
+
+## 22. Revenue Direction and Readiness
+
+ZAGA Districts may support revenue direction through game and ecosystem usage.
+
+Potential revenue paths may include:
+
+- Platform Credit usage where supported
+- game-related utility surfaces
+- city customization where supported
+- profile or cosmetic features where supported
+- community event tools
+- faction or city report features
+- AI-generated reports and summaries
+- premium city management features where supported
+- token/NFT utility surfaces where defined
+- community campaign tools
+- sponsored world events where appropriate
+- ecosystem partnerships
+
+Revenue readiness depends on:
+
+- clear community game loop
+- Telegram-native onboarding
+- community admin tools
+- balanced game economy design
+- anti-abuse controls
+- public boundary language
+- payment and credit model readiness
+- community support process
+- reporting inputs
+- data and privacy controls
+- legal and compliance review where needed
+- product evidence
+- retention and activity indicators where available
+
+Revenue is not guaranteed.
+
+Player growth is not guaranteed.
+
+Community growth is not guaranteed.
+
+Product revenue does not automatically become approved distributable value.
+
+Approved distributable value is not gross revenue, not token sale proceeds, not seed-round funds, not game treasuries, not game taxes, not game salaries, not game rewards, and not general treasury balance.
+
+---
+
+## 23. Anti-Abuse, Fairness, and Game Integrity
+
+ZAGA Districts needs game integrity because community games can be affected by bots, fake members, exploit farming, unfair automation, collusion, treasury manipulation, leaderboard abuse, and spam.
+
+Integrity controls may include:
+
+- anti-bot checks
+- member activity validation
+- suspicious contribution review
+- city treasury game-record review
+- quest validation
+- NPC action validation
+- leaderboard validation
+- resource farming limits
+- cooldowns
+- admin review
+- event review windows
+- moderation workflows
+- exploit monitoring
+- wallet checks where applicable
+- emergency pause or event invalidation where needed
+
+Game integrity is important where communities compete, resources are tracked, or utility surfaces are connected.
+
+Boundary:
+
+Anti-abuse controls reduce risk, but they do not guarantee zero cheating, zero exploits, perfect detection, or error-free enforcement.
+
+---
+
+## 24. ZAGA Districts Risk Boundaries
+
+ZAGA Districts public communication must include clear boundaries.
+
+| Area | Boundary |
 |---|---|
-| ZAGA brand | Shared product family identity |
-| FUZE accounts | Shared identity and access where applicable |
-| Telegram access | Social and community entry |
-| Wallet-aware context | Eligibility and recognition where applicable |
-| Platform Credits | Product usage rail |
-| Reporting | Public-safe activity and product evidence |
-| Community events | Cross-product participation where appropriate |
-| Token utility | Product-linked utility surfaces under clear boundaries |
+| City economies | Game economy mechanics are not financial systems |
+| Game treasuries | Game treasuries are not real-world treasury rights |
+| Taxes | Game taxes are gameplay mechanics, not real-world taxes |
+| Salaries | NPC salaries are gameplay mechanics, not employment compensation |
+| NPCs | NPC output does not guarantee real-world value |
+| Buildings | Game buildings do not guarantee asset value or resale value |
+| Quests | Quest rewards are game mechanics, not guaranteed earnings |
+| Defense and conflict | Conflict systems are game mechanics, not financial rights |
+| Token/NFT utility | Utility does not guarantee resale value or investment return |
+| Community growth | ZAGA Districts does not guarantee community growth |
+| Player growth | ZAGA Districts does not guarantee player growth |
+| Telegram access | Telegram-native access does not guarantee adoption or retention |
+| AI systems | AI does not guarantee balance, accuracy, or safety |
+| Anti-abuse | Anti-abuse controls do not guarantee zero cheating |
+| Platform Credits | Credits are usage credits, not investment rights |
+| FUZE token | FUZE token does not guarantee payout, liquidity, listing, price, exit, or return |
+| Wallet participation | Product or game usage does not create automatic wallet-based participation ability |
 
-They do not share the same gameplay promise.
+---
 
-### 3.15 Development and Governance Model
+## 25. Investor and Community Relevance
 
-ZAGA Districts requires strong product governance because it touches communities, digital assets, game economies, Telegram integrations, access rules, and public risk language.
+### 25.1 Investor Relevance
 
-Governance areas include:
+ZAGA Districts is relevant to investors because it gives FUZE a community-native game product.
 
-| Area | ZAGA Districts Control Direction |
-|---|---|
-| Community identity | Group ownership, admin roles, city access, and member roles receive clear rules |
-| Game economy | City resources, treasury, NPC salaries, taxes, markets, and upgrades stay within game rules |
-| Digital-asset utility | Digital assets support identity, access, utility, contribution, and reward systems where applicable |
-| Platform Credits | Product usage credit logic remains separate from FUZE token and market-performance claims |
-| Wallet context | Wallet-aware features remain subject to product rules, privacy, eligibility, and legal review |
-| Telegram integration | Group access, bot behavior, Mini App behavior, notifications, and permissions receive product review |
-| AI support | NPC text, quests, reports, and summaries remain controlled and reviewable |
-| Abuse controls | Spam, scams, fake admins, exploit attempts, bot abuse, and harmful behavior receive safeguards |
-| Reporting | City activity, contribution, resources, events, and public-safe metrics create product evidence |
-| Release gates | Changes affecting access, city economy, credits, wallet context, community systems, or public risk language receive careful review |
+Investors can evaluate ZAGA Districts through:
 
-FUZE uses AI to move faster, but uses structured standards to stay controlled.
+- Telegram-native community fit
+- community city-building concept
+- gameplay clarity
+- game economy boundaries
+- NPC and structure mechanics
+- event and quest systems
+- anti-abuse planning
+- Platform Credit usage model where supported
+- token utility connection
+- data and reporting readiness
+- community support workflow
+- product evidence where available
+- risk boundary discipline
 
-## 4. Investor and Community Relevance
+ZAGA Districts can strengthen FUZE by creating a long-term community engagement layer, but it does not guarantee revenue, player growth, community growth, token demand, token price, wallet-based participation activation, liquidity, exit, or investment return.
 
-ZAGA Districts matters because it gives ZAGA a community-first MMORPG and city-building surface.
+### 25.2 Community Relevance
 
-Investor relevance:
+ZAGA Districts is relevant to the FUZE and ZAGA community because it gives real communities a shared game identity.
 
-- ZAGA Districts turns Telegram communities into playable product ecosystems
-- It creates a distinct community MMORPG direction under ZAGA
-- It supports Telegram-native growth, retention, and social participation
-- It can connect with Platform Credits through game-related product usage where applicable
-- It can support partner cities, campaigns, digital-asset utility, and community events within product rules
-- It strengthens FUZE’s product-first Web3 narrative
-- It creates strategic optionality across games, community platforms, Web3 utility, Telegram, and social products
-- It demonstrates that FUZE builds product surfaces rather than relying only on token documentation
+A Telegram group can become more than a chat room. It can become a city, district, gang, faction, or alliance in a cyberpunk game world.
 
-Community relevance:
+Community members can contribute, compete, organize, and build together.
 
-- Telegram groups can become playable cities
-- Members can participate as citizens, workers, officers, defenders, recruiters, and contributors
-- Communities can grow identity beyond chat activity
-- City systems give members shared goals
-- Quests create repeatable participation
-- Digital assets can support identity and utility where applicable
-- Public risk boundaries keep gameplay and utility separate from financial return promises
+This supports community identity, but it does not guarantee community growth, rewards, passive income, or financial returns.
 
-Product user relevance:
+### 25.3 Player and Admin Relevance
 
-- Group owners can transform communities into cities
-- Admins can manage roles, quests, resources, and city systems
-- Members can contribute to shared city growth
-- NPCs, buildings, quests, and rivalries create ongoing gameplay
-- Telegram-native access reduces friction
-- Community participation becomes visible and structured
+For players and community admins, ZAGA Districts is about group-based gameplay.
 
-Strategic partner relevance:
+Players and admins can focus on:
 
-| Partner Type | ZAGA Districts Opportunity |
-|---|---|
-| Telegram communities | City creation, group identity, quests, and city progression |
-| Web3 projects | Token/NFT utility, holder recognition, city events, and partner campaigns where approved |
-| Game partners | Buildings, NPCs, quests, items, events, and community gameplay |
-| Community platforms | Group identity, onboarding, moderation, and participation |
-| Wallet/infrastructure partners | Eligibility, access, profile recognition, and wallet-aware context |
-| AI infrastructure partners | NPC text, quests, reports, summaries, moderation support, and world events |
-| Brands and sponsors | Public-safe city events and community campaigns where product rules allow |
+- city identity
+- member recruitment
+- NPC hiring
+- building upgrades
+- defense
+- quests
+- events
+- rival competition
+- community status
+- city reports
+- strategic choices
 
-ZAGA Districts helps FUZE explain Web3 community utility through a playable community world.
+They do not need to treat ZAGA Districts as an investment product to enjoy the game.
 
-## 5. Public Boundary
+---
 
-FUZE publicly presents ZAGA Districts as a Telegram-native cyberpunk MMORPG and community city-builder.
+## 26. Product Development Direction
 
-FUZE publicly presents:
+ZAGA Districts can develop through phased product maturity.
 
-- ZAGA Districts product role
-- Telegram group to city system
-- community city gameplay
-- city buildings, NPCs, quests, treasury, resources, defenses, economy, and reputation
-- digital-asset utility direction
-- ZAGA relationship
-- Platform Credits usage direction
-- wallet-aware utility direction where applicable
-- ZAGA Districts and ZAGA Arena separation
-- community participation and financial-return boundary
-- public product pages, game guides, release notes, community FAQ, and risk boundaries
+### Phase 1: Community Identity and City Setup
 
-FUZE keeps the following areas subject to product, technical, legal, privacy, compliance, payment, platform, game-balance, market, and operational readiness where applicable:
+Support Telegram group identity, city creation, faction/gang naming, member roles, city profiles, and basic status records.
 
-- exact launch dates
-- final feature availability
-- final city systems
-- final NPC systems
-- final resource and treasury rules
-- final quest and event systems
-- final Platform Credit usage rules
-- wallet connection methods
-- token/NFT verification support
-- holder eligibility rules
-- partner event terms
-- Telegram Mini App behavior
-- Telegram bot permissions
-- anti-abuse systems
-- token-related exposure details
-- game and community metrics until accurately measured and publishable
+### Phase 2: NPC and Structure Systems
 
-ZAGA Districts is a game and product usage surface. It is not an investment asset, payout product, token sale surface, casino, pure play-to-earn scheme, exchange-listing promise, liquidity promise, token price promise, or guaranteed income system.
+Support NPC hiring, NPC assignment, building creation, structure upgrades, and city progression.
 
-## 6. Risk Boundaries and Safeguards
+### Phase 3: Game Economy Mechanics
 
-ZAGA Districts uses risk boundaries around digital assets, community gameplay, Telegram integrations, city economy, Platform Credits, wallet-aware access, public communication, and community events.
+Support resources, city treasury mechanics, taxes, salaries, production, spending, and public-safe city dashboards as game systems.
 
-### 6.1 ZAGA Districts Boundary
+### Phase 4: Quests, Events, and Conflict
 
-ZAGA Districts uses digital assets for identity, access, utility, contribution, and reward systems where applicable. It is not positioned as a casino, pure play-to-earn scheme, or guaranteed income product.
+Support quests, city missions, rival competition, defense systems, raids, alliances, and AI-driven world events where appropriate.
 
-### 6.2 General Token Boundary
+### Phase 5: Telegram-Native Operations
 
-FUZE does not guarantee token price, liquidity, listing, profit, return, payout, or market performance.
+Support bot commands, mini app surfaces, group notifications, event alerts, city reports, and member contribution workflows.
 
-### 6.3 Platform Credits Boundary
+### Phase 6: Platform and Utility Integration
 
-Platform Credits are for product usage and are not investment assets, payout assets, or FUZE tokens.
+Support Platform Credits where appropriate, wallet-aware game records, FUZE token utility surfaces, reporting rails, and community support workflows.
 
-Credits can support city-related product usage, NPC systems, quests, reports, community tools, AI support, partner campaigns, and platform services where product rules allow. They are product usage credits, not financial instruments.
+### Phase 7: Anti-Abuse and Reporting Maturity
 
-### 6.4 Game Economy Boundary
+Support anti-bot logic, exploit monitoring, event review, public-safe metrics, city reports, leaderboard validation, and product evidence reporting.
 
-City treasury, resources, taxes, NPC salaries, buildings, markets, quests, rewards, and reputation are game systems unless explicitly stated otherwise under final product policy. They do not create a financial return promise.
+These phases are development directions, not guaranteed launch dates.
 
-### 6.5 Wallet-Aware Access Boundary
+---
 
-Wallet-aware access can support eligibility, recognition, rooms, cities, events, or utility features where applicable. Wallet status does not replace platform identity, legal eligibility, role permissions, payment rules, compliance checks, or product-specific access controls.
+## 27. Public Positioning
 
-### 6.6 Telegram Community Boundary
+ZAGA Districts should be presented as a Telegram-native cyberpunk MMORPG and community city-builder.
 
-Telegram groups remain governed by Telegram platform rules, group owner decisions, admin behavior, member conduct, and local community policies. ZAGA Districts supports community gameplay but does not replace platform enforcement, legal judgment, or emergency escalation.
+Approved positioning:
 
-### 6.7 Community Event Boundary
+ZAGA Districts is a Telegram-native cyberpunk MMORPG where real communities build cities, manage economies, hire NPCs, and compete for power.
 
-City events, rivalries, partner campaigns, tournaments, digital-asset activations, and sponsored activity remain subject to product rules, platform rules, legal review, eligibility, moderation, and public communication boundaries.
+Avoid positioning ZAGA Districts as:
 
-### 6.8 AI and NPC Boundary
+- a mode inside ZAGA Arena
+- guaranteed earning game
+- passive income system
+- guaranteed city income system
+- guaranteed token reward system
+- guaranteed NFT profit system
+- guaranteed community growth engine
+- guaranteed token price driver
+- guaranteed investment return
+- price support mechanism
+- real-world treasury system
+- real-world tax system
+- financial return product
 
-AI-assisted NPC text, quest generation, summaries, reports, and world events require controls, review paths, and product rules. AI support does not replace human review, moderation, or game-design governance.
+ZAGA Districts’ value comes from community gameplay, strategy, identity, city-building, competition, and ecosystem utility.
 
-### 6.9 Development Standards Boundary
+---
 
-FUZE uses standards-inspired or standards-aligned processes. FUZE does not claim formal certification unless certification has been completed.
+## 28. Key Takeaways
 
-## 7. Reporting and Transparency Direction
+ZAGA Districts is the Telegram-native cyberpunk MMORPG and community city-builder under the ZAGA and FUZE ecosystem.
 
-FUZE reports ZAGA Districts progress through ZAGA.io, game documentation, public roadmap updates, release notes, community FAQ, Telegram-ready product guides, event pages, risk-boundary pages, and investor materials.
+ZAGA Districts lets real communities build cities, manage game economies, hire NPCs, upgrade structures, use taxes and salaries as game mechanics, defend against rivals, complete quests, and compete for power.
 
-Reporting areas include:
+ZAGA Districts is separate from ZAGA Arena. ZAGA Districts is not a mode inside ZAGA Arena.
 
-| Reporting Area | Public Direction |
-|---|---|
-| Product status | What is live, in development, future-stage, and subject to review |
-| City systems | Group-to-city setup, buildings, resources, NPCs, quests, treasury, defenses, reputation |
-| Telegram systems | Group access, bot connection, Mini App access, city notifications, role systems |
-| Community gameplay | Citizens, officers, quests, contribution, recruitment, events, alliances, rivalries |
-| Platform Credits | Usage categories for city actions, NPC systems, quests, reports, and community tools where applicable |
-| Wallet-aware features | Eligibility, recognition, holder access, token/NFT verification, or digital-asset utility where applicable |
-| Risk boundaries | Game economy, token, credits, community events, wallet access, digital assets, and Telegram rules |
-| Release notes | Completed features, fixes, known issues, balance changes, and user-facing changes |
-| Community FAQ | Plain-language answers about city gameplay, resources, digital assets, credits, access, and risk boundaries |
-| Investor materials | ZAGA Districts as a Telegram-native community MMORPG and ZAGA utility surface |
+ZAGA Arena is the fast battle arena game. ZAGA Districts is the community city-builder MMORPG.
 
-FUZE uses ZAGA Districts transparency to show product-first Web3 execution. Public reporting focuses on real gameplay, community identity, city systems, Telegram-native participation, game-economy boundaries, and token/credits separation.
+Platform Credits may support ZAGA Districts-related utility where supported.
 
-## 8. Conclusion
+Platform Credits are product usage credits and are separate from FUZE token.
 
-ZAGA Districts is the Telegram-native cyberpunk MMORPG and community city-builder in the ZAGA product family.
+FUZE token is the single ecosystem token of FUZE.
 
-It lets real Telegram communities become playable cities, manage economies, hire NPCs, build structures, run quests, recruit members, defend against rivals, use digital assets for identity and utility where applicable, and compete for power.
+Wallet-based participation ability is not a second token, not automatic for every wallet, and not active as a guaranteed public payout right.
 
-ZAGA Districts strengthens FUZE because it gives ZAGA a community-first utility surface. It turns Telegram group activity, digital-asset utility, Platform Credits, AI support, community identity, reporting, and public documentation into a playable community world.
+ZAGA Districts city economies, game treasuries, taxes, salaries, NPCs, buildings, quests, conflict systems, token/NFT utility, and community competition are game and community mechanics, not guaranteed financial earnings, passive-income systems, investment contracts, or guaranteed token outcomes.
 
-FUZE presents ZAGA Districts as a game-first and community-first product with clear public boundaries. It supports product-first execution, Telegram-native community participation, responsible digital-asset usage, game-economy clarity, token/credits separation, and long-term ZAGA ecosystem participation. Product usage comes first. Platform rails come second. Broader ecosystem participation comes after that.
+ZAGA Districts does not guarantee player growth, community growth, token price, listing, liquidity, payout, income, yield, profit, exit, or investment return.

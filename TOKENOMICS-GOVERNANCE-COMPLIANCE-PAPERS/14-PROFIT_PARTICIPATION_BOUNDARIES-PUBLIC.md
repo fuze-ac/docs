@@ -1,508 +1,419 @@
 # Profit Participation Boundaries
-
 ## Executive Summary
-
-FUZE uses the **Profit Participation Boundaries** paper to define how FUZE discusses future profit participation without creating public confusion, financial-return expectations, token-holder payout assumptions, or investment-style claims.
-
-FUZE’s public position is clear:
-
-**Profit participation is a long-term design direction and is not immediate or guaranteed. Any future framework requires legal, accounting, treasury, technical, and transparency readiness.**
-
-This boundary protects FUZE, product users, token holders, investors, community members, strategic partners, and public readers. It separates long-term design exploration from current product usage, current token utility, current Platform Credits usage, current Seed Round discussions, and current tokenomics allocations.
-
-FUZE does not present profit participation as automatic income, investment-yield framing, assured payout, assured return, revenue entitlement, security-like entitlement, token-holder income, or immediate benefit.
-
-FUZE token is for ecosystem participation. Platform Credits are for product usage. Stablecoins pay for work. FUZE tokens align long-term participation.
-
-This paper defines the public boundary around profit participation, explains what FUZE can and cannot say publicly, connects the topic to product revenue and platform readiness, and defines the legal, accounting, treasury, technical, governance, and transparency conditions required before any future framework can exist.
-
-## 1. FUZE Position
-
-FUZE treats profit participation as a long-term design direction only.
-
-FUZE position:
-
-**Profit participation is a long-term design direction, not an immediate or guaranteed promise. Any future framework requires legal, accounting, treasury, technical, and transparency readiness.**
-
-FUZE does not use profit participation language as a public token-marketing claim. FUZE does not tell the public that buying, holding, receiving, using, claiming, or participating in FUZE token creates automatic profit rights, revenue rights, payout rights, cash-flow rights, investment-yield rights, or ownership rights.
-
-FUZE uses careful public language:
-
-| Topic | FUZE Public Position |
-|---|---|
-| Profit participation | Long-term design direction only |
-| Immediate availability | Not immediate |
-| Guaranteed status | Not guaranteed |
-| Legal review | Required before any framework |
-| Accounting review | Required before any framework |
-| Treasury readiness | Required before any framework |
-| Technical readiness | Required before any framework |
-| Transparency readiness | Required before any framework |
-| Token-holder payout | Not promised |
-| Platform Credits | Product usage credits only |
-| FUZE token | Ecosystem participation asset |
-
-The public boundary is part of FUZE’s compliance-aware product and tokenomics model.
-
-## 2. Platform Context
-
-FUZE is a transparency-first AI SaaS platform building practical products on top of shared infrastructure for identity, credits, payments, AI orchestration, reporting, and ecosystem participation.
-
-Profit participation boundaries connect to the FUZE platform in several ways:
-
-| Platform Area | Boundary Relationship |
-|---|---|
-| HerHelp.com | Practical AI SaaS product usage and revenue potential, not automatic payout rights |
-| ZAGA.io | Token Utility OS and ecosystem participation surfaces, not automatic profit rights |
-| FUZE Core Platform | Shared rails for identity, Platform Credits, payments, AI orchestration, reporting, privacy, security, governance, and transparency |
-| Platform Credits | Product usage credits, not investment assets, payout assets, or FUZE tokens |
-| FUZE token | Ecosystem participation asset, not an automatic profit-participation claim |
-| Stablecoin compensation | Work-payment rail for approved contributors, not token-holder income |
-| Seed Round | Private strategic fundraising, not a public token sale or public profit-participation offer |
-| Controlled circulation | Token release policy, not profit distribution policy |
-| Treasury reporting | Required before any future participation framework can be reviewed |
-
-FUZE launch focus is HerHelp.com and ZAGA.io, supported by FUZE Core Platform rails and accelerated internally by Botmad.
-
-The profit participation boundary supports that launch focus by keeping public communication focused on product usage, platform rails, and ecosystem participation before broader economic frameworks.
-
-## 3. Public Model
-
-### 3.1 Boundary Definition
-
-Profit participation is a long-term design direction. It is not an active product feature, current legal right, current payout framework, or current token-holder entitlement.
-
-| Boundary Area | Public Meaning |
-|---|---|
-| Long-term design direction | FUZE can study, design, and review future frameworks |
-| Not immediate | No current active profit participation system |
-| Not guaranteed | No assurance that any future framework will launch |
-| Legal readiness required | Any future framework requires legal analysis |
-| Accounting readiness required | Any future framework requires accounting treatment review |
-| Treasury readiness required | Any future framework requires treasury policy and financial controls |
-| Technical readiness required | Any future framework requires secure systems, data, eligibility, and reporting infrastructure |
-| Transparency readiness required | Any future framework requires clear public reporting and auditability |
-| Jurisdiction readiness required | Any future framework depends on where users, participants, entities, and products operate |
-| Product readiness required | Any future framework depends on real product revenue and operational maturity |
-
-The boundary exists to prevent premature public assumptions.
-
-### 3.2 What FUZE Can Say Publicly
-
-FUZE can use careful public language around long-term participation design.
-
-| Public-Safe Statement | Meaning |
-|---|---|
-| Profit participation is a long-term design direction | FUZE is not presenting it as active or guaranteed |
-| Any future framework requires legal review | Legal readiness comes first |
-| Any future framework requires accounting review | Accounting treatment comes first |
-| Any future framework requires treasury readiness | Treasury controls and financial reporting come first |
-| Any future framework requires technical readiness | Secure systems, eligibility, data, and reporting come first |
-| Any future framework requires transparency readiness | Public reporting and clear rules come first |
-| FUZE does not guarantee token price, liquidity, listing, profit, return, payout, or market performance | Public risk boundary |
-| Platform Credits are for product usage | Product usage is separated from investment framing |
-| FUZE token is for ecosystem participation | Token role remains bounded |
-
-This language keeps the public message accurate and safe.
-
-### 3.3 What FUZE Avoids
-
-FUZE avoids language that creates immediate-income, security-like, or investment-return assumptions.
-
-| Avoided Meaning | FUZE Public Boundary |
-|---|---|
-| Automatic holder payout | FUZE does not present token holding as automatic payout entitlement |
-| Revenue-right claim | FUZE does not present token ownership as revenue-right ownership |
-| Product revenue entitlement | Product revenue does not automatically flow to token holders |
-| Fixed income framing | FUZE does not present token holding as income product |
-| Listing-driven return framing | FUZE does not present exchange listing as profit pathway |
-| Profit assurance | FUZE does not guarantee profit |
-| Market-performance claim | FUZE does not guarantee market performance |
-| Public offer language | FUZE does not present future participation as current public offer |
-| Platform Credits payout framing | Platform Credits remain product usage credits |
-| Seed Round public access framing | Seed Round remains private strategic fundraising |
-
-This helps readers understand FUZE with safer expectations.
-
-### 3.4 Product Revenue Relationship
-
-FUZE is building products that can create revenue potential, but product revenue is not automatically profit participation.
-
-| Product Revenue Source | Boundary |
-|---|---|
-| HerHelp subscriptions | Product revenue supports business operations, not automatic public payouts |
-| ShopOS AI fees | Product revenue supports shop software operations, support, and development |
-| SheetLayer AI usage | Product revenue supports business data workflows and platform operations |
-| SpeakShop AI usage | Product revenue supports voice product operations and device workflows |
-| TrainLayer AI usage | Product revenue supports learning, validation, support, and deployment workflows |
-| CommunityLayer AI usage | Product revenue supports community operations, moderation support, reports, and product development |
-| ZAGA revenue | Product revenue supports game, community, utility, and platform operations |
-| QTB / AIMM / AIE usage | Product revenue supports intelligence, data, reports, research, and operations |
-| ToolGrid sponsored visibility | Product revenue supports review, moderation, publisher tools, and campaign operations |
-| Botmad usage | Product revenue supports supervised work, artifacts, documentation, and delivery systems |
-
-Product revenue can support company operations, stablecoin compensation, infrastructure, treasury planning, product expansion, and transparency. Any future profit participation framework remains separate and subject to readiness.
-
-### 3.5 Relationship to FUZE Token
-
-FUZE token is for ecosystem participation.
-
-| Topic | FUZE Token Relationship |
-|---|---|
-| Ecosystem participation | FUZE token can support participation, access, recognition, and utility surfaces where applicable |
-| Token utility | Product-linked utility can grow through ZAGA, ZAGA Arena, ZAGA Districts, CommunityLayer AI, ToolGrid, and other surfaces |
-| Controlled circulation | Token movement follows allocation, vault, vesting, lockup, and release policies |
-| Profit participation | Not an immediate or guaranteed token-holder right |
-| Market performance | Not guaranteed |
-| Listing | Not guaranteed |
-| Liquidity | Not guaranteed |
-| Product revenue | Does not automatically create token-holder payout |
-| Public communication | Uses bounded ecosystem-participation language |
-
-FUZE token participation is not the same as profit participation.
-
-### 3.6 Relationship to Platform Credits
-
-Platform Credits are for product usage.
-
-| Topic | Platform Credits Relationship |
-|---|---|
-| AI usage | Credits can support AI actions, reports, analysis, and workflow usage |
-| Product access | Credits can support SaaS features, reports, dashboards, tools, and services |
-| Billing | Credits can support subscriptions, usage packs, add-ons, partner packages, and workspace billing |
-| Token exposure | Credits are not FUZE tokens |
-| Profit participation | Credits are not profit-participation instruments |
-| Payouts | Credits are not payout assets |
-| Investment exposure | Credits are not investment assets |
-| Governance | Credits do not create token governance rights |
-
-Platform Credits are product usage credits and remain separate from profit participation.
-
-### 3.7 Relationship to Stablecoin Compensation
-
-Stablecoin compensation is a work-payment policy.
-
+FUZE uses the **Profit Participation Boundaries** paper to define how FUZE discusses profit participation through **FPPU — FUZE Profit Participation Unit** without creating public confusion, fixed-yield expectations, unrestricted dividend assumptions, token-holder payout assumptions, or unsafe investment-style claims.
+FUZE separates:
 | System | Public Role |
 |---|---|
-| Stablecoins / fiat-equivalent payments | Work compensation, contractor payments, advisor payments, vendor payments, service payments, and selected partner payments where applicable |
-| FUZE token | Long-term ecosystem participation and alignment |
 | Platform Credits | Product usage |
-| Profit participation | Long-term design direction, not immediate or guaranteed |
-| Product revenue | Business revenue that can support operations and compensation where approved |
-
-Stablecoin compensation is not token-holder income. It is payment for approved work.
-
-### 3.8 Relationship to Seed Round
-
-The Seed Round remains private strategic fundraising.
-
-FUZE public Seed Round sentence:
-
-**FUZE is preparing a Private Strategic Seed Round for strategic investors, operator-angels, and early-stage partners. Full details, structure, and terms are shared privately with qualified interested parties. This is not a public token sale.**
-
-Profit participation boundaries apply to Seed Round communication:
-
-| Seed Area | Profit Participation Boundary |
+| FUZE token | Ecosystem utility, ZAGA participation, wallet-aware access, community participation, and governance-aware direction where applicable |
+| FPPU | Eligible profit participation unit connected to approved distributable net profit |
+| USDT | Distribution currency for approved FPPU distributions and one supported product-payment rail where applicable |
+| Stablecoins / fiat / app-store proceeds | Revenue collection, work payment, treasury, or conversion sources depending on the payment channel |
+FUZE’s updated public position is clear:
+**FPPU is the defined profit participation unit. FUZE token ownership alone does not automatically create FPPU distribution rights. Platform Credits do not create profit participation rights. FPPU distributions occur only when approved distributable net profit exists, the Revenue-to-Distribution Control System is completed, audit review is completed, multisig and timelock controls are satisfied, USDT is deposited into the FPPU Distribution Smart Contract, and the holder is eligible at the applicable record-date snapshot.**
+This boundary protects FUZE, product users, token holders, FPPU holders, investors, community members, strategic partners, and public readers. It separates product usage, ecosystem token utility, profit participation, stablecoin work payment, revenue collection, private fundraising, community participation, token release, and listing readiness.
+FUZE does not present profit participation as automatic income, fixed yield, assured payout, assured return, passive income, guaranteed dividend, token price support, liquidity promise, listing promise, resale promise, buyback promise, redemption promise, or exit promise.
+This paper defines the public boundary around FPPU profit participation, explains what FUZE can and cannot say publicly, connects FPPU to product revenue and platform readiness, and defines the accounting, treasury, technical, governance, audit, legal, eligibility, and transparency conditions required before any FPPU distribution can occur.
+## 1. FUZE Position
+FUZE treats profit participation as a structured FPPU framework, not as an automatic benefit of holding FUZE token.
+FUZE position:
+**FPPU is the FUZE Profit Participation Unit for eligible holders. It is separate from FUZE token and Platform Credits. FPPU distributions, when available, are paid in USDT from approved distributable net profit after revenue reconciliation, reserve checks, AI-assisted audit, community audit, multisig approval, timelock controls, smart contract funding, and record-date eligibility checks.**
+FUZE uses careful public language:
+| Topic | FUZE Public Position |
 |---|---|
-| Private terms | Shared privately with qualified interested parties |
-| Token-related exposure | Private, legally reviewed, qualified-party only where included |
-| Public materials | Do not promise profit participation |
-| Investor materials | Require legal review before any economic framework language |
-| Community communication | Does not convert private fundraising into public offer |
-| Future frameworks | Remain subject to legal, accounting, treasury, technical, and transparency readiness |
-
-Seed Round does not create public profit participation rights.
-
-### 3.9 Relationship to Controlled Circulation and Vaults
-
-Controlled circulation and vault rules are separate from profit participation.
-
-| Policy Area | Boundary |
+| Profit participation | Defined through FPPU |
+| FUZE token | Ecosystem utility and participation layer |
+| Platform Credits | Product usage credits |
+| Stablecoins / USDT | Work payment, revenue rail, treasury asset, and approved FPPU distribution currency where applicable |
+| Automatic payout | Not automatic |
+| Fixed yield | Not offered |
+| Guaranteed dividend | Not offered |
+| Distribution frequency | Not guaranteed |
+| Distribution amount | Not guaranteed |
+| Eligible holder status | Required for FPPU claims |
+| Revenue requirement | Approved distributable net profit must exist |
+| Audit requirement | AI-assisted and community audit process applies |
+| Smart contract requirement | USDT must be deposited into the FPPU Distribution Smart Contract |
+| Snapshot requirement | Eligible holder status is based on record-date snapshot |
+| Liquidity / resale | Not guaranteed |
+| Exit | Not guaranteed |
+FUZE does not tell the public that buying, holding, receiving, using, or claiming FUZE token creates automatic profit rights, revenue rights, payout rights, cash-flow rights, fixed-yield rights, dividend rights, or ownership rights.
+## 2. Public Context
+FUZE is a transparency-first AI SaaS platform building practical products on shared infrastructure for identity, Platform Credits, payments, AI orchestration, reporting, privacy, security, governance, and ecosystem participation.
+FUZE execution order is:
+**Product usage first. Platform rails second. Broader ecosystem participation after that.**
+FPPU exists to connect approved platform performance with eligible profit participation while preserving the separation between product usage, ecosystem utility, and profit participation.
+| FUZE Layer | Relationship to Profit Participation |
 |---|---|
-| Controlled Circulation Policy | Governs token movement from vaults into active circulation |
-| Vault-by-Vault Release Rules | Define release logic for allocation categories |
-| Public Vault Access | Selected eligibility-controlled token access where final policy allows |
-| Market Price Mechanism | Access-pricing controls for selected vault-token access |
-| Team / Advisor / Partner Vesting | Long-term contributor alignment |
-| Stablecoin Compensation Policy | Work-payment separation |
-| Profit Participation | Long-term design direction only |
-
-Vault access, token release, vesting, or participation does not automatically create profit participation.
-
-### 3.10 Legal Readiness Requirements
-
-Any future profit participation framework requires legal readiness.
-
-| Legal Readiness Area | Public Role |
+| HerHelp.com | Can create product revenue through AI SaaS usage, subscriptions, credits, add-ons, or services |
+| ShopOS AI | Can create product revenue through shop operating system usage, credits, plans, add-ons, and services |
+| ZAGA.io | Can support ecosystem participation, wallet-aware access, and utility surfaces |
+| ZAGA Arena | Can support game/community participation and product actions under public-safe boundaries |
+| ZAGA Districts | Can support community city-builder mechanics and utility surfaces under public-safe boundaries |
+| Botmad | Can support supervised work sessions and internal execution evidence |
+| ToolGrid | Can support reviewed utility visibility, sponsored visibility, and campaign reporting |
+| QTB / AIMM / AIE | Can support bounded intelligence products with strict risk boundaries |
+| Platform Credits | Can measure and monetize product usage |
+| FPPU | Can support eligible USDT distribution from approved distributable net profit |
+Product revenue does not automatically become FPPU distribution. Revenue must pass the Revenue-to-Distribution Control System.
+## 3. Public Model
+### 3.1 What FPPU Defines
+FPPU means **FUZE Profit Participation Unit**.
+FPPU defines an eligible profit participation layer for approved USDT distributions.
+| FPPU Element | Public Meaning |
 |---|---|
-| Jurisdiction review | Determines where any framework can or cannot operate |
-| Securities review | Reviews whether participation creates regulated exposure |
-| Consumer protection review | Reviews public communication and user protections |
-| Contract review | Reviews rights, obligations, eligibility, and restrictions |
-| Terms review | Defines participant terms and limitations |
-| Disclosure review | Defines required public and private disclosures |
-| Transferability review | Defines whether any rights can transfer |
-| Compliance review | Reviews AML/KYC, eligibility, sanctions, and reporting where applicable |
-| Product law review | Reviews product-specific legal requirements |
-| Tax review coordination | Coordinates with accounting and tax analysis |
-
-Legal readiness comes before any framework.
-
-### 3.11 Accounting and Tax Readiness Requirements
-
-Any future framework requires accounting and tax readiness.
-
-| Accounting / Tax Area | Public Role |
+| Name | FUZE Profit Participation Unit |
+| Short name | FPPU |
+| Main function | Profit participation unit |
+| Distribution currency | USDT |
+| Distribution source | Approved distributable net profit |
+| Claim method | Eligible holders connect wallet and claim through smart contract |
+| Eligibility basis | Defined holder eligibility and record-date snapshot |
+| Audit basis | AI-assisted audit and community audit |
+| Control basis | Multisig, timelock, vaults, reporting, and public-safe records |
+| Boundary | No guaranteed payout, amount, timing, frequency, liquidity, resale, or exit |
+### 3.2 What FPPU Does Not Define
+FPPU does not create unlimited or automatic rights.
+| FPPU Does Not Define | Boundary |
 |---|---|
-| Revenue recognition | Determines how product revenue is recognized |
-| Cost allocation | Determines how costs are assigned before any profit calculation |
-| Treasury policy | Defines how funds are held, allocated, and reported |
-| Entity structure | Defines which entity receives revenue and which entity operates the framework |
-| Tax treatment | Reviews participant, company, and jurisdiction treatment |
-| Audit readiness | Defines recordkeeping and review requirements |
-| Reporting format | Defines dashboards, statements, summaries, or disclosures where applicable |
-| Timing | Defines reporting periods and payment or allocation timing where applicable |
-| Currency treatment | Reviews fiat, stablecoin, crypto, and exchange-rate handling |
-| Expense policy | Defines which costs reduce gross revenue before any future participation framework |
-
-Accounting readiness is required because revenue, cost, profit, treasury, and tax treatment are complex.
-
-### 3.12 Treasury Readiness Requirements
-
-Any future framework requires treasury readiness.
-
-| Treasury Area | Public Role |
-|---|---|
-| Treasury policy | Defines funds, reserves, operating budgets, and eligible uses |
-| Reserve planning | Ensures operating runway and product obligations remain protected |
-| Payment rails | Defines fiat, stablecoin, bank, wallet, and platform payment options where applicable |
-| Custody controls | Defines how assets are held and protected |
-| Approval controls | Defines multisig, timelock, approvals, and authorization rules |
-| Reporting | Defines public-safe and private treasury reports |
-| Risk reserves | Defines reserves for refunds, chargebacks, taxes, disputes, and operations |
-| Liquidity planning | Separates operational treasury from token liquidity operations |
-| Legal coordination | Aligns treasury actions with legal and accounting review |
-| Transparency cadence | Defines how often reports are published where applicable |
-
-Treasury readiness protects product operations and public trust.
-
-### 3.13 Technical Readiness Requirements
-
-Any future framework requires technical readiness.
-
-| Technical Area | Public Role |
-|---|---|
-| Identity | Verifies participant account or workspace status where required |
-| Eligibility | Defines who qualifies and why |
-| Wallet-aware access | Connects wallet status only where legally and technically ready |
-| Product revenue records | Tracks revenue source and product category accurately |
-| Cost records | Tracks costs and deductions accurately |
-| Treasury records | Tracks funds, reserves, and approved movements |
-| Smart contracts | Handles on-chain logic only where legally approved and audited |
-| Payment systems | Handles fiat, stablecoin, and product payments where applicable |
-| Reporting systems | Produces dashboards, statements, summaries, and audit records |
-| Privacy controls | Protects personal, financial, business, and customer data |
-| Security controls | Protects wallets, keys, systems, databases, and user accounts |
-
-Technical readiness is required before any participation framework can be trusted.
-
-### 3.14 Transparency Readiness Requirements
-
-Any future framework requires transparency readiness.
-
-| Transparency Area | Public Role |
-|---|---|
-| Public rules | Explains how the framework works |
-| Eligibility rules | Explains who can participate |
-| Exclusion rules | Explains who cannot participate |
-| Revenue categories | Explains which revenue streams are included or excluded |
-| Cost categories | Explains which costs are deducted |
-| Treasury reports | Shows funds and allocations where public-safe |
-| Audit or review process | Explains review and verification process where applicable |
-| Dashboard | Shows public-safe data where technically ready |
-| Risk boundaries | Shows legal, accounting, tax, treasury, technical, and jurisdiction limitations |
-| Update process | Shows how rules can change |
-| Dispute process | Shows how issues or corrections are handled where applicable |
-
-Transparency readiness is required before public trust can exist.
-
-### 3.15 Public Language Model
-
-FUZE uses strict public language around profit participation.
-
-| Topic | Public Language |
-|---|---|
-| Long-term direction | Profit participation is a long-term design direction |
-| Immediate status | Not immediate |
-| Assurance status | Not guaranteed |
-| Required readiness | Legal, accounting, treasury, technical, and transparency readiness |
-| Token role | FUZE token is for ecosystem participation |
-| Credits role | Platform Credits are for product usage |
-| Work payment | Stablecoins pay for work |
-| Seed Round | Private strategic fundraising, not public token sale |
-| Public boundary | No token price, liquidity, listing, profit, return, payout, or market-performance assurance |
-| Product revenue | Product revenue supports operations, growth, and future review areas under policy |
-
-The language model prevents confusion across websites, investor materials, Telegram, Medium, whitepaper sections, product pages, and public FAQ.
-
-## 4. Investor and Community Relevance
-
-Profit participation boundaries matter because public communication around future economics can easily create misunderstanding.
-
-Investor relevance:
-
-- Clarifies that FUZE does not present profit participation as an immediate or guaranteed feature
-- Separates product revenue from token-holder payout assumptions
-- Separates FUZE token from Platform Credits
-- Separates Seed Round from public participation claims
-- Makes future economic frameworks subject to legal and accounting review
-- Supports cleaner diligence around tokenomics and public communication
-- Reduces regulatory, reputational, and investor-communication risk
-- Keeps the platform story focused on products first
+| Automatic payout | Distribution requires approved distributable net profit and completed controls |
+| Fixed return | FPPU does not promise APY, fixed income, fixed yield, or passive income |
+| Guaranteed dividend | No dividend amount or timing is guaranteed |
+| FUZE token entitlement | FUZE token ownership alone does not automatically create FPPU claim rights |
+| Platform Credit entitlement | Platform Credits are product usage credits, not profit participation rights |
+| Unrestricted transfer | FPPU may require eligibility, verification, and transfer controls |
+| Guaranteed liquidity | No market, listing, buyer, resale, buyback, redemption, or exit is guaranteed |
+| Legal avoidance | FPPU may require legal, tax, accounting, eligibility, and compliance review where applicable |
+### 3.3 Distribution Conditions
+FPPU distributions occur only when required conditions are met.
+Required conditions include:
+1. FUZE products generate recognized platform revenue.
+2. Revenue sources are tagged and reconciled.
+3. Refunds, chargebacks, payment fees, platform fees, taxes, operating costs, product costs, AI costs, legal costs, security costs, and reserves are handled.
+4. Approved distributable net profit exists.
+5. The approved FPPU distribution percentage is applied.
+6. AI-assisted audit reviews revenue, costs, conversions, vault movements, and distribution math.
+7. Community audit window reviews public-safe records.
+8. Valid findings, disputes, and corrections are resolved.
+9. Multisig approval is completed.
+10. Timelock requirements are satisfied where applicable.
+11. USDT is deposited into the FPPU Distribution Smart Contract.
+12. Snapshot / record date identifies eligible FPPU holders.
+13. Claim period opens through the official claim process.
+14. Eligible holders connect wallet and claim proportional USDT.
+No single condition alone creates distribution rights.
+### 3.4 Distributable Net Profit Boundary
+FUZE separates gross revenue from distributable net profit.
+```text
+Gross Platform Revenue
+- Refunds / Chargebacks
+- Payment Processing Fees
+- Platform Fees
+- AI Model Costs
+- Hosting / Infrastructure Costs
+- Team / Contractor / Vendor Costs
+- Product Development Costs
+- Marketing / Sales / Support Costs
+- Legal / Compliance / Accounting Costs
+- Security / Audit Costs
+- Tax Reserve
+- Refund / Chargeback Reserve
+- Product Development Reserve
+- Treasury Reserve
+= Approved Distributable Net Profit
+
+Then:
+
+FPPU Distribution Pool = Approved Distributable Net Profit × Approved FPPU Distribution Percentage
+
+FUZE does not describe gross revenue, credit sales, USDT received, app-store proceeds, Telegram Stars proceeds, partner payments, sponsored visibility payments, or service payments as automatic FPPU distribution.
+
+4. What FUZE Can Say Publicly
+
+FUZE can say:
+
+Public Statement Type	Acceptable FUZE Language
+FPPU definition	FPPU is the FUZE Profit Participation Unit for eligible holders
+Layer separation	Platform Credits are for product usage; FUZE token is for ecosystem utility; FPPU is for eligible profit participation
+USDT distribution	Approved FPPU distributions are paid in USDT through smart contract claims
+Audit model	FPPU uses AI-assisted audit, community audit, public-safe reporting, multisig, and timelock controls
+Distribution condition	FPPU distributions occur only when approved distributable net profit exists and the process is completed
+Claim process	Eligible holders at the snapshot can connect wallet and claim proportional USDT when claims are open
+Quarterly review	FUZE can review FPPU distribution eligibility quarterly, without guaranteeing quarterly payout
+Transparency	FUZE can publish revenue categories, cost categories, reserve categories, report hashes, vault records, and claim records where public-safe
+Risk boundary	FPPU does not guarantee payout amount, payout frequency, yield, liquidity, resale, or exit
+
+Preferred wording:
+
+Eligible FPPU holders may claim proportional USDT from an approved distribution pool when approved distributable net profit exists and the Revenue-to-Distribution Control System is completed. No distribution amount, distribution frequency, liquidity, resale opportunity, token price, or exit is guaranteed.
+
+5. What FUZE Avoids Saying Publicly
+
+FUZE avoids public language that creates fixed-return, share-price, dividend, passive-income, or resale expectations.
+
+FUZE avoids saying:
+
+Avoided Language	Reason
+“Buy FUZE and receive dividends”	Confuses FUZE token with FPPU and implies automatic payout
+“All holders earn quarterly”	Creates fixed-income expectation
+“Guaranteed yearly income”	Creates guaranteed-return framing
+“Fixed APY”	Turns FPPU into yield marketing
+“Passive income”	Creates investment-yield expectation
+“All net profit goes to holders”	Ignores reserves, reinvestment, taxes, costs, and governance
+“USDT is guaranteed every quarter”	Distribution depends on profit and completed controls
+“FPPU can always be sold”	Liquidity and resale are not guaranteed
+“DEX/CEX exit is guaranteed”	Listing and liquidity are not guaranteed
+“Holding FUZE token equals FPPU”	Confuses two different layers
+“Platform Credits are profit rights”	Credits are product usage only
+“AI audit guarantees accuracy”	AI-assisted audit can make errors
+“Community audit finds everything”	Community audit improves transparency but has limits
+
+6. Practical Examples
+
+6.1 Correct Investor Explanation
 
-Community relevance:
+An investor asks:
 
-- Helps holders understand what FUZE token does and does not represent
-- Protects community members from assuming automatic payout rights
-- Clarifies that Platform Credits are for product usage
-- Clarifies that product revenue does not automatically create token-holder income
-- Clarifies that future participation frameworks require legal, accounting, treasury, technical, and transparency readiness
-- Reduces confusion in public groups and announcements
-- Supports safer FAQ and website language
+“If I hold FUZE, do I earn quarterly?”
 
-Strategic partner relevance:
+Correct FUZE answer:
 
-| Partner Type | Boundary Value |
-|---|---|
-| Strategic investors | Clearer legal and economic communication |
-| Web3 communities | Safer explanation of token utility and future design areas |
-| Product users | Product usage separated from investment framing |
-| Legal partners | Clear boundary before any future framework |
-| Accounting partners | Clear readiness requirements before any future calculation |
-| Treasury partners | Clear reserve, reporting, and control requirements |
-| Enterprise partners | Safer public positioning for AI SaaS products |
-| Community operators | Clear FAQ language that avoids payout assumptions |
+FUZE token and FPPU are separate. FUZE token supports ecosystem utility and participation. FPPU is the profit participation unit. Eligible FPPU holders may claim USDT only when approved distributable net profit exists, the audit process is complete, the distribution is approved, USDT is deposited into the FPPU Distribution Smart Contract, and the holder is eligible at the record-date snapshot. FUZE does not guarantee quarterly payout, yearly payout, fixed yield, payout amount, liquidity, resale, or exit.
 
-The boundary supports responsible growth.
+6.2 Correct Community Explanation
 
-## 5. Public Boundary
+A community member asks:
 
-FUZE publicly presents profit participation as a long-term design direction only.
+“Does credit sales revenue go straight to holders?”
 
-FUZE publicly explains:
+Correct FUZE answer:
 
-- profit participation is not immediate
-- profit participation is not guaranteed
-- any future framework requires legal review
-- any future framework requires accounting review
-- any future framework requires treasury readiness
-- any future framework requires technical readiness
-- any future framework requires transparency readiness
-- FUZE token is for ecosystem participation
-- Platform Credits are for product usage
-- Stablecoins pay for work
-- product revenue does not automatically create token-holder payout
-- Seed Round discussions are private strategic fundraising conversations
-- Community Participation Round remains separate and subject to legal, compliance, jurisdiction, product, platform, and smart contract readiness review
+No. Credit sales create platform revenue records, but revenue does not automatically become distribution. FUZE reconciles revenue, deducts fees, refunds, taxes, operating costs, reserves, and reinvestment needs, calculates approved distributable net profit, completes audit and approval controls, and only then can approved USDT be deposited into the FPPU Distribution Smart Contract.
 
-FUZE keeps the following areas subject to product, technical, legal, accounting, tax, privacy, compliance, payment, treasury, governance, entity, jurisdiction, smart contract, platform, and operational review where applicable:
+6.3 Correct FPPU Claim Explanation
 
-- whether any future framework exists
-- exact eligibility rules
-- exact revenue categories
-- exact cost categories
-- exact calculation method
-- exact reporting cadence
-- exact tax treatment
-- exact entity structure
-- exact payment rail
-- exact participant restrictions
-- exact token relationship
-- exact Platform Credit relationship
-- exact smart contract design
-- exact treasury reserve rules
-- exact dashboard format
-- exact legal disclosures
-- exact dispute process
-- exact update process
+A holder asks:
 
-Profit participation boundaries are public communication safeguards. They are not a payout plan, token-income plan, public offering, investment-return plan, listing plan, or financial entitlement.
+“How do I claim USDT?”
 
-## 6. Risk Boundaries and Safeguards
+Correct FUZE answer:
 
-FUZE applies risk boundaries around profit participation.
+When a distribution is approved and funded, eligible FPPU holders at the record-date snapshot can use the official FUZE claim page, connect wallet, verify eligibility, review claimable USDT, and claim through the FPPU Distribution Smart Contract.
 
-### 6.1 Profit Participation Boundary
+6.4 Example Distribution Calculation
 
-Profit participation is a long-term design direction and is not immediate or guaranteed. Any future framework requires legal, accounting, treasury, technical, and transparency readiness.
+Item	Example
+Gross Platform Revenue	100,000 USDT equivalent
+Refunds, fees, operating costs, taxes, reserves, and reinvestment	60,000 USDT equivalent
+Approved Distributable Net Profit	40,000 USDT
+Approved FPPU Distribution Percentage	40%
+FPPU Distribution Pool	16,000 USDT
+Eligible FPPU Supply at Snapshot	10,000,000 FPPU
+Distribution Per FPPU	0.0016 USDT
 
-### 6.2 General Token Boundary
+This is an example only. It does not promise that FUZE will generate revenue, net profit, approved distributable net profit, a distribution pool, or any specific payout amount.
 
-FUZE does not guarantee token price, liquidity, listing, profit, return, payout, or market performance.
+7. Platform Credits / Token / Data Relationship
 
-### 6.3 Platform Credits Boundary
+7.1 Platform Credits
 
-Platform Credits are for product usage and are not investment assets, payout assets, or FUZE tokens.
+Platform Credits are product usage credits.
 
-### 6.4 Product Revenue Boundary
+They can be used for:
 
-Product revenue can support operations, development, stablecoin compensation, treasury planning, reserves, growth, and future framework review. Product revenue does not automatically create token-holder payout, revenue entitlement, ownership interest, or financial-return right.
+* AI actions
+* reports
+* dashboards
+* workflow generation
+* ShopOS AI actions
+* SpeakShop AI script or audio actions
+* SheetLayer AI data workflows
+* TrainLayer AI learning outputs
+* CommunityLayer AI moderation and reporting
+* Botmad supervised work sessions
+* ToolGrid sponsored visibility
+* product-specific usage packs
 
-### 6.5 Seed Round Boundary
+Platform Credits are not FPPU. Platform Credits do not create profit participation rights.
 
-FUZE’s Seed Round discussions are private strategic fundraising conversations. Full details, structure, and terms are shared privately with qualified interested parties. This is not a public token sale.
+7.2 FUZE Token
 
-### 6.6 Community Participation Boundary
+FUZE token is the ecosystem utility and participation layer.
 
-Any future Community Participation Round is subject to legal, compliance, jurisdiction, product, platform, and smart contract readiness review.
+It can support:
 
-### 6.7 Public Vault Access Boundary
+* ZAGA utility
+* wallet-aware access
+* community participation
+* product access tiers
+* ecosystem recognition
+* governance-aware direction where applicable
+* partner and campaign eligibility where allowed
+* long-term alignment
 
-Public Vault Access, if implemented, is subject to eligibility, jurisdiction, compliance, platform readiness, market-aligned pricing rules, lockups, and final policy approval.
+FUZE token ownership alone does not automatically create FPPU distribution rights unless specific FPPU eligibility or conversion rules formally define that relationship.
 
-### 6.8 Listing Boundary
+7.3 FPPU
 
-FUZE does not guarantee exchange listing, listing timing, liquidity, price performance, or market outcome.
+FPPU is the profit participation layer.
 
-### 6.9 Legal and Tax Boundary
+It can support:
 
-Any future framework can create legal, tax, accounting, reporting, licensing, entity, securities, consumer-protection, AML/KYC, privacy, data, and jurisdiction obligations. FUZE does not implement such a framework without required review.
+* eligibility to participate in approved USDT distributions,
+* wallet-based record-date snapshots,
+* proportional claim calculation,
+* public distribution reports,
+* audit-reviewed distribution claims,
+* community-audited transparency,
+* smart contract claim records.
 
-### 6.10 Development Standards Boundary
+FPPU distribution depends on approved distributable net profit and completed controls.
 
-FUZE uses standards-inspired or standards-aligned processes. FUZE does not claim formal certification unless certification has been completed.
+7.4 USDT
 
-## 7. Reporting and Transparency Direction
+USDT is the preferred distribution currency for approved FPPU claims.
 
-FUZE reports profit participation boundaries through public documentation, tokenomics pages, investor materials, community FAQ, website risk sections, Seed Round boundary materials, Platform Credit documentation, product pages, whitepaper sections, release notes, governance references, and transparency surfaces where applicable.
+USDT can be used in two separate ways:
 
-Reporting areas include:
+USDT Use	Meaning
+Product payment / credit purchase	Users may buy Platform Credits with USDT where supported
+FPPU distribution	Approved USDT distribution pool is deposited into the FPPU Distribution Smart Contract for eligible claims
 
-| Reporting Area | Public Direction |
-|---|---|
-| Boundary statement | Profit participation is long-term, not immediate, and not guaranteed |
-| Readiness requirements | Legal, accounting, treasury, technical, and transparency readiness |
-| Token separation | FUZE token is for ecosystem participation |
-| Credit separation | Platform Credits are for product usage |
-| Product revenue context | Product revenue supports operations and future review, not automatic payout |
-| Seed Round context | Private strategic fundraising, not public token sale |
-| Community Participation context | Separate framework subject to readiness |
-| Risk language | No token price, liquidity, listing, profit, return, payout, or market-performance assurance |
-| Product context | HerHelp, ZAGA, FUZE Core Platform, Botmad, and product revenue direction |
-| Update process | Any future changes require public documentation, review, and policy readiness |
+USDT in a credit vault is not automatically distributable to FPPU holders.
 
-FUZE uses this reporting direction to prevent misunderstanding and strengthen public trust.
+7.5 Data
 
-## 8. Conclusion
+FPPU transparency requires public-safe reporting.
 
-FUZE uses Profit Participation Boundaries to make future economic-framework language clear, careful, and compliant.
+Data Type	Public Handling
+Revenue totals	Reported by source category where available
+Cost categories	Reported in public-safe categories
+Reserve categories	Reported in public-safe categories
+USDT vault balances	Reported on-chain where available
+Distribution pool	Reported through smart contract and public dashboard
+Holder snapshot	Reported through eligible holder balance logic while protecting private data where needed
+User data	Not publicly exposed
+Customer data	Not publicly exposed
+Payment details	Reported in aggregate, not as private user records
+Investor data	Private and access-controlled
+Security-sensitive data	Not publicly exposed
+
+AI-assisted and community audit use public-safe data where possible and private data only through approved access-controlled review where necessary.
+
+8. Public Boundary
+
+This paper explains FUZE profit participation boundaries. It is not a securities offering, public token sale, public solicitation, legal advice, tax advice, financial advice, investment recommendation, exchange listing announcement, liquidity commitment, price statement, guaranteed dividend, fixed-yield product, income promise, payout promise, trading instruction, or acquisition promise.
+
+FPPU does not guarantee:
+
+* quarterly distribution
+* yearly distribution
+* fixed dividend
+* fixed yield
+* passive income
+* payout amount
+* payout frequency
+* approved distributable net profit
+* product revenue
+* customer growth
+* shop revenue
+* community growth
+* AI accuracy
+* trading result
+* market-making result
+* token price
+* token appreciation
+* liquidity
+* listing
+* resale opportunity
+* buyback
+* redemption
+* exit
+* M&A
+* acquisition outcome
 
-Profit participation is a long-term design direction. It is not immediate. It is not guaranteed. Any future framework requires legal, accounting, treasury, technical, and transparency readiness.
+FPPU may require eligibility rules, wallet verification, transfer restrictions, KYC/AML where applicable, jurisdiction controls, legal review, tax review, reporting standards, smart contract review, and security controls.
 
-FUZE token is for ecosystem participation. Platform Credits are for product usage. Stablecoins pay for work. FUZE tokens align long-term participation.
+Distributions happen only if:
 
-Product revenue supports product operations, platform growth, stablecoin compensation, treasury planning, reserves, and future review areas. Product revenue does not automatically create token-holder payout, revenue entitlement, ownership interest, or financial-return right.
+1. FUZE has recognized and reconciled platform revenue,
+2. costs, refunds, fees, taxes, operating needs, and reserves are handled,
+3. approved distributable net profit exists,
+4. an approved distribution percentage is applied,
+5. AI-assisted audit is completed,
+6. community audit or review window is completed,
+7. valid findings are resolved,
+8. multisig approval is completed,
+9. timelock requirements are satisfied where applicable,
+10. USDT is deposited into the FPPU Distribution Smart Contract,
+11. the holder is eligible at the applicable snapshot / record date.
 
-This boundary keeps FUZE focused on its public execution order:
+9. Reporting and Transparency Direction
 
-Product usage first. Platform rails second. Broader ecosystem participation after that.
+FUZE reports profit participation through the FPPU reporting structure.
+
+Public reporting can include:
+
+Reporting Area	Public Direction
+Platform revenue	Revenue by public-safe source category
+Platform Credits sold	Credit usage and sales categories where available
+Product revenue	HerHelp, ShopOS AI, ZAGA, partner packages, sponsored visibility, services, and other public-safe categories
+Refunds and chargebacks	Public-safe category totals
+Fees	Payment processor, app-store, Telegram, conversion, and platform-fee categories where available
+Operating costs	AI, hosting, development, support, marketing, legal, compliance, accounting, security, and audit categories
+Reserves	Tax, refund, treasury, product development, security, and legal reserve categories
+Approved distributable net profit	Amount approved after deductions and reserves
+Distribution percentage	Approved FPPU distribution percentage for the period
+Distribution pool	USDT amount deposited into FPPU Distribution Smart Contract
+Snapshot date	Record-date snapshot for eligible FPPU holders
+Claim data	Public-safe claim statistics and on-chain claim events
+AI audit	AI-assisted audit report summary and hash
+Community audit	Public findings, valid bounty outcomes, and final report hash
+Multisig / timelock	Public-safe approval and timing records
+Vaults	Public contract addresses and balances where available
+
+Reporting improves reviewability but does not remove business, product, revenue, legal, tax, security, smart contract, or market risk.
+
+10. Related Papers
+
+Related Paper	Relationship
+TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/22-FUZE_FPPU_PROFIT_PARTICIPATION_UNIT_PUBLIC.md	Defines FPPU as the profit participation unit
+TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/23-FUZE_REVENUE_TO_DISTRIBUTION_CONTROL_SYSTEM_PUBLIC.md	Defines revenue-to-distribution control system
+TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/24-FUZE_FPPU_RISK_DISCLOSURE_PUBLIC.md	Defines FPPU-specific risk disclosure
+TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/01-TOKENOMICS_FINAL_ALLOCATION_TABLE-PUBLIC.md	FUZE token allocation and ecosystem supply model
+TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/03-CONTROLLED_CIRCULATION_POLICY-PUBLIC.md	Controlled circulation direction
+TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/04-PUBLIC_VAULT_ACCESS_SYSTEM-PUBLIC.md	Public vault transparency direction
+TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/05-VAULT_BY_VAULT_RELEASE_RULES-PUBLIC.md	Vault release logic
+TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/07-STABLECOIN_COMPENSATION_POLICY-PUBLIC.md	Stablecoin work-payment separation
+TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/09-BOARD_SURFBOARD_MIGRATION-PUBLIC.md	Legacy Surfboard / BOARD holder migration relationship
+TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/10-LIQUIDITY_AND_LISTING_POLICY-PUBLIC.md	Liquidity and listing boundary
+TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/11-SEED_ROUND_STRUCTURE_AND_TOKEN_RELATED_EXPOSURE-PUBLIC.md	Private round and exposure relationship
+TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/13-PLATFORM_CREDITS_RELATIONSHIP-PUBLIC.md	Platform Credits separation
+TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/15-GOVERNANCE_MULTISIG_TIMELOCK_MODEL-PUBLIC.md	Multisig and timelock governance
+TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/16-LEGAL_AND_COMPLIANCE_MESSAGING-PUBLIC.md	Legal and compliance language
+TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/21-FUZE_TOKEN_RELEASE_AND_CIRCULATION_CLARITY_PUBLIC.md	Token release and circulation clarity
+CORE-PLATFORM-PAPERS/06-FUZE_PLATFORM_CREDITS_USAGE_EXAMPLES_PUBLIC.md	Platform Credits product usage examples
+AI-SAAS-PRODUCT-PAPERS/18-FUZE_PRODUCT_TO_PLATFORM_CREDITS_PUBLIC.md	Product-to-credits bridge
+AI-SAAS-PRODUCT-PAPERS/19-FUZE_PRODUCT_TO_TOKEN_UTILITY_BRIDGE_PUBLIC.md	Product-to-token utility bridge
+INVESTOR-PARTNER-PAPERS/11-FUZE_INVESTOR_READINESS_SUMMARY_PUBLIC.md	Investor-readiness model
+INVESTOR-PARTNER-PAPERS/12-FUZE_ROUND_STRUCTURE_AND_USE_OF_FUNDS_PUBLIC.md	Round structure and use of funds
+INVESTOR-PARTNER-PAPERS/13-FUZE_TOKEN_LAUNCH_MECHANICS_PUBLIC.md	Token launch mechanics
+INVESTOR-PARTNER-PAPERS/14-FUZE_PRODUCT_STATUS_AND_EVIDENCE_MATRIX_PUBLIC.md	Product status and evidence
+INVESTOR-PARTNER-PAPERS/15-FUZE_INVESTOR_FAQ_PUBLIC.md	Investor FAQ
+INVESTOR-PARTNER-PAPERS/20-FUZE_INVESTOR_RISK_DISCLOSURE_PUBLIC.md	Investor risk disclosure
+
+11. Conclusion
+
+FUZE profit participation is now defined through FPPU, not through automatic FUZE token holding and not through Platform Credits.
+
+The FUZE model is:
+
+Platform Credits are for product usage. FUZE token is for ecosystem utility and participation. FPPU is for eligible profit participation. USDT is used for approved FPPU distributions.
+
+This paper keeps the boundary clear:
+
+FPPU distributions depend on real product revenue, reconciliation, deductions, reserves, approved distributable net profit, AI-assisted audit, community audit, dispute resolution, multisig approval, timelock controls, smart contract funding, snapshot logic, and holder eligibility.
+
+FPPU does not guarantee income, payout amount, distribution frequency, fixed yield, liquidity, listing, resale opportunity, token price appreciation, or exit.
+
+FUZE uses this boundary to make the FPPU model transparent, Web3-native, public-company-inspired, audit-aware, community-reviewed, and risk-aware.
