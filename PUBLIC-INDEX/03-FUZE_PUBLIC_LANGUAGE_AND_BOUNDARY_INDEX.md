@@ -2,529 +2,429 @@
 
 ## Executive Summary
 
-The FUZE Public Language and Boundary Index defines the approved public wording, avoided wording, and communication boundaries for FUZE public documents, investor materials, community explanations, product papers, token papers, website summaries, and whitepaper materials.
+The FUZE Public Language and Boundary Index defines how FUZE speaks in public.
 
-This paper exists because FUZE combines several sensitive areas:
+FUZE is a product-first AI SaaS and Web3 ecosystem building practical products on shared platform rails for identity, Platform Credits, payments, AI orchestration, wallet-based records, reporting, and ecosystem participation.
 
-- AI SaaS products
-- Platform Credits
-- one FUZE token
-- wallet-based participation ability
-- stablecoin payment and treasury rails
-- game mechanics
-- AI trading intelligence support
-- AI market-making operations support
-- investor-facing documentation
-- public reporting and transparency
+This paper helps writers, reviewers, community managers, investors, partners, and public readers understand the language FUZE uses across public papers, website summaries, investor materials, product pages, tokenomics papers, whitepaper materials, and community explanations.
 
-Without controlled language, readers may misunderstand FUZE token as a guaranteed profit-share token, Platform Credits as investment assets, game rewards as financial earnings, QTB as trading advice, AIMM as price support, or roadmap direction as a guaranteed launch promise.
+FUZE public language must be:
 
-FUZE uses one token only: FUZE token. FUZE token supports product-connected utility, ecosystem participation, platform alignment, governance direction where applicable, and wallet-based participation ability. Wallet-based participation ability is not a second token, is not automatic for every wallet, and is not active as a guaranteed public payout right.
+- product-first
+- human-readable
+- clear for crypto and Web3 readers
+- understandable for product users
+- useful for investors and partners
+- calm enough for serious review
+- controlled enough to avoid misleading claims
+- specific to each paper’s objective
 
-FUZE public communication must remain clear, calm, product-first, wallet-aware, and risk-aware.
+FUZE public papers should create interest without hype.
+
+They should build trust without turning every paper into a legal disclaimer.
+
+Detailed risk language belongs mainly in dedicated risk, disclosure, legal, and language-control papers. Normal product, platform, website, and investor papers should stay readable and use short boundary references where needed.
 
 ---
 
 ## 1. Purpose of This Paper
 
-This paper is the public language control layer for the FUZE documentation system.
+This paper is the public language control layer for the FUZE paper system.
 
-It helps writers, reviewers, community managers, investors, partners, and public readers understand:
+It exists because FUZE combines several areas that readers may confuse if the wording is not controlled:
 
-- what FUZE can say publicly
-- what FUZE should avoid saying publicly
-- how to explain FUZE token without creating payout confusion
-- how to explain wallet-based participation ability without using FPPU as a public-facing term
-- how to explain Platform Credits without making them sound like investment assets
-- how to explain AI products without promising perfect AI results
-- how to explain QTB without creating financial-advice claims
-- how to explain AIMM without promising liquidity or price support
-- how to explain ZAGA games without promising financial earnings
-- how to explain roadmap and investor materials without implying guaranteed outcomes
+- practical AI SaaS products
+- Platform Credits
+- one FUZE token
+- wallet-based records
+- wallet-based participation ability
+- stablecoin payment, settlement, treasury, and compensation rails
+- ZAGA game products
+- AI market interpretation support
+- AI liquidity operations support
+- investor and partner materials
+- public reporting
+- vault and transparency direction
+- risk and disclosure papers
 
-This paper does not replace legal review. It gives a public-language framework that keeps FUZE communication consistent.
+The purpose is to make FUZE language consistent without making every paper sound the same.
+
+This paper defines:
+
+- approved platform language
+- approved product language
+- approved token, credit, stablecoin, and wallet language
+- public identity and privacy language
+- market access language
+- risk placement rules
+- words and claims FUZE avoids
+- safer replacement language
+- how to keep papers human, clear, and product-first
+
+This paper is not a replacement for legal, tax, accounting, financial, or regulatory review. It is the public writing standard for FUZE documentation.
 
 ---
 
-## 2. Master FUZE Public Language
+## 2. Who This Paper Helps
 
-Use this language when explaining FUZE at the platform level:
+This paper helps anyone who writes, reviews, explains, publishes, summarizes, or shares FUZE materials.
+
+| Reader | How This Paper Helps |
+|---|---|
+| Writers | Gives approved language for FUZE papers |
+| Reviewers | Helps detect misleading, outdated, or duplicated language |
+| Community managers | Gives safer public wording for Telegram, X, Discord, website, and public posts |
+| Product teams | Helps explain products without turning product papers into token papers |
+| Tokenomics reviewers | Helps keep FUZE token, Platform Credits, stablecoins, and wallet records separate |
+| Investor reviewers | Helps keep investor language clear without making public-offer claims |
+| Legal and compliance reviewers | Gives one place to review public language boundaries |
+| Website editors | Helps make website text shorter, sharper, and safer |
+| Public readers | Shows how FUZE separates product value, token utility, credits, wallets, and risk disclosures |
+
+The goal is practical: every reader should understand what FUZE means without guessing.
+
+---
+
+## 3. FUZE Public Position
+
+FUZE uses one clear public position across the paper system.
 
 | Topic | Approved Public Language |
 |---|---|
-| FUZE platform | FUZE is a transparency-first AI SaaS platform building practical products on shared infrastructure for identity, credits, payments, AI orchestration, wallet-based records, reporting, and ecosystem participation. |
-| Execution model | FUZE follows a product-first execution model: practical product usage first, shared platform rails second, broader ecosystem participation after that. |
-| Token model | FUZE uses one token only: FUZE token. |
-| FUZE token role | FUZE token supports product-connected utility, ecosystem participation, platform alignment, governance direction where applicable, and wallet-based participation ability. |
-| Wallet-based participation | Wallet-based participation ability may apply only to eligible FUZE-holding wallets if the framework becomes active and required gates are ready. |
-| Platform Credits | Platform Credits are product usage credits. |
+| FUZE platform | FUZE is a product-first AI SaaS and Web3 ecosystem building practical products on shared platform rails for identity, Platform Credits, payments, AI orchestration, wallet-based records, reporting, and ecosystem participation. |
+| Execution model | FUZE builds practical products first, connects them through shared platform rails, and supports broader ecosystem participation after that. |
+| Product direction | FUZE builds AI SaaS, shop, spreadsheet, training, community, game, event, market interpretation, utility discovery, and AI work-assistance products. |
+| Platform Credits | Platform Credits are product usage credits for FUZE products and services where supported. |
+| FUZE token | FUZE token is the single ecosystem token of FUZE. |
+| FUZE token role | FUZE token supports ecosystem participation, product-connected utility, platform alignment, governance direction where applicable, and wallet-based participation ability where activated under required controls. |
+| Wallet records | Wallets can support public-safe records, snapshots, report references, eligibility status where applicable, and ecosystem transparency. |
 | Stablecoins | Stablecoins are payment, settlement, treasury, and compensation rails. |
-| Privacy | FUZE uses wallet-level transparency and does not publish personal identity publicly. |
-| Reporting | FUZE uses reporting, public-safe records, wallet-based records, vault visibility, report hashes, and audit direction to improve transparency. |
-| Public boundary | FUZE does not guarantee payout, income, dividend, yield, profit, token price, listing, liquidity, market support, exit, game earnings, business revenue, AI accuracy, user acquisition, community growth, or investment return. |
+| Privacy | FUZE uses wallet-level transparency where useful while keeping personal identity private. |
+| Risk placement | Detailed risk and disclosure language belongs mainly in dedicated risk, disclosure, legal, and language-control papers. |
+
+The public position should make FUZE feel practical and understandable.
+
+Writers should lead with products, platform value, and reader usefulness before moving into token, wallet, or risk details.
 
 ---
 
-## 3. Terms FUZE Uses
+## 4. How to Read the FUZE Paper System
 
-### 3.1 Platform and Product Terms
+FUZE papers use different levels of language depending on the paper type.
 
-| Use This Term | Meaning |
+| Paper Type | Language Style |
 |---|---|
-| FUZE platform | The full FUZE AI SaaS and ecosystem platform. |
-| FUZE Core Platform rails | Shared infrastructure for identity, credits, payments, AI orchestration, wallet-based records, reporting, and ecosystem participation. |
-| Product-first execution | FUZE’s priority on real products and usage before broader ecosystem expansion. |
-| Practical AI SaaS | AI software designed for real workflows, business use, community operations, content, shops, training, or support. |
-| Product usage | Use of FUZE products, tools, services, or workflows. |
-| Product revenue direction | A product’s possible path to revenue, without guaranteeing revenue. |
-| Revenue readiness | The readiness of a product to support practical usage, payment, pricing, reporting, and operational delivery. |
+| Public index and FAQ papers | Simple, helpful, navigational |
+| Core platform papers | Clear, structural, product-first |
+| Product papers | Practical, user-focused, product-specific |
+| Tokenomics papers | Controlled, precise, plain-language, risk-aware |
+| Investor papers | Evidence-aware, review-friendly, non-promotional |
+| Website summaries | Short, sharp, public-facing, exciting but controlled |
+| Whitepaper papers | Complete, connected, strategic, carefully bounded |
+| Risk and disclosure papers | More detailed, boundary-focused, review-oriented |
+
+Normal product papers should not repeat long token disclaimers.
+
+Website summaries should not feel like legal documents.
+
+Investor papers should help evaluation without sounding like public offering documents.
+
+Risk papers should carry the heavier language so the rest of the paper system stays readable.
 
 ---
 
-### 3.2 Credit and Payment Terms
+## 5. Main Reader Paths
 
-| Use This Term | Meaning |
+### 5.1 Writers and Reviewers
+
+Writers and reviewers should use this paper before creating or editing FUZE public materials.
+
+The review order is:
+
+1. Check the requested file type.
+2. Use the approved structure for that file type.
+3. Lead with the correct FUZE communication priority.
+4. Keep the paper unique to its purpose.
+5. Remove outdated terms, old numbering, and missing-file references.
+6. Keep detailed risk language in the right risk papers.
+7. Check that the paper sounds human and public-ready.
+
+### 5.2 Product Teams
+
+Product teams should use this paper to keep product documents product-specific.
+
+Product papers should explain:
+
+- who the product helps
+- what problem it solves
+- what workflows it supports
+- how Platform Credits can connect to usage
+- how FUZE platform rails support the product
+- what data, AI, permission, and reporting boundaries matter
+
+Product papers should not become generic token explainers.
+
+### 5.3 Crypto and Web3 Community Teams
+
+Community teams should use this paper when explaining FUZE token, ZAGA, Platform Credits, wallet records, public reporting, and participation-related topics.
+
+Community language should be clear and exciting, but it should avoid price, listing, payout, profit, and market-support expectations.
+
+A good community explanation focuses on:
+
+- product usage
+- ecosystem participation
+- game and community activity
+- public-safe transparency
+- product-connected utility
+- FUZE’s long-term platform direction
+
+### 5.4 Investor and Partner Teams
+
+Investor and partner materials should explain FUZE as a product-first platform with a clear ecosystem model.
+
+Investor language should focus on:
+
+- product direction
+- revenue direction
+- platform rails
+- evidence direction
+- use-of-funds categories
+- governance and reporting
+- risk and disclosure references
+
+Investor materials should not sound like public token-sale materials.
+
+### 5.5 Website and Public Content Teams
+
+Website and public content should be shorter and more direct than full papers.
+
+Website language should help readers quickly understand:
+
+- what FUZE is
+- why FUZE matters
+- what products exist
+- what Platform Credits do
+- why FUZE token exists
+- how wallet records support transparency
+- where readers can find deeper risk and disclosure materials
+
+---
+
+## 6. Paper Groups and Their Roles
+
+### 6.1 Product and Platform Language
+
+Product and platform papers should make FUZE feel useful before explaining sensitive token, wallet, or risk topics.
+
+Approved direction:
+
+- FUZE builds practical products.
+- FUZE products solve real workflow problems.
+- FUZE connects products through shared rails.
+- Platform Credits support product usage.
+- Wallet records support public-safe transparency where useful.
+- FUZE token supports ecosystem participation and utility where relevant.
+
+Avoid turning every product paper into a full tokenomics paper.
+
+### 6.2 Tokenomics and Governance Language
+
+Tokenomics papers should be precise and controlled.
+
+Approved direction:
+
+- FUZE token is the single ecosystem token.
+- FUZE token supports product-connected utility, ecosystem participation, platform alignment, governance direction where applicable, and wallet-based participation ability where activated under required controls.
+- Platform Credits support product usage.
+- Stablecoins support operational payment, settlement, treasury, and compensation.
+- Wallet-based participation ability belongs mainly in tokenomics, wallet, investor, legal, risk, and whitepaper contexts.
+- Detailed risk language belongs in token risk and disclosure papers.
+
+### 6.3 Investor and Partner Language
+
+Investor and partner papers should help evaluation.
+
+Approved direction:
+
+- FUZE has a product-first execution model.
+- FUZE products can create product revenue direction where products become ready for usage, pricing, delivery, and reporting.
+- FUZE uses shared platform rails to reduce fragmentation across products.
+- FUZE uses public documentation and reporting direction to improve review clarity.
+- Investor risk and disclosure language belongs mainly in the investor risk disclosure and risk appendix papers.
+
+### 6.4 Website Summary Language
+
+Website papers should be short and public-facing.
+
+Approved direction:
+
+- explain FUZE in simple language
+- make the product ecosystem easy to understand
+- show why FUZE matters
+- keep the one-token model simple
+- keep wallet-based participation details light
+- direct readers to deeper papers for risk and disclosure
+
+### 6.5 Risk and Disclosure Language
+
+Risk and disclosure papers should carry the more detailed boundary language.
+
+This prevents normal papers from becoming repetitive or overly defensive.
+
+Dedicated risk files include:
+
+- `AI-SAAS-PRODUCT-PAPERS/16-FUZE_PRODUCT_RISK_BOUNDARIES_PUBLIC.md`
+- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/29-FUZE_TOKEN_RISK_BOUNDARIES_PUBLIC.md`
+- `INVESTOR-PARTNER-PAPERS/17-FUZE_INVESTOR_RISK_DISCLOSURE_PUBLIC.md`
+- `WEBSITE-SUMMARY-PAPERS/05-FUZE_RISK_AND_COMPLIANCE_ONE_PAGE_PUBLIC.md`
+- `WHITEPAPER-PAPERS/05-FUZE_RISK_AND_DISCLOSURE_APPENDIX_PUBLIC.md`
+
+---
+
+## 7. Language, Boundary, and Risk Control
+
+### 7.1 Approved Core Terms
+
+| Term | Public Meaning |
 |---|---|
-| Platform Credits | Product usage credits used inside FUZE products where supported. |
-| Usage credits | Credits for consuming product services, features, AI workflows, or platform tools. |
-| Credit usage | Product consumption through credits. |
-| Stablecoin payment rail | Stablecoins used for payment, settlement, treasury, or compensation. |
-| Settlement rail | A payment path for receiving, reconciling, or moving value. |
-| Compensation rail | A payment method for contributors, vendors, teams, or operations. |
-| Treasury reserve | Funds held for operations, taxes, refunds, reserves, security, growth, or future approved uses. |
+| FUZE | The full product-first AI SaaS and Web3 ecosystem |
+| FUZE platform | The shared platform model connecting products, credits, payments, AI orchestration, wallet records, reporting, and ecosystem participation |
+| FUZE Core Platform rails | Shared infrastructure for identity, Platform Credits, payments, AI orchestration, wallet-based records, reporting, privacy, and controls |
+| Product-first execution | FUZE’s priority on practical product usage before broader ecosystem participation |
+| Practical AI SaaS | AI software designed for real workflows, businesses, shops, training, communities, content, support, or operations |
+| Platform Credits | Product usage credits for FUZE products and services where supported |
+| FUZE token | The single ecosystem token of FUZE |
+| One-token model | FUZE uses one ecosystem token |
+| Product-connected utility | Utility connected to product access, ecosystem participation, platform functions, or product-related activity where defined |
+| Wallet-based records | Public-safe wallet records, snapshots, report references, vault references, eligibility status where applicable, and transparency direction |
+| Wallet-level transparency | Public-safe transparency through wallet references without public personal identity exposure |
+| Wallet-based participation ability | An activation-gated framework connected to eligible FUZE-holding wallets where supported and approved |
+| Stablecoin rails | Payment, settlement, treasury, and compensation rails |
+| Public reporting | Public-safe reporting for product, platform, wallet, vault, metrics, status, or ecosystem transparency where appropriate |
+| Risk and disclosure appendix | The deeper public reference for risk, limitation, and disclosure topics |
 
----
+### 7.2 Approved Product Language
 
-### 3.3 Token and Wallet Terms
-
-| Use This Term | Meaning |
+| Product | Approved Public Language |
 |---|---|
-| FUZE token | The single ecosystem token of FUZE. |
-| One-token model | FUZE uses one token only, not multiple public token instruments. |
-| Product-connected utility | FUZE token utility connected to product access, ecosystem participation, or platform functions. |
-| Ecosystem participation | Participation in the broader FUZE product and community ecosystem. |
-| Platform alignment | A token role that aligns long-term participants with the platform direction, without guaranteeing outcomes. |
-| Governance direction where applicable | Potential governance-related participation where defined, limited, and supported. |
-| Wallet-based participation ability | A possible FUZE token-related ability for eligible FUZE-holding wallets if activation gates are ready. |
-| Eligible FUZE-holding wallet | A wallet holding FUZE token that meets eligibility rules if the wallet-based participation framework becomes active. |
-| Activation gates | Legal, accounting, treasury, audit, reporting, smart-contract, and jurisdiction readiness requirements before participation claim logic can activate. |
-| Approved distributable value | A controlled value concept that may apply only after defined product revenue pools, deductions, reserves, accounting, treasury controls, audit, reporting, and approval logic are ready. |
-| Wallet-level transparency | Public transparency using wallet addresses, vault records, hashes, snapshots, and eligibility status where applicable, without public personal identity exposure. |
+| HerHelp | HerHelp is the practical AI SaaS suite under FUZE. |
+| SheetLayer AI | SheetLayer AI is the spreadsheet and business data layer. |
+| ShopOS AI | ShopOS AI is the AI-powered shop operating system for QR menu, checkout, queue, payment, loyalty, stock, staff, delivery, reports, TrustCheck, device support, Google Sheets sync, and AI assistance. |
+| SpeakShop AI | SpeakShop AI supports promotional voice scripts, sound packs, and speaker announcements. |
+| TrainLayer AI | TrainLayer AI supports AI learning materials, training workflows, quizzes, guides, and staff/customer education. |
+| CommunityLayer AI | CommunityLayer AI supports moderation, safety, verification, support, reporting, summaries, and community operations. |
+| ZAGA | ZAGA is the FUZE game and token-utility ecosystem. |
+| ZAGA Arena | ZAGA Arena is the fast battle arena game where players survive, fight bosses, collect USDT and Token Value, build Net Worth, and compete in Telegram-ready multiplayer arenas. |
+| ZAGA Districts | ZAGA Districts is a Telegram-native cyberpunk MMORPG where real communities build cities, manage economies, hire NPCs, and compete for power. |
+| QTB | QTB is AI trading intelligence and market interpretation support. |
+| AIMM | AIMM is AI market-making and liquidity operations support. |
+| AIE | AIE supports event intelligence. |
+| ToolGrid AI | ToolGrid AI is the AI utility network with sponsored visibility. |
+| Botmad | Botmad is the AI Desktop Employee under permission controls. |
 
----
+### 7.3 Product Separation Rule
 
-### 3.4 Reporting and Transparency Terms
+ZAGA Arena and ZAGA Districts are separate products under the ZAGA brand.
 
-| Use This Term | Meaning |
+ZAGA Arena is the fast battle arena game.
+
+ZAGA Districts is the Telegram-native cyberpunk MMORPG.
+
+Writers should keep them separate in every paper, website section, community post, investor summary, and whitepaper section.
+
+### 7.4 Terms FUZE Avoids
+
+Avoid wording that creates financial expectation, token-price expectation, exchange-listing expectation, income expectation, market-support expectation, or unsupported performance expectation.
+
+Avoid these phrases in public materials:
+
+| Avoid This Wording | Why FUZE Avoids It |
 |---|---|
-| Public reporting | Public-safe reporting of platform status, product progress, metrics, or treasury-related information where appropriate. |
-| Report hash | A cryptographic reference to a report or record, used to support transparency without exposing sensitive data. |
-| Vault record | Public-safe wallet or treasury movement record where applicable. |
-| Snapshot record | A record of wallet status or balance at a defined time, where applicable. |
-| AI audit support | AI-assisted review of reports, anomalies, inconsistencies, or operational data. |
-| Community audit direction | Community review process where public-safe data can be reviewed. |
-| Public-safe disclosure | Information that can be shared without exposing private identity, sensitive contracts, private treasury details, or restricted legal information. |
+| guaranteed ROI | Creates assured investment-return framing |
+| guaranteed return | Creates assured outcome framing |
+| guaranteed payout | Creates assured distribution framing |
+| guaranteed income | Creates income-promise framing |
+| guaranteed profit | Creates profit-promise framing |
+| guaranteed yield | Creates yield-product framing |
+| fixed yield | Creates fixed-return framing |
+| passive income | Can sound like investment-income marketing |
+| dividend | Can sound like equity-style payout language |
+| risk-free | Misrepresents real project and market risk |
+| price target | Creates price-prediction framing |
+| token price prediction | Creates speculative investment framing |
+| listing soon | Creates unsupported exchange expectation |
+| guaranteed listing | Creates exchange-outcome expectation |
+| guaranteed liquidity | Creates market-access expectation |
+| price support | Creates market-support or manipulation concerns |
+| market manipulation | Must never be promoted or implied |
+| buy before listing | Creates speculative pressure |
+| TGE multiple | Creates return-multiple framing |
+| guaranteed exit | Creates liquidity or acquisition certainty |
+| guaranteed acquisition | Creates M&A certainty |
+| guaranteed game earnings | Misrepresents game mechanics |
+| guaranteed AI accuracy | Misrepresents AI limitations |
+| guaranteed community growth | Creates user-growth certainty |
+| every holder receives profit | Misstates the FUZE token and participation model |
+| holding FUZE guarantees payout | Misstates the FUZE token and participation model |
+| market maker protects price | Creates price-support expectation |
+| AIMM protects price | Misstates AIMM’s role |
+| CEX listing guaranteed | Creates exchange-outcome expectation |
+| CEX listing soon | Creates unsupported exchange expectation |
 
----
+### 7.5 Safer Replacement Language
 
-## 4. Terms FUZE Avoids in Public Materials
-
-FUZE public materials must avoid wording that creates guaranteed financial expectations, misleading token rights, or unsupported claims.
-
-| Avoid This Wording | Reason |
+| Instead of Saying | Use This Direction |
 |---|---|
-| guaranteed ROI | Implies assured investment return. |
-| guaranteed return | Implies assured investment outcome. |
-| guaranteed payout | Implies assured distribution. |
-| guaranteed income | Implies assured income stream. |
-| guaranteed profit | Implies assured profit. |
-| guaranteed yield | Implies assured yield product. |
-| fixed yield | Implies fixed return. |
-| passive income | Can imply investment-income promise. |
-| dividend | Can imply equity-like or security-like payout. |
-| risk-free | False and unsafe. |
-| price target | Implies investment price prediction. |
-| token price prediction | Implies speculative investment forecasting. |
-| listing soon | Can imply unsupported exchange promise. |
-| guaranteed listing | Implies exchange outcome guarantee. |
-| guaranteed liquidity | Implies market access guarantee. |
-| price support | Can imply market manipulation or unsupported market promise. |
-| market manipulation | Must not be promoted or implied. |
-| buy before listing | Creates speculative pressure. |
-| TGE multiple | Creates speculative return framing. |
-| guaranteed exit | Implies liquidity or acquisition certainty. |
-| guaranteed acquisition | Implies M&A outcome certainty. |
-| guaranteed game earnings | Misrepresents game mechanics. |
-| guaranteed AI accuracy | Misrepresents AI limitations. |
-| guaranteed community growth | Implies user-growth certainty. |
-| FUZE token pays profit share | Makes FUZE token sound like unconditional profit-share security. |
-| FUZE token pays dividends | Makes FUZE token sound like dividend-paying equity. |
-| every holder receives profit | Misstates eligibility and activation gates. |
-| holding FUZE guarantees payout | Misstates the one-token model and participation boundaries. |
-| market price drop does not matter because holders receive share | Misleading and unsafe investor framing. |
+| FUZE is a token project. | FUZE is a product-first AI SaaS and Web3 ecosystem. |
+| FUZE token pays holders. | FUZE token supports ecosystem participation, product-connected utility, platform alignment, governance direction where applicable, and wallet-based participation ability where activated under required controls. |
+| Platform Credits are like tokens. | Platform Credits are product usage credits for FUZE products and services where supported. |
+| FUZE guarantees growth. | FUZE uses a product-first execution model and public reporting direction to make progress easier to evaluate. |
+| ZAGA players earn guaranteed money. | ZAGA uses game value language as part of game mechanics and utility surfaces. |
+| QTB gives profitable signals. | QTB supports market interpretation, research, watchlists, summaries, and decision-support workflows. |
+| AIMM protects token price. | AIMM supports liquidity operations monitoring, reporting, and market-operations workflows. |
+| FUZE will list on a CEX. | FUZE’s public market access direction is DEX first, with later market-access paths handled only where readiness and review support that direction. |
+| Users must expose identity publicly. | FUZE uses wallet-level transparency where useful while keeping personal identity private. |
+| The roadmap promises launch timing. | FUZE roadmap papers explain priority, sequence, and direction. |
 
----
+### 7.6 Negative Wording Control
 
-## 5. Replacement Language Guide
+Public papers should avoid overusing defensive phrasing.
 
-When unsafe language appears, use safer public language.
+Use direct positive explanations first.
 
-| Instead of Saying | Use This |
-|---|---|
-| FUZE token pays dividends. | FUZE token may support wallet-based participation ability for eligible FUZE-holding wallets if the participation framework becomes active and required gates are ready. |
-| Every FUZE holder receives profit. | Wallet-based participation ability is not automatic for every wallet and is not active as a guaranteed public payout right. |
-| Holding FUZE guarantees income. | FUZE token does not guarantee payout, income, profit, yield, liquidity, listing, price appreciation, exit, or investment return. |
-| FUZE token is protected from bear markets. | FUZE token market price may move independently from platform performance and may be affected by broader market conditions. |
-| FUZE will list soon. | FUZE does not guarantee exchange listing, liquidity, or market access. |
-| FUZE will generate revenue. | FUZE products may have revenue direction, but business revenue is not guaranteed. |
-| ZAGA players can earn guaranteed money. | ZAGA reward/value language is game mechanic language or controlled utility-surface language, not guaranteed financial earnings. |
-| QTB gives profitable trading signals. | QTB is AI trading intelligence and market interpretation support, not financial advice or guaranteed trading profit. |
-| AIMM supports token price. | AIMM is AI market-making and liquidity operations support, not guaranteed liquidity, price support, listing performance, trading profit, or market outcome. |
-| Platform Credits are like tokens. | Platform Credits are product usage credits and are separate from FUZE token. |
-| Users must dox themselves publicly. | FUZE uses wallet-level transparency and does not publish personal identity publicly. |
-| Smart contracts will pay holders. | Readiness contracts may support transparency and future compatibility, but claim logic can activate only after required gates are ready. |
+Preferred style:
 
----
+- FUZE uses Platform Credits for product usage.
+- FUZE token supports ecosystem participation and product-connected utility.
+- Wallet records support public-safe transparency.
+- Detailed risk boundaries are covered in dedicated risk and disclosure papers.
 
-## 6. Product Language Boundaries
+Avoid repeating long negative disclaimer lists in normal papers.
 
-### 6.1 HerHelp
+Use stronger boundary language only when the paper type requires it.
 
-Approved language:
+### 7.7 Public Identity and Privacy Language
 
-HerHelp is the practical AI SaaS suite under FUZE.
+Approved privacy direction:
 
-Avoid:
+FUZE uses wallet-level transparency where useful while keeping personal identity private.
 
-- guaranteed business growth
-- guaranteed customer acquisition
-- guaranteed AI output
-- guaranteed revenue improvement
-
-Boundary:
-
-HerHelp supports practical AI workflows. It does not guarantee business results.
-
----
-
-### 6.2 SheetLayer AI
-
-Approved language:
-
-SheetLayer AI is the spreadsheet and business data layer.
-
-Avoid:
-
-- guaranteed data accuracy
-- guaranteed business decision correctness
-- guaranteed automated financial result
-
-Boundary:
-
-SheetLayer AI supports business data workflows, dashboards, mapping, and structured records. Users remain responsible for review and operational decisions.
-
----
-
-### 6.3 ShopOS AI
-
-Approved language:
-
-ShopOS AI is the AI-powered shop operating system for QR menu, checkout, queue, payment, loyalty, stock, staff, delivery, reports, TrustCheck, device support, Google Sheets sync, and AI assistance.
-
-Avoid:
-
-- guaranteed store revenue
-- guaranteed customer traffic
-- guaranteed payment approval
-- guaranteed delivery result
-
-Boundary:
-
-ShopOS AI supports shop operations. It does not guarantee sales, customer growth, delivery outcome, or payment approval.
-
----
-
-### 6.4 SpeakShop AI
-
-Approved language:
-
-SpeakShop AI supports promotional voice scripts, sound packs, and speaker announcements.
-
-Avoid:
-
-- guaranteed sales conversion
-- guaranteed foot traffic
-- guaranteed campaign success
-
-Boundary:
-
-SpeakShop AI supports communication and promotion workflows. It does not guarantee customer response.
-
----
-
-### 6.5 TrainLayer AI
-
-Approved language:
-
-TrainLayer AI supports AI learning materials, training workflows, quizzes, guides, and staff/customer education.
-
-Avoid:
-
-- guaranteed learning outcomes
-- guaranteed staff performance
-- guaranteed certification result
-
-Boundary:
-
-TrainLayer AI supports training and education workflows. It does not guarantee learning results.
-
----
-
-### 6.6 CommunityLayer AI
-
-Approved language:
-
-CommunityLayer AI supports moderation, safety, verification, support, reporting, summaries, and community operations.
-
-Avoid:
-
-- guaranteed community growth
-- guaranteed perfect moderation
-- guaranteed abuse prevention
-- guaranteed user retention
-
-Boundary:
-
-CommunityLayer AI supports community operations. It does not guarantee community growth or perfect safety.
-
----
-
-### 6.7 ZAGA
-
-Approved language:
-
-ZAGA is the FUZE game and token-utility ecosystem.
-
-Avoid:
-
-- guaranteed game earnings
-- guaranteed token appreciation
-- guaranteed player growth
-
-Boundary:
-
-ZAGA is an ecosystem for games and token utility. Game rewards and game economies are not guaranteed financial earnings.
-
----
-
-### 6.8 ZAGA Arena
-
-Approved language:
-
-ZAGA Arena is the fast battle arena game where players survive, fight bosses, collect USDT and Token Value, build Net Worth, and compete in Telegram-ready multiplayer arenas.
-
-Avoid:
-
-- guaranteed player earnings
-- guaranteed USDT profit
-- guaranteed token value growth
-
-Boundary:
-
-ZAGA Arena reward and value language is game mechanic language or controlled utility-surface language, not guaranteed financial earnings.
-
----
-
-### 6.9 ZAGA Districts
-
-Approved language:
-
-ZAGA Districts is a Telegram-native cyberpunk MMORPG where real communities build cities, manage economies, hire NPCs, and compete for power.
-
-Avoid:
-
-- passive income
-- guaranteed city income
-- guaranteed treasury return
-- guaranteed NFT profit
-- calling ZAGA Districts a mode inside ZAGA Arena
-
-Boundary:
-
-ZAGA Districts is separate from ZAGA Arena. ZAGA Districts city economies, NPCs, treasuries, taxes, defenses, and token/NFT utility are game/community mechanics, not passive-income systems.
-
----
-
-### 6.10 QTB
-
-Approved language:
-
-QTB is AI trading intelligence and market interpretation support.
-
-Avoid:
-
-- financial advice
-- trading signals as guaranteed profit
-- autonomous investment execution
-- guaranteed market predictions
-
-Boundary:
-
-QTB is not financial advice, not guaranteed trading profit, and not autonomous investment execution.
-
----
-
-### 6.11 AIMM
-
-Approved language:
-
-AIMM is AI market-making and liquidity operations support.
-
-Avoid:
-
-- guaranteed liquidity
-- price support
-- guaranteed listing performance
-- guaranteed trading profit
-- guaranteed market outcome
-
-Boundary:
-
-AIMM does not guarantee liquidity, price support, listing performance, trading profit, or market outcome.
-
----
-
-### 6.12 AIE
-
-Approved language:
-
-AIE supports event intelligence.
-
-Avoid:
-
-- guaranteed event attendance
-- guaranteed sponsorship revenue
-- guaranteed ticket sales
-
-Boundary:
-
-AIE supports event data, planning, summaries, and intelligence workflows. It does not guarantee event results.
-
----
-
-### 6.13 ToolGrid AI
-
-Approved language:
-
-ToolGrid AI is the AI utility network with sponsored visibility.
-
-Avoid:
-
-- guaranteed user acquisition
-- guaranteed sponsor performance
-- guaranteed conversion
-
-Boundary:
-
-Sponsored visibility does not guarantee user acquisition, conversion, or revenue.
-
----
-
-### 6.14 Botmad
-
-Approved language:
-
-Botmad is the AI Desktop Employee under permission controls.
-
-Avoid:
-
-- uncontrolled autonomous agent
-- guaranteed work accuracy
-- guaranteed productivity result
-
-Boundary:
-
-Botmad supports permission-controlled desktop and operational workflows. It does not guarantee perfect output or operational result.
-
----
-
-## 7. Token, Credits, Wallet, and Stablecoin Boundaries
-
-### 7.1 FUZE Token
-
-Approved language:
-
-FUZE token is the single ecosystem token of FUZE. It supports product-connected utility, ecosystem participation, platform alignment, governance direction where applicable, and wallet-based participation ability.
-
-Boundary:
-
-FUZE token does not guarantee payout, income, dividend, yield, profit, token price, listing, liquidity, market support, exit, game earnings, business revenue, user growth, community growth, or investment return.
-
----
-
-### 7.2 Wallet-Based Participation Ability
-
-Approved language:
-
-Wallet-based participation ability may apply to eligible FUZE-holding wallets if the participation framework becomes active and all required gates are ready.
-
-Boundary:
-
-Wallet-based participation ability is not a second token, not automatic for every wallet, and not active as a guaranteed public payout right.
-
----
-
-### 7.3 Platform Credits
-
-Approved language:
-
-Platform Credits are product usage credits.
-
-Boundary:
-
-Platform Credits are not FUZE token, not equity, not debt, not investment contracts, not income rights, and not participation rights.
-
----
-
-### 7.4 Stablecoins
-
-Approved language:
-
-Stablecoins are payment, settlement, treasury, and compensation rails.
-
-Boundary:
-
-Stablecoin use does not create token ownership, participation rights, guaranteed payout, income, profit, yield, or investment return.
-
----
-
-### 7.5 Approved Distributable Value
-
-Approved language:
-
-Approved distributable value is a controlled value concept that may apply only after defined product revenue pools, deductions, reserves, accounting controls, treasury controls, audit review, reporting, and approval rules are ready.
-
-Boundary:
-
-Approved distributable value is not gross revenue, not token sale proceeds, not seed-round funds, and not general treasury balance.
-
----
-
-## 8. Wallet Privacy and Identity Language
-
-FUZE uses wallet-level transparency and does not publish personal identity publicly.
-
-Approved public records may include:
+Public-safe records can include:
 
 - wallet addresses
 - vault activity
 - report hashes
 - audit records
 - snapshot records
-- eligibility status
+- eligibility status where applicable
 - claim status where applicable
+- token release records where applicable
+- public-safe market access status where applicable
 
-Public records should not include:
+Sensitive records stay permissioned where required.
+
+Sensitive records can include:
 
 - personal names
 - emails
@@ -534,159 +434,54 @@ Public records should not include:
 - home addresses
 - investor identities
 - contributor identities
+- customer records
+- tax records
+- legal records
+- accounting workpapers
 - private agreements
+- exchange discussions
+- custody review notes
+- sensitive treasury procedures
 
-If private verification is required by law, regulation, treasury controls, exchange requirements, eligibility review, investor agreement, or jurisdiction rules, that verification stays off-chain, permissioned, and separated from public blockchain records.
+### 7.8 Market Access Language
 
----
+Use market access language only when relevant.
 
-## 9. Roadmap and Status Language
+Approved direction:
 
-### 9.1 Approved Roadmap Terms
+FUZE’s public market access direction is DEX first.
 
-Use:
+CEX expansion can be discussed as a later possible path only where the requested paper requires market-access discussion.
 
-- planned
-- in design
-- product direction
-- public documentation stage
-- private review
-- activation-gated
-- future-stage
-- subject to readiness gates
-- roadmap direction
-- reporting direction
-- under review
-- phased release
-- controlled rollout
+Public exchange and market access papers should avoid public OTC framing unless the user explicitly requests a private or internal transfer-model paper.
 
-### 9.2 Avoided Roadmap Terms
+### 7.9 AI Product Language
 
-Avoid:
+AI products should be described as workflow support, generation support, analysis support, reporting support, or decision-support tools.
 
-- guaranteed launch
-- confirmed listing
-- fixed payout date
-- guaranteed activation
-- guaranteed revenue
-- guaranteed user growth
-- guaranteed community growth
-- guaranteed game earnings
-- risk-free rollout
-- guaranteed market outcome
+Use human review, permission controls, data boundaries, and reporting direction where relevant.
 
-### 9.3 Roadmap Boundary
+Avoid presenting AI outputs as perfect, autonomous, legally conclusive, financially conclusive, or operationally guaranteed.
 
-A roadmap is a planning and communication tool. It is not a guarantee of launch timing, product success, revenue, token listing, liquidity, wallet-based participation activation, or market outcome.
+### 7.10 Game Language
+
+ZAGA Arena and ZAGA Districts can use game language, community language, utility language, progression language, leaderboard language, and gameplay value language.
+
+Writers should keep game mechanics understandable as game mechanics.
+
+ZAGA game language should make the games feel fun, competitive, social, and community-ready without turning the game papers into financial promises.
 
 ---
 
-## 10. Investor Communication Boundaries
+## 8. Key Takeaways
 
-Investor materials must be especially careful because FUZE includes token, product, revenue, and wallet-based participation topics.
-
-Approved investor language:
-
-- product and revenue thesis
-- one-token model
-- wallet-based participation ability, if activated
-- activation-gated model
-- approved distributable value
-- investor risk disclosure
-- use of funds
-- data-room readiness
-- product status and evidence
-- transparency and reporting direction
-
-Avoid investor language that suggests:
-
-- guaranteed return
-- guaranteed token appreciation
-- guaranteed liquidity
-- guaranteed exit
-- guaranteed acquisition
-- guaranteed payout
-- passive income
-- dividend
-- fixed yield
-- risk-free participation
-- buying before listing
-- TGE multiple
-
-Investor-facing papers should explain opportunity and risk together.
-
----
-
-## 11. Community Communication Boundaries
-
-Community materials should be simple, honest, and clear.
-
-Approved community language:
-
-- one token only
-- FUZE token
-- product utility
-- Platform Credits
-- wallet-based participation ability, if activated
-- wallet-level transparency
-- no public identity exposure
-- game mechanics
-- community contribution
-- public reporting direction
-
-Avoid community language that creates unrealistic expectations:
-
-- guaranteed rewards
-- guaranteed payout
-- guaranteed game earnings
-- guaranteed token pump
-- guaranteed listing
-- guaranteed whitelist value
-- guaranteed passive income
-- guaranteed community growth
-
-Community trust depends on clear product language and realistic boundaries.
-
----
-
-## 12. Public Review Checklist
-
-Before publishing any FUZE public text, check:
-
-| Question | Required Answer |
-|---|---|
-| Does the text say FUZE uses one token only? | Yes, where token model is relevant. |
-| Does the text avoid public FPPU language? | Yes. |
-| Does the text use wallet-based participation ability where relevant? | Yes. |
-| Does the text keep Platform Credits separate from FUZE token? | Yes. |
-| Does the text avoid guaranteed payout or income language? | Yes. |
-| Does the text avoid price, listing, liquidity, or exit promises? | Yes. |
-| Does the text avoid guaranteed AI accuracy? | Yes. |
-| Does the text avoid guaranteed game earnings? | Yes. |
-| Does the text avoid public identity exposure? | Yes. |
-| Does the text explain risk boundaries where needed? | Yes. |
-| Does the text match the actual file objective? | Yes. |
-| Does the text avoid copying generic paragraphs into unrelated papers? | Yes. |
-
----
-
-## 13. Key Takeaways
-
-FUZE public language must be clear, controlled, and reader-friendly.
-
-The safest public language is not weak language. It is precise language.
-
-FUZE can clearly explain its product vision, one-token model, wallet-based participation ability, platform credits, stablecoin rails, products, reporting, and long-term direction without making unsafe promises.
-
-The core public-language rules are:
-
-- one token only
-- no public FPPU term
-- wallet-based participation ability instead of profit-share wording
-- Platform Credits are product usage credits
-- stablecoins are payment, settlement, treasury, and compensation rails
-- no public identity exposure
-- no guaranteed payout, income, yield, price, listing, liquidity, exit, AI accuracy, game earnings, business revenue, user growth, community growth, or investment return
-- product claims must be practical and specific
-- investor materials must explain risks and limitations together with opportunity
-- community materials must stay simple, honest, and realistic
+- FUZE public language starts with products, platform rails, and practical user value.
+- FUZE token is the single ecosystem token of FUZE.
+- Platform Credits are product usage credits.
+- Stablecoins are operational rails for payment, settlement, treasury, and compensation.
+- Wallet records support public-safe transparency while personal identity stays private.
+- Product papers should be product-specific and human-readable.
+- Website papers should be short, sharp, and public-facing.
+- Risk-heavy language belongs mainly in dedicated risk and disclosure papers.
+- Public communication should avoid outdated terms, old numbering references, missing-file references, unsupported claims, and speculative market language.
+- FUZE public writing should be clear, confident, practical, Web3-aware, and easy for non-technical readers to understand.

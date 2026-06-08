@@ -2,552 +2,351 @@
 
 ## Executive Summary
 
-FUZE Wallet-Based Platform Model explains how FUZE uses wallets as public participation and transparency records without exposing personal identity publicly.
+The FUZE Wallet-Based Platform Model explains how wallet records can support public-safe transparency across the FUZE ecosystem.
 
-FUZE is a transparency-first AI SaaS platform building practical products on shared infrastructure for identity, credits, payments, AI orchestration, wallet-based records, reporting, and ecosystem participation.
+FUZE is a product-first AI SaaS and Web3 ecosystem.
 
-The wallet-based model supports three goals:
+The platform builds practical products first, connects them through shared platform rails, and supports broader ecosystem participation through FUZE token, Platform Credits, wallet-based records, reporting, and public documentation.
 
-1. Give FUZE a crypto-native public record layer.
-2. Protect public participants from unnecessary identity exposure.
-3. Prepare the platform for wallet-based participation ability only if activation gates are ready.
+Wallet-based records help FUZE connect public transparency with Web3-native participation.
 
-FUZE uses one token only: FUZE token. FUZE token supports product-connected utility, ecosystem participation, platform alignment, governance direction where applicable, and wallet-based participation ability. Wallet-based participation ability is not a second token, not automatic for every wallet, and not active as a guaranteed public payout right.
+They can support:
 
-The wallet-based platform model is not a public identity registry. FUZE public systems may show wallet addresses, vault activity, report hashes, audit records, snapshot records, eligibility status, and claim status where applicable. FUZE does not publish personal names, emails, phone numbers, ID documents, passports, home addresses, investor identities, contributor identities, or private agreements.
+- token holding references
+- public-safe ecosystem records
+- snapshot records where applicable
+- vault and reserve references where applicable
+- report hashes and audit references where applicable
+- eligibility status where applicable
+- product-connected wallet access where supported
+- governance direction where applicable
+- claim status only where a relevant framework is activated and approved
 
-This paper explains the wallet-based platform model, how it connects to FUZE products and rails, how it supports public transparency, and what boundaries protect users, community members, investors, and contributors.
+The wallet-based platform model has one important privacy rule:
+
+FUZE can use wallet-level transparency while keeping personal identity private.
+
+This means public-facing records can reference wallets, reports, hashes, vaults, snapshots, or status records without publishing personal names, emails, phone numbers, legal IDs, customer records, investor identities, contributor identities, private agreements, or sensitive operational files.
+
+This paper explains wallets as a platform record layer, not as a replacement for products, Platform Credits, stablecoins, legal review, accounting review, investor documents, or risk and disclosure papers.
 
 ---
 
 ## 1. Purpose of This Paper
 
-This paper explains the wallet-based layer of the FUZE platform.
+This paper explains the wallet-based platform model inside FUZE.
 
 It answers:
 
-- Why does FUZE use wallets as public records?
-- What does wallet-based transparency mean?
-- What does wallet-based participation ability mean?
-- How does FUZE avoid public identity exposure?
-- How do wallets connect to FUZE token?
-- How do wallets connect to Platform Credits?
-- How do wallets connect to reporting and vault transparency?
-- How does wallet eligibility work at a high level?
-- What is public and what stays private?
-- What risks and limitations apply?
+- why wallets matter in FUZE
+- what wallet-based records can support
+- how wallet records connect to public-safe transparency
+- how wallets relate to FUZE token
+- how wallets relate to Platform Credits
+- how wallets relate to product usage
+- how wallet records can support reporting
+- how public wallet transparency can stay separate from private identity
+- where deeper wallet, token, privacy, eligibility, legal, and risk topics belong
 
-This paper is a platform model paper. It does not activate wallet-based participation claims, does not define final private eligibility rules, and does not replace legal, accounting, tax, treasury, or jurisdiction review.
+The paper is written for public readers, product users, crypto and Web3 community members, investors, partners, and reviewers who want to understand how wallets fit into FUZE without turning the platform story into a token-first explanation.
+
+Wallets are one layer of the FUZE platform.
+
+Products remain the first reason to use FUZE.
 
 ---
 
-## 2. FUZE Public Position on Wallet-Based Records
+## 2. Reader Problem This Paper Solves
 
-FUZE uses wallet-based records to support transparency and ecosystem participation while preserving public pseudonymity.
+A reader may see wallet-based language and ask:
 
-The public position is:
+- Does FUZE require public identity exposure?
+- Are wallet records the same as user accounts?
+- Are wallet records the same as Platform Credits?
+- Are wallet records only for token holders?
+- How do wallet records support transparency?
+- What can be public?
+- What stays private?
+- How do wallet records connect to reports, vaults, token utility, and ecosystem participation?
+- Which papers explain deeper legal, token, and eligibility topics?
 
-FUZE can show public wallet-level records where useful, while keeping personal identity private unless private verification is required through an off-chain, permissioned process.
+This paper solves that confusion by separating wallet-based records from personal identity, product accounts, Platform Credits, stablecoins, and deeper participation topics.
 
-This creates a balance between Web3 transparency and privacy-aware design.
+The simple explanation is:
 
-| Area | FUZE Position |
+FUZE uses wallet records as public-safe ecosystem references where useful.
+
+A wallet can help show public-safe records without exposing the person or organization behind the wallet.
+
+That gives FUZE a Web3-native way to support transparency while keeping sensitive information permissioned.
+
+---
+
+## 3. FUZE Public Position
+
+FUZE uses wallet-based records as part of its platform transparency layer.
+
+The wallet-based platform model supports the product-first ecosystem.
+
+| Area | FUZE Public Position |
 |---|---|
-| Public wallet records | Wallet addresses, vault activity, report hashes, audit records, snapshots, eligibility status, and claim status where applicable may be public-safe records. |
-| Personal identity | FUZE does not publish personal identity publicly. |
-| Private verification | If required, verification stays off-chain, permissioned, and separated from public blockchain records. |
-| FUZE token | FUZE token is the single ecosystem token. |
-| Wallet-based participation | Participation ability may apply only to eligible FUZE-holding wallets if the framework becomes active and required gates are ready. |
-| Platform Credits | Credits are product usage credits and do not create wallet-based participation ability. |
-| Public reporting | Reporting may use wallet-level records and report hashes to improve transparency. |
+| Products | Products create the first reason to use FUZE. |
+| Platform Credits | Platform Credits support product usage across supported FUZE products and services. |
+| FUZE token | FUZE token is the single ecosystem token of FUZE. |
+| Stablecoins | Stablecoins support payment, settlement, treasury, and compensation rails. |
+| Wallet records | Wallets can support public-safe records, snapshots, report references, vault references, token holding references, and eligibility status where applicable. |
+| Public identity | Personal identity stays private in public-facing records. |
+| Reporting | Wallet records can connect to public-safe reporting where useful. |
+| Risk placement | Deeper wallet, token, legal, market, eligibility, and disclosure topics belong in dedicated papers. |
 
-The wallet-based model does not mean every wallet receives the same rights or functions.
+Wallets are useful because they can make parts of the ecosystem easier to verify and review.
 
----
+They should not make the platform harder to understand.
 
-## 3. What Wallet-Based Means in FUZE
-
-Wallet-based means the wallet can act as a public record handle for certain ecosystem actions.
-
-A wallet may be used for:
-
-- holding FUZE token
-- connecting to ecosystem utility
-- public-safe transaction records
-- vault transparency
-- report hash references
-- product-connected wallet records where applicable
-- snapshot records where applicable
-- eligibility status where applicable
-- claim status where applicable if the framework is activated
-- governance direction where applicable
-- community or partner participation where supported
-
-Wallet-based does not mean:
-
-- public identity exposure
-- automatic payout rights
-- automatic wallet-based participation
-- automatic legal eligibility
-- automatic exchange eligibility
-- guaranteed liquidity
-- guaranteed token price
-- guaranteed claim activation
-- guaranteed investment return
-
-A wallet can be public while the person behind the wallet remains private.
+The public story should still start with what FUZE builds and how users can use the products.
 
 ---
 
-## 4. Wallet-Based Platform Layers
+## 4. Platform Model
 
-The wallet-based model has several layers.
+The wallet-based platform model sits inside the broader FUZE platform rails.
 
-| Layer | Purpose |
+| Layer | Role |
 |---|---|
-| Wallet identity layer | Wallet address as a public or user-controlled identifier |
-| Token holding layer | FUZE token balance and token-related records |
-| Product access layer | Product-connected wallet access where supported |
-| Reporting layer | Report hashes, audit records, snapshots, vault references, and public-safe proofs |
-| Eligibility layer | Eligibility status where applicable and if defined |
-| Privacy layer | Separation of public wallet records from private identity data |
-| Treasury and vault layer | Public-safe wallet or vault records where appropriate |
-| Participation-readiness layer | Future ability for eligible FUZE-holding wallets if activation gates are ready |
+| Product Layer | Products such as HerHelp, ShopOS AI, SheetLayer AI, CommunityLayer AI, ZAGA, QTB, AIMM, AIE, ToolGrid AI, and Botmad create practical usage. |
+| Account and Permission Layer | Users, teams, staff, admins, operators, partners, and contributors can have roles and permissions. |
+| Platform Credits Layer | Platform Credits support product usage where supported. |
+| Payment and Settlement Layer | Stablecoins and other supported payment paths can support payment, settlement, treasury, and compensation workflows. |
+| Wallet-Based Record Layer | Wallets can support public-safe records, snapshots, token records, vault references, and reporting references where useful. |
+| Reporting Layer | Reports, dashboards, report hashes, status records, and public-safe summaries can help readers review progress. |
+| FUZE Token Layer | FUZE token connects to ecosystem participation, product-connected utility, platform alignment, governance direction where applicable, and wallet-based participation ability where activated under required controls. |
+| Risk and Disclosure Layer | Dedicated papers explain deeper privacy, legal, token, market, eligibility, investor, and disclosure topics. |
 
-These layers should not be mixed together.
+Wallets are not the whole platform.
 
-A wallet may hold FUZE token without having wallet-based participation ability.
-
-A wallet may use products without public identity exposure.
-
-A wallet may appear in public records without publishing the owner’s real-world identity.
+They are a record and transparency layer that can connect to the platform where useful.
 
 ---
 
-## 5. Wallet-Based Transparency
+## 5. How the System Works
 
-Wallet-based transparency allows FUZE to show public-safe records without exposing private identity.
+The wallet-based platform model can be understood in five steps.
 
-Public records may include:
+### Step 1: A Product Creates Activity
 
-- wallet addresses
-- vault activity
-- report hashes
-- audit records
-- snapshot records
-- eligibility status where applicable
-- claim status where applicable
-- token release records
-- controlled circulation records
-- treasury movement records where appropriate
-- smart-contract activity where deployed
-- public-safe governance records where applicable
+A user interacts with a FUZE product.
 
-This gives the community and investors a way to review certain records without requiring a public real-name registry.
+Examples:
 
-Public boundary:
+- a shop uses ShopOS AI
+- a community uses CommunityLayer AI
+- a player uses ZAGA Arena
+- a group uses ZAGA Districts
+- a user uses SheetLayer AI
+- a team uses Botmad
+- a market-focused reader uses QTB
+- an operator uses AIMM
 
-Wallet-based transparency does not mean every operational detail, private contract, private investor document, private contributor agreement, personal identity record, customer record, or sensitive treasury detail becomes public.
+The product creates usage, records, workflows, reports, or product activity.
+
+### Step 2: The Platform Applies Account and Permission Rules
+
+Product activity can connect to accounts, teams, roles, permissions, and access rules.
+
+Examples:
+
+- shop owner access
+- staff access
+- community admin access
+- moderator access
+- investor data room access
+- partner access
+- AI workflow approval access
+- product operator access
+
+This keeps product activity controlled.
+
+### Step 3: Wallet Records Support Public-Safe References
+
+Where useful, a wallet can act as a public-safe reference.
+
+Examples:
+
+- a token holding record
+- a snapshot record
+- a report hash reference
+- a vault reference
+- a public-safe eligibility status
+- a governance direction reference
+- a product-connected wallet access reference
+- an ecosystem participation reference
+
+The wallet record can be public-safe without showing the personal identity behind it.
+
+### Step 4: Reports and Transparency Use the Right Record Type
+
+FUZE can use public reports, dashboards, report hashes, snapshots, public-safe metrics, and wallet references where appropriate.
+
+This helps readers review ecosystem activity without exposing private data.
+
+### Step 5: Deeper Review Goes to Dedicated Papers
+
+If the topic becomes legal, investor, token, eligibility, treasury, market, privacy, or disclosure-related, the reader should use the dedicated paper for that topic.
+
+This keeps the wallet-based platform paper simple and readable.
 
 ---
 
-## 6. No Public Identity Exposure
+## 6. Product, Credit, Wallet, and Token Relationship
 
-FUZE does not publish personal identity publicly as part of the wallet-based model.
+The wallet-based platform model separates the main systems clearly.
 
-Public systems should not publish:
+| System | Main Role |
+|---|---|
+| Products | Provide practical user value and product workflows |
+| Platform Credits | Support product usage where supported |
+| Stablecoins | Support payment, settlement, treasury, and compensation rails |
+| Wallet records | Support public-safe records and transparency where useful |
+| FUZE token | Serves as the single ecosystem token for product-connected utility, ecosystem participation, platform alignment, governance direction where applicable, and wallet-based participation ability where activated under required controls |
 
-- personal names
-- emails
-- phone numbers
-- ID documents
-- passports
-- home addresses
-- investor identities
-- contributor identities
-- private agreements
-- private KYC or eligibility files
-- private legal documents
-- private tax documents
-- private customer records
-- private business records
-- sensitive payment details
+### Product Relationship
 
-If private verification is required by law, regulation, treasury controls, exchange requirements, eligibility review, investor agreement, or jurisdiction rules, that verification stays:
+Products come first.
 
-- off-chain
-- permissioned
-- access-controlled
-- separated from public blockchain records
-- limited to the required purpose
-- reviewed under applicable rules
+Wallet records should support product and platform clarity, not replace product value.
 
-The public wallet record and the private verification record should remain separate.
+For example, a game profile, shop report, community summary, or product usage record can be useful before any wallet topic becomes relevant.
 
----
+### Platform Credit Relationship
 
-## 7. Wallets and FUZE Token
+Platform Credits support product usage.
+
+A wallet may help connect public-safe references or ecosystem records where supported, but Platform Credits remain part of the product usage layer.
+
+### Stablecoin Relationship
+
+Stablecoins support payment, settlement, treasury, and compensation rails.
+
+Stablecoin-related records may require operational controls, accounting treatment, treasury review, or permissioned reporting depending on the use case.
+
+### Wallet Record Relationship
+
+Wallet records can help FUZE show public-safe transparency.
+
+This can include snapshots, report hashes, vault references, token holding records, eligibility status where applicable, and product-connected access references where supported.
+
+### FUZE Token Relationship
 
 FUZE token is the single ecosystem token of FUZE.
 
-Wallets may hold FUZE token. FUZE token supports:
+Wallet records can help connect FUZE token to ecosystem participation, product-connected utility, platform alignment, governance direction where applicable, and wallet-based participation ability where activated under required controls.
 
-- product-connected utility
-- ecosystem participation
-- platform alignment
-- governance direction where applicable
-- wallet-based participation ability
-
-However, holding FUZE token does not guarantee:
-
-- payout
-- income
-- dividend
-- yield
-- profit
-- token price
-- listing
-- liquidity
-- market support
-- exit
-- business revenue
-- game earnings
-- user growth
-- community growth
-- investment return
-
-The wallet-based model helps show token-related records more clearly, but it does not remove token risk.
+Deeper token and wallet topics belong mainly in the Tokenomics / Governance / Compliance papers and Whitepaper papers.
 
 ---
 
-## 8. Wallets and Platform Credits
+## 7. Governance, Reporting, and Controls
 
-Platform Credits are product usage credits.
+Wallet-based records require clear controls.
 
-Platform Credits may be connected to user accounts, workspaces, product subscriptions, business teams, or payment records. Some products may connect credit usage to wallets where useful, but credits remain separate from FUZE token.
+The platform should separate public-safe records from private records.
 
-Platform Credits are not:
-
-- FUZE token
-- equity
-- debt
-- investment contracts
-- income rights
-- participation rights
-- profit share
-- yield products
-- governance rights
-- wallet-based participation claims
-
-A wallet using or linked to Platform Credits does not automatically gain wallet-based participation ability.
-
-Credit usage is product usage.
-
-Token holding is ecosystem participation.
-
-Wallet-based participation ability is activation-gated and eligibility-controlled.
-
----
-
-## 9. Wallets and Stablecoins
-
-Stablecoins are payment, settlement, treasury, and compensation rails.
-
-Wallets may interact with stablecoin payment or settlement flows where supported.
-
-Stablecoin-related wallet activity may include:
-
-- product payment
-- Platform Credit purchase
-- contributor compensation
-- vendor payment
-- settlement records
-- treasury transfer
-- reserve movement
-- conversion proof where applicable
-- vault activity where applicable
-
-Stablecoin use does not automatically create:
-
-- FUZE token ownership
-- Platform Credit ownership
-- wallet-based participation ability
-- payout rights
-- income rights
-- yield rights
-- approved distributable value
-- investment return
-
-Payment activity must be reconciled and separated from product revenue, net result, reserves, treasury balance, and any future approved distributable value model.
-
----
-
-## 10. Wallet-Based Participation Ability
-
-Wallet-based participation ability is a possible FUZE token-related framework where eligible FUZE-holding wallets may participate in approved distributable value from defined FUZE product revenue pools if the framework becomes active.
-
-This model uses the wallet as the public participation reference.
-
-The public model is:
-
-1. FUZE uses one token only.
-2. FUZE token may support wallet-based participation ability.
-3. Wallet-based participation ability applies only to eligible FUZE-holding wallets if activated.
-4. Eligibility is not automatic for every wallet.
-5. Claim logic is not active unless required gates are ready.
-6. Public records may show wallet-level status where applicable.
-7. Private verification, if required, stays off-chain and permissioned.
-
-Wallet-based participation ability is not a second token.
-
-It is not a public FPPU instrument.
-
-It is not an unconditional profit-share promise.
-
-It is not a guaranteed payout right.
-
----
-
-## 11. Eligible FUZE-Holding Wallets
-
-An eligible FUZE-holding wallet is a wallet that holds FUZE token and meets defined eligibility rules if the wallet-based participation framework becomes active.
-
-Eligibility may depend on rules that are not fully public or not yet active.
-
-Possible eligibility factors may include:
-
-- FUZE token holding
-- wallet status
-- participation class where applicable
-- legal and jurisdiction review where required
-- investor, contributor, partner, team, builder, auditor, or community role where documented
-- snapshot rules where applicable
-- transfer rules where applicable
-- custody rules where applicable
-- compliance restrictions where applicable
-- activation gate readiness
-
-This paper does not define final eligibility rules.
-
-Public boundary:
-
-A wallet holding FUZE token should not be described as automatically eligible unless the active framework says so.
-
----
-
-## 12. Wallet Snapshots
-
-Wallet snapshots may be used where applicable to record a wallet’s status at a specific time.
-
-A snapshot may record:
-
-- wallet address
-- FUZE token balance
-- eligibility status where applicable
-- participation class where applicable
-- record date
-- claim status where applicable
-- exclusion status where applicable
-
-Snapshots can help prevent confusion when token balances change over time.
-
-Public boundary:
-
-A snapshot does not guarantee payout, claim, eligibility, or activation unless the active framework defines those rights and all required gates are ready.
-
----
-
-## 13. Wallet-Based Reporting
-
-Wallet-based reporting can support public transparency.
-
-Examples may include:
-
-- token release records
-- controlled circulation records
-- treasury vault records
-- reserve vault records
-- report hashes
-- audit status records
-- snapshot records
-- eligibility records where applicable
-- claim records where applicable
-- distribution-readiness reports where applicable
-
-Wallet-based reporting should be public-safe.
-
-It should avoid publishing personal identity, private agreements, sensitive business data, customer data, or private payment records.
-
-Public boundary:
-
-Wallet-based reporting supports review, but it does not guarantee accuracy, completeness, revenue, approved distributable value, payout, token price, listing, liquidity, or investment return.
-
----
-
-## 14. Wallets, Exchange Custody, and OTC
-
-Exchange custody and OTC transfers require careful handling in a wallet-based model.
-
-If FUZE token is held on an exchange, the visible wallet may be an exchange custody wallet, not the individual user’s self-custody wallet.
-
-This can affect:
-
-- eligibility review
-- snapshots
-- claim status
-- transfer records
-- wallet-based participation ability
-- jurisdiction handling
-- reporting clarity
-- user expectations
-
-OTC transfers may also require clear rules if wallet-based participation ability is active or under review.
-
-Public boundary:
-
-Buying or holding FUZE token through an exchange does not automatically create wallet-based participation ability. Exchange access, custody, liquidity, transferability, OTC availability, and exit are not guaranteed.
-
----
-
-## 15. Wallets and Governance Direction
-
-FUZE token may support governance direction where applicable.
-
-Wallets can be useful for governance-related records because they can show token holding, voting activity, proposal activity, or other participation where supported.
-
-However, governance direction does not mean every FUZE decision is controlled by token voting.
-
-Some decisions may require:
-
-- legal review
-- treasury controls
-- operational controls
-- security review
-- founder or team decision-making
-- partner agreement terms
-- compliance review
-- technical review
-- emergency controls
-
-Public boundary:
-
-Governance does not guarantee control, payout, treasury access, token price, listing, liquidity, or business outcome.
-
----
-
-## 16. Smart Contracts and Wallet-Based Readiness
-
-The wallet-based model may use smart contracts for transparency, records, and future compatibility.
-
-Smart-contract modules may include:
-
-- token contract
-- vault contracts
-- reserve contracts
-- report hash registry
-- snapshot module
-- eligibility registry
-- claim module if activated
-- multisig controls
-- timelock controls
-- emergency pause controls where applicable
-
-The safest roadmap is to separate readiness from activation.
-
-Readiness contracts can support transparency, records, vault structure, and future compatibility.
-
-Live claim logic should activate only after legal, accounting, treasury, audit, reporting, smart-contract, and jurisdiction gates are ready.
-
-Public boundary:
-
-A deployed smart contract does not automatically mean live payout rights, active wallet-based participation, legal approval, or claim availability.
-
----
-
-## 17. Wallet-Based Model and Product Ecosystem
-
-The wallet-based model can support FUZE products in different ways.
-
-| Product Area | Wallet-Based Relevance |
+| Control Area | Purpose |
 |---|---|
-| HerHelp | Account and product access may connect to wallet identity where supported |
-| SheetLayer AI | Business records may remain private while wallet records support public-safe platform activity |
-| ShopOS AI | Shop operations use product data and credits; wallet use should not expose customer identity |
-| SpeakShop AI | Product usage can remain account-based while public wallet records stay separate |
-| TrainLayer AI | Training records may be private; public wallet records should not expose learners |
-| CommunityLayer AI | Community records need privacy; wallet records can support public-safe community participation where applicable |
-| ZAGA | Game profiles and utility surfaces may connect to wallet records |
-| ZAGA Arena | Leaderboards and game summaries may be public where designed, but personal identity should not be exposed by default |
-| ZAGA Districts | Community game records may be public where designed, but private identity remains protected |
-| QTB | Watchlists, market notes, and trading journals should remain private by default |
-| AIMM | Liquidity operation notes and exchange communications should remain permission-controlled |
-| AIE | Event and sponsor data should be permission-aware |
-| ToolGrid AI | Sponsored visibility may use public listings while private campaign data remains controlled |
-| Botmad | Desktop and operational workflows require permission controls |
+| Wallet reference controls | Define when a wallet can be used as a public-safe record reference. |
+| Snapshot controls | Support recorded states where applicable. |
+| Report hash controls | Support public-safe verification of reports or records where applicable. |
+| Vault reference controls | Support public-safe vault or reserve references where applicable. |
+| Eligibility controls | Define status references where applicable and supported. |
+| Permission controls | Separate public wallet records from private identity, customer, investor, contributor, legal, and operational records. |
+| Product account controls | Keep product accounts and product permissions clear. |
+| AI data controls | Keep AI workflows connected to product permissions and review needs. |
+| Governance controls | Support approval direction, multisig direction, timelock direction, and readiness controls where relevant. |
+| Risk routing controls | Route deeper legal, market, investor, token, privacy, and disclosure topics to dedicated papers. |
 
-The wallet model supports transparency, but product privacy remains important.
+These controls help FUZE use wallet transparency carefully.
+
+They also help the platform explain what is public, what is permissioned, and what belongs in deeper review materials.
 
 ---
 
-## 18. Wallet-Based Platform Risks
+## 8. Practical Examples
 
-Wallet-based systems create benefits and risks.
+### Example 1: Public Report Reference
 
-| Risk | Explanation | FUZE Boundary |
-|---|---|---|
-| Public wallet traceability | Public wallets can be analyzed by others | FUZE does not publish personal identity publicly |
-| User misunderstanding | Users may think every wallet receives participation ability | Eligibility is not automatic |
-| Exchange custody confusion | Exchange users may not control the visible wallet | Exchange-held tokens do not automatically receive wallet-based participation ability |
-| Lost keys | Wallet owners may lose access | Wallet recovery and migration rules require separate policy |
-| Hacked wallets | Wallets can be compromised | Emergency, support, or eligibility controls may be needed |
-| Privacy leakage | Wallet links may reveal patterns | Public reporting should avoid unnecessary sensitive data |
-| Regulatory sensitivity | Participation ability may be treated differently by jurisdiction | Activation requires legal and jurisdiction gates |
-| Snapshot manipulation | Users may move tokens around snapshot periods | Snapshot rules and anti-abuse controls may be needed |
-| Smart-contract bugs | Contracts may contain vulnerabilities | Review, audit, timelock, pause, and phased deployment controls may be needed |
+FUZE publishes a public-safe report about platform progress.
 
-The wallet-based model improves transparency, but it does not eliminate risk.
+The report can include a report hash or public reference so readers can verify that the report exists and matches the published version.
+
+A wallet record can help support transparency where useful, while private source documents stay permissioned.
+
+### Example 2: Vault Reference
+
+FUZE may publish public-safe vault or reserve references in dedicated tokenomics or reporting papers.
+
+Readers can review public-safe information without needing private treasury workpapers, private agreements, or internal operating files.
+
+### Example 3: Product-Connected Wallet Access
+
+A supported product may allow wallet-aware access for specific ecosystem features.
+
+For example, a product could recognize a wallet for product-connected utility, eligibility status where applicable, or ecosystem participation references.
+
+The product still needs its own account, permission, and product rules.
+
+### Example 4: ZAGA Game Records
+
+ZAGA Arena and ZAGA Districts can use game profiles, leaderboards, badges, share cards, city records, group activity, or ecosystem records.
+
+Wallet records can support public-safe references where useful, while gameplay remains the main user experience.
+
+### Example 5: Community Transparency
+
+A community using CommunityLayer AI may have reports, summaries, verification notes, or public-safe activity records.
+
+Wallet records can support ecosystem participation references where supported, while private moderation notes and sensitive member data stay permissioned.
+
+### Example 6: Investor Review
+
+Investor materials can reference public papers, evidence direction, product status, and public-safe records.
+
+Private investor information, signed agreements, sensitive financial records, and data room documents remain permissioned.
+
+Wallet-based transparency should improve review clarity without exposing private investor identity.
 
 ---
 
-## 19. Public Reader Guidance
+## 9. Public Boundary
 
-Public readers should understand the wallet-based model through these distinctions:
+This paper explains wallet-based records as a platform model.
 
-| Do Not Confuse | Correct Distinction |
-|---|---|
-| Wallet address and personal identity | A wallet can be public while the person remains private |
-| FUZE token holding and participation eligibility | Holding FUZE token does not automatically mean eligibility |
-| Platform Credits and FUZE token | Credits are usage credits, FUZE token is the ecosystem token |
-| Stablecoin payment and approved distributable value | Payment activity is not automatically distributable value |
-| Smart-contract readiness and claim activation | Readiness does not mean active payout claims |
-| Reporting and guarantee | Reporting supports transparency but does not guarantee outcomes |
-| Exchange custody and self-custody | Exchange-held tokens may be treated differently from self-custody wallets |
-| Game records and financial earnings | Game records do not guarantee financial earnings |
+It does not replace dedicated tokenomics, legal, investor, privacy, market access, treasury, exchange, accounting, or disclosure papers.
 
-These distinctions protect FUZE community and investor understanding.
+Readers can use these papers for deeper review:
+
+- `CORE-PLATFORM-PAPERS/07-FUZE_DATA_PRIVACY_AND_AI_DATA_HANDLING_PUBLIC.md`
+- `CORE-PLATFORM-PAPERS/09-FUZE_TRANSPARENCY_AND_REPORTING_RAILS_PUBLIC.md`
+- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/03-FUZE_ONE_TOKEN_MODEL_PUBLIC.md`
+- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/07-FUZE_WALLET_BASED_PARTICIPATION_MODEL_PUBLIC.md`
+- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/08-FUZE_PARTICIPATION_ACTIVATION_GATES_PUBLIC.md`
+- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/26-FUZE_WALLET_BASED_PRIVACY_AND_ELIGIBILITY_PUBLIC.md`
+- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/29-FUZE_TOKEN_RISK_BOUNDARIES_PUBLIC.md`
+- `WHITEPAPER-PAPERS/04-FUZE_TOKEN_AND_WALLET_PARTICIPATION_ARCHITECTURE_PUBLIC.md`
+- `WHITEPAPER-PAPERS/05-FUZE_RISK_AND_DISCLOSURE_APPENDIX_PUBLIC.md`
+
+This keeps the wallet-based platform model understandable while deeper review remains in the correct documents.
 
 ---
 
-## 20. Key Takeaways
+## 10. Key Takeaways
 
-FUZE uses a wallet-based platform model to support public-safe transparency, ecosystem participation, and future compatibility.
-
-FUZE uses one token only: FUZE token.
-
-Wallet-based participation ability is part of the FUZE token model, but it is not a second token, not automatic for every wallet, and not active as a guaranteed public payout right.
-
-FUZE uses wallet-level transparency and does not publish personal identity publicly.
-
-Public wallet records may show wallet addresses, vault activity, report hashes, audit records, snapshot records, eligibility status, and claim status where applicable.
-
-Private verification, if required, stays off-chain, permissioned, and separated from public blockchain records.
-
-Platform Credits are product usage credits and do not create wallet-based participation ability.
-
-Stablecoins are payment, settlement, treasury, and compensation rails.
-
-Smart-contract readiness does not mean claim activation.
-
-Exchange custody, OTC, liquidity, listing, transferability, and exit are not guaranteed.
-
-The wallet-based model supports public trust only when it is paired with privacy controls, clear eligibility boundaries, reporting discipline, and risk-aware communication.
+- FUZE uses wallet-based records as a public-safe transparency layer where useful.
+- Wallet records can support token records, snapshots, report references, vault references, eligibility status where applicable, and product-connected wallet access where supported.
+- Wallet-based transparency does not require public personal identity exposure.
+- Product accounts, user permissions, customer data, legal records, investor records, contributor records, private agreements, and sensitive operational data stay permissioned where required.
+- Platform Credits support product usage.
+- Stablecoins support payment, settlement, treasury, and compensation rails.
+- FUZE token is the single ecosystem token of FUZE.
+- Wallet-based participation ability belongs mainly in tokenomics, wallet, investor, legal, risk, and whitepaper contexts.
+- Normal product and platform papers should keep wallet language clear and practical.
+- Detailed wallet, token, privacy, legal, market, investor, and disclosure topics belong in dedicated papers.
