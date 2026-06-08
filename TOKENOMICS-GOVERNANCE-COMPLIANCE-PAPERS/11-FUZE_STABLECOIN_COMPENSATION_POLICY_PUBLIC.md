@@ -2,13 +2,17 @@
 
 ## Executive Summary
 
-FUZE Stablecoin Compensation Policy explains how FUZE treats stablecoins as payment, settlement, treasury, and compensation rails.
+FUZE Stablecoin Compensation Policy explains how FUZE treats stablecoins as payment, settlement, treasury, operating, and compensation rails.
 
-FUZE uses one token only: FUZE token.
+FUZE uses one ecosystem token only: **FUZE token**.
 
-FUZE token is the single ecosystem token of FUZE. It supports product-connected utility, ecosystem participation, platform alignment, governance direction where applicable, and wallet-based participation ability.
+FUZE token is the single ecosystem token of FUZE. It supports product-connected utility, ecosystem participation, platform alignment, governance direction where applicable, community participation structures, and wallet-based participation ability where activated under final policy.
 
-Stablecoins may be used by FUZE for operational payment flows such as service payments, contributor compensation, partner settlement, vendor payments, product payments, Platform Credit purchases, treasury operations, reserve management, and conversion proof where supported.
+Stablecoins may be used by FUZE for operational payment flows such as service payments, contributor compensation, contractor payments, advisor payments, partner settlement, vendor payments, product payments, Platform Credit purchases, treasury operations, reserve management, conversion proof, and public-safe payment records where supported.
+
+The stablecoin compensation principle is:
+
+**Stablecoins pay for work. FUZE tokens align long-term participation. Platform Credits power product usage.**
 
 Stablecoins are not FUZE token.
 
@@ -20,103 +24,165 @@ Stablecoin payments are not automatic approved distributable value.
 
 Stablecoin balances are not automatic payout supply.
 
-Stablecoin compensation is payment for work, service, contribution, vendor activity, partner activity, or operational settlement where properly defined. It is not a profit-share claim, dividend, passive-income product, yield product, or investment return.
+Stablecoin compensation is payment for work, service, contribution, vendor activity, partner activity, operating activity, or documented settlement where properly defined. It is not a profit-share claim, dividend, passive-income product, yield product, token-holder income system, or investment return.
 
-Platform Credits are product usage credits and are separate from FUZE token. Platform Credits may be purchased through supported payment rails where available, including stablecoin rails where supported, but Platform Credit purchase records still require reconciliation and do not automatically become approved distributable value.
+Platform Credits are product usage credits and are separate from FUZE token. Platform Credits may be purchased through supported payment rails where available, including stablecoin rails where supported, but Platform Credit purchase records require reconciliation and do not automatically become approved distributable value.
 
 Wallet-based participation ability is not a second token, not automatic for every wallet, and not active as a guaranteed public payout right.
 
-FUZE does not guarantee payout, income, dividend, yield, profit, token price, listing, liquidity, market support, exit, game earnings, business revenue, user growth, community growth, or investment return.
-
----
+FUZE does not guarantee payout, income, dividend, yield, profit, token price, listing, liquidity, market support, exit, game earnings, business revenue, user growth, community growth, approved distributable value, wallet eligibility, AI accuracy, or investment return.
 
 ## 1. Purpose of This Paper
 
 This paper explains FUZE’s public policy for stablecoin compensation and stablecoin payment use.
 
-It answers:
+It defines:
 
-- What role do stablecoins play in FUZE?
-- How are stablecoins different from FUZE token?
-- How are stablecoins different from Platform Credits?
-- How can stablecoins support contributor compensation?
-- How can stablecoins support vendor and partner settlement?
-- How can stablecoins support product payments and Platform Credit purchases?
-- Why are stablecoin flows not automatic approved distributable value?
-- Why is stablecoin compensation not wallet-based participation?
-- What records, reconciliation, treasury controls, and reporting may be needed?
-- What public language should FUZE avoid when discussing stablecoin flows?
+- what role stablecoins play in FUZE;
+- how stablecoins differ from FUZE token;
+- how stablecoins differ from Platform Credits;
+- how stablecoins can support contributor, contractor, advisor, vendor, operator, service provider, and partner compensation;
+- how stablecoins can support product payments and Platform Credit purchases;
+- how stablecoin compensation separates work payment from long-term token alignment;
+- how stablecoin compensation supports controlled circulation by reducing pressure to use FUZE token for short-term work payments;
+- how stablecoin flows relate to product revenue;
+- why stablecoin flows are not automatic approved distributable value;
+- why stablecoin compensation is not wallet-based participation;
+- what records, reconciliation, treasury controls, approvals, and reporting may be needed;
+- what public language FUZE uses and avoids when discussing stablecoin flows.
 
-This paper is not a legal opinion, tax opinion, accounting policy, payroll policy, employment agreement, contractor agreement, payment instruction, investment recommendation, token sale document, payout policy, liquidity plan, or financial return promise.
+This paper is not a legal opinion, tax opinion, accounting policy, payroll policy, employment agreement, contractor agreement, payment instruction, investment recommendation, token sale document, payout policy, liquidity plan, public offer, or financial-return promise.
 
-It is a public policy paper that explains how FUZE separates stablecoin payment rails from FUZE token, Platform Credits, product revenue, treasury reserves, and wallet-based participation.
+It is a public policy paper that explains how FUZE separates stablecoin payment rails from FUZE token, Platform Credits, product revenue, treasury reserves, controlled circulation, and wallet-based participation.
 
----
-
-## 2. FUZE Stablecoin Position
+## 2. FUZE Public Position
 
 FUZE’s public position is:
 
-Stablecoins are payment, settlement, treasury, and compensation rails.
+**Stablecoins are payment, settlement, treasury, and compensation rails. FUZE token is the ecosystem participation asset. Platform Credits are product usage credits.**
 
-Stablecoins may support operational activity, but they do not replace FUZE token, Platform Credits, accounting review, treasury controls, legal review, tax review, or approved distributable value policy.
+This position has several parts.
 
-The stablecoin position has several parts.
-
-| Area | FUZE Position |
+| Area | FUZE Public Position |
 |---|---|
-| Payment rail | Stablecoins may support product payments, service payments, and settlement where supported. |
-| Compensation rail | Stablecoins may be used to compensate contributors, vendors, partners, builders, operators, and service providers where properly documented. |
-| Treasury rail | Stablecoins may support treasury operations, reserves, and reconciliation. |
-| Product rail | Stablecoins may be used to purchase products or Platform Credits where supported. |
-| Token separation | Stablecoins are not FUZE token. |
-| Credit separation | Stablecoins are not Platform Credits. |
-| Participation separation | Stablecoin payments do not create wallet-based participation rights. |
-| Reporting requirement | Stablecoin flows may require records, reconciliation, and public-safe reporting where appropriate. |
+| Payment rail | Stablecoins may support product payments, service payments, Platform Credit purchases, and settlement where supported |
+| Compensation rail | Stablecoins may be used to compensate contributors, contractors, advisors, vendors, partners, builders, operators, service providers, and selected community contributors where properly documented |
+| Treasury rail | Stablecoins may support treasury operations, reserves, operating payments, conversion proof, and reconciliation |
+| Product rail | Stablecoins may be used to purchase products or Platform Credits where supported |
+| Token separation | Stablecoins are not FUZE token |
+| Credit separation | Stablecoins are not Platform Credits |
+| Participation separation | Stablecoin payments do not create wallet-based participation rights |
+| Revenue separation | Stablecoin product payments do not automatically become approved distributable value |
+| Reporting requirement | Stablecoin flows may require records, reconciliation, approval, treasury control, and public-safe reporting where appropriate |
 
 Stablecoin use is operational.
 
-It should not be marketed as guaranteed participation, payout, yield, or investment return.
+It is not marketed as guaranteed participation, payout, yield, profit, market return, token-holder income, or investment return.
 
----
+## 3. Public Context
 
-## 3. Why FUZE Uses Stablecoin Rails
+FUZE is a transparency-first AI SaaS platform building practical products on shared infrastructure for identity, credits, payments, AI orchestration, reporting, and ecosystem participation.
 
-FUZE may use stablecoins because stablecoins can support faster, clearer, and more traceable digital settlement where supported.
+Stablecoin compensation connects to FUZE’s platform context in several ways.
 
-Stablecoins may be useful for:
+| Platform Area | Stablecoin Compensation Relationship |
+|---|---|
+| FUZE Core Platform | Supports identity, contributor records, payment records, reporting, approvals, treasury documentation, and public-safe evidence where applicable |
+| Controlled Circulation Policy | Separates work payment from token circulation pressure |
+| Vault-by-Vault Release Rules | Keeps team, advisor, contributor, treasury, and ecosystem vaults aligned with long-term purpose |
+| Treasury Reserve | Can support approved operating payments and work compensation under treasury controls |
+| Product Revenue | Can support ongoing stablecoin or fiat-equivalent compensation as products generate revenue where available and approved |
+| Platform Credits | Remain product usage credits and do not replace stablecoin work compensation |
+| Botmad | Supports documentation, delivery queues, reviewable artifacts, work evidence, and execution records |
+| Community Participation Round | Remains a community allocation access model, not compensation |
+| Wallet-Based Participation Ability | Remains activation-gated, eligibility-controlled, and separate from stablecoin work payment |
 
-- contributor compensation
-- contractor payment
-- vendor payment
-- partner settlement
-- cross-border operational payments
-- product payments
-- Platform Credit purchases
-- treasury recordkeeping
-- reserve tracking
-- conversion proof
-- on-chain payment visibility where appropriate
-- operational settlement between wallets or accounts
-- product revenue record support where reconciled
+FUZE launch focus is HerHelp.com and ZAGA.io, supported by FUZE Core Platform rails and accelerated internally by Botmad.
 
-Stablecoins can help FUZE operate in a Web3-aware environment.
+Stablecoin compensation supports that launch focus by giving contributors a more sustainable work-payment path while FUZE token allocations remain aligned with long-term ecosystem participation.
 
-However, stablecoin use requires discipline because the public may misunderstand stablecoin balances as payout pools or participation claims.
+## 4. FUZE Stablecoin Compensation Model
 
-Boundary:
+### 4.1 Stablecoin Compensation Definition
 
-Stablecoin use supports operational settlement and recordkeeping, but it does not guarantee payout, income, yield, profit, token price, liquidity, listing, exit, or investment return.
+Stablecoin compensation means work payment denominated or settled in USDT, USDC, fiat-equivalent rails, or approved treasury payment methods where applicable.
 
----
+| Item | Public Meaning |
+|---|---|
+| Stablecoin compensation | Work payment through USDT, USDC, or approved stablecoin rails where applicable |
+| Fiat-equivalent payment | Work payment through fiat or fiat-equivalent accounting where applicable |
+| Milestone payment | Payment tied to approved milestone, deliverable, project, or work completion |
+| Product revenue compensation | Payment funded by product revenue where available and approved |
+| Treasury operation | Payment supported by approved treasury policy |
+| Stablecoin reserve | Approved reserve held for operating compensation where applicable |
+| Work evidence | Delivery record, artifact, invoice, task completion, milestone record, report, or approval |
+| Payment approval | Authorization under role, treasury, accounting, or governance controls |
+| Payment record | Internal or public-safe record of payment category, period, purpose, and approval status |
 
-## 4. Stablecoins Are Not FUZE Token
+Stablecoin compensation is a work-payment system.
 
-FUZE uses one token only: FUZE token.
+It is not a token-holder income system.
+
+### 4.2 Who Stablecoin Compensation Can Apply To
+
+Stablecoin compensation can apply to approved work contributors.
+
+| Contributor Type | Compensation Context |
+|---|---|
+| Core team | Ongoing work, product delivery, platform operations, engineering, product management, design, operations, marketing, administration, and management |
+| Contractors | Project-based work, implementation, research, content, design, development, testing, operations, and support |
+| Advisors | Approved advisory scope, strategic guidance, market support, product guidance, compliance support, or partner support |
+| Strategic contributors | Specific contribution, ecosystem support, technical support, community support, operations support, or partnership support |
+| Service providers | External vendors, agencies, infrastructure providers, specialists, or professional service providers |
+| Selected partners | Approved partner deliverables, campaigns, integrations, implementation support, or ecosystem work |
+| Community contributors | Approved contribution programs, content, moderation, testing, translation, community support, event support, or product feedback where policy allows |
+| Operators | Product operations, community operations, support operations, market operations, and platform operations where approved |
+| Security reviewers | Security, infrastructure, smart-contract, privacy, data, or platform reviews where approved |
+| Auditors and reviewers | Accounting, reporting, audit, compliance, quality, or process review support where approved |
+
+Stablecoin compensation depends on approved role, scope, budget, documentation, delivery evidence, payment controls, and applicable legal, tax, and jurisdiction review.
+
+### 4.3 Work Payment vs Token Alignment
+
+FUZE separates work payment and token alignment.
+
+| Area | Stablecoin / Fiat-Equivalent Payment | FUZE Token Allocation |
+|---|---|---|
+| Purpose | Pays for work | Aligns long-term ecosystem participation |
+| Timing | Can be tied to work period, milestone, invoice, or deliverable | Tied to vesting, lockups, eligibility, contribution, allocation policy, or governance controls |
+| Function | Operating payment | Ecosystem alignment |
+| Risk profile | Payment for service or work | Token participation subject to market, policy, utility, eligibility, and regulatory risk |
+| Public framing | Compensation | Long-term participation |
+| Circulation impact | Does not increase FUZE token circulation | Can affect token circulation if released |
+| Reporting | Payment records and treasury reports where applicable | Vault, vesting, allocation, and release reports where applicable |
+| Boundary | Not token-holder payout | Not short-term cash salary replacement by default |
+
+This distinction is central to FUZE’s tokenomics discipline.
+
+### 4.4 Stablecoin Compensation and Controlled Circulation
+
+Stablecoin compensation supports controlled circulation by reducing the need to use FUZE tokens for short-term work payments.
+
+| Controlled Circulation Area | Stablecoin Compensation Role |
+|---|---|
+| Team allocation | Keeps team tokens aligned with long-term vesting rather than immediate cash needs |
+| Advisor allocation | Keeps advisor tokens aligned with long-term contribution recognition |
+| Treasury reserve | Allows operating payments through approved treasury policy |
+| Ecosystem allocation | Keeps ecosystem tokens aligned with participation, growth, and partnership purposes |
+| Token release pressure | Reduces pressure to release tokens for work compensation |
+| Public trust | Shows that token allocations are not the only compensation method |
+| Reporting | Keeps payment and token release categories clearer |
+| Contributor sustainability | Gives contributors work-payment support without forcing token selling |
+
+Stablecoin compensation is therefore part of FUZE’s token circulation discipline.
+
+### 4.5 Stablecoins Are Not FUZE Token
+
+FUZE uses one ecosystem token only: FUZE token.
 
 Stablecoins are not FUZE token.
 
-FUZE token supports product-connected utility, ecosystem participation, platform alignment, governance direction where applicable, and wallet-based participation ability.
+FUZE token supports product-connected utility, ecosystem participation, platform alignment, governance direction where applicable, community participation structures, and wallet-based participation ability where activated.
 
 Stablecoins support payment, settlement, treasury, and compensation.
 
@@ -128,15 +194,13 @@ The difference is important.
 | Stablecoins | Payment, settlement, treasury, and compensation rails | Not FUZE token and not automatic participation rights |
 | Platform Credits | Product usage credits | Not FUZE token, not stablecoins, and not participation claims |
 
-Stablecoins should not be described as an ecosystem token or utility token.
+Stablecoins are not ecosystem tokens and are not utility tokens inside the FUZE tokenomics model.
 
 Boundary:
 
-Holding or receiving stablecoins does not create FUZE token utility, governance direction, wallet-based participation eligibility, or claim rights.
+Holding, receiving, or being paid in stablecoins does not create FUZE token utility, governance direction, wallet-based participation eligibility, token-holder claim rights, or approved distributable value rights.
 
----
-
-## 5. Stablecoins Are Not Platform Credits
+### 4.6 Stablecoins Are Not Platform Credits
 
 Platform Credits are product usage credits.
 
@@ -164,909 +228,368 @@ Boundary:
 
 Stablecoin payments for Platform Credits do not automatically create wallet-based participation eligibility or approved distributable value.
 
----
+### 4.7 Stablecoin Compensation and Platform Credits
 
-## 6. Stablecoin Compensation
+Platform Credits are separate from compensation.
 
-Stablecoin compensation means stablecoins may be used to pay people or entities for work, services, contribution, operations, vendor activity, partner activity, or other documented obligations.
+| Item | Public Role |
+|---|---|
+| Stablecoin compensation | Work payment for contributors, contractors, advisors, service providers, vendors, operators, and selected partners where approved |
+| Platform Credits | Product usage credits for FUZE products and services |
+| FUZE token | Ecosystem participation asset |
+| Product revenue | Revenue generated by products and services where recorded and reconciled |
+| Treasury operations | Approved treasury actions |
 
-Possible compensation recipients may include:
+Platform Credits are for product usage and are not investment assets, payout assets, or FUZE tokens.
 
-- contributors
-- contractors
-- builders
-- developers
-- designers
-- product operators
-- community operators
-- support contributors
-- content contributors
-- marketing contributors
-- vendors
-- service providers
-- infrastructure providers
-- event partners
-- business partners
-- advisors where documented
-- auditors where applicable
-- security reviewers where applicable
+Platform Credits can support AI actions, reports, tools, workflows, sponsored visibility, game-related product actions, and platform services. They are not salary, contractor compensation, advisor pay, token-holder income, or stablecoin profit participation.
 
-Stablecoin compensation should be tied to documented work or service.
+### 4.8 Stablecoin Compensation and Product Revenue
 
-It should not be described as passive income, dividend, yield, profit share, or guaranteed return.
+Product revenue is important because it can support stablecoin compensation over time.
 
-Boundary:
+| Product Revenue Source | Compensation Relationship |
+|---|---|
+| HerHelp subscriptions | Can support stablecoin or fiat-equivalent operating compensation where available and approved |
+| ShopOS AI fees | Can support product, support, development, and operations compensation |
+| SheetLayer AI usage | Can support implementation, support, and platform operations |
+| SpeakShop AI usage | Can support voice, device, AI, and customer support operations |
+| TrainLayer AI usage | Can support education, onboarding, validation, and support work |
+| CommunityLayer AI usage | Can support moderation, community support, and platform operations |
+| ZAGA product revenue | Can support game, community, platform, and utility operations |
+| QTB / AIMM / AIE usage | Can support intelligence, operations, data, research, and support work |
+| ToolGrid AI sponsored visibility | Can support review, moderation, publisher, and campaign operations |
+| Botmad usage | Can support supervised work, artifacts, documentation, and service delivery |
+| Partner service revenue | Can support partner delivery, integrations, campaigns, and ecosystem work |
+| Implementation revenue | Can support setup, consulting, deployment, training, and support work |
 
-Stablecoin compensation is payment for work or service where documented. It is not wallet-based participation distribution.
+Product revenue can support company operations, stablecoin compensation, infrastructure, treasury planning, product expansion, legal work, accounting work, security review, and transparency.
 
----
+Product revenue does not automatically become approved distributable value.
 
-## 7. Stablecoin Compensation and Work Records
+## 5. How the System Works
 
-Stablecoin compensation should be supported by work records where appropriate.
+### 5.1 Compensation Funding Sources
 
-Possible work records may include:
+Stablecoin compensation can be funded through approved sources.
 
-- service agreement
-- contractor agreement
-- invoice
-- task record
-- milestone record
-- deliverable record
-- approval record
-- payment request
-- wallet address confirmation
-- payment transaction hash
-- product or department category
-- period of work
-- role or contribution category
-- tax or compliance record where required
-- internal approval note
-- public-safe summary where appropriate
+| Funding Source | Public Role |
+|---|---|
+| Product revenue | Revenue from HerHelp, ZAGA, ToolGrid AI, QTB, AIMM, AIE, Botmad, or FUZE platform services where available |
+| Treasury operations | Approved treasury reserve use under policy |
+| Strategic investment | Private strategic funding where applicable |
+| Partner payments | Partner service, integration, campaign, or managed-workflow payments |
+| Service revenue | Implementation, support, documentation, consulting, or managed-service revenue |
+| Stablecoin reserve | Approved reserve held for operating compensation where applicable |
+| Fiat revenue | Local or international payment rails where product and accounting rules allow |
+| Public Vault Access proceeds | Approved proceeds from selected eligibility-controlled access windows where final policy allows |
+
+Funding sources remain subject to treasury, legal, accounting, tax, payment, jurisdiction, and operational review.
+
+Funding availability does not guarantee ongoing compensation, token value, approved distributable value, wallet-based participation, or investment return.
+
+### 5.2 Payment Documentation and Evidence
+
+Stablecoin compensation requires documentation and evidence.
+
+| Evidence Type | Public Role |
+|---|---|
+| Service agreement | Defines work scope, payment basis, and relationship |
+| Contractor agreement | Defines contractor role, deliverables, and payment expectations |
+| Invoice | Records requested payment amount, period, task, and recipient |
+| Task record | Shows task or work item |
+| Milestone record | Shows approved milestone completion |
+| Deliverable record | Shows completed output, artifact, feature, report, design, code, document, or support result |
+| Approval record | Shows authorized approval under product, treasury, or governance rules |
+| Payment request | Records request for payment |
+| Wallet address confirmation | Confirms destination wallet where applicable |
+| Payment transaction hash | Supports traceability of stablecoin transfer where public-safe |
+| Product or department category | Identifies the work area |
+| Period of work | Shows relevant time period |
+| Role or contribution category | Identifies contributor type |
+| Tax or compliance record | Supports required legal, tax, accounting, or jurisdiction review |
+| Public-safe summary | Provides optional public transparency without exposing private personal or commercial data |
 
 Records help separate valid compensation from unclear transfers.
 
 Boundary:
 
-A stablecoin transfer should not be described as compensation unless the work, service, or obligation is properly documented.
+A stablecoin transfer is not described as compensation unless the work, service, obligation, settlement, or approved operational purpose is properly documented.
 
----
-
-## 8. Contributor Compensation
+### 5.3 Contributor Compensation
 
 FUZE may use stablecoins to compensate contributors where supported and documented.
 
 Contributors may support:
 
-- product development
-- AI workflow design
-- documentation
-- community operations
-- game design
-- support operations
-- event support
-- market research
-- liquidity operations support
-- public reporting
-- security review
-- audit support
-- product testing
-- training material creation
-- shop workflow setup
-- data preparation
+- product development;
+- AI workflow design;
+- documentation;
+- community operations;
+- game design;
+- support operations;
+- event support;
+- market research;
+- liquidity operations support;
+- public reporting;
+- security review;
+- audit support;
+- product testing;
+- training material creation;
+- shop workflow setup;
+- data preparation;
+- design and branding;
+- business development;
+- partner support;
+- platform operations.
 
 Stablecoin compensation can be useful because contributors in Web3 environments may prefer wallet-based settlement.
 
-However, contributor compensation should remain clearly separated from FUZE token utility and wallet-based participation.
+Contributor compensation remains separated from FUZE token utility and wallet-based participation.
 
 Boundary:
 
-Contributor stablecoin payment does not grant FUZE token rights, Platform Credits, wallet-based participation eligibility, claim rights, governance rights, or investment return.
+Receiving stablecoin compensation as a contributor does not automatically create FUZE token allocation, vesting rights, Community Participation Round access, wallet-based participation eligibility, approved distributable value, or token-holder payout rights.
 
----
+### 5.4 Team Compensation
 
-## 9. Vendor and Service Provider Payments
+FUZE can use stablecoin or fiat-equivalent compensation for team work.
 
-Stablecoins may be used for vendor and service provider payments where supported.
-
-Vendor payments may relate to:
-
-- infrastructure services
-- AI service costs
-- software tools
-- design services
-- development services
-- event services
-- security review
-- audit support
-- legal support where appropriate
-- accounting support where appropriate
-- marketing services
-- content services
-- community tools
-- cloud services
-- data services
-- market data services
-- game server services
-- device or hardware support where appropriate
-
-Vendor stablecoin payments should be tied to invoices, service terms, or approved records.
-
-Boundary:
-
-Vendor payment is an operating expense or service settlement. It is not participation distribution, profit share, or approved distributable value.
-
----
-
-## 10. Partner Settlement
-
-Stablecoins may be used for partner settlement where supported and documented.
-
-Partner settlement may include:
-
-- revenue share settlement where legally and contractually defined
-- service partner payments
-- event partner payments
-- sponsored visibility settlement
-- product integration settlement
-- channel partner settlement
-- community partner payment
-- ZAGA event partner settlement
-- ToolGrid AI sponsored campaign settlement
-- AIE event partner settlement
-- ShopOS AI implementation partner settlement
-
-Partner settlement must be documented and reconciled.
-
-It should not be publicly described as a general holder payout.
-
-Boundary:
-
-Partner settlement is a business payment and does not create automatic FUZE token holder participation rights.
-
----
-
-## 11. Stablecoins and Product Payments
-
-Stablecoins may be used for product payments where supported.
-
-Product payments may include payments for:
-
-- HerHelp usage
-- SheetLayer AI reports
-- ShopOS AI packages
-- SpeakShop AI script or sound packs
-- TrainLayer AI training packages
-- CommunityLayer AI community bot services
-- ZAGA game utility services where defined and compliant
-- QTB reports
-- AIMM reports
-- AIE event intelligence
-- ToolGrid AI listing or sponsored visibility
-- Botmad work-assistance sessions
-- Platform Credit purchases
-
-Product payments may become product revenue only if recorded and reconciled under the relevant policy.
-
-Boundary:
-
-A stablecoin product payment is not automatically approved distributable value or participation claim value.
-
----
-
-## 12. Stablecoins and Treasury Operations
-
-Stablecoins may support treasury operations.
-
-Treasury uses may include:
-
-- operating treasury
-- reserve balance
-- product payment collection
-- Platform Credit purchase collection
-- vendor payment
-- contributor compensation
-- partner settlement
-- tax reserve
-- refund reserve
-- chargeback reserve
-- AI cost reserve
-- infrastructure reserve
-- legal and audit reserve
-- conversion proof
-- treasury rebalancing where appropriate
-- public-safe reporting where appropriate
-
-Stablecoin treasury records should be separated by purpose where practical.
-
-Boundary:
-
-A stablecoin treasury balance is not automatically approved distributable value, payout supply, or participation claim value.
-
----
-
-## 13. Stablecoins and Reserves
-
-Stablecoins may be held in reserve for operational and risk-management purposes.
-
-Possible reserve categories include:
-
-- operating reserve
-- refund reserve
-- chargeback reserve
-- tax reserve
-- AI cost reserve
-- infrastructure reserve
-- legal reserve
-- audit reserve
-- security reserve
-- treasury stability reserve
-- incident response reserve
-- product development reserve
-- partner settlement reserve
-- vendor payment reserve
-
-Reserves protect FUZE from operational risk and future obligations.
-
-Boundary:
-
-Stablecoin reserves are not approved distributable value unless released under a defined, reviewed, and approved policy.
-
----
-
-## 14. Stablecoins and Product Revenue
-
-Stablecoin payments may become product revenue only when the payment is tied to a valid product or service and properly recorded.
-
-Product revenue review may include:
-
-- payment confirmation
-- product or service purpose
-- invoice or usage record
-- user or workspace record where appropriate
-- Platform Credit record where applicable
-- payment date
-- refund status
-- chargeback or dispute status where applicable
-- fee treatment
-- gas cost treatment
-- tax treatment
-- treasury classification
-- product revenue pool classification
-- accounting review
-- legal and jurisdiction review where relevant
-
-Product revenue does not automatically become approved distributable value.
-
-Boundary:
-
-Stablecoin product revenue requires reconciliation before it can be considered in any approved model.
-
----
-
-## 15. Stablecoins and Approved Distributable Value
-
-Approved distributable value is not the same as stablecoin revenue or stablecoin balance.
-
-A stablecoin payment may pass through several stages:
-
-1. Payment received.
-2. Product purpose identified.
-3. Usage record or invoice matched.
-4. Refund and dispute status reviewed.
-5. Fees, gas, taxes, and costs considered.
-6. Product revenue pool classification completed.
-7. Treasury and reserve policy applied.
-8. Accounting review completed.
-9. Audit or review completed where required.
-10. Legal and jurisdiction review completed where required.
-11. Approval process completed.
-12. Participation framework active, if relevant.
-
-Only after the required process can value be considered under an approved distributable value model.
-
-Boundary:
-
-Stablecoin inflow is not automatically approved distributable value.
-
----
-
-## 16. Stablecoins and Wallet-Based Participation
-
-Wallet-based participation ability is a possible FUZE token-related framework.
-
-Stablecoins do not create wallet-based participation ability.
-
-The following do not automatically create eligibility:
-
-- receiving stablecoin compensation
-- paying with stablecoins
-- buying Platform Credits with stablecoins
-- holding stablecoins in a wallet
-- receiving vendor payment
-- receiving partner settlement
-- receiving contributor compensation
-- appearing in a stablecoin transaction record
-- sending stablecoins to FUZE
-- receiving stablecoins from FUZE
-
-Wallet-based participation ability may apply only to eligible FUZE-holding wallets if the framework becomes active and all required gates are ready.
-
-Boundary:
-
-Stablecoin payment or compensation does not guarantee wallet-based participation eligibility, claim rights, payout, income, yield, profit, or investment return.
-
----
-
-## 17. Stablecoins and FUZE Token Compensation
-
-FUZE may distinguish stablecoin compensation from FUZE token allocation.
-
-Stablecoin compensation may be used for work or services.
-
-FUZE token allocation may be used for ecosystem alignment, team/advisor/partner/contributor allocation, vesting, product utility, community programs, or other defined tokenomics purposes.
-
-They should be separated clearly.
-
-| Compensation or Allocation Type | Purpose | Boundary |
-|---|---|---|
-| Stablecoin compensation | Payment for work, service, vendor activity, or settlement | Not FUZE token and not participation rights |
-| FUZE token allocation | Ecosystem alignment, utility, vesting, or defined tokenomics role | Does not guarantee payout, price, liquidity, or return |
-| Platform Credits | Product usage | Not compensation unless separately defined as a product usage benefit |
-
-A contributor may receive stablecoins, FUZE token allocation, Platform Credits, or a combination only if documented by the applicable agreement or policy.
-
-Boundary:
-
-Receiving compensation does not guarantee future participation rights unless specific, reviewed, documented rules apply.
-
----
-
-## 18. Stablecoins and Team, Advisor, Partner, and Contributor Treatment
-
-Stablecoin compensation can apply to different roles, but each role should be documented.
-
-### 18.1 Team
-
-Team members may receive stablecoin compensation where supported and documented.
-
-Boundary:
-
-Team stablecoin compensation is operational payment, not token holder payout.
-
-### 18.2 Advisors
-
-Advisors may receive stablecoin compensation or FUZE token allocation where documented.
-
-Boundary:
-
-Advisor compensation does not guarantee project outcome, token price, or investment return.
-
-### 18.3 Partners
-
-Partners may receive stablecoin settlement for services, campaigns, integrations, events, or business cooperation where documented.
-
-Boundary:
-
-Partner settlement does not guarantee partnership success, revenue, user growth, or market outcome.
-
-### 18.4 Contributors
-
-Contributors may receive stablecoin compensation for defined tasks, milestones, support, development, content, community work, testing, or reporting.
-
-Boundary:
-
-Contributor compensation does not create automatic wallet-based participation eligibility.
-
----
-
-## 19. Stablecoins and Public Reporting
-
-Stablecoin reporting may support transparency.
-
-Public-safe reports may include:
-
-- payment category summary
-- product revenue category summary where appropriate
-- compensation category summary where appropriate
-- treasury movement summary
-- reserve movement summary
-- conversion proof record
-- report hash
-- wallet label where public-safe
-- payment period
-- product or service category
-- public boundary statement
-
-Reports should not expose private personal identity, private agreements, confidential compensation terms, investor identities, customer identities, personal documents, or private verification records.
-
-Boundary:
-
-Stablecoin reporting supports transparency, but it does not guarantee accounting accuracy, audit completion, approved distributable value, payout, token price, liquidity, listing, or investment return.
-
----
-
-## 20. Stablecoins and Wallet Privacy
-
-FUZE uses wallet-level transparency without public identity exposure.
-
-Stablecoin transactions may be visible on-chain, but public reporting should not expose personal identity by default.
-
-FUZE does not publish:
-
-- personal names
-- emails
-- phone numbers
-- ID documents
-- passports
-- home addresses
-- investor identities
-- contributor identities
-- customer identities
-- private agreements
-- private legal records
-- private tax records
-- private compensation terms
-- private verification records
-
-If private verification is required, it should remain off-chain, permissioned, access-controlled, and separated from public blockchain records.
-
-Boundary:
-
-Wallet-level payment visibility does not mean public personal identity exposure.
-
----
-
-## 21. Stablecoins and Tax, Legal, and Accounting Review
-
-Stablecoin compensation and payment flows may require tax, legal, and accounting review.
-
-Review may include:
-
-- payment classification
-- compensation classification
-- contractor or employee classification where applicable
-- invoice treatment
-- tax reporting
-- withholding obligations where applicable
-- stablecoin valuation timing
-- exchange rate treatment
-- refund and chargeback treatment
-- product revenue classification
-- treasury treatment
-- reserve treatment
-- jurisdiction restrictions
-- sanctions or restricted-party screening where required
-- KYC or AML rules where applicable
-- legal status of payment flows
-- data privacy treatment
-
-FUZE should avoid presenting stablecoin flows as simple public payout promises.
-
-Boundary:
-
-Stablecoin use does not remove legal, tax, accounting, compliance, treasury, or jurisdiction obligations.
-
----
-
-## 22. Stablecoins and Conversion Proof
-
-Conversion proof may be useful when non-stablecoin revenue or assets are converted into stablecoins.
-
-Conversion proof may include:
-
-- source asset record
-- conversion transaction
-- exchange or swap record where appropriate
-- date and time
-- amount before conversion
-- amount after conversion
-- fees
-- wallet source and destination
-- product or treasury purpose
-- report hash where applicable
-- reconciliation note
-
-Conversion proof can support transparency when product revenue or treasury assets are converted into stablecoins.
-
-Boundary:
-
-Conversion proof supports traceability, but it does not automatically create approved distributable value or participation claims.
-
----
-
-## 23. Stablecoins and Smart Contracts
-
-Stablecoin flows may use smart contracts where appropriate.
-
-Possible smart-contract or on-chain modules may include:
-
-- payment vault
-- treasury vault
-- reserve vault
-- product revenue record vault
-- credit balance record system where appropriate
-- conversion proof registry
-- report hash registry
-- compensation record reference where appropriate
-- distribution vault only if an activated framework requires it
-- claim contract only if all activation gates are ready
-- emergency pause module where appropriate
-
-Smart contracts can support records and transparency.
-
-However, smart-contract use does not replace legal, accounting, tax, audit, treasury, or jurisdiction review.
-
-Boundary:
-
-Smart-contract readiness does not mean active payout, guaranteed claim, or participation activation.
-
----
-
-## 24. Stablecoins and Product-Specific Use
-
-### 24.1 HerHelp
-
-Stablecoins may support product payments, subscriptions, Platform Credit purchases, or service payments where supported.
-
-Boundary:
-
-HerHelp stablecoin payments do not guarantee business results or approved distributable value.
-
-### 24.2 SheetLayer AI
-
-Stablecoins may support payment for spreadsheet mapping, dashboards, reports, and sync workflows where supported.
-
-Boundary:
-
-SheetLayer AI stablecoin payments do not guarantee data accuracy or financial correctness.
-
-### 24.3 ShopOS AI
-
-Stablecoins may support shop package payments, setup fees, service payments, or Platform Credit purchases where supported.
-
-Boundary:
-
-ShopOS AI stablecoin payments do not guarantee shop revenue, customer traffic, or payment approval.
-
-### 24.4 SpeakShop AI
-
-Stablecoins may support payment for scripts, sound packs, announcement sets, or promotional message packages.
-
-Boundary:
-
-SpeakShop AI stablecoin payments do not guarantee customer conversion or campaign success.
-
-### 24.5 TrainLayer AI
-
-Stablecoins may support payment for guides, quizzes, onboarding packages, or training workflows.
-
-Boundary:
-
-TrainLayer AI stablecoin payments do not guarantee learning outcomes or compliance.
-
-### 24.6 CommunityLayer AI
-
-Stablecoins may support community bot services, summaries, moderation reports, support routing, and verification workflow payments.
-
-Boundary:
-
-CommunityLayer AI stablecoin payments do not guarantee community growth or perfect moderation.
-
-### 24.7 ZAGA
-
-Stablecoins may support game-related service payments, event payments, or utility surfaces where defined and compliant.
-
-Boundary:
-
-ZAGA stablecoin flows do not guarantee game earnings, asset value, or financial return.
-
-### 24.8 QTB
-
-Stablecoins may support market interpretation report payments or research workflow payments.
-
-Boundary:
-
-QTB stablecoin payments do not create financial advice or trading profit guarantees.
-
-### 24.9 AIMM
-
-Stablecoins may support liquidity operations support fees, venue note services, or public-safe liquidity report payments.
-
-Boundary:
-
-AIMM stablecoin payments do not guarantee liquidity, price support, listing, or market outcome.
-
-### 24.10 AIE
-
-Stablecoins may support event intelligence packages, sponsor reports, recaps, and campaign summary payments.
-
-Boundary:
-
-AIE stablecoin payments do not guarantee attendance, ticket sales, sponsor revenue, or partner conversion.
-
-### 24.11 ToolGrid AI
-
-Stablecoins may support listing fees, sponsored visibility, campaign reports, and utility discovery services.
-
-Boundary:
-
-ToolGrid AI stablecoin payments do not guarantee user acquisition, clicks, conversion, sales, or ranking.
-
-### 24.12 Botmad
-
-Stablecoins may support AI work-assistance sessions, team workspace plans, document drafting, or operational workflow support.
-
-Boundary:
-
-Botmad stablecoin payments do not guarantee productivity, perfect output, or business success.
-
----
-
-## 25. Stablecoin Compensation Records
-
-Stablecoin compensation records may include:
-
-- recipient wallet
-- payment amount
-- payment date
-- payment asset
-- payment purpose
-- invoice or task reference
-- milestone reference
-- project or product category
-- approval record
-- transaction hash where appropriate
-- tax or accounting classification where required
-- public-safe reporting category
-- private identity record where required and permissioned
-
-Compensation records should be accurate but privacy-aware.
-
-Public reporting may use categories rather than personal names.
-
-Boundary:
-
-Compensation records support operational clarity, but they do not create public identity exposure or participation rights.
-
----
-
-## 26. Stablecoin Compensation Risk Controls
-
-Stablecoin compensation may require controls.
-
-Controls may include:
-
-- approved recipient wallet verification
-- invoice or task confirmation
-- milestone approval
-- multisig approval for larger payments
-- spending limits
-- treasury classification
-- tax review
-- legal review where needed
-- sanctions or restricted-party screening where required
-- payment record retention
-- public-safe reporting category
-- correction process
-- dispute process
-- wallet change verification
-- fraud prevention
-- internal approval workflow
-
-Controls help protect FUZE and recipients.
-
-Boundary:
-
-Controls reduce risk but do not guarantee zero error, zero dispute, zero loss, or perfect compliance.
-
----
-
-## 27. Stablecoin Compensation and Public Language
-
-Stablecoin compensation should be described as payment for work or service.
-
-Approved wording:
-
-- stablecoin compensation
-- payment for work
-- payment for service
-- contributor compensation
-- vendor payment
-- partner settlement
-- service settlement
-- treasury payment
-- product payment
-- Platform Credit purchase payment
-- stablecoin payment rail
-- stablecoin settlement rail
-- payment record
-- transaction record
-- reconciliation
-- public-safe reporting
-
-Avoided wording:
-
-- stablecoin dividend
-- stablecoin profit share
-- stablecoin passive income
-- stablecoin fixed yield
-- guaranteed stablecoin payout
-- every holder receives stablecoins
-- stablecoin rewards are guaranteed
-- stablecoin treasury balance goes to holders
-- stablecoin payment guarantees participation
-- stablecoin compensation creates claim rights
-- stablecoin revenue automatically distributes to wallets
-
-The public rule is:
-
-Stablecoins pay for work, services, products, settlement, and treasury operations. They do not create guaranteed participation rights.
-
----
-
-## 28. Investor View of Stablecoin Compensation
-
-Investors can evaluate stablecoin compensation as part of FUZE’s operational discipline.
-
-Useful investor questions include:
-
-- What stablecoins are supported?
-- What payment rails are used?
-- Which payments are product revenue?
-- Which payments are contributor compensation?
-- Which payments are vendor payments?
-- Which payments are partner settlements?
-- Which payments are treasury movements?
-- Which payments are reserves?
-- How are stablecoin payments reconciled?
-- How are taxes and fees treated?
-- How are private identities protected?
-- Which payments are public-safe to report?
-- Which payments require legal or accounting review?
-- Which flows are excluded from approved distributable value?
-- Which flows could be considered only after activation gates are ready?
-
-Stablecoin compensation can help investors see how FUZE may pay work and track operational flows.
-
-Boundary:
-
-Stablecoin compensation policy does not guarantee revenue, payout, token price, liquidity, listing, exit, acquisition outcome, or investment return.
-
----
-
-## 29. Community View of Stablecoin Compensation
-
-The FUZE community should understand stablecoins in simple terms.
-
-Community members can say:
-
-- Stablecoins are payment and settlement rails.
-- Stablecoins can pay contributors, vendors, and partners where documented.
-- Stablecoins can support product payments and Platform Credit purchases where supported.
-- Stablecoins are not FUZE token.
-- Stablecoins are not Platform Credits.
-- Stablecoin compensation is not a profit share.
-- Stablecoin balances are not automatic payout pools.
-- Stablecoin revenue requires reconciliation.
-- Stablecoin payments do not create wallet-based participation eligibility.
-- Wallet-level transparency does not mean public identity exposure.
-
-Community members should not say:
-
-- stablecoin treasury balance goes to holders
-- every holder receives stablecoin payout
-- stablecoin compensation is passive income
-- stablecoin payments guarantee participation
-- stablecoin revenue automatically distributes
-- stablecoin payments remove market risk
-- stablecoin reports guarantee profit
-
-This keeps community language clear and safe.
-
----
-
-## 30. Stablecoin Compensation Risk Boundaries
-
-FUZE stablecoin communication must include clear boundaries.
-
-| Area | Boundary |
+| Team Area | Stablecoin Compensation Role |
 |---|---|
-| Stablecoin role | Stablecoins are payment, settlement, treasury, and compensation rails. |
-| FUZE token | Stablecoins are not FUZE token. |
-| Platform Credits | Stablecoins are not Platform Credits. |
-| Compensation | Compensation is payment for work or service, not profit share. |
-| Product payments | Stablecoin product payments require reconciliation. |
-| Product revenue | Stablecoin revenue does not automatically become approved distributable value. |
-| Treasury balance | Stablecoin treasury balance is not automatic payout supply. |
-| Reserves | Stablecoin reserves are not approved distributable value by default. |
-| Wallet participation | Stablecoin payment does not create participation eligibility. |
-| Smart contracts | Stablecoin contract records do not mean active claim logic. |
-| Reporting | Reports support transparency but do not guarantee outcomes. |
-| Privacy | Wallet records do not mean public identity exposure. |
-| Legal/tax | Stablecoin use may require legal, tax, accounting, and jurisdiction review. |
-| Investment return | Stablecoin flows do not guarantee payout, income, yield, profit, or return. |
+| Product development | Payment for HerHelp, ZAGA, FUZE Core Platform, Botmad, QTB, AIMM, AIE, ToolGrid AI, and related product work |
+| Engineering | Payment for architecture, implementation, tests, security, integrations, deployment, and maintenance |
+| Product management | Payment for specs, roadmaps, product decisions, feature delivery, user feedback, and launch coordination |
+| Design | Payment for UI/UX, brand, product visuals, user flows, docs, and campaign materials |
+| Operations | Payment for admin, support, documentation, reporting, community coordination, and product operations |
+| Marketing | Payment for content, campaigns, community materials, partner materials, launch assets, and public communication |
+| Compliance support | Payment for legal, accounting, policy, review, and risk support where approved |
+| Management | Payment for leadership, planning, coordination, investor materials, partner work, and execution control |
 
----
+Team token allocations remain separate and aligned with long-term vesting logic.
 
-## 31. Stablecoin Policy Development Direction
+### 5.5 Advisor and Strategic Contributor Compensation
 
-FUZE stablecoin compensation policy can develop through phases.
+Advisors and strategic contributors can receive stablecoin compensation where approved.
 
-### Phase 1: Define Stablecoin Role
+| Contributor Area | Stablecoin Compensation Role |
+|---|---|
+| Advisory work | Approved advisory scope, meetings, review, introductions, strategy support, or product guidance |
+| Technical support | Architecture, security, AI, infrastructure, blockchain, smart contract, or system review |
+| Market operations support | Market-operations context, liquidity operations support, exchange support, or operational advisory where legally appropriate |
+| Product support | Product direction, UX, business model, customer discovery, or partner strategy |
+| Compliance and legal support | Policy, jurisdiction, risk, governance, and public communication support |
+| Community support | Moderation setup, ambassador coordination, onboarding, event support, or translation |
+| Partner support | Introductions, negotiation support, integration support, or ecosystem relationship work |
 
-Define stablecoins as payment, settlement, treasury, and compensation rails.
+Advisor and contributor token allocations remain governed by Advisor / Strategic Contributor rules, vesting, milestone logic, and contribution documentation.
 
-### Phase 2: Separate Stablecoins From FUZE Token
+### 5.6 Contractor and Service Provider Compensation
 
-Keep stablecoins separate from FUZE token utility, supply, circulation, and wallet-based participation.
+Contractors and service providers are paid for defined work.
 
-### Phase 3: Separate Stablecoins From Platform Credits
+| Payment Basis | Public Role |
+|---|---|
+| Fixed task | Payment for a defined task or deliverable |
+| Milestone | Payment after an approved milestone |
+| Retainer | Payment for ongoing support or availability |
+| Hourly / time-based | Payment based on tracked time where approved |
+| Project package | Payment for a defined work package |
+| Service agreement | Payment under vendor, agency, or professional service terms |
+| Outcome-based component | Limited outcome-based component where legally and contractually appropriate |
+| Reimbursement | Approved reimbursement for work-related costs |
 
-Define when stablecoin payments purchase Platform Credits and how credits are issued or recorded.
+FUZE can use Botmad-style delivery queues, reviewable artifacts, execution evidence, and approval records to support contributor payment records.
 
-### Phase 4: Build Payment Records
+Boundary:
 
-Record stablecoin payments by product, service, compensation, vendor, partner, treasury, reserve, or settlement category.
+Contractor and service provider compensation is payment for work. It is not token-holder payout or wallet-based participation distribution.
 
-### Phase 5: Build Reconciliation Process
+### 5.7 Vendor, Partner, and Operator Settlement
 
-Match stablecoin transactions to invoices, product usage, credit purchases, compensation approvals, refunds, fees, taxes, and product revenue pools.
+Stablecoins may support vendor, partner, and operator settlement where supported and documented.
 
-### Phase 6: Add Treasury Controls
+| Settlement Area | Stablecoin Role |
+|---|---|
+| Vendor payments | Payment for infrastructure, software, hosting, AI models, devices, design, development, or professional services |
+| Partner settlement | Payment for approved campaigns, integrations, implementations, managed services, or partner obligations |
+| Operator payments | Payment for product operations, community operations, support operations, or market operations support |
+| Event payments | Payment for event support, booth operations, sponsorship fulfillment, production support, or reporting |
+| Marketing payments | Payment for approved content, design, ads, campaigns, outreach, or community support |
+| Security payments | Payment for audits, reviews, penetration testing, monitoring, or incident response support |
+| Legal / accounting payments | Payment for legal, accounting, tax, reporting, or compliance work |
 
-Use vault separation, multisig, timelock, approval workflows, reserves, and reporting where appropriate.
+Settlement requires appropriate documentation and approval.
 
-### Phase 7: Define Compensation Controls
+### 5.8 Treasury Controls
 
-Define contributor, vendor, partner, advisor, and service-provider payment controls.
+Stablecoin compensation requires treasury controls.
 
-### Phase 8: Build Public-Safe Reporting
+Treasury controls may include:
 
-Publish category-level reports, report hashes, conversion proof, and treasury summaries where appropriate without exposing private identity.
+- treasury vault separation;
+- operating wallet separation;
+- reserve wallet separation;
+- product revenue wallet references where appropriate;
+- stablecoin reserve records;
+- payment approval workflow;
+- role separation;
+- multisig where appropriate;
+- timelock where appropriate;
+- payment limit rules;
+- budget category;
+- department or product category;
+- invoice matching;
+- wallet address confirmation;
+- fraud screening;
+- sanctions or restricted-party checks where applicable;
+- payment recordkeeping;
+- conversion proof where relevant;
+- reconciliation;
+- public-safe reporting where appropriate.
 
-### Phase 9: Connect to Approved Distributable Value Only Through Gates
+Treasury controls reduce confusion and improve accountability.
 
-Allow stablecoin product revenue to be considered in approved distributable value only if reconciled, reviewed, approved, and connected to an active framework.
+Boundary:
 
-These phases are development directions, not guaranteed launch dates.
+A stablecoin treasury balance is not a payout pool, approved distributable value, or token-holder claim by default.
 
----
+### 5.9 Relationship to Vault-by-Vault Rules
 
-## 32. Key Takeaways
+Stablecoin compensation works alongside vault-by-vault release rules.
 
-FUZE Stablecoin Compensation Policy explains stablecoin usage for payment, settlement, treasury operations, contributor compensation, vendor payments, partner settlement, product payments, and Platform Credit purchases.
+| Vault / Allocation Area | Stablecoin Compensation Relationship |
+|---|---|
+| Team Allocation | Team tokens support long-term alignment; stablecoins can pay work |
+| Advisors / Strategic Contributors | Advisor tokens support long-term alignment; stablecoins can pay approved scope |
+| Treasury Reserve | Treasury can fund approved compensation and operations |
+| Ecosystem Growth & Partnerships | Partner tokens support ecosystem alignment; stablecoins can pay approved services |
+| Holder Incentives | Incentives support participation; stablecoins can fund work or operating expenses where approved |
+| Community Participation Allocation | Community tokens support eligible participation; stablecoins do not replace eligibility rules |
+| Liquidity & Market Operations | Market-structure allocation remains separate from operating compensation |
+| Foundation Reserve | Stewardship reserve remains separate from routine compensation unless governance approves |
+| Transparency / Stability Reserve | Exceptional reserve remains separate from routine work payment unless governance approves |
+| BOARD / Surfboard Migration | Migration allocation remains separate from compensation |
 
-Stablecoins are payment, settlement, treasury, and compensation rails.
+This relationship keeps vault purposes clean.
 
-Stablecoins are not FUZE token.
+### 5.10 Stablecoin Compensation and Approved Distributable Value
 
-Stablecoins are not Platform Credits.
+Stablecoin compensation is not approved distributable value.
 
-Stablecoins are not wallet-based participation rights.
+Stablecoin compensation is payment for work, service, contribution, vendor activity, partner activity, operating activity, or documented settlement where properly defined.
 
-Stablecoin compensation is payment for work, service, vendor activity, partner activity, or operational settlement where documented.
+Approved distributable value is a controlled and approved value from defined product revenue pools if the wallet-based participation framework becomes active.
 
-Stablecoin compensation is not a profit share, dividend, passive-income product, fixed-yield product, or investment return.
+| Item | Public Meaning |
+|---|---|
+| Stablecoin compensation | Work payment or operational settlement |
+| Product revenue | Revenue from products and services where recorded and reconciled |
+| Approved distributable value | Controlled value after confirmation, reconciliation, deductions, reserves, legal review, accounting review, treasury controls, audit process, approval, and activation |
+| Wallet-based participation ability | Possible participation framework for eligible FUZE-holding wallets if activated |
 
-Stablecoin product payments may become product revenue only if confirmed, recorded, and reconciled.
+Compensation payments can be part of product or operating cost treatment.
 
-Stablecoin product revenue does not automatically become approved distributable value.
+They may reduce product revenue available for any future approved-distributable-value calculation.
 
-Stablecoin treasury balances are not automatic payout supply.
+Boundary:
 
-Stablecoin reserves are not approved distributable value unless released under a defined, reviewed, and approved policy.
+Stablecoin compensation does not create, equal, or guarantee approved distributable value.
 
-Buying Platform Credits with stablecoins does not create wallet-based participation eligibility.
+## 6. Public Boundary
 
-Receiving stablecoin compensation does not create wallet-based participation eligibility.
+Stablecoin compensation is payment for work and operations.
 
-FUZE uses wallet-level transparency without public identity exposure.
+It is not:
 
-Stablecoin reporting supports transparency, but it does not guarantee accounting accuracy, audit completion, approved distributable value, payout, token price, liquidity, listing, or investment return.
+- FUZE token;
+- Platform Credits;
+- wallet-based participation right;
+- approved distributable value;
+- token-holder payout;
+- dividend;
+- yield;
+- passive income;
+- guaranteed income;
+- guaranteed profit;
+- investment return;
+- public token sale;
+- public investment offer;
+- public solicitation;
+- guaranteed token allocation;
+- liquidity support;
+- listing assurance;
+- token price support;
+- market-making result;
+- game earnings;
+- treasury claim.
 
-FUZE uses one token only: FUZE token.
+FUZE does not guarantee:
 
-Wallet-based participation ability is not a second token, not automatic for every wallet, and not active as a guaranteed public payout right.
+- stablecoin compensation for every contributor;
+- compensation availability in every jurisdiction;
+- payout;
+- income;
+- dividend;
+- yield;
+- profit;
+- token price;
+- token demand;
+- listing;
+- liquidity;
+- market support;
+- market-making result;
+- exit;
+- acquisition;
+- game earnings;
+- business revenue;
+- user growth;
+- community growth;
+- approved distributable value;
+- wallet eligibility;
+- investment return.
 
-FUZE does not guarantee payout, income, dividend, yield, profit, token price, listing, liquidity, market support, exit, game earnings, business revenue, user growth, community growth, or investment return.
+Stablecoin compensation depends on work scope, approval, budget, documentation, treasury controls, legal review, accounting review, tax treatment, payment rail availability, and jurisdiction rules.
+
+## 7. Reporting and Transparency Direction
+
+FUZE may report stablecoin compensation and payment activity through public-safe records where product, legal, accounting, privacy, treasury, technical, and operational readiness allow.
+
+Reporting direction may include:
+
+| Reporting Area | Public Role |
+|---|---|
+| Payment category reports | Shows product, contributor, vendor, partner, operator, or treasury payment categories where public-safe |
+| Work evidence reports | Shows milestone, task, deliverable, artifact, invoice, approval, or completion status where appropriate |
+| Treasury payment records | Shows approved payment categories and transaction references where public-safe |
+| Conversion proof records | Shows conversion or settlement references where relevant |
+| Stablecoin reserve reports | Shows reserve category and treasury purpose where public-safe |
+| Contributor category reports | Shows public-safe contributor categories without exposing private personal data |
+| Product revenue compensation reports | Shows whether product revenue supports operating compensation where public-safe |
+| Platform Credit payment records | Shows whether stablecoin payments are connected to product usage credit purchases where appropriate |
+| Controlled circulation reports | Shows how stablecoin compensation helps keep token allocations aligned with long-term participation |
+| Risk boundary disclosures | Shows no token-holder payout, income, yield, token price, listing, liquidity, market outcome, or investment return guarantee |
+
+Transparency does not create unrestricted access to treasury operations, private company records, user data, customer data, contributor data, private investor terms, private legal analysis, private accounting records, personal identity records, private verification records, contractor agreements, payroll records, tax files, or confidential operational records.
+
+Public reporting can explain categories and controls without exposing private compensation details.
+
+## 8. Conclusion
+
+FUZE Stablecoin Compensation Policy defines stablecoins as payment, settlement, treasury, operating, and compensation rails.
+
+The core principle is:
+
+**Stablecoins pay for work. FUZE tokens align long-term participation. Platform Credits power product usage.**
+
+This separation supports FUZE’s product-first tokenomics model by reducing token circulation pressure, making contributor payment clearer, keeping Platform Credits focused on product usage, and preventing stablecoin compensation from being confused with token-holder income.
+
+FUZE token remains the single ecosystem token.
+
+Platform Credits remain product usage credits.
+
+Stablecoins remain payment and compensation rails.
+
+Stablecoin compensation is not wallet-based participation, not approved distributable value, not token-holder payout, not dividend, not yield, not passive income, not public token sale, and not investment return.
+
+The policy gives FUZE a clear public structure for paying work while preserving token alignment, controlled circulation, treasury discipline, and compliance-aware public language.
