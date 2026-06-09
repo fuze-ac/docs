@@ -4,7 +4,7 @@
 
 FUZE is a product-first AI SaaS and Web3 ecosystem.
 
-It builds practical products first, connects those products through shared platform rails, and then supports broader ecosystem participation through FUZE token, Platform Credits, wallet-based records, reporting, and public documentation.
+It builds practical products first, connects those products through shared platform rails, and supports broader ecosystem participation through FUZE token, Platform Credits, wallet-based records, reporting, and public documentation.
 
 FUZE exists because many AI, SaaS, Web3, business, game, and community tools are fragmented. Users often need separate tools for accounts, payments, AI workflows, data records, community operations, games, reports, and public transparency. FUZE brings these areas into one organized platform model.
 
@@ -22,7 +22,7 @@ Platform Credits are product usage credits.
 
 Stablecoins are payment, settlement, treasury, and compensation rails.
 
-Wallet-level transparency can support public-safe records while personal identity stays private.
+Wallet-level transparency can support public-safe records while sensitive identity stays private.
 
 This paper explains FUZE at the platform level: what FUZE is, why it exists, how the platform works, what products connect to it, and how the main rails support the ecosystem.
 
@@ -305,7 +305,7 @@ This keeps the platform story clear while still giving serious readers a place t
 - Platform Credits support product usage.
 - Stablecoins support payment, settlement, treasury, and compensation rails.
 - FUZE token is the single ecosystem token of FUZE.
-- Wallet-based records support public-safe transparency while personal identity stays private.
+- Wallet-based records support public-safe transparency while sensitive identity stays private.
 - Product papers explain individual products.
 - Tokenomics papers explain token, credit, wallet, vault, governance, and market topics.
 - Investor papers explain review context, revenue direction, use of funds, evidence direction, and investor risk references.

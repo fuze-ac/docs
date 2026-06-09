@@ -2,7 +2,7 @@
 
 ## Executive Summary
 
-The FUZE Ecosystem Map explains how the main FUZE products, platform rails, credits, wallet records, token utility, reporting layers, and public documentation groups fit together.
+The FUZE Ecosystem Map explains how the main FUZE products, platform rails, Platform Credits, wallet-based records, FUZE token, reporting layers, governance controls, and public documentation groups fit together.
 
 FUZE is a product-first AI SaaS and Web3 ecosystem.
 
@@ -10,20 +10,20 @@ It starts with practical products, connects them through shared platform rails, 
 
 The ecosystem is designed around several connected layers:
 
-- AI SaaS and product layer
-- ZAGA game and utility layer
-- market, liquidity, event, utility, and AI work-support layer
-- identity, access, and permission layer
+- product layer
+- identity and access layer
 - Platform Credits layer
 - payment and settlement layer
 - AI orchestration layer
-- wallet-based records layer
+- wallet-based record layer
 - reporting and transparency layer
 - FUZE token layer
 - governance and control layer
-- risk and disclosure layer
+- risk and disclosure reference layer
 
-This map helps readers understand that FUZE is not one isolated product and not a token-only project. FUZE is a connected ecosystem where products create the first reason to use the platform, and shared rails make those products easier to operate, report, and expand.
+This map helps readers understand that FUZE is more than one product, one token, or one document.
+
+FUZE is a connected ecosystem where practical products create the first reason to use the platform, and shared rails make those products easier to operate, report, and expand.
 
 ---
 
@@ -44,7 +44,11 @@ It explains:
 
 The map gives readers a simple way to understand a large platform.
 
-Instead of treating each product or document as separate, this paper shows the shared system behind them.
+Instead of treating each product, token paper, investor paper, or public document as separate, this paper shows the shared system behind them.
+
+The purpose is clarity.
+
+A reader should be able to see where HerHelp, ZAGA, QTB, AIMM, AIE, ToolGrid AI, Botmad, Platform Credits, FUZE token, wallet records, reporting, and investor materials belong in the same ecosystem.
 
 ---
 
@@ -59,7 +63,8 @@ Without a map, readers can ask:
 - Why does FUZE need Platform Credits?
 - Where does FUZE token fit?
 - What are wallet-based records for?
-- Which topics belong in product papers and which topics belong in risk papers?
+- Which topics belong in product papers?
+- Which topics belong in risk and disclosure papers?
 - How does the system stay understandable as it grows?
 
 The answer is that FUZE has layers.
@@ -94,7 +99,7 @@ The ecosystem follows this order:
 
 This order helps FUZE stay understandable.
 
-The ecosystem map should make readers feel that FUZE is organized, useful, and built around real platform activity.
+The ecosystem map should make readers feel that FUZE is organized, useful, transparent, and built around real platform activity.
 
 ---
 
@@ -107,15 +112,15 @@ FUZE can be mapped as a layered ecosystem.
 | Product Layer | Practical AI SaaS, game, event, market interpretation, utility, and AI work-support products | `AI-SAAS-PRODUCT-PAPERS/` |
 | Core Platform Rails | Shared infrastructure for identity, credits, payments, AI, wallet records, reporting, privacy, and controls | `CORE-PLATFORM-PAPERS/04-FUZE_CORE_PLATFORM_RAILS_PUBLIC.md` |
 | Platform Credits Layer | Product usage credits for supported FUZE products and services | `CORE-PLATFORM-PAPERS/06-FUZE_PLATFORM_CREDITS_USAGE_EXAMPLES_PUBLIC.md` |
-| Payment and Settlement Layer | Stablecoin and other supported payment, settlement, treasury, and compensation rails | `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/11-FUZE_STABLECOIN_COMPENSATION_POLICY_PUBLIC.md` |
+| Payment and Settlement Layer | Stablecoin and supported payment, settlement, treasury, and compensation rails | `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/11-FUZE_STABLECOIN_COMPENSATION_POLICY_PUBLIC.md` |
 | AI Orchestration Layer | AI generation, summaries, routing, reports, support, analysis, workflow assistance, and decision-support outputs | Product and platform papers |
 | Wallet Records Layer | Public-safe wallet records, snapshots, report references, vault references, and eligibility status where applicable | `CORE-PLATFORM-PAPERS/08-FUZE_WALLET_BASED_PLATFORM_MODEL_PUBLIC.md` |
 | FUZE Token Layer | One ecosystem token for product-connected utility, ecosystem participation, platform alignment, governance direction where applicable, and wallet-based participation ability where activated | `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/03-FUZE_ONE_TOKEN_MODEL_PUBLIC.md` |
 | Reporting Layer | Public papers, report hashes, dashboards, metrics, audit direction, and transparency records where appropriate | `CORE-PLATFORM-PAPERS/09-FUZE_TRANSPARENCY_AND_REPORTING_RAILS_PUBLIC.md` |
-| Governance and Control Layer | Permission controls, approval rules, multisig, timelock, smart contract readiness, and operating safeguards | Tokenomics and governance papers |
+| Governance and Control Layer | Permission controls, approval rules, multisig direction, timelock direction, smart contract readiness, and operating safeguards | Tokenomics and governance papers |
 | Risk and Disclosure Layer | Public language, product risk, token risk, investor risk, compliance messaging, and disclosure appendix | Dedicated risk and disclosure papers |
 
-The layers are connected, but each layer has a different purpose.
+These layers are connected, but each layer has a different purpose.
 
 This separation helps FUZE explain a complex system without mixing product usage, token utility, risk disclosure, and investor context into one confusing message.
 
@@ -125,7 +130,15 @@ This separation helps FUZE explain a complex system without mixing product usage
 
 The ecosystem starts with products.
 
-A user does not need to understand every platform layer before using a product. A shop owner can understand ShopOS AI as a shop operating system. A community manager can understand CommunityLayer AI as a community operations tool. A player can understand ZAGA Arena as a fast battle arena game. A team can understand Botmad as AI work assistance under permission controls.
+A user does not need to understand every platform layer before using a product.
+
+A shop owner can understand ShopOS AI as a shop operating system.
+
+A community manager can understand CommunityLayer AI as a community operations tool.
+
+A player can understand ZAGA Arena as a fast battle arena game.
+
+A team can understand Botmad as AI work assistance under permission controls.
 
 Behind these products, FUZE rails can support shared functions:
 
@@ -219,7 +232,7 @@ Wallet records can support:
 
 This layer helps FUZE use Web3 transparency where it adds value.
 
-It also keeps personal identity private in public-facing records.
+It also keeps sensitive identity private in public-facing records.
 
 ### 6.5 FUZE Token Layer
 
@@ -251,7 +264,7 @@ FUZE’s ecosystem map includes governance, reporting, and controls because the 
 
 Governance and reporting help FUZE connect public interest with structured review.
 
-The goal is not to make every system visible at all times. The goal is to make the right information understandable in the right paper, with public-safe reporting where appropriate.
+The goal is to make the right information understandable in the right paper, with public-safe reporting where appropriate.
 
 ---
 

@@ -6,7 +6,7 @@ The FUZE AI SaaS Product Index introduces the product layer of FUZE.
 
 FUZE is a product-first AI SaaS and Web3 ecosystem. The platform starts with practical products, connects them through shared platform rails, and supports broader ecosystem participation through FUZE token, Platform Credits, wallet-based records, reporting, and public documentation.
 
-This index helps readers understand what FUZE is building before they move into tokenomics, investor materials, wallet-based records, or whitepaper papers.
+This index helps readers understand what FUZE is building before they move into tokenomics, investor materials, wallet-based records, market-access topics, or whitepaper papers.
 
 The FUZE product layer includes:
 
@@ -50,7 +50,7 @@ It explains:
 
 This index is the starting point for readers who want to understand FUZE through products first.
 
-It does not replace individual product papers. Each product paper gives deeper use cases, workflows, product-specific boundaries, data controls, and platform relationships.
+It is a product map, not a replacement for individual product papers. Each product paper gives deeper use cases, workflows, data controls, platform relationships, and product-specific boundaries.
 
 ---
 

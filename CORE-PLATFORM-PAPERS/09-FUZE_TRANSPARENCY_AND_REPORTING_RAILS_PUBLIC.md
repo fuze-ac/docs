@@ -86,7 +86,7 @@ FUZE organizes public information so readers can understand the product ecosyste
 |---|---|
 | Public papers | Explain FUZE’s platform, products, tokenomics, investor materials, website summaries, and whitepaper direction |
 | Product status | Helps readers understand what each product is, what it supports, and how it connects to FUZE rails |
-| Platform rails | Show how identity, credits, payments, AI, data, wallet records, reporting, and controls connect |
+| Platform rails | Show how identity, credits, payments, AI, wallet records, reporting, and controls connect |
 | Platform Credits | Give a product usage layer that can be explained through usage records and examples where supported |
 | Wallet records | Support public-safe references, snapshots, report hashes, vault references, and eligibility status where applicable |
 | Dashboards and metrics | Can support public-safe progress, product, ecosystem, or reporting views where appropriate |

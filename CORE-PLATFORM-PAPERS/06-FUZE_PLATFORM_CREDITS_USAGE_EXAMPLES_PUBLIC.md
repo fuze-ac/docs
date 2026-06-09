@@ -4,11 +4,11 @@
 
 FUZE Platform Credits are product usage credits for supported FUZE products and services.
 
-They help users access practical product functions such as AI workflows, reports, shop tools, training materials, community operations, event intelligence, utility discovery, game-related product surfaces, and AI work assistance where supported.
+They help users access practical product functions such as AI workflows, reports, shop tools, spreadsheet actions, training materials, community operations, event intelligence, utility discovery, game-related product surfaces, and AI work assistance where supported.
 
 FUZE is a product-first AI SaaS and Web3 ecosystem.
 
-The platform starts with products people can understand and use. Platform Credits sit inside that product usage layer. They make it easier for different FUZE products to share a common usage system without turning every product into a separate payment or token model.
+The platform starts with products people can understand and use. Platform Credits sit inside that product usage layer. They make it easier for different FUZE products to share a common usage system without turning every product into a separate payment model.
 
 Platform Credits are separate from FUZE token.
 
@@ -16,7 +16,7 @@ FUZE token is the single ecosystem token of FUZE.
 
 Stablecoins support payment, settlement, treasury, and compensation rails.
 
-Wallet-based records can support public-safe transparency where useful while personal identity stays private.
+Wallet-based records can support public-safe transparency where useful while sensitive identity stays private.
 
 This paper explains Platform Credits through practical examples so readers can understand how credits support real product usage across the FUZE ecosystem.
 
@@ -30,7 +30,7 @@ It is written for readers who want a simple answer to one question:
 
 How can FUZE Platform Credits support product usage?
 
-The paper explains Platform Credits through examples instead of abstract token language.
+The paper explains Platform Credits through practical examples instead of abstract token language.
 
 It covers:
 
@@ -47,7 +47,7 @@ It covers:
 - utility discovery examples
 - Botmad work assistance examples
 - reporting and transparency examples
-- the difference between Platform Credits, FUZE token, stablecoins, and wallet records
+- the relationship between Platform Credits, FUZE token, stablecoins, and wallet records
 
 The goal is to make Platform Credits easy to understand as a product usage layer.
 
@@ -57,7 +57,7 @@ The goal is to make Platform Credits easy to understand as a product usage layer
 
 Readers may see the words Platform Credits and ask:
 
-- Are Platform Credits a token?
+- What are Platform Credits?
 - Why does FUZE need credits?
 - How do credits connect to products?
 - Can credits be used across different FUZE services?
@@ -77,7 +77,7 @@ A user should be able to understand credits through product activity.
 
 For example:
 
-- a shop uses credits for AI-generated product descriptions or daily reports
+- a shop uses credits for AI-generated menu text or daily reports
 - a spreadsheet user uses credits for dashboard generation or data mapping
 - a community manager uses credits for summaries or moderation support
 - a training team uses credits for quiz or guide generation
@@ -105,11 +105,11 @@ Platform Credits help keep the ecosystem product-first.
 
 Platform Credits should be explained through usage.
 
-They should not be presented as FUZE token.
+They help readers understand how product access, AI workflows, reports, and usage-based actions can operate across a shared platform.
 
-They should not replace product value.
+The public story should stay simple:
 
-They should help readers understand how product access, AI workflows, reports, and usage-based actions can operate across a shared platform.
+Products create the user need. Platform Credits support the product action. Reporting and account controls help users understand usage where supported.
 
 ---
 
@@ -124,7 +124,7 @@ They are part of the usage rail.
 | Product layer | Users interact with FUZE products and services |
 | Platform Credits layer | Credits support supported product usage and workflow actions |
 | Payment and settlement layer | Payments and stablecoin rails can support operational payment, settlement, treasury, and compensation where appropriate |
-| AI orchestration layer | AI workflows may consume credits where supported |
+| AI orchestration layer | AI workflows can consume credits where supported |
 | Reporting layer | Usage records and reports can help users understand activity where supported |
 | Wallet-based record layer | Wallet records can support public-safe transparency where useful |
 | FUZE token layer | FUZE token supports ecosystem participation and product-connected utility where relevant |
@@ -181,9 +181,9 @@ Examples:
 
 If the product uses a credit-based model, Platform Credits can be applied to the supported action.
 
-Credits make the usage easier to understand across products.
+Credits make usage easier to understand across products.
 
-### Step 4: Records and Reports Can Support Review
+### Step 4: Records and Reports Support Review
 
 Where supported, the platform can show usage records, product activity, reports, or summaries.
 
@@ -193,7 +193,7 @@ This helps users understand what they used and what value the product delivered.
 
 Credits should support the product experience.
 
-They should not become the main story.
+They should never become the main story.
 
 The main story remains practical product usage.
 
@@ -239,7 +239,7 @@ For example, wallet-based records may help connect product accounts, ecosystem r
 
 FUZE token is the single ecosystem token.
 
-Platform Credits should remain focused on usage, while FUZE token connects to broader ecosystem participation and product-connected utility where relevant.
+Platform Credits stay focused on usage, while FUZE token connects to broader ecosystem participation and product-connected utility where relevant.
 
 This separation helps readers understand FUZE without confusing credit usage with token utility.
 
@@ -357,7 +357,24 @@ Platform Credits can support actions such as:
 
 The community manager understands credits as usage for community operations.
 
-### Example 6: ZAGA Arena
+### Example 6: HerHelp
+
+A user uses HerHelp as the practical AI SaaS suite.
+
+Platform Credits can support actions such as:
+
+- generating documents
+- creating prompts
+- drafting reports
+- preparing business summaries
+- writing customer replies
+- creating marketing content
+- organizing product ideas
+- turning notes into workflows
+
+The user understands credits as usage for practical AI work.
+
+### Example 7: ZAGA Arena
 
 A player or community interacts with ZAGA Arena.
 
@@ -374,7 +391,7 @@ The game remains the main experience.
 
 Credits support product usage around the game where the system defines supported features.
 
-### Example 7: ZAGA Districts
+### Example 8: ZAGA Districts
 
 A Telegram-native community interacts with ZAGA Districts.
 
@@ -383,13 +400,13 @@ Platform Credits can support surrounding product services where supported, such 
 - community city management tools
 - AI-generated city reports
 - NPC or structure planning summaries
-- treasury or activity summaries
+- treasury-style game activity summaries
 - event or campaign notes
 - public-safe group progress reports
 
 The product stays focused on community gameplay and management.
 
-### Example 8: QTB
+### Example 9: QTB
 
 A market-focused user uses QTB for market interpretation and research workflows.
 
@@ -407,7 +424,7 @@ QTB remains a market interpretation and research-support product.
 
 Detailed market risk language belongs in dedicated risk and disclosure papers.
 
-### Example 9: AIMM
+### Example 10: AIMM
 
 A team uses AIMM for liquidity operations monitoring and reporting support.
 
@@ -424,7 +441,7 @@ AIMM remains operations support.
 
 It should be explained through monitoring, reporting, and workflow support.
 
-### Example 10: AIE
+### Example 11: AIE
 
 A user uses AIE for event intelligence.
 
@@ -440,7 +457,7 @@ Platform Credits can support actions such as:
 
 AIE helps events become easier to plan, understand, and report.
 
-### Example 11: ToolGrid AI
+### Example 12: ToolGrid AI
 
 A user explores AI utilities through ToolGrid AI.
 
@@ -456,7 +473,7 @@ Platform Credits can support actions such as:
 
 ToolGrid AI helps users discover and understand AI utilities.
 
-### Example 12: Botmad
+### Example 13: Botmad
 
 A user or team uses Botmad as an AI Desktop Employee under permission controls.
 
@@ -479,7 +496,7 @@ Botmad uses AI work assistance with permission controls and human review where a
 
 This paper explains Platform Credits as a product usage layer.
 
-It does not replace product pricing papers, product terms, payment terms, legal review, tax review, accounting review, or risk and disclosure papers.
+It does not replace product pricing pages, product terms, payment terms, legal review, tax review, accounting review, or risk and disclosure papers.
 
 Platform Credits should be understood through product usage.
 
@@ -507,6 +524,7 @@ This keeps the Platform Credits paper focused on practical usage examples while 
 - SheetLayer AI can use credits for spreadsheet, dashboard, formula, and business data workflows.
 - CommunityLayer AI can use credits for moderation, summaries, verification, support, and reporting.
 - TrainLayer AI can use credits for learning materials, quizzes, guides, and training workflows.
+- ZAGA-related products can use credits for surrounding product services, reports, events, share cards, and community tools where supported.
 - QTB and AIMM can use credits for research, reporting, monitoring, and operations-support workflows where supported.
 - Botmad can use credits for AI work assistance under permission controls.
 - Platform Credits stay focused on usage while FUZE token remains the single ecosystem token.

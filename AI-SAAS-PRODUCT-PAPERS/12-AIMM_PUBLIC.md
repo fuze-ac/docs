@@ -1,24 +1,40 @@
-# AIMM - AI Market Maker
+# AIMM
 
 ## Executive Summary
 
-AIMM is the AI market-making and liquidity operations support product under FUZE.
+AIMM — AI Market Maker is the AI-powered market-operations and liquidity operations support product under FUZE.
 
-AIMM is designed to help project teams, operators, liquidity managers, exchange-facing teams, treasury reviewers, and market operations teams organize liquidity-related information, prepare market-making operation notes, review exchange communication, monitor public market context, create operational checklists, and produce risk-aware liquidity reports.
+AIMM is designed to help token projects, trading teams, treasury operators, liquidity managers, exchange-facing teams, market operators, investor-communication teams, and Web3 founders move from fragmented liquidity management and reactive market support toward structured, AI-assisted market operations.
 
-AIMM is not a market maker by itself, not an autonomous trading executor, not a price-support engine, not a guaranteed liquidity system, and not a tool for market manipulation.
+AIMM is not positioned as a generic autonomous trading bot, a passive liquidity dashboard, a black-box profit engine, or an unrestricted autonomous market actor.
 
-FUZE is a transparency-first AI SaaS platform building practical products on shared infrastructure for identity, credits, payments, AI orchestration, wallet-based records, reporting, and ecosystem participation. AIMM gives FUZE a specialized product surface for liquidity operations support while keeping strong public boundaries around market integrity, liquidity expectations, exchange access, and token outcomes.
+It is designed to become a market-operations intelligence and workflow layer.
 
-AIMM can connect with Platform Credits where supported. Platform Credits are product usage credits and are separate from FUZE token. FUZE token is the single ecosystem token of FUZE.
+FUZE is a product-first AI SaaS and Web3 ecosystem. AIMM gives FUZE a specialized crypto-native product surface that can support liquidity monitoring, market-operations summaries, exchange communication, operational checklists, risk-aware reports, workspace collaboration, Platform Credit usage, workflow execution, reporting, and audit visibility.
 
-AIMM supports market-making and liquidity operations workflows. It does not guarantee liquidity, price support, listing performance, market outcome, trading profit, token price, exchange access, payout, income, yield, business revenue, user growth, community growth, or investment return.
+AIMM is separate from QTB.
+
+QTB supports market interpretation and trading intelligence.
+
+AIMM supports liquidity operations and market-making workflow organization.
+
+Together, QTB and AIMM form a strong crypto-native AI product wedge for FUZE: QTB helps users understand market information, while AIMM helps teams structure market operations and liquidity-support workflows.
+
+Platform Credits support product usage.
+
+FUZE token is the single ecosystem token of FUZE.
+
+Stablecoins support payment, settlement, treasury, and compensation rails.
+
+Wallet-based records can support public-safe transparency where useful while private exchange communication, treasury records, provider discussions, workspace records, operational state, and sensitive strategy materials stay permissioned where required.
+
+AIMM’s public role is simple: make market operations more intelligent, more structured, and less reactive while keeping execution, authority, billing, permissions, and public communication under controlled review.
 
 ---
 
 ## 1. Product Purpose
 
-AIMM exists to support liquidity and market operations teams with AI-assisted organization, reporting, monitoring, and decision-support workflows.
+AIMM exists to support liquidity and market operations teams with AI-assisted organization, reporting, monitoring, workflow support, and decision-support context.
 
 The product purpose is to help teams manage liquidity-related information more clearly.
 
@@ -40,19 +56,58 @@ AIMM can help users prepare:
 - abnormal market activity summaries
 - market operations task lists
 - post-event market review notes
+- token unlock preparation notes
+- DEX liquidity review notes
+- CEX communication notes where appropriate
+- inventory and behavior monitoring notes where supported
+- operator-ready workflow context
+- repeated operational playbooks
+- execution-prep support where bounded and approved
 
-AIMM is designed as an operations support product.
+AIMM is designed as an AI-assisted market-operations layer.
 
-It helps users organize information and prepare reports. It does not execute market-making activity automatically and does not guarantee liquidity outcomes.
+Its value comes from structure, monitoring, interpretation, review, workflow readiness, documentation, communication discipline, and operational clarity.
+
+The product starts with interpretation, monitoring, and structured operator context.
+
+Over time, it can support more active workflow coordination while remaining bounded, permission-aware, auditable, and human-reviewed where required.
 
 ---
 
-## 2. User Problem and Market Context
+## 2. Who This Product Helps
 
-Token projects, exchanges, liquidity providers, market makers, and treasury teams often need to understand market conditions and liquidity activity clearly.
+AIMM helps teams that need clearer liquidity and market operations workflows.
 
-Common market operations problems include:
+| User Type | Operations Need | How AIMM Helps |
+|---|---|---|
+| Token projects | Understand liquidity status and operational requirements | Creates liquidity summaries, risk notes, and venue checklists |
+| Web3 founders | Prepare safer liquidity and exchange communication | Organizes provider notes, open questions, and public-safe explanations |
+| Trading teams | Review market behavior and liquidity conditions | Creates market-condition summaries and operator-ready context |
+| Treasury teams | Review reserve, settlement, and liquidity context | Creates treasury and liquidity-readiness notes |
+| Exchange-facing teams | Track exchange communication and requirements | Summarizes exchange discussions and follow-up tasks |
+| Liquidity managers | Organize depth, spread, venue, inventory, and order-book observations | Creates structured review reports |
+| Market operators | Manage day-to-day market-support workflows | Builds operation summaries, checklists, alerts, and status reports |
+| Investor relations teams | Explain liquidity direction carefully | Prepares public-safe updates and boundary-aware language |
+| Community managers | Respond to liquidity questions responsibly | Converts repeated questions into clear public-safe answers |
+| Compliance-aware token teams | Avoid unsupported market language | Supports review of liquidity, listing, and price-support wording |
 
+AIMM is especially useful for teams that face liquidity questions, exchange communication, operational complexity, and community pressure.
+
+The product helps teams stay organized without making market promises.
+
+---
+
+## 3. User Problem and Market Context
+
+Market-making and liquidity support remain operationally difficult.
+
+Across crypto ecosystems, teams still struggle with:
+
+- fragmented market data and exchange views
+- weak liquidity monitoring discipline
+- reactive manual intervention
+- poor coordination between monitoring and operational response
+- inconsistent market-health interpretation
 - scattered exchange communication
 - unclear liquidity status
 - weak order-book review process
@@ -66,60 +121,64 @@ Common market operations problems include:
 - unclear boundaries around listing, liquidity, spread, and market outcome
 - community pressure for price movement or listing promises
 - investor confusion about liquidity availability and exit expectations
+- weak documentation of provider discussions
+- unclear separation between market interpretation and liquidity operations
 
-AIMM addresses these problems by helping teams organize liquidity operations and market-making support workflows into structured reports, notes, checklists, and public-safe communication.
+Many projects still rely on dashboards, spreadsheets, exchange tabs, chats, and operator intuition.
 
-This is relevant for:
+That makes market support slower, noisier, and less repeatable than it should be.
 
-- token projects
-- Web3 founders
-- treasury teams
-- exchange-facing teams
-- liquidity managers
-- market operations teams
-- investor relations teams
-- community managers handling liquidity questions
-- compliance-aware token communication teams
-- teams preparing listing or liquidity-readiness documents
-- teams managing liquidity operations with external providers
+AIMM is designed around one core problem:
 
-AIMM is useful because liquidity operations need structure, review, and public communication discipline.
+market operations are too important to remain mostly manual, fragmented, and weakly instrumented.
 
-It does not remove market risk.
+AIMM addresses this by helping teams organize liquidity operations and market-making support workflows into structured reports, notes, playbooks, checklists, alerts, workspace records, and public-safe communication.
+
+The product is relevant because digital-asset markets are becoming more infrastructure-driven, more real-time, and more operationally demanding.
+
+AIMM does not remove market risk.
+
+It helps teams see the work more clearly and respond with better structure.
 
 ---
 
-## 3. AIMM Product Model
+## 4. Product Model
 
-AIMM has seven main product layers.
+AIMM has nine main product layers.
 
 | Layer | Role |
 |---|---|
-| Liquidity Observation Layer | Organizes order-book, spread, depth, venue, and market condition notes |
+| Liquidity Observation Layer | Organizes order-book, spread, depth, venue, inventory, and market condition notes |
 | Market Operations Layer | Supports market-making operation checklists, workflow summaries, and operational records |
+| Signal and Anomaly Layer | Helps surface abnormal activity, risk signals, threshold breaches, and monitoring events where supported |
 | Exchange Communication Layer | Helps structure exchange, liquidity provider, and market maker communication notes |
-| Risk Review Layer | Highlights liquidity, volatility, venue, custody, market, and operational risks |
+| Workspace Layer | Supports team-based market-operations environments, role access, reports, alerts, and workflow state |
+| Risk Review Layer | Highlights liquidity, volatility, venue, custody, market, communication, and operational risks |
 | Reporting Layer | Creates internal and public-safe market operations reports |
 | Treasury Context Layer | Supports treasury, reserve, settlement, and liquidity-readiness notes where appropriate |
-| Integration Layer | Connects with FUZE platform rails, Platform Credits, QTB, reporting, and AI orchestration where supported |
+| Integration Layer | Connects with FUZE platform rails, Platform Credits, QTB, workflows, reporting, audit, and AI orchestration where supported |
 
 AIMM is not the same as QTB.
 
-QTB supports market interpretation and trading intelligence.
+QTB interprets market information.
 
-AIMM supports liquidity operations and market-making workflow organization.
+AIMM organizes liquidity and market operations workflows.
 
-Neither product provides financial advice or guarantees market outcomes.
+AIMM can use QTB-style market context where appropriate, but the product role is different.
+
+QTB helps users understand market conditions.
+
+AIMM helps teams manage market operations structure, liquidity monitoring, workflow readiness, exchange communication, and reporting.
 
 ---
 
-## 4. Core Features
+## 5. Core Features
 
-### 4.1 Liquidity Operation Summaries
+### 5.1 Liquidity Operation Summaries
 
 AIMM can help create liquidity operation summaries.
 
-These summaries may include:
+These summaries can include:
 
 - market condition overview
 - venue status
@@ -138,17 +197,11 @@ Example:
 
 A project team reviews several exchange and DEX markets. AIMM helps turn scattered notes into a structured liquidity operation summary for internal review.
 
-Boundary:
-
-Liquidity operation summaries support review. They do not guarantee liquidity, price support, market stability, trading profit, or listing performance.
-
----
-
-### 4.2 Order-Book Observation Notes
+### 5.2 Order-Book Observation Notes
 
 AIMM can help organize order-book observation notes.
 
-Order-book observations may include:
+Order-book observations can include:
 
 - spread changes
 - depth changes
@@ -164,17 +217,31 @@ Order-book observations may include:
 
 AIMM can help describe what is observed without turning observations into promises.
 
-Boundary:
+### 5.3 Market-Health and Anomaly Review
 
-Order-book observation notes are not trading instructions, price predictions, manipulation instructions, or liquidity guarantees.
+AIMM can support market-health and anomaly review where supported.
 
----
+This can include:
 
-### 4.3 Venue and Exchange Comparison
+- spread widening
+- abnormal volume behavior
+- depth changes
+- venue imbalance
+- liquidity gaps
+- unusual order placement
+- market-maker response timing
+- treasury movement context where appropriate
+- token unlock sensitivity
+- public communication risk
+- incident review notes
+
+AIMM should help operators see conditions earlier, classify the issue, and prepare review-ready context.
+
+### 5.4 Venue and Exchange Comparison
 
 AIMM can help teams compare venues.
 
-Venue comparison may include:
+Venue comparison can include:
 
 - exchange type
 - DEX or CEX context
@@ -194,17 +261,11 @@ Example:
 
 A project team compares potential liquidity venues. AIMM helps organize operational pros, risks, requirements, and open questions.
 
-Boundary:
-
-Venue comparison support does not guarantee listing, exchange approval, liquidity, trading volume, market performance, or regulatory suitability.
-
----
-
-### 4.4 Market Maker Communication Support
+### 5.5 Market Maker Communication Support
 
 AIMM can help prepare communication with market makers or liquidity providers.
 
-Communication support may include:
+Communication support can include:
 
 - meeting notes
 - requirement summaries
@@ -219,17 +280,11 @@ Communication support may include:
 
 AIMM can help teams communicate more clearly and document discussions.
 
-Boundary:
-
-Market maker communication support does not guarantee any provider relationship, liquidity outcome, exchange outcome, price stability, or trading result.
-
----
-
-### 4.5 Liquidity Risk Reports
+### 5.6 Liquidity Risk Reports
 
 AIMM can help generate liquidity risk reports.
 
-Risk reports may include:
+Risk reports can include:
 
 - thin liquidity risk
 - volatility risk
@@ -248,42 +303,31 @@ Risk reports may include:
 
 AIMM should help teams identify and document risk.
 
-Boundary:
-
-Risk reports are not complete legal, financial, accounting, security, or regulatory reviews.
-
----
-
-### 4.6 Public-Safe Liquidity Updates
+### 5.7 Public-Safe Liquidity Updates
 
 AIMM can help prepare public-safe liquidity updates.
 
-Public-safe updates may explain:
+Public-safe updates can explain:
 
 - liquidity policy direction
 - exchange and venue boundaries
 - market access limitations
-- no guaranteed liquidity
-- no price support promise
-- no guaranteed listing
-- no guaranteed exit
-- no market manipulation
-- controlled and compliant communication
 - reporting direction
+- liquidity review status
+- venue review status
+- general risk reminders
+- public communication rules
+- controlled and compliant communication
 
-Public communication must avoid claims that imply price support, guaranteed liquidity, guaranteed listing, guaranteed market outcome, or guaranteed exit.
+Public communication should focus on clarity, not market promises.
 
-Boundary:
+AIMM can help teams avoid language that creates unrealistic expectations around liquidity, listing, exit, or market performance.
 
-Public-safe liquidity updates are communication support. They do not create liquidity, trading access, exchange approval, or investment returns.
-
----
-
-### 4.7 Market Operations Checklists
+### 5.8 Market Operations Checklists
 
 AIMM can help create operational checklists.
 
-Checklist types may include:
+Checklist types can include:
 
 - liquidity review checklist
 - exchange communication checklist
@@ -298,21 +342,52 @@ Checklist types may include:
 - reporting checklist
 - risk review checklist
 
-Checklists help teams reduce missed steps.
+Checklists help teams reduce missed steps and organize review work.
 
-Boundary:
+### 5.9 Workspace and Operator Roles
 
-Checklists support operational discipline. They do not guarantee correct decisions, liquidity outcomes, exchange approval, or risk removal.
+AIMM is naturally a workspace-oriented product.
+
+Account-scoped usage can include:
+
+- personal market view experiments
+- individual operator sandbox usage
+- personal premium operational analysis
+- limited self-service evaluation
+
+Workspace-scoped usage can include:
+
+- team market-operations environments
+- shared liquidity-monitoring contexts
+- shared exchange-operation or token-operation workspaces
+- role-based operator access
+- workspace-owned reports, alerts, and workflow state
+- organization-level billing and credit funding
+
+AIMM product-specific roles can include:
+
+- AIMM viewer
+- AIMM operator
+- AIMM operations manager
+- AIMM workspace admin
+- AIMM report reviewer
+- AIMM alert manager
+
+These roles should extend the platform authorization model.
+
+Token ownership should not grant AIMM operator authority by itself.
+
+Wallet-linked context can enrich participation without replacing platform identity or product authorization.
 
 ---
 
-## 5. User Workflow Examples
+## 6. Practical Workflows and Use Cases
 
-### 5.1 Liquidity Review Workflow
+### Use Case 1: Liquidity Review Workflow
 
 A project team wants to review liquidity status.
 
-The workflow may include:
+The workflow can include:
 
 1. Team gathers market and venue notes.
 2. AIMM organizes spread, depth, venue, and volume observations.
@@ -321,17 +396,13 @@ The workflow may include:
 5. Team reviews the report.
 6. Team prepares follow-up questions for liquidity providers or exchanges.
 
-Boundary:
+This helps teams convert fragmented liquidity data into a reviewable operating report.
 
-This workflow supports review. It does not guarantee liquidity, price stability, trading volume, or market outcome.
-
----
-
-### 5.2 Exchange Communication Workflow
+### Use Case 2: Exchange Communication Workflow
 
 A team is communicating with an exchange or liquidity provider.
 
-The workflow may include:
+The workflow can include:
 
 1. Team adds meeting notes.
 2. AIMM summarizes requirements and open questions.
@@ -340,17 +411,13 @@ The workflow may include:
 5. Team logs communication status.
 6. AIMM prepares an internal summary.
 
-Boundary:
+This helps exchange-facing teams keep communication organized.
 
-Exchange communication support does not guarantee listing approval, market access, liquidity, trading volume, or listing performance.
-
----
-
-### 5.3 Public Liquidity Update Workflow
+### Use Case 3: Public Liquidity Update Workflow
 
 A community manager needs to answer questions about liquidity.
 
-The workflow may include:
+The workflow can include:
 
 1. Community questions are collected.
 2. AIMM prepares a public-safe explanation.
@@ -358,17 +425,13 @@ The workflow may include:
 4. Team reviews the message.
 5. Public update is published with clear boundaries.
 
-Boundary:
+This helps teams respond to community pressure with more disciplined language.
 
-Public updates should not promise liquidity, price support, listing, exit, or market outcome.
-
----
-
-### 5.4 Token Unlock Review Workflow
+### Use Case 4: Token Unlock Review Workflow
 
 A team wants to prepare for a token unlock or circulation change.
 
-The workflow may include:
+The workflow can include:
 
 1. Team gathers token release information.
 2. AIMM creates a market operations checklist.
@@ -376,17 +439,13 @@ The workflow may include:
 4. Team prepares treasury and communication plan.
 5. Reporting rails record public-safe status where appropriate.
 
-Boundary:
+This helps teams prepare for circulation events with better review structure.
 
-Token unlock review support does not guarantee market stability, price outcome, liquidity, or investor reaction.
-
----
-
-### 5.5 DEX Liquidity Review Workflow
+### Use Case 5: DEX Liquidity Review Workflow
 
 A team reviews DEX liquidity.
 
-The workflow may include:
+The workflow can include:
 
 1. Team reviews pool depth, spread, pair structure, and LP status.
 2. AIMM organizes observations.
@@ -394,39 +453,44 @@ The workflow may include:
 4. Team reviews smart-contract and treasury exposure.
 5. Team prepares public-safe reporting where appropriate.
 
-Boundary:
+This helps teams review DEX liquidity without turning observations into market promises.
 
-DEX liquidity review does not guarantee liquidity depth, swap execution quality, smart-contract safety, or market outcome.
+### Use Case 6: Liquidity Provider Review Workflow
+
+A project compares multiple liquidity service providers.
+
+The workflow can include:
+
+1. Team collects provider proposals.
+2. AIMM extracts service terms, requirements, reporting duties, risks, and open questions.
+3. Team compares providers side by side.
+4. Legal, treasury, and operational reviewers check the final decision.
+5. AIMM prepares an internal decision memo.
+
+This helps teams evaluate service options with more structure.
+
+### Use Case 7: Threshold Breach Workflow
+
+A workspace monitors liquidity conditions where supported.
+
+The workflow can include:
+
+1. A threshold breach or abnormal condition is detected.
+2. AIMM enriches the signal with context.
+3. AIMM explains the condition in operator-ready language.
+4. The right workspace role receives a review note.
+5. An operator reviews the report and decides the next action.
+6. The workflow state is recorded for audit and follow-up.
+
+This makes AIMM a workflow-aware operating layer rather than only a reporting screen.
 
 ---
 
-## 6. AIMM and FUZE Product Ecosystem
+## 7. Platform Credits and Product Usage
 
-AIMM is a specialized FUZE product.
+Platform Credits are product usage credits for supported FUZE products and services.
 
-It connects to the FUZE ecosystem by supporting liquidity operation workflows, market operations reporting, public communication discipline, and risk-aware documentation.
-
-AIMM may connect with:
-
-| FUZE Product or Rail | Relationship |
-|---|---|
-| QTB | QTB supports market interpretation; AIMM supports liquidity operations |
-| CommunityLayer AI | Helps turn liquidity questions into public-safe community answers |
-| TrainLayer AI | Converts liquidity policy and risk boundaries into team training material |
-| ToolGrid AI | May support discovery of market operation tools where appropriate |
-| Reporting Rails | Supports liquidity reports, operation summaries, and public-safe updates |
-| Platform Credits | May support AIMM usage as product service consumption |
-| FUZE Token | Connects only through ecosystem utility, not liquidity guarantees |
-
-AIMM must remain clearly separate from any claim of price support or market manipulation.
-
----
-
-## 7. AIMM and Platform Credits
-
-Platform Credits are product usage credits.
-
-AIMM may use Platform Credits for supported functions such as:
+AIMM can use Platform Credits for supported functions such as:
 
 - liquidity operation summaries
 - order-book observation reports
@@ -438,408 +502,268 @@ AIMM may use Platform Credits for supported functions such as:
 - market operations checklists
 - token unlock review notes
 - DEX liquidity review notes
-- premium market operations workflows where supported
+- abnormal market activity summaries
+- treasury context summaries
+- post-event market review reports
+- provider comparison reports
+- premium monitoring features where supported
+- alert prioritization where supported
+- report generation
+- workflow-linked AI analysis
+- premium workflow access where supported
 
-Platform Credits help users understand that AIMM is a product service.
+AIMM has strong monetization potential because liquidity and market operations are high-value operational categories.
+
+Possible monetization paths include:
+
+- workspace subscriptions
+- premium monitoring tiers
+- advanced liquidity and anomaly modules
+- structured operational dashboards
+- premium alerting or reporting
+- usage-based AI analysis
+- operator or seat plans
+- credits-backed operational actions
+- higher-value operational workflow layers where supported
+
+Inside FUZE, AIMM should operate through shared billing rails, Platform Credits, subscriptions, usage billing, visible entitlements, and AI usage metering.
+
+AIMM may define what counts as a premium action, which features belong to a plan, and which usage is metered.
+
+AIMM should not create a private AIMM-only credit system or hidden product-local billing truth outside the shared FUZE architecture.
 
 Platform Credits are separate from FUZE token.
 
-Platform Credits are not equity, debt, investment contracts, income rights, participation rights, profit share, yield products, governance rights, or wallet-based participation claims.
-
-Using Platform Credits in AIMM does not create wallet-based participation ability.
+FUZE token remains the single ecosystem token of FUZE.
 
 ---
 
-## 8. AIMM and FUZE Token
+## 8. FUZE Platform and Token Relationship
 
-FUZE token is the single ecosystem token of FUZE.
+AIMM connects to FUZE because liquidity operations, market access, public communication, reporting, and workspace trust are important parts of the Web3 product ecosystem.
 
-AIMM can support FUZE by adding a market operations support product to the ecosystem. AIMM may help teams organize liquidity-related workflows, public communication, and risk-aware reporting.
+AIMM is intended to be a platform-native FUZE product, not an isolated tooling stack.
 
-FUZE token may support product-connected utility, ecosystem participation, platform alignment, governance direction where applicable, and wallet-based participation ability.
+Its strongest structural logic is:
 
-However, AIMM usage does not guarantee:
+product domain intelligence + shared FUZE platform infrastructure
 
-- FUZE token price
-- FUZE token demand
-- token listing
-- exchange access
-- liquidity
-- market support
-- price support
-- trading volume
-- payout
-- income
-- yield
-- profit
-- exit
-- investment return
-- wallet-based participation eligibility
+AIMM owns market-operations product meaning.
 
-AIMM should not be used to promote FUZE token price expectations, listing expectations, or liquidity guarantees.
+AIMM can own:
+
+- market-operations configurations
+- operational views and state models
+- alerting rules
+- domain-specific AI task intent
+- workflow outcomes
+- market-operation analysis artifacts
+- product-specific output schemas
+- product-specific acceptance criteria for AI-assisted outputs
+
+AIMM should consume shared FUZE platform systems for:
+
+- canonical identity
+- workspace membership
+- roles and permissions
+- Platform Credits
+- subscriptions and invoices
+- AI routing policy
+- workflow infrastructure
+- async jobs
+- reporting
+- audit
+- transparency architecture
+
+AIMM can connect to shared platform rails such as:
+
+- identity and access
+- Platform Credits
+- payments and settlement where relevant
+- AI orchestration
+- workflow execution
+- async job infrastructure
+- data and permissions
+- reporting and transparency
+- audit visibility
+- wallet-based records where useful
+- QTB for market interpretation context while remaining separate
+- CommunityLayer AI for public-safe liquidity questions
+- TrainLayer AI for liquidity policy education
+- ToolGrid AI for market-operation tool discovery where appropriate
+- product-to-token utility where relevant
+
+FUZE token is the single ecosystem token.
+
+AIMM can support FUZE-related operations by helping teams organize liquidity and market operations information.
+
+AIMM should not turn FUZE token or any market asset into a liquidity promise, price-support story, or listing guarantee.
+
+Detailed token, wallet, liquidity, market, investor, legal, exchange, custody, and disclosure topics belong in dedicated tokenomics, investor, whitepaper, and risk papers.
 
 ---
 
-## 9. AIMM and Wallet-Based Participation
+## 9. Data, AI, Privacy, and Permission Controls
 
-Wallet-based participation ability is a possible FUZE token-related framework where eligible FUZE-holding wallets may participate in approved distributable value from defined FUZE product revenue pools if the framework becomes active.
+AIMM can involve sensitive market-operation, treasury, exchange, liquidity, provider, workspace, billing, entitlement, and internal strategy data.
 
-AIMM may become relevant to this model only if AIMM product revenue becomes part of a defined product revenue pool under approved rules.
-
-However:
-
-- AIMM revenue is not guaranteed.
-- AIMM adoption is not guaranteed.
-- AIMM product revenue does not automatically become approved distributable value.
-- Gross revenue is not approved distributable value.
-- Market operations subscriptions or Platform Credit usage do not create participation rights.
-- Product users do not automatically become eligible FUZE-holding wallets.
-- FUZE token holders do not automatically receive wallet-based participation ability.
-- Liquidity operations outcomes are not approved distributable value.
-
-Wallet-based participation ability is not a second token, not automatic for every wallet, and not active as a guaranteed public payout right.
-
-It may activate only after legal, accounting, treasury, audit, reporting, smart-contract, and jurisdiction gates are ready.
-
----
-
-## 10. Data, AI, Privacy, and Permission Controls
-
-AIMM may process sensitive market operations information.
-
-This can include:
+Examples include:
 
 - exchange communication notes
-- market maker communication notes
-- liquidity provider notes
+- liquidity provider proposals
+- market maker discussion notes
+- internal treasury notes
+- reserve context notes
 - venue comparison notes
-- treasury context
-- liquidity strategy notes
-- order-book observations
-- market incident notes
-- token unlock notes
-- internal risk reports
-- public communication drafts
-- listing-readiness notes
-- market operations checklists
-- payment or service provider notes where relevant
-- wallet or treasury addresses where provided
+- operational checklists
+- risk reports
+- public update drafts
+- token unlock planning notes
+- DEX liquidity notes
+- abnormal activity notes
+- internal decision records
+- workspace configuration
+- alert rules
+- entitlement status
+- billing-related product usage records
+- async workflow results
 
-Market operations data can be sensitive because it may involve treasury planning, exchange communication, liquidity provider relationships, market risk, token circulation, and public communication.
+AIMM should use privacy-aware and permission-aware design.
 
-Important controls include:
+Important data principles include:
 
-- workspace permission controls
-- internal/private report separation
-- public-safe output review
-- sensitive venue note protection
-- treasury note protection
-- private communication protection
-- legal and compliance review where needed
-- no automatic publication of internal market strategy
-- AI output review before decision-making
-- data retention and deletion controls where supported
+- exchange and provider communications should stay permissioned
+- treasury and reserve notes should remain controlled
+- internal liquidity strategies should stay private unless approved for release
+- workspace roles should control who can view, operate, approve, or administer AIMM workflows
+- public updates should use public-safe language
+- AI-generated reports should be reviewed before external use
+- sensitive market-operation notes should remain access-controlled
+- wallet-based records should stay separate from private identity records
+- legal, custody, exchange, and treasury review should remain in the appropriate review path
+- money, access, workflow, and sensitive state changes should remain explainable
 
-Public boundary:
+AIMM is expected to rely significantly on FUZE’s shared AI orchestration layer.
 
-AIMM supports market operations workflows. It does not guarantee data completeness, source accuracy, market accuracy, liquidity accuracy, privacy completeness, legal compliance, or security completeness.
+Relevant AIMM AI tasks can include:
 
----
+- market-condition interpretation
+- operational anomaly explanation
+- spread or inventory context explanation
+- ranked action-support summaries
+- alert prioritization support
+- structured operational report drafting
+- policy-bounded operator review notes
+- workflow-linked summarization or classification
 
-## 11. AI Output and Market Operations Review
+The shared AI platform can support routing, model selection, context assembly policy, provider abstraction, usage metering hooks, fallback behavior, degraded-mode support, and async execution scaffolding.
 
-AIMM uses AI to support market-making and liquidity operations workflows.
+AI can help summarize, structure, and organize liquidity information.
 
-AI output may be incomplete, outdated, inaccurate, biased, or overconfident if not reviewed.
-
-Users should review AIMM outputs before using them for:
-
-- market operations decisions
-- liquidity provider communication
-- exchange communication
-- treasury movement
-- public liquidity updates
-- listing-readiness communication
-- market maker evaluation
-- token unlock communication
-- legal or compliance-sensitive messages
-- investor communication
-- community updates
-
-AIMM should use cautious language around liquidity, listing, price, market support, exchange access, trading volume, and exit.
-
-Boundary:
-
-AIMM does not provide financial advice, investment advice, legal advice, tax advice, accounting advice, trading instructions, market manipulation instructions, or guaranteed results.
+Human review remains important for market-operation decisions, exchange communication, treasury actions, public updates, token-related language, and risk-sensitive materials.
 
 ---
 
-## 12. AIMM and Market Integrity
+## 10. Reporting and Transparency Direction
 
-AIMM must support market integrity.
+AIMM can support reporting in practical ways.
 
-AIMM should never be positioned as a tool for:
+Reporting can include:
 
-- wash trading
-- fake volume
-- spoofing
-- pump campaigns
-- price manipulation
-- artificial price support
-- misleading liquidity claims
-- misleading exchange-access claims
-- coordinated market abuse
-- deceptive trading activity
-- hiding material market risk
-- creating false community expectations
-
-AIMM should support better documentation, review, communication, risk monitoring, and operational discipline.
-
-Approved market integrity position:
-
-AIMM helps teams organize liquidity operations, market-making support workflows, and public-safe reporting. AIMM does not execute manipulation, does not guarantee liquidity, and does not promise price support.
-
-This distinction is essential for public trust.
-
----
-
-## 13. AIMM Public Communication Standards
-
-AIMM public communication must be especially careful.
-
-Approved AIMM wording includes:
-
-- AI market-making and liquidity operations support
 - liquidity operation summaries
-- market operations reporting
+- internal market operations reports
+- order-book observation reports
+- venue comparison reports
+- market maker communication summaries
+- liquidity risk reports
 - public-safe liquidity updates
-- exchange communication support
-- venue comparison notes
-- liquidity risk observations
-- market maker communication support
-- order-book observation summaries
-- liquidity-readiness checklist
+- treasury context summaries
+- token unlock preparation reports
+- DEX liquidity review notes
+- exchange communication status
+- abnormal activity summaries
+- AI usage volume and task classes
+- premium versus included usage
+- workspace versus account usage patterns
+- billing and entitlement error visibility
+- correction and reversal patterns
+- product-operational health
+- workflow volume and failure patterns
+- Platform Credit usage records where supported
+- product usage summaries where appropriate
 
-Avoid AIMM wording such as:
+For users, reporting helps organize liquidity review.
 
-- guaranteed liquidity
-- guaranteed price support
-- guaranteed listing
-- guaranteed market outcome
-- guaranteed trading volume
-- guaranteed exit liquidity
-- guaranteed exchange access
-- price protection
-- pump support
-- market manipulation
-- wash trading
-- fake volume
-- risk-free liquidity
-- token price control
-- guaranteed market-making result
+For communities, public-safe reporting helps explain liquidity direction with careful wording.
 
-AIMM must be positioned as support for operations and reporting, not as a guarantee of market performance.
+For FUZE, AIMM can help show disciplined Web3 operations support without turning liquidity or market access into speculative promises.
 
----
+AIMM should also generate meaningful audit visibility for trust-sensitive actions such as:
 
-## 14. Revenue Direction and Readiness
+- premium operational analysis linked to billable state
+- workspace-scoped high-impact configuration changes
+- AI usage correction or reversal
+- replay or cancellation of sensitive async workflows
+- approval-gated workflow decisions
+- support corrections affecting commercial state
 
-AIMM may support revenue direction through practical product usage.
+This does not mean every simple read action requires heavy audit treatment.
 
-Potential revenue paths may include:
+It means actions affecting money, access, operational workflows, or sensitive product state should remain explainable.
 
-- usage-based Platform Credits
-- liquidity operation report packages
-- market operations checklist packages
-- exchange communication summary packages
-- venue comparison report packages
-- market maker communication support packages
-- public-safe liquidity update workflows
-- token unlock review workflows
-- liquidity risk report packages
-- project team market operations workspace
-- premium operations support workflows
-- integration with QTB, CommunityLayer AI, and TrainLayer AI
-
-Revenue readiness depends on:
-
-- clear market operations user problem
-- reliable product workflow
-- strong risk boundaries
-- Platform Credit usage model
-- AI cost tracking
-- sensitive data controls
-- public communication controls
-- compliance-aware positioning
-- output quality
-- customer support process
-- repeat usage potential
-- product evidence
-- professional review workflow where needed
-
-Revenue is not guaranteed.
-
-Product revenue does not automatically become approved distributable value.
-
-Approved distributable value is not gross revenue, not token sale proceeds, not seed-round funds, not trading results, not liquidity outcomes, and not general treasury balance.
+Reporting should protect private exchange notes, treasury records, provider discussions, market-operation strategy, and internal decision records.
 
 ---
 
-## 15. AIMM Risk Boundaries
+## 11. Product Boundary
 
-AIMM public communication must include clear boundaries.
+AIMM is an AI market-making and liquidity operations support product.
 
-| Area | Boundary |
-|---|---|
-| Liquidity | AIMM does not guarantee liquidity |
-| Price | AIMM does not guarantee price support or price outcome |
-| Listing | AIMM does not guarantee exchange listing or exchange access |
-| Market outcome | AIMM does not guarantee market outcome |
-| Trading volume | AIMM does not guarantee volume |
-| Market making | AIMM supports operations; it is not an autonomous market maker |
-| Market integrity | AIMM must not support manipulation, fake volume, or misleading market activity |
-| Exchange communication | Communication support does not guarantee exchange approval |
-| Market maker communication | Communication support does not guarantee provider performance |
-| Treasury | Treasury notes require review and do not guarantee correct action |
-| AI output | AI output may be inaccurate, incomplete, outdated, or biased |
-| Public reports | Public reports require review and should avoid liquidity promises |
-| Platform Credits | Credits are usage credits, not investment rights |
-| FUZE token | AIMM usage does not guarantee token price, demand, liquidity, listing, or payout |
-| Wallet participation | Product usage does not create automatic wallet-based participation ability |
+It supports liquidity summaries, order-book observations, venue comparisons, exchange communication support, market maker communication support, liquidity risk reports, market operations checklists, workspace-based operations, alert and anomaly review, and public-safe liquidity updates.
 
----
+AIMM is separate from QTB.
 
-## 16. Investor and Community Relevance
+QTB focuses on market interpretation and research workflows.
 
-### 16.1 Investor Relevance
+AIMM focuses on liquidity operations support.
 
-AIMM is relevant to investors because liquidity operations, exchange communication, market integrity, and public market expectations are important parts of a token ecosystem.
+AIMM is not a market maker by itself, autonomous trading executor, price-support engine, guaranteed liquidity system, market-manipulation tool, unrestricted autonomous market actor, or black-box profit engine.
 
-Investors can evaluate AIMM through:
+Its best product shape is bounded AI-assisted operations discipline: structured notes, reports, monitoring context, playbooks, checklists, workflow support, workspace roles, and communication support under human review.
 
-- product scope
-- risk boundary discipline
-- market integrity positioning
-- Platform Credit usage model
-- reporting quality
-- public communication controls
-- sensitive data controls
-- compliance-aware positioning
-- integration with QTB and CommunityLayer AI
-- product evidence where available
+Token ownership should not grant AIMM operator authority by itself.
 
-AIMM can strengthen FUZE as a platform by improving market operations documentation and public communication discipline.
+AIMM should not become a shadow platform, shadow billing system, or shadow governance layer inside FUZE.
 
-It does not guarantee liquidity, exchange listing, token price, market outcome, wallet-based participation activation, exit, or investment return.
+Detailed financial, market, token, legal, investor, AI, privacy, exchange, custody, liquidity, and disclosure boundaries belong mainly in dedicated papers such as:
 
-### 16.2 Community Relevance
+- `AI-SAAS-PRODUCT-PAPERS/11-QTB_PUBLIC.md`
+- `AI-SAAS-PRODUCT-PAPERS/16-FUZE_PRODUCT_RISK_BOUNDARIES_PUBLIC.md`
+- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/21-FUZE_LIQUIDITY_AND_LISTING_POLICY_PUBLIC.md`
+- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/22-FUZE_MARKET_PRICE_AND_DEMAND_BOUNDARY_PUBLIC.md`
+- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/29-FUZE_TOKEN_RISK_BOUNDARIES_PUBLIC.md`
+- `INVESTOR-PARTNER-PAPERS/17-FUZE_INVESTOR_RISK_DISCLOSURE_PUBLIC.md`
+- `INVESTOR-PARTNER-PAPERS/19-FUZE_EXCHANGE_AND_MARKET_ACCESS_BOUNDARY_PUBLIC.md`
+- `WHITEPAPER-PAPERS/05-FUZE_RISK_AND_DISCLOSURE_APPENDIX_PUBLIC.md`
 
-AIMM is relevant to the FUZE community because liquidity and exchange questions are common in crypto communities.
-
-Community members often ask:
-
-- where the token can trade
-- whether liquidity is available
-- whether listings are planned
-- why spread changes
-- why volume changes
-- whether liquidity is safe
-- whether market makers are involved
-- whether exit is possible
-
-AIMM can help teams prepare clearer, safer, more accurate public explanations.
-
-Community members should not treat AIMM as a guarantee of liquidity, price support, listing, or exit.
-
-### 16.3 Product User Relevance
-
-For product users, AIMM helps structure market operations work.
-
-Users can use AIMM to prepare internal reports, checklists, summaries, and public-safe messages.
-
-Users remain responsible for professional review, legal review, compliance review, treasury review, and final decisions.
-
-AIMM does not remove market risk.
+This keeps the AIMM paper focused on product use while deeper market, liquidity, legal, token, investor, and disclosure review remains in the correct documents.
 
 ---
 
-## 17. Product Development Direction
+## 12. Key Takeaways
 
-AIMM can develop through phased product maturity.
-
-### Phase 1: Liquidity Summary Workflows
-
-Support liquidity operation summaries, market condition notes, spread and depth observations, and venue notes.
-
-### Phase 2: Exchange and Provider Communication
-
-Support exchange communication summaries, market maker communication notes, requirement checklists, and follow-up tasks.
-
-### Phase 3: Risk Observation Layer
-
-Support liquidity risk notes, volatility risk notes, venue risk notes, custody risk notes, token unlock risk notes, and public communication risk notes.
-
-### Phase 4: Public-Safe Liquidity Reporting
-
-Support community-ready liquidity updates, exchange-access boundaries, no-guarantee language, and reviewed public communication drafts.
-
-### Phase 5: FUZE Product Integration
-
-Connect with QTB, CommunityLayer AI, TrainLayer AI, ToolGrid AI, reporting rails, and Platform Credits where appropriate.
-
-### Phase 6: Treasury and Vault Context
-
-Support treasury, reserve, vault, and settlement context notes where appropriate, without exposing sensitive private data.
-
-### Phase 7: Governance and Compliance-Aware Review
-
-Support stronger public language checks, report review workflows, market integrity controls, and risk boundary enforcement.
-
-These phases are development directions, not guaranteed launch dates.
-
----
-
-## 18. Public Positioning
-
-AIMM should be presented as liquidity operations support.
-
-Approved positioning:
-
-AIMM is AI market-making and liquidity operations support under FUZE. It helps users organize liquidity operations, summarize market conditions, prepare venue and exchange notes, review market maker communication, create risk-aware reports, and draft public-safe liquidity updates.
-
-Avoid positioning AIMM as:
-
-- autonomous market maker
-- guaranteed liquidity engine
-- guaranteed price support tool
-- guaranteed listing service
-- guaranteed exchange access product
-- guaranteed trading volume system
-- market manipulation tool
-- fake volume tool
-- price protection system
-- guaranteed exit product
-- passive income source
-- investment product
-
-AIMM’s value comes from organizing liquidity operations and improving risk-aware reporting, not from guaranteed market outcomes.
-
----
-
-## 19. Key Takeaways
-
-AIMM is the AI market-making and liquidity operations support product under FUZE.
-
-AIMM helps users organize liquidity operations, summarize market conditions, prepare venue and exchange notes, review market maker communication, create liquidity risk reports, and draft public-safe liquidity updates.
-
-AIMM is not a market maker by itself, not an autonomous trading executor, not a price-support engine, not a guaranteed liquidity system, and not a tool for market manipulation.
-
-Platform Credits may support AIMM usage where supported.
-
-Platform Credits are product usage credits and are separate from FUZE token.
-
-FUZE token is the single ecosystem token of FUZE.
-
-Wallet-based participation ability is not a second token, not automatic for every wallet, and not active as a guaranteed public payout right.
-
-AIMM supports market operations workflows, but it does not guarantee liquidity, price support, listing performance, market outcome, trading profit, token price, exchange access, payout, income, yield, business revenue, user growth, community growth, or investment return.
+- AIMM — AI Market Maker is the AI-powered market-operations and liquidity operations support product under FUZE.
+- AIMM helps token projects, trading teams, treasury operators, and market operators move from fragmented market support toward clearer liquidity interpretation, stronger monitoring, and structured operational workflows.
+- AIMM is an operations support product.
+- AIMM is separate from QTB.
+- QTB interprets market information.
+- AIMM organizes liquidity and market operations workflows.
+- AIMM’s core logic is market and liquidity signals in, AI-assisted interpretation and workflow layer, clearer market-operations support out.
+- Platform Credits can support AIMM product usage where supported.
+- FUZE token is the single ecosystem token of FUZE.
+- AIMM can connect with QTB, CommunityLayer AI, TrainLayer AI, ToolGrid AI, shared AI orchestration, workflow infrastructure, reporting rails, billing, permissions, and audit systems where appropriate.
+- AIMM is strongest when understood as a governed market-operations operating layer, not a black-box trading bot.
+- Private exchange communication, treasury notes, provider discussions, workspace records, market-operation strategies, and sensitive review materials should stay permission-aware.
+- AI-generated liquidity reports, alert summaries, workflow outputs, and public updates should be reviewed before external use.
+- AIMM’s strongest edge is bounded intelligence, outcome-first market-operating output, reliability discipline, workspace-native collaboration, and platform-level reuse of orchestration, workflow, billing, credits, and trust systems.
+- Detailed liquidity, market, token, legal, investor, exchange, custody, and disclosure boundaries belong mainly in dedicated risk and review papers.

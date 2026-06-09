@@ -114,14 +114,14 @@ FUZE Core Platform Rails can be understood as ten connected rails.
 
 | Rail | Main Role |
 |---|---|
-| Identity and Access Rail | Handles users, roles, permissions, product access, wallet-aware access where supported, and account-level controls. |
+| Identity and Access Rail | Handles users, roles, permissions, user profiles, product access, wallet-aware access where supported, and account-level controls. |
 | Platform Credits Rail | Supports product usage credits across supported products and services. |
 | Payment and Settlement Rail | Supports payment, settlement, treasury, compensation, and supported payment paths. |
 | AI Orchestration Rail | Supports AI generation, summaries, routing, analysis, workflow assistance, reporting, and decision-support outputs. |
 | Data and Permission Rail | Supports privacy controls, data access rules, user consent direction, product permissions, and AI data handling. |
 | Wallet-Based Record Rail | Supports wallet references, snapshots, report links, eligibility status where applicable, vault references, and public-safe transparency. |
 | Reporting and Transparency Rail | Supports public papers, status reports, dashboards, metrics, report hashes, audit direction, and review surfaces. |
-| Governance and Control Rail | Supports approval logic, operating controls, multisig direction, timelock direction, smart contract readiness, and internal safeguards where applicable. |
+| Governance and Control Rail | Supports approval logic, operating controls, multisig direction, timelock direction, smart contract readiness, and safeguards where applicable. |
 | Product-to-Token Utility Rail | Explains how products can connect to FUZE token utility where relevant. |
 | Risk and Boundary Reference Rail | Routes deeper product, token, AI, investor, market, and legal boundaries into dedicated papers. |
 

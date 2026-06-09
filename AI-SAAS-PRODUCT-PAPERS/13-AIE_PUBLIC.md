@@ -1,29 +1,50 @@
-# AIE - AI Event
+# AIE
 
 ## Executive Summary
 
-AIE is the event intelligence product under FUZE.
+AIE — Event Intelligence is the AI-powered event and opportunity intelligence product under FUZE.
 
-AIE is designed to help teams, communities, brands, projects, event organizers, sponsors, shops, Web3 groups, and product teams plan, organize, summarize, report, and learn from events.
+AIE helps users discover, understand, filter, prioritize, plan, summarize, report, and learn from relevant events, activity environments, attention shifts, campaigns, product launches, community moments, conferences, tournaments, partner activities, and market-facing events.
 
-AIE supports event planning, agenda creation, guest and attendee organization, sponsor summaries, campaign tracking, event reports, post-event recaps, community engagement summaries, feedback summaries, and public-safe event documentation.
+AIE is not only an event calendar.
 
-FUZE is a transparency-first AI SaaS platform building practical products on shared infrastructure for identity, credits, payments, AI orchestration, wallet-based records, reporting, and ecosystem participation. AIE gives FUZE an event-focused product surface that can connect community activity, product launches, campaigns, physical events, online events, game events, sponsored visibility, reporting, and investor/community updates.
+It is designed to become an intelligence layer for event-driven awareness.
 
-AIE can connect with Platform Credits where supported. Platform Credits are product usage credits and are separate from FUZE token. FUZE token is the single ecosystem token of FUZE.
+FUZE is a product-first AI SaaS and Web3 ecosystem. AIE gives FUZE an event-focused product surface that can connect community activity, product launches, campaigns, physical events, online events, game tournaments, sponsored visibility, event discovery, opportunity mapping, reporting, and investor or community updates.
 
-AIE supports event intelligence workflows. It does not guarantee event attendance, ticket sales, sponsorship revenue, customer acquisition, user growth, community growth, campaign success, business revenue, AI accuracy, token price, liquidity, payout, income, yield, or investment return.
+AIE expands FUZE beyond direct market analysis and token infrastructure into the broader layer of ecosystem discovery.
+
+QTB helps users understand market signals.
+
+AIMM helps teams support market operations.
+
+ZAGA helps structure game and token-utility experiences.
+
+AIE helps users discover and interpret event-driven environments.
+
+Platform Credits support product usage.
+
+FUZE token is the single ecosystem token of FUZE.
+
+Stablecoins support payment, settlement, treasury, and compensation rails.
+
+Wallet-based records can support public-safe transparency where useful while private attendee records, sponsor notes, staff data, event operations, recommendations, alert configurations, workspace records, and sensitive partner records stay permissioned where required.
+
+AIE’s public role is simple: help users know what matters, earlier and more clearly.
 
 ---
 
 ## 1. Product Purpose
 
-AIE exists to make events easier to plan, operate, document, and review.
+AIE exists to help users turn event activity into structured intelligence.
 
-The product purpose is to help users turn event activity into structured intelligence.
+The product purpose is to help users discover relevant events, understand context, prioritize what matters, organize event operations, create public-safe reports, and learn from event outcomes.
 
-AIE can help users create:
+AIE can help users create and manage:
 
+- event discovery views
+- relevance-ranked event lists
+- opportunity maps
 - event plans
 - event agendas
 - speaker schedules
@@ -42,87 +63,172 @@ AIE can help users create:
 - event performance summaries
 - public-safe event reports
 - event learning notes for future planning
+- watchlists and alert logic where supported
+- scheduled event digests and briefings where supported
 
-AIE is designed for practical event operations.
+AIE is designed for practical event intelligence.
 
-It helps teams organize what needs to happen before, during, and after an event.
+It helps users move from scattered event information into clearer awareness, stronger prioritization, better planning, and more useful follow-up.
+
+The product starts with discovery, relevance, and context.
+
+Over time, it can deepen into event-driven workflows without becoming a wide-open autonomous agent.
 
 ---
 
-## 2. User Problem and Event Context
+## 2. Who This Product Helps
 
-Events create a lot of information quickly.
+AIE helps people and organizations that need to discover, plan, operate, and learn from events.
 
-Teams often need to manage people, timing, content, sponsors, venues, booths, communities, reports, photos, announcements, follow-ups, and feedback at the same time.
+| User Type | Event or Awareness Need | How AIE Helps |
+|---|---|---|
+| Web3 projects | Meetups, AMAs, launch events, sponsor updates, and investor sessions | Creates agendas, announcements, reports, and public-safe recaps |
+| Product teams | Product launches, user events, demos, and feedback sessions | Organizes plans, speaker notes, feedback, and follow-up |
+| Crypto-native operators | Ecosystem weeks, launches, governance windows, and market-facing events | Filters event noise and creates relevance-aware summaries |
+| ZAGA communities | Tournaments, leaderboard events, city events, and group campaigns | Creates game event plans, summaries, and public-safe reports |
+| Local shops | Weekend campaigns, food booths, market stalls, and loyalty events | Connects ShopOS AI, SpeakShop AI, SheetLayer AI, and AIE recaps |
+| Brands and sponsors | Sponsor deliverables, booth notes, activation reports, and follow-up | Creates sponsor summaries and post-event reports |
+| Community managers | Announcements, repeated questions, live updates, and post-event summaries | Connects with CommunityLayer AI to organize event communication |
+| Event organizers | Agendas, tasks, schedules, staff roles, and operational notes | Creates event checklists, timelines, and role plans |
+| Creators | Fan meetups, launches, livestreams, and content events | Creates announcements, content plans, and recap posts |
+| Investor teams | Investor update events and follow-up reports | Creates agenda structures, question summaries, and follow-up lists |
+| Workspaces and teams | Shared event watchlists and opportunity boards | Supports workspace-owned views, alerts, and collaborative review where supported |
 
-Common event problems include:
+AIE is not only for large conferences.
 
+It can support small practical events, online events, community moments, market-facing updates, and activity environments where timing and context matter.
+
+---
+
+## 3. User Problem and Market Context
+
+Digital ecosystems move through events, launches, announcements, communities, conferences, product drops, online discussions, and moments of coordinated attention.
+
+Users often face recurring problems:
+
+- too many scattered sources
+- weak prioritization
+- poor filtering
+- low-quality discovery
+- incomplete context
+- fragmented calendars
+- scattered Telegram and Discord updates
+- manual tracking across social feeds and newsletters
+- unclear event importance
 - scattered planning notes
 - unclear agenda
 - missing task ownership
 - weak sponsor summaries
 - unorganized attendee information
-- no clear event checklist
-- poor follow-up after the event
 - limited post-event reporting
-- repeated planning mistakes
 - difficulty turning event activity into content
 - difficulty showing event value to sponsors or partners
-- community questions before and after the event
-- no public-safe summary for readers
 - no structured evidence of what happened
+- no clear way to turn event lessons into future playbooks
 
-AIE addresses these problems by helping users organize event information into useful outputs.
+The real problem is not only event overload.
 
-This is relevant for:
+The deeper problem is the lack of structured event intelligence.
 
-- Web3 events
-- product launches
-- community meetups
-- game tournaments
-- ZAGA events
-- shop campaigns
-- food market booths
-- conferences
-- sponsor events
-- investor events
-- partner events
-- online webinars
-- Telegram community events
-- creator events
-- local business events
+Users do not only need to know what event exists.
 
-AIE is not only for large events. It can support small practical events where the organizer needs clarity and reporting.
+They need to understand:
+
+- why it matters
+- who it matters to
+- what opportunity surrounds it
+- what risk or context surrounds it
+- what action or awareness should follow
+- how the event connects to their role, workspace, product, community, or ecosystem
+
+AIE addresses this gap by helping users convert event noise into useful awareness.
+
+This is relevant for Web3, crypto, startups, product ecosystems, local business campaigns, game communities, online communities, and high-speed digital environments where attention shifts quickly.
 
 ---
 
-## 3. AIE Product Model
+## 4. Product Model
 
-AIE has seven main product layers.
+AIE has nine main product layers.
 
 | Layer | Role |
 |---|---|
+| Event Discovery Layer | Helps discover events, launches, community moments, product drops, conferences, campaigns, and activity environments |
+| Relevance and Ranking Layer | Supports event filtering, role-aware relevance, category classification, urgency, and opportunity scoring where supported |
 | Event Planning Layer | Helps organize goals, agenda, tasks, timeline, venue, team roles, and event flow |
 | Attendee and Guest Layer | Helps organize guests, participants, speakers, communities, and role-specific notes |
 | Sponsor and Partner Layer | Helps prepare sponsor summaries, partner notes, deliverables, and follow-up reports |
 | Campaign and Content Layer | Helps create announcements, social content, booth scripts, event reminders, and post-event content |
 | Event Reporting Layer | Helps create event summaries, recap reports, feedback reports, and public-safe documentation |
-| Integration Layer | Connects with CommunityLayer AI, SpeakShop AI, TrainLayer AI, ToolGrid AI, ZAGA, and other FUZE products where appropriate |
-| Platform Layer | Connects with Platform Credits, AI orchestration, reporting rails, product data, and FUZE ecosystem direction where supported |
+| Integration Layer | Connects with CommunityLayer AI, SpeakShop AI, TrainLayer AI, ToolGrid AI, ZAGA, HerHelp, QTB, and other FUZE products where appropriate |
+| Platform Layer | Connects with identity, workspaces, Platform Credits, AI orchestration, workflows, notifications, reporting rails, product data, and FUZE ecosystem direction where supported |
 
-AIE is an event intelligence layer, not only an event calendar.
+AIE is more useful when understood as an awareness operating layer.
 
-It helps convert event activity into planning, communication, reporting, and reusable knowledge.
+The core logic is:
+
+event and activity signals in → AI-assisted filtering and interpretation → clearer awareness and opportunity context out
+
+AIE starts with discovery, relevance, and context.
+
+It can then support planning, participation, reporting, and future learning.
 
 ---
 
-## 4. Core Features
+## 5. Core Features
 
-### 4.1 Event Planning
+### 5.1 Event Discovery and Aggregation
+
+AIE can help users discover relevant events and activity environments.
+
+Discovery can include:
+
+- conferences
+- meetups
+- product launches
+- online webinars
+- community events
+- Telegram events
+- ZAGA tournaments
+- shop campaigns
+- sponsor events
+- partner events
+- investor update events
+- ecosystem weeks
+- governance windows
+- token-related public events where appropriate
+- market-facing announcements where public-safe
+
+AIE should help users move from scattered event sources into a clearer discovery environment.
+
+### 5.2 Event Relevance and Opportunity Intelligence
+
+AIE can help users understand why an event matters.
+
+Relevance outputs can include:
+
+- event category
+- target audience
+- urgency
+- role relevance
+- workspace relevance
+- sponsor or partner relevance
+- community relevance
+- product relevance
+- market-context relevance where appropriate
+- opportunity notes
+- risk notes
+- recommended review path where supported
+
+AIE should not become an infinite feed.
+
+Its strongest shape is structured and explainable relevance.
+
+### 5.3 Event Planning
 
 AIE can support event planning workflows.
 
-Planning outputs may include:
+Planning outputs can include:
 
 - event goal summary
 - target audience
@@ -145,17 +251,11 @@ Example:
 
 A project team is preparing a Web3 community meetup. AIE can help organize the event goal, agenda, speaker list, sponsor notes, community announcements, and post-event reporting structure.
 
-Boundary:
-
-Event planning support does not guarantee attendance, sponsor success, revenue, execution quality, or event outcome.
-
----
-
-### 4.2 Agenda and Schedule Creation
+### 5.4 Agenda and Schedule Creation
 
 AIE can help create event agendas.
 
-Agenda support may include:
+Agenda support can include:
 
 - session order
 - speaker schedule
@@ -167,21 +267,16 @@ Agenda support may include:
 - community activity schedule
 - sponsor activation timing
 - staff arrival time
-- setup and closing checklist
+- setup checklist
+- closing checklist
 
 A good agenda helps teams coordinate before the event starts.
 
-Boundary:
-
-Agenda support does not guarantee that the event runs on time or that participants follow the schedule.
-
----
-
-### 4.3 Guest, Attendee, and Speaker Organization
+### 5.5 Guest, Attendee, and Speaker Organization
 
 AIE can help organize guest and attendee information.
 
-This may include:
+This can include:
 
 - guest list summaries
 - attendee categories
@@ -197,17 +292,11 @@ This may include:
 
 AIE can help teams understand who is coming and what each group needs.
 
-Boundary:
-
-Attendee organization support does not guarantee attendance, guest quality, conversion, sponsor value, or relationship outcome.
-
----
-
-### 4.4 Sponsor and Partner Summaries
+### 5.6 Sponsor and Partner Summaries
 
 AIE can support sponsor and partner workflows.
 
-Sponsor-related outputs may include:
+Sponsor-related outputs can include:
 
 - sponsor profile summary
 - sponsor deliverables
@@ -222,17 +311,11 @@ Sponsor-related outputs may include:
 
 This helps teams communicate more clearly with partners and sponsors.
 
-Boundary:
-
-Sponsor and partner summaries do not guarantee sponsorship revenue, partner satisfaction, future deals, or commercial outcomes.
-
----
-
-### 4.5 Event Content and Announcement Support
+### 5.7 Event Content and Announcement Support
 
 AIE can help create event content.
 
-Content outputs may include:
+Content outputs can include:
 
 - event announcement
 - reminder post
@@ -251,17 +334,15 @@ Content outputs may include:
 
 AIE can connect with CommunityLayer AI and SpeakShop AI where appropriate.
 
-Boundary:
+CommunityLayer AI can support repeated questions, Telegram messages, event group summaries, and moderation notes.
 
-Event content support does not guarantee engagement, attendance, ticket sales, reach, conversion, or campaign success.
+SpeakShop AI can support speaker announcements, booth scripts, queue messages, and event voice prompts.
 
----
-
-### 4.6 Event Reports and Recaps
+### 5.8 Event Reports, Recaps, and Learning Notes
 
 AIE can help create event reports.
 
-Event reports may include:
+Event reports can include:
 
 - executive summary
 - event objective
@@ -278,47 +359,58 @@ Event reports may include:
 - public-safe recap
 - partner or investor-ready summary where appropriate
 
-Reports help teams preserve event memory and communicate outcomes.
+AIE can also help organize feedback into themes, issues, positive notes, and improvement ideas.
 
-Boundary:
+Feedback can come from attendees, speakers, sponsors, staff, booth operators, community members, event partners, Telegram groups, survey forms, social comments, or post-event meetings.
 
-Reports depend on source data quality and human review. Event reports do not guarantee business revenue, sponsorship value, community growth, or future success.
+This helps teams preserve event memory and improve future events.
 
----
+### 5.9 Watchlists, Alerts, and Briefings
 
-### 4.7 Feedback and Learning Notes
+AIE can support watchlists, alerts, and event briefings where supported.
 
-AIE can help summarize feedback.
+These can include:
 
-Feedback may come from:
+- personal event watchlists
+- workspace event watchlists
+- saved discovery views
+- category alerts
+- urgency alerts
+- sponsor or partner alerts
+- community event digests
+- weekly event briefings
+- opportunity maps
+- scheduled digest generation
+- recommendation refreshes
 
-- attendees
-- speakers
-- sponsors
-- staff
-- booth operators
-- community members
-- event partners
-- Telegram groups
-- survey forms
-- social comments
-- post-event meetings
+AIE’s long-term role is not only to list events.
 
-AIE can help organize feedback into themes, issues, positive notes, and improvement ideas.
-
-Boundary:
-
-Feedback summaries are interpretation support. They do not guarantee complete accuracy, full participant representation, or future event improvement.
+It is to help users notice important activity earlier and understand why it matters.
 
 ---
 
-## 5. User Workflow Examples
+## 6. Practical Workflows and Use Cases
 
-### 5.1 Web3 Community Meetup Workflow
+### Use Case 1: Event Discovery Workflow
+
+A user wants to know which events matter this week.
+
+The workflow can include:
+
+1. User selects categories, interests, roles, or workspace goals.
+2. AIE gathers or organizes event signals where supported.
+3. AIE summarizes and classifies the events.
+4. AIE ranks relevance and explains why selected events matter.
+5. User saves events to a watchlist or briefing.
+6. AIE creates a follow-up digest where supported.
+
+This helps the user move from event overload to event awareness.
+
+### Use Case 2: Web3 Community Meetup Workflow
 
 A Web3 project plans a meetup.
 
-The workflow may include:
+The workflow can include:
 
 1. Team enters event objective, date, audience, and venue notes.
 2. AIE creates an agenda and task checklist.
@@ -327,17 +419,13 @@ The workflow may include:
 5. During the event, the team records notes and questions.
 6. AIE creates a post-event report and public-safe recap.
 
-Boundary:
+This helps the event team manage before, during, and after the meetup.
 
-This workflow supports event organization. It does not guarantee attendance, sponsorship success, community growth, or token demand.
-
----
-
-### 5.2 ZAGA Tournament Event Workflow
+### Use Case 3: ZAGA Tournament Event Workflow
 
 A ZAGA community organizes a ZAGA Arena tournament.
 
-The workflow may include:
+The workflow can include:
 
 1. Team defines tournament rules and schedule.
 2. AIE creates event agenda and announcement drafts.
@@ -346,17 +434,28 @@ The workflow may include:
 5. AIE creates tournament recap and public-safe event report.
 6. TrainLayer AI creates future tournament host guidelines where supported.
 
-Boundary:
+This gives game communities a clearer event operating process.
 
-Tournament support does not guarantee player participation, game revenue, community growth, or sponsor outcome.
+### Use Case 4: ZAGA Districts Community Event Workflow
 
----
+A ZAGA Districts city runs a faction event.
 
-### 5.3 Shop Campaign Event Workflow
+The workflow can include:
+
+1. City admins define the event objective.
+2. AIE creates a city event plan.
+3. CommunityLayer AI prepares Telegram updates.
+4. ZAGA Districts provides city progress, quest, or leaderboard records where supported.
+5. AIE creates a public-safe faction event recap.
+6. TrainLayer AI turns the recap into future host guidance.
+
+This helps city-based communities coordinate better.
+
+### Use Case 5: Shop Campaign Event Workflow
 
 A local shop runs a weekend promotion.
 
-The workflow may include:
+The workflow can include:
 
 1. ShopOS AI prepares campaign details.
 2. SpeakShop AI creates speaker announcements.
@@ -365,456 +464,320 @@ The workflow may include:
 5. AIE creates a campaign recap.
 6. Shop owner reviews lessons for the next weekend.
 
-Boundary:
+This helps small shops treat campaigns as repeatable event workflows.
 
-Shop campaign support does not guarantee foot traffic, sales conversion, revenue growth, or customer retention.
+### Use Case 6: Investor or Partner Event Workflow
 
----
+A project team prepares an investor or partner event.
 
-### 5.4 Investor Event Workflow
-
-A project team prepares an investor update event.
-
-The workflow may include:
+The workflow can include:
 
 1. Team defines event objective and audience.
 2. AIE creates agenda and talking-point structure.
 3. Public papers and data-room notes are organized.
 4. AIE prepares follow-up checklist.
-5. After the event, AIE creates investor question summary and follow-up notes.
+5. After the event, AIE creates question summaries and follow-up notes.
+6. Public-safe or permissioned reports are prepared based on audience.
 
-Boundary:
+This helps teams manage high-trust communication more clearly.
 
-Investor event support does not guarantee investment, fundraising success, valuation, investor approval, or business result.
+### Use Case 7: Workspace Opportunity Board Workflow
 
----
+A team uses AIE as a shared opportunity board.
 
-### 5.5 Partner Event Workflow
+The workflow can include:
 
-A partner event needs clear deliverables.
+1. Team creates a workspace-level event watchlist.
+2. AIE classifies events by category, urgency, and relevance.
+3. Team members review saved opportunities.
+4. AIE generates briefings for selected events.
+5. Alerts are sent to the right channel where supported.
+6. Reports and actions remain tied to the workspace.
 
-The workflow may include:
-
-1. AIE organizes partner expectations.
-2. Sponsor and partner deliverables are listed.
-3. Event content is planned.
-4. Public-safe event announcements are created.
-5. Post-event sponsor summary is prepared.
-6. Follow-up items are assigned.
-
-Boundary:
-
-Partner event support does not guarantee partnership success, sponsor renewal, customer acquisition, or commercial outcome.
+This supports team-level event intelligence without turning AIE into a shadow platform.
 
 ---
 
-## 6. AIE and FUZE Product Ecosystem
+## 7. Platform Credits and Product Usage
 
-AIE connects naturally with several FUZE products.
+Platform Credits are product usage credits for supported FUZE products and services.
 
-| FUZE Product or Rail | AIE Relationship |
-|---|---|
-| CommunityLayer AI | Supports event communities, questions, announcements, summaries, and moderation |
-| SpeakShop AI | Supports booth announcements, event speaker scripts, queue messages, and promotional audio |
-| ShopOS AI | Supports local shop events, weekend campaigns, loyalty events, and food booth workflows |
-| SheetLayer AI | Supports event data, attendee lists, campaign records, and reporting spreadsheets |
-| TrainLayer AI | Converts event procedures into staff training, volunteer guides, and future event playbooks |
-| ZAGA Arena | Supports tournaments, leaderboard events, and community game recaps |
-| ZAGA Districts | Supports faction events, city events, and community campaign reports |
-| ToolGrid AI | Supports event-related sponsored visibility and utility discovery |
-| QTB | May support market-context summaries for market-facing events where appropriate |
-| Platform Credits | May support AIE usage as product service consumption |
-| Reporting Rails | Supports event reports, public-safe recaps, and evidence records |
+AIE can use Platform Credits for supported functions such as:
 
-AIE is useful because events often connect multiple products at the same time.
-
----
-
-## 7. AIE and Platform Credits
-
-Platform Credits are product usage credits.
-
-AIE may use Platform Credits for supported functions such as:
-
-- event planning
-- agenda generation
-- sponsor summary generation
+- event discovery summaries
+- relevance-ranked event views
+- opportunity mapping
+- event plan generation
+- agenda creation
+- speaker schedule generation
+- sponsor summary creation
 - guest list organization
-- event announcement drafting
-- post-event report generation
-- community event summaries
-- feedback summaries
-- campaign reports
-- tournament recaps
+- event checklist generation
+- booth operation notes
+- campaign plan creation
+- event announcement drafts
+- post-event recap generation
+- feedback summary generation
+- public-safe event report generation
+- sponsor report generation
 - partner follow-up notes
-- public-safe event reports
-- premium event intelligence workflows where supported
+- event playbook generation
+- scheduled digest generation
+- premium briefing generation
+- alert and recommendation workflows where supported
+- TrainLayer AI training conversion where supported
+- CommunityLayer AI event summary connection where supported
+- SpeakShop AI announcement connection where supported
 
-Platform Credits help users understand that AIE is a product service.
+AIE has strong monetization potential because information quality and timing matter.
+
+Possible monetization paths include:
+
+- subscriptions
+- premium filtered intelligence
+- advanced monitoring tiers
+- AI-assisted summaries and alerts
+- deeper opportunity mapping
+- workspace or team access
+- premium reports or briefing generation
+- add-on capacity or premium feeds
+- future premium automation or integration features
+
+Inside FUZE, AIE should operate through supported payment rails, Platform Credits, subscriptions, included usage, and premium usage beyond baseline limits where supported.
 
 Platform Credits are separate from FUZE token.
 
-Platform Credits are not equity, debt, investment contracts, income rights, participation rights, profit share, yield products, governance rights, or wallet-based participation claims.
-
-Using Platform Credits in AIE does not create wallet-based participation ability.
+FUZE token remains the single ecosystem token of FUZE.
 
 ---
 
-## 8. AIE and FUZE Token
+## 8. FUZE Platform and Token Relationship
 
-FUZE token is the single ecosystem token of FUZE.
+AIE connects to FUZE because events are one of the clearest places where products, communities, sponsors, partners, shops, games, campaigns, markets, and public reporting meet.
 
-AIE can support FUZE by adding an event intelligence product surface to the ecosystem. Events can help product users, communities, partners, and investors understand FUZE products and participate in ecosystem activity.
+AIE is intended to be platform-native.
 
-FUZE token may support product-connected utility, ecosystem participation, platform alignment, governance direction where applicable, and wallet-based participation ability.
+AIE owns event-intelligence product meaning.
 
-However, AIE usage does not guarantee:
+AIE can own:
 
-- FUZE token price
-- FUZE token demand
-- token listing
-- liquidity
-- market support
-- payout
-- income
-- yield
-- profit
-- exit
-- investment return
-- wallet-based participation eligibility
-- event attendance
-- partner conversion
-- sponsorship revenue
+- event objects and event-intelligence artifacts
+- relevance, ranking, and recommendation outputs
+- user and workspace watchlists
+- saved views and preference structures
+- alert logic and notification definitions
+- domain-specific AI task intent
+- event summary validation
+- product-specific workflow outcomes
+- report artifacts, opportunity maps, and intelligence views
 
-AIE supports product utility and event operations. It does not create token market guarantees.
+AIE should consume shared FUZE platform systems for:
+
+- canonical user identity
+- workspace membership
+- role and permission framework
+- Platform Credits
+- payment normalization
+- subscriptions and invoices
+- AI model-routing policy
+- workflow infrastructure
+- audit and transparency record architecture
+- wallet-aware context where appropriate
+- notifications where supported
+
+AIE can connect to shared platform rails such as:
+
+- identity and access
+- Platform Credits
+- payments and settlement where relevant
+- AI orchestration
+- workflow execution
+- notifications
+- data and permissions
+- reporting and transparency
+- wallet-based records where useful
+- CommunityLayer AI for event communities
+- SpeakShop AI for event announcements and booth scripts
+- ShopOS AI for local shop campaigns and booth operations
+- SheetLayer AI for event spreadsheets and campaign records
+- TrainLayer AI for staff, volunteer, and future event playbooks
+- ToolGrid AI for event-related sponsored visibility and utility discovery
+- ZAGA Arena for tournaments, leaderboard events, and community game recaps
+- ZAGA Districts for faction events, city events, and community campaign reports
+- QTB for market-context summaries where appropriate
+- product-to-token utility where relevant
+
+FUZE token is the single ecosystem token.
+
+AIE should not turn event participation into an investment promise, revenue promise, user-growth promise, or token outcome promise.
+
+Detailed event, product, privacy, token, investor, legal, AI, and disclosure topics belong in dedicated product, investor, whitepaper, and risk papers.
 
 ---
 
-## 9. AIE and Wallet-Based Participation
+## 9. Data, AI, Privacy, and Permission Controls
 
-Wallet-based participation ability is a possible FUZE token-related framework where eligible FUZE-holding wallets may participate in approved distributable value from defined FUZE product revenue pools if the framework becomes active.
+AIE can involve sensitive event, attendee, sponsor, partner, staff, community, workspace, preference, and business data.
 
-AIE may become relevant to this model only if AIE product revenue becomes part of a defined product revenue pool under approved rules.
+Examples include:
 
-However:
+- attendee names
+- emails
+- phone numbers
+- guest lists
+- VIP notes
+- sponsor notes
+- partner records
+- speaker notes
+- staff schedules
+- check-in records
+- feedback responses
+- survey data
+- budget notes
+- booth records
+- event photos and captions
+- investor questions
+- follow-up notes
+- private event reports
+- watchlists
+- saved views
+- alert rules
+- workspace event configurations
+- recommendation histories
+- premium briefing records
 
-- AIE revenue is not guaranteed.
-- AIE adoption is not guaranteed.
-- AIE product revenue does not automatically become approved distributable value.
-- Gross revenue is not approved distributable value.
-- Event revenue is not automatically approved distributable value.
-- Sponsorship revenue is not automatically approved distributable value.
-- Platform Credit usage does not create participation rights.
-- Product users do not automatically become eligible FUZE-holding wallets.
-- FUZE token holders do not automatically receive wallet-based participation ability.
+AIE should use privacy-aware and permission-aware design.
 
-Wallet-based participation ability is not a second token, not automatic for every wallet, and not active as a guaranteed public payout right.
+Important data principles include:
 
-It may activate only after legal, accounting, treasury, audit, reporting, smart-contract, and jurisdiction gates are ready.
+- attendee and guest records should stay permissioned
+- sponsor and partner notes should remain controlled
+- investor-event notes should stay in the correct access path
+- public reports should use public-safe summaries
+- event photos and captions should follow permission rules
+- AI-generated recaps should be reviewed before publication
+- staff and volunteer records should be access-controlled
+- wallet-based records should stay separate from private identity records
+- sensitive commercial or investor notes should remain permissioned
+- workspace-owned AIE resources should belong to the workspace, not only to the initiating member
+- premium access should follow workspace permission rules
+- token ownership should not grant admin rights by itself
+
+AIE is expected to rely heavily on FUZE’s shared AI orchestration layer.
+
+Typical AIE AI tasks can include:
+
+- event summarization
+- opportunity explanation
+- ranking rationale generation
+- category or relevance classification
+- recommendation drafting
+- alert prioritization support
+- digest and briefing generation
+- discovery-oriented comparative summaries
+
+AIE owns the domain meaning, output schemas, acceptance criteria, and validation of these tasks.
+
+The shared FUZE AI platform can support routing, model selection, context assembly policy, provider abstraction, usage metering hooks, fallback behavior, degraded-mode execution, and async execution scaffolding.
+
+AI can help summarize, structure, and explain event information.
+
+Human review remains important for public communication, sponsor reports, investor summaries, attendee data, recommendations, alerts, photos, and risk-sensitive wording.
 
 ---
 
-## 10. Data, AI, Privacy, and Permission Controls
+## 10. Reporting and Transparency Direction
 
-AIE may process event, attendee, sponsor, partner, and community data.
+AIE can support reporting in practical ways.
 
-This can include:
+Reporting can include:
 
 - event plans
-- venue notes
-- guest lists
-- speaker names
-- sponsor information
-- partner notes
-- attendee records
-- check-in records where supported
-- ticket or registration notes where supported
-- staff task lists
-- event photos or captions where supported
-- community questions
-- feedback notes
-- sponsor deliverables
-- payment or invoice notes where relevant
-- investor event questions
-- public recap drafts
-- private post-event notes
-
-Event data can be sensitive because it may include personal contact details, private sponsor terms, investor questions, internal event costs, guest identities, partner agreements, and private feedback.
-
-Important controls include:
-
-- workspace permission controls
-- private and public report separation
-- attendee data protection
-- sponsor and partner note protection
-- public-safe recap review
-- role-based staff access where supported
-- payment and invoice note protection
-- no automatic publication of private event records
-- AI output review before publishing
-- data retention and deletion controls where supported
-
-Public boundary:
-
-AIE supports event workflows. It does not guarantee privacy completeness, legal compliance, event compliance, sponsor compliance, ticketing compliance, or security completeness.
-
----
-
-## 11. AI Output and Event Review
-
-AIE uses AI to support event planning and reporting.
-
-AI output may be incomplete, outdated, inaccurate, biased, or unsuitable for a specific audience if not reviewed.
-
-Users should review AIE outputs before using them for:
-
-- public event announcements
-- sponsor summaries
-- investor event notes
-- ticketing communication
-- legal or compliance statements
-- guest communication
-- payment-related event notes
-- public recaps
-- safety or venue instructions
-- event results
+- task reports
+- agenda summaries
+- attendance summaries where available
+- sponsor reports
 - partner reports
+- booth activity summaries
+- campaign summaries
+- community engagement summaries
+- feedback reports
+- post-event recaps
+- public-safe event reports
+- training playbooks
+- event discovery usage summaries
+- AIE AI usage volume and class distribution
+- premium versus included usage
+- workspace versus account usage patterns
+- billing and entitlement error visibility
+- correction or reversal patterns affecting AIE usage
+- product-operational health and async backlog visibility
+- alerting and digest workload patterns where useful
+- Platform Credit usage records where supported
+- product usage summaries where appropriate
 
-AIE should help teams organize work, but the event owner remains responsible for final decisions.
+For event teams, reporting helps preserve event memory.
 
-Boundary:
+For users, AIE reporting helps understand what activity mattered and what attention shifts occurred.
 
-AIE does not provide legal advice, tax advice, financial advice, safety certification, venue approval, sponsor approval, or guaranteed event results.
+For communities, reporting helps show what happened and what comes next.
 
----
+For sponsors and partners, reporting helps summarize deliverables and follow-up.
 
-## 12. AIE Public Communication Standards
+For FUZE, AIE can help show product-first activity across discovery, physical events, online events, game events, community events, local shop campaigns, and investor or partner updates.
 
-AIE public communication should remain practical and clear.
+AIE should also generate meaningful audit visibility for trust-sensitive actions such as:
 
-Approved AIE wording includes:
+- premium briefing execution linked to billable state
+- support or admin correction involving commercial or entitlement behavior
+- workspace-scoped high-impact configuration changes
+- AI usage correction or reversal
+- operator replay or cancellation of sensitive async workflows
 
-- event intelligence
-- event planning support
-- agenda generation
-- sponsor summary support
-- guest organization
-- event recap
-- community event report
-- public-safe event documentation
-- feedback summary
-- partner follow-up notes
-- tournament recap
-- campaign report
+Commercial corrections affecting AIE should flow through shared refund, reversal, and adjustment systems.
 
-Avoid AIE wording such as:
+AIE should preserve lineage rather than silently deleting history.
 
-- guaranteed event attendance
-- guaranteed ticket sales
-- guaranteed sponsor revenue
-- guaranteed event ROI
-- guaranteed customer acquisition
-- guaranteed community growth
-- guaranteed investor conversion
-- guaranteed partnership
-- guaranteed marketing result
-- risk-free event plan
-- guaranteed campaign success
-
-AIE must be positioned as event intelligence support, not as an event outcome guarantee.
+Reporting should protect private attendee data, sponsor notes, partner records, commercial terms, staff data, workspace preferences, recommendation logic, and investor-event notes.
 
 ---
 
-## 13. Revenue Direction and Readiness
+## 11. Product Boundary
 
-AIE may support revenue direction through practical product usage.
+AIE is an AI event intelligence and opportunity discovery product.
 
-Potential revenue paths may include:
+It supports event discovery, relevance filtering, opportunity context, event planning, agenda creation, guest and attendee organization, sponsor summaries, campaign tracking, event content, post-event recaps, feedback summaries, public-safe reports, watchlists, alerts, briefings, and future event playbooks.
 
-- usage-based Platform Credits
-- event planning packages
-- sponsor summary packages
-- public recap packages
-- campaign report packages
-- tournament recap packages
-- community event report packages
-- partner follow-up packages
-- premium event intelligence workflows
-- integration with CommunityLayer AI, SpeakShop AI, ToolGrid AI, and ZAGA
-- event workspace subscriptions where supported
+AIE is not only an event calendar, discovery directory, passive archive, notification tool, trend feed, generic social-monitoring surface, or wide-open autonomous agent.
 
-Revenue readiness depends on:
+AIE’s best shape is bounded awareness: outcome-first event intelligence, relevance filtering, workflow support, and human-reviewed outputs.
 
-- clear event organizer user problem
-- reliable event workflow
-- useful templates
-- Platform Credit usage model
-- AI cost tracking
-- public and private report separation
-- data privacy controls
-- sponsor and partner data controls
-- event reporting quality
-- customer support process
-- repeat usage potential
-- product evidence
-- integration with other FUZE products
+AIE should not become a shadow platform inside FUZE.
 
-Revenue is not guaranteed.
+Detailed event, product, AI, privacy, data, sponsor, investor, token, legal, and disclosure boundaries belong mainly in dedicated papers such as:
 
-Product revenue does not automatically become approved distributable value.
+- `CORE-PLATFORM-PAPERS/07-FUZE_DATA_PRIVACY_AND_AI_DATA_HANDLING_PUBLIC.md`
+- `AI-SAAS-PRODUCT-PAPERS/16-FUZE_PRODUCT_RISK_BOUNDARIES_PUBLIC.md`
+- `INVESTOR-PARTNER-PAPERS/07-FUZE_AI_SAFETY_AND_RELIABILITY_PUBLIC.md`
+- `INVESTOR-PARTNER-PAPERS/08-FUZE_DATA_PRIVACY_AND_PERMISSION_MODEL_PUBLIC.md`
+- `INVESTOR-PARTNER-PAPERS/17-FUZE_INVESTOR_RISK_DISCLOSURE_PUBLIC.md`
+- `WHITEPAPER-PAPERS/05-FUZE_RISK_AND_DISCLOSURE_APPENDIX_PUBLIC.md`
 
-Approved distributable value is not gross revenue, not token sale proceeds, not seed-round funds, not event attendance, not sponsorship promises, and not general treasury balance.
+This keeps the AIE paper focused on event intelligence and product utility while deeper review remains in the correct documents.
 
 ---
 
-## 14. AIE Risk Boundaries
+## 12. Key Takeaways
 
-AIE public communication must include clear boundaries.
-
-| Area | Boundary |
-|---|---|
-| Attendance | AIE does not guarantee event attendance |
-| Ticket sales | AIE does not guarantee ticket sales |
-| Sponsors | AIE does not guarantee sponsorship revenue or sponsor satisfaction |
-| Partners | AIE does not guarantee partner conversion or future deals |
-| Campaigns | AIE does not guarantee campaign success |
-| Community growth | AIE does not guarantee community growth |
-| Customer acquisition | AIE does not guarantee customer acquisition |
-| Investor events | AIE does not guarantee investment or fundraising success |
-| Event operations | AIE does not guarantee event execution quality |
-| AI output | AI output may be inaccurate, incomplete, outdated, or unsuitable |
-| Public reports | Public reports require review and should avoid private data exposure |
-| Privacy | Guest, sponsor, partner, attendee, and investor data require permission controls |
-| Platform Credits | Credits are usage credits, not investment rights |
-| FUZE token | AIE usage does not guarantee token price, demand, liquidity, listing, or payout |
-| Wallet participation | Product usage does not create automatic wallet-based participation ability |
-
----
-
-## 15. Investor and Community Relevance
-
-### 15.1 Investor Relevance
-
-AIE is relevant to investors because events are important for partnerships, community growth efforts, product launches, ecosystem visibility, sponsor relationships, and investor communication.
-
-AIE can help FUZE and product teams organize events more professionally and preserve evidence through reports and summaries.
-
-Investors can evaluate AIE through:
-
-- product scope
-- event workflow clarity
-- integration with FUZE products
-- Platform Credit usage model
-- reporting quality
-- sponsor and partner workflow support
-- public and private data separation
-- customer support process
-- repeat usage potential
-- product evidence where available
-
-AIE can strengthen FUZE as a product ecosystem, but it does not guarantee event revenue, sponsorship revenue, customer acquisition, token demand, token price, wallet-based participation activation, liquidity, exit, or investment return.
-
-### 15.2 Community Relevance
-
-AIE is relevant to the FUZE community because communities often organize events, tournaments, meetups, calls, AMAs, launches, and campaigns.
-
-AIE can help communities:
-
-- plan events
-- publish clearer announcements
-- summarize outcomes
-- create public-safe recaps
-- prepare better follow-ups
-- track community questions
-- document learning for future events
-
-This supports community organization, but it does not guarantee community growth or engagement.
-
-### 15.3 Product User Relevance
-
-For product users, AIE helps reduce the effort required to plan and report events.
-
-Users can use AIE to organize event information, prepare materials, summarize activity, and create better post-event documentation.
-
-Users remain responsible for final event execution, communication, safety, legal compliance, and business decisions.
-
----
-
-## 16. Product Development Direction
-
-AIE can develop through phased product maturity.
-
-### Phase 1: Event Planning Workflows
-
-Support event goals, agendas, timelines, checklists, task lists, and event planning templates.
-
-### Phase 2: Guest, Sponsor, and Partner Organization
-
-Support guest lists, speaker notes, sponsor summaries, partner deliverables, and follow-up notes.
-
-### Phase 3: Event Content and Announcement Support
-
-Support announcement drafts, reminders, speaker introductions, booth scripts, Telegram posts, and post-event content.
-
-### Phase 4: Reporting and Recap Generation
-
-Support event summaries, feedback reports, sponsor recaps, campaign reports, and public-safe documentation.
-
-### Phase 5: FUZE Product Integration
-
-Connect with CommunityLayer AI, SpeakShop AI, ShopOS AI, SheetLayer AI, TrainLayer AI, ToolGrid AI, ZAGA Arena, and ZAGA Districts where appropriate.
-
-### Phase 6: Event Intelligence and Evidence
-
-Support event evidence records, product launch reports, sponsor-ready summaries, investor event notes, and recurring event analysis.
-
-### Phase 7: Privacy and Permission Maturity
-
-Support stronger access controls, public/private report separation, guest data protection, sponsor data protection, and event data review.
-
-These phases are development directions, not guaranteed launch dates.
-
----
-
-## 17. Public Positioning
-
-AIE should be presented as event intelligence support.
-
-Approved positioning:
-
-AIE supports event intelligence under FUZE, helping users plan events, organize agendas, prepare sponsor and partner summaries, create announcements, summarize feedback, generate recaps, and produce public-safe event reports.
-
-Avoid positioning AIE as:
-
-- guaranteed event attendance engine
-- guaranteed sponsor revenue product
-- guaranteed ticket sales system
-- guaranteed customer acquisition tool
-- guaranteed investor conversion tool
-- guaranteed community growth engine
-- guaranteed marketing result product
-- investment product
-- token profit driver
-- passive income source
-
-AIE’s value comes from better event organization, communication, and reporting, not from guaranteed event outcomes.
-
----
-
-## 18. Key Takeaways
-
-AIE is the event intelligence product under FUZE.
-
-AIE helps users plan events, create agendas, organize guests and speakers, prepare sponsor summaries, draft announcements, summarize feedback, generate recaps, and produce public-safe event reports.
-
-AIE connects naturally with CommunityLayer AI, SpeakShop AI, ShopOS AI, SheetLayer AI, TrainLayer AI, ToolGrid AI, ZAGA Arena, and ZAGA Districts.
-
-Platform Credits may support AIE usage where supported.
-
-Platform Credits are product usage credits and are separate from FUZE token.
-
-FUZE token is the single ecosystem token of FUZE.
-
-Wallet-based participation ability is not a second token, not automatic for every wallet, and not active as a guaranteed public payout right.
-
-AIE supports event intelligence workflows, but it does not guarantee event attendance, ticket sales, sponsorship revenue, customer acquisition, user growth, community growth, campaign success, business revenue, AI accuracy, token price, liquidity, payout, income, yield, or investment return.
+- AIE — Event Intelligence is the AI-powered event and opportunity intelligence product under FUZE.
+- AIE helps users discover relevant activity, filter noise, understand context, identify what deserves attention, and act with clearer awareness.
+- AIE supports event plans, discovery views, relevance-ranked feeds, watchlists, alerts, agendas, sponsor summaries, guest organization, announcements, event reports, feedback summaries, public-safe recaps, and future playbooks.
+- AIE can support Web3 events, product launches, community meetups, game tournaments, ZAGA events, shop campaigns, sponsor events, investor events, online webinars, local business events, and ecosystem opportunity mapping.
+- AIE can connect with CommunityLayer AI, SpeakShop AI, ShopOS AI, SheetLayer AI, TrainLayer AI, ToolGrid AI, ZAGA Arena, ZAGA Districts, QTB, and FUZE reporting rails where appropriate.
+- Platform Credits can support AIE product usage where supported.
+- FUZE token is the single ecosystem token of FUZE.
+- Private attendee records, sponsor notes, partner records, staff data, event reports, alert rules, recommendation records, and investor-event notes should stay permission-aware.
+- AI-generated event summaries, recommendations, alerts, briefings, and public recaps should be reviewed before publication or operational use.
+- AIE helps FUZE show practical AI SaaS value through event awareness, discovery, community activity, sponsor reporting, opportunity mapping, and product-first public evidence.
+- AIE’s strongest edge is bounded awareness, outcome-first relevance, stronger filtering discipline, and platform-level reuse of orchestration, billing, Platform Credits, workflows, and reporting systems.
+- Detailed risk and disclosure language belongs mainly in dedicated risk and review papers.

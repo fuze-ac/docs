@@ -6,17 +6,27 @@ ZAGA Arena is the fast battle arena game under the ZAGA and FUZE ecosystem.
 
 ZAGA Arena is designed as a browser-based and Telegram-ready multiplayer arena game where players enter short match sessions, survive enemy waves, fight bosses, collect USDT and Token Value as game mechanics, build Net Worth, choose Market Roles and Strategy Options where supported, compete on leaderboards, earn badges, and share run summaries.
 
-Its public one-line description is:
+Public one-liner:
 
 ZAGA Arena is the fast battle arena game where players survive, fight bosses, collect USDT and Token Value, build Net Worth, and compete in Telegram-ready multiplayer arenas.
 
-ZAGA Arena is separate from ZAGA Districts. ZAGA Arena is the action-first arena game. ZAGA Districts is the Telegram-native cyberpunk MMORPG where real communities build cities, manage economies, hire NPCs, and compete for power. ZAGA Districts is not a mode inside ZAGA Arena.
+ZAGA Arena is separate from ZAGA Districts.
 
-FUZE is a transparency-first AI SaaS platform building practical products on shared infrastructure for identity, credits, payments, AI orchestration, wallet-based records, reporting, and ecosystem participation. ZAGA Arena gives FUZE a fast, repeatable, community-friendly game surface that can connect gameplay, Telegram community activity, game utility, Platform Credits where supported, reporting, and FUZE token utility.
+ZAGA Arena is the action-first arena game.
 
-FUZE uses one token only: FUZE token. FUZE token is the single ecosystem token of FUZE. Wallet-based participation ability is not a second token, not automatic for every wallet, and not active as a guaranteed public payout right.
+ZAGA Districts is the Telegram-native cyberpunk MMORPG where real communities build cities, manage economies, hire NPCs, and compete for power.
 
-ZAGA Arena reward language, USDT language, Token Value language, Net Worth language, leaderboards, badges, drops, bosses, Market Roles, and Strategy Options are game mechanics or controlled utility surfaces. They are not guaranteed financial earnings, not financial advice, not investment income, not token price promises, and not guaranteed market outcomes.
+ZAGA Districts is not a mode inside ZAGA Arena.
+
+FUZE is a product-first AI SaaS and Web3 ecosystem. ZAGA Arena gives FUZE a fast, repeatable, community-friendly game surface that can connect gameplay, Telegram activity, Platform Credits where supported, game utility, reporting, wallet-based records where useful, and FUZE token utility where relevant.
+
+Platform Credits support product usage.
+
+FUZE token is the single ecosystem token of FUZE.
+
+Stablecoins support payment, settlement, treasury, and compensation rails.
+
+Wallet-based records can support public-safe transparency where useful while personal identity and sensitive game, community, partner, or operational records stay permissioned where required.
 
 ---
 
@@ -38,19 +48,41 @@ ZAGA Arena is designed for:
 - game drops
 - Net Worth growth
 - leaderboard competition
-- badges and achievement-style rewards
+- badges and achievement-style recognition
 - share cards and run summaries
 - community events
 - token-utility surfaces where defined
 - public-safe game reporting where appropriate
 
-ZAGA Arena is not positioned as a guaranteed earning platform.
+ZAGA Arena is a game product first.
 
 Its value comes from gameplay, competition, social sharing, community activity, game progression, and ecosystem utility.
 
+The game should be fun and repeatable before any token or utility layer becomes relevant.
+
 ---
 
-## 2. User Problem and Game Context
+## 2. Who This Product Helps
+
+ZAGA Arena helps players, communities, and the FUZE ecosystem.
+
+| User Type | What They Need | How ZAGA Arena Helps |
+|---|---|---|
+| Players | Fast gameplay, action, competition, and replayability | Provides short arena sessions, mobs, bosses, scores, badges, and leaderboards |
+| Telegram communities | Activities that can happen near community chat | Supports Telegram-ready sharing, events, group challenges, and community competition |
+| Web3 users | Product utility that feels active and understandable | Creates a playable utility surface instead of abstract token language |
+| ZAGA community members | A game identity and shared participation loop | Gives the community runs, scores, badges, share cards, and events |
+| FUZE ecosystem readers | Clear separation between products, token, credits, and game mechanics | Explains ZAGA Arena as a game surface inside the broader platform |
+| Product reviewers | Evidence of user-facing product direction | Provides a concrete game product connected to reporting and public documentation |
+| Partners | Future game-based campaign and community event surfaces where applicable | Supports structured events, community challenges, and public-safe reports where supported |
+
+ZAGA Arena is built for users who want action and community competition.
+
+It is also built for FUZE because it gives the ecosystem a product experience that people can join and share.
+
+---
+
+## 3. User Problem and Market Context
 
 Many Web3 and Telegram communities need repeatable activity that is more engaging than chat messages, token posts, and campaign tasks.
 
@@ -65,17 +97,19 @@ Community users often need:
 - simple progression
 - visible achievement
 - game mechanics that are fun before they are financial
-- clear boundaries between game rewards and financial promises
+- clear boundaries between game rewards and financial claims
 
-Many crypto games fail when they rely too heavily on earning language and not enough on repeatable gameplay. ZAGA Arena takes a different direction by emphasizing a fast battle arena loop, replayability, bosses, competition, and community sharing.
+Many crypto games struggle when they rely too heavily on earning language and not enough on repeatable gameplay.
 
-ZAGA Arena is designed for players who want quick action and community competition.
+ZAGA Arena takes a product-first direction by emphasizing a fast battle arena loop, replayability, bosses, competition, and community sharing.
 
-It is also designed for the FUZE ecosystem because it gives FUZE a game-facing product surface connected to real user engagement rather than only token speculation.
+The game gives FUZE a game-facing product surface connected to real user engagement rather than only token speculation.
+
+ZAGA Arena fits a world where communities want quick, social, mobile-friendly, and Telegram-ready activities.
 
 ---
 
-## 3. ZAGA Arena Product Model
+## 4. Product Model
 
 ZAGA Arena has several core product layers.
 
@@ -89,11 +123,23 @@ ZAGA Arena has several core product layers.
 | Reporting Layer | Run summaries, leaderboard reports, community event summaries, and public-safe game metrics |
 | Platform Layer | Connection to FUZE rails, Platform Credits where supported, FUZE token utility, wallet records, and reporting direction |
 
-ZAGA Arena is a game product first. Its token and utility surfaces must support gameplay rather than replace gameplay.
+ZAGA Arena’s product model is simple:
+
+Play a run.
+
+Build a score.
+
+Share the result.
+
+Compete again.
+
+The platform layer should support the game experience, not replace it.
 
 ---
 
-## 4. Core Gameplay Loop
+## 5. Core Features
+
+### 5.1 Core Gameplay Loop
 
 ZAGA Arena uses a fast, repeatable gameplay loop.
 
@@ -115,15 +161,7 @@ The loop is designed for quick sessions.
 
 Players should be able to understand what happened in a run and why they want to play again.
 
-Boundary:
-
-USDT, Token Value, Net Worth, Liquidity Nodes, Market Roles, and Strategy Options are game mechanic language or controlled utility-surface language. They are not financial advice, guaranteed earning claims, or investment-return promises.
-
----
-
-## 5. Arena Gameplay Features
-
-### 5.1 Movement and Survival
+### 5.2 Movement and Survival
 
 ZAGA Arena is built around real-time movement and survival.
 
@@ -139,17 +177,11 @@ Players may need to:
 
 The survival loop is important because the game should feel active and skill-based.
 
-Boundary:
-
-Survival gameplay does not guarantee rewards, earnings, ranking, or token value.
-
----
-
-### 5.2 Shooting and Combat
+### 5.3 Shooting and Combat
 
 ZAGA Arena can include shooting and combat mechanics.
 
-Combat may include:
+Combat can include:
 
 - player attacks
 - enemy waves
@@ -164,13 +196,7 @@ Combat may include:
 
 Combat should be clear enough for short sessions and deep enough for repeated play.
 
-Boundary:
-
-Combat performance does not guarantee game rewards, financial value, leaderboard position, or future eligibility.
-
----
-
-### 5.3 Mobs and Bosses
+### 5.4 Mobs and Bosses
 
 Mobs and bosses create the main challenge.
 
@@ -188,17 +214,11 @@ Possible boss and mob roles include:
 
 Bosses give players a clear goal and create moments worth sharing.
 
-Boundary:
-
-Boss rewards, drops, and event results are game mechanics. They are not guaranteed financial earnings.
-
----
-
-### 5.4 Drops, USDT, Token Value, and Net Worth
+### 5.5 Drops, USDT, Token Value, and Net Worth
 
 ZAGA Arena uses financial-market-inspired game language.
 
-Game values may include:
+Game values can include:
 
 - USDT
 - Token Value
@@ -212,19 +232,15 @@ Game values may include:
 
 These terms help create a unique market-inspired game identity.
 
-However, the public boundary must be clear:
+They should be understood as game mechanic language or controlled utility-surface language inside the game context.
 
-ZAGA Arena game value language is game mechanic language or controlled utility-surface language. It must not be presented as guaranteed real-world earning, profit, investment income, passive income, yield, dividend, or financial return.
+### 5.6 Market Roles and Strategy Options
 
----
-
-### 5.5 Market Roles and Strategy Options
-
-ZAGA Arena may include Market Roles and Strategy Options where supported.
+ZAGA Arena can include Market Roles and Strategy Options where supported.
 
 These can make the game feel connected to market-inspired decision-making.
 
-Possible role or strategy concepts may include:
+Possible role or strategy concepts can include:
 
 - risk-taking style
 - defensive style
@@ -237,17 +253,13 @@ Possible role or strategy concepts may include:
 
 These mechanics can give players different ways to play.
 
-Boundary:
+Market Roles and Strategy Options are game strategy mechanics.
 
-Market Roles and Strategy Options are game strategy mechanics. They are not trading advice, investment strategies, market instructions, or financial advice.
-
----
-
-### 5.6 Leaderboards and Badges
+### 5.7 Leaderboards and Badges
 
 ZAGA Arena can use leaderboards and badges to support competition.
 
-Leaderboards may include:
+Leaderboards can include:
 
 - daily leaderboard
 - weekly leaderboard
@@ -258,7 +270,7 @@ Leaderboards may include:
 - community leaderboard
 - Telegram group leaderboard
 
-Badges may include:
+Badges can include:
 
 - survival badges
 - boss badges
@@ -270,17 +282,11 @@ Badges may include:
 
 Leaderboards and badges help players compare progress and share achievements.
 
-Boundary:
-
-Leaderboards and badges are game progression and recognition systems. They do not guarantee financial rewards, token value, or participation eligibility.
-
----
-
-### 5.7 Run Summaries and Share Cards
+### 5.8 Run Summaries and Share Cards
 
 ZAGA Arena can generate run summaries and share cards.
 
-A run summary may include:
+A run summary can include:
 
 - session result
 - survival time
@@ -296,62 +302,93 @@ A run summary may include:
 
 Share cards make the game more community-friendly.
 
-Boundary:
-
-Run summaries and share cards are game records and social content. They are not proof of guaranteed financial earnings.
+They help players bring the game back into Telegram groups, community channels, and public social surfaces.
 
 ---
 
-## 6. Telegram-Ready Game Direction
+## 6. Practical Workflows and Use Cases
 
-ZAGA Arena is designed to be Telegram-ready.
+### Use Case 1: First-Time Player Run
 
-Telegram matters because many Web3 and game communities already organize inside Telegram groups.
+A new player enters ZAGA Arena.
 
-Telegram-ready direction may include:
+The workflow can include:
 
-- game access from Telegram surfaces where supported
-- community sharing
-- leaderboard sharing
-- run summary sharing
-- group challenges
-- event announcements
-- player onboarding
-- referral or invite flows where supported
-- ZAGA community support
-- integration with CommunityLayer AI where appropriate
+1. Player opens the game from a browser or Telegram-ready surface.
+2. Player chooses a name or profile where supported.
+3. Player enters an arena.
+4. Player moves, fights, collects, and survives.
+5. Player sees Net Worth grow as the run score.
+6. Player receives a run summary.
+7. Player shares the result with friends or community.
 
-Telegram-ready gameplay can reduce friction for community participation.
+This creates a simple path from first visit to shareable game result.
 
-Boundary:
+### Use Case 2: Telegram Group Challenge
 
-Telegram readiness does not guarantee player growth, community growth, user retention, game revenue, or token demand.
+A Telegram group creates a ZAGA Arena challenge.
+
+The workflow can include:
+
+1. Admin announces the event.
+2. Players join the arena.
+3. Runs are tracked where supported.
+4. Leaderboard results are summarized.
+5. CommunityLayer AI prepares public-safe event notes where supported.
+6. Top players receive badge or ranking recognition where supported.
+
+This gives a Telegram group an activity that can happen around the community.
+
+### Use Case 3: Boss Event
+
+ZAGA Arena runs a boss event.
+
+The workflow can include:
+
+1. Boss event opens.
+2. Players attempt short runs.
+3. Boss defeats, survival time, Net Worth, and drops are tracked where supported.
+4. Leaderboard updates create community excitement.
+5. Share cards help players promote the event.
+6. Public-safe event report summarizes results.
+
+This gives the community a clear competitive moment.
+
+### Use Case 4: Strategy-Based Gameplay
+
+A player uses Market Roles and Strategy Options where supported.
+
+The workflow can include:
+
+1. Player chooses a play style.
+2. Player enters the arena.
+3. Strategy affects risk, movement, collection, or boss behavior where designed.
+4. Player compares results across runs.
+5. Player adjusts strategy and replays.
+
+This makes gameplay deeper without turning market-inspired language into financial advice.
+
+### Use Case 5: Product Utility Surface
+
+A FUZE user participates in a ZAGA Arena utility event.
+
+The workflow can include:
+
+1. Wallet-aware access or role checks are used where supported.
+2. Player joins the game event.
+3. Game results create activity records.
+4. Platform Credits support selected product actions where supported.
+5. Public-safe reports summarize participation.
+
+This helps ZAGA turn ecosystem participation into a product experience.
 
 ---
 
-## 7. ZAGA Arena and ZAGA Districts Separation
+## 7. Platform Credits and Product Usage
 
-ZAGA Arena and ZAGA Districts are separate products.
+Platform Credits are product usage credits for supported FUZE products and services.
 
-ZAGA Arena is the fast battle arena game.
-
-ZAGA Districts is the Telegram-native cyberpunk MMORPG/community city-builder where real communities build cities, manage economies, hire NPCs, and compete for power.
-
-They can share the ZAGA brand, FUZE ecosystem direction, wallet-aware records, community support, token-utility surfaces, art direction, and infrastructure concepts where appropriate.
-
-They should not be described as the same game.
-
-ZAGA Districts is not a mode inside ZAGA Arena.
-
-This distinction protects public clarity because each product has a different promise.
-
----
-
-## 8. ZAGA Arena and Platform Credits
-
-Platform Credits are product usage credits.
-
-ZAGA Arena may use Platform Credits where supported for game-related utility, product services, reporting, or community features.
+ZAGA Arena can use Platform Credits where supported for game-related utility, product services, reporting, or community features.
 
 Possible Platform Credit use cases include:
 
@@ -369,19 +406,19 @@ Possible Platform Credit use cases include:
 
 Platform Credits are separate from FUZE token.
 
-Platform Credits are not equity, debt, investment contracts, income rights, participation rights, profit share, yield products, governance rights, or wallet-based participation claims.
+Platform Credits help explain product usage.
 
-Using Platform Credits in ZAGA Arena does not create wallet-based participation ability.
+They can support actions, tools, reports, events, or product features where supported.
 
 ---
 
-## 9. ZAGA Arena and FUZE Token
+## 8. FUZE Platform and Token Relationship
 
 FUZE token is the single ecosystem token of FUZE.
 
 ZAGA Arena can support FUZE token utility through game and ecosystem surfaces where defined.
 
-Potential token-utility connections may include:
+Potential token-utility connections can include:
 
 - game-related utility access
 - ecosystem participation
@@ -392,430 +429,117 @@ Potential token-utility connections may include:
 - governance direction where applicable
 - wallet-based participation ability if activated under the broader FUZE model
 
-However, ZAGA Arena does not make FUZE token a guaranteed earning instrument.
+ZAGA Arena helps give FUZE token a product context.
 
-FUZE token does not guarantee:
+The game shows how ecosystem participation can connect to playable experiences, community events, reports, badges, roles, and public-safe records.
 
-- payout
-- income
-- dividend
-- yield
-- profit
-- token price
-- listing
-- liquidity
-- market support
-- exit
-- game earnings
-- business revenue
-- user growth
-- community growth
-- investment return
-
-ZAGA Arena supports product utility and gameplay. It does not guarantee token market performance.
+Detailed token allocation, release, wallet-based participation, market access, legal, governance, and risk topics belong in dedicated tokenomics, investor, and whitepaper papers.
 
 ---
 
-## 10. ZAGA Arena and Wallet-Based Participation
+## 9. Data, AI, Privacy, and Permission Controls
 
-Wallet-based participation ability is a possible FUZE token-related framework where eligible FUZE-holding wallets may participate in approved distributable value from defined FUZE product revenue pools if the framework becomes active.
+ZAGA Arena can involve game, player, community, wallet, event, and reporting data.
 
-ZAGA Arena may become relevant to this model only if ZAGA Arena product revenue becomes part of a defined product revenue pool under approved rules.
+Examples include:
 
-However:
-
-- ZAGA Arena revenue is not guaranteed.
-- ZAGA Arena player growth is not guaranteed.
-- ZAGA Arena community growth is not guaranteed.
-- ZAGA Arena product revenue does not automatically become approved distributable value.
-- Gross revenue is not approved distributable value.
-- Game rewards are not approved distributable value.
-- Platform Credit usage does not create participation rights.
-- Game users do not automatically become eligible FUZE-holding wallets.
-- FUZE token holders do not automatically receive wallet-based participation ability.
-
-Wallet-based participation ability is not a second token, not automatic for every wallet, and not active as a guaranteed public payout right.
-
-It may activate only after legal, accounting, treasury, audit, reporting, smart-contract, and jurisdiction gates are ready.
-
----
-
-## 11. ZAGA Arena and CommunityLayer AI
-
-ZAGA Arena can connect with CommunityLayer AI because game communities need support.
-
-CommunityLayer AI may help with:
-
-- player FAQ summaries
-- repeated-question detection
-- event announcements
-- moderation support
-- player support routing
-- leaderboard summary drafts
-- challenge summaries
-- game update explanations
-- public-safe community reports
-- ZAGA Arena and ZAGA Districts distinction reminders
-
-This connection can make the community easier to manage as game activity grows.
-
-Boundary:
-
-CommunityLayer AI support does not guarantee player growth, community growth, safety, perfect moderation, or user retention.
-
----
-
-## 12. ZAGA Arena and TrainLayer AI
-
-ZAGA Arena can connect with TrainLayer AI for player education and onboarding.
-
-TrainLayer AI may help create:
-
-- beginner guides
-- gameplay tutorials
-- boss fight guides
-- role explanations
-- strategy option guides
-- leaderboard explanation
-- wallet safety education where appropriate
-- event participation guides
-- community moderator training
-- public FAQ learning material
-
-Boundary:
-
-Training support does not guarantee player performance, learning outcomes, user retention, game earnings, or safety.
-
----
-
-## 13. ZAGA Arena and AIE
-
-ZAGA Arena can connect with AIE for game events.
-
-AIE may support:
-
-- tournament planning
-- event schedules
-- challenge summaries
-- community event reports
-- leaderboard reports
-- sponsor notes where applicable
-- player feedback summaries
-- post-event recaps
-- public-safe event reporting
-
-Boundary:
-
-Event intelligence support does not guarantee event attendance, player participation, sponsor revenue, community growth, or game revenue.
-
----
-
-## 14. Data, AI, Privacy, and Permission Controls
-
-ZAGA Arena may involve game and account data.
-
-This can include:
-
-- player profiles
-- usernames or display names
-- wallet addresses where applicable
-- game sessions
+- player name or profile
+- gameplay session data
+- leaderboard records
+- badges
 - run summaries
-- survival time
-- score and Net Worth values
-- drops collected
-- boss results
-- badges
-- leaderboard positions
-- event participation
 - share cards
-- community records
-- support requests
-- moderation notes
-- payment or credit usage where supported
+- game event records
+- community challenge records
+- wallet-based public references where supported
+- Platform Credit usage records where supported
+- support messages
+- public-safe reports
 
-ZAGA Arena should separate public game records from private identity records.
+ZAGA Arena should use privacy-aware and permission-aware design.
 
-Public game records may include usernames, run summaries, badges, leaderboard positions, event results, and public wallet-linked records where designed.
+Important data principles include:
 
-Private records may include personal identity, payment details, private account data, private support records, private verification data, private agreements, or sensitive moderation records.
+- game records can support public-safe leaderboards and summaries
+- personal identity should stay private in public-facing wallet records
+- player profiles should follow product rules
+- community event reports should avoid sensitive member data
+- wallet-aware checks should be separated from private identity records
+- AI-generated summaries should be reviewed before public use
+- public reports should use approved summaries and public-safe references
+- partner or operational records should stay permissioned where required
 
-FUZE uses wallet-level transparency and does not publish personal identity publicly.
+AI can support event summaries, run recap text, community updates, support routing, and reporting workflows.
 
-Public records may show wallet addresses, vault activity, report hashes, audit records, snapshot records, eligibility status, and claim status where applicable. Public systems should not publish personal names, emails, phone numbers, ID documents, passports, home addresses, investor identities, contributor identities, or private agreements.
-
-Boundary:
-
-Players should understand which game records are public, which records are private, and how wallet-linked records are handled.
-
----
-
-## 15. AI and Game Support Direction
-
-ZAGA Arena may use AI-supported systems where appropriate.
-
-AI may support:
-
-- run summary generation
-- player recap content
-- share card text
-- event report generation
-- community summaries
-- support routing
-- moderation support
-- onboarding content
-- boss or event direction where supported
-- game balance review where appropriate
-- public language review
-
-AI support can make the game easier to operate and explain.
-
-Boundary:
-
-AI support does not guarantee game balance, player retention, moderation accuracy, event success, AI accuracy, game earnings, or market outcomes.
+Human review remains important for public announcements, event summaries, token-related language, and risk-sensitive communication.
 
 ---
 
-## 16. Revenue Direction and Readiness
+## 10. Reporting and Transparency Direction
 
-ZAGA Arena may support revenue direction through game and ecosystem usage.
+ZAGA Arena can support reporting in practical ways.
 
-Potential revenue paths may include:
+Reporting can include:
 
-- Platform Credit usage where supported
-- game-related utility surfaces
-- event tools
-- tournament services where appropriate
-- cosmetic or profile features where supported
-- premium share cards or reports where supported
-- community challenge tools
-- sponsored game events where appropriate
-- token/NFT utility surfaces where defined
-- player support or community service tools
-- ecosystem partnership surfaces
+- run summaries
+- share cards
+- leaderboard reports
+- boss event summaries
+- community challenge reports
+- badge summaries
+- game activity summaries
+- Telegram group event summaries
+- Platform Credit usage records where supported
+- wallet-based public-safe records where useful
+- product readiness updates
+- public-safe game metrics where appropriate
 
-Revenue readiness depends on:
+Reporting helps players, communities, and reviewers understand activity.
 
-- clear game loop
-- stable gameplay
-- player onboarding
-- Telegram-ready access
-- anti-cheat and anti-abuse controls
-- leaderboard integrity
-- payment and credit model readiness
-- game economy boundaries
-- event operations
-- community support
-- reporting inputs
-- data and privacy controls
-- legal and compliance review where needed
-- product evidence
-- retention indicators where available
+For players, reporting makes the run more shareable.
 
-Revenue is not guaranteed.
+For communities, reporting makes events easier to summarize.
 
-Player growth is not guaranteed.
+For FUZE, reporting helps show product-first utility and user engagement.
 
-Community growth is not guaranteed.
-
-Product revenue does not automatically become approved distributable value.
-
-Approved distributable value is not gross revenue, not token sale proceeds, not seed-round funds, not game rewards, and not general treasury balance.
+Public-facing reports should protect sensitive user, wallet, partner, and operational data.
 
 ---
 
-## 17. Anti-Abuse, Fairness, and Game Integrity
+## 11. Product Boundary
 
-ZAGA Arena needs game integrity because competitive games can be affected by bots, exploits, cheating, unfair automation, account abuse, leaderboard manipulation, and reward farming.
+ZAGA Arena is a fast battle arena game.
 
-Integrity controls may include:
+USDT, Token Value, Net Worth, Liquidity Nodes, Market Roles, Strategy Options, drops, bosses, leaderboards, badges, and run summaries are game mechanics or controlled utility-surface language.
 
-- anti-cheat checks
-- anti-bot logic
-- suspicious score review
-- leaderboard validation
-- replay or session validation where supported
-- exploit monitoring
-- rate limits
-- account and wallet checks where applicable
-- event review windows
-- moderation workflows
-- reporting channels
-- admin review
-- emergency pause or event invalidation where needed
+ZAGA Arena is separate from ZAGA Districts.
 
-Game integrity is especially important where leaderboards, drops, event rewards, or wallet-linked records are involved.
+ZAGA Districts is the Telegram-native cyberpunk MMORPG where real communities build cities, manage economies, hire NPCs, and compete for power.
 
-Boundary:
+Detailed game, token, wallet, market, legal, investor, privacy, and disclosure boundaries belong mainly in dedicated papers such as:
 
-Anti-abuse controls reduce risk, but they do not guarantee zero cheating, zero exploits, perfect detection, or error-free enforcement.
+- `AI-SAAS-PRODUCT-PAPERS/08-ZAGA_PUBLIC.md`
+- `AI-SAAS-PRODUCT-PAPERS/10-ZAGA_DISTRICTS_PUBLIC.md`
+- `AI-SAAS-PRODUCT-PAPERS/16-FUZE_PRODUCT_RISK_BOUNDARIES_PUBLIC.md`
+- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/03-FUZE_ONE_TOKEN_MODEL_PUBLIC.md`
+- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/07-FUZE_WALLET_BASED_PARTICIPATION_MODEL_PUBLIC.md`
+- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/29-FUZE_TOKEN_RISK_BOUNDARIES_PUBLIC.md`
+- `WHITEPAPER-PAPERS/04-FUZE_TOKEN_AND_WALLET_PARTICIPATION_ARCHITECTURE_PUBLIC.md`
+- `WHITEPAPER-PAPERS/05-FUZE_RISK_AND_DISCLOSURE_APPENDIX_PUBLIC.md`
+
+This keeps the ZAGA Arena paper focused on gameplay and product utility while deeper review remains in the correct documents.
 
 ---
 
-## 18. ZAGA Arena Risk Boundaries
+## 12. Key Takeaways
 
-ZAGA Arena public communication must include clear boundaries.
-
-| Area | Boundary |
-|---|---|
-| Game rewards | Game rewards and value language are not guaranteed financial earnings |
-| USDT and Token Value | These are game mechanic or controlled utility-surface terms where designed |
-| Net Worth | Net Worth is game scoring/progression language, not guaranteed real-world wealth |
-| Market Roles | Market Roles are game strategy mechanics, not financial advice |
-| Strategy Options | Strategy Options are game choices, not investment strategies |
-| Leaderboards | Leaderboard position does not guarantee rewards or future eligibility |
-| Player growth | ZAGA Arena does not guarantee player growth or retention |
-| Community growth | ZAGA Arena does not guarantee community growth |
-| Events | Events do not guarantee participation, revenue, or sponsorship |
-| AI support | AI does not guarantee accuracy, balance, moderation, or safety |
-| Anti-cheat | Anti-abuse systems do not guarantee zero cheating |
-| Platform Credits | Credits are usage credits, not investment rights |
-| FUZE token | FUZE token does not guarantee payout, liquidity, listing, price, exit, or return |
-| Wallet participation | Product or game usage does not create automatic wallet-based participation ability |
-| Telegram access | Telegram access does not guarantee adoption or retention |
-
----
-
-## 19. Investor and Community Relevance
-
-### 19.1 Investor Relevance
-
-ZAGA Arena is relevant to investors because it gives FUZE a fast, visible, game-facing product surface.
-
-Investors can evaluate ZAGA Arena through:
-
-- gameplay clarity
-- browser and Telegram-ready direction
-- short-session replayability
-- leaderboard and event systems
-- community sharing potential
-- anti-abuse planning
-- Platform Credit usage model where supported
-- token utility connection
-- data and reporting readiness
-- player support workflow
-- product evidence where available
-- risk boundary discipline
-
-ZAGA Arena can strengthen the FUZE product-first story, but it does not guarantee revenue, user growth, token demand, token price, wallet-based participation activation, liquidity, exit, or investment return.
-
-### 19.2 Community Relevance
-
-ZAGA Arena is relevant to the FUZE and ZAGA community because it gives users an interactive product to play, share, and discuss.
-
-The community can understand ZAGA Arena as:
-
-- a fast battle arena game
-- a Telegram-ready competition surface
-- a leaderboard and event product
-- a ZAGA ecosystem entry point
-- a game utility surface
-- a public engagement layer
-
-Community members should not treat ZAGA Arena as a guaranteed earning system.
-
-### 19.3 Player Relevance
-
-For players, ZAGA Arena is about gameplay.
-
-Players can focus on:
-
-- survival
-- combat
-- boss fights
-- drops
-- Net Worth
-- badges
-- leaderboards
-- events
-- roles
-- strategies
-- sharing results
-- improving each run
-
-Players do not need to treat ZAGA Arena as an investment product to enjoy the game.
-
----
-
-## 20. Product Development Direction
-
-ZAGA Arena can develop through phased product maturity.
-
-### Phase 1: Core Arena Gameplay
-
-Support movement, aiming, shooting, enemy waves, survival, drops, and basic run results.
-
-### Phase 2: Bosses and Combat Depth
-
-Support bosses, boss telegraphs, damage feedback, death effects, strategy options, and stronger combat identity.
-
-### Phase 3: Net Worth, Roles, and Progression
-
-Support Net Worth scoring, Market Roles, Strategy Options, badges, and player progression records where designed.
-
-### Phase 4: Leaderboards and Share Cards
-
-Support leaderboards, run summaries, share cards, community comparison, and Telegram-friendly sharing.
-
-### Phase 5: Multiplayer and Community Events
-
-Support multiplayer rooms, event challenges, tournament tools, community leaderboards, and public-safe event reports.
-
-### Phase 6: Platform and Utility Integration
-
-Support Platform Credits where appropriate, wallet-aware game records, FUZE token utility surfaces, reporting rails, and community support workflows.
-
-### Phase 7: Anti-Abuse and Reporting Maturity
-
-Support anti-cheat, session validation, suspicious activity review, public-safe metrics, event review, and product evidence reporting.
-
-These phases are development directions, not guaranteed launch dates.
-
----
-
-## 21. Public Positioning
-
-ZAGA Arena should be presented as an action-first, Telegram-ready battle arena game.
-
-Approved positioning:
-
-ZAGA Arena is the fast battle arena game where players survive, fight bosses, collect USDT and Token Value, build Net Worth, and compete in Telegram-ready multiplayer arenas.
-
-Avoid positioning ZAGA Arena as:
-
-- guaranteed earning game
-- passive income game
-- guaranteed USDT income system
-- guaranteed token reward system
-- guaranteed NFT profit system
-- guaranteed player growth engine
-- guaranteed token price driver
-- guaranteed investment return
-- price support mechanism
-- market return product
-
-ZAGA Arena’s value comes from gameplay, competition, progression, community events, and ecosystem utility.
-
----
-
-## 22. Key Takeaways
-
-ZAGA Arena is the fast battle arena game under the ZAGA and FUZE ecosystem.
-
-ZAGA Arena is designed for browser-based and Telegram-ready multiplayer arena gameplay.
-
-The main loop is to enter the arena, move, aim, shoot, dodge, fight mobs and bosses, collect game values, build Net Worth, survive, compete on leaderboards, earn badges, and share run summaries.
-
-ZAGA Arena uses USDT, Token Value, Net Worth, Market Roles, Strategy Options, Liquidity Nodes, drops, and market-inspired language as game mechanics or controlled utility surfaces.
-
-ZAGA Arena is separate from ZAGA Districts. ZAGA Districts is not a mode inside ZAGA Arena.
-
-Platform Credits may support ZAGA Arena-related utility where supported.
-
-Platform Credits are product usage credits and are separate from FUZE token.
-
-FUZE token is the single ecosystem token of FUZE.
-
-Wallet-based participation ability is not a second token, not automatic for every wallet, and not active as a guaranteed public payout right.
-
-ZAGA Arena supports gameplay and ecosystem utility, but it does not guarantee game earnings, player growth, community growth, token price, listing, liquidity, payout, income, yield, profit, exit, or investment return.
+- ZAGA Arena is the fast battle arena game under the ZAGA and FUZE ecosystem.
+- ZAGA Arena is browser-based and Telegram-ready in product direction.
+- Players enter short match sessions, survive, fight bosses, collect USDT and Token Value as game mechanics, build Net Worth, compete on leaderboards, earn badges, and share run summaries.
+- ZAGA Arena is separate from ZAGA Districts.
+- ZAGA Districts is not a mode inside ZAGA Arena.
+- Platform Credits can support ZAGA Arena product usage where supported.
+- FUZE token is the single ecosystem token of FUZE.
+- ZAGA Arena gives FUZE a playable product surface for game utility, community participation, and public-safe reporting.
+- Game records, wallet references, player profiles, and community reports should be handled with privacy-aware controls.
+- Detailed game, token, wallet, market, legal, investor, and disclosure boundaries belong mainly in dedicated risk and review papers.

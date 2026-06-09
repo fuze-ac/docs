@@ -4,70 +4,155 @@
 
 FUZE Product Language Dictionary defines approved public wording for FUZE products.
 
-This paper exists because FUZE includes multiple product categories: AI SaaS tools, spreadsheet workflows, shop operating systems, voice announcement products, training tools, community operations, games, market interpretation support, liquidity operations support, event intelligence, utility discovery, and AI desktop assistance.
+This paper exists because FUZE includes multiple product categories: practical AI SaaS tools, spreadsheet workflows, shop operating systems, voice announcement products, training tools, community operations, games, market interpretation support, liquidity operations support, event intelligence, utility discovery, sponsored visibility, and AI desktop work assistance.
 
-Each product must be described with clear, product-specific, risk-aware language.
+Each product uses clear, product-specific, risk-aware language.
 
-FUZE is a transparency-first AI SaaS platform building practical products on shared infrastructure for identity, credits, payments, AI orchestration, wallet-based records, reporting, and ecosystem participation.
+FUZE is a product-first AI SaaS and Web3 ecosystem building practical products on shared infrastructure for identity, Platform Credits, payments, AI orchestration, wallet-based records, reporting, workflow support, and ecosystem participation.
 
-FUZE uses one token only: FUZE token. Platform Credits are product usage credits and are separate from FUZE token. Stablecoins are payment, settlement, treasury, and compensation rails. Wallet-based participation ability is not a second token, not automatic for every wallet, and not active as a guaranteed public payout right.
+FUZE uses one ecosystem token: FUZE token.
 
-This dictionary helps writers, contributors, community admins, product teams, investor-facing teams, and public documentation reviewers use consistent product wording.
+Platform Credits are product usage credits and are separate from FUZE token.
 
-It does not turn product descriptions into guarantees. It does not replace legal, compliance, financial, tax, security, or product owner review.
+Stablecoins support payment, settlement, treasury, and compensation rails.
+
+Wallet-based records can support public-safe transparency where useful while personal identity and sensitive product records stay permissioned where required.
+
+This dictionary helps writers, contributors, community admins, product teams, investor-facing teams, product reviewers, and public documentation reviewers use consistent product wording.
+
+It does not turn product descriptions into guarantees.
+
+It does not replace legal, compliance, financial, tax, security, privacy, or product owner review.
 
 ---
 
-## 1. Purpose of This Dictionary
+## 1. Product Purpose
 
-This dictionary provides approved public language for FUZE product papers, website pages, investor summaries, community updates, product descriptions, FAQs, and public announcements.
+This dictionary provides approved public language for FUZE product papers, website pages, investor summaries, community updates, product descriptions, FAQs, sponsored visibility descriptions, and public announcements.
 
 It answers:
 
-- How should each FUZE product be described?
-- What wording is approved?
-- What wording should be avoided?
-- How should AI output be framed?
-- How should Platform Credits be explained?
-- How should FUZE token be explained in product context?
-- How should wallet-based participation ability be explained?
-- How should game mechanics be described without implying financial earnings?
-- How should QTB and AIMM be described without financial advice, price support, or liquidity guarantees?
-- How should product revenue be described without implying guaranteed approved distributable value?
+- how FUZE is described at the product level
+- how each FUZE product is described
+- what wording is approved
+- what wording is avoided
+- how AI output is framed
+- how Platform Credits are explained
+- how FUZE token is explained in product context
+- how stablecoins are explained
+- how wallet-based records are explained
+- how game mechanics are described without implying financial earnings
+- how QTB and AIMM are described without financial advice, price support, or liquidity guarantees
+- how AIE, ToolGrid AI, and Botmad are described without overstating outcomes
+- how product revenue is described without implying automatic approved distributable value
 
-The goal is to make FUZE product communication clear, calm, consistent, and safe.
+The goal is to make FUZE product communication clear, calm, product-first, consistent, and credible.
 
 ---
 
-## 2. Master FUZE Product Language
+## 2. Who This Product Helps
 
-Use this master language when explaining FUZE at the product level.
+This dictionary helps anyone writing, reviewing, presenting, or publishing FUZE product language.
+
+| Reader Type | Need | How This Dictionary Helps |
+|---|---|---|
+| Product teams | Consistent descriptions for each product | Provides approved product wording |
+| Community admins | Safer public announcements | Provides phrases to use and phrases to avoid |
+| Investor-facing teams | Clear product and revenue language | Separates product utility from financial promises |
+| Website writers | Stronger public product pages | Provides product-first phrasing |
+| Legal and compliance reviewers | Cleaner first-pass product language | Reduces unsupported claims |
+| AI content reviewers | Safer AI-generated drafts | Gives public language boundaries |
+| Partners and sponsors | Clear ecosystem positioning | Explains sponsored visibility, product utility, and reporting language |
+| Documentation teams | Consistent paper language | Keeps product descriptions aligned across the FUZE paper system |
+
+The dictionary is a public-language control tool.
+
+It keeps FUZE communication understandable without making every product paper sound like a legal warning.
+
+---
+
+## 3. User Problem and Market Context
+
+FUZE has many products and product directions.
+
+Without a shared language system, public communication can become confusing.
+
+Common problems include:
+
+- describing FUZE as token-first instead of product-first
+- mixing Platform Credits with FUZE token
+- describing AI outputs as perfect
+- describing product revenue as automatic distributable value
+- describing game mechanics as real-world earnings
+- describing QTB as financial advice
+- describing AIMM as a market maker or price-support engine
+- describing AIE as an event success engine
+- describing ToolGrid AI sponsored visibility as guaranteed customer acquisition
+- describing Botmad as an uncontrolled autonomous worker
+- overusing disclaimer language in normal product papers
+- repeating the same generic platform language across every product
+- using old or confusing internal terms in public papers
+
+This dictionary solves the public-language problem by giving each product a clear public identity.
+
+FUZE can sound confident and product-first while still keeping boundaries accurate.
+
+---
+
+## 4. Product Model
+
+The FUZE product language model has six layers.
+
+| Layer | Role |
+|---|---|
+| Master FUZE Language | Defines how FUZE is described as a product-first AI SaaS and Web3 ecosystem |
+| Product Category Language | Defines how AI SaaS, games, market tools, events, utility discovery, and work assistance are described |
+| Product-Specific Language | Defines approved wording for each FUZE product |
+| Token and Credit Language | Separates FUZE token, Platform Credits, stablecoins, and wallet records |
+| Risk Boundary Language | Defines avoided promises and safer support-based wording |
+| Public Review Language | Helps writers prepare public-safe product papers, announcements, and summaries |
+
+This model keeps FUZE readable.
+
+Product papers explain what products do.
+
+Risk papers explain deeper boundaries.
+
+This dictionary controls the language between both.
+
+---
+
+## 5. Core Features
+
+### 5.1 Master FUZE Product Language
 
 Approved wording:
 
-FUZE is a transparency-first AI SaaS platform building practical products on shared infrastructure for identity, credits, payments, AI orchestration, wallet-based records, reporting, and ecosystem participation.
+FUZE is a product-first AI SaaS and Web3 ecosystem building practical products on shared infrastructure for identity, Platform Credits, payments, AI orchestration, wallet-based records, reporting, workflow support, and ecosystem participation.
 
 FUZE builds practical products first, connects them through shared platform rails second, and supports broader ecosystem participation after that.
 
-FUZE products support real workflows across AI SaaS, business operations, shops, spreadsheets, training, communities, games, market interpretation, liquidity operations, events, utility discovery, and AI work assistance.
+FUZE products support real workflows across AI SaaS, business operations, shops, spreadsheets, training, communities, games, market interpretation, liquidity operations, events, utility discovery, sponsored visibility, and AI work assistance.
 
 Avoided wording:
 
-FUZE is only a token project.
+- FUZE is only a token project.
+- FUZE guarantees returns through products.
+- FUZE products guarantee revenue for token holders.
+- FUZE products guarantee business success.
+- FUZE products make the token price go up.
+- FUZE is a passive income platform.
+- FUZE is a guaranteed earning ecosystem.
 
-FUZE guarantees returns through products.
+Safe example:
 
-FUZE products guarantee revenue for token holders.
+FUZE is a product-first AI SaaS and Web3 ecosystem connecting practical products through shared platform rails.
 
-FUZE products guarantee business success.
+Unsafe example:
 
-FUZE products make the token price go up.
+FUZE is a token project where every product creates guaranteed profit for holders.
 
----
-
-## 3. Product-First Language
-
-FUZE uses product-first language.
+### 5.2 Product-First Language
 
 Approved wording:
 
@@ -81,6 +166,9 @@ Approved wording:
 - AI-assisted operations
 - public-safe reporting
 - ecosystem participation where applicable
+- structured product usage
+- permission-aware workflows
+- workflow support
 
 Avoided wording:
 
@@ -92,14 +180,13 @@ Avoided wording:
 - automatic profit platform
 - guaranteed user growth machine
 - guaranteed token demand engine
+- risk-free ecosystem
 
 Product-first language keeps the focus on real usage.
 
----
+### 5.3 AI Language
 
-## 4. AI Language
-
-FUZE products use AI for workflow support, generation, summaries, routing, reports, analysis, and decision support.
+FUZE products use AI for workflow support, generation, summaries, routing, reports, analysis, classification, review assistance, and decision support.
 
 Approved wording:
 
@@ -114,6 +201,10 @@ Approved wording:
 - human-reviewed AI output
 - permission-controlled AI workflow
 - AI output requires review where appropriate
+- AI-assisted interpretation
+- AI-assisted operations support
+- AI-assisted discovery
+- AI-assisted work execution under permission controls
 
 Avoided wording:
 
@@ -137,9 +228,7 @@ Unsafe example:
 
 AI guarantees perfect reports.
 
----
-
-## 5. Platform Credits Language
+### 5.4 Platform Credits Language
 
 Platform Credits are product usage credits.
 
@@ -147,22 +236,22 @@ Approved wording:
 
 Platform Credits are product usage credits for supported FUZE products and services.
 
-Platform Credits may be used for supported AI workflows, report generation, product usage, product modules, premium workflow access, or other defined services.
+Platform Credits may be used for supported AI workflows, report generation, product usage, product modules, premium workflow access, sponsored visibility setup, marketplace actions, or other defined services.
 
 Platform Credits are separate from FUZE token.
 
-Platform Credits are not FUZE token, equity, debt, investment contracts, income rights, participation rights, profit-share rights, yield products, governance rights, or wallet-based participation claims.
+Platform Credits support product usage where supported.
 
 Avoided wording:
 
-- Platform Credits are investment credits
-- Platform Credits give profit rights
-- Platform Credits pay holders
-- Platform Credits are the same as FUZE token
-- Platform Credits guarantee access to distributions
-- Platform Credits create wallet-based participation eligibility
-- Credits become FUZE token automatically
-- Credits are yield products
+- Platform Credits are investment credits.
+- Platform Credits give profit rights.
+- Platform Credits pay holders.
+- Platform Credits are the same as FUZE token.
+- Platform Credits guarantee access to distributions.
+- Platform Credits create wallet-based participation eligibility.
+- Credits become FUZE token automatically.
+- Credits are yield products.
 
 Safe example:
 
@@ -172,17 +261,15 @@ Unsafe example:
 
 Platform Credits give users participation rights.
 
----
+### 5.5 FUZE Token Product Language
 
-## 6. FUZE Token Product Language
-
-FUZE uses one token only: FUZE token.
+FUZE uses one ecosystem token: FUZE token.
 
 Approved wording:
 
 FUZE token is the single ecosystem token of FUZE.
 
-FUZE token supports product-connected utility, ecosystem participation, platform alignment, governance direction where applicable, and wallet-based participation ability.
+FUZE token supports product-connected utility, ecosystem participation, platform alignment, governance direction where applicable, and wallet-based participation ability where activated under required controls.
 
 Product usage may connect to FUZE token utility where defined.
 
@@ -190,18 +277,18 @@ FUZE token utility does not guarantee token price, listing, liquidity, payout, i
 
 Avoided wording:
 
-- FUZE token pays profit share
-- FUZE token pays dividends
-- every FUZE token holder receives profit
-- holding FUZE guarantees payout
-- FUZE token guarantees income
-- FUZE token guarantees yield
-- FUZE token guarantees price appreciation
-- FUZE token guarantees liquidity
-- FUZE token guarantees listing
-- FUZE token guarantees exit
-- FUZE token is risk-free
-- FUZE token market price does not matter because holders receive share
+- FUZE token pays profit share.
+- FUZE token pays dividends.
+- Every FUZE token holder receives profit.
+- Holding FUZE guarantees payout.
+- FUZE token guarantees income.
+- FUZE token guarantees yield.
+- FUZE token guarantees price appreciation.
+- FUZE token guarantees liquidity.
+- FUZE token guarantees listing.
+- FUZE token guarantees exit.
+- FUZE token is risk-free.
+- FUZE token market price does not matter because holders receive share.
 
 Safe example:
 
@@ -211,21 +298,19 @@ Unsafe example:
 
 FUZE token pays holders profit from all products.
 
----
+### 5.6 Wallet-Based Records and Participation Language
 
-## 7. Wallet-Based Participation Language
-
-Wallet-based participation ability is a sensitive concept and must be described carefully.
+Wallet-based records and wallet-based participation language are sensitive and must be described carefully.
 
 Approved wording:
+
+Wallet-based records can support public-safe transparency where useful.
 
 Wallet-based participation ability is a possible FUZE token-related framework where eligible FUZE-holding wallets may participate in approved distributable value from defined FUZE product revenue pools if the framework becomes active.
 
 Wallet-based participation ability is not a second token.
 
 Wallet-based participation ability is not automatic for every wallet.
-
-Wallet-based participation ability is not active as a guaranteed public payout right.
 
 Eligibility, activation, reporting, smart-contract readiness, legal review, accounting review, treasury controls, audit review, and jurisdiction review are required before any active claim logic.
 
@@ -253,9 +338,7 @@ Unsafe example:
 
 Every FUZE holder receives profit share.
 
----
-
-## 8. Wallet Privacy Language
+### 5.7 Wallet Privacy Language
 
 FUZE uses wallet-level transparency without public identity exposure.
 
@@ -269,12 +352,12 @@ Private verification, if required, stays off-chain, permissioned, access-control
 
 Avoided wording:
 
-- FUZE publishes all participant identities
-- public records include passports
-- public records include investor names
-- public records include private agreements
-- everyone must expose identity publicly
-- wallet transparency means full identity transparency
+- FUZE publishes all participant identities.
+- Public records include passports.
+- Public records include investor names.
+- Public records include private agreements.
+- Everyone must expose identity publicly.
+- Wallet transparency means full identity transparency.
 
 Safe example:
 
@@ -284,9 +367,7 @@ Unsafe example:
 
 All investor identities will be public on-chain.
 
----
-
-## 9. Stablecoin Language
+### 5.8 Stablecoin Language
 
 Stablecoins are payment, settlement, treasury, and compensation rails.
 
@@ -315,9 +396,7 @@ Unsafe example:
 
 Stablecoin revenue guarantees future payouts.
 
----
-
-## 10. Product Revenue Language
+### 5.9 Product Revenue Language
 
 FUZE products may have revenue direction, but product revenue must be described carefully.
 
@@ -354,9 +433,223 @@ All revenue from products goes to FUZE token holders.
 
 ---
 
-## 11. HerHelp Language
+## 6. Practical Workflows and Use Cases
 
-HerHelp is the practical AI SaaS suite under FUZE.
+### 6.1 Product Paper Workflow
+
+A writer creates a product paper.
+
+The workflow can include:
+
+1. Start with product purpose.
+2. Explain the user problem.
+3. Use approved product name and product category.
+4. Explain Platform Credits as product usage credits where relevant.
+5. Explain FUZE token only where product utility requires it.
+6. Use short product boundary language.
+7. Avoid guarantee language.
+8. Route deeper risk topics to dedicated risk papers.
+
+### 6.2 Website Copy Workflow
+
+A website writer creates a public product page.
+
+The workflow can include:
+
+1. Use one clear product title.
+2. Use one practical product promise.
+3. Describe who the product helps.
+4. Describe what the product supports.
+5. Avoid financial, growth, and performance guarantees.
+6. Keep the CTA product-focused.
+7. Add public boundary language only where needed.
+
+### 6.3 Community Announcement Workflow
+
+A community admin announces a product update.
+
+The workflow can include:
+
+1. Use support-based wording.
+2. Explain what is new.
+3. Avoid claims about guaranteed revenue, token price, or growth.
+4. Mention Platform Credits only when product usage is relevant.
+5. Mention FUZE token only when the product update directly involves token utility.
+6. Keep the announcement clear and public-safe.
+
+### 6.4 Investor Summary Workflow
+
+An investor-facing team prepares a product summary.
+
+The workflow can include:
+
+1. Describe product purpose.
+2. Explain user problem and commercial direction.
+3. Use “revenue direction” instead of guaranteed revenue.
+4. Use “product usage” instead of payout claims.
+5. Explain risk boundaries in one section.
+6. Send deeper risk topics to investor and disclosure papers.
+
+### 6.5 AI-Generated Draft Review Workflow
+
+A team uses AI to draft FUZE product text.
+
+The workflow can include:
+
+1. Generate draft copy.
+2. Check product name accuracy.
+3. Remove banned outcome guarantees.
+4. Separate Platform Credits and FUZE token.
+5. Remove old internal terminology.
+6. Add product-first language.
+7. Human reviewer approves final text.
+
+---
+
+## 7. Platform Credits and Product Usage
+
+Product language involving Platform Credits should stay simple.
+
+Approved wording:
+
+Platform Credits support product usage where supported.
+
+Platform Credits may be used for AI workflows, reports, summaries, premium modules, sponsored visibility setup, event intelligence outputs, work assistance, or other defined product actions.
+
+Platform Credits keep product usage separate from FUZE token.
+
+Avoided wording:
+
+- Credits are a token.
+- Credits create a return.
+- Credits automatically convert into FUZE token.
+- Credits are a claim on product revenue.
+- Credits give voting rights.
+- Credits create participation rights.
+- Credits are investment credits.
+
+Safe product example:
+
+AIE can use Platform Credits for event reports, briefings, and public-safe recap generation where supported.
+
+Unsafe product example:
+
+Buying AIE credits gives users future event revenue share.
+
+---
+
+## 8. FUZE Platform and Token Relationship
+
+Product papers can mention FUZE token only when the relationship is relevant.
+
+Approved wording:
+
+FUZE token is the single ecosystem token.
+
+FUZE token supports ecosystem participation, product-connected utility, platform alignment, governance direction where applicable, and wallet-based participation ability where activated under required controls.
+
+Product utility can connect to FUZE token where defined.
+
+Avoided wording:
+
+- token price increases because of the product
+- product users automatically receive token income
+- token holders receive all product revenue
+- FUZE token guarantees liquidity
+- FUZE token guarantees listing
+- product revenue guarantees token value
+- product usage guarantees payout
+
+Safe product example:
+
+ZAGA can support product-connected utility and ecosystem participation where defined.
+
+Unsafe product example:
+
+ZAGA gameplay guarantees token demand and holder income.
+
+---
+
+## 9. Data, AI, Privacy, and Permission Controls
+
+Product language should respect data and privacy boundaries.
+
+Approved wording:
+
+- permission-aware workflows
+- public-safe records
+- private data remains permissioned
+- wallet-based records do not require public personal identity exposure
+- AI-generated outputs require review before sensitive use
+- workspace access follows role and permission controls
+- public reports use approved summaries
+- sensitive user, customer, investor, sponsor, partner, treasury, market, and file data stays permissioned
+
+Avoided wording:
+
+- all data is public
+- all identities are public
+- AI can use every file without review
+- wallet transparency means identity exposure
+- public reports include private records
+- sponsored visibility records are fully public
+- investor documents can be published automatically
+- Botmad can access all files by default
+
+Safe example:
+
+Public reports can use public-safe summaries while private records stay permissioned.
+
+Unsafe example:
+
+All user records can be shown publicly for transparency.
+
+---
+
+## 10. Reporting and Transparency Direction
+
+Product reporting language should be clear.
+
+Approved wording:
+
+- public-safe report
+- activity summary
+- usage summary where supported
+- campaign summary
+- game run summary
+- event recap
+- market context report
+- liquidity operation summary
+- visibility report
+- workflow summary
+- AI usage record where supported
+- Platform Credit usage record where supported
+- reporting supports review
+
+Avoided wording:
+
+- report proves guaranteed success
+- recap proves future growth
+- visibility report guarantees conversion
+- market report guarantees profit
+- liquidity report guarantees liquidity
+- game summary guarantees reward
+- AI report is always correct
+- usage record gives investment rights
+
+Safe example:
+
+Reporting supports transparency and review.
+
+Unsafe example:
+
+The report guarantees product revenue and future payouts.
+
+---
+
+## 11. Product Language Dictionary
+
+### 11.1 HerHelp
 
 Approved wording:
 
@@ -368,12 +661,12 @@ HerHelp supports practical AI workflows through product modules such as SheetLay
 
 Avoided wording:
 
-- HerHelp guarantees business growth
-- HerHelp guarantees revenue
-- HerHelp guarantees customer growth
-- HerHelp guarantees AI accuracy
-- HerHelp replaces all staff
-- HerHelp guarantees operational success
+- HerHelp guarantees business growth.
+- HerHelp guarantees revenue.
+- HerHelp guarantees customer growth.
+- HerHelp guarantees AI accuracy.
+- HerHelp replaces all staff.
+- HerHelp guarantees operational success.
 
 Safe example:
 
@@ -383,13 +676,11 @@ Unsafe example:
 
 HerHelp guarantees business revenue for users.
 
----
-
-## 12. SheetLayer AI Language
-
-SheetLayer AI is the spreadsheet and business data layer.
+### 11.2 SheetLayer AI
 
 Approved wording:
+
+SheetLayer AI is the spreadsheet and business data layer.
 
 SheetLayer AI helps users understand, map, summarize, clean, view, report, sync, and act on spreadsheet data.
 
@@ -399,13 +690,13 @@ SheetLayer AI can help explain tabs, columns, formulas, business meaning, dashbo
 
 Avoided wording:
 
-- SheetLayer AI guarantees data accuracy
-- SheetLayer AI guarantees financial correctness
-- SheetLayer AI guarantees tax correctness
-- SheetLayer AI guarantees accounting correctness
-- SheetLayer AI guarantees perfect dashboards
-- SheetLayer AI guarantees correct business decisions
-- SheetLayer AI replaces professional accounting review
+- SheetLayer AI guarantees data accuracy.
+- SheetLayer AI guarantees financial correctness.
+- SheetLayer AI guarantees tax correctness.
+- SheetLayer AI guarantees accounting correctness.
+- SheetLayer AI guarantees perfect dashboards.
+- SheetLayer AI guarantees correct business decisions.
+- SheetLayer AI replaces professional accounting review.
 
 Safe example:
 
@@ -415,11 +706,7 @@ Unsafe example:
 
 SheetLayer AI guarantees correct financial reports.
 
----
-
-## 13. ShopOS AI Language
-
-ShopOS AI is the AI-powered shop operating system.
+### 11.3 ShopOS AI
 
 Approved wording:
 
@@ -431,58 +718,49 @@ ShopOS AI supports small shops, food businesses, cafés, market stalls, pop-up v
 
 Avoided wording:
 
-- ShopOS AI guarantees shop revenue
-- ShopOS AI guarantees sales growth
-- ShopOS AI guarantees customer traffic
-- ShopOS AI guarantees payment approval
-- ShopOS AI guarantees delivery results
-- ShopOS AI guarantees staff performance
-- ShopOS AI guarantees customer retention
-- ShopOS AI guarantees business success
+- ShopOS AI guarantees shop revenue.
+- ShopOS AI guarantees sales growth.
+- ShopOS AI guarantees customer traffic.
+- ShopOS AI guarantees staff performance.
+- ShopOS AI guarantees stock accuracy.
+- ShopOS AI guarantees payment approval.
+- ShopOS AI guarantees delivery result.
+- ShopOS AI guarantees food safety or tax correctness.
 
 Safe example:
 
-ShopOS AI supports shop operations and daily workflow management.
+ShopOS AI supports QR menu, queue, checkout, stock, staff, delivery, and shop reporting workflows.
 
 Unsafe example:
 
-ShopOS AI guarantees higher sales for every shop.
+ShopOS AI guarantees higher daily sales.
 
----
-
-## 14. SpeakShop AI Language
-
-SpeakShop AI supports promotional voice scripts, sound packs, and speaker announcements.
+### 11.4 SpeakShop AI
 
 Approved wording:
 
-SpeakShop AI supports promotional voice scripts, sound packs, and speaker announcements for shops, events, local businesses, and community-facing operators.
+SpeakShop AI supports promotional voice scripts, sound packs, speaker announcements, queue messages, shop voice prompts, and campaign audio content.
 
-SpeakShop AI helps users create customer greetings, product promotion scripts, queue announcements, campaign messages, staff reminders, event booth messages, and speaker-ready text.
+SpeakShop AI helps shops create customer-facing announcement scripts and sound-pack content.
 
 Avoided wording:
 
-- SpeakShop AI guarantees sales conversion
-- SpeakShop AI guarantees foot traffic
-- SpeakShop AI guarantees campaign success
-- SpeakShop AI guarantees revenue growth
-- SpeakShop AI guarantees customer retention
-- SpeakShop AI guarantees advertising compliance
-- SpeakShop AI guarantees translation accuracy
+- SpeakShop AI guarantees more customers.
+- SpeakShop AI guarantees sales conversion.
+- SpeakShop AI guarantees campaign success.
+- SpeakShop AI guarantees translation accuracy.
+- SpeakShop AI guarantees advertising compliance.
+- SpeakShop AI guarantees customer retention.
 
 Safe example:
 
-SpeakShop AI helps shops create clearer customer-facing announcement scripts.
+SpeakShop AI helps prepare announcement scripts and sound-pack content for shop campaigns.
 
 Unsafe example:
 
-SpeakShop AI guarantees more customers.
+SpeakShop AI guarantees more buyers.
 
----
-
-## 15. TrainLayer AI Language
-
-TrainLayer AI supports learning and training workflows.
+### 11.5 TrainLayer AI
 
 Approved wording:
 
@@ -490,577 +768,288 @@ TrainLayer AI supports AI learning materials, training workflows, quizzes, guide
 
 TrainLayer AI helps users turn knowledge into structured training materials.
 
-TrainLayer AI supports staff training, customer education, community onboarding, product tutorials, quizzes, SOP conversion, role-based learning, and training reports where supported.
-
 Avoided wording:
 
-- TrainLayer AI guarantees learning outcomes
-- TrainLayer AI guarantees staff performance
-- TrainLayer AI guarantees certification validity
-- TrainLayer AI guarantees compliance
-- TrainLayer AI guarantees safety results
-- TrainLayer AI replaces professional training review
+- TrainLayer AI guarantees learning outcomes.
+- TrainLayer AI guarantees staff performance.
+- TrainLayer AI guarantees certification validity.
+- TrainLayer AI guarantees compliance.
+- TrainLayer AI guarantees safety outcomes.
+- TrainLayer AI replaces professional training review.
 
 Safe example:
 
-TrainLayer AI helps create structured training guides and quizzes.
+TrainLayer AI helps create structured guides, quizzes, and training workflows.
 
 Unsafe example:
 
 TrainLayer AI guarantees staff performance.
 
----
-
-## 16. CommunityLayer AI Language
-
-CommunityLayer AI supports community operations.
+### 11.6 CommunityLayer AI
 
 Approved wording:
 
 CommunityLayer AI supports moderation, safety, verification, support, reporting, summaries, and community operations.
 
-CommunityLayer AI helps Telegram groups, Web3 communities, product communities, creator communities, customer support groups, event communities, and business communities organize community activity.
-
-CommunityLayer AI supports summaries, moderation support, repeated-question detection, FAQ generation, support routing, verification workflows, announcements, safety reports, and public-safe community reporting.
+CommunityLayer AI helps admins organize repeated questions, moderation notes, community support, public-safe summaries, and operational reports.
 
 Avoided wording:
 
-- CommunityLayer AI guarantees community growth
-- CommunityLayer AI guarantees perfect moderation
-- CommunityLayer AI guarantees scam prevention
-- CommunityLayer AI guarantees abuse prevention
-- CommunityLayer AI guarantees user retention
-- CommunityLayer AI guarantees member safety
-- CommunityLayer AI guarantees support resolution
+- CommunityLayer AI guarantees community growth.
+- CommunityLayer AI guarantees user retention.
+- CommunityLayer AI guarantees perfect moderation.
+- CommunityLayer AI guarantees scam prevention.
+- CommunityLayer AI guarantees member safety.
+- CommunityLayer AI guarantees support resolution.
+- Verification means public identity exposure.
 
 Safe example:
 
-CommunityLayer AI supports community operations and moderation workflows with human review.
+CommunityLayer AI supports community operations and moderation workflows.
 
 Unsafe example:
 
 CommunityLayer AI guarantees safe and growing communities.
 
----
-
-## 17. ZAGA Language
-
-ZAGA is the FUZE game and token-utility ecosystem.
+### 11.7 ZAGA
 
 Approved wording:
 
 ZAGA is the FUZE game and token-utility ecosystem.
 
-ZAGA includes ZAGA Arena and ZAGA Districts as separate products.
+ZAGA connects games, community participation, wallet-aware utility, public-safe game records, Platform Credits where supported, and FUZE ecosystem participation.
 
-ZAGA supports game participation, community engagement, product utility, and ecosystem activity.
+ZAGA includes ZAGA Arena and ZAGA Districts as separate game products.
 
 Avoided wording:
 
-- ZAGA guarantees game earnings
-- ZAGA guarantees token earnings
-- ZAGA guarantees player growth
-- ZAGA guarantees community growth
-- ZAGA guarantees NFT profit
-- ZAGA guarantees token price
-- ZAGA is a passive income ecosystem
-- ZAGA is an investment product
+- ZAGA is a guaranteed earning ecosystem.
+- ZAGA guarantees token demand.
+- ZAGA guarantees player income.
+- ZAGA guarantees game asset resale value.
+- ZAGA guarantees community growth.
+- ZAGA Districts is a mode inside ZAGA Arena.
 
 Safe example:
 
-ZAGA supports game participation and token-utility surfaces where defined.
+ZAGA is the FUZE game and token-utility ecosystem.
 
 Unsafe example:
 
-ZAGA guarantees earning opportunities for all players.
+ZAGA guarantees player earnings and token demand.
 
----
-
-## 18. ZAGA Arena Language
-
-ZAGA Arena is the fast battle arena game under ZAGA.
+### 11.8 ZAGA Arena
 
 Approved wording:
 
 ZAGA Arena is the fast battle arena game where players survive, fight bosses, collect USDT and Token Value, build Net Worth, and compete in Telegram-ready multiplayer arenas.
 
-ZAGA Arena uses USDT, Token Value, Net Worth, Liquidity Nodes, Market Roles, Strategy Options, drops, bosses, and leaderboards as game mechanics or controlled utility surfaces.
-
-ZAGA Arena is separate from ZAGA Districts.
+USDT, Token Value, Net Worth, Liquidity Nodes, Market Roles, Strategy Options, drops, bosses, leaderboards, and run summaries are game mechanics or controlled utility-surface language.
 
 Avoided wording:
 
-- ZAGA Arena guarantees USDT earnings
-- ZAGA Arena guarantees token rewards
-- ZAGA Arena guarantees financial earnings
-- ZAGA Arena guarantees player profit
-- ZAGA Arena gives passive income
-- Net Worth means real-world wealth
-- Market Roles are financial advice
-- Strategy Options are investment strategies
-- ZAGA Districts is a mode inside ZAGA Arena
+- ZAGA Arena guarantees game earnings.
+- Net Worth is guaranteed real-world wealth.
+- Market Roles are financial advice.
+- Leaderboard position guarantees payout.
+- USDT collection guarantees real-world income.
+- Arena events guarantee reward outcomes.
 
 Safe example:
 
-ZAGA Arena uses market-inspired game mechanics and does not guarantee financial earnings.
+ZAGA Arena uses market-inspired game mechanics and leaderboard competition.
 
 Unsafe example:
 
-ZAGA Arena lets players earn guaranteed USDT.
+ZAGA Arena guarantees players earn USDT.
 
----
-
-## 19. ZAGA Districts Language
-
-ZAGA Districts is the Telegram-native cyberpunk MMORPG and community city-builder.
+### 11.9 ZAGA Districts
 
 Approved wording:
 
 ZAGA Districts is a Telegram-native cyberpunk MMORPG where real communities build cities, manage economies, hire NPCs, and compete for power.
 
-ZAGA Districts city economies, game treasuries, taxes, salaries, NPCs, buildings, quests, conflict systems, token/NFT utility, and community competition are game and community mechanics.
+ZAGA Districts is separate from ZAGA Arena.
 
-ZAGA Districts is separate from ZAGA Arena and is not a mode inside ZAGA Arena.
+ZAGA Districts city economies, NPCs, treasuries, taxes, salaries, defenses, buildings, quests, token/NFT utility, and community competition are game and community mechanics.
 
 Avoided wording:
 
-- ZAGA Districts is a mode inside ZAGA Arena
-- ZAGA Districts guarantees passive income
-- ZAGA Districts guarantees city income
-- game treasuries are real-world treasury rights
-- game taxes are real-world taxes
-- NPC salaries are real-world salaries
-- buildings guarantee asset value
-- token/NFT utility guarantees resale value
-- ZAGA Districts guarantees community growth
+- ZAGA Districts is a mode inside ZAGA Arena.
+- ZAGA Districts creates guaranteed community income.
+- District treasuries are guaranteed real-world treasury rights.
+- NPC salaries create passive income.
+- City economies guarantee financial returns.
+- Token/NFT utility guarantees resale value.
 
 Safe example:
 
-ZAGA Districts turns Telegram communities into cyberpunk game cities with game economy mechanics.
+ZAGA Districts gives Telegram communities a cyberpunk city-builder and MMORPG surface.
 
 Unsafe example:
 
-ZAGA Districts gives communities passive income through city treasuries.
+ZAGA Districts guarantees passive income for city members.
 
----
-
-## 20. QTB Language
-
-QTB is AI trading intelligence and market interpretation support.
+### 11.10 QTB
 
 Approved wording:
 
-QTB is AI trading intelligence and market interpretation support.
+QTB — Quant AI Trade Brain is the AI trading intelligence and market interpretation support product under FUZE.
 
-QTB helps users organize market information, summarize public context, create research notes, maintain watchlists, support trading journals, generate risk observations, and prepare public-safe market reports.
+QTB helps traders, analysts, crypto-native operators, communities, and market-aware teams move from fragmented signals toward clearer interpretation.
 
-QTB supports market interpretation and research workflows.
+QTB supports market summaries, watchlists, token research notes, trading journal organization, risk observations, chart commentary drafts, signal interpretation, and public-safe market reports.
 
 Avoided wording:
 
-- QTB gives financial advice
-- QTB gives investment advice
-- QTB gives buy signals
-- QTB gives sell signals
-- QTB guarantees trading profit
-- QTB guarantees market prediction accuracy
-- QTB guarantees alpha
-- QTB gives price targets
-- QTB tells users what to buy, sell, hold, short, leverage, or allocate
-- QTB is an autonomous trading executor
+- QTB tells users what to buy or sell.
+- QTB guarantees trading profit.
+- QTB guarantees alpha.
+- QTB guarantees prediction accuracy.
+- QTB is an autonomous trading engine.
+- QTB replaces financial advice.
+- QTB guarantees market outcomes.
 
 Safe example:
 
-QTB supports market interpretation and trading journal workflows, but does not provide financial advice.
+QTB helps users organize market information into structured intelligence.
 
 Unsafe example:
 
-QTB gives guaranteed trading signals.
+QTB gives guaranteed buy and sell signals.
 
----
-
-## 21. AIMM Language
-
-AIMM is AI market-making and liquidity operations support.
+### 11.11 AIMM
 
 Approved wording:
 
-AIMM is AI market-making and liquidity operations support.
+AIMM — AI Market Maker is the AI-powered market-operations and liquidity operations support product under FUZE.
 
-AIMM helps users organize liquidity operations, summarize market conditions, prepare venue and exchange notes, review market maker communication, create liquidity risk reports, and draft public-safe liquidity updates.
+AIMM supports liquidity operations, market-operation summaries, exchange communication, venue comparison, risk notes, public-safe liquidity updates, workspace-based operations, and workflow-aware market support.
 
-AIMM supports market operations workflows.
+AIMM is separate from QTB.
 
 Avoided wording:
 
-- AIMM guarantees liquidity
-- AIMM guarantees price support
-- AIMM guarantees exchange listing
-- AIMM guarantees exchange access
-- AIMM guarantees trading volume
-- AIMM guarantees market outcome
-- AIMM guarantees exit liquidity
-- AIMM is an autonomous market maker
-- AIMM manipulates price
-- AIMM creates fake volume
-- AIMM supports wash trading
-- AIMM guarantees market-making results
+- AIMM guarantees liquidity.
+- AIMM protects token price.
+- AIMM guarantees listing.
+- AIMM guarantees trading volume.
+- AIMM is a market maker by itself.
+- AIMM is a black-box profit engine.
+- AIMM can manipulate markets.
+- AIMM guarantees exchange access.
 
 Safe example:
 
-AIMM supports liquidity operations and public-safe market communication.
+AIMM helps teams organize liquidity operations and market-operations workflows.
 
 Unsafe example:
 
 AIMM guarantees liquidity and price support.
 
----
-
-## 22. AIE Language
-
-AIE is event intelligence under FUZE.
+### 11.12 AIE
 
 Approved wording:
 
-AIE supports event intelligence under FUZE, helping users plan events, organize agendas, prepare sponsor and partner summaries, create announcements, summarize feedback, generate recaps, and produce public-safe event reports.
+AIE — Event Intelligence is the AI-powered event intelligence, opportunity discovery, and awareness product under FUZE.
 
-AIE supports event planning, event reporting, campaign summaries, and post-event learning.
+AIE helps users discover, filter, prioritize, plan, organize, summarize, report, and learn from events.
+
+AIE supports event discovery, relevance filtering, watchlists, alerts, event planning, agendas, sponsor summaries, post-event recaps, feedback summaries, public-safe reports, and future playbooks.
 
 Avoided wording:
 
-- AIE guarantees event attendance
-- AIE guarantees ticket sales
-- AIE guarantees sponsor revenue
-- AIE guarantees event ROI
-- AIE guarantees customer acquisition
-- AIE guarantees investor conversion
-- AIE guarantees partnership success
-- AIE guarantees community growth
-- AIE guarantees campaign success
+- AIE guarantees event attendance.
+- AIE guarantees sponsorship revenue.
+- AIE guarantees ticket sales.
+- AIE guarantees customer acquisition.
+- AIE guarantees opportunity success.
+- AIE guarantees campaign success.
+- AIE is a wide-open autonomous event agent.
 
 Safe example:
 
-AIE supports event planning, recaps, and public-safe event reports.
+AIE helps users know what matters earlier and organize event activity more clearly.
 
 Unsafe example:
 
-AIE guarantees sponsor revenue from events.
+AIE guarantees successful events and sponsor revenue.
 
----
-
-## 23. ToolGrid AI Language
-
-ToolGrid AI is the AI utility network with sponsored visibility.
+### 11.13 ToolGrid AI
 
 Approved wording:
 
-ToolGrid AI is the AI utility network under FUZE, helping users discover, compare, understand, list, and organize useful AI tools and product utilities, with clearly marked sponsored visibility where supported.
+ToolGrid AI is the AI utility network, sponsored grid marketplace, and utility-led distribution layer under FUZE.
 
-ToolGrid AI supports tool discovery, listings, AI-generated descriptions, comparison summaries, utility collections, sponsored visibility, campaign reports, and public-safe discovery surfaces.
+ToolGrid AI helps users discover useful tools and helps approved tool owners or sponsors access clearly marked sponsored visibility where supported.
+
+ToolGrid AI supports free utility tools, listings, sponsored grid visibility, tool descriptions, comparisons, trust review, campaign reports, and utility collections.
 
 Avoided wording:
 
-- ToolGrid AI guarantees user acquisition
-- ToolGrid AI guarantees conversion
-- ToolGrid AI guarantees sales
-- ToolGrid AI guarantees ranking
-- ToolGrid AI guarantees sponsored results
-- ToolGrid AI guarantees tool quality
-- ToolGrid AI guarantees business growth
-- ToolGrid AI guarantees AI accuracy
-- ToolGrid AI guarantees customers
+- ToolGrid AI guarantees customers.
+- ToolGrid AI guarantees sales.
+- ToolGrid AI guarantees ranking.
+- Sponsored visibility guarantees clicks.
+- Sponsored placement guarantees revenue.
+- ToolGrid AI is a loosely moderated ad network.
+- ToolGrid AI gives ad rights through FUZE token.
+- AI owns high-risk approval authority.
 
 Safe example:
 
-ToolGrid AI supports AI utility discovery and clearly marked sponsored visibility.
+ToolGrid AI supports utility discovery and clearly marked sponsored visibility where supported.
 
 Unsafe example:
 
-ToolGrid AI guarantees customer acquisition for listed tools.
+ToolGrid AI guarantees customer acquisition for sponsors.
 
----
-
-## 24. Botmad Language
-
-Botmad is the AI Desktop Employee under permission controls.
+### 11.14 Botmad
 
 Approved wording:
 
-Botmad is the AI Desktop Employee under permission controls.
+Botmad is the AI Desktop Employee and AI work-execution product under FUZE.
 
-Botmad helps users prepare documents, summarize workflows, organize tasks, draft support replies, create checklists, support file organization direction, and assist daily work with human review.
+Botmad helps users complete practical computer-based work through permission-controlled AI assistance.
 
-Botmad is a permission-controlled AI work assistant, not unrestricted autonomous desktop control.
-
-Avoided wording:
-
-- Botmad is a fully autonomous employee
-- Botmad replaces all staff
-- Botmad guarantees productivity
-- Botmad guarantees business growth
-- Botmad guarantees error-free work
-- Botmad guarantees customer satisfaction
-- Botmad guarantees support resolution
-- Botmad can control everything without permission
-- Botmad needs no human review
-
-Safe example:
-
-Botmad supports daily work assistance under permission controls and human review.
-
-Unsafe example:
-
-Botmad replaces staff and guarantees productivity.
-
----
-
-## 25. Reporting Language
-
-FUZE products may use reporting to support transparency and review.
-
-Approved wording:
-
-- public-safe report
-- product usage report
-- product evidence report
-- event recap
-- community summary
-- market context report
-- liquidity operation summary
-- AI-generated report draft
-- report hash
-- reporting rail
-- dashboard direction
-- audit record where applicable
+Botmad supports task requests, document preparation, workflow summaries, file organization direction, customer support drafts, operational checklists, desktop assistance, review workflows, and permission-based routing.
 
 Avoided wording:
 
-- report guarantees accuracy
-- report guarantees revenue
-- report guarantees payout
-- report proves all claims
-- report replaces legal review
-- report replaces accounting review
-- report replaces audit
-- report hash is a full audit
-- AI report is always correct
+- Botmad is an uncontrolled autonomous agent.
+- Botmad can run a business without human review.
+- Botmad can access all files by default.
+- Botmad can send, publish, delete, or approve sensitive material without permission.
+- Botmad guarantees productivity improvement.
+- Botmad guarantees operational success.
+- Botmad replaces all staff.
 
 Safe example:
 
-Reports support transparency and review, but they do not guarantee outcomes.
+Botmad helps users prepare structured work outputs under permission controls and human review.
 
 Unsafe example:
 
-The report proves guaranteed revenue.
+Botmad can operate your business automatically without review.
 
 ---
 
-## 26. Roadmap and Readiness Language
+## 12. Key Takeaways
 
-FUZE product papers may describe development direction and readiness.
-
-Approved wording:
-
-- development direction
-- product direction
-- roadmap category
-- readiness stage
-- product status
-- planned support where appropriate
-- may support where available
-- where supported
-- where defined
-- future compatibility
-- activation-gated
-- under review
-- requires additional gates
-
-Avoided wording:
-
-- guaranteed launch date
-- guaranteed delivery
-- guaranteed revenue after launch
-- guaranteed user growth
-- guaranteed activation
-- all features are live
-- feature is final
-- no further review required
-- launch will create token demand
-
-Safe example:
-
-These phases are development directions, not guaranteed launch dates.
-
-Unsafe example:
-
-This feature will definitely launch and generate revenue.
-
----
-
-## 27. Investor-Facing Product Language
-
-Investor-facing product language should explain opportunity and risk together.
-
-Approved wording:
-
-- product thesis
-- revenue direction
-- usage model
-- product readiness
-- product evidence
-- user problem
-- market context
-- risk boundary
-- reporting direction
-- product-first execution
-- Platform Credit usage model
-- FUZE token utility connection
-- wallet-based participation ability if activated
-
-Avoided wording:
-
-- guaranteed investor return
-- guaranteed exit
-- guaranteed acquisition
-- guaranteed revenue
-- guaranteed token price
-- guaranteed listing
-- guaranteed liquidity
-- guaranteed payout
-- guaranteed passive income
-- risk-free opportunity
-- buy before listing
-- TGE multiple
-
-Safe example:
-
-Investors can evaluate FUZE through product clarity, usage direction, revenue model, risk boundaries, and reporting discipline.
-
-Unsafe example:
-
-Investors will receive guaranteed return from product revenue.
-
----
-
-## 28. Community-Facing Product Language
-
-Community-facing language should be clear, useful, and not overpromising.
-
-Approved wording:
-
-- FUZE is building practical products
-- this product supports this workflow
-- this feature may support where available
-- this is the product boundary
-- this does not guarantee outcomes
-- this is game mechanic language
-- this is not financial advice
-- this is not guaranteed earning
-- this is not active as a guaranteed payout right
-- wallet-level transparency does not mean public identity exposure
-
-Avoided wording:
-
-- everyone will earn
-- everyone will receive payout
-- guaranteed reward
-- guaranteed price
-- guaranteed listing
-- guaranteed liquidity
-- guaranteed community growth
-- guaranteed game earnings
-- guaranteed AI result
-- no risk
-
-Safe example:
-
-Community members can use the product and review its public boundaries.
-
-Unsafe example:
-
-Every community member will earn from holding FUZE.
-
----
-
-## 29. Product Language Review Checklist
-
-Before publishing a FUZE product statement, review these questions:
-
-- Does the statement describe what the product supports?
-- Does the statement avoid guaranteed outcome language?
-- Does the statement avoid AI accuracy guarantees?
-- Does the statement avoid business revenue guarantees?
-- Does the statement avoid customer growth guarantees?
-- Does the statement avoid community growth guarantees?
-- Does the statement avoid game earnings guarantees?
-- Does the statement avoid trading profit guarantees?
-- Does the statement avoid liquidity, listing, price support, or exit guarantees?
-- Does the statement keep Platform Credits separate from FUZE token?
-- Does the statement use the one-token model correctly?
-- Does the statement avoid public FPPU language?
-- Does the statement explain wallet-based participation only where relevant?
-- Does the statement avoid public identity exposure?
-- Does the statement use product-specific language instead of generic hype?
-- Does the statement require human review before publication?
-- Does the statement avoid claiming data that FUZE has not provided?
-
-If the answer is unclear, rewrite the statement in support language.
-
----
-
-## 30. Quick Reference: Approved Product One-Liners
-
-Use these one-liners as the product language baseline.
-
-| Product | Approved One-Liner |
-|---|---|
-| HerHelp | HerHelp is the practical AI SaaS suite under FUZE. |
-| SheetLayer AI | SheetLayer AI is the spreadsheet and business data layer. |
-| ShopOS AI | ShopOS AI is the AI-powered shop operating system for QR menu, checkout, queue, payment, loyalty, stock, staff, delivery, reports, TrustCheck, device support, Google Sheets sync, and AI assistance. |
-| SpeakShop AI | SpeakShop AI supports promotional voice scripts, sound packs, and speaker announcements. |
-| TrainLayer AI | TrainLayer AI supports AI learning materials, training workflows, quizzes, guides, staff education, customer education, onboarding, and practical knowledge delivery. |
-| CommunityLayer AI | CommunityLayer AI supports moderation, safety, verification, support, reporting, summaries, and community operations. |
-| ZAGA | ZAGA is the FUZE game and token-utility ecosystem. |
-| ZAGA Arena | ZAGA Arena is the fast battle arena game where players survive, fight bosses, collect USDT and Token Value, build Net Worth, and compete in Telegram-ready multiplayer arenas. |
-| ZAGA Districts | ZAGA Districts is a Telegram-native cyberpunk MMORPG where real communities build cities, manage economies, hire NPCs, and compete for power. |
-| QTB | QTB is AI trading intelligence and market interpretation support. |
-| AIMM | AIMM is AI market-making and liquidity operations support. |
-| AIE | AIE supports event intelligence under FUZE. |
-| ToolGrid AI | ToolGrid AI is the AI utility network with sponsored visibility. |
-| Botmad | Botmad is the AI Desktop Employee under permission controls. |
-
----
-
-## 31. Key Takeaways
-
-FUZE Product Language Dictionary gives FUZE a shared language system for product communication.
-
-The dictionary helps public papers, websites, FAQs, community updates, investor materials, and product pages stay consistent.
-
-FUZE uses product-first language.
-
-FUZE uses one token only: FUZE token.
-
-Platform Credits are product usage credits and are separate from FUZE token.
-
-Stablecoins are payment, settlement, treasury, and compensation rails.
-
-Wallet-based participation ability is not a second token, not automatic for every wallet, and not active as a guaranteed public payout right.
-
-FUZE uses wallet-level transparency without public identity exposure.
-
-HerHelp products should be described as practical AI SaaS workflows, not guaranteed business results.
-
-ZAGA products should be described as game and community mechanics, not guaranteed financial earning systems.
-
-QTB should be described as market interpretation support, not financial advice or trading signals.
-
-AIMM should be described as liquidity operations support, not price support, liquidity guarantee, or market manipulation.
-
-AIE should be described as event intelligence support, not guaranteed event outcome.
-
-ToolGrid AI should be described as AI utility discovery and sponsored visibility, not guaranteed customer acquisition.
-
-Botmad should be described as a permission-controlled AI Desktop Employee, not unrestricted autonomous desktop control.
-
-Every product statement should describe what FUZE supports and avoid promising outcomes FUZE does not control.
+- FUZE Product Language Dictionary defines approved public product wording.
+- FUZE uses product-first language.
+- FUZE is not described as only a token project.
+- Platform Credits are product usage credits and are separate from FUZE token.
+- FUZE token is the single ecosystem token.
+- Stablecoins support payment, settlement, treasury, and compensation rails.
+- Wallet-based records can support public-safe transparency without public identity exposure.
+- AI language should use support, drafting, summarizing, routing, and review-aware wording.
+- HerHelp products are practical AI SaaS workflows, not guaranteed business outcome engines.
+- ZAGA products use game and utility mechanics, not guaranteed earning claims.
+- QTB supports market interpretation and research, not financial advice or trading commands.
+- AIMM supports liquidity operations workflows, not guaranteed liquidity, price support, listing, or market outcome.
+- AIE supports event intelligence and opportunity awareness, not guaranteed event success.
+- ToolGrid AI supports utility discovery and sponsored visibility, not guaranteed acquisition, ranking, sales, or revenue.
+- Botmad supports permission-controlled AI work assistance, not uncontrolled autonomous authority.
+- Public FUZE language should use “supports,” “helps,” “organizes,” “summarizes,” “prepares,” “routes,” “creates draft outputs,” and “public-safe reports.”
+- Public FUZE language should avoid guaranteed revenue, guaranteed customer growth, guaranteed token price, guaranteed payout, guaranteed liquidity, guaranteed AI accuracy, guaranteed game earnings, and risk-free claims.

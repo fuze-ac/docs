@@ -4,17 +4,31 @@
 
 SheetLayer AI is the spreadsheet and business data layer under HerHelp and FUZE.
 
-It is designed for users, teams, small businesses, shop operators, founders, community managers, and product owners who already use spreadsheets as their daily business system but need AI support to understand, organize, map, summarize, report, and turn spreadsheet data into usable workflows.
+It is designed for people and teams that already use spreadsheets as their familiar business system but need AI support to understand, organize, clean, summarize, report, protect, and turn spreadsheet data into usable workflows.
 
-Many businesses run on Google Sheets, Excel files, shared tables, exported CSV files, manual records, sales trackers, stock sheets, customer lists, staff schedules, order records, campaign logs, and financial planning sheets. These spreadsheets often become the real operating system of the business, but they are difficult to maintain, explain, audit, automate, or convert into dashboards and workflows.
+Many small businesses, shops, communities, founders, and product teams rely on Google Sheets, Excel files, CSV exports, sales trackers, stock sheets, staff schedules, campaign logs, investor trackers, and manual business records.
 
-SheetLayer AI exists to make those spreadsheets easier to understand and use.
+These spreadsheets often become the real source of truth for daily operations.
 
-FUZE is a transparency-first AI SaaS platform building practical products on shared infrastructure for identity, credits, payments, AI orchestration, wallet-based records, reporting, and ecosystem participation. SheetLayer AI is one of the practical product layers that supports this product-first model.
+SheetLayer AI helps users make those spreadsheets easier to read, map, explain, improve, and connect to practical workflows.
 
-SheetLayer AI can connect to Platform Credits for product usage where supported. Platform Credits are product usage credits and are separate from FUZE token. FUZE token is the single ecosystem token of FUZE. Wallet-based participation ability is not a second token, not automatic for every wallet, and not active as a guaranteed public payout right.
+It is built around five product layers:
 
-SheetLayer AI supports spreadsheet and business data workflows. It does not guarantee perfect data accuracy, financial correctness, tax correctness, business decision correctness, revenue growth, operational result, AI accuracy, or investment return.
+- SheetMap — map sheet columns, tabs, formulas, and business meaning
+- SheetView — create dashboards, tables, summaries, and mobile-friendly views
+- SheetFlow — turn records into workflow actions
+- SheetSync — handle daily sheet sync and updates
+- SheetGuard — support permissions, sensitive fields, and access control
+
+SheetLayer AI connects to FUZE platform rails through identity, Platform Credits, AI orchestration, data permissions, reporting, wallet-based records where useful, and product-to-platform workflows.
+
+Platform Credits support product usage.
+
+FUZE token is the single ecosystem token of FUZE.
+
+Stablecoins support payment, settlement, treasury, and compensation rails.
+
+Wallet-based records can support public-safe transparency where useful while sensitive identity and private business data stay permissioned.
 
 ---
 
@@ -22,72 +36,91 @@ SheetLayer AI supports spreadsheet and business data workflows. It does not guar
 
 SheetLayer AI exists to turn familiar spreadsheets into a more useful business data layer.
 
-The purpose is not to replace spreadsheets. The purpose is to help users understand and improve the spreadsheets they already use.
+The purpose is not to replace spreadsheets.
+
+The purpose is to help users understand and improve the spreadsheets they already use.
+
+Many users already trust spreadsheets because they are simple, flexible, shareable, and familiar. A shop can track stock in a sheet. A founder can track investor conversations in a sheet. A community can track campaigns in a sheet. A team can track product status in a sheet.
+
+The problem is that spreadsheets become harder to manage as they grow.
 
 SheetLayer AI helps answer practical questions such as:
 
 - What does this spreadsheet contain?
 - What does each tab mean?
 - What does each column represent?
-- Which columns are important for business decisions?
-- Which data looks incomplete, duplicated, or inconsistent?
+- Which fields are important?
 - Which formulas need explanation?
-- Which records can become a dashboard?
-- Which rows can become tasks, orders, workflows, or reports?
-- Which fields are sensitive and should be protected?
-- Which data can sync into another FUZE product such as ShopOS AI?
-- Which outputs can support business reporting?
+- Which data looks incomplete, duplicated, or inconsistent?
+- Which rows can become tasks or reports?
+- Which records can become dashboards?
+- Which fields are sensitive?
+- Which fields can connect to another FUZE product?
+- Which data can support public-safe reporting?
 
-The product is designed around the reality that many businesses already use spreadsheets as their source of truth.
-
-SheetLayer AI makes those spreadsheets easier to read, structure, and act on.
+SheetLayer AI helps users move from raw spreadsheet rows to clear business meaning.
 
 ---
 
-## 2. User Problem and Market Context
+## 2. Who This Product Helps
 
-Spreadsheets are powerful because they are flexible. That same flexibility creates problems.
+SheetLayer AI helps users who already depend on spreadsheets.
+
+| User Type | Spreadsheet Problem | SheetLayer AI Support |
+|---|---|---|
+| Shop owners | Menu, stock, staff, expense, order, and sales records spread across sheets | Map records, create summaries, support ShopOS AI sync direction, and prepare reports |
+| Small businesses | Manual tracking without dashboards or workflow systems | Explain data, create views, generate reports, and turn rows into actions |
+| Founders | Product, investor, expense, user, and roadmap sheets become hard to manage | Map tabs, summarize status, flag private fields, and prepare investor-friendly summaries |
+| Community managers | Member lists, campaigns, event RSVPs, moderator notes, and reward records need structure | Identify sensitive fields, summarize progress, and create public-safe updates |
+| Product teams | Feature status, bugs, test notes, evidence, and launch tasks are tracked manually | Convert rows into product workflows and reporting surfaces |
+| Trainers | Staff progress, quizzes, modules, and onboarding records need follow-up | Summarize training progress and generate action lists |
+| Operators | Repeated manual updates and copy-paste work create errors | Support sync direction, update summaries, and workflow routing |
+| Investors or reviewers | Product evidence and business records need readable summaries | Prepare public-safe summaries and structured views where appropriate |
+
+SheetLayer AI is especially useful for users who are not ready for complex enterprise software but already need more structure than a plain spreadsheet can provide.
+
+---
+
+## 3. User Problem and Market Context
+
+Spreadsheets are powerful because they are flexible.
+
+That flexibility also creates problems.
 
 Common spreadsheet problems include:
 
 - unclear column names
+- too many tabs
+- hidden business logic
 - mixed data formats
-- manual copy-paste errors
+- broken formulas
 - duplicated records
 - missing values
-- broken formulas
-- too many tabs
+- outdated rows
+- manual copy-paste errors
 - inconsistent naming
-- hidden business logic
-- outdated data
-- no clear dashboard
+- no dashboard
 - no permission boundary
 - no workflow connection
-- no explanation for new staff
-- no easy reporting layer
-- no clear link between spreadsheet data and product operations
+- no clear report layer
+- no simple explanation for new staff
+- no easy link between spreadsheet data and product operations
 
-Small businesses and teams often depend on spreadsheets because they are familiar, cheap, and flexible. However, spreadsheets can become difficult to control as the business grows.
+Small businesses and teams often use spreadsheets because they are affordable, familiar, and fast to set up.
 
-SheetLayer AI is designed for this middle area: users are not ready for a complex enterprise system, but their spreadsheet operations need more structure, reporting, and AI assistance.
+But as operations grow, the spreadsheet becomes both useful and risky.
 
-This is especially relevant for:
+SheetLayer AI is built for this middle area.
 
-- shops tracking sales, stock, menus, staff, and expenses
-- founders tracking product, investor, and customer data
-- communities tracking members, campaigns, rewards, and tasks
-- operators using Google Sheets as a lightweight database
-- teams preparing reports from manual records
-- businesses that need dashboards but do not have data analysts
-- projects that need spreadsheet data to connect with AI workflows
+It helps users keep the familiarity of spreadsheets while adding AI-assisted understanding, structure, views, workflows, sync direction, and privacy support.
 
-SheetLayer AI makes spreadsheets more understandable without forcing users to abandon the tools they already know.
+This makes SheetLayer AI a practical bridge between manual business records and a more connected FUZE platform.
 
 ---
 
-## 3. SheetLayer AI Product Model
+## 4. Product Model
 
-SheetLayer AI has four main product layers.
+SheetLayer AI has five product layers.
 
 | Layer | Role |
 |---|---|
@@ -97,19 +130,33 @@ SheetLayer AI has four main product layers.
 | SheetSync | Handles daily sheet sync and updates |
 | SheetGuard | Supports permissions, sensitive fields, and access control |
 
-These layers give SheetLayer AI a clear role inside HerHelp.
+These layers allow SheetLayer AI to start with understanding and move toward action.
 
-It can begin by reading and explaining a spreadsheet, then move toward dashboards, workflows, sync, and permission control.
+A user can begin by asking SheetLayer AI to explain a spreadsheet.
+
+Then the user can create a view.
+
+Then the user can turn rows into tasks.
+
+Then the user can sync relevant data into another product.
+
+Then the user can protect sensitive fields before sharing a report.
+
+This gives SheetLayer AI a clear role inside HerHelp and FUZE.
+
+It makes spreadsheets easier to use without forcing users to abandon the tools they already know.
 
 ---
 
-## 4. SheetMap
+## 5. Core Features
 
-SheetMap is the mapping layer of SheetLayer AI.
+### 5.1 SheetMap
+
+SheetMap is the mapping layer.
 
 It helps users understand the structure and meaning of a spreadsheet.
 
-SheetMap may support:
+SheetMap can support:
 
 - tab discovery
 - column meaning detection
@@ -127,21 +174,15 @@ SheetMap may support:
 
 Example:
 
-A shop owner uploads or connects a spreadsheet with tabs for menu items, stock, daily sales, staff shifts, delivery orders, and expenses. SheetMap helps explain what each tab does, which columns are important, and which fields may need cleanup.
+A shop owner has a spreadsheet with tabs for menu items, stock, daily sales, staff shifts, delivery orders, and expenses. SheetMap helps explain what each tab does, which columns matter, and which fields need cleanup before being used in reports or shop workflows.
 
-Boundary:
+### 5.2 SheetView
 
-SheetMap helps interpret spreadsheet structure, but it does not guarantee perfect data understanding, financial accuracy, formula correctness, or business decision correctness.
-
----
-
-## 5. SheetView
-
-SheetView is the dashboard and viewing layer of SheetLayer AI.
+SheetView is the dashboard and viewing layer.
 
 It helps convert spreadsheet data into clearer views for users, teams, managers, and mobile devices.
 
-SheetView may support:
+SheetView can support:
 
 - summary tables
 - dashboard planning
@@ -151,30 +192,24 @@ SheetView may support:
 - sales summaries
 - stock summaries
 - staff summaries
+- order summaries
 - customer summaries
 - campaign summaries
-- order summaries
 - community activity views
 - product status views
 - investor-ready summary views where appropriate
 
 Example:
 
-A business has a spreadsheet with daily sales and expenses. SheetView can help create a simple view showing total sales, best-selling items, low-stock items, staff hours, and daily notes.
+A business has daily sales and expense records. SheetView can help create a simple view showing total sales, best-selling items, low-stock items, staff hours, daily notes, and report-ready summaries.
 
-Boundary:
+### 5.3 SheetFlow
 
-SheetView supports visibility and reporting. It does not guarantee that the underlying data is complete, correct, current, or sufficient for financial, tax, legal, or investment decisions.
-
----
-
-## 6. SheetFlow
-
-SheetFlow is the workflow layer of SheetLayer AI.
+SheetFlow is the workflow layer.
 
 It helps turn spreadsheet records into actions.
 
-SheetFlow may support:
+SheetFlow can support:
 
 - row-to-task conversion
 - order-to-workflow conversion
@@ -193,19 +228,13 @@ Example:
 
 A sheet contains customer orders, delivery status, and issue notes. SheetFlow can help identify which orders need follow-up, which customer messages need replies, and which staff tasks need to be assigned.
 
-Boundary:
+### 5.4 SheetSync
 
-SheetFlow supports workflow organization. It does not guarantee task completion, staff performance, delivery result, customer satisfaction, or operational success.
-
----
-
-## 7. SheetSync
-
-SheetSync is the sync and update layer of SheetLayer AI.
+SheetSync is the sync and update layer.
 
 It helps connect spreadsheet records to ongoing product use.
 
-SheetSync may support:
+SheetSync can support:
 
 - daily sheet update direction
 - Google Sheets sync workflows
@@ -222,21 +251,15 @@ SheetSync may support:
 
 Example:
 
-A shop uses ShopOS AI for QR menu and stock tracking while still keeping Google Sheets as the familiar business record. SheetSync can help update or compare product records and sheet records.
+A shop uses ShopOS AI for QR menu and stock tracking while still keeping Google Sheets as the familiar business record. SheetSync can help compare product records and sheet records, prepare update notes, and identify records that need review.
 
-Boundary:
+### 5.5 SheetGuard
 
-SheetSync supports data sync workflows. It does not guarantee that all synced records are complete, accurate, conflict-free, or legally sufficient.
-
----
-
-## 8. SheetGuard
-
-SheetGuard is the permission and sensitive-field layer of SheetLayer AI.
+SheetGuard is the permission and sensitive-field layer.
 
 It helps users identify and manage sensitive spreadsheet data.
 
-SheetGuard may support:
+SheetGuard can support:
 
 - sensitive column detection
 - staff access boundaries
@@ -252,142 +275,50 @@ SheetGuard may support:
 
 Example:
 
-A community manager wants to share a public report but the source spreadsheet contains member phone numbers, emails, wallet addresses, and private notes. SheetGuard can help identify which fields should not be shared publicly.
-
-Boundary:
-
-SheetGuard supports privacy-aware review, but it does not guarantee full compliance, perfect sensitive-data detection, legal approval, or security completeness.
+A community manager wants to share a public update, but the source spreadsheet contains member phone numbers, emails, wallet addresses, and private notes. SheetGuard can help identify fields that need to stay permissioned before sharing a public-safe summary.
 
 ---
 
-## 9. Core Features
+## 6. Practical Workflows and Use Cases
 
-SheetLayer AI may support several feature categories.
-
-### 9.1 Spreadsheet Understanding
-
-SheetLayer AI can help users understand:
-
-- tabs
-- columns
-- formulas
-- row types
-- field meanings
-- table structure
-- business logic
-- data relationships
-- key metrics
-- missing fields
-- duplicate records
-- inconsistent formats
-
-### 9.2 Data Cleanup Support
-
-SheetLayer AI can help identify:
-
-- blank cells
-- duplicate rows
-- inconsistent naming
-- mixed date formats
-- unexpected values
-- broken formulas
-- unused columns
-- unclear fields
-- conflicting records
-- suspicious outliers
-
-### 9.3 Dashboard and Reporting Support
-
-SheetLayer AI can help prepare:
-
-- sales dashboards
-- stock dashboards
-- staff dashboards
-- order dashboards
-- training dashboards
-- community dashboards
-- campaign dashboards
-- product evidence dashboards
-- investor-ready summaries where appropriate
-
-### 9.4 Workflow Action Support
-
-SheetLayer AI can help turn rows into:
-
-- tasks
-- reminders
-- checklists
-- follow-ups
-- support items
-- stock alerts
-- training actions
-- moderation actions
-- customer replies
-- report items
-
-### 9.5 Permission and Privacy Support
-
-SheetLayer AI can help identify:
-
-- private fields
-- public-safe fields
-- sensitive customer data
-- staff-only fields
-- investor-only records
-- contributor-related records
-- payment-related fields
-- fields requiring redaction before sharing
-
----
-
-## 10. User Workflow Examples
-
-### 10.1 Small Shop Spreadsheet Workflow
+### Use Case 1: Small Shop Spreadsheet Workflow
 
 A shop owner uses a spreadsheet to track menu items, sales, stock, staff, and daily expenses.
 
-SheetLayer AI may help:
+SheetLayer AI can help:
 
-1. Map the spreadsheet tabs.
+1. Map spreadsheet tabs.
 2. Explain column meanings.
 3. Identify missing stock fields.
 4. Summarize daily sales.
 5. Prepare a low-stock report.
 6. Create a staff checklist.
 7. Sync relevant data with ShopOS AI where supported.
-8. Create a public-safe summary for the owner.
+8. Create a public-safe owner summary.
 
-Boundary:
+This helps the shop turn a manual sheet into an operating layer.
 
-This workflow supports shop operations, but it does not guarantee sales growth, stock accuracy, payment approval, customer traffic, or business success.
-
----
-
-### 10.2 Founder Planning Workflow
+### Use Case 2: Founder Planning Workflow
 
 A founder uses spreadsheets to track product roadmap, investor contacts, expenses, team tasks, and product evidence.
 
-SheetLayer AI may help:
+SheetLayer AI can help:
 
 1. Map tabs by business function.
 2. Identify missing investor fields.
 3. Summarize expenses by category.
 4. Convert roadmap rows into tasks.
 5. Prepare investor-friendly summaries.
-6. Flag private notes that should not be shared.
+6. Flag private notes that need permissioned handling.
 7. Create a status report.
 
-Boundary:
+This helps founders turn scattered records into clearer operating views.
 
-This workflow supports organization and reporting. It does not guarantee investment, fundraising success, legal readiness, or financial correctness.
-
----
-
-### 10.3 Community Operations Workflow
+### Use Case 3: Community Operations Workflow
 
 A community manager uses a spreadsheet for member lists, campaign tasks, event RSVPs, moderator notes, and reward tracking.
 
-SheetLayer AI may help:
+SheetLayer AI can help:
 
 1. Identify member-related columns.
 2. Flag sensitive fields.
@@ -396,17 +327,13 @@ SheetLayer AI may help:
 5. Prepare a public-safe community update.
 6. Connect relevant workflows to CommunityLayer AI where supported.
 
-Boundary:
+This helps communities use spreadsheets without exposing sensitive member data.
 
-This workflow supports community operations, but it does not guarantee community growth, member retention, abuse prevention, or perfect moderation.
-
----
-
-### 10.4 Training and Education Workflow
+### Use Case 4: Training and Education Workflow
 
 A team manager uses a spreadsheet to track staff training modules, quiz scores, task completion, and onboarding status.
 
-SheetLayer AI may help:
+SheetLayer AI can help:
 
 1. Map training records.
 2. Identify incomplete modules.
@@ -415,369 +342,177 @@ SheetLayer AI may help:
 5. Prepare training reports.
 6. Connect learning content to TrainLayer AI where supported.
 
-Boundary:
+This helps teams manage training with clearer reporting and follow-up actions.
 
-This workflow supports training management. It does not guarantee learning outcomes, staff performance, certification results, or business outcomes.
+### Use Case 5: Product Evidence Workflow
 
----
+A product team uses spreadsheets to track feature status, bugs, test notes, usage examples, launch tasks, and customer feedback.
 
-### 10.5 Product Evidence Workflow
+SheetLayer AI can help:
 
-A product team uses spreadsheets to track feature status, user feedback, bugs, demos, screenshots, and roadmap items.
+1. Map product evidence records.
+2. Group rows by feature or product area.
+3. Summarize readiness status.
+4. Convert bug rows into action lists.
+5. Prepare public-safe evidence summaries.
+6. Create reporting views for investor or partner review where appropriate.
 
-SheetLayer AI may help:
-
-1. Map feature and evidence fields.
-2. Identify missing evidence.
-3. Summarize product status.
-4. Create public-safe progress notes.
-5. Prepare investor evidence summaries.
-6. Flag claims that need proof before public use.
-
-Boundary:
-
-This workflow supports product evidence organization. It does not guarantee product success, user adoption, revenue, or investor confidence.
+This helps product teams organize evidence without exposing private workpapers.
 
 ---
 
-## 11. SheetLayer AI and ShopOS AI
+## 7. Platform Credits and Product Usage
 
-SheetLayer AI can support ShopOS AI because many small shops already use spreadsheets for operations.
+Platform Credits are product usage credits for supported FUZE products and services.
 
-A shop may use spreadsheets for:
+SheetLayer AI can use Platform Credits for supported workflows such as:
 
-- menu items
-- ingredients
-- stock
-- supplier lists
-- daily sales
-- expenses
-- staff schedules
-- loyalty customers
-- delivery orders
-- queue notes
-- promotion plans
-- Google Sheets sync records
-
-ShopOS AI can provide the shop operating system layer, while SheetLayer AI helps understand and manage the spreadsheet business data behind it.
-
-Together, the relationship may look like:
-
-| Shop Data | SheetLayer AI Role | ShopOS AI Role |
-|---|---|---|
-| Menu spreadsheet | Map items, prices, categories, notes | Use menu data for QR menu and checkout |
-| Stock sheet | Summarize stock and low-stock items | Support stock and daily operations |
-| Staff sheet | Identify shifts and staff roles | Support staff checklist and operation planning |
-| Sales sheet | Summarize daily sales | Support reports and owner dashboard |
-| Loyalty sheet | Organize customer fields carefully | Support promotions where permission allows |
-
-Boundary:
-
-SheetLayer AI and ShopOS AI can support shop workflows, but they do not guarantee business revenue, data accuracy, customer growth, or operational success.
-
----
-
-## 12. SheetLayer AI and Platform Credits
-
-Platform Credits are product usage credits.
-
-SheetLayer AI may use Platform Credits for supported functions such as:
-
-- spreadsheet mapping
+- spreadsheet interpretation
+- tab and column mapping
 - formula explanation
-- dashboard generation
 - data cleanup review
-- report generation
+- dashboard planning
+- summary generation
 - workflow action generation
-- sync summaries
-- sensitive-field review
-- public-safe report preparation
-- business data summaries
-- investor evidence summaries
-- recurring report generation where supported
-
-Platform Credits help users understand that SheetLayer AI is a product service.
-
-Platform Credits are not FUZE token, not equity, not debt, not investment contracts, not income rights, and not participation rights.
-
-Credit usage in SheetLayer AI does not create wallet-based participation ability.
-
----
-
-## 13. SheetLayer AI and FUZE Token
-
-FUZE token is the single ecosystem token of FUZE.
-
-SheetLayer AI may support the FUZE ecosystem by creating product utility, product usage, and business data workflows.
-
-However, using SheetLayer AI does not guarantee:
-
-- FUZE token price
-- token demand
-- token listing
-- liquidity
-- market support
-- payout
-- income
-- yield
-- profit
-- exit
-- investment return
-- wallet-based participation eligibility
-
-SheetLayer AI can support product-connected utility, but product usage does not automatically create token market performance.
-
----
-
-## 14. SheetLayer AI and Wallet-Based Participation
-
-Wallet-based participation ability is a possible FUZE token-related framework where eligible FUZE-holding wallets may participate in approved distributable value from defined FUZE product revenue pools if the framework becomes active.
-
-SheetLayer AI may matter to this model only if product revenue from SheetLayer AI becomes part of a defined product revenue pool under future approved rules.
-
-However:
-
-- SheetLayer AI revenue is not guaranteed.
-- SheetLayer AI usage is not guaranteed.
-- Product revenue does not automatically become approved distributable value.
-- Gross revenue is not approved distributable value.
-- Platform Credit usage does not create participation rights.
-- Product users do not automatically become eligible FUZE-holding wallets.
-- FUZE token holders do not automatically receive wallet-based participation ability.
-
-Wallet-based participation ability is not a second token, not automatic for every wallet, and not active as a guaranteed public payout right.
-
----
-
-## 15. Data, AI, Privacy, and Permission Controls
-
-SheetLayer AI may process sensitive business and spreadsheet data.
-
-This can include:
-
-- customer lists
-- order records
-- payment notes
-- staff schedules
-- supplier data
-- investor contact lists
-- financial planning sheets
-- wallet addresses
-- member lists
-- private notes
-- revenue records
-- expense records
-- tax-related fields
-- operational records
-
-Because spreadsheets often contain sensitive information, SheetLayer AI must be privacy-aware.
-
-Important controls include:
-
-- user permission review
-- workspace access controls
-- role-based access
-- field-level sensitivity detection
-- redaction suggestions
-- public-safe reporting
-- private data separation
-- AI output review
-- sync permission checks
-- export permission checks
-- team/admin controls
-- audit logs where appropriate
-
-Public boundary:
-
-SheetLayer AI supports spreadsheet review and data handling. It does not guarantee legal compliance, tax correctness, accounting correctness, financial accuracy, privacy completeness, or security completeness.
-
----
-
-## 16. AI Output and Data Accuracy Boundaries
-
-SheetLayer AI can help explain and organize spreadsheet data, but AI output can be incomplete, outdated, inaccurate, or contextually wrong.
-
-Users should review AI outputs before using them for:
-
-- financial decisions
-- tax reporting
-- legal documents
-- investor materials
-- payroll decisions
-- customer communication
-- payment records
-- inventory decisions
-- business strategy
-- public reports
-- token or treasury-related reports
-
-SheetLayer AI can support review, but it should not replace responsible human judgment.
-
-Boundary:
-
-SheetLayer AI does not provide financial advice, tax advice, accounting advice, legal advice, investment advice, or guaranteed business decision support.
-
----
-
-## 17. Revenue Direction and Readiness
-
-SheetLayer AI may support revenue direction through practical product usage.
-
-Potential revenue paths may include:
-
-- usage-based Platform Credits
-- subscription packages
-- business workspace access
-- spreadsheet mapping services
-- dashboard generation
+- sync review
 - report generation
-- Google Sheets sync features
-- business data workflow automation
-- sensitive-field review
-- recurring business reports
-- team usage packages
-- integration with ShopOS AI and other HerHelp modules
+- permission and sensitive-field review
+- public-safe summary preparation
+- advanced spreadsheet assistance
 
-Revenue readiness depends on:
+Platform Credits keep SheetLayer AI connected to the product usage layer.
 
-- clear user problem
-- spreadsheet import or sync path
-- AI mapping quality
-- dashboard and report output quality
-- pricing model
-- Platform Credit usage model
-- support process
-- data privacy controls
-- permission controls
-- AI cost tracking
-- customer feedback
-- evidence of repeated usage
-- operational delivery capacity
+The user understands that credits support actions such as mapping, viewing, flowing, syncing, guarding, and reporting spreadsheet data.
 
-Revenue is not guaranteed.
+Platform Credits are separate from FUZE token.
 
-Revenue does not automatically become approved distributable value.
+FUZE token remains the single ecosystem token of FUZE.
 
 ---
 
-## 18. Investor and Community Relevance
+## 8. FUZE Platform and Token Relationship
 
-### 18.1 Investor Relevance
+SheetLayer AI connects to FUZE through shared platform rails.
 
-SheetLayer AI is relevant to investors because spreadsheets are a common business workflow surface. A product that helps users understand and use spreadsheet data can support practical AI SaaS adoption.
+These rails can include:
 
-Investors can evaluate SheetLayer AI through:
+- identity and access
+- Platform Credits
+- AI orchestration
+- data and permission controls
+- reporting and transparency
+- payments and settlement where relevant
+- wallet-based records where useful
+- product-to-token utility where relevant
+- governance and controls where applicable
 
-- user problem clarity
-- integration with HerHelp
-- integration with ShopOS AI
-- Platform Credit usage model
-- dashboard and reporting use cases
-- data privacy controls
-- business workflow depth
-- repeat usage potential
-- product evidence
-- support and onboarding process
+SheetLayer AI helps FUZE because spreadsheets are often the source of business truth for practical users.
 
-This does not guarantee revenue, adoption, token demand, or investment return.
+When FUZE can help users understand their spreadsheets, FUZE can also help connect those records to products such as ShopOS AI, TrainLayer AI, CommunityLayer AI, reporting rails, and product evidence workflows.
 
-### 18.2 Community Relevance
+FUZE token is the single ecosystem token.
 
-SheetLayer AI is relevant to the community because it shows that FUZE products are practical.
+The token relationship should stay simple in SheetLayer AI public materials.
 
-Community members can understand SheetLayer AI as a tool for:
+The product’s first job is to help users turn spreadsheet data into understanding, views, workflows, sync, permission control, and reports.
 
-- organizing shared data
-- preparing reports
-- improving transparency
-- creating public-safe summaries
-- supporting community operations
-- supporting product and business evidence
-
-This does not guarantee community growth or perfect data reporting.
-
-### 18.3 Product User Relevance
-
-For product users, SheetLayer AI can reduce the difficulty of working with spreadsheets.
-
-Users can use it to understand messy data, build dashboards, prepare reports, and turn rows into actions.
-
-Users should still review outputs, protect sensitive data, and avoid treating AI-generated analysis as final professional advice.
+Detailed token, wallet, legal, investor, market, and risk topics belong in dedicated papers.
 
 ---
 
-## 19. Product Risk Boundaries
+## 9. Data, AI, Privacy, and Permission Controls
 
-SheetLayer AI public communication must include clear boundaries.
+SheetLayer AI can involve sensitive data because spreadsheets often contain real business records.
 
-| Area | Boundary |
-|---|---|
-| Data interpretation | AI interpretation may be incorrect or incomplete |
-| Financial data | SheetLayer AI does not guarantee financial correctness |
-| Tax data | SheetLayer AI does not provide tax advice |
-| Accounting data | SheetLayer AI does not provide accounting advice |
-| Legal data | SheetLayer AI does not provide legal advice |
-| Business decisions | SheetLayer AI does not guarantee business decision correctness |
-| Dashboards | Dashboards depend on source data quality |
-| Sync | Sync workflows may require review and error handling |
-| Privacy | Sensitive fields require permission and review |
-| Public reporting | Public reports should avoid private data exposure |
-| Platform Credits | Credits are usage credits, not investment rights |
-| FUZE token | Product usage does not guarantee token price or liquidity |
-| Wallet participation | Product usage does not create automatic wallet-based participation ability |
+Examples include:
 
----
+- customer names
+- phone numbers
+- emails
+- staff schedules
+- sales records
+- payment notes
+- supplier data
+- expense records
+- investor notes
+- community member lists
+- wallet addresses
+- private comments
+- operational notes
 
-## 20. Product Development Direction
+SheetLayer AI should treat spreadsheet data with privacy-aware and permission-aware design.
 
-SheetLayer AI can develop through phased product maturity.
+Important data principles include:
 
-### Phase 1: Spreadsheet Understanding
+- use spreadsheet data to support the user’s intended workflow
+- identify sensitive fields before sharing outputs
+- separate public-safe summaries from private source records
+- support role-based views where appropriate
+- keep staff, customer, investor, community, and contributor records permissioned where required
+- use AI outputs as assistance that users can review
+- avoid exposing private sheets through public reporting
+- support redaction and public-safe summary direction where useful
 
-Support tab mapping, column meaning, field detection, formula explanation, and spreadsheet summary.
+SheetGuard is especially important because spreadsheets are often shared too widely.
 
-### Phase 2: Data Cleanup and Quality Review
-
-Support missing data review, duplicate detection, inconsistent values, format issues, and cleanup suggestions.
-
-### Phase 3: Dashboards and Views
-
-Support SheetView dashboards, business summaries, mobile views, and filtered views.
-
-### Phase 4: Workflow Actions
-
-Support SheetFlow row-to-task conversion, action lists, checklist generation, follow-up tasks, and workflow routing.
-
-### Phase 5: Sync and Product Integration
-
-Support SheetSync for Google Sheets-style updates and integration with products such as ShopOS AI, CommunityLayer AI, and TrainLayer AI where appropriate.
-
-### Phase 6: Permissions and Public-Safe Reporting
-
-Support SheetGuard for sensitive-field detection, role-based views, redaction suggestions, and public-safe reporting.
-
-These phases are development directions, not guaranteed launch dates.
+The product should help users understand what can be shared, what should be restricted, and what needs review before publication.
 
 ---
 
-## 21. Key Takeaways
+## 10. Reporting and Transparency Direction
 
-SheetLayer AI is the spreadsheet and business data layer under HerHelp and FUZE.
+SheetLayer AI can support reporting by turning spreadsheet records into clearer summaries and views.
 
-It helps users understand, map, summarize, clean, view, report, sync, and act on spreadsheet data.
+Reporting can include:
 
-SheetLayer AI includes five major sub-layers: SheetMap, SheetView, SheetFlow, SheetSync, and SheetGuard.
+- dashboard summaries
+- sales reports
+- stock reports
+- staff reports
+- training progress reports
+- community campaign reports
+- product readiness summaries
+- investor-friendly summaries where appropriate
+- Platform Credit usage records where supported
+- public-safe reporting outputs
+- data cleanup summaries
+- sync update reports
 
-SheetLayer AI is designed for small businesses, shops, founders, teams, community managers, product operators, and users who rely on spreadsheets as a practical operating system.
+Public reporting should use public-safe summaries or references.
 
-SheetLayer AI can connect to ShopOS AI, CommunityLayer AI, TrainLayer AI, and other HerHelp modules where appropriate.
+Private source sheets, sensitive fields, customer data, investor notes, and internal workpapers should stay permissioned where required.
 
-Platform Credits may support SheetLayer AI usage where supported.
+SheetLayer AI can become an important bridge between product activity and reporting because many teams already record their operations in spreadsheets.
 
-Platform Credits are product usage credits and are separate from FUZE token.
+---
 
-FUZE token is the single ecosystem token of FUZE.
+## 11. Product Boundary
 
-Wallet-based participation ability is not a second token, not automatic for every wallet, and not active as a guaranteed public payout right.
+SheetLayer AI supports spreadsheet understanding, dashboard planning, workflow action generation, sync direction, report preparation, and sensitive-field review.
 
-SheetLayer AI supports data and workflow clarity, but it does not guarantee perfect data accuracy, financial correctness, tax correctness, legal correctness, business success, revenue, token performance, or investment return.
+Detailed product, data, privacy, AI, legal, investor, financial, token, and disclosure boundaries belong mainly in dedicated papers such as:
+
+- `CORE-PLATFORM-PAPERS/07-FUZE_DATA_PRIVACY_AND_AI_DATA_HANDLING_PUBLIC.md`
+- `AI-SAAS-PRODUCT-PAPERS/16-FUZE_PRODUCT_RISK_BOUNDARIES_PUBLIC.md`
+- `INVESTOR-PARTNER-PAPERS/08-FUZE_DATA_PRIVACY_AND_PERMISSION_MODEL_PUBLIC.md`
+- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/29-FUZE_TOKEN_RISK_BOUNDARIES_PUBLIC.md`
+- `WHITEPAPER-PAPERS/05-FUZE_RISK_AND_DISCLOSURE_APPENDIX_PUBLIC.md`
+
+This keeps the SheetLayer AI paper focused on practical spreadsheet workflows while deeper review remains in the correct documents.
+
+---
+
+## 12. Key Takeaways
+
+- SheetLayer AI is the spreadsheet and business data layer under HerHelp and FUZE.
+- SheetLayer AI helps users understand, map, view, act on, sync, protect, and report spreadsheet data.
+- SheetMap maps columns, tabs, formulas, and business meaning.
+- SheetView creates dashboards, tables, summaries, and mobile-friendly views.
+- SheetFlow turns records into workflow actions.
+- SheetSync supports daily sheet sync and updates.
+- SheetGuard supports permissions, sensitive fields, and access control.
+- Platform Credits can support SheetLayer AI product usage where supported.
+- FUZE token is the single ecosystem token of FUZE.
+- SheetLayer AI can connect spreadsheet records to ShopOS AI, TrainLayer AI, CommunityLayer AI, reporting rails, and broader FUZE platform workflows.
+- Spreadsheet data can be sensitive, so permission controls and public-safe summaries are important.
+- Detailed data, privacy, AI, legal, token, and disclosure boundaries belong mainly in dedicated risk and review papers.

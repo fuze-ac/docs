@@ -6,24 +6,27 @@ The FUZE Public Language and Boundary Index defines how FUZE speaks in public.
 
 FUZE is a product-first AI SaaS and Web3 ecosystem building practical products on shared platform rails for identity, Platform Credits, payments, AI orchestration, wallet-based records, reporting, and ecosystem participation.
 
-This paper helps writers, reviewers, community managers, investors, partners, and public readers understand the language FUZE uses across public papers, website summaries, investor materials, product pages, tokenomics papers, whitepaper materials, and community explanations.
+This paper helps writers, reviewers, community managers, investors, partners, website editors, product teams, and public readers understand the approved language system for FUZE public documents.
 
-FUZE public language must be:
+FUZE public language should be:
 
 - product-first
 - human-readable
-- clear for crypto and Web3 readers
-- understandable for product users
-- useful for investors and partners
-- calm enough for serious review
-- controlled enough to avoid misleading claims
-- specific to each paper’s objective
+- practical
+- Web3-aware
+- investor-readable
+- community-readable
+- clear for non-technical readers
+- controlled where token, market, AI, investor, or legal topics appear
+- specific to the paper’s purpose
 
 FUZE public papers should create interest without hype.
 
-They should build trust without turning every paper into a legal disclaimer.
+They should build trust without turning every normal paper into a defensive legal document.
 
-Detailed risk language belongs mainly in dedicated risk, disclosure, legal, and language-control papers. Normal product, platform, website, and investor papers should stay readable and use short boundary references where needed.
+The main rule is simple:
+
+FUZE explains products first, platform rails second, Platform Credits and wallet records in context, FUZE token where relevant, and deeper risk language in dedicated risk and disclosure papers.
 
 ---
 
@@ -31,20 +34,22 @@ Detailed risk language belongs mainly in dedicated risk, disclosure, legal, and 
 
 This paper is the public language control layer for the FUZE paper system.
 
-It exists because FUZE combines several areas that readers may confuse if the wording is not controlled:
+FUZE combines several areas that can be misunderstood when the wording is unclear:
 
 - practical AI SaaS products
 - Platform Credits
 - one FUZE token
 - wallet-based records
-- wallet-based participation ability
+- wallet-based participation ability where relevant
 - stablecoin payment, settlement, treasury, and compensation rails
 - ZAGA game products
-- AI market interpretation support
-- AI liquidity operations support
+- QTB market interpretation support
+- AIMM liquidity operations support
 - investor and partner materials
 - public reporting
 - vault and transparency direction
+- website summaries
+- whitepaper materials
 - risk and disclosure papers
 
 The purpose is to make FUZE language consistent without making every paper sound the same.
@@ -56,12 +61,14 @@ This paper defines:
 - approved token, credit, stablecoin, and wallet language
 - public identity and privacy language
 - market access language
-- risk placement rules
+- AI product language
+- game language
 - words and claims FUZE avoids
 - safer replacement language
+- where deeper risk language belongs
 - how to keep papers human, clear, and product-first
 
-This paper is not a replacement for legal, tax, accounting, financial, or regulatory review. It is the public writing standard for FUZE documentation.
+This paper is the shared reference for public communication. Legal, tax, accounting, financial, and regulatory review remain separate review functions where required.
 
 ---
 
@@ -71,17 +78,19 @@ This paper helps anyone who writes, reviews, explains, publishes, summarizes, or
 
 | Reader | How This Paper Helps |
 |---|---|
-| Writers | Gives approved language for FUZE papers |
-| Reviewers | Helps detect misleading, outdated, or duplicated language |
-| Community managers | Gives safer public wording for Telegram, X, Discord, website, and public posts |
-| Product teams | Helps explain products without turning product papers into token papers |
-| Tokenomics reviewers | Helps keep FUZE token, Platform Credits, stablecoins, and wallet records separate |
-| Investor reviewers | Helps keep investor language clear without making public-offer claims |
-| Legal and compliance reviewers | Gives one place to review public language boundaries |
-| Website editors | Helps make website text shorter, sharper, and safer |
+| Writers | Gives approved language for public papers, website pages, summaries, and community posts |
+| Reviewers | Helps detect outdated, misleading, duplicated, or overly defensive language |
+| Community managers | Gives safer public wording for Telegram, X, Discord, websites, and public updates |
+| Product teams | Helps keep product papers practical and product-specific |
+| Tokenomics reviewers | Keeps FUZE token, Platform Credits, stablecoins, and wallet records separated |
+| Investor reviewers | Keeps investor language clear without public-offer framing |
+| Legal and compliance reviewers | Gives one public reference for language boundaries |
+| Website editors | Helps make website text shorter, sharper, and easier to understand |
 | Public readers | Shows how FUZE separates product value, token utility, credits, wallets, and risk disclosures |
 
-The goal is practical: every reader should understand what FUZE means without guessing.
+The goal is practical clarity.
+
+Every reader should understand what FUZE means without guessing.
 
 ---
 
@@ -97,39 +106,39 @@ FUZE uses one clear public position across the paper system.
 | Platform Credits | Platform Credits are product usage credits for FUZE products and services where supported. |
 | FUZE token | FUZE token is the single ecosystem token of FUZE. |
 | FUZE token role | FUZE token supports ecosystem participation, product-connected utility, platform alignment, governance direction where applicable, and wallet-based participation ability where activated under required controls. |
-| Wallet records | Wallets can support public-safe records, snapshots, report references, eligibility status where applicable, and ecosystem transparency. |
+| Wallet records | Wallets can support public-safe records, snapshots, report references, vault references, eligibility status where applicable, and ecosystem transparency. |
 | Stablecoins | Stablecoins are payment, settlement, treasury, and compensation rails. |
 | Privacy | FUZE uses wallet-level transparency where useful while keeping personal identity private. |
 | Risk placement | Detailed risk and disclosure language belongs mainly in dedicated risk, disclosure, legal, and language-control papers. |
 
 The public position should make FUZE feel practical and understandable.
 
-Writers should lead with products, platform value, and reader usefulness before moving into token, wallet, or risk details.
+Normal papers should lead with products, platform value, and reader usefulness before moving into token, wallet, market, or risk details.
 
 ---
 
 ## 4. How to Read the FUZE Paper System
 
-FUZE papers use different levels of language depending on the paper type.
+FUZE papers use different language depth depending on the paper type.
 
 | Paper Type | Language Style |
 |---|---|
 | Public index and FAQ papers | Simple, helpful, navigational |
 | Core platform papers | Clear, structural, product-first |
 | Product papers | Practical, user-focused, product-specific |
-| Tokenomics papers | Controlled, precise, plain-language, risk-aware |
+| Tokenomics papers | Precise, plain-language, risk-aware |
 | Investor papers | Evidence-aware, review-friendly, non-promotional |
 | Website summaries | Short, sharp, public-facing, exciting but controlled |
 | Whitepaper papers | Complete, connected, strategic, carefully bounded |
-| Risk and disclosure papers | More detailed, boundary-focused, review-oriented |
+| Risk and disclosure papers | Detailed, boundary-focused, review-oriented |
 
-Normal product papers should not repeat long token disclaimers.
+A normal product paper should not become a tokenomics paper.
 
-Website summaries should not feel like legal documents.
+A website summary should not feel like a legal document.
 
-Investor papers should help evaluation without sounding like public offering documents.
+An investor paper should help evaluation without sounding like a public token-sale document.
 
-Risk papers should carry the heavier language so the rest of the paper system stays readable.
+A risk paper should carry the heavier boundary language so the rest of the paper system can stay readable.
 
 ---
 
@@ -139,11 +148,11 @@ Risk papers should carry the heavier language so the rest of the paper system st
 
 Writers and reviewers should use this paper before creating or editing FUZE public materials.
 
-The review order is:
+The review path is:
 
 1. Check the requested file type.
 2. Use the approved structure for that file type.
-3. Lead with the correct FUZE communication priority.
+3. Lead with the correct communication priority.
 4. Keep the paper unique to its purpose.
 5. Remove outdated terms, old numbering, and missing-file references.
 6. Keep detailed risk language in the right risk papers.
@@ -162,13 +171,15 @@ Product papers should explain:
 - how FUZE platform rails support the product
 - what data, AI, permission, and reporting boundaries matter
 
-Product papers should not become generic token explainers.
+Product papers should not become generic platform papers.
+
+They should also avoid turning product pages into token explanations.
 
 ### 5.3 Crypto and Web3 Community Teams
 
 Community teams should use this paper when explaining FUZE token, ZAGA, Platform Credits, wallet records, public reporting, and participation-related topics.
 
-Community language should be clear and exciting, but it should avoid price, listing, payout, profit, and market-support expectations.
+Community language should be clear and exciting, but controlled around price, listing, payout, profit, and market-support expectations.
 
 A good community explanation focuses on:
 
@@ -193,7 +204,7 @@ Investor language should focus on:
 - governance and reporting
 - risk and disclosure references
 
-Investor materials should not sound like public token-sale materials.
+Investor materials should stay review-friendly and avoid public offering language.
 
 ### 5.5 Website and Public Content Teams
 
@@ -209,13 +220,15 @@ Website language should help readers quickly understand:
 - how wallet records support transparency
 - where readers can find deeper risk and disclosure materials
 
+Website papers should make FUZE easier to follow, not harder to review.
+
 ---
 
 ## 6. Paper Groups and Their Roles
 
 ### 6.1 Product and Platform Language
 
-Product and platform papers should make FUZE feel useful before explaining sensitive token, wallet, or risk topics.
+Product and platform papers should make FUZE feel useful before explaining sensitive token, wallet, market, or risk topics.
 
 Approved direction:
 
@@ -268,7 +281,7 @@ Approved direction:
 
 ### 6.5 Risk and Disclosure Language
 
-Risk and disclosure papers should carry the more detailed boundary language.
+Risk and disclosure papers carry the more detailed boundary language.
 
 This prevents normal papers from becoming repetitive or overly defensive.
 

@@ -282,15 +282,15 @@ A wallet record can help support transparency where useful, while private source
 
 ### Example 2: Vault Reference
 
-FUZE may publish public-safe vault or reserve references in dedicated tokenomics or reporting papers.
+FUZE can publish public-safe vault or reserve references in dedicated tokenomics or reporting papers.
 
 Readers can review public-safe information without needing private treasury workpapers, private agreements, or internal operating files.
 
 ### Example 3: Product-Connected Wallet Access
 
-A supported product may allow wallet-aware access for specific ecosystem features.
+A supported product can allow wallet-aware access for specific ecosystem features.
 
-For example, a product could recognize a wallet for product-connected utility, eligibility status where applicable, or ecosystem participation references.
+For example, a product can recognize a wallet for product-connected utility, eligibility status where applicable, or ecosystem participation references.
 
 The product still needs its own account, permission, and product rules.
 
@@ -302,7 +302,7 @@ Wallet records can support public-safe references where useful, while gameplay r
 
 ### Example 5: Community Transparency
 
-A community using CommunityLayer AI may have reports, summaries, verification notes, or public-safe activity records.
+A community using CommunityLayer AI can have reports, summaries, verification notes, or public-safe activity records.
 
 Wallet records can support ecosystem participation references where supported, while private moderation notes and sensitive member data stay permissioned.
 
@@ -349,4 +349,4 @@ This keeps the wallet-based platform model understandable while deeper review re
 - FUZE token is the single ecosystem token of FUZE.
 - Wallet-based participation ability belongs mainly in tokenomics, wallet, investor, legal, risk, and whitepaper contexts.
 - Normal product and platform papers should keep wallet language clear and practical.
-- Detailed wallet, token, privacy, legal, market, investor, and disclosure topics belong in dedicated papers.
+- Detailed wallet, token, privacy, legal, market, investor, and disclosure topics belong in dedicated papers. 

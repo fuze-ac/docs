@@ -2,7 +2,7 @@
 
 ## Executive Summary
 
-FUZE Data Privacy and AI Data Handling explains how FUZE treats data, AI workflows, permission controls, wallet-based records, public-safe transparency, and sensitive information across the platform.
+FUZE Data Privacy and AI Data Handling explains how FUZE treats product data, AI workflows, permission controls, wallet-based records, public-safe transparency, and sensitive information across the platform.
 
 FUZE is a product-first AI SaaS and Web3 ecosystem.
 
@@ -170,6 +170,8 @@ Examples:
 - partner access roles
 - investor data room access roles
 - AI workflow approval roles
+
+This keeps product activity controlled.
 
 ### Step 3: AI Supports the Workflow
 
@@ -356,22 +358,29 @@ These products should use risk-aware language and appropriate review controls.
 
 Detailed market, token, and investor boundaries belong in the dedicated risk and disclosure papers.
 
-### Example 6: Botmad Data
+### Example 6: AIE, ToolGrid AI, and Botmad Data
+
+AIE can support event discovery, planning, summaries, and reporting.
+
+ToolGrid AI can support AI utility discovery, sponsored visibility, tool descriptions, comparison notes, and review summaries.
 
 Botmad can support AI work assistance under permission controls.
 
 Data may include:
 
+- event plans
+- sponsor or partner notes
+- tool listing content
+- sponsored visibility records
 - task notes
 - documents
 - project context
 - reports
 - generated drafts
 - research summaries
-- artifacts
 - user-approved workflow outputs
 
-Botmad should help teams work faster while keeping permissions, review, and data access rules clear.
+These products should make data useful inside the product workflow while keeping sensitive records permissioned where required.
 
 ---
 
