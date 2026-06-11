@@ -16,11 +16,11 @@ Platform Credits are product usage credits and are separate from FUZE token.
 
 Stablecoins are payment, settlement, treasury, and compensation rails.
 
-Wallet-based participation ability is a separate activation-gated framework inside the FUZE token model.
+Wallet-based participation ability is an activation-gated framework inside the FUZE token model.
 
 FUZE’s public market access direction is DEX first. CEX expansion may come later and is not guaranteed.
 
-FUZE does not guarantee investment, product adoption, product revenue, business revenue, customer growth, user growth, community growth, AI accuracy, token demand, token price, listing, liquidity, market support, trading volume, payout, income, yield, profit, acquisition, exit, smart-contract security, game earnings, or investment return.
+FUZE uses clear public boundaries around token utility, wallet-based records, market access, AI output, and product revenue. Detailed risk and disclosure language is covered in the FUZE Risk and Disclosure Appendix.
 
 ---
 
@@ -82,7 +82,7 @@ CommunityLayer AI supports moderation, safety, verification, support, reporting,
 
 Boundary:
 
-AI SaaS products do not guarantee business revenue, customer growth, perfect AI output, compliance result, training result, moderation accuracy, or operational success.
+AI SaaS products support practical workflows, but product results, business outcomes, and AI outputs still require responsible use, review, and operational judgment.
 
 ---
 
@@ -100,7 +100,7 @@ ZAGA Districts is not a mode inside ZAGA Arena.
 
 Boundary:
 
-ZAGA game values, USDT and Token Value language, Net Worth, city economies, NPCs, treasuries, taxes, salaries, quests, defenses, and token or NFT utility are game/community mechanics or controlled utility surfaces, not guaranteed financial earnings, passive income, approved distributable value, payout, or investment return.
+ZAGA game values, USDT and Token Value language, Net Worth, city economies, NPCs, treasuries, taxes, salaries, quests, defenses, and token or NFT utility are game/community mechanics or controlled utility surfaces. Detailed risk language is covered in the FUZE Risk and Disclosure Appendix.
 
 ---
 
@@ -142,7 +142,7 @@ These rails may include:
 
 Boundary:
 
-Shared rails support platform coherence, but they do not guarantee scalability, uptime, adoption, revenue, token demand, liquidity, listing, payout, acquisition, exit, or investment return.
+Shared rails support platform coherence, while scalability, uptime, adoption, revenue, token demand, liquidity, listing, payout, acquisition, exit, and investment outcomes remain subject to execution and market conditions.
 
 ---
 
@@ -172,7 +172,7 @@ Possible revenue paths include:
 
 Boundary:
 
-Revenue paths are not revenue guarantees. Product revenue does not automatically become approved distributable value, payout, income, yield, profit, token demand, liquidity, exit, or investment return.
+Revenue paths are business model paths, not revenue guarantees. Product revenue and approved distributable value are explained in deeper tokenomics, investor, and risk papers.
 
 ---
 
@@ -188,7 +188,7 @@ Platform Credits are not FUZE token, equity, debt, investment contracts, income 
 
 Boundary:
 
-Platform Credits do not guarantee token allocation, resale, payout, income, yield, profit, liquidity, exit, or investment return.
+Platform Credits support product usage. Detailed credit, token, and participation boundaries are covered in the Platform Credits and risk papers.
 
 ---
 
@@ -202,7 +202,7 @@ Stablecoin records require classification.
 
 Boundary:
 
-Stablecoin balances are not automatic product revenue, approved distributable value, token-holder distributions, payout supply, liquidity, market access value, or investment return.
+Stablecoins are operational rails. They are not automatically product revenue, approved distributable value, token-holder distributions, payout supply, liquidity, market access value, or investment return.
 
 ---
 
@@ -218,7 +218,7 @@ FUZE does not use a second public participation token.
 
 Boundary:
 
-FUZE token does not guarantee token demand, token price, liquidity, listing, market support, trading volume, payout, income, dividend, yield, profit, acquisition, exit, or investment return.
+FUZE token utility is part of the ecosystem model. Detailed token risk, market access, and wallet-based participation boundaries are covered in the dedicated tokenomics and risk papers.
 
 ---
 
@@ -236,7 +236,7 @@ Activation may require legal, accounting, treasury, audit, reporting, smart-cont
 
 Boundary:
 
-Wallet-based participation ability does not guarantee activation, eligibility, claim rights, payout, income, yield, profit, token price, listing, liquidity, acquisition, exit, or investment return.
+Wallet-based participation ability is activation-gated. Detailed rules and risk boundaries are covered in the wallet-based participation, activation gate, and risk appendix papers.
 
 ---
 
@@ -254,7 +254,7 @@ Self-custody gives direct wallet control but creates user responsibility.
 
 Boundary:
 
-FUZE does not guarantee exchange listing, CEX listing timing, liquidity, market depth, trading volume, buyer availability, seller access, token price, withdrawal access, resale ability, payout, exit, or investment return.
+Market access supports access and transparency. It does not create guaranteed liquidity, resale, listing, payout, or investment outcomes.
 
 ---
 
@@ -281,7 +281,7 @@ FUZE public transparency may include:
 
 Boundary:
 
-Public transparency supports reviewability and public understanding, but it does not guarantee product growth, revenue, token demand, token price, listing, liquidity, payout, acquisition, exit, or investment return.
+Public transparency supports reviewability and public understanding. It does not replace execution, product evidence, audits, legal review, accounting review, or market reality.
 
 ---
 
@@ -397,12 +397,8 @@ Wallet-based participation ability is activation-gated and not automatic.
 
 Product revenue does not automatically become approved distributable value.
 
-DEX-first market access does not guarantee liquidity, token price, resale, payout, or exit.
-
-CEX expansion may come later and is not guaranteed.
-
-FUZE’s investor story is built on product usage, platform rails, public transparency, disciplined risk boundaries, and long-term optionality.
+FUZE’s investor story is built on product usage, platform rails, public transparency, disciplined boundaries, and long-term optionality.
 
 Boundary:
 
-FUZE does not guarantee investment, product adoption, product revenue, business revenue, customer growth, user growth, community growth, AI accuracy, token demand, token price, listing, liquidity, market support, trading volume, payout, income, yield, profit, acquisition, exit, smart-contract security, game earnings, or investment return.
+FUZE uses clear public boundaries around token utility, wallet-based records, market access, AI output, and product revenue. Detailed risk and disclosure language is covered in the FUZE Risk and Disclosure Appendix.

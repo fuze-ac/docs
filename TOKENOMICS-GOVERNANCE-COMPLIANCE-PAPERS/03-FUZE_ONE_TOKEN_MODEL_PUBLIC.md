@@ -6,7 +6,7 @@ FUZE One Token Model explains why FUZE uses one ecosystem token only: **FUZE tok
 
 FUZE token is the single ecosystem token of FUZE. It supports product-connected utility, ecosystem participation, platform alignment, governance direction where applicable, community participation structures, and wallet-based participation ability where activated under required controls.
 
-FUZE does not use a second public token for participation. Earlier participation concepts are merged into the single FUZE token model through wallet-based participation ability, approved distributable value boundaries, activation gates, eligibility controls, and public risk controls.
+FUZE does not use a second public token for participation. Wallet-based participation ability is handled inside the single FUZE token model through activation gates, eligibility controls, approved distributable value boundaries, and public risk controls.
 
 The one-token model reduces confusion for users, investors, community members, product customers, partners, contributors, exchange and custody providers, and public readers.
 
