@@ -96,11 +96,11 @@ The solution has five parts.
 
 | Layer | Public Meaning |
 |---|---|
-| FUZE Token | Single ecosystem token for utility, participation direction, alignment, and governance direction where applicable. |
-| Platform Credits | Product usage credits for AI tasks, reports, workflows, and supported product actions. |
-| Stablecoins | Payment, settlement, treasury, and compensation rails. |
-| Wallet-Based Participation Ability | Conditional ability for eligible FUZE-holding wallets if activated and all gates are ready. |
-| Public Transparency | Wallet-level records, vault labels, report hashes, controlled circulation reports, and public boundaries. |
+| FUZE Token | Single ecosystem token for utility, participation direction, alignment, and governance direction where applicable |
+| Platform Credits | Product usage credits for AI tasks, reports, workflows, and supported product actions |
+| Stablecoins | Payment, settlement, treasury, and compensation rails |
+| Wallet-Based Participation Ability | Conditional ability for eligible FUZE-holding wallets if activated and all gates are ready |
+| Public Transparency | Wallet-level records, vault labels, report hashes, controlled circulation reports, and public boundaries |
 
 This model helps FUZE avoid public confusion.
 
@@ -120,20 +120,20 @@ The FUZE product ecosystem includes:
 
 | Product | Public Role |
 |---|---|
-| HerHelp | Practical AI SaaS suite. |
-| SheetLayer AI | Spreadsheet and business data layer. |
-| ShopOS AI | AI-powered shop operating system for QR menu, checkout, queue, payment, loyalty, stock, staff, delivery, reports, TrustCheck, device support, Google Sheets sync, and AI assistance. |
-| SpeakShop AI | Promotional voice scripts, sound packs, and speaker announcements. |
-| TrainLayer AI | AI learning materials, training workflows, quizzes, guides, and staff/customer education. |
-| CommunityLayer AI | Moderation, safety, verification, support, reporting, summaries, and community operations. |
-| ZAGA | FUZE game and token-utility ecosystem. |
-| ZAGA Arena | Fast battle arena game where players survive, fight bosses, collect USDT and Token Value, build Net Worth, and compete in Telegram-ready multiplayer arenas. |
-| ZAGA Districts | Telegram-native cyberpunk MMORPG where real communities build cities, manage economies, hire NPCs, and compete for power. |
-| QTB | AI trading intelligence and market interpretation support. |
-| AIMM | AI market-making and liquidity operations support. |
-| AIE | Event intelligence support. |
-| ToolGrid AI | AI utility network with sponsored visibility. |
-| Botmad | AI Desktop Employee under permission controls. |
+| HerHelp | Practical AI SaaS suite |
+| SheetLayer AI | Spreadsheet and business data layer |
+| ShopOS AI | AI-powered shop operating system for QR menu, checkout, queue, payment, loyalty, stock, staff, delivery, reports, TrustCheck, device support, Google Sheets sync, and AI assistance |
+| SpeakShop AI | Promotional voice scripts, sound packs, and speaker announcements |
+| TrainLayer AI | AI learning materials, training workflows, quizzes, guides, and staff/customer education |
+| CommunityLayer AI | Moderation, safety, verification, support, reporting, summaries, and community operations |
+| ZAGA | FUZE game and token-utility ecosystem |
+| ZAGA Arena | Fast battle arena game where players survive, fight bosses, collect USDT and Token Value, build Net Worth, and compete in Telegram-ready multiplayer arenas |
+| ZAGA Districts | Telegram-native cyberpunk MMORPG where real communities build cities, manage economies, hire NPCs, and compete for power |
+| QTB | AI trading intelligence and market interpretation support |
+| AIMM | AI market-making and liquidity operations support |
+| AIE | Event intelligence support |
+| ToolGrid AI | AI utility network with sponsored visibility |
+| Botmad | AI Desktop Employee under permission controls |
 
 FUZE token utility may connect to product participation, ecosystem alignment, governance direction where applicable, and wallet-based participation ability if activated.
 
@@ -244,18 +244,18 @@ Required gates may include:
 
 | Gate | Public Meaning |
 |---|---|
-| Legal Gate | Legal treatment and jurisdiction boundaries are reviewed. |
-| Accounting Gate | Revenue, cost, reserve, and approved value treatment are reviewed. |
-| Treasury Gate | Treasury separation and fund classification are ready. |
-| Audit Gate | Review, verification, or audit process is ready where required. |
-| Reporting Gate | Public-safe reporting and record structure are ready. |
-| Smart-Contract Gate | Smart-contract modules are ready, reviewed, and controlled where applicable. |
-| Privacy Gate | Public wallet transparency is separated from private identity records. |
-| Eligibility Gate | Eligible wallet rules are defined. |
-| Operator Gate | Operational process and responsibilities are ready. |
-| Jurisdiction Gate | Restricted regions, legal limits, and compliance boundaries are reviewed. |
-| Product Revenue Pool Gate | Relevant product revenue pools are defined and reviewed. |
-| Approved Distributable Value Gate | Approved distributable value is confirmed under the active policy. |
+| Legal Gate | Legal treatment and jurisdiction boundaries are reviewed |
+| Accounting Gate | Revenue, cost, reserve, and approved value treatment are reviewed |
+| Treasury Gate | Treasury separation and fund classification are ready |
+| Audit Gate | Review, verification, or audit process is ready where required |
+| Reporting Gate | Public-safe reporting and record structure are ready |
+| Smart-Contract Gate | Smart-contract modules are ready, reviewed, and controlled where applicable |
+| Privacy Gate | Public wallet transparency is separated from private identity records |
+| Eligibility Gate | Eligible wallet rules are defined |
+| Operator Gate | Operational process and responsibilities are ready |
+| Jurisdiction Gate | Restricted regions, legal limits, and compliance boundaries are reviewed |
+| Product Revenue Pool Gate | Relevant product revenue pools are defined and reviewed |
+| Approved Distributable Value Gate | Approved distributable value is confirmed under the active policy |
 
 Product revenue does not automatically become approved distributable value.
 

@@ -250,18 +250,18 @@ Each component has a public boundary.
 
 | Risk Area | Public Boundary |
 |---|---|
-| Product Usage | Product usage does not guarantee business revenue, customer growth, operational success, or user growth. |
-| AI Workflows | AI output may be incomplete, incorrect, outdated, or unsuitable without human review. |
-| Platform Credits | Credits are product usage credits and are not FUZE token or participation rights. |
-| Payments | Payments require classification and do not automatically become approved distributable value. |
-| Stablecoins | Stablecoins are payment, settlement, treasury, and compensation rails. |
-| Product Revenue | Product revenue does not automatically become approved distributable value. |
-| Token Records | Token allocation and vault records do not guarantee liquidity or payout. |
-| Wallet Records | Wallet records do not expose personal identity by default. |
-| Smart Contracts | Technical readiness does not equal activation. |
-| Reporting | Reports support transparency but do not guarantee payout, price, liquidity, or investment return. |
-| Market Access | DEX-first access does not guarantee liquidity; CEX expansion is not guaranteed. |
-| Investor Materials | Investor materials do not create guaranteed return, exit, listing, liquidity, or acquisition. |
+| Product Usage | Product usage does not guarantee business revenue, customer growth, operational success, or user growth |
+| AI Workflows | AI output may be incomplete, incorrect, outdated, or unsuitable without human review |
+| Platform Credits | Credits are product usage credits and are not FUZE token or participation rights |
+| Payments | Payments require classification and do not automatically become approved distributable value |
+| Stablecoins | Stablecoins are payment, settlement, treasury, and compensation rails |
+| Product Revenue | Product revenue does not automatically become approved distributable value |
+| Token Records | Token allocation and vault records do not guarantee liquidity or payout |
+| Wallet Records | Wallet records do not expose personal identity by default |
+| Smart Contracts | Technical readiness does not equal activation |
+| Reporting | Reports support transparency but do not guarantee payout, price, liquidity, or investment return |
+| Market Access | DEX-first access does not guarantee liquidity; CEX expansion is not guaranteed |
+| Investor Materials | Investor materials do not create guaranteed return, exit, listing, liquidity, or acquisition |
 
 ### 4.2 Platform Controls
 

@@ -8,7 +8,7 @@ FUZE follows a product-first execution model. Product usage comes first, shared 
 
 FUZE is built around practical AI SaaS products, game and community utility, market interpretation support, liquidity-operation reporting support, event intelligence, AI utility discovery, and AI work assistance.
 
-FUZE uses one token only: FUZE token.
+FUZE uses one token only: **FUZE token**.
 
 FUZE token is the single ecosystem token of FUZE. It supports product-connected utility, ecosystem participation, platform alignment, governance direction where applicable, and wallet-based participation ability.
 
@@ -83,11 +83,11 @@ The FUZE solution has five investor-relevant layers.
 
 | Layer | Investor Meaning |
 |---|---|
-| Product Layer | Practical products with specific users, workflows, and revenue paths. |
-| Platform Rails | Shared identity, credits, payments, AI orchestration, wallet records, and reporting infrastructure. |
-| Token Layer | One ecosystem token for utility, alignment, governance direction where applicable, and wallet-based participation ability if activated. |
-| Transparency Layer | Public papers, vault labels, report hashes, controlled circulation records, public metrics, and risk disclosures. |
-| Risk Boundary Layer | Clear separation between product revenue, Platform Credits, stablecoins, treasury records, token utility, market access, and participation claims. |
+| Product Layer | Practical products with specific users, workflows, and revenue paths |
+| Platform Rails | Shared identity, credits, payments, AI orchestration, wallet records, and reporting infrastructure |
+| Token Layer | One ecosystem token for utility, alignment, governance direction where applicable, and wallet-based participation ability if activated |
+| Transparency Layer | Public papers, vault labels, report hashes, controlled circulation records, public metrics, and risk disclosures |
+| Risk Boundary Layer | Clear separation between product revenue, Platform Credits, stablecoins, treasury records, token utility, market access, and participation claims |
 
 FUZE’s investor thesis is product-first.
 
@@ -101,20 +101,20 @@ FUZE products create the practical foundation for the platform.
 
 | Product | Investor-Relevant Role |
 |---|---|
-| HerHelp | Practical AI SaaS suite. |
-| SheetLayer AI | Spreadsheet and business data layer. |
-| ShopOS AI | AI-powered shop operating system for QR menu, checkout, queue, payment, loyalty, stock, staff, delivery, reports, TrustCheck, device support, Google Sheets sync, and AI assistance. |
-| SpeakShop AI | Promotional voice scripts, sound packs, and speaker announcements. |
-| TrainLayer AI | AI learning materials, training workflows, quizzes, guides, and staff/customer education. |
-| CommunityLayer AI | Moderation, safety, verification, support, reporting, summaries, and community operations. |
-| ZAGA | FUZE game and token-utility ecosystem. |
-| ZAGA Arena | Fast battle arena game where players survive, fight bosses, collect USDT and Token Value, build Net Worth, and compete in Telegram-ready multiplayer arenas. |
-| ZAGA Districts | Telegram-native cyberpunk MMORPG where real communities build cities, manage economies, hire NPCs, and compete for power. |
-| QTB | AI trading intelligence and market interpretation support. |
-| AIMM | AI market-making and liquidity operations support. |
-| AIE | Event intelligence support. |
-| ToolGrid AI | AI utility network with sponsored visibility. |
-| Botmad | AI Desktop Employee under permission controls. |
+| HerHelp | Practical AI SaaS suite |
+| SheetLayer AI | Spreadsheet and business data layer |
+| ShopOS AI | AI-powered shop operating system for QR menu, checkout, queue, payment, loyalty, stock, staff, delivery, reports, TrustCheck, device support, Google Sheets sync, and AI assistance |
+| SpeakShop AI | Promotional voice scripts, sound packs, and speaker announcements |
+| TrainLayer AI | AI learning materials, training workflows, quizzes, guides, and staff/customer education |
+| CommunityLayer AI | Moderation, safety, verification, support, reporting, summaries, and community operations |
+| ZAGA | FUZE game and token-utility ecosystem |
+| ZAGA Arena | Fast battle arena game where players survive, fight bosses, collect USDT and Token Value, build Net Worth, and compete in Telegram-ready multiplayer arenas |
+| ZAGA Districts | Telegram-native cyberpunk MMORPG where real communities build cities, manage economies, hire NPCs, and compete for power |
+| QTB | AI trading intelligence and market interpretation support |
+| AIMM | AI market-making and liquidity operations support |
+| AIE | Event intelligence support |
+| ToolGrid AI | AI utility network with sponsored visibility |
+| Botmad | AI Desktop Employee under permission controls |
 
 These products create multiple possible revenue paths, including subscriptions, Platform Credit usage, reports, service packages, product modules, shop packages, event intelligence, sponsored visibility, AI work sessions, and product-connected utility surfaces where supported.
 

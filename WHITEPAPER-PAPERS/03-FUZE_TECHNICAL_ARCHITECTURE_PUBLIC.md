@@ -202,18 +202,18 @@ FUZE platform architecture is organized into product-facing, platform-facing, wa
 
 | Layer | Public Role |
 |---|---|
-| Product Application Layer | Supports user-facing products such as HerHelp, ZAGA, QTB, AIMM, AIE, ToolGrid AI, and Botmad. |
-| Account and Permission Layer | Supports users, teams, workspaces, partners, roles, access control, and product permissions. |
-| Platform Credit Layer | Supports product usage credits, balance records, usage records, refunds, bonuses, expiration, and product consumption. |
-| Payment and Settlement Layer | Supports product payments, payment records, stablecoin settlement where appropriate, and treasury classification. |
-| AI Orchestration Layer | Supports AI generation, routing, analysis, reporting, workflow support, summarization, and review assistance. |
-| Product Data Layer | Supports product-specific records, workflows, reports, user actions, dashboards, and operational histories. |
-| Wallet Record Layer | Supports wallet addresses, wallet status, eligibility status, snapshot status, and claim status where applicable. |
-| Token and Vault Layer | Supports FUZE token, allocation vaults, vault labels, controlled circulation, and public-safe release records. |
-| Smart-Contract Layer | Supports token contracts, vault contracts, registries, snapshots, claim modules, distribution modules, and control modules where applicable. |
-| Reporting Layer | Supports report hashes, public-safe summaries, correction records, public documentation, and status updates. |
-| Governance Control Layer | Supports multisig, timelock, emergency pause, approval workflows, evidence records, and operator controls. |
-| Privacy and Compliance Layer | Separates public records from private identity, verification, customer, investor, contributor, legal, tax, accounting, treasury, and security records. |
+| Product Application Layer | Supports user-facing products such as HerHelp, ZAGA, QTB, AIMM, AIE, ToolGrid AI, and Botmad |
+| Account and Permission Layer | Supports users, teams, workspaces, partners, roles, access control, and product permissions |
+| Platform Credit Layer | Supports product usage credits, balance records, usage records, refunds, bonuses, expiration, and product consumption |
+| Payment and Settlement Layer | Supports product payments, payment records, stablecoin settlement where appropriate, and treasury classification |
+| AI Orchestration Layer | Supports AI generation, routing, analysis, reporting, workflow support, summarization, and review assistance |
+| Product Data Layer | Supports product-specific records, workflows, reports, user actions, dashboards, and operational histories |
+| Wallet Record Layer | Supports wallet addresses, wallet status, eligibility status, snapshot status, and claim status where applicable |
+| Token and Vault Layer | Supports FUZE token, allocation vaults, vault labels, controlled circulation, and public-safe release records |
+| Smart-Contract Layer | Supports token contracts, vault contracts, registries, snapshots, claim modules, distribution modules, and control modules where applicable |
+| Reporting Layer | Supports report hashes, public-safe summaries, correction records, public documentation, and status updates |
+| Governance Control Layer | Supports multisig, timelock, emergency pause, approval workflows, evidence records, and operator controls |
+| Privacy and Compliance Layer | Separates public records from private identity, verification, customer, investor, contributor, legal, tax, accounting, treasury, and security records |
 
 ### 4.2 Product-to-Platform Flow
 
@@ -511,16 +511,16 @@ These systems do not activate participation by themselves.
 
 | Component | Role |
 |---|---|
-| Wallet Record System | Records wallet addresses and public-safe wallet status where applicable. |
-| Eligibility Registry | Records eligible, ineligible, restricted, pending, or claim status where applicable. |
-| Snapshot Module | Records time-based or event-based wallet states where applicable. |
-| Approved Value Registry | Records approved distributable value status where applicable. |
-| Product Revenue Pool Records | Records included product revenue pools where applicable. |
-| Claim Module | Supports eligible-wallet claims if activated. |
-| Distribution Module | Supports approved participation distributions if activated. |
-| Report Hash Registry | Supports report integrity references and public-safe version records. |
-| Privacy Layer | Keeps identity and verification records off-chain and permissioned where required. |
-| Governance Controls | Supports approval workflows, multisig, timelock, pause, and correction. |
+| Wallet Record System | Records wallet addresses and public-safe wallet status where applicable |
+| Eligibility Registry | Records eligible, ineligible, restricted, pending, or claim status where applicable |
+| Snapshot Module | Records time-based or event-based wallet states where applicable |
+| Approved Value Registry | Records approved distributable value status where applicable |
+| Product Revenue Pool Records | Records included product revenue pools where applicable |
+| Claim Module | Supports eligible-wallet claims if activated |
+| Distribution Module | Supports approved participation distributions if activated |
+| Report Hash Registry | Supports report integrity references and public-safe version records |
+| Privacy Layer | Keeps identity and verification records off-chain and permissioned where required |
+| Governance Controls | Supports approval workflows, multisig, timelock, pause, and correction |
 
 ### 8.2 Eligibility Architecture
 
@@ -598,17 +598,17 @@ Possible on-chain components may include:
 
 | Component | Public Role |
 |---|---|
-| FUZE Token Contract | Defines FUZE token where deployed. |
-| Allocation Vaults | Hold purpose-specific token allocation categories. |
-| Public Vault Records | Show public-safe vault labels and token movement where appropriate. |
-| Report Hash Registry | Stores public-safe report hashes where appropriate. |
-| Snapshot References | Stores or references wallet snapshot records where appropriate. |
-| Eligibility Status Records | Stores public-safe eligibility status where appropriate. |
-| Claim Module | Supports eligible-wallet claims if active and approved. |
-| Distribution Module | Supports approved participation distributions if active and approved. |
-| Multisig Contract | Supports multi-party approval for sensitive actions. |
-| Timelock Contract | Adds delay to sensitive actions where appropriate. |
-| Emergency Pause Controls | Supports temporary pause where applicable. |
+| FUZE Token Contract | Defines FUZE token where deployed |
+| Allocation Vaults | Hold purpose-specific token allocation categories |
+| Public Vault Records | Show public-safe vault labels and token movement where appropriate |
+| Report Hash Registry | Stores public-safe report hashes where appropriate |
+| Snapshot References | Stores or references wallet snapshot records where appropriate |
+| Eligibility Status Records | Stores public-safe eligibility status where appropriate |
+| Claim Module | Supports eligible-wallet claims if active and approved |
+| Distribution Module | Supports approved participation distributions if active and approved |
+| Multisig Contract | Supports multi-party approval for sensitive actions |
+| Timelock Contract | Adds delay to sensitive actions where appropriate |
+| Emergency Pause Controls | Supports temporary pause where applicable |
 
 On-chain records are public by design.
 
@@ -620,18 +620,18 @@ Off-chain components may include:
 
 | Component | Role |
 |---|---|
-| User Account System | Manages users, teams, access, roles, and permissions. |
-| Product Databases | Store product workflows, usage records, and operational data. |
-| Platform Credit Ledger | Tracks credits, usage, refunds, bonuses, expiration, and liabilities. |
-| Payment Records | Tracks invoices, receipts, refunds, disputes, and settlement status. |
-| Stablecoin Classification Records | Classifies stablecoin payments, settlement, treasury movement, and compensation. |
-| Revenue Reconciliation System | Supports product revenue confirmation, exclusions, reserves, and approved value review. |
-| Private Verification System | Stores permissioned verification records where required. |
-| Investor Data Room | Stores private investor materials, agreements, risk records, and access logs where required. |
-| Legal and Tax Records | Stores private review materials. |
-| Accounting Workpapers | Stores private reconciliation and reporting materials. |
-| AI Workflow Logs | Stores AI task history, prompts, outputs, review status, and permissions where appropriate. |
-| Support and Dispute Records | Stores user support, claim support, correction, appeal, and incident records. |
+| User Account System | Manages users, teams, access, roles, and permissions |
+| Product Databases | Store product workflows, usage records, and operational data |
+| Platform Credit Ledger | Tracks credits, usage, refunds, bonuses, expiration, and liabilities |
+| Payment Records | Tracks invoices, receipts, refunds, disputes, and settlement status |
+| Stablecoin Classification Records | Classifies stablecoin payments, settlement, treasury movement, and compensation |
+| Revenue Reconciliation System | Supports product revenue confirmation, exclusions, reserves, and approved value review |
+| Private Verification System | Stores permissioned verification records where required |
+| Investor Data Room | Stores private investor materials, agreements, risk records, and access logs where required |
+| Legal and Tax Records | Stores private review materials |
+| Accounting Workpapers | Stores private reconciliation and reporting materials |
+| AI Workflow Logs | Stores AI task history, prompts, outputs, review status, and permissions where appropriate |
+| Support and Dispute Records | Stores user support, claim support, correction, appeal, and incident records |
 
 Off-chain systems support private operations and user workflows.
 
@@ -645,12 +645,12 @@ Examples include:
 
 | Hybrid Component | Public Side | Private Side |
 |---|---|---|
-| Report Hashes | Hash or version reference. | Source report, review notes, private data. |
-| Eligibility Status | Public-safe status where approved. | Private verification and review records. |
-| Approved Value Status | Public-safe status where approved. | Accounting, treasury, legal, tax, and reserve details. |
-| Vault Reports | Vault label and transaction hash. | Internal treasury explanation and controls. |
-| Claim Status | Public-safe claim state where active. | Private support, dispute, or verification records. |
-| Market Access Status | Verified contract and route status. | Private exchange discussions and liquidity planning records. |
+| Report Hashes | Hash or version reference | Source report, review notes, private data |
+| Eligibility Status | Public-safe status where approved | Private verification and review records |
+| Approved Value Status | Public-safe status where approved | Accounting, treasury, legal, tax, and reserve details |
+| Vault Reports | Vault label and transaction hash | Internal treasury explanation and controls |
+| Claim Status | Public-safe claim state where active | Private support, dispute, or verification records |
+| Market Access Status | Verified contract and route status | Private exchange discussions and liquidity planning records |
 
 Hybrid architecture helps FUZE be transparent without exposing private data.
 
@@ -660,21 +660,21 @@ FUZE may use clear technical status terms:
 
 | Status | Meaning |
 |---|---|
-| Not Started | Component is not specified or deployed. |
-| In Specification | Component is being designed. |
-| In Review | Component is under technical, legal, treasury, privacy, or operator review. |
-| Testnet Deployed | Component is deployed in test environment only. |
-| Testnet Simulated | Component has been tested through defined scenarios. |
-| Remediation Required | Issues require correction before the next phase. |
-| Mainnet Ready | Component is approved for production deployment. |
-| Mainnet Deployed | Component is deployed in production environment. |
-| Verified | Contract or record is verified where applicable. |
-| Inactive | Component is deployed but not active. |
-| Limited Active | Component is active for limited purpose only. |
-| Active | Component is active under approved rules. |
-| Paused | Component is temporarily disabled. |
-| Deprecated | Component is replaced or no longer used. |
-| Corrected | Component status or report has been corrected. |
+| Not Started | Component is not specified or deployed |
+| In Specification | Component is being designed |
+| In Review | Component is under technical, legal, treasury, privacy, or operator review |
+| Testnet Deployed | Component is deployed in test environment only |
+| Testnet Simulated | Component has been tested through defined scenarios |
+| Remediation Required | Issues require correction before the next phase |
+| Mainnet Ready | Component is approved for production deployment |
+| Mainnet Deployed | Component is deployed in production environment |
+| Verified | Contract or record is verified where applicable |
+| Inactive | Component is deployed but not active |
+| Limited Active | Component is active for limited purpose only |
+| Active | Component is active under approved rules |
+| Paused | Component is temporarily disabled |
+| Deprecated | Component is replaced or no longer used |
+| Corrected | Component status or report has been corrected |
 
 Status terms must separate deployment from activation.
 

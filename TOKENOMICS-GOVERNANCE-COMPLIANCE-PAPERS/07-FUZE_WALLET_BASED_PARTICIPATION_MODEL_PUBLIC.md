@@ -1,679 +1,482 @@
-# FUZE Wallet-Based Participation Model
+# FUZE Community Participation Round
 
 ## Executive Summary
 
-FUZE Wallet-Based Participation Model explains the public model for wallet-based participation ability inside the FUZE one-token system.
+FUZE Community Participation Round explains the public/community access model for the **110,000,000 FUZE Community Participation Allocation** inside the fixed **500,000,000 FUZE** total supply.
 
-FUZE uses one ecosystem token only: **FUZE token**.
+FUZE uses the **Community Participation Round** as the public-facing name for its eligible community participation model.
 
-FUZE token is the single ecosystem token of FUZE. It supports product-connected utility, ecosystem participation, platform alignment, governance direction where applicable, community participation structures, and wallet-based participation ability where activated under final policy.
+This model moves FUZE away from price-tier, discount-driven, token-first messaging and toward a product-aligned, compliance-aware, eligibility-controlled participation structure for eligible community members, real product users, contributors, and long-term ecosystem supporters.
 
-Wallet-based participation ability is a possible FUZE token-related framework where eligible FUZE-holding wallets may participate in approved distributable value from defined FUZE product revenue pools if the framework becomes active.
+The Community Participation Round is separate from wallet-based participation ability.
 
-This ability is not a second token. It is not a public FPPU token. It is not automatic for every wallet. It is not active as a guaranteed public payout right.
+Community Participation Round means eligible access to the Community Participation Allocation under defined rules, readiness controls, jurisdiction limits, product context, controlled circulation, and public reporting direction.
 
-FUZE avoids public FPPU language because it can confuse investors, community members, product users, partners, contributors, and public readers. The public model uses clearer language:
+Wallet-based participation ability means a possible future FUZE token-related framework where eligible FUZE-holding wallets may participate in approved distributable value if activated under separate legal, accounting, treasury, audit, reporting, smart-contract, eligibility, privacy, and jurisdiction gates.
 
-- wallet-based participation ability;
-- eligible FUZE-holding wallet;
-- approved distributable value;
-- defined product revenue pools;
-- activation gates;
-- eligibility records;
-- snapshot records where applicable;
-- wallet-level transparency;
-- no public identity exposure.
+These two concepts are not the same.
 
-Platform Credits are product usage credits and are separate from FUZE token.
+FUZE also separates the Community Participation Allocation from the **BOARD / Surfboard Migration** allocation. BOARD / Surfboard Migration is a separate **25,000,000 FUZE** allocation reserved for eligible legacy-holder continuity. Both allocations are already included inside the fixed 500,000,000 FUZE total supply.
 
-Stablecoins are payment, settlement, treasury, and operational compensation rails.
+FUZE separates three systems clearly:
 
-Product revenue, if generated, requires reconciliation and does not automatically become approved distributable value.
+| System | Public Role |
+|---|---|
+| FUZE token | Ecosystem participation, product-connected utility, platform alignment, governance direction where applicable, and wallet-based participation ability where activated |
+| Platform Credits | Product usage credits for FUZE products and services |
+| Stablecoins | Payment, settlement, treasury, and operational compensation rails |
 
-Wallet-based participation ability may activate only after legal, accounting, treasury, audit, reporting, smart-contract, eligibility, privacy, operator, and jurisdiction gates are ready.
+The Community Participation Round is not a dividend program, yield program, guaranteed payout path, guaranteed token profit path, public investment offer, public solicitation, guaranteed listing path, guaranteed liquidity path, or price-first token campaign.
 
-FUZE does not guarantee payout, income, dividend, yield, profit, token price, listing, liquidity, market support, exit, game earnings, business revenue, user growth, community growth, approved distributable value, claim availability, wallet eligibility, or investment return.
+---
 
 ## 1. Purpose of This Paper
 
-This paper explains the FUZE wallet-based participation model.
+This paper explains the FUZE Community Participation Round.
 
 It defines:
 
-- what wallet-based participation ability means;
-- why the model is part of the FUZE one-token system;
-- why the model is not a second token;
-- why FUZE avoids public FPPU language;
-- what an eligible FUZE-holding wallet means;
-- what approved distributable value means;
-- how product revenue differs from approved distributable value;
-- which actions do not automatically create eligibility;
-- what activation gates apply before any participation framework can become active;
-- how wallet-level transparency works without public identity exposure;
-- how Platform Credits, stablecoins, product revenue, and FUZE token remain separate;
-- how FUZE reframes earlier profit-participation language into safer public terminology;
-- what public claims FUZE avoids.
+- the public purpose of the Community Participation Round
+- the relationship between the Community Participation Round and the Community Participation Allocation
+- the 110,000,000 FUZE allocation amount
+- the separation from BOARD / Surfboard Migration
+- the separation from seed round discussions
+- the separation from wallet-based participation ability
+- the separation from Platform Credits and stablecoin rails
+- the product and platform context behind eligible community participation
+- the access, eligibility, readiness, lockup, and controlled circulation direction
+- the public language model for community participation
+- the public boundaries that prevent unsafe price, return, listing, liquidity, payout, and investment framing
 
-This paper is not a payout policy, claim instruction, legal opinion, tax opinion, accounting policy, securities analysis, investment recommendation, token sale document, exchange listing plan, liquidity plan, smart-contract audit, or financial-return promise.
+This paper is not a token sale document, public investment offer, public solicitation, legal opinion, tax opinion, accounting policy, listing plan, liquidity plan, payout policy, claim instruction, price forecast, or financial-return promise.
 
-It is a public model paper that explains the concept, structure, readiness requirements, and boundaries of wallet-based participation ability.
+It is a public explanation of how FUZE structures eligible community participation around product usage, ecosystem contribution, public clarity, controlled circulation, and compliance-aware language.
 
-## 2. FUZE Public Position
+---
+
+## 2. Reader Problem This Paper Solves
+
+Community token access can become confusing when public communication uses price-first language, discount framing, pre-market messaging, or unclear participation terms.
+
+Readers may ask:
+
+- Is the Community Participation Round a public token sale?
+- Is every public reader eligible?
+- Is this the same as wallet-based participation ability?
+- Is this connected to BOARD / Surfboard Migration?
+- Does participation guarantee token access?
+- Does participation guarantee listing, liquidity, or market value?
+- Does buying Platform Credits create access?
+- Do stablecoin payments create automatic eligibility?
+- Does community participation create a payout right?
+
+This paper solves that problem by defining the Community Participation Round as an eligibility-controlled public/community participation model.
+
+The core answer is:
+
+The Community Participation Round is a product-aligned access model for eligible participants under defined controls. It is not a financial-return product and does not guarantee market outcome.
+
+---
+
+## 3. FUZE Public Position
+
+FUZE uses **Community Participation Round** as the public-facing name for the eligible community access model.
+
+FUZE uses **Community Participation Allocation** when referring to the full **110,000,000 FUZE** allocation category inside the final tokenomics table.
 
 FUZE’s public position is:
 
-**Wallet-based participation ability is a possible FUZE token-related framework where eligible FUZE-holding wallets may participate in approved distributable value from defined FUZE product revenue pools if the framework becomes active.**
+**The Community Participation Round is a product-aligned, compliance-aware, eligibility-controlled participation model for eligible community members, real product users, contributors, and long-term ecosystem supporters.**
 
-This position has several important parts.
+The Community Participation Round follows FUZE’s execution order:
 
-| Component | Public Meaning |
+**Product usage first. Platform rails second. Broader ecosystem participation after that.**
+
+The round is not presented as a price-first campaign.
+
+It is presented as a public participation structure connected to FUZE product usage, ZAGA utility, community access, contributor recognition, controlled circulation, public reporting, and long-term ecosystem alignment.
+
+FUZE avoids public framing based on:
+
+- price-tier sale language
+- discount-first messaging
+- market-upside language
+- buy-before-market language
+- pre-listing speculation
+- token multiple framing
+- liquidity assurance
+- listing assurance
+- market-performance claims
+- guaranteed access for every public reader
+- guaranteed financial outcome
+
+FUZE keeps the Community Participation Round aligned with public trust, product usage, compliance-aware communication, and controlled circulation.
+
+---
+
+## 4. Core Model
+
+### 4.1 Community Participation Allocation
+
+The Community Participation Allocation is one of the ten allocation categories in the final FUZE tokenomics table.
+
+| Item | Value |
+|---|---:|
+| Allocation Name | Community Participation Allocation |
+| Public Access Model | Community Participation Round |
+| Allocation Amount | 110,000,000 FUZE |
+| Total FUZE Supply | 500,000,000 FUZE |
+| % of Total Supply | 22.00% |
+| Allocation Type | Public/community participation allocation |
+| Public Role | Eligible community participation, product-user participation, contributor recognition, and future community programs |
+| Control Model | Eligibility-controlled, compliance-aware, controlled circulation model |
+
+The allocation remains part of the fixed FUZE token supply.
+
+It is not extra supply.
+
+It is not outside the fixed supply.
+
+It is not part of BOARD / Surfboard Migration.
+
+### 4.2 Relationship to Final Allocation Table
+
+The final allocation relationship is:
+
+| Allocation Category | Amount (FUZE) | % of Total Supply | Relationship |
+|---|---:|---:|---|
+| Community Participation Allocation | 110,000,000 | 22.00% | Public/community participation allocation |
+| BOARD / Surfboard Migration | 25,000,000 | 5.00% | Separate legacy-holder migration allocation |
+| Total Fixed Supply | 500,000,000 | 100.00% | Full FUZE token supply |
+
+Public explanation:
+
+**The Community Participation Allocation is the 110,000,000 FUZE allocation for eligible community participation. The BOARD / Surfboard Migration allocation is a separate 25,000,000 FUZE allocation reserved for eligible legacy-holder continuity. Both are already included in the fixed 500,000,000 FUZE total supply.**
+
+### 4.3 Public Naming Model
+
+FUZE uses clean public terminology.
+
+| Term | Public Meaning |
 |---|---|
-| Wallet-based | The public record layer focuses on wallets, not public personal identity |
-| FUZE token-related | The ability is connected to eligible FUZE-holding wallets inside the one-token model |
-| Eligibility-controlled | Not every wallet is automatically eligible |
-| Activation-gated | The model activates only if required legal, accounting, treasury, audit, reporting, smart-contract, eligibility, privacy, operator, and jurisdiction gates are ready |
-| Approved distributable value | Any distribution, if activated, comes from approved distributable value, not gross revenue or token sale funds |
-| Defined product revenue pools | Only defined and approved FUZE product revenue pools may be considered |
-| No guarantee | No payout, claim, income, yield, profit, liquidity, price, listing, exit, or return is guaranteed |
+| Community Participation Round | Public-facing access model for eligible community participation |
+| Community Participation Allocation | Full 110,000,000 FUZE allocation category inside tokenomics |
+| Eligible community participant | Participant who meets final eligibility, jurisdiction, compliance, product, platform, and policy requirements |
+| Product-user participation | Participation connected to real use of FUZE products or platform services where applicable |
+| Contributor recognition | Participation connected to meaningful contribution, community support, product engagement, or ecosystem support where applicable |
+| Community program | Future public or semi-public program connected to product usage and ecosystem participation |
+| Controlled participation window | Selected access window under final policy and readiness controls |
+| Vesting / lockup | Release controls designed to reduce uncontrolled circulation |
+| Public reporting | Public-safe reporting of allocation use, release status, access window status, and risk boundaries where ready |
 
-FUZE’s public language avoids treating wallet-based participation as an immediate financial right.
+FUZE uses this language to keep public communication product-aligned and less speculative.
 
-The model is designed to keep participation transparent, controlled, conditional, privacy-aware, and clearly separated from public identity exposure.
+### 4.4 Community Participation Round Structure
 
-## 3. Public Context
+FUZE organizes the Community Participation Round around participation purposes rather than price tiers.
 
-FUZE is a transparency-first AI SaaS platform building practical products on shared infrastructure for identity, credits, payments, AI orchestration, reporting, and ecosystem participation.
-
-Wallet-based participation ability sits inside the broader FUZE model.
-
-| Platform Area | Relationship to Wallet-Based Participation |
+| Participation Purpose | Public Role |
 |---|---|
-| FUZE token | Single ecosystem token connected to product utility and possible wallet-based participation ability |
-| HerHelp | Practical AI SaaS product suite that may generate defined product revenue where applicable |
-| ZAGA | Token Utility OS for wallet-aware access, participation systems, game utility, and community utility |
-| FUZE Core Platform | Shared rails for identity, Platform Credits, payments, AI orchestration, reporting, privacy, security, governance, and transparency |
-| Platform Credits | Product usage credits, not token rights and not participation rights |
-| Stablecoins | Payment, settlement, treasury, and operational compensation rails |
-| Product revenue | Revenue from defined FUZE products or services after confirmation and reconciliation |
-| Approved distributable value | Controlled and approved value from defined product revenue pools if the framework becomes active |
-| Activation gates | Legal, accounting, treasury, audit, reporting, smart-contract, eligibility, privacy, operator, and jurisdiction readiness controls |
-| Public reporting | Public-safe reporting of status, records, hashes, gates, and boundaries where appropriate |
+| Eligible community access | Gives qualified community members a structured path to participate where legally and operationally ready |
+| Product-user participation | Connects access with real use of HerHelp, ZAGA, and FUZE platform products where applicable |
+| Contributor recognition | Recognizes meaningful support, testing, documentation, community assistance, product feedback, and ecosystem-building activity |
+| Community programs | Supports future campaigns, onboarding programs, product-linked community programs, and public education |
+| ZAGA utility participation | Connects participation with ZAGA utility surfaces, wallet-aware access, ZAGA Arena, and ZAGA Districts where product rules allow |
+| Long-term ecosystem alignment | Aligns eligible participants with FUZE’s long-term platform direction |
+| Controlled circulation | Uses vesting, lockups, eligibility rules, reporting, and policy controls to reduce uncontrolled circulation |
 
-FUZE launch focus is HerHelp.com and ZAGA.io, supported by FUZE Core Platform rails and accelerated internally by Botmad.
+This structure gives the allocation a public product-linked purpose.
 
-The wallet-based participation model connects to this launch focus by making future participation language clearer, more controlled, and less speculative.
+---
 
-## 4. FUZE Wallet-Based Participation Model
+## 5. Token, Credits, Stablecoins, and Wallet Relationship
 
-### 4.1 What Wallet-Based Participation Ability Is
+The Community Participation Round sits inside the FUZE token model.
 
-Wallet-based participation ability is a possible future utility-related framework inside the FUZE token model.
+It must remain separate from Platform Credits, stablecoin rails, and wallet-based participation ability.
 
-It may allow eligible FUZE-holding wallets to participate in approved distributable value from defined FUZE product revenue pools if the framework becomes active.
-
-It is designed around:
-
-- wallet-level records;
-- eligibility rules;
-- activation gates;
-- product revenue pool definitions;
-- approved distributable value;
-- reporting records;
-- audit records;
-- smart-contract readiness;
-- snapshot records where applicable;
-- claim status where applicable;
-- public transparency without public identity exposure.
-
-It is not active by default.
-
-It requires formal readiness before public claim logic can exist.
-
-Boundary:
-
-Wallet-based participation ability is a possible framework, not a guaranteed right.
-
-### 4.2 What Wallet-Based Participation Ability Is Not
-
-Wallet-based participation ability is not an unconditional financial promise.
-
-It is not:
-
-- a second token;
-- a public FPPU token;
-- a separate profit-right token;
-- a dividend product;
-- a fixed-yield product;
-- a passive-income product;
-- a guaranteed payout right;
-- a guaranteed income right;
-- a guaranteed claim right;
-- a guaranteed profit-share system;
-- automatic for every FUZE holder;
-- automatic for every product user;
-- automatic for every Platform Credit buyer;
-- automatic for every community member;
-- active as a guaranteed public payout system;
-- based on gross revenue;
-- based on token sale proceeds;
-- based on seed-round funds;
-- based on game rewards;
-- based on general treasury balance;
-- based on liquidity pool value;
-- based on unrealized token value;
-- based on exchange trading volume.
-
-It does not guarantee:
-
-- payout;
-- income;
-- yield;
-- profit;
-- token price;
-- listing;
-- liquidity;
-- market support;
-- market-making result;
-- exit;
-- investment return.
-
-The public rule is:
-
-**Wallet-based participation ability may exist only under defined eligibility, approved distributable value, activation gates, and required review.**
-
-### 4.3 Why FUZE Uses Wallet-Based Participation Language
-
-FUZE uses wallet-based participation language because it is clearer than public FPPU language.
-
-The earlier FPPU concept can create confusion.
-
-Public readers may ask:
-
-- Is FPPU a second token?
-- Is FPPU different from FUZE token?
-- Does FPPU trade separately?
-- Does FPPU create automatic payout rights?
-- Does every FUZE holder get FPPU?
-- Does FPPU mean guaranteed profit participation?
-- Is FPPU already active?
-- Does FPPU create regulated-right expectations?
-- Does FPPU expose investor identity publicly?
-
-FUZE reduces confusion by using clearer public language.
-
-| Legacy / Retired Public Framing | FUZE Public Language |
-|---|---|
-| FPPU | Wallet-based participation ability |
-| Profit-participation unit | Eligible FUZE-holding wallet framework |
-| Profit participation | Approved distributable value framework |
-| Revenue-share right | Activation-gated participation model |
-| Payout token | FUZE token-related participation ability where activated |
-| Holder payout claim | Eligibility-controlled participation claim where activated |
-
-FUZE does not use FPPU as public-facing language.
-
-The term FPPU may appear only in private or legacy-context materials if needed to explain old terminology, legal review history, data-room context, or concept migration.
-
-### 4.4 Eligible FUZE-Holding Wallet
-
-An eligible FUZE-holding wallet means a wallet that meets defined eligibility rules if the participation framework becomes active.
-
-Eligibility may require more than holding FUZE token.
-
-Potential eligibility factors may include:
-
-| Eligibility Factor | Public Meaning |
-|---|---|
-| FUZE token holding status | Wallet may need to hold FUZE under defined rules |
-| Wallet type | Self-custody, exchange custody, contract wallet, or other wallet types may have different treatment |
-| Snapshot record | Eligibility may use defined snapshot records where applicable |
-| Vesting or lock status | Restricted, locked, vested, or unvested tokens may have separate treatment |
-| Jurisdiction rules | Eligibility may depend on country, residency, regulatory rules, or restricted territories |
-| Private verification | Some cases may require private verification without exposing personal identity publicly |
-| Off-chain eligibility review | Some eligibility conditions may be reviewed outside public wallet records |
-| Transfer restriction rules | Some participation frameworks may require restrictions or special handling |
-| Custody treatment | Exchange-held tokens may require separate evidence or may not support direct wallet eligibility |
-| Participation agreement | Some frameworks may require accepted terms where applicable |
-| Legal and compliance review | Eligibility depends on final legal and compliance review |
-| Treasury and audit rules | Eligibility depends on treasury, audit, and reporting readiness |
-| Claim status | Eligibility may connect to claim status where claim logic is activated |
-
-Holding FUZE token does not automatically guarantee eligibility.
-
-### 4.5 Actions That Do Not Automatically Create Eligibility
-
-The following actions do not automatically create wallet-based participation eligibility:
-
-- buying FUZE token;
-- holding FUZE token;
-- receiving FUZE token;
-- using FUZE products;
-- using HerHelp;
-- using ZAGA;
-- playing ZAGA Arena;
-- joining ZAGA Districts;
-- using QTB;
-- using AIMM;
-- using AIE;
-- using ToolGrid AI;
-- using Botmad;
-- buying Platform Credits;
-- spending Platform Credits;
-- receiving bonus credits;
-- joining a Telegram group;
-- joining a community campaign;
-- appearing in a snapshot without defined rules;
-- holding FUZE through exchange custody;
-- participating in a seed round;
-- receiving contributor compensation;
-- receiving stablecoin payment;
-- receiving migration-related communication;
-- receiving community recognition.
-
-These actions can be relevant in specific product or policy contexts, but none of them automatically creates wallet-based participation eligibility.
-
-Eligibility exists only under defined, reviewed, approved, and activated rules.
-
-### 4.6 Approved Distributable Value
-
-Approved distributable value is not gross revenue.
-
-It is not:
-
-- token sale proceeds;
-- seed-round funds;
-- general treasury balance;
-- game rewards;
-- unrealized token value;
-- liquidity pool value;
-- exchange trading volume;
-- public market value;
-- Platform Credit balance;
-- promotional credit value;
-- unpaid invoices;
-- sponsor discussions;
-- internal transfers;
-- public payout promise.
-
-Approved distributable value may exist only after product revenue is confirmed, reconciled, reviewed, adjusted by applicable deductions, separated from excluded categories, placed under treasury controls, checked against legal and jurisdiction limits, reviewed through accounting and audit processes where required, and approved under an active participation framework.
-
-The public model is:
-
-| Stage | Public Meaning |
-|---|---|
-| Product revenue | Value from defined FUZE products or services where recorded and connected to product delivery |
-| Confirmed product revenue | Revenue that passes payment, invoice, usage, and basic confirmation checks |
-| Reconciled product revenue | Revenue adjusted for refunds, chargebacks, failed payments, fees, taxes, costs, and exclusions |
-| Reviewed product revenue | Revenue reviewed through accounting, treasury, legal, audit, or reporting processes where required |
-| Approved distributable value | Value approved for possible eligible-wallet participation only if the framework is active |
-| Claimable value where activated | Value that may be claimable only under active rules, eligible wallet status, and defined claim logic |
-
-Product revenue does not automatically become approved distributable value.
-
-Approved distributable value does not automatically create a payout.
-
-### 4.7 Defined Product Revenue Pools
-
-Wallet-based participation ability, if activated, may connect only to defined FUZE product revenue pools.
-
-Possible product revenue pools may include revenue from:
-
-| Product Revenue Pool | Public Context |
-|---|---|
-| HerHelp | AI SaaS usage, subscriptions, product modules, reports, and business workflows |
-| SheetLayer AI | Spreadsheet mapping, dashboards, data reports, and workflow support |
-| ShopOS AI | QR menu, queue, payment, loyalty, stock, staff, delivery, and report workflows |
-| SpeakShop AI | Voice scripts, sound packs, announcements, and shop promotion workflows |
-| TrainLayer AI | Training materials, quizzes, onboarding, validation, and learning workflows |
-| CommunityLayer AI | Community summaries, trust workflows, moderation support, verification, and reporting |
-| ZAGA products | Token utility surfaces, game utility services, and community systems where defined and compliant |
-| QTB | Market interpretation reports and intelligence workflows |
-| AIMM | Liquidity operations support and public-safe reports |
-| AIE | Event intelligence, sponsor reports, and event opportunity workflows |
-| ToolGrid AI | Sponsored visibility, destination checks, review controls, and tool discovery |
-| Botmad | AI work assistance, documentation, artifacts, and execution evidence |
-| Platform Credit-supported product usage | Credit-supported usage where recorded, reconciled, and approved |
-
-A product can generate revenue and still be excluded from an approved participation pool.
-
-Product revenue pool inclusion is not automatic.
-
-### 4.8 Activation Gates
-
-Wallet-based participation ability requires activation gates.
-
-Activation gates protect FUZE, users, token holders, investors, community members, contributors, product customers, partners, and public readers.
-
-Required gates may include:
-
-| Gate | Public Requirement |
-|---|---|
-| Legal gate | Legal status, public wording, eligibility rules, transfer rules, claim language, and jurisdiction treatment are reviewed |
-| Accounting gate | Revenue, costs, reserves, refunds, fees, taxes, and approved distributable value policy are defined |
-| Treasury gate | Vaults, reserves, multisig, timelock, approvals, payment rails, and treasury controls are ready |
-| Audit gate | Review, audit, verification, dispute window, and evidence process are ready |
-| Reporting gate | Public-safe reports, report hashes, dashboards, and records are ready |
-| Smart-contract gate | Readiness contracts and activation contracts are reviewed and ready where applicable |
-| Eligibility gate | Eligible wallet rules, custody treatment, transfer treatment, and verification requirements are defined |
-| Privacy gate | Public wallet records are separated from private identity and off-chain verification |
-| Jurisdiction gate | Country, residency, securities, tax, exchange, custody, payment, and distribution rules are reviewed |
-| Operator gate | Sensitive approval, treasury movement, activation, and pause actions use role separation and governance controls |
-
-No live public participation claim logic exists before the required gates are ready.
-
-Activation-gated means controlled, reviewed, and conditional.
-
-It does not mean guaranteed future activation.
-
-### 4.9 Readiness Is Different From Activation
-
-FUZE may build readiness infrastructure before participation is active.
-
-Readiness means FUZE prepares systems, records, contracts, reports, and controls.
-
-Activation means claim logic or participation distribution becomes live under approved rules.
-
-These are different.
-
-| Status | Public Meaning |
-|---|---|
-| Concept defined | The public model is explained |
-| Readiness infrastructure | Transparency, records, vaults, reports, and compatibility systems may be prepared |
-| Private review | Legal, accounting, treasury, audit, and jurisdiction review may occur |
-| Testnet or prototype | Smart-contract logic may be tested without public economic activation |
-| Gate-ready | Required gates are ready for review |
-| Activated | Eligible-wallet participation claim logic becomes active under approved rules |
-| Paused | Activation or claims may be paused because of legal, technical, treasury, audit, reporting, or jurisdiction issue |
-
-FUZE can be transparent about readiness without saying participation is active.
-
-Readiness does not mean activation.
-
-Activation does not mean guaranteed ongoing claim availability.
-
-### 4.10 Wallet-Level Transparency Without Public Identity Exposure
-
-Wallet-based participation uses wallet-level transparency without requiring public personal identity exposure.
-
-This model may include:
-
-| Record Type | Public Role | Privacy Boundary |
+| System | Public Role | Relationship to Community Participation Round |
 |---|---|---|
-| Wallet record | Supports eligibility, snapshot, or claim status where applicable | Does not publicly reveal personal identity by default |
-| Eligibility record | Shows eligibility status where public-safe | Private verification remains off-chain or permissioned where required |
-| Snapshot record | Records wallet state at a defined time where applicable | Does not replace legal or eligibility review |
-| Claim status | Shows claim status where activated | Does not reveal private personal data by default |
-| Exclusion record | Identifies restricted or ineligible wallet categories where appropriate | Must avoid unnecessary personal-data exposure |
-| Report hash | Confirms report integrity | Does not expose private raw data |
-| Audit reference | Supports reviewability | Does not publish confidential legal, accounting, or personal records |
-
-FUZE uses wallet-level transparency to improve auditability while preserving privacy boundaries.
-
-Public wallet records are not the same as public identity records.
-
-## 5. How the System Works
-
-### 5.1 Participation Model Flow
-
-The wallet-based participation model can be described as a controlled flow.
-
-| Step | Description | Boundary |
-|---|---|---|
-| 1. Product usage | FUZE products and services may generate product revenue where real usage exists | Product usage is not guaranteed |
-| 2. Revenue confirmation | Payment, invoice, usage, and service records are checked | Confirmation is not approval |
-| 3. Revenue reconciliation | Refunds, chargebacks, fees, costs, taxes, failed payments, and exclusions are reviewed | Reconciled revenue is not automatically distributable |
-| 4. Product revenue pool review | Revenue is matched to defined product revenue pools | Product pool inclusion is not automatic |
-| 5. Deductions and reserves | Costs, reserves, treasury needs, and obligations are considered | Remaining value is not automatically approved |
-| 6. Legal and accounting review | Compliance, jurisdiction, accounting, tax, and public wording are reviewed | Review does not guarantee approval |
-| 7. Approval process | Approved distributable value may be defined under policy where active | Approval requires active framework |
-| 8. Eligibility check | Wallets are checked against eligibility rules | Holding FUZE is not enough by itself |
-| 9. Claim or participation logic | Claim or participation logic may apply where activated | No claim exists before activation |
-| 10. Reporting | Public-safe reports may show status, records, and boundaries | Reporting does not expose private identity by default |
-
-This flow keeps the model controlled and public-safe.
-
-### 5.2 Product Revenue Is Not Automatic Participation Value
-
-FUZE may generate product revenue through supported products and services.
-
-Product revenue can support:
-
-- operations;
-- product development;
-- stablecoin compensation;
-- contributor payments;
-- vendor payments;
-- infrastructure;
-- AI usage costs;
-- support;
-- marketing;
-- treasury planning;
-- product expansion;
-- reserves;
-- legal and accounting work;
-- security and audit work;
-- reporting.
-
-Product revenue does not automatically become token-holder value.
-
-Product revenue does not automatically become approved distributable value.
-
-Product revenue does not automatically create claims for eligible wallets.
-
-### 5.3 Platform Credits Relationship
+| FUZE token | Single ecosystem token | The round uses a defined FUZE token allocation category |
+| Community Participation Allocation | 110,000,000 FUZE allocation | Allocation category that supports eligible public/community participation |
+| Platform Credits | Product usage credits | Credits do not create access to the round by themselves |
+| Stablecoins | Payment, settlement, treasury, and operational compensation rails | Payment rails do not automatically create participation access |
+| Wallet-based participation ability | Possible activation-gated token-related framework | Separate from the Community Participation Round |
+| BOARD / Surfboard Migration | 25,000,000 FUZE allocation | Separate legacy-holder continuity allocation |
 
 Platform Credits are product usage credits.
 
-Platform Credits may support product usage across FUZE products and services, including:
-
-- AI workflows;
-- reports;
-- shop operations;
-- spreadsheet workflows;
-- voice announcement workflows;
-- training workflows;
-- community workflows;
-- game-related utility surfaces where supported;
-- market interpretation reports;
-- liquidity operation reports;
-- event intelligence reports;
-- sponsored visibility workflows;
-- Botmad work-assistance sessions.
-
-Platform Credits are not:
-
-- FUZE token;
-- a second token;
-- equity;
-- debt;
-- investment contracts;
-- income rights;
-- participation rights;
-- profit-share rights;
-- yield products;
-- governance rights;
-- wallet-based participation claims;
-- token sale instruments;
-- resale instruments;
-- claim instruments.
-
-Buying, holding, or spending Platform Credits does not create FUZE token ownership, wallet-based participation eligibility, payout rights, governance rights, or investment-return rights.
-
-### 5.4 Stablecoin Relationship
+FUZE token is the ecosystem token.
 
 Stablecoins are payment, settlement, treasury, and operational compensation rails.
 
-FUZE may use stablecoins where supported for:
+Buying Platform Credits, using Platform Credits, receiving bonus credits, or consuming credits inside a product does not create Community Participation Round access by itself.
 
-- product payments;
-- service payments;
-- user payments;
-- contributor compensation;
-- partner settlement;
-- vendor payments;
-- treasury operations;
-- reserve tracking where applicable;
-- settlement records;
-- conversion proof where relevant.
+Stablecoin payments do not automatically create Community Participation Round access, wallet-based participation eligibility, approved distributable value, payout rights, governance rights, or investment-return rights.
 
-Stablecoins are not FUZE token.
+Wallet-based participation ability remains separate and activation-gated.
 
-Stablecoin payments do not automatically create wallet-based participation ability.
+---
 
-Stablecoin revenue does not automatically become approved distributable value.
+## 6. Controls, Gates, and Governance
 
-Stablecoin treasury balance does not equal approved distributable value.
+The Community Participation Round requires clear controls.
 
-### 5.5 Seed Round Relationship
+Important controls may include:
 
-Seed round discussions are private strategic fundraising conversations.
+- eligibility rules
+- jurisdiction screening
+- legal review
+- compliance review
+- allocation control
+- vesting or lockup rules
+- controlled participation windows
+- wallet record review where applicable
+- identity or private verification where required
+- anti-abuse controls
+- contribution review where applicable
+- product-user participation review where applicable
+- public reporting readiness
+- release and circulation controls
+- treasury review
+- smart-contract readiness where applicable
+- public language review
 
-Seed round capital is operating and strategic capital.
+The Community Participation Round is not designed as uncontrolled token distribution.
 
-Seed round capital is not product revenue.
+It is designed as an eligibility-controlled, compliance-aware, product-aligned participation structure.
 
-Seed round capital is not approved distributable value.
+### 6.1 Eligible Participation
 
-Seed round participation does not automatically create wallet-based participation claims.
+Eligibility may depend on defined rules.
 
-Seed round discussions are not:
+Potential eligibility factors may include:
 
-- a public token sale;
-- a public investment offer;
-- a public solicitation;
-- a guaranteed token allocation for the public;
-- a guaranteed listing path;
-- a guaranteed liquidity path;
-- a guaranteed exit path;
-- a guaranteed payout path;
-- a public wallet-based participation activation event;
-- product revenue;
-- approved distributable value;
-- market price support.
-
-Any token-related exposure in private strategic fundraising remains subject to private terms, legal review, eligibility, documentation, investor category, jurisdiction, and applicable rules.
-
-### 5.6 Community Participation Round Relationship
-
-The Community Participation Round is not wallet-based participation ability.
-
-| Concept | Meaning |
+| Eligibility Area | Public Meaning |
 |---|---|
-| Community Participation Round | Public/community access model connected to the 110,000,000 FUZE Community Participation Allocation |
-| Wallet-Based Participation Ability | Possible future FUZE token-related framework where eligible FUZE-holding wallets may participate in approved distributable value if activated |
-| Approved Distributable Value | Controlled, reviewed, approved value from defined product revenue pools if the framework becomes active |
-| Activation Gates | Legal, accounting, treasury, audit, reporting, smart-contract, eligibility, privacy, operator, product-revenue, and jurisdiction readiness controls |
+| Product usage | Real use of HerHelp, ZAGA, or other FUZE products where applicable |
+| Community contribution | Meaningful help, testing, feedback, documentation, moderation, education, or ecosystem support |
+| Jurisdiction | Local rules may limit access |
+| Wallet readiness | Wallet records may be required where applicable |
+| Private verification | Some cases may require private verification while keeping personal identity off public records |
+| Participation window | Access may occur only through defined windows |
+| Lockup or vesting | Release may follow controlled schedules |
+| Policy acceptance | Participation may require accepted terms |
+| Compliance review | Eligibility depends on final compliance controls |
+| Allocation availability | Access depends on available allocation and approved rules |
 
-Community Participation Round access does not automatically create wallet-based participation eligibility.
+Eligibility is not automatic.
 
-Wallet-based participation ability does not automatically create Community Participation Round access.
+The following actions do not automatically create access:
 
-Both concepts remain subject to separate rules, eligibility, readiness, and public boundaries.
+- joining the community
+- following social channels
+- using HerHelp
+- playing ZAGA Arena
+- joining ZAGA Districts
+- using QTB, AIMM, AIE, ToolGrid AI, or Botmad
+- buying Platform Credits
+- spending Platform Credits
+- paying in stablecoins
+- holding FUZE token
+- appearing in a wallet snapshot
+- contributing informally without final program rules
 
-### 5.7 Long-Term Participation Boundary
+Eligibility exists only under defined, reviewed, and activated rules.
 
-Earlier profit-participation framing is preserved only as a boundary concept, not as the active public model.
+### 6.2 Controlled Circulation
 
-FUZE’s public position is:
+The Community Participation Allocation can follow controlled circulation logic.
 
-**Wallet-based participation ability is a possible long-term design direction inside the one-token model. It is not immediate, not guaranteed, not automatic, and not a current public payout framework. Any future framework requires legal, accounting, treasury, technical, governance, privacy, reporting, and transparency readiness.**
+Controlled circulation can include:
 
-FUZE does not present token ownership as:
+- vesting
+- lockups
+- claim windows
+- eligibility checks
+- release schedules
+- wallet restrictions where applicable
+- jurisdiction restrictions
+- public reporting
+- allocation status updates
+- anti-abuse review
+- treasury review
+- governance review
+- correction and reversal process where applicable
 
-- automatic profit rights;
-- automatic revenue rights;
-- automatic payout rights;
-- automatic cash-flow rights;
-- investment-yield rights;
-- ownership rights;
-- regulated-right entitlement;
-- immediate benefit;
-- guaranteed future benefit.
+The public rule is:
 
-Product revenue can support operations, stablecoin compensation, infrastructure, treasury planning, product expansion, reserves, and transparency.
+Participation access does not mean immediate unrestricted circulation.
 
-Any future wallet-based participation framework remains separate and subject to readiness, approval, and public-safe rules.
-
-## 6. Public Boundary
-
-Wallet-based participation ability is a possible activation-gated framework, not a guaranteed public payout system.
-
-FUZE does not guarantee:
-
-- participation activation;
-- claim availability;
-- wallet eligibility;
-- payout;
-- income;
-- dividend;
-- yield;
-- profit;
-- approved distributable value;
-- product revenue;
-- token price;
-- token demand;
-- listing;
-- liquidity;
-- market support;
-- market-making result;
-- exit;
-- acquisition;
-- game earnings;
-- business revenue;
-- user growth;
-- community growth;
-- investment return.
-
-FUZE token is not presented as:
-
-- equity;
-- debt;
-- fixed income;
-- revenue right;
-- automatic payout right;
-- dividend instrument;
-- passive income instrument;
-- yield instrument;
-- risk-free instrument;
-- guaranteed claim on product revenue;
-- guaranteed claim on treasury;
-- guaranteed claim on approved distributable value.
-
-Wallet-based participation ability does not remove legal, accounting, treasury, audit, reporting, smart-contract, eligibility, privacy, operator, product-revenue, or jurisdiction risk.
+---
 
 ## 7. Reporting and Transparency Direction
 
-FUZE may report wallet-based participation readiness through public-safe records where product, legal, technical, operational, and reporting readiness allow.
+The Community Participation Round can support public-safe reporting.
 
-Reporting direction may include:
+Reporting can include:
 
-| Reporting Area | Public Role |
+- allocation amount
+- allocation status
+- participation window status
+- controlled circulation status
+- eligibility category summaries
+- lockup or vesting summaries
+- public access updates
+- product-user participation updates
+- contributor recognition summaries
+- ZAGA utility participation summaries
+- CommunityLayer AI support summaries where relevant
+- release and claim status where applicable
+- public boundary reminders
+- risk and disclosure references
+
+Reporting should help readers understand how the Community Participation Allocation is used.
+
+Reporting should not expose private identity publicly.
+
+Public-safe records may include wallet references, allocation status, release status, or report hashes where appropriate.
+
+Private data such as names, emails, identity documents, investor records, private agreements, restricted-jurisdiction review, or sensitive eligibility records should remain permissioned where required.
+
+Reporting supports transparency and review.
+
+It does not guarantee token access, payout, listing, liquidity, price, or investment return.
+
+---
+
+## 8. Market, Legal, or Operational Context
+
+### 8.1 Relationship to ZAGA
+
+ZAGA is the FUZE game and token-utility ecosystem for structured token utility, wallet-aware access, participation systems, and game/community surfaces.
+
+The Community Participation Round can connect to ZAGA where legally, technically, and operationally ready.
+
+| ZAGA Surface | Community Participation Relationship |
 |---|---|
-| Participation status | Shows whether the framework is inactive, under review, gate-ready, activated, or paused where applicable |
-| Activation gate status | Shows legal, accounting, treasury, audit, reporting, smart-contract, eligibility, privacy, operator, and jurisdiction readiness where public-safe |
-| Product revenue pool references | Shows defined pools where public-safe |
-| Approved distributable value reports | Shows controlled reporting only after review, approval, and activation where applicable |
-| Eligibility records | Shows wallet-level eligibility status where privacy-preserving and public-safe |
-| Snapshot records | Shows snapshot references where applicable |
-| Claim status | Shows claim status only where claim logic is activated |
-| Report hashes | Confirms report integrity without exposing private raw data |
-| Audit references | Supports reviewability without publishing confidential records |
-| Risk boundary disclosures | Shows no guaranteed payout, income, yield, price, listing, liquidity, or return |
+| ZAGA.io | Public hub for token utility, community participation, ZAGA Arena, ZAGA Districts, and documentation |
+| ZAGA Utility Layer | Wallet-aware access, eligibility, recognition, campaigns, and participation systems |
+| ZAGA Arena | Game utility surface for events, community rooms, recognition, leaderboards, and product-linked participation where applicable |
+| ZAGA Districts | Telegram-native community MMORPG for cities, contribution, digital-asset utility, and community participation where applicable |
+| CommunityLayer AI | Community trust, moderation support, onboarding, verification, reports, and contributor recognition |
+| Public reporting | Utility activity, participation status, product status, and risk-boundary transparency where applicable |
 
-Transparency does not create unrestricted access to treasury operations, private company records, customer data, user data, contributor data, private investor terms, private legal analysis, private accounting records, personal identity records, or confidential operational records.
+ZAGA helps make community participation concrete because it gives FUZE product surfaces instead of only token allocation language.
 
-Wallet-level transparency can exist without public identity exposure where privacy-preserving rules are used.
+ZAGA Arena and ZAGA Districts are separate game products.
 
-## 8. Conclusion
+ZAGA Districts is not a mode inside ZAGA Arena.
 
-FUZE Wallet-Based Participation Model defines a possible FUZE token-related framework for eligible FUZE-holding wallets to participate in approved distributable value from defined FUZE product revenue pools if the framework becomes active.
+### 8.2 Relationship to HerHelp
 
-The model is part of the FUZE one-token system.
+HerHelp is FUZE’s practical AI SaaS suite for SMEs, shop owners, creators, educators, teams, and community-based businesses.
 
-It is not a second token, not a public FPPU token, not automatic for every wallet, not immediate, and not active as a guaranteed public payout right.
+The Community Participation Round can connect to HerHelp as product proof and product-user participation context.
 
-FUZE uses wallet-based participation language to preserve the useful long-term participation concept while avoiding unsafe profit-participation framing, payout assumptions, token-holder income assumptions, and investment-return claims.
+| HerHelp Area | Community Participation Relationship |
+|---|---|
+| HerHelp.com | Practical AI SaaS entry point |
+| ShopOS AI | AI-powered shop operating system for QR menu, checkout, queue, payment, loyalty, stock, staff, delivery, reports, TrustCheck, device support, Google Sheets sync, and AI assistance |
+| SheetLayer AI | Spreadsheet and business data layer |
+| SpeakShop AI | Promotional voice scripts, sound packs, and speaker announcements |
+| TrainLayer AI | AI learning materials, training workflows, quizzes, guides, and staff/customer education |
+| CommunityLayer AI | Moderation, safety, verification, support, reporting, summaries, and community operations |
+| Platform Credits | Product usage rail across HerHelp products |
 
-The model depends on approved distributable value, defined product revenue pools, eligibility rules, activation gates, legal review, accounting review, treasury controls, audit readiness, reporting readiness, smart-contract readiness, privacy controls, operator controls, and jurisdiction review.
+HerHelp strengthens the Community Participation Round by showing that FUZE is building practical product usage, not only token exposure.
 
-FUZE keeps this model public-safe by separating FUZE token, Platform Credits, stablecoins, product revenue, approved distributable value, Community Participation Round access, seed round discussions, and wallet-based participation ability.
+### 8.3 Relationship to Seed Round
+
+Seed round discussions are private strategic fundraising conversations.
+
+Seed round discussions are not:
+
+- a public token sale
+- a public investment offer
+- a public solicitation
+- a guaranteed return product
+- a guaranteed token allocation for the public
+- a guaranteed listing path
+- a guaranteed liquidity path
+- a Community Participation Round replacement
+
+The Community Participation Round is a public/community participation model.
+
+Seed round discussions are private strategic fundraising discussions.
+
+They should not be mixed in public communication.
+
+### 8.4 Market Boundary
+
+The Community Participation Round is not market outcome messaging.
+
+It does not guarantee:
+
+- token price
+- token demand
+- trading volume
+- listing
+- liquidity
+- market support
+- market-making result
+- resale ability
+- exit opportunity
+- investment return
+
+Public communication should focus on eligibility, product context, community participation, controlled circulation, and transparency.
+
+---
+
+## 9. Risk and Disclosure Reference
+
+Important public boundaries include:
+
+- The Community Participation Round is not a public investment offer.
+- The Community Participation Round is not a public solicitation.
+- The Community Participation Allocation is 110,000,000 FUZE inside the fixed 500,000,000 FUZE supply.
+- BOARD / Surfboard Migration is a separate 25,000,000 FUZE allocation.
+- Platform Credits are product usage credits and are separate from FUZE token.
+- Stablecoins are payment, settlement, treasury, and operational compensation rails.
+- Buying Platform Credits does not create Community Participation Round access by itself.
+- Stablecoin payment does not automatically create Community Participation Round access.
+- Wallet-based participation ability is separate from the Community Participation Round.
+- Community participation does not guarantee token access for every public reader.
+- Community participation does not guarantee token price, listing, liquidity, payout, income, yield, profit, exit, or investment return.
+- Product usage does not guarantee eligibility.
+- Contribution does not guarantee eligibility.
+- Access depends on final rules, readiness controls, eligibility review, jurisdiction review, and public reporting direction.
+
+More detailed boundaries are handled in dedicated papers, including:
+
+- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/02-FUZE_TOKEN_ALLOCATION_TABLE_PUBLIC.md`
+- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/03-FUZE_ONE_TOKEN_MODEL_PUBLIC.md`
+- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/07-FUZE_WALLET_BASED_PARTICIPATION_MODEL_PUBLIC.md`
+- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/08-FUZE_PARTICIPATION_ACTIVATION_GATES_PUBLIC.md`
+- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/10-FUZE_PLATFORM_CREDITS_RELATIONSHIP_PUBLIC.md`
+- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/12-FUZE_CONTROLLED_CIRCULATION_POLICY_PUBLIC.md`
+- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/13-FUZE_TOKEN_RELEASE_AND_CIRCULATION_CLARITY_PUBLIC.md`
+- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/20-FUZE_BOARD_SURFBOARD_MIGRATION_PUBLIC.md`
+- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/28-FUZE_LEGAL_AND_COMPLIANCE_MESSAGING_PUBLIC.md`
+- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/29-FUZE_TOKEN_RISK_BOUNDARIES_PUBLIC.md`
+- `WHITEPAPER-PAPERS/05-FUZE_RISK_AND_DISCLOSURE_APPENDIX_PUBLIC.md`
+
+This paper focuses on the Community Participation Round while deeper token allocation, wallet, activation, circulation, migration, legal, and disclosure topics remain in dedicated papers.
+
+---
+
+## 10. Key Takeaways
+
+- FUZE Community Participation Round explains the public/community access model for the 110,000,000 FUZE Community Participation Allocation.
+- FUZE token supply is fixed at 500,000,000 FUZE.
+- The Community Participation Allocation is 22.00% of total supply.
+- BOARD / Surfboard Migration is a separate 25,000,000 FUZE allocation.
+- The Community Participation Round is product-aligned, compliance-aware, eligibility-controlled, and connected to long-term ecosystem participation.
+- The Community Participation Round is separate from wallet-based participation ability.
+- Platform Credits are product usage credits and do not create access by themselves.
+- Stablecoins are payment, settlement, treasury, and operational compensation rails and do not automatically create access.
+- Seed round discussions are private strategic fundraising conversations and are separate from the Community Participation Round.
+- Eligibility is not automatic.
+- Access depends on final rules, jurisdiction review, readiness controls, controlled circulation, and public reporting direction.
+- FUZE avoids price-tier, discount-first, market-upside, pre-listing, token multiple, liquidity assurance, and listing assurance language.
+- The Community Participation Round does not guarantee token access, payout, income, yield, profit, token price, listing, liquidity, exit, or investment return.

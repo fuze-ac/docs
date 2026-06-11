@@ -297,16 +297,16 @@ It is a product operating system for practical AI services and ecosystem partici
 
 | Layer | Public Role |
 |---|---|
-| Identity and Account Layer | Supports users, teams, partners, products, and access controls. |
-| Platform Credit Layer | Supports product usage credits and product workflow consumption. |
-| Payment Layer | Supports product payments, stablecoin rails where appropriate, and settlement records. |
-| AI Orchestration Layer | Supports AI workflows, routing, generation, analysis, reporting, and review support. |
-| Product Workflow Layer | Connects HerHelp, ZAGA, QTB, AIMM, AIE, ToolGrid AI, and Botmad product workflows. |
-| Wallet Record Layer | Supports wallet-level transparency, eligibility status, claim status, and public-safe records where applicable. |
-| Reporting Layer | Supports public-safe reports, report hashes, correction records, and transparency summaries. |
-| Vault and Token Layer | Supports FUZE token allocation, vault labels, controlled circulation, and release records. |
-| Governance Control Layer | Supports multisig, timelock, approval records, emergency pause, and operational controls. |
-| Privacy Layer | Separates public wallet records from private identity, verification, customer, investor, contributor, legal, tax, accounting, and treasury records. |
+| Identity and Account Layer | Supports users, teams, partners, products, and access controls |
+| Platform Credit Layer | Supports product usage credits and product workflow consumption |
+| Payment Layer | Supports product payments, stablecoin rails where appropriate, and settlement records |
+| AI Orchestration Layer | Supports AI workflows, routing, generation, analysis, reporting, and review support |
+| Product Workflow Layer | Connects HerHelp, ZAGA, QTB, AIMM, AIE, ToolGrid AI, and Botmad product workflows |
+| Wallet Record Layer | Supports wallet-level transparency, eligibility status, claim status, and public-safe records where applicable |
+| Reporting Layer | Supports public-safe reports, report hashes, correction records, and transparency summaries |
+| Vault and Token Layer | Supports FUZE token allocation, vault labels, controlled circulation, and release records |
+| Governance Control Layer | Supports multisig, timelock, approval records, emergency pause, and operational controls |
+| Privacy Layer | Separates public wallet records from private identity, verification, customer, investor, contributor, legal, tax, accounting, and treasury records |
 
 ### 4.2 Platform Execution Order
 
@@ -723,21 +723,21 @@ FUZE technology and smart-contract architecture support product operations, repo
 
 | Architecture Area | Role |
 |---|---|
-| FUZE Token Contract | Single ecosystem token contract for FUZE token. |
-| Allocation Vaults | Purpose-specific vaults for token allocation categories. |
-| Public Vault Directory | Public-safe vault labels, wallet addresses, categories, and status where appropriate. |
-| Report Hash Registry | Public-safe report hash references and version records. |
-| Product Revenue Records | Product revenue source records and reconciliation systems. |
-| Platform Credit Ledger | Product usage-credit purchase, usage, refund, bonus, expiration, and liability records. |
-| Stablecoin Settlement Records | Payment, settlement, treasury, compensation, and reserve classification records. |
-| Approved Value Records | Approved distributable value status where applicable. |
-| Eligibility Records | Eligible, ineligible, restricted, pending, snapshot, and claim status records where applicable. |
-| Snapshot Module | Time-based or event-based wallet records where applicable. |
-| Participation Claim Module | Eligible-wallet claim module if activated. |
-| Distribution Module | Approved participation distribution module if activated. |
-| Treasury Controls | Operating, reserve, liquidity operations, product revenue, stablecoin, investor fund, and approved value separation. |
-| Governance Controls | Multisig, timelock, approvals, emergency pause, correction records, and evidence records. |
-| Privacy Layer | Off-chain verification and private identity separation. |
+| FUZE Token Contract | Single ecosystem token contract for FUZE token |
+| Allocation Vaults | Purpose-specific vaults for token allocation categories |
+| Public Vault Directory | Public-safe vault labels, wallet addresses, categories, and status where appropriate |
+| Report Hash Registry | Public-safe report hash references and version records |
+| Product Revenue Records | Product revenue source records and reconciliation systems |
+| Platform Credit Ledger | Product usage-credit purchase, usage, refund, bonus, expiration, and liability records |
+| Stablecoin Settlement Records | Payment, settlement, treasury, compensation, and reserve classification records |
+| Approved Value Records | Approved distributable value status where applicable |
+| Eligibility Records | Eligible, ineligible, restricted, pending, snapshot, and claim status records where applicable |
+| Snapshot Module | Time-based or event-based wallet records where applicable |
+| Participation Claim Module | Eligible-wallet claim module if activated |
+| Distribution Module | Approved participation distribution module if activated |
+| Treasury Controls | Operating, reserve, liquidity operations, product revenue, stablecoin, investor fund, and approved value separation |
+| Governance Controls | Multisig, timelock, approvals, emergency pause, correction records, and evidence records |
+| Privacy Layer | Off-chain verification and private identity separation |
 
 ### 9.2 Smart-Contract Readiness
 

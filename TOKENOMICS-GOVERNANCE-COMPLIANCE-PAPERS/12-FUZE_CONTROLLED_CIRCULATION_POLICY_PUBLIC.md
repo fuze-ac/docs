@@ -6,31 +6,37 @@ FUZE Controlled Circulation Policy explains how FUZE governs token release, toke
 
 FUZE uses one ecosystem token only: **FUZE token**.
 
-FUZE token is the single ecosystem token of FUZE. It supports product-connected utility, ecosystem participation, platform alignment, governance direction where applicable, community participation structures, and wallet-based participation ability where activated under final policy.
+FUZE token is the single ecosystem token of FUZE. It supports product-connected utility, ecosystem participation, platform alignment, governance direction where applicable, community participation structures, and wallet-based participation ability where activated under required controls.
 
 Controlled circulation means FUZE token movement is governed by allocation purpose, product readiness, eligibility, vesting, lockups, treasury policy, market-structure policy, governance controls, vault separation, release logic, and public reporting direction.
 
-Controlled circulation does not mean price control.
+The purpose of controlled circulation is to reduce public confusion, avoid uncontrolled supply shocks where possible, separate allocation purposes, support public reporting, and help readers understand what is circulating, what is locked, what is reserved, what is vested, what is released, what is claimable, what is operationally deployed, and what remains under control.
 
-Controlled circulation does not mean price support.
+FUZE uses a fixed total supply of **500,000,000 FUZE** across ten purpose-specific allocation categories.
 
-Controlled circulation does not mean guaranteed liquidity.
+Each allocation category has a different public role and release logic.
 
-Controlled circulation does not mean guaranteed listing.
+Community Participation Allocation does not behave like Team Allocation.
 
-Controlled circulation does not mean guaranteed exit.
+BOARD / Surfboard Migration does not behave like Liquidity & Market Operations.
 
-The purpose of controlled circulation is to reduce public confusion, avoid uncontrolled supply shocks where possible, separate allocation purposes, support public reporting, and help readers understand what is circulating, what is locked, what is reserved, what is vested, what is released, what is claimable, what is operationally deployed, and what is not yet active.
+Treasury Reserve does not behave like Holder Incentives.
 
-FUZE uses a fixed total supply of **500,000,000 FUZE** across ten purpose-specific allocation categories. Each allocation category has a different public role and release logic. Community Participation Allocation does not behave like Team Allocation. BOARD / Surfboard Migration does not behave like Liquidity & Market Operations. Treasury Reserve does not behave like Holder Incentives. Transparency / Stability Reserve does not behave like normal circulating inventory.
+Transparency / Stability Reserve does not behave like normal circulating inventory.
 
 FUZE separates:
 
 **Stablecoins pay for work. FUZE tokens align long-term participation. Platform Credits power product usage.**
 
-Platform Credits are product usage credits and are separate from FUZE token. Stablecoins are payment, settlement, treasury, and compensation rails. Wallet-based participation ability is not a second token, not automatic for every wallet, and not active as a guaranteed public payout right.
+Platform Credits are product usage credits and are separate from FUZE token.
 
-FUZE does not guarantee payout, income, dividend, yield, profit, token price, listing, liquidity, market support, exit, game earnings, business revenue, user growth, community growth, approved distributable value, wallet eligibility, or investment return.
+Stablecoins are payment, settlement, treasury, and compensation rails.
+
+Wallet-based participation ability is a separate activation-gated framework inside the FUZE token model.
+
+Controlled circulation supports supply clarity and disciplined release. It does not guarantee token price, token demand, liquidity, listing, market support, payout, income, yield, profit, exit, or investment return.
+
+---
 
 ## 1. Purpose of This Paper
 
@@ -38,24 +44,56 @@ This paper explains FUZE’s controlled circulation policy.
 
 It defines:
 
-- what controlled circulation means;
-- why FUZE needs token release discipline;
-- how controlled circulation supports the fixed 500,000,000 FUZE supply;
-- how allocation categories, vaults, reserves, locks, vesting, and unlocks are explained;
-- how controlled circulation relates to product-first execution;
-- how controlled circulation differs from price support;
-- how FUZE separates total supply, circulating supply, locked supply, reserved supply, vested supply, treasury supply, and liquidity-related supply;
-- how team, advisor, partner, community, ecosystem, treasury, liquidity, reserve, and migration allocations are handled;
-- how stablecoin compensation reduces short-term token release pressure;
-- how Platform Credits remain separate from token circulation;
-- how public reporting explains token movement;
-- what public claims FUZE avoids.
+- what controlled circulation means
+- why FUZE needs token release discipline
+- how controlled circulation supports the fixed 500,000,000 FUZE supply
+- how allocation categories, vaults, reserves, locks, vesting, and unlocks are explained
+- how controlled circulation relates to product-first execution
+- how controlled circulation differs from market support or price management
+- how FUZE separates total supply, circulating supply, locked supply, reserved supply, vested supply, treasury supply, and liquidity-related supply
+- how team, advisor, partner, community, ecosystem, treasury, liquidity, reserve, and migration allocations are handled
+- how stablecoin compensation reduces short-term token release pressure
+- how Platform Credits remain separate from token circulation
+- how public reporting explains token movement
+- what public claims FUZE avoids
 
 This paper is not a token sale document, investment recommendation, legal opinion, tax opinion, accounting policy, exchange listing plan, liquidity guarantee, price-support promise, market-making promise, payout policy, or financial-return promise.
 
 It is a public control and transparency paper.
 
-## 2. FUZE Public Position
+---
+
+## 2. Reader Problem This Paper Solves
+
+Token supply can become confusing when every token category is treated as if it has the same release path.
+
+Readers may ask:
+
+- What is total supply?
+- What is circulating supply?
+- What is locked supply?
+- What is reserve supply?
+- Which allocations are for community participation?
+- Which allocations are for migration?
+- Which allocations are for team and advisors?
+- Which allocations are for treasury and foundation reserves?
+- Which allocations are for liquidity-related operations?
+- Which allocations are claimable?
+- Which allocations are vested?
+- Which allocations are held for future use?
+- Does controlled circulation mean token price control?
+- Does a vault balance mean circulating supply?
+- Does a release schedule guarantee market liquidity?
+
+This paper solves that problem by explaining controlled circulation as a supply discipline and reporting model.
+
+The core answer is:
+
+Controlled circulation organizes token movement by allocation purpose, release rules, vault controls, eligibility, product readiness, governance controls, and public reporting.
+
+---
+
+## 3. FUZE Public Position
 
 FUZE’s public position is:
 
@@ -72,7 +110,7 @@ This position has several parts.
 | Vault separation | Different allocation purposes are separated where practical |
 | Release discipline | Unlocks, transfers, claims, and releases follow defined schedules and controls where applicable |
 | Public reporting | Circulation changes are explained in public-safe language where appropriate |
-| No price promise | Controlled circulation does not guarantee price, demand, liquidity, listing, or exit |
+| Market boundary | Controlled circulation supports clarity and discipline rather than market-result promises |
 
 Controlled circulation follows the FUZE tokenomics principle:
 
@@ -82,25 +120,9 @@ Controlled circulation is a transparency and discipline policy.
 
 It is not a market outcome promise.
 
-## 3. Public Context
+---
 
-FUZE is a transparency-first AI SaaS platform building practical products on shared infrastructure for identity, credits, payments, AI orchestration, reporting, and ecosystem participation.
-
-Controlled circulation connects to the FUZE platform in five ways.
-
-| Platform Area | Controlled Circulation Relationship |
-|---|---|
-| Product usage | Token circulation is connected to product context, not only token-market context |
-| Platform rails | Identity, Platform Credits, payments, AI orchestration, reporting, governance, security, privacy, and wallet records support controlled activity |
-| Vault architecture | Allocation categories are held and released through purpose-specific control models |
-| Ecosystem participation | FUZE token supports long-term ecosystem participation rather than short-term automatic circulation |
-| Public reporting | Circulating supply, locked supply, released supply, vault categories, release categories, and policy status can be communicated where public-safe |
-
-FUZE launch focus is HerHelp.com and ZAGA.io, supported by FUZE Core Platform rails and accelerated internally by Botmad.
-
-Controlled circulation supports that launch focus by protecting the token system while products, platform rails, utility surfaces, reporting systems, and governance controls mature.
-
-## 4. FUZE Controlled Circulation Model
+## 4. Core Model
 
 ### 4.1 Controlled Circulation Definition
 
@@ -122,42 +144,28 @@ Controlled circulation is a public trust policy.
 
 It does not convert every allocation into immediate liquid supply.
 
-### 4.2 Controlled Circulation Is Not Price Support
+### 4.2 Controlled Circulation and Market Boundary
 
-Controlled circulation must not be confused with price support.
+Controlled circulation must be understood as supply discipline, not market control.
 
 Controlled circulation can include:
 
-- lockups;
-- vesting;
-- release schedules;
-- vault separation;
-- supply reports;
-- treasury controls;
-- unlock reporting;
-- allocation boundaries;
-- public circulation clarity;
-- purpose-based release logic;
-- eligibility-controlled claims;
-- milestone-controlled partner releases;
-- strategic reserve deployment;
-- liquidity-related operational controls.
+- lockups
+- vesting
+- release schedules
+- vault separation
+- supply reports
+- treasury controls
+- unlock reporting
+- allocation boundaries
+- public circulation clarity
+- purpose-based release logic
+- eligibility-controlled claims
+- milestone-controlled partner releases
+- strategic reserve deployment
+- liquidity-related operational controls
 
-Controlled circulation does not include promises that FUZE will hold a token price, defend a price level, guarantee a floor, guarantee buy pressure, guarantee exchange liquidity, or control the market.
-
-FUZE avoids public language such as:
-
-- price support;
-- price protection;
-- guaranteed floor;
-- guaranteed liquidity;
-- guaranteed market support;
-- guaranteed listing;
-- guaranteed exit;
-- buy before listing;
-- token price target;
-- market price will not fall;
-- controlled circulation guarantees price.
+Controlled circulation avoids public promises that FUZE will hold a token price, defend a price level, guarantee a floor, guarantee buy pressure, guarantee exchange liquidity, or control the market.
 
 Approved public language:
 
@@ -184,7 +192,7 @@ Public reporting identifies which category is being discussed.
 
 Boundary:
 
-A supply category label does not guarantee market outcome, price, liquidity, listing, payout, or future availability.
+A supply category label explains status. It does not create market guarantees.
 
 ### 4.4 Fixed Allocation Categories Under Controlled Circulation
 
@@ -244,11 +252,63 @@ Vault-based control helps prevent allocation misuse and supports public transpar
 
 Boundary:
 
-A vault balance is not automatically circulating supply, approved distributable value, payout supply, price support, liquidity guarantee, or public treasury access.
+A vault balance explains controlled holding status. It does not automatically represent circulating supply, approved distributable value, payout supply, price support, liquidity assurance, or public treasury access.
 
-## 5. How the System Works
+---
 
-### 5.1 Community Participation Release Logic
+## 5. Token, Credits, Stablecoins, and Wallet Relationship
+
+Controlled circulation applies to FUZE token.
+
+It remains separate from Platform Credits, stablecoins, product revenue, approved distributable value, and wallet-based participation ability.
+
+| System | Public Role | Controlled Circulation Relationship |
+|---|---|---|
+| FUZE token | Single ecosystem token | Controlled circulation governs release, movement, vaulting, vesting, locks, and reporting |
+| Platform Credits | Product usage credits | Credits are product usage units and do not increase FUZE token circulation |
+| Stablecoins | Payment, settlement, treasury, and compensation rails | Stablecoin compensation can reduce pressure to release tokens for work payments |
+| Product revenue | Revenue from FUZE products and services | Product revenue can support operations and stablecoin compensation after review |
+| Approved distributable value | Reviewed value from defined product revenue pools where an active framework exists | Separate from token circulation unless a future framework is activated |
+| Wallet-based participation ability | Possible activation-gated framework inside FUZE token model | Requires separate eligibility and activation gates |
+
+This separation keeps the supply model understandable.
+
+Platform Credits power product usage.
+
+Stablecoins pay for work and settlement.
+
+FUZE tokens align long-term participation.
+
+---
+
+## 6. Controls, Gates, and Governance
+
+Controlled circulation depends on release controls.
+
+Important controls include:
+
+- allocation purpose
+- vault separation
+- multisig controls where applicable
+- timelock controls where applicable
+- vesting rules
+- lockup rules
+- claim rules
+- eligibility rules
+- migration rules
+- partner milestone rules
+- community program rules
+- liquidity operations policy
+- treasury deployment policy
+- public reporting
+- legal review
+- accounting review
+- jurisdiction review
+- governance approval
+- smart-contract readiness where applicable
+- market-boundary communication
+
+### 6.1 Community Participation Release Logic
 
 Community Participation Allocation is **110,000,000 FUZE**, equal to **22.00%** of total supply.
 
@@ -261,322 +321,290 @@ Controlled circulation applies to this allocation through:
 | Vesting / lockups | Release timing can reduce uncontrolled circulation |
 | Product connection | Participation can connect to HerHelp, ZAGA, ZAGA Arena, ZAGA Districts, CommunityLayer AI, and FUZE Core Platform where applicable |
 | Reporting | Public-safe updates can show status, allocation usage, locked amounts, and release categories |
-| Boundary | Participation is not a token price promise, listing promise, liquidity promise, payout promise, or financial-return plan |
+| Boundary | Participation is a product-aligned access model, not a token price, listing, liquidity, payout, or financial-return plan |
 
-Community Participation Round is a product-aligned participation model, not a discount-first public message.
+Community Participation Round is a product-aligned participation model.
 
-### 5.2 BOARD / Surfboard Migration Release Logic
+It is not a discount-first public message.
+
+### 6.2 BOARD / Surfboard Migration Release Logic
 
 BOARD / Surfboard Migration is **25,000,000 FUZE**, equal to **5.00%** of total supply.
 
-Controlled circulation applies to migration through:
-
-| Control Area | Public Role |
-|---|---|
-| Eligibility | Reserved for eligible legacy-holder continuity |
-| Separation | Not part of Community Participation Allocation |
-| Supply relationship | Already included in the fixed 500,000,000 FUZE total supply |
-| Claim logic | Can use claim-based or eligibility-based migration rules |
-| Vesting / staged release | Can support controlled circulation rather than immediate full circulation |
-| Reporting | Public-safe migration status can be reported where appropriate |
-| Boundary | Migration is not public sale inventory and not extra supply |
-
-This protects legacy continuity without confusing it with public participation.
-
-### 5.3 Team, Advisor, and Contributor Release Logic
-
-Team Allocation is **45,000,000 FUZE**. Advisors / Strategic Contributors allocation is **15,000,000 FUZE**.
-
-Controlled circulation applies to these categories through:
-
-| Control Area | Public Role |
-|---|---|
-| Vesting | Releases occur over time to support long-term alignment |
-| Contribution logic | Allocation relates to work, role, contribution, or strategic support |
-| Stablecoin separation | Stablecoins pay for work; FUZE tokens align long-term participation |
-| Role controls | Founder, team, builder, advisor, operator, and contributor categories remain documented |
-| Governance | Vesting and release rules remain subject to policy controls |
-| Boundary | These allocations are not short-term compensation pressure and not unrestricted sell inventory |
-
-This supports long-term builder and contributor alignment.
-
-### 5.4 Treasury, Foundation, and Transparency Reserve Logic
-
-Treasury Reserve is **120,000,000 FUZE**. Foundation Reserve is **35,000,000 FUZE**. Transparency / Stability Reserve is **25,000,000 FUZE**.
+This allocation supports eligible legacy-holder migration continuity.
 
 Controlled circulation applies through:
 
-| Reserve Area | Public Role |
-|---|---|
-| Treasury Reserve | Strategic platform reserve for long-term platform runway, infrastructure, ecosystem development, and controlled strategic flexibility |
-| Foundation Reserve | Long-horizon stewardship reserve for mission continuity and governance readiness |
-| Transparency / Stability Reserve | Exceptional trust, transparency, or stability reserve under governance controls |
-| Approval controls | Releases can require treasury policy, governance approval, timelock, multisig, reporting, or public-safe disclosure |
-| Purpose controls | Releases connect to strategic platform purpose rather than discretionary circulation |
-| Boundary | Reserves are not normal public sale inventory and not automatic circulating supply |
+- eligibility review
+- claim rules
+- migration records
+- claim windows where applicable
+- wallet matching where applicable
+- public-safe migration reporting
+- anti-abuse review
+- custody treatment where applicable
+- jurisdiction limits where applicable
 
-These reserves support long-term platform discipline.
+Migration allocation is separate from Community Participation Allocation.
 
-### 5.5 Holder Incentive Release Logic
+Migration claims are not market guarantees.
+
+### 6.3 Team and Advisor Release Logic
+
+Team Allocation is **45,000,000 FUZE**, equal to **9.00%** of total supply.
+
+Advisors / Strategic Contributors allocation is **15,000,000 FUZE**, equal to **3.00%** of total supply.
+
+Controlled circulation applies through:
+
+- vesting schedules
+- cliff periods where applicable
+- lockups
+- role definitions
+- contribution review
+- milestone review where applicable
+- transfer controls where applicable
+- public-safe reporting where appropriate
+
+Stablecoin compensation can help keep work payment separate from token release.
+
+This supports long-term alignment and lowers pressure to use token allocations as short-term cash replacement.
+
+### 6.4 Treasury, Foundation, and Transparency Reserve Logic
+
+Treasury Reserve is **120,000,000 FUZE**, equal to **24.00%** of total supply.
+
+Foundation Reserve is **35,000,000 FUZE**, equal to **7.00%** of total supply.
+
+Transparency / Stability Reserve is **25,000,000 FUZE**, equal to **5.00%** of total supply.
+
+These categories support stewardship, strategic flexibility, reserve planning, operational resilience, transparency, and long-term ecosystem alignment.
+
+Controlled circulation applies through:
+
+- treasury policy
+- reserve policy
+- purpose-specific vaulting
+- approval requirements
+- multisig controls where applicable
+- timelock controls where applicable
+- public-safe reporting where appropriate
+- governance review
+- exceptional-use review where applicable
+
+Treasury and reserve categories should be explained as controlled reserves, not ordinary circulating inventory.
+
+### 6.5 Holder Incentives and Ecosystem Growth Release Logic
 
 Holder Incentives allocation is **55,000,000 FUZE**, equal to **11.00%** of total supply.
-
-Controlled circulation applies through:
-
-| Control Area | Public Role |
-|---|---|
-| Earned participation | Incentives can connect to product usage, loyalty, referrals, contribution, campaigns, events, or recognition |
-| Program rules | Incentives follow defined program rules rather than arbitrary distribution |
-| Product connection | Programs can connect to HerHelp, ZAGA, ZAGA Arena, ZAGA Districts, CommunityLayer AI, ToolGrid AI, and other FUZE products |
-| Claim logic | Incentives can use claim, vesting, or phased release rules where applicable |
-| Reporting | Program usage can be shown through public-safe reports |
-| Boundary | Incentives are not income promises, payout promises, or market-performance promises |
-
-Holder incentives support participation and ecosystem engagement.
-
-### 5.6 Ecosystem Growth & Partnerships Release Logic
 
 Ecosystem Growth & Partnerships allocation is **40,000,000 FUZE**, equal to **8.00%** of total supply.
 
 Controlled circulation applies through:
 
-| Control Area | Public Role |
-|---|---|
-| Partner purpose | Releases support ecosystem deals, integrations, product distribution, grants, and partner campaigns |
-| Milestone logic | Releases can connect to milestones, deliverables, contribution, product integration, or verified partner value |
-| Lockups | Partner allocations can use lockups or staged release where appropriate |
-| Reporting | Public-safe partner categories can be reported without exposing confidential deal terms |
-| Product connection | Partner utility can connect to HerHelp, ZAGA, ToolGrid AI, QTB, AIMM, AIE, Botmad, and FUZE Core Platform where applicable |
-| Boundary | Partner releases do not guarantee partnership success, token demand, token price, listing, liquidity, or market outcome |
+- product-user incentive rules
+- campaign rules
+- participation rules
+- partner milestones
+- grant agreements
+- integration deliverables
+- contribution records
+- anti-abuse controls
+- reporting
+- vesting or lockup where applicable
 
-Ecosystem releases support long-term platform growth.
+These categories support ecosystem growth and participation, but they still need release discipline.
 
-### 5.7 Liquidity & Market Operations Release Logic
+### 6.6 Liquidity & Market Operations Release Logic
 
 Liquidity & Market Operations allocation is **30,000,000 FUZE**, equal to **6.00%** of total supply.
 
+This allocation can support market-structure readiness, liquidity-related deployment, exchange access preparation, and market operations where legally, technically, and operationally ready.
+
 Controlled circulation applies through:
 
-| Control Area | Public Role |
-|---|---|
-| Market-structure purpose | Supports liquidity seeding, exchange support, and market-structure needs where legally, technically, and operationally ready |
-| Operational controls | Releases may require treasury policy, approvals, market-structure review, and public-safe reporting |
-| Venue context | Exchange, DEX, custody, or market-operations context may affect deployment |
-| Reporting | Public-safe reporting can explain allocation category and use without promising market results |
-| Boundary | Liquidity allocation is not price support, guaranteed listing, guaranteed liquidity, guaranteed market-making result, or trading-volume guarantee |
+- treasury review
+- legal review
+- exchange or market access review
+- liquidity policy
+- market communication boundaries
+- deployment records
+- public-safe reporting
+- multisig controls where applicable
+- operational approval
+- monitoring and reconciliation
 
-This allocation supports market structure, not market certainty.
+Liquidity-related deployment supports market structure.
 
-### 5.8 Stablecoin Compensation Separation
+It does not guarantee liquidity, listing, trading volume, price support, market-making result, resale availability, or exit opportunity.
 
-Controlled circulation separates work compensation from token alignment.
-
-| System | Public Role |
-|---|---|
-| Stablecoins / fiat-equivalent payments | Work compensation, contractor payments, milestone payments, service payments, and operating payments where applicable |
-| FUZE tokens | Long-term ecosystem participation and alignment |
-| Platform Credits | Product usage across FUZE products and services |
-
-FUZE uses the compensation principle:
-
-**Stablecoins pay for work. FUZE tokens align long-term participation. Platform Credits power product usage.**
-
-This helps prevent team, advisor, contractor, or contributor token allocations from becoming short-term cash compensation pressure.
-
-Stablecoin compensation supports controlled circulation by reducing the need to release tokens for routine operating work.
-
-### 5.9 Platform Credits Separation
-
-Platform Credits are separate from FUZE token circulation.
-
-| Item | Public Meaning |
-|---|---|
-| Platform Credits | Product usage credits for FUZE products and services |
-| FUZE token | Ecosystem participation asset |
-| Token allocation vaults | Purpose-specific token supply categories |
-| Product billing | Subscriptions, add-ons, usage packs, reports, AI actions, sponsored visibility, or workflow usage where applicable |
-
-Platform Credits are for product usage and are not investment assets, payout assets, or FUZE tokens.
-
-The Controlled Circulation Policy governs FUZE token movement. Platform Credits follow product usage and billing rules.
-
-### 5.10 Treasury and Reserve Controls
-
-FUZE treasury and reserve controls help prevent unclear or uncontrolled token movement.
-
-Controls may include:
-
-- purpose-labeled wallets;
-- multisig controls where appropriate;
-- timelock controls where appropriate;
-- transfer approval process;
-- internal transfer records;
-- release schedule records;
-- public-safe vault reports;
-- reserve policy;
-- emergency pause or review process where applicable;
-- allocation change review;
-- wallet label updates;
-- public explanation for major movement where appropriate;
-- role separation;
-- transaction review;
-- governance references where available.
-
-Treasury and reserve controls support trust.
-
-They do not create false certainty about market behavior.
-
-Boundary:
-
-Treasury and reserve controls do not guarantee token price, demand, liquidity, listing, market support, or investment return.
-
-### 5.11 Product Readiness and Release Discipline
-
-Controlled circulation connects release logic to product readiness.
-
-Product readiness can include:
-
-- product pages;
-- product workflows;
-- Platform Credit usage;
-- product revenue records;
-- user onboarding;
-- community systems;
-- ZAGA utility surfaces;
-- game utility surfaces;
-- reporting infrastructure;
-- smart-contract readiness where applicable;
-- legal and compliance readiness;
-- public documentation readiness.
-
-Product readiness matters because token release without product context can create public confusion.
-
-Boundary:
-
-Product readiness supports token utility context, but it does not guarantee product adoption, token demand, token price, payout, liquidity, listing, or investment return.
-
-### 5.12 Wallet-Based Participation and Circulation Boundary
-
-Wallet-based participation ability is separate from controlled circulation, but the two systems can interact if a future framework becomes active.
-
-Wallet-based participation ability is a possible FUZE token-related framework where eligible FUZE-holding wallets may participate in approved distributable value from defined FUZE product revenue pools if the framework becomes active.
-
-Controlled circulation can support this by tracking:
-
-- eligible wallet records where applicable;
-- locked or vested token status;
-- claim-related status where activated;
-- distribution vault status where activated;
-- report hashes;
-- participation status;
-- public-safe eligibility categories.
-
-Boundary:
-
-Controlled circulation does not activate wallet-based participation. Wallet-based participation remains subject to legal, accounting, treasury, audit, reporting, smart-contract, eligibility, privacy, operator, product-revenue, approved-distributable-value, and jurisdiction gates.
-
-## 6. Public Boundary
-
-Controlled circulation is a supply clarity and release discipline policy.
-
-It is not:
-
-- price support;
-- price protection;
-- guaranteed liquidity;
-- guaranteed listing;
-- guaranteed market support;
-- guaranteed market-making result;
-- guaranteed trading volume;
-- guaranteed exit;
-- guaranteed payout;
-- guaranteed income;
-- guaranteed dividend;
-- guaranteed yield;
-- guaranteed profit;
-- guaranteed token demand;
-- guaranteed investment return;
-- unrestricted public treasury control;
-- automatic approved distributable value;
-- automatic wallet-based participation activation.
-
-FUZE does not guarantee:
-
-- token price;
-- token demand;
-- listing;
-- liquidity;
-- market support;
-- market-making result;
-- trading volume;
-- payout;
-- income;
-- dividend;
-- yield;
-- profit;
-- game earnings;
-- product revenue;
-- business revenue;
-- user growth;
-- community growth;
-- approved distributable value;
-- wallet eligibility;
-- exit;
-- acquisition;
-- investment return.
-
-A vault balance is not automatically circulating supply.
-
-A reserve balance is not automatically payout supply.
-
-Treasury supply is not approved distributable value by default.
-
-Liquidity-related supply is not price support.
-
-Community allocation is not guaranteed access for every user.
-
-Team allocation is not immediate discretionary circulation.
-
-Holder incentives are not guaranteed income.
-
-Controlled circulation improves clarity, but it does not remove token, market, operational, regulatory, technical, product, or liquidity risk.
+---
 
 ## 7. Reporting and Transparency Direction
 
-FUZE may report controlled circulation through public-safe records where product, legal, accounting, technical, privacy, treasury, and operational readiness allow.
+Controlled circulation can support public-safe reporting.
 
-Reporting direction may include:
+Reporting can include:
 
-| Reporting Area | Public Role |
-|---|---|
-| Total supply report | Shows fixed total supply of 500,000,000 FUZE |
-| Allocation category report | Shows ten allocation categories, amounts, percentages, and public roles |
-| Circulating supply report | Shows reported circulating supply and reporting method where public-safe |
-| Locked supply report | Shows locked, vested, unvested, reserved, or non-circulating categories where applicable |
-| Vault mapping | Shows purpose-labeled vaults or wallet categories where public-safe |
-| Release type report | Shows claim-based, vesting, earned, milestone, strategic reserve, operational, or exceptional reserve release categories |
-| Community participation report | Shows participation windows, locked amounts, claimed amounts, released amounts, and eligibility categories where appropriate |
-| Migration report | Shows BOARD / Surfboard Migration status where public-safe |
-| Team and advisor vesting report | Shows vesting status where public-safe |
-| Treasury and reserve report | Shows reserve and treasury categories without exposing confidential operational records |
-| Liquidity-related report | Shows liquidity allocation category without promising price support, listing, or liquidity |
-| Governance reference | Shows multisig, timelock, approval, or policy references where available |
-| Risk boundary disclosure | Shows no price, listing, liquidity, payout, income, yield, profit, or market-outcome guarantee |
+- total supply
+- allocation table
+- strategic grouping
+- vault categories
+- locked supply
+- circulating supply
+- reserved supply
+- vested supply
+- unvested supply
+- released supply
+- claimable supply where active
+- migration status where applicable
+- community participation release status
+- team and advisor vesting summaries where public-safe
+- treasury and reserve summaries
+- liquidity-related deployment categories
+- public report hashes where appropriate
+- governance status
+- release-rule summaries
+- controlled circulation updates
 
-Transparency does not create unrestricted access to treasury operations, private company records, user data, customer data, contributor data, private investor terms, private legal analysis, private accounting records, personal identity records, private verification records, or confidential operational records.
+Public reporting should explain:
 
-Public reporting can explain supply categories and token movement while protecting private operational details.
+- which category is being discussed
+- what release type applies
+- whether tokens are locked, vested, claimable, reserved, released, or circulating
+- which controls apply
+- which public boundaries apply
+- what remains subject to future review
 
-## 8. Conclusion
+Reporting supports public understanding.
 
-FUZE Controlled Circulation Policy defines how FUZE token movement is governed by allocation purpose, vault-based control, release discipline, vesting, lockups, eligibility, product readiness, treasury policy, governance controls, and public reporting.
+It does not create financial assurance.
 
-FUZE uses a fixed total supply of **500,000,000 FUZE** across ten purpose-specific allocation categories.
+---
 
-Each category has a defined role and release logic. Community Participation Allocation, BOARD / Surfboard Migration, Team Allocation, Foundation Reserve, Treasury Reserve, Holder Incentives, Ecosystem Growth & Partnerships, Liquidity & Market Operations, Advisors / Strategic Contributors, and Transparency / Stability Reserve are not treated as one uniform liquid supply pool.
+## 8. Market, Legal, or Operational Context
 
-Controlled circulation supports public clarity, tokenomics discipline, vault separation, long-term ecosystem alignment, and product-first execution.
+### 8.1 Product-First Circulation
 
-It does not guarantee token price, listing, liquidity, market support, payout, income, yield, profit, exit, or investment return.
+FUZE uses product-first circulation logic.
 
-FUZE uses controlled circulation to make token movement understandable while keeping tokenomics aligned with the broader FUZE model: product usage first, platform rails second, broader ecosystem participation after that.
+Token movement should support:
+
+- HerHelp product utility
+- ZAGA utility surfaces
+- platform rail readiness
+- product-user participation
+- contributor alignment
+- partner milestones
+- public reporting
+- controlled treasury operations
+- long-term ecosystem development
+
+FUZE avoids token release logic that depends only on hype, speculation, or short-term market attention.
+
+Product readiness matters because token utility becomes clearer when products exist, usage is visible, and reporting is understandable.
+
+### 8.2 Stablecoin Compensation and Circulation Pressure
+
+Stablecoin compensation helps controlled circulation.
+
+When contributors, contractors, vendors, advisors, operators, and selected partners can be paid in stablecoins or fiat-equivalent rails where approved, FUZE does not need to rely only on token releases for short-term work payment.
+
+This supports:
+
+- lower short-term token release pressure
+- clearer team and advisor vesting
+- cleaner treasury reporting
+- better separation between work payment and token alignment
+- healthier long-term token policy
+- stronger public understanding
+
+Stablecoins pay for work.
+
+FUZE tokens align long-term participation.
+
+Platform Credits power product usage.
+
+### 8.3 Community Participation and Circulation
+
+Community Participation Allocation supports eligible community participation, product-user participation, contributor recognition, and future community programs.
+
+Controlled circulation can help the Community Participation Round avoid price-first, discount-first, and uncontrolled distribution framing.
+
+Participation windows, vesting, lockups, reporting, and eligibility review can help make community access more understandable.
+
+### 8.4 Market Boundary
+
+Controlled circulation is a supply policy.
+
+It does not guarantee:
+
+- token demand
+- token price
+- exchange listing
+- liquidity
+- trading volume
+- market-making result
+- price support
+- resale availability
+- exit opportunity
+- investment return
+
+Market access, custody, liquidity operations, exchange support, and public trading environments require separate boundary language and review.
+
+---
+
+## 9. Risk and Disclosure Reference
+
+Important public boundaries include:
+
+- Controlled circulation supports supply clarity and disciplined release.
+- FUZE token supply is fixed at 500,000,000 FUZE.
+- Allocation categories have separate purposes and release logic.
+- Vault balances require context before they are treated as circulating supply.
+- Locked, reserved, vested, claimable, treasury, and liquidity-related categories require separate reporting labels.
+- Community Participation Allocation follows eligibility and controlled access rules.
+- BOARD / Surfboard Migration follows separate legacy-holder continuity rules.
+- Team and advisor tokens support long-term alignment through vesting and controls.
+- Treasury, foundation, and transparency reserves are controlled reserve categories.
+- Liquidity-related deployment supports market-structure needs but does not create market guarantees.
+- Platform Credits are product usage credits and remain separate from FUZE token circulation.
+- Stablecoins support payment, settlement, treasury, and compensation rails.
+- Wallet-based participation ability remains activation-gated.
+- FUZE token does not guarantee payout, income, yield, profit, token price, listing, liquidity, market support, exit, game earnings, business revenue, user growth, community growth, approved distributable value, wallet eligibility, or investment return.
+
+More detailed boundaries are handled in dedicated papers, including:
+
+- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/02-FUZE_TOKEN_ALLOCATION_TABLE_PUBLIC.md`
+- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/06-FUZE_COMMUNITY_PARTICIPATION_ROUND_PUBLIC.md`
+- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/07-FUZE_WALLET_BASED_PARTICIPATION_MODEL_PUBLIC.md`
+- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/08-FUZE_PARTICIPATION_ACTIVATION_GATES_PUBLIC.md`
+- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/11-FUZE_STABLECOIN_COMPENSATION_POLICY_PUBLIC.md`
+- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/13-FUZE_TOKEN_RELEASE_AND_CIRCULATION_CLARITY_PUBLIC.md`
+- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/14-FUZE_VAULT_AND_RESERVE_POLICY_PUBLIC.md`
+- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/15-FUZE_VAULT_BY_VAULT_RELEASE_RULES_PUBLIC.md`
+- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/19-FUZE_TEAM_ADVISOR_PARTNER_VESTING_PUBLIC.md`
+- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/21-FUZE_LIQUIDITY_AND_LISTING_POLICY_PUBLIC.md`
+- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/24-FUZE_GOVERNANCE_MULTISIG_TIMELOCK_MODEL_PUBLIC.md`
+- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/29-FUZE_TOKEN_RISK_BOUNDARIES_PUBLIC.md`
+- `WHITEPAPER-PAPERS/05-FUZE_RISK_AND_DISCLOSURE_APPENDIX_PUBLIC.md`
+
+This paper focuses on controlled circulation while deeper allocation, vault, release, liquidity, wallet, participation, legal, governance, and disclosure topics remain in dedicated papers.
+
+---
+
+## 10. Key Takeaways
+
+- FUZE Controlled Circulation Policy explains how FUZE governs token release, token movement, allocation vaults, reserves, vesting, lockups, claims, incentives, liquidity-related deployment, treasury controls, and circulation reporting.
+- FUZE uses one ecosystem token: FUZE token.
+- FUZE token supply is fixed at 500,000,000 FUZE.
+- Controlled circulation means token movement follows allocation purpose, vault separation, vesting, lockups, eligibility, product readiness, treasury controls, governance controls, and public reporting.
+- Controlled circulation is a supply discipline and transparency policy, not a market outcome promise.
+- Community Participation Allocation is 110,000,000 FUZE and follows eligibility-controlled access.
+- BOARD / Surfboard Migration is 25,000,000 FUZE and follows separate legacy-holder continuity logic.
+- Team and advisor tokens support long-term alignment through vesting and controls.
+- Treasury Reserve, Foundation Reserve, and Transparency / Stability Reserve are controlled reserve categories.
+- Liquidity & Market Operations allocation supports market-structure readiness but does not guarantee liquidity, listing, trading volume, price support, or exit opportunity.
+- Stablecoin compensation reduces pressure to use FUZE token for short-term work payments.
+- Platform Credits power product usage and remain separate from FUZE token circulation.
+- Public reporting helps readers understand supply status, release categories, vault controls, and circulation boundaries.

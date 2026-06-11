@@ -6,37 +6,31 @@ FUZE Market Price and Demand Boundary explains how FUZE communicates token marke
 
 FUZE uses one ecosystem token only: **FUZE token**.
 
-FUZE token is the single ecosystem token of FUZE. It supports product-connected utility, ecosystem participation, platform alignment, governance direction where applicable, community participation structures, and wallet-based participation ability where activated under final policy.
+FUZE token is the single ecosystem token of FUZE. It supports product-connected utility, ecosystem participation, platform alignment, governance direction where applicable, community participation structures, and wallet-based participation ability where activated under required controls.
 
-FUZE token market price may move independently from FUZE product performance.
+FUZE is product-first. Product progress can strengthen utility, trust, usage evidence, community confidence, investor understanding, reporting quality, and long-term ecosystem alignment.
 
-A stronger product ecosystem can support utility, public trust, user interest, community attention, reporting quality, product-to-token clarity, and long-term platform alignment, but it does not guarantee token demand, token price, trading volume, liquidity, listing, exit, payout, income, yield, profit, or investment return.
+Market price is different.
 
-FUZE does not claim that market price decline does not matter because holders may receive participation.
+FUZE token market price may move independently from product progress, product revenue, user growth, community attention, controlled circulation, listing preparation, vault-access pricing, or wallet-based participation design.
 
-FUZE does not claim that product revenue protects token price.
+Token demand may be affected by many factors, including product utility, adoption, liquidity, exchange access, circulating supply, unlock schedules, regulation, public trust, investor behavior, market cycles, macro conditions, and broader crypto sentiment.
 
-FUZE does not claim that wallet-based participation removes market risk.
-
-FUZE does not claim that controlled circulation prevents price decline.
-
-FUZE does not claim that vault-access pricing is a market price promise.
-
-FUZE does not claim that team performance alone controls token demand.
-
-FUZE token demand may be affected by product utility, user adoption, market cycles, liquidity, exchange access, circulating supply, unlock schedules, controlled circulation, regulation, community trust, investor behavior, public communication, macro conditions, and broader crypto sentiment.
+No single factor controls the market.
 
 Platform Credits are product usage credits and are separate from FUZE token.
 
 Stablecoins are payment, settlement, treasury, and operational compensation rails.
 
-Wallet-based participation ability is not a second token, not automatic for every wallet, and not active as a guaranteed public payout right.
+Wallet-based participation ability is a separate activation-gated framework inside the FUZE token model.
 
-Vault Access Pricing Mechanism is a pricing-control framework for selected Public Vault Access Windows where final policy allows. It is not token valuation, price protection, price support, market support, listing price, liquidity guarantee, or return assurance.
+Vault Access Pricing Mechanism is a pricing-control framework for selected Public Vault Access Windows where final policy allows. It is not a general token valuation model or market-price assurance system.
 
-Liquidity and listing policy supports market-structure readiness and responsible communication. It does not guarantee liquidity, listing, trading volume, exchange access, market depth, exit, or price.
+Liquidity and listing policy supports market-structure readiness and responsible communication. It does not create guaranteed liquidity, listing, trading volume, exchange access, market depth, exit, or price outcomes.
 
 FUZE does not guarantee payout, income, dividend, yield, profit, token price, token demand, listing, liquidity, market support, trading volume, exit, game earnings, business revenue, user growth, community growth, approved distributable value, wallet eligibility, claim availability, or investment return.
+
+---
 
 ## 1. Purpose of This Paper
 
@@ -44,172 +38,173 @@ This paper explains FUZE’s public boundary for token market price and demand.
 
 It defines:
 
-- how FUZE discusses token price;
-- how FUZE discusses token demand;
-- how product performance may influence trust without guaranteeing market outcome;
-- why product revenue does not protect token price;
-- why wallet-based participation ability does not remove market risk;
-- why controlled circulation does not guarantee price stability;
-- why vault-access pricing is not a token valuation promise;
-- why liquidity and listing do not guarantee exit or market depth;
-- how DEX, CEX, OTC, self-custody, and exchange custody affect market access and demand;
-- how AIMM supports market-operations intelligence without guaranteeing market outcome;
-- how QTB supports market interpretation without giving financial advice;
-- how market cycles can affect FUZE token regardless of product progress;
-- what public wording FUZE avoids.
+- how FUZE discusses token price
+- how FUZE discusses token demand
+- how product performance may influence trust without guaranteeing market outcome
+- why product revenue and market price remain separate
+- why wallet-based participation ability does not remove market risk
+- why controlled circulation improves supply clarity without removing volatility
+- why vault-access pricing is not a token valuation promise
+- why liquidity and listing do not guarantee exit or market depth
+- how DEX, CEX, self-custody, and exchange custody affect market access and demand
+- how AIMM supports market-operations intelligence without guaranteeing market outcome
+- how QTB supports market interpretation without giving financial advice
+- how market cycles can affect FUZE token regardless of product progress
+- what public wording FUZE avoids
 
 This paper is not a price forecast, token valuation, price target, investment recommendation, trading advice, financial advice, exchange listing plan, market-making promise, liquidity guarantee, token sale document, public investment offer, public solicitation, payout policy, claim instruction, or legal opinion.
 
 It is a public boundary paper for token price, token demand, and market-expectation communication.
 
-## 2. FUZE Public Position
+---
+
+## 2. Reader Problem This Paper Solves
+
+Market price and demand language can create confusion when product progress, revenue, token utility, controlled circulation, access-window pricing, liquidity planning, and exchange preparation are presented as if they directly guarantee market results.
+
+Readers may ask:
+
+- Does strong product progress guarantee token demand?
+- Does product revenue protect token price?
+- Does controlled circulation prevent price decline?
+- Does vault-access pricing define market value?
+- Does DEX access guarantee liquidity?
+- Does CEX preparation guarantee listing?
+- Does wallet-based participation ability remove market risk?
+- Does AIMM protect price?
+- Does QTB provide trading signals?
+- Does ZAGA game activity guarantee token demand?
+- Does Platform Credit usage create token price support?
+
+This paper solves that problem by separating product strength from market outcome.
+
+The key answer is:
+
+FUZE can build products, utility, reporting, governance, market-readiness systems, and transparent boundaries. Market price and demand remain market-dependent.
+
+---
+
+## 3. FUZE Public Position
 
 FUZE’s public position is:
 
-**FUZE token market price is not guaranteed and may move independently from product performance, product revenue, community growth, liquidity planning, listing efforts, controlled circulation, vault-access pricing, or wallet-based participation design.**
+**FUZE token market price and demand are market-dependent. Product progress, product revenue, controlled circulation, vault-access pricing, liquidity planning, listing preparation, and wallet-based participation design can support public understanding and utility, but they do not guarantee market outcome.**
 
-FUZE token demand may be influenced by many factors, but no single factor guarantees demand.
-
-The public position has eight main points.
+This position has several parts.
 
 | Area | FUZE Public Position |
 |---|---|
-| Market price | FUZE does not guarantee price, price appreciation, price stability, or price recovery |
-| Demand | FUZE does not guarantee token demand, buyer demand, trading volume, or market depth |
-| Product performance | Product progress may support utility and trust, but it does not guarantee market outcome |
-| Product revenue | Product revenue does not automatically protect token price or create demand |
-| Participation ability | Wallet-based participation ability does not remove market risk and is not active as a guaranteed payout right |
-| Controlled circulation | Controlled circulation improves supply clarity but does not guarantee price stability |
-| Vault-access pricing | Pricing controls for selected access windows are not market price promises |
-| Public communication | FUZE avoids price targets, return promises, listing promises, liquidity promises, and price-support language |
+| Market price | FUZE avoids price targets, price appreciation promises, price stability claims, and price recovery claims |
+| Demand | Token demand may increase or decrease based on many market, product, liquidity, regulatory, and community factors |
+| Product performance | Product progress may support utility, trust, and long-term ecosystem alignment |
+| Product revenue | Revenue can support platform strength, operations, and product expansion after confirmation and review |
+| Wallet-based participation ability | Activation-gated and separate from market-risk protection |
+| Controlled circulation | Improves supply clarity and release discipline while market risk remains |
+| Vault-access pricing | Pricing controls selected access windows without defining general market value |
+| Liquidity and listing | Support market-structure readiness without guaranteeing market access, depth, or timing |
+| AIMM and QTB | Support market intelligence and operations context without guaranteeing trading or liquidity outcomes |
+| Public communication | Avoids return promises, listing promises, liquidity promises, buy-pressure language, and market-support claims |
 
 FUZE can explain product utility and token design.
 
 FUZE does not promise market outcome.
 
-## 3. Public Context
+---
 
-FUZE is a transparency-first AI SaaS platform building practical products on shared infrastructure for identity, credits, payments, AI orchestration, reporting, and ecosystem participation.
+## 4. Core Model
 
-Market price and demand boundaries connect to the FUZE platform in several ways.
-
-| Platform Area | Market Price and Demand Relationship |
-|---|---|
-| FUZE Core Platform | Supports identity, Platform Credits, payments, AI orchestration, reporting, governance, public records, and transparency |
-| HerHelp | Practical AI SaaS usage can support product trust but does not guarantee token demand |
-| ZAGA | Token utility and participation surfaces can support utility context but do not guarantee price |
-| ZAGA Arena | Game utility and game value language remain game mechanics, not guaranteed financial earnings |
-| ZAGA Districts | Community game economies remain game and community mechanics, not passive-income systems |
-| Platform Credits | Product usage credits, not FUZE token and not investment exposure |
-| Stablecoins | Payment, settlement, treasury, and compensation rails, not FUZE token and not payout promises |
-| Controlled Circulation Policy | Improves supply clarity and release discipline but does not prevent market risk |
-| Vault Access Pricing Mechanism | Controls selected vault-access pricing but does not set market value |
-| Liquidity and Listing Policy | Supports market-access readiness but does not guarantee liquidity, listing, demand, or price |
-| AIMM | Supports liquidity operations intelligence, not price support or guaranteed market outcome |
-| QTB | Supports market interpretation, not financial advice or trading-result guarantees |
-| Wallet-based participation ability | Possible activation-gated framework, not active guaranteed payout and not market-risk protection |
-
-FUZE execution order remains:
-
-**Product usage first. Platform rails second. Broader ecosystem participation after that.**
-
-This order supports product-first public communication without turning product progress into price promises.
-
-## 4. FUZE Market Price and Demand Boundary Model
-
-### 4.1 Market Price Is Not Controlled by FUZE Alone
+### 4.1 Market Price Is Market-Dependent
 
 FUZE can control product work, communication discipline, treasury processes, token release policy, reporting direction, risk boundaries, utility design, governance controls, and public documentation.
 
-FUZE cannot fully control market price.
+Market price depends on a wider environment.
 
 Market price may be affected by:
 
-- buyer demand;
-- seller pressure;
-- liquidity depth;
-- exchange access;
-- token circulation;
-- unlock expectations;
-- market sentiment;
-- broader crypto cycles;
-- macro conditions;
-- regulation;
-- public trust;
-- investor behavior;
-- competing projects;
-- market-maker activity where applicable;
-- trading venue policies;
-- product adoption;
-- community activity;
-- public communication;
-- risk perception;
-- market volatility;
-- security events;
-- custody events;
-- DEX or CEX conditions;
-- token-listing visibility;
-- wallet-access friction;
-- stablecoin market conditions.
+- buyer demand
+- seller pressure
+- liquidity depth
+- exchange access
+- token circulation
+- unlock expectations
+- market sentiment
+- broader crypto cycles
+- macro conditions
+- regulation
+- public trust
+- investor behavior
+- competing projects
+- market-maker activity where applicable
+- trading venue policies
+- product adoption
+- community activity
+- public communication
+- risk perception
+- market volatility
+- security events
+- custody events
+- DEX or CEX conditions
+- token-listing visibility
+- wallet-access friction
+- stablecoin market conditions
 
-Even if FUZE executes well, market price can still decline.
+Strong execution can support trust and utility.
 
-Even if market price rises, that does not prove the product model is complete.
+Market price can still decline.
+
+A price increase can occur before a product model is fully mature.
 
 Boundary:
 
-FUZE does not claim that team performance alone determines token price or demand.
+FUZE does not treat team performance, product progress, or public communication as direct control over token price or demand.
 
-### 4.2 Demand Is Not Guaranteed
+### 4.2 Demand Is Not Created by One Factor
 
 Token demand means market interest in acquiring or holding FUZE token.
 
 Demand can come from different sources, such as:
 
-- product-connected utility;
-- ecosystem participation;
-- community belief;
-- governance direction where applicable;
-- game and community utility surfaces;
-- product-to-token utility mapping;
-- long-term alignment expectations;
-- market speculation;
-- liquidity access;
-- investor interest;
-- exchange visibility;
-- wallet-based participation expectations if the framework becomes active;
-- public reporting quality;
-- community participation programs;
-- partner activity;
-- product adoption signals.
+- product-connected utility
+- ecosystem participation
+- community belief
+- governance direction where applicable
+- game and community utility surfaces
+- product-to-token utility mapping
+- long-term alignment expectations
+- market speculation
+- liquidity access
+- investor interest
+- exchange visibility
+- wallet-based participation expectations if the framework becomes active
+- public reporting quality
+- community participation programs
+- partner activity
+- product adoption signals
 
-However, demand is not guaranteed.
+Demand can also weaken because of:
 
-Demand can decrease because of:
-
-- weak product adoption;
-- low liquidity;
-- poor communication;
-- market downturn;
-- regulatory uncertainty;
-- limited exchange access;
-- high volatility;
-- unlock concerns;
-- competing projects;
-- low community trust;
-- negative market sentiment;
-- insufficient utility;
-- technical issues;
-- security incidents;
-- unclear public boundaries;
-- custody limitations;
-- delisting risk;
-- liquidity withdrawal;
-- global risk-off market conditions.
+- weak product adoption
+- low liquidity
+- poor communication
+- market downturn
+- regulatory uncertainty
+- limited exchange access
+- high volatility
+- unlock concerns
+- competing projects
+- low community trust
+- negative market sentiment
+- unclear utility
+- technical issues
+- security incidents
+- custody limitations
+- delisting risk
+- liquidity withdrawal
+- global risk-off market conditions
 
 Boundary:
 
-FUZE token demand may increase or decrease, and FUZE does not guarantee demand.
+FUZE token demand may increase or decrease. FUZE avoids demand guarantees.
 
 ### 4.3 Product Performance and Token Demand
 
@@ -217,29 +212,29 @@ FUZE is product-first.
 
 Product performance can support token demand indirectly by improving:
 
-- product utility;
-- public trust;
-- usage evidence;
-- Platform Credit activity;
-- ecosystem participation;
-- community confidence;
-- product-to-token utility clarity;
-- reporting quality;
-- investor understanding;
-- long-term alignment;
-- partner confidence;
-- revenue potential;
-- product adoption signals.
+- product utility
+- public trust
+- usage evidence
+- Platform Credit activity
+- ecosystem participation
+- community confidence
+- product-to-token utility clarity
+- reporting quality
+- investor understanding
+- long-term alignment
+- partner confidence
+- revenue potential
+- product adoption signals
 
-However, product performance does not guarantee demand.
+However, product performance and token demand are not the same thing.
 
-A product may be useful and still not create strong token demand.
+A product may be useful while token demand remains weak.
 
-A product may generate revenue and still not protect token price.
+A product may generate revenue while token price remains volatile.
 
-A product may grow users and still not guarantee liquidity.
+A product may grow users while market liquidity remains thin.
 
-A product may have community activity and still face market downturns.
+A product may attract community activity while broader markets are falling.
 
 Boundary:
 
@@ -247,28 +242,31 @@ Product performance can support the token story, but it does not guarantee price
 
 ### 4.4 Product Revenue and Market Price
 
-Product revenue is not a price guarantee.
+Product revenue is not a price-control mechanism.
 
 FUZE products may generate revenue from supported products and services where users pay for usage, packages, Platform Credits, reports, modules, services, implementation, managed support, sponsored visibility, or product workflows.
 
-Product revenue, if generated, still requires confirmation, reconciliation, adjustment, deduction, cost review, reserve treatment, accounting review, legal review, treasury control, reporting, and approval before it can be considered in any approved model.
+Product revenue, if generated, still requires:
 
-Product revenue does not automatically become approved distributable value.
+- confirmation
+- reconciliation
+- adjustment
+- deduction
+- cost review
+- reserve treatment
+- accounting review
+- legal review
+- treasury control
+- reporting
+- approval where applicable
 
-Approved distributable value does not automatically exist.
+Product revenue can support platform operations, stablecoin compensation, infrastructure, product expansion, reporting, treasury planning, and ecosystem readiness.
 
-Wallet-based participation ability is not active as a guaranteed public payout right.
+Product revenue requires additional review before any approved distributable value treatment.
 
-FUZE avoids saying:
+Wallet-based participation ability remains activation-gated.
 
-- product revenue protects token price;
-- market price drop does not matter because holders receive share;
-- revenue automatically supports holders;
-- revenue guarantees demand;
-- profit guarantees token value;
-- product income removes market risk;
-- Platform Credit sales automatically support token price;
-- stablecoin revenue automatically creates holder value.
+FUZE avoids messaging that turns revenue into automatic price protection, automatic holder value, automatic demand, or market-risk protection.
 
 Boundary:
 
@@ -280,22 +278,23 @@ Wallet-based participation ability must not be described as protection from mark
 
 Wallet-based participation ability is a possible FUZE token-related framework where eligible FUZE-holding wallets may participate in approved distributable value from defined FUZE product revenue pools if the framework becomes active.
 
-It is:
+It depends on:
 
-- not a second token;
-- not automatic for every wallet;
-- not active as a guaranteed public payout right;
-- not based on gross revenue;
-- not based on token sale proceeds;
-- not based on seed-round funds;
-- not based on game rewards;
-- not based on general treasury balance;
-- dependent on activation gates;
-- dependent on eligibility rules;
-- dependent on approved distributable value;
-- dependent on legal, accounting, treasury, audit, reporting, smart-contract, eligibility, privacy, operator, product-revenue, approved-distributable-value, and jurisdiction readiness.
+- activation gates
+- eligibility rules
+- approved distributable value
+- legal review
+- accounting review
+- treasury review
+- audit readiness
+- reporting readiness
+- smart-contract readiness where applicable
+- privacy controls
+- operator readiness
+- product-revenue readiness
+- jurisdiction readiness
 
-Even if activated, wallet-based participation would not guarantee that market price cannot fall.
+Even if a framework becomes active, token market price can still move up or down.
 
 Boundary:
 
@@ -307,35 +306,27 @@ Controlled circulation supports supply clarity and release discipline.
 
 It can help FUZE explain:
 
-- total supply;
-- circulating supply;
-- locked supply;
-- reserved supply;
-- vested supply;
-- unvested supply;
-- treasury supply;
-- claimable supply;
-- liquidity-related supply;
-- vault movement;
-- release categories;
-- lockups;
-- vesting;
-- migration claims;
-- community participation windows.
+- total supply
+- circulating supply
+- locked supply
+- reserved supply
+- vested supply
+- unvested supply
+- treasury supply
+- claimable supply
+- liquidity-related supply
+- vault movement
+- release categories
+- lockups
+- vesting
+- migration claims
+- community participation windows
 
 Controlled circulation can reduce confusion and improve public reporting.
 
-However, controlled circulation does not guarantee market price, demand, listing, liquidity, trading volume, or exit.
+Market risk remains.
 
-Public readers must not assume:
-
-- controlled circulation means price cannot fall;
-- lockups guarantee price stability;
-- vesting prevents market volatility;
-- vault controls guarantee demand;
-- limited circulation guarantees appreciation;
-- release discipline guarantees liquidity;
-- supply clarity removes market risk.
+Controlled circulation can help readers understand supply status, but it cannot guarantee market price, demand, listing, liquidity, trading volume, or exit.
 
 Boundary:
 
@@ -349,420 +340,342 @@ Vault Access Pricing Mechanism defines pricing controls for selected Public Vaul
 
 It may include:
 
-- approved price policies;
-- signed approved prices;
-- signed reference prices;
-- stablecoin-denominated references;
-- TWAP references where reliable;
-- minimum price floors;
-- premium multipliers where applicable;
-- deviation checks;
-- liquidity thresholds;
-- purchase caps;
-- lockups;
-- proceeds reporting;
-- governance controls;
-- public-safe reporting.
+- approved price policies
+- signed approved prices
+- signed reference prices
+- stablecoin-denominated references
+- TWAP references where reliable
+- minimum price floors
+- premium multipliers where applicable
+- deviation checks
+- liquidity thresholds
+- purchase caps
+- lockups
+- proceeds reporting
+- governance controls
+- public-safe reporting
 
-These controls exist to prevent arbitrary admin-set pricing, hidden discounts, unfair insider access, unclear private access, and confusing token movement.
+These controls help selected access windows avoid arbitrary pricing, hidden discounts, unfair access, unclear private access, and uncontrolled vault movement.
 
-They do not define the public market price of FUZE token.
-
-A minimum price floor is not price protection.
-
-A reference price is not a future price guarantee.
-
-A TWAP reference is not a valuation promise.
-
-A premium multiplier is not appreciation assurance.
-
-A purchase cap is not demand assurance.
-
-A lockup is not price support.
+They do not define the market price of FUZE token.
 
 Boundary:
 
-Vault-access pricing supports access-window discipline, not token valuation or market-price assurance.
+Vault-access pricing is a selected access-window control method, not a market-value guarantee.
 
-## 5. How the System Works
+---
 
-### 5.1 Market Cycles
+## 5. Token, Credits, Stablecoins, and Wallet Relationship
 
-Crypto markets move through cycles.
+Market price and demand boundaries sit around the FUZE token model and remain separate from Platform Credits, stablecoins, product revenue, approved distributable value, and wallet-based participation ability.
 
-Market cycles can affect FUZE token regardless of product progress.
-
-Cycles may include:
-
-- bull markets;
-- bear markets;
-- liquidity expansion;
-- liquidity contraction;
-- high-risk appetite periods;
-- low-risk appetite periods;
-- high-volatility periods;
-- low-volume periods;
-- exchange-led cycles;
-- narrative-led cycles;
-- regulation-led cycles;
-- macro-driven cycles;
-- sector-specific cycles such as AI, gaming, DeFi, SaaS, or Web3 infrastructure.
-
-A strong platform may still face price pressure during weak market cycles.
-
-A weak platform may still experience temporary market attention during speculative cycles.
-
-FUZE does not overclaim either direction.
-
-Boundary:
-
-Market cycles can affect demand and price independently from FUZE execution.
-
-### 5.2 Liquidity and Demand
-
-Liquidity affects demand because users may hesitate to buy or hold a token if they cannot easily enter or exit.
-
-Liquidity may involve:
-
-- DEX pool depth;
-- CEX order book depth;
-- spread;
-- slippage;
-- trading volume;
-- market maker participation where applicable;
-- token pair availability;
-- stablecoin pair availability;
-- market venue reliability;
-- bridge availability where applicable;
-- custody support;
-- deposit and withdrawal support;
-- jurisdiction support;
-- wallet support.
-
-However, liquidity is not guaranteed.
-
-Liquidity can disappear, fragment, decline, move between venues, or become unreliable during volatile conditions.
-
-Boundary:
-
-Liquidity can support market access, but it does not guarantee demand, price, exit, payout, income, yield, profit, or investment return.
-
-### 5.3 Listing and Demand
-
-Listing can improve visibility and access, but listing does not guarantee demand.
-
-A listed token can still have:
-
-- low order book depth;
-- wide spreads;
-- low buyer demand;
-- low seller demand;
-- high volatility;
-- limited deposit support;
-- limited withdrawal support;
-- custody limitations;
-- regional restrictions;
-- market pair changes;
-- delisting risk;
-- temporary trading suspension;
-- low product-driven demand;
-- limited public attention;
-- market-maker dependency.
-
-Listing is a venue-access event.
-
-Demand is market interest.
-
-Liquidity is market depth.
-
-They are related, but not the same.
-
-Boundary:
-
-FUZE does not guarantee that any listing will create trading volume, market demand, price appreciation, exit liquidity, or stable liquidity.
-
-### 5.4 DEX, CEX, and OTC Demand Boundaries
-
-Market demand can appear across DEX, CEX, OTC, private transfers, aggregators, or wallet-to-wallet transfers.
-
-Each channel has different boundaries.
-
-| Channel | Demand Context | Boundary |
+| System | Public Role | Market Price and Demand Relationship |
 |---|---|---|
-| DEX | Open on-chain market access through liquidity pools or aggregators | Does not guarantee depth, execution price, safety, or exit |
-| CEX | Venue-based access through exchange accounts, order books, and custody | Does not guarantee listing approval, deposit support, withdrawal support, liquidity, or account access |
-| OTC | Private or negotiated transfer between parties | Does not guarantee buyer availability, price, settlement, eligibility transfer, or exit |
-| Aggregator | Discovery or routing across liquidity sources | Does not guarantee best execution, safety, or depth |
-| Wallet-to-wallet transfer | Direct transfer between wallets | Does not guarantee market value, eligibility transfer, or buyer demand |
+| FUZE token | Single ecosystem token | Trades or transfers where market access exists; market price and demand remain market-dependent |
+| Platform Credits | Product usage credits | Product usage units, not tradable FUZE token and not investment exposure |
+| Stablecoins | Payment, settlement, treasury, and compensation rails | Payment and treasury assets, not FUZE token price protection |
+| Product revenue | Revenue from FUZE products and services | Can support platform operations and public trust, but does not guarantee token demand |
+| Approved distributable value | Reviewed value from defined product revenue pools where an active framework exists | Separate from token market price and demand |
+| Wallet-based participation ability | Possible activation-gated token-related framework | Separate from market-risk protection |
+| Public Vault Access Windows | Controlled access windows for selected vault-token access where policy allows | Separate from open market price |
+| Liquidity and listing | Market-structure readiness and venue access planning | Support market access but do not guarantee market depth or outcome |
+| AIMM | Market-operations intelligence and reporting support | Supports decision context without guaranteeing liquidity outcome |
+| QTB | Market interpretation and research support | Supports understanding without giving financial advice |
 
-Market access paths can improve transferability, but they do not eliminate market risk.
+This separation keeps public communication clean.
 
-### 5.5 Exchange Custody and Demand
+Products can grow.
 
-Exchange custody can affect user access and market participation.
+Credits can be used.
 
-Exchange custody may make buying and selling easier for some users, but it can also create limitations.
+Stablecoins can support payment.
 
-Possible limitations include:
+Markets can still move unpredictably.
 
-- limited wallet-level proof;
-- exchange account dependency;
-- deposit suspension;
-- withdrawal suspension;
-- regional restrictions;
-- custody risk;
-- exchange operational risk;
-- exchange compliance review;
-- difficulty supporting wallet-based participation;
-- delayed transfers;
-- limited public visibility into individual user balances.
+---
 
-Exchange custody can support convenience, but it does not guarantee wallet-based participation eligibility, token demand, liquidity, payout, income, yield, profit, or investment return.
+## 6. Controls, Gates, and Governance
 
-Boundary:
+Market price and demand communication requires controls.
 
-Exchange-held tokens may require separate treatment if an activated wallet-based participation framework depends on wallet-level records, snapshots, claims, or eligibility checks.
+Important controls include:
 
-### 5.6 AIMM Boundary
+- public language review
+- no price target language
+- no guaranteed return language
+- no listing-promise language
+- no liquidity-promise language
+- no price-support language
+- no buy-pressure language
+- no “before listing” pressure language
+- market integrity controls
+- AIMM boundary controls
+- QTB boundary controls
+- liquidity and listing communication review
+- wallet-based participation boundary review
+- product revenue boundary review
+- vault-access pricing boundary review
+- investor communication review
+- community communication review
+- exchange communication confidentiality
+- legal review where appropriate
+- governance approval for market-sensitive statements where appropriate
 
-AIMM supports liquidity operations intelligence and market-operations workflows.
+### 6.1 Public Language Controls
 
-AIMM can support:
+FUZE public communication should use clear language.
 
-- market monitoring;
-- spread summaries;
-- depth summaries;
-- slippage summaries;
-- liquidity-health summaries;
-- venue comparison notes;
-- exchange communication summaries;
-- market maker communication records;
-- unlock scenario reviews;
-- campaign scenario reviews;
-- volatility scenario reviews;
-- treasury movement scenario reviews;
-- operator-ready alerts;
-- public-safe liquidity updates.
+Better public wording includes:
 
-AIMM does not guarantee liquidity, price support, listing, market outcome, trading volume, trading profit, payout, income, yield, profit, or investment return.
-
-AIMM does not authorize wash trading, spoofing, fake volume, hidden manipulation, price support, deceptive order behavior, or misleading market claims.
-
-Boundary:
-
-AIMM is market-operations intelligence and workflow support, not market outcome control.
-
-### 5.7 QTB Boundary
-
-QTB supports market intelligence and interpretation.
-
-QTB can support:
-
-- market summaries;
-- watchlist intelligence;
-- event interpretation;
-- research reports;
-- alerts;
-- trading journal support;
-- market context;
-- reviewable notes.
-
-QTB does not provide financial advice, guaranteed trading results, autonomous trading execution, investment instructions, price prediction, or profit assurance.
-
-Boundary:
-
-QTB supports interpretation and decision context. It does not guarantee trading profit, market timing, price movement, liquidity, payout, income, yield, or investment return.
-
-### 5.8 Game Utility and Market Demand
-
-ZAGA Arena and ZAGA Districts can support game utility, community activity, identity, roles, progression, events, and token-connected surfaces where product rules allow.
-
-However, game activity does not guarantee token demand.
-
-ZAGA Arena reward/value language is game-mechanic language or controlled utility language, not guaranteed financial earnings, guaranteed payout, guaranteed profit, guaranteed token value, or investment return.
-
-ZAGA Districts city economies, NPCs, treasuries, taxes, defenses, and token/NFT utility are game and community mechanics, not guaranteed financial systems, passive income, profit rights, or investment returns.
-
-Boundary:
-
-Game utility can support engagement, but it does not guarantee token price, demand, liquidity, listing, payout, income, yield, profit, or investment return.
-
-### 5.9 Community Growth and Demand
-
-Community growth can support awareness, engagement, trust, participation, education, and product feedback.
-
-However, community growth does not guarantee token demand.
-
-A large community can still have:
-
-- low buyer demand;
-- low product usage;
-- low liquidity;
-- weak retention;
-- high speculation;
-- low trust;
-- high churn;
-- negative sentiment;
-- poor conversion;
-- low market participation.
-
-FUZE does not guarantee community growth, user growth, or token demand from community activity.
-
-Boundary:
-
-Community activity supports ecosystem development, but it does not guarantee market outcome.
-
-### 5.10 Public Communication and Market Expectations
-
-Public communication can affect market expectations.
-
-FUZE uses disciplined language to avoid unsafe expectations.
-
-| Avoided Communication | FUZE Public Language |
+| Clear Public Language | Purpose |
 |---|---|
-| Token price target | FUZE does not publish token price targets |
-| Price prediction | FUZE does not predict token price |
-| Guaranteed demand | Token demand is not guaranteed |
-| Listing promise | Listing and listing timing are not guaranteed |
-| Liquidity promise | Liquidity and market depth are not guaranteed |
-| Price support | FUZE uses market-structure and risk-boundary language |
-| Revenue protects price | Product revenue does not guarantee price |
-| Product launch means pump | Product launch does not guarantee market outcome |
-| Participation protects holders | Wallet-based participation ability does not remove market risk |
-| AIMM protects price | AIMM supports market-operations intelligence, not price support |
-| QTB guarantees trading profit | QTB supports market interpretation, not financial advice |
-| ZAGA guarantees earnings | ZAGA game mechanics do not guarantee financial earnings |
+| “FUZE is product-first.” | Frames the ecosystem through usage, products, and rails |
+| “Market price is market-dependent.” | Clarifies market uncertainty |
+| “Liquidity planning supports market-structure readiness.” | Explains planning without guarantee |
+| “DEX-first is a market access direction.” | Explains direction without liquidity assurance |
+| “CEX expansion may be explored later where appropriate.” | Explains possible path without listing promise |
+| “AIMM supports market-operations intelligence.” | Defines AIMM as support, not outcome guarantee |
+| “QTB supports market interpretation.” | Defines QTB as analysis, not financial advice |
+| “Controlled circulation improves supply clarity.” | Explains supply discipline without price assurance |
+| “Vault-access pricing controls selected access windows.” | Separates access pricing from market price |
 
-Public communication should explain utility, product progress, risk, readiness, boundaries, and reporting without promising returns.
+Unsafe language includes:
 
-## 6. Public Boundary
+- guaranteed price
+- guaranteed listing
+- guaranteed liquidity
+- guaranteed volume
+- guaranteed return
+- guaranteed income
+- price target
+- token price prediction
+- listing soon
+- buy before listing
+- market maker protects price
+- price floor in market
+- guaranteed exit
+- product revenue protects token price
+- every holder earns from product revenue
+- no downside because of participation
+- risk-free token exposure
 
-Market price and demand boundary is a public expectation framework.
+### 6.2 Product Communication Controls
 
-It is not:
+Product communication can explain product value.
 
-- token valuation;
-- token price prediction;
-- price target;
-- price-support system;
-- price-protection system;
-- market-support system;
-- guaranteed demand model;
-- guaranteed listing model;
-- guaranteed liquidity model;
-- guaranteed trading-volume model;
-- guaranteed exit model;
-- guaranteed payout model;
-- dividend system;
-- yield system;
-- passive-income system;
-- investment-return model;
-- financial advice;
-- trading advice;
-- public investment offer;
-- public solicitation.
+It should avoid turning product progress into market guarantees.
 
-FUZE does not guarantee:
+Allowed product framing includes:
 
-- token price;
-- token appreciation;
-- price stability;
-- price recovery;
-- token demand;
-- buyer demand;
-- seller demand;
-- trading volume;
-- market depth;
-- listing;
-- listing timing;
-- exchange approval;
-- exchange access;
-- liquidity;
-- market support;
-- market-making result;
-- exit liquidity;
-- OTC buyer availability;
-- payout;
-- income;
-- dividend;
-- yield;
-- profit;
-- game earnings;
-- product revenue;
-- business revenue;
-- user growth;
-- community growth;
-- approved distributable value;
-- wallet eligibility;
-- claim availability;
-- acquisition;
-- investment return.
+- HerHelp supports practical AI SaaS workflows.
+- ZAGA supports game and token-utility surfaces.
+- ShopOS AI supports small shop operating workflows.
+- SheetLayer AI supports spreadsheet and business data workflows.
+- CommunityLayer AI supports community operations.
+- QTB supports market interpretation.
+- AIMM supports market-operations workflow.
+- AIE supports event intelligence.
+- ToolGrid AI supports sponsored utility discovery.
+- Botmad supports supervised AI work assistance.
 
-Product progress does not guarantee price.
+Product success should be discussed as product progress, not token price assurance.
 
-Product revenue does not protect price.
+### 6.3 Market Integrity Controls
 
-Controlled circulation does not guarantee price stability.
+FUZE market communication and operations should avoid:
 
-Vault-access pricing does not define market value.
+- fake volume
+- wash trading
+- spoofing
+- misleading exchange claims
+- false listing statements
+- artificial demand messaging
+- undisclosed promotional market claims
+- price-support promises
+- guaranteed market-making results
+- guaranteed exit language
+- liquidity assurance language
+- public pressure to buy before a listing
+- suggesting internal information guarantees market outcome
 
-Listing preparation does not guarantee listing.
+Market integrity protects community trust and reduces unnecessary public risk.
 
-Liquidity planning does not guarantee liquidity.
-
-Wallet-based participation ability does not remove market risk.
-
-AIMM does not protect price.
-
-QTB does not provide financial advice.
-
-ZAGA game activity does not guarantee financial earnings.
+---
 
 ## 7. Reporting and Transparency Direction
 
-FUZE may report market price and demand boundaries through public-safe records where product, legal, accounting, technical, privacy, treasury, custody, and operational readiness allow.
+Market price and demand boundaries can support public-safe reporting.
 
-Reporting direction may include:
+Reporting can include:
 
-| Reporting Area | Public Role |
-|---|---|
-| Product progress reports | Shows product delivery and usage context without price promises |
-| Platform Credit activity reports | Shows product usage credit activity without token demand promises |
-| Token utility reports | Shows product-connected utility surfaces without market outcome guarantees |
-| Circulation reports | Shows total supply, circulating supply, locked supply, reserved supply, and release status |
-| Liquidity reports | Shows market-structure categories without liquidity guarantees |
-| Listing readiness reports | Shows readiness categories without listing assurance |
-| Vault-access pricing reports | Shows access-window pricing method without price prediction |
-| AIMM reports | Shows market-operations intelligence and liquidity context without market-outcome guarantees |
-| QTB reports | Shows market interpretation context without financial advice |
-| Community reports | Shows participation activity without user growth or demand guarantees |
-| Risk boundary disclosures | Shows no price, listing, liquidity, payout, income, yield, profit, or market-outcome guarantee |
+- product progress reports
+- Platform Credit usage summaries
+- token utility roadmap status
+- controlled circulation reports
+- release and vesting status
+- liquidity-related allocation status
+- market-access readiness status
+- DEX readiness updates
+- CEX readiness category updates where public-safe
+- AIMM market-operations report categories
+- QTB market interpretation report categories
+- vault-access pricing status
+- public vault access window status
+- wallet-based participation activation status
+- public market boundary reminders
+- report hashes where appropriate
 
-Transparency does not create unrestricted access to treasury operations, private company records, exchange discussions, market maker agreements, private investor terms, customer data, user data, contributor data, private legal analysis, private accounting records, personal identity records, private verification records, contractor agreements, payroll records, tax records, security procedures, venue negotiations, or confidential operational records.
+Reporting should distinguish:
 
-Public reporting can explain product progress, utility, market context, and risk boundaries while protecting private operational details and avoiding market-outcome promises.
+- product progress from token price
+- product revenue from token demand
+- liquidity planning from liquidity guarantee
+- listing readiness from listing confirmation
+- vault-access pricing from market valuation
+- controlled circulation from price stability
+- wallet-based participation from market-risk protection
+- AIMM support from market-making result
+- QTB interpretation from financial advice
 
-## 8. Conclusion
+Reporting supports transparency.
 
-FUZE Market Price and Demand Boundary defines how FUZE explains token price, demand, product performance, product revenue, market cycles, liquidity, exchange access, controlled circulation, vault-access pricing, wallet-based participation, AIMM, QTB, and public expectations.
+It does not create financial assurance.
 
-FUZE is product-first.
+---
 
-Product usage comes first. Platform rails come second. Broader ecosystem participation comes after that.
+## 8. Market, Legal, or Operational Context
 
-A stronger FUZE product ecosystem can support utility, public trust, usage evidence, community confidence, and long-term alignment, but it does not guarantee market price, token demand, liquidity, listing, trading volume, payout, income, yield, profit, exit, or investment return.
+### 8.1 Relationship to Liquidity and Listing Policy
 
-FUZE uses this boundary paper to keep public communication clear:
+Liquidity and Listing Policy explains market access, liquidity planning, DEX-first direction, possible later CEX expansion, AIMM support, QTB support, and market communication boundaries.
 
-- product progress is not price assurance;
-- product revenue is not price protection;
-- controlled circulation is not price support;
-- vault-access pricing is not valuation;
-- liquidity planning is not liquidity guarantee;
-- listing readiness is not listing assurance;
-- wallet-based participation ability is not market-risk protection;
-- AIMM is not price support;
-- QTB is not financial advice;
-- ZAGA game utility is not guaranteed financial earnings.
+This paper focuses on market price and demand boundaries.
 
-This boundary protects public trust by separating product-first execution from market outcome claims.
+Together, the two papers clarify that FUZE can work on market structure while avoiding market-result promises.
+
+### 8.2 Relationship to Vault Access Pricing Mechanism
+
+Vault Access Pricing Mechanism prices selected Public Vault Access Windows where final policy allows.
+
+That mechanism can use approved price policies, minimum floors, TWAP references, premium multipliers, caps, lockups, and reporting.
+
+Those are access-window controls.
+
+They do not define open-market value.
+
+### 8.3 Relationship to Wallet-Based Participation Ability
+
+Wallet-based participation ability is a possible activation-gated framework.
+
+It should not be positioned as protection from market price decline.
+
+Eligibility, approved distributable value, activation gates, legal review, accounting review, treasury review, reporting readiness, smart-contract readiness, privacy controls, product-revenue readiness, and jurisdiction readiness all matter.
+
+Market risk remains.
+
+### 8.4 Relationship to Product Revenue
+
+Product revenue can strengthen FUZE operations, product development, stablecoin compensation, treasury planning, reporting, and ecosystem credibility.
+
+Product revenue must still pass confirmation, reconciliation, deductions, reserves, review, and approval before any approved distributable value treatment.
+
+Product revenue and token market price are different categories.
+
+### 8.5 Relationship to ZAGA Game Language
+
+ZAGA Arena may use game language such as USDT, Token Value, Net Worth, bosses, drops, runs, leaderboards, share cards, and tournaments.
+
+ZAGA Districts may use city treasuries, taxes, NPC salaries, defenses, utility assets, and community economy mechanics.
+
+These are game mechanics or controlled utility surfaces.
+
+They should not be described as guaranteed financial earnings, passive income, payout systems, or token-price drivers.
+
+### 8.6 Relationship to QTB and AIMM
+
+QTB and AIMM can help users and operators understand markets more clearly.
+
+QTB supports market interpretation and research.
+
+AIMM supports market-operations intelligence and workflow support.
+
+Neither product should be positioned as a guarantee of market performance, liquidity, price support, or trading result.
+
+### 8.7 Market Boundary
+
+Market price and demand are affected by many external forces.
+
+FUZE can build products, rails, reporting, token utility, and responsible market-readiness systems.
+
+Market outcomes remain uncertain.
+
+FUZE token does not guarantee:
+
+- token demand
+- token price
+- exchange listing
+- liquidity
+- trading volume
+- market-making result
+- price support
+- resale availability
+- exit opportunity
+- investment return
+
+---
+
+## 9. Risk and Disclosure Reference
+
+Important public boundaries include:
+
+- FUZE token market price is market-dependent.
+- FUZE token demand may increase or decrease.
+- Product performance can support trust and utility but does not guarantee market outcome.
+- Product revenue can support platform strength but does not guarantee token price or demand.
+- Wallet-based participation ability remains activation-gated and does not remove market risk.
+- Controlled circulation improves supply clarity and does not guarantee price stability.
+- Vault-access pricing controls selected access windows and does not define market price.
+- Liquidity and listing planning supports market-structure readiness and does not guarantee liquidity, listing, trading volume, market depth, exit, or price.
+- AIMM supports market-operations intelligence without guaranteeing liquidity or market outcome.
+- QTB supports market interpretation without providing financial advice or trading instructions.
+- Platform Credits are product usage credits and remain separate from FUZE token.
+- Stablecoins are payment, settlement, treasury, and compensation rails.
+- FUZE token does not guarantee payout, income, yield, profit, token price, token demand, listing, liquidity, market support, trading volume, exit, game earnings, business revenue, user growth, community growth, approved distributable value, wallet eligibility, claim availability, or investment return.
+
+More detailed boundaries are handled in dedicated papers, including:
+
+- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/07-FUZE_WALLET_BASED_PARTICIPATION_MODEL_PUBLIC.md`
+- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/08-FUZE_PARTICIPATION_ACTIVATION_GATES_PUBLIC.md`
+- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/09-FUZE_APPROVED_DISTRIBUTABLE_VALUE_MODEL_PUBLIC.md`
+- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/12-FUZE_CONTROLLED_CIRCULATION_POLICY_PUBLIC.md`
+- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/18-FUZE_VAULT_ACCESS_PRICING_MECHANISM_PUBLIC.md`
+- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/21-FUZE_LIQUIDITY_AND_LISTING_POLICY_PUBLIC.md`
+- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/27-FUZE_EXCHANGE_CUSTODY_AND_WALLET_PARTICIPATION_PUBLIC.md`
+- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/28-FUZE_LEGAL_AND_COMPLIANCE_MESSAGING_PUBLIC.md`
+- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/29-FUZE_TOKEN_RISK_BOUNDARIES_PUBLIC.md`
+- `AI-SAAS-PRODUCT-PAPERS/09-ZAGA_ARENA_PUBLIC.md`
+- `AI-SAAS-PRODUCT-PAPERS/10-ZAGA_DISTRICTS_PUBLIC.md`
+- `AI-SAAS-PRODUCT-PAPERS/11-QTB_PUBLIC.md`
+- `AI-SAAS-PRODUCT-PAPERS/12-AIMM_PUBLIC.md`
+
+This paper focuses on market price and demand boundaries while deeper wallet, participation, approved value, circulation, liquidity, custody, legal, QTB, AIMM, and product risk topics remain in dedicated papers.
+
+---
+
+## 10. Key Takeaways
+
+- FUZE Market Price and Demand Boundary explains how FUZE communicates token price, demand, market expectations, product progress, product revenue, liquidity, exchange access, and market-risk limits.
+- FUZE uses one ecosystem token: FUZE token.
+- FUZE is product-first, but product progress does not guarantee token market outcome.
+- Token market price may move independently from product performance.
+- Token demand may increase or decrease based on many market, product, liquidity, regulatory, and community factors.
+- Product revenue can support platform strength but does not guarantee token price or demand.
+- Wallet-based participation ability remains activation-gated and does not remove market risk.
+- Controlled circulation improves supply clarity but does not guarantee price stability.
+- Vault-access pricing controls selected Public Vault Access Windows and does not define open-market value.
+- Liquidity and listing planning supports market-structure readiness without guaranteeing listing, liquidity, trading volume, market depth, or exit.
+- AIMM supports market-operations intelligence without guaranteeing liquidity or market outcomes.
+- QTB supports market interpretation without providing financial advice or trading instructions.
+- Platform Credits are product usage credits.
+- Stablecoins are payment, settlement, treasury, and compensation rails.
+- FUZE public communication avoids price targets, return promises, listing promises, liquidity promises, buy-pressure language, market-support claims, and unsupported market-performance claims.

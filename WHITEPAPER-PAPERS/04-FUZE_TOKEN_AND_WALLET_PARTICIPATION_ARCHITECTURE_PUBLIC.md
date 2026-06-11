@@ -242,18 +242,18 @@ The model depends on shared platform rails, product records, payment records, wa
 
 | Layer | Public Role |
 |---|---|
-| FUZE Token Layer | Defines the single ecosystem token and token allocation structure. |
-| Platform Credit Layer | Supports product usage credits and product consumption. |
-| Payment and Stablecoin Layer | Supports payments, settlement, treasury classification, and compensation rails. |
-| Product Revenue Layer | Records product revenue sources and reconciliation inputs. |
-| Approved Value Layer | Records reviewed approved distributable value status where applicable. |
-| Wallet Record Layer | Supports wallet addresses, eligibility status, snapshot status, and claim status where applicable. |
-| Vault Layer | Supports allocation vaults, release records, and controlled circulation. |
-| Smart-Contract Layer | Supports token contracts, vault contracts, registries, snapshots, claim modules, distribution modules, and control modules where applicable. |
-| Reporting Layer | Supports report hashes, public-safe summaries, correction records, and status terms. |
-| Governance Control Layer | Supports multisig, timelock, approval workflows, emergency pause, and evidence records. |
-| Privacy Layer | Keeps private identity, verification, customer, investor, contributor, legal, tax, accounting, treasury, and security records protected. |
-| Market Access Layer | Supports verified-contract communication, DEX route status, custody treatment, and CEX-later review boundaries. |
+| FUZE Token Layer | Defines the single ecosystem token and token allocation structure |
+| Platform Credit Layer | Supports product usage credits and product consumption |
+| Payment and Stablecoin Layer | Supports payments, settlement, treasury classification, and compensation rails |
+| Product Revenue Layer | Records product revenue sources and reconciliation inputs |
+| Approved Value Layer | Records reviewed approved distributable value status where applicable |
+| Wallet Record Layer | Supports wallet addresses, eligibility status, snapshot status, and claim status where applicable |
+| Vault Layer | Supports allocation vaults, release records, and controlled circulation |
+| Smart-Contract Layer | Supports token contracts, vault contracts, registries, snapshots, claim modules, distribution modules, and control modules where applicable |
+| Reporting Layer | Supports report hashes, public-safe summaries, correction records, and status terms |
+| Governance Control Layer | Supports multisig, timelock, approval workflows, emergency pause, and evidence records |
+| Privacy Layer | Keeps private identity, verification, customer, investor, contributor, legal, tax, accounting, treasury, and security records protected |
+| Market Access Layer | Supports verified-contract communication, DEX route status, custody treatment, and CEX-later review boundaries |
 
 ### 4.2 Architecture Purpose
 
@@ -530,18 +530,18 @@ The wallet-based participation architecture may include:
 
 | Component | Role |
 |---|---|
-| Eligible FUZE-Holding Wallet Rules | Define which wallets may qualify if the framework becomes active. |
-| Ineligible Wallet Rules | Define wallets that do not qualify under active rules. |
-| Restricted Wallet Rules | Define wallets limited by legal, jurisdiction, custody, compliance, abuse, fraud, Sybil, bot, manipulation, or operator review. |
-| Snapshot Records | Record wallet status at a defined time or event where applicable. |
-| Product Revenue Pool Records | Define product revenue sources that may be reviewed where applicable. |
-| Revenue Reconciliation Records | Confirm, classify, adjust, reserve, and review product revenue. |
-| Approved Distributable Value Records | Record approved value status after required reviews. |
-| Claim Module | Supports eligible-wallet claims if activated. |
-| Distribution Module | Supports approved participation distributions if activated. |
-| Report Hash Records | Support public-safe report integrity and version references. |
-| Privacy Records | Keep personal identity and private verification off-chain where required. |
-| Governance Controls | Support approvals, multisig, timelock, emergency pause, and corrections. |
+| Eligible FUZE-Holding Wallet Rules | Define which wallets may qualify if the framework becomes active |
+| Ineligible Wallet Rules | Define wallets that do not qualify under active rules |
+| Restricted Wallet Rules | Define wallets limited by legal, jurisdiction, custody, compliance, abuse, fraud, Sybil, bot, manipulation, or operator review |
+| Snapshot Records | Record wallet status at a defined time or event where applicable |
+| Product Revenue Pool Records | Define product revenue sources that may be reviewed where applicable |
+| Revenue Reconciliation Records | Confirm, classify, adjust, reserve, and review product revenue |
+| Approved Distributable Value Records | Record approved value status after required reviews |
+| Claim Module | Supports eligible-wallet claims if activated |
+| Distribution Module | Supports approved participation distributions if activated |
+| Report Hash Records | Support public-safe report integrity and version references |
+| Privacy Records | Keep personal identity and private verification off-chain where required |
+| Governance Controls | Support approvals, multisig, timelock, emergency pause, and corrections |
 
 ### 8.2 Eligibility
 
@@ -609,24 +609,24 @@ Required gates may include:
 
 | Gate | Purpose |
 |---|---|
-| Legal Gate | Reviews token language, claim design, distribution design, jurisdiction restrictions, and public communication. |
-| Accounting Gate | Reviews revenue recognition, Platform Credit treatment, stablecoin classification, reserves, liabilities, and approved value calculation. |
-| Tax Gate | Reviews tax treatment where required. |
-| Treasury Gate | Reviews treasury separation, stablecoin handling, reserves, payment controls, vault controls, and approved value handling. |
-| Audit or Verification Gate | Reviews contract, process, evidence, attestation, and reporting scope where required. |
-| Reporting Gate | Reviews public-safe reports, report hashes, status terms, corrections, and restatements. |
-| Smart-Contract Gate | Reviews contract design, deployment, claim modules, distribution modules, pause controls, and upgrade controls. |
-| Privacy Gate | Protects identity, private verification, customer, investor, contributor, legal, tax, accounting, treasury, and security records. |
-| Eligibility Gate | Reviews eligible wallets, excluded wallets, restricted wallets, snapshots, custody treatment, and claim status. |
-| Operator Gate | Reviews roles, support, dispute handling, error correction, and emergency response. |
-| Jurisdiction Gate | Reviews supported, restricted, blocked, and verification-required regions. |
-| Product Revenue Pool Gate | Reviews included and excluded product revenue pools. |
-| Approved Distributable Value Gate | Reviews final approved value after reconciliation, reserves, and approvals. |
-| Market Access Gate | Reviews DEX-first and CEX-later communication boundaries. |
-| Custody Gate | Reviews self-custody, exchange custody, treasury wallets, vault wallets, and liquidity operations wallets. |
-| AI Review Gate | Reviews AI support scope, data access, and human review where applicable. |
-| Community Audit Gate | Reviews public-safe transparency and community feedback handling where applicable. |
-| Public Language Gate | Reviews no-guarantee language and avoids unsafe public claims. |
+| Legal Gate | Reviews token language, claim design, distribution design, jurisdiction restrictions, and public communication |
+| Accounting Gate | Reviews revenue recognition, Platform Credit treatment, stablecoin classification, reserves, liabilities, and approved value calculation |
+| Tax Gate | Reviews tax treatment where required |
+| Treasury Gate | Reviews treasury separation, stablecoin handling, reserves, payment controls, vault controls, and approved value handling |
+| Audit or Verification Gate | Reviews contract, process, evidence, attestation, and reporting scope where required |
+| Reporting Gate | Reviews public-safe reports, report hashes, status terms, corrections, and restatements |
+| Smart-Contract Gate | Reviews contract design, deployment, claim modules, distribution modules, pause controls, and upgrade controls |
+| Privacy Gate | Protects identity, private verification, customer, investor, contributor, legal, tax, accounting, treasury, and security records |
+| Eligibility Gate | Reviews eligible wallets, excluded wallets, restricted wallets, snapshots, custody treatment, and claim status |
+| Operator Gate | Reviews roles, support, dispute handling, error correction, and emergency response |
+| Jurisdiction Gate | Reviews supported, restricted, blocked, and verification-required regions |
+| Product Revenue Pool Gate | Reviews included and excluded product revenue pools |
+| Approved Distributable Value Gate | Reviews final approved value after reconciliation, reserves, and approvals |
+| Market Access Gate | Reviews DEX-first and CEX-later communication boundaries |
+| Custody Gate | Reviews self-custody, exchange custody, treasury wallets, vault wallets, and liquidity operations wallets |
+| AI Review Gate | Reviews AI support scope, data access, and human review where applicable |
+| Community Audit Gate | Reviews public-safe transparency and community feedback handling where applicable |
+| Public Language Gate | Reviews no-guarantee language and avoids unsafe public claims |
 
 No single gate is enough.
 
@@ -642,17 +642,17 @@ Possible on-chain components may include:
 
 | Component | Role |
 |---|---|
-| FUZE Token Contract | Defines FUZE token where deployed. |
-| Allocation Vaults | Hold purpose-specific token allocation categories. |
-| Public Vault Records | Show token allocation, release, or movement records where appropriate. |
-| Report Hash Registry | Stores report hashes or public references where appropriate. |
-| Snapshot Module | Stores or references wallet snapshot records where appropriate. |
-| Eligibility Status Records | Stores public-safe wallet status where appropriate. |
-| Participation Claim Module | Supports eligible-wallet claims if active and approved. |
-| Distribution Module | Supports approved participation distributions if active and approved. |
-| Multisig Contract | Supports multi-party approval for sensitive actions. |
-| Timelock Contract | Adds delay to sensitive actions where appropriate. |
-| Emergency Pause Controls | Supports temporary pause where applicable. |
+| FUZE Token Contract | Defines FUZE token where deployed |
+| Allocation Vaults | Hold purpose-specific token allocation categories |
+| Public Vault Records | Show token allocation, release, or movement records where appropriate |
+| Report Hash Registry | Stores report hashes or public references where appropriate |
+| Snapshot Module | Stores or references wallet snapshot records where appropriate |
+| Eligibility Status Records | Stores public-safe wallet status where appropriate |
+| Participation Claim Module | Supports eligible-wallet claims if active and approved |
+| Distribution Module | Supports approved participation distributions if active and approved |
+| Multisig Contract | Supports multi-party approval for sensitive actions |
+| Timelock Contract | Adds delay to sensitive actions where appropriate |
+| Emergency Pause Controls | Supports temporary pause where applicable |
 
 On-chain records are public by design.
 
@@ -664,18 +664,18 @@ Off-chain components may include:
 
 | Component | Role |
 |---|---|
-| Product Systems | Store product workflows, usage records, reports, and user actions. |
-| Platform Credit Ledger | Tracks credit purchases, usage, refunds, bonuses, expiration, and liability treatment. |
-| Payment Records | Track invoices, receipts, refunds, disputes, settlements, and payment status. |
-| Stablecoin Classification Records | Classify stablecoin payments, treasury movements, compensation, reserves, and settlement. |
-| Revenue Reconciliation System | Supports product revenue review, exclusions, reserves, adjustments, and approved value review. |
-| Private Verification System | Stores permissioned identity, jurisdiction, custody, compliance, or agreement verification where required. |
-| Legal and Tax Records | Store private review records. |
-| Accounting Workpapers | Store private reconciliation and reporting records. |
-| Treasury Records | Store private treasury classification, reserve, and approval records. |
-| Investor Data Room | Stores private investor materials, permissions, and review records where required. |
-| Support and Appeal Records | Store claim support, eligibility disputes, corrections, and appeals. |
-| AI Review Records | Store AI-assisted review outputs, human review status, and evidence where appropriate. |
+| Product Systems | Store product workflows, usage records, reports, and user actions |
+| Platform Credit Ledger | Tracks credit purchases, usage, refunds, bonuses, expiration, and liability treatment |
+| Payment Records | Track invoices, receipts, refunds, disputes, settlements, and payment status |
+| Stablecoin Classification Records | Classify stablecoin payments, treasury movements, compensation, reserves, and settlement |
+| Revenue Reconciliation System | Supports product revenue review, exclusions, reserves, adjustments, and approved value review |
+| Private Verification System | Stores permissioned identity, jurisdiction, custody, compliance, or agreement verification where required |
+| Legal and Tax Records | Store private review records |
+| Accounting Workpapers | Store private reconciliation and reporting records |
+| Treasury Records | Store private treasury classification, reserve, and approval records |
+| Investor Data Room | Stores private investor materials, permissions, and review records where required |
+| Support and Appeal Records | Store claim support, eligibility disputes, corrections, and appeals |
+| AI Review Records | Store AI-assisted review outputs, human review status, and evidence where appropriate |
 
 Off-chain records support operation and review.
 
@@ -687,13 +687,13 @@ Hybrid components use public references and private source records.
 
 | Hybrid Component | Public Side | Private Side |
 |---|---|---|
-| Report Hash | Public hash or version reference. | Source report, review notes, private data. |
-| Public Vault Summary | Vault label, wallet address, and status. | Treasury procedures, control notes, signer details where sensitive. |
-| Eligibility Status | Public-safe status where approved. | Private verification and review records. |
-| Snapshot Summary | Public-safe snapshot reference where approved. | Private correction and verification records. |
-| Approved Value Status | Public-safe status where approved. | Accounting, legal, tax, treasury, reserve, and review details. |
-| Claim Status | Public-safe claim state where active. | Private support, dispute, or verification records. |
-| Market Access Status | Verified contract and route status where approved. | Private exchange discussions and liquidity planning records. |
+| Report Hash | Public hash or version reference | Source report, review notes, private data |
+| Public Vault Summary | Vault label, wallet address, and status | Treasury procedures, control notes, signer details where sensitive |
+| Eligibility Status | Public-safe status where approved | Private verification and review records |
+| Snapshot Summary | Public-safe snapshot reference where approved | Private correction and verification records |
+| Approved Value Status | Public-safe status where approved | Accounting, legal, tax, treasury, reserve, and review details |
+| Claim Status | Public-safe claim state where active | Private support, dispute, or verification records |
+| Market Access Status | Verified contract and route status where approved | Private exchange discussions and liquidity planning records |
 
 Hybrid systems allow transparency without exposing private records.
 
@@ -703,17 +703,17 @@ FUZE may use status terms to avoid confusion.
 
 | Status | Meaning |
 |---|---|
-| Not Active | The component or framework is not active. |
-| In Review | The component is under review. |
-| Testnet Deployed | The component exists in a test environment only. |
-| Mainnet Deployed | The component exists in production but may still be inactive. |
-| Verified | The contract or record is verified where applicable. |
-| Inactive | The module exists but does not perform active participation functions. |
-| Limited Active | The module is active only for limited approved use. |
-| Active | The module is active under approved rules. |
-| Paused | The module is temporarily disabled for review or incident response. |
-| Corrected | The record or status has been corrected. |
-| Restricted | The wallet, action, jurisdiction, route, or process is restricted under active rules. |
+| Not Active | The component or framework is not active |
+| In Review | The component is under review |
+| Testnet Deployed | The component exists in a test environment only |
+| Mainnet Deployed | The component exists in production but may still be inactive |
+| Verified | The contract or record is verified where applicable |
+| Inactive | The module exists but does not perform active participation functions |
+| Limited Active | The module is active only for limited approved use |
+| Active | The module is active under approved rules |
+| Paused | The module is temporarily disabled for review or incident response |
+| Corrected | The record or status has been corrected |
+| Restricted | The wallet, action, jurisdiction, route, or process is restricted under active rules |
 
 Status terms must separate deployment from activation.
 

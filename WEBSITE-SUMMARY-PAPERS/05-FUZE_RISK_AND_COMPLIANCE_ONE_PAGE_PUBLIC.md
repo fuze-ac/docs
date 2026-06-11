@@ -8,7 +8,7 @@ FUZE is a transparency-first AI SaaS platform building practical products on sha
 
 FUZE follows a product-first execution model. Product usage comes first, shared platform rails come second, and broader ecosystem participation comes after that.
 
-FUZE uses one token only: FUZE token.
+FUZE uses one token only: **FUZE token**.
 
 FUZE token is the single ecosystem token of FUZE. It supports product-connected utility, ecosystem participation, platform alignment, governance direction where applicable, and wallet-based participation ability.
 
@@ -82,16 +82,16 @@ FUZE uses a public risk and compliance framework that separates major concepts c
 
 | Area | FUZE Public Treatment |
 |---|---|
-| Products | Practical tools with specific use cases and product-specific limitations. |
-| AI | Workflow support with human review, permission controls, and output-risk boundaries. |
-| Platform Credits | Product usage credits, separate from FUZE token and not investment rights. |
-| Stablecoins | Payment, settlement, treasury, and compensation rails. |
-| FUZE Token | Single ecosystem token for utility, alignment, participation direction, and wallet-based participation ability where applicable. |
-| Wallet-Based Participation | Activation-gated ability, not a second token and not active as a guaranteed public payout right. |
-| Public Vaults | Transparency tools, not public treasury control or claimable payout pools. |
-| Controlled Circulation | Token supply discipline, not price control or liquidity guarantee. |
-| Market Access | DEX-first direction, CEX-later possibility, no guaranteed liquidity or listing. |
-| Public Reporting | Transparency and accountability, not full audit approval or guaranteed outcome. |
+| Products | Practical tools with specific use cases and product-specific limitations |
+| AI | Workflow support with human review, permission controls, and output-risk boundaries |
+| Platform Credits | Product usage credits, separate from FUZE token and not investment rights |
+| Stablecoins | Payment, settlement, treasury, and compensation rails |
+| FUZE Token | Single ecosystem token for utility, alignment, participation direction, and wallet-based participation ability where applicable |
+| Wallet-Based Participation | Activation-gated ability, not a second token and not active as a guaranteed public payout right |
+| Public Vaults | Transparency tools, not public treasury control or claimable payout pools |
+| Controlled Circulation | Token supply discipline, not price control or liquidity guarantee |
+| Market Access | DEX-first direction, CEX-later possibility, no guaranteed liquidity or listing |
+| Public Reporting | Transparency and accountability, not full audit approval or guaranteed outcome |
 
 The FUZE solution is to make each public claim specific, bounded, and understandable.
 
@@ -101,20 +101,20 @@ FUZE risk and compliance applies across the full product ecosystem.
 
 | Product | Risk and Compliance Boundary |
 |---|---|
-| HerHelp | Practical AI SaaS suite; does not guarantee business revenue, customer growth, or perfect AI output. |
-| SheetLayer AI | Spreadsheet and business data layer; does not guarantee accounting, tax, formula, or business decision accuracy. |
-| ShopOS AI | Shop operating system; does not guarantee shop revenue, customer growth, payment success, or operational result. |
-| SpeakShop AI | Promotional voice scripts and announcements; does not guarantee campaign performance or sales conversion. |
-| TrainLayer AI | Training materials and quizzes; does not guarantee learning outcome, staff performance, or compliance readiness. |
-| CommunityLayer AI | Moderation, safety, verification, support, reporting, and summaries; does not guarantee perfect moderation or community growth. |
-| ZAGA | Game and token-utility ecosystem; game values are game/community mechanics, not guaranteed financial earnings. |
-| ZAGA Arena | Fast battle arena game; USDT, Token Value, and Net Worth language are game mechanics. |
-| ZAGA Districts | Telegram-native cyberpunk MMORPG; city economies and NPC mechanics are game/community mechanics. |
-| QTB | AI trading intelligence and market interpretation support; not financial advice or autonomous investment execution. |
-| AIMM | AI market-making and liquidity operations support; does not guarantee liquidity, price support, listing performance, trading profit, or market outcome. |
-| AIE | Event intelligence support; does not guarantee attendance, sponsor results, campaign success, or revenue. |
-| ToolGrid AI | AI utility network with sponsored visibility; does not guarantee ranking, clicks, conversions, sales, or user acquisition. |
-| Botmad | AI Desktop Employee under permission controls; does not guarantee perfect output, productivity improvement, or error-free work. |
+| HerHelp | Practical AI SaaS suite; does not guarantee business revenue, customer growth, or perfect AI output |
+| SheetLayer AI | Spreadsheet and business data layer; does not guarantee accounting, tax, formula, or business decision accuracy |
+| ShopOS AI | Shop operating system; does not guarantee shop revenue, customer growth, payment success, or operational result |
+| SpeakShop AI | Promotional voice scripts and announcements; does not guarantee campaign performance or sales conversion |
+| TrainLayer AI | Training materials and quizzes; does not guarantee learning outcome, staff performance, or compliance readiness |
+| CommunityLayer AI | Moderation, safety, verification, support, reporting, and summaries; does not guarantee perfect moderation or community growth |
+| ZAGA | Game and token-utility ecosystem; game values are game/community mechanics, not guaranteed financial earnings |
+| ZAGA Arena | Fast battle arena game; USDT, Token Value, and Net Worth language are game mechanics |
+| ZAGA Districts | Telegram-native cyberpunk MMORPG; city economies and NPC mechanics are game/community mechanics |
+| QTB | AI trading intelligence and market interpretation support; not financial advice or autonomous investment execution |
+| AIMM | AI market-making and liquidity operations support; does not guarantee liquidity, price support, listing performance, trading profit, or market outcome |
+| AIE | Event intelligence support; does not guarantee attendance, sponsor results, campaign success, or revenue |
+| ToolGrid AI | AI utility network with sponsored visibility; does not guarantee ranking, clicks, conversions, sales, or user acquisition |
+| Botmad | AI Desktop Employee under permission controls; does not guarantee perfect output, productivity improvement, or error-free work |
 
 ZAGA Arena and ZAGA Districts are separate products under the ZAGA ecosystem. ZAGA Districts is not a mode inside ZAGA Arena.
 
@@ -182,18 +182,18 @@ Required gates may include:
 
 | Gate | Public Meaning |
 |---|---|
-| Legal Gate | Legal treatment and jurisdiction boundaries are reviewed. |
-| Accounting Gate | Revenue, cost, reserve, and approved value treatment are reviewed. |
-| Treasury Gate | Treasury separation and fund classification are ready. |
-| Audit Gate | Review, verification, or audit process is ready where required. |
-| Reporting Gate | Public-safe reporting and record structure are ready. |
-| Smart-Contract Gate | Smart-contract modules are ready, reviewed, and controlled where applicable. |
-| Privacy Gate | Public wallet transparency is separated from private identity records. |
-| Eligibility Gate | Eligible wallet rules are defined. |
-| Operator Gate | Operational process and responsibilities are ready. |
-| Jurisdiction Gate | Restricted regions, legal limits, and compliance boundaries are reviewed. |
-| Product Revenue Pool Gate | Relevant product revenue pools are defined and reviewed. |
-| Approved Distributable Value Gate | Approved distributable value is confirmed under the active policy. |
+| Legal Gate | Legal treatment and jurisdiction boundaries are reviewed |
+| Accounting Gate | Revenue, cost, reserve, and approved value treatment are reviewed |
+| Treasury Gate | Treasury separation and fund classification are ready |
+| Audit Gate | Review, verification, or audit process is ready where required |
+| Reporting Gate | Public-safe reporting and record structure are ready |
+| Smart-Contract Gate | Smart-contract modules are ready, reviewed, and controlled where applicable |
+| Privacy Gate | Public wallet transparency is separated from private identity records |
+| Eligibility Gate | Eligible wallet rules are defined |
+| Operator Gate | Operational process and responsibilities are ready |
+| Jurisdiction Gate | Restricted regions, legal limits, and compliance boundaries are reviewed |
+| Product Revenue Pool Gate | Relevant product revenue pools are defined and reviewed |
+| Approved Distributable Value Gate | Approved distributable value is confirmed under the active policy |
 
 Product revenue does not automatically become approved distributable value.
 
