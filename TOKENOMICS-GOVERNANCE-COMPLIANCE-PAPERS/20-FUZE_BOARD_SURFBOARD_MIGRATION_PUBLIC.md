@@ -12,11 +12,11 @@ The fixed FUZE token supply includes a purpose-specific migration allocation:
 |---|---:|---:|
 | BOARD / Surfboard Migration | 25,000,000 FUZE | 5.00% |
 
-This allocation gives FUZE a controlled way to handle eligible legacy-holder continuity while keeping the current ecosystem product-first, transparent, and easy to understand.
+This allocation gives FUZE a controlled way to support continuity for eligible BOARD / Surfboard holders while keeping the current ecosystem product-first, transparent, and easy to understand.
 
 The migration category is separate from:
 
-- Community Participation Allocation
+- Community Access and Participation Allocation
 - Platform Credits
 - stablecoin payments and compensation
 - Treasury Reserve
@@ -49,7 +49,7 @@ It explains:
 - how migration records can remain transparent while protecting private identity
 - how migration differs from community participation and wallet-based participation ability
 
-The purpose is to give eligible legacy holders, community members, investors, partners, exchanges, custody providers, and reviewers one clear public explanation.
+The purpose is to give eligible BOARD / Surfboard holders, community members, investors, partners, exchanges, custody providers, and reviewers one clear public explanation.
 
 This paper is not a claim instruction, exchange support guide, legal opinion, tax opinion, accounting policy, public token sale document, listing announcement, liquidity commitment, or investment recommendation.
 
@@ -61,8 +61,8 @@ Migration becomes difficult to understand when several different concepts are di
 
 Readers may confuse:
 
-- legacy-holder continuity with a public token sale
-- migration allocation with Community Participation Allocation
+- BOARD / Surfboard holder continuity with a public token sale
+- migration allocation with Community Access and Participation Allocation
 - migration claims with open public access
 - migration eligibility with wallet-based participation eligibility
 - a migration vault with a payout pool
@@ -74,7 +74,7 @@ FUZE solves this by treating BOARD / Surfboard Migration as its own allocation c
 
 The core position is:
 
-> BOARD / Surfboard Migration is a 25,000,000 FUZE continuity allocation for eligible legacy holders under final migration rules.
+> BOARD / Surfboard Migration is a 25,000,000 FUZE continuity allocation for eligible BOARD / Surfboard holders under final migration rules.
 
 It is not a general community allocation or automatic public claim system.
 
@@ -84,13 +84,13 @@ It is not a general community allocation or automatic public claim system.
 
 FUZE’s public position is:
 
-**BOARD / Surfboard Migration is a purpose-specific continuity allocation that can support eligible legacy holders entering the FUZE ecosystem under defined eligibility, claim, custody, privacy, reporting, and circulation controls.**
+**BOARD / Surfboard Migration is a purpose-specific continuity allocation that can support eligible BOARD / Surfboard holders entering the FUZE ecosystem under defined eligibility, claim, custody, privacy, reporting, and circulation controls.**
 
 | Area | FUZE Position |
 |---|---|
 | Allocation | 25,000,000 FUZE |
 | Share of Supply | 5.00% of the fixed 500,000,000 FUZE supply |
-| Primary Purpose | Eligible BOARD / Surfboard holder continuity |
+| Primary Purpose | Continuity for eligible BOARD / Surfboard holders |
 | Token Used | FUZE token |
 | Access | Available only under final migration eligibility and claim rules |
 | Circulation | Can use claim windows, lockups, staged release, or other approved controls |
@@ -98,7 +98,7 @@ FUZE’s public position is:
 | Privacy | Personal identity and sensitive verification records remain permissioned |
 | Market Boundary | Continuity does not provide price, listing, liquidity, payout, or return assurance |
 
-This structure recognizes eligible legacy-holder relationships without allowing the migration category to dominate FUZE’s current product-first direction.
+This structure recognizes eligible BOARD / Surfboard holders without allowing the migration category to dominate FUZE’s current product-first direction.
 
 ---
 
@@ -137,12 +137,12 @@ Allocation does not mean immediate circulation.
 
 ### 4.2 Why the Migration Allocation Exists
 
-The migration allocation gives FUZE a defined method to manage eligible BOARD / Surfboard continuity.
+The migration allocation gives FUZE a defined method to manage continuity for eligible BOARD / Surfboard holders.
 
 It helps FUZE:
 
-- recognize eligible legacy holders
-- place continuity inside the one-token model
+- recognize eligible BOARD / Surfboard holders
+- place BOARD / Surfboard continuity inside the one-token model
 - separate migration from new community participation
 - avoid mixing migration with Platform Credits or product payments
 - preserve clear allocation records
@@ -160,8 +160,8 @@ The migration allocation can be held and administered through a dedicated vault 
 |---|---|
 | Name | BOARD / Surfboard Migration Vault |
 | Allocation | 25,000,000 FUZE |
-| Purpose | Eligible legacy-holder continuity |
-| Access | Eligible holders under active migration rules |
+| Purpose | Continuity for eligible BOARD / Surfboard holders |
+| Access | Eligible BOARD / Surfboard holders under active migration rules |
 | Release Model | Claim-based or eligibility-based distribution where approved |
 | Controls | Wallet matching, custody review, anti-abuse screening, claim windows, lockups, jurisdiction controls, and governance approval |
 | Reporting | Allocation, claimed amount, remaining amount, release status, policy status, and report references |
@@ -176,7 +176,7 @@ BOARD / Surfboard Migration and Community Access and Participation Allocation se
 | Category | Amount | Purpose |
 |---|---:|---|
 | Community Access and Participation Allocation | 110,000,000 FUZE | Eligible community access, product-user participation, contributor recognition, and future ecosystem programs |
-| BOARD / Surfboard Migration | 25,000,000 FUZE | Eligible BOARD / Surfboard holder continuity |
+| BOARD / Surfboard Migration | 25,000,000 FUZE | Continuity for eligible BOARD / Surfboard holders |
 
 Migration supply should not be treated as community participation inventory.
 
@@ -188,7 +188,7 @@ Migration and wallet-based participation ability are separate systems.
 
 | Concept | Role |
 |---|---|
-| BOARD / Surfboard Migration | Continuity allocation for eligible legacy holders |
+| BOARD / Surfboard Migration | Continuity allocation for eligible BOARD / Surfboard holders |
 | Migration Claim | Access to migration allocation under active migration rules |
 | Wallet-Based Participation Ability | Activation-gated FUZE token framework for eligible FUZE-holding wallets where approved |
 | Approved Distributable Value | Reviewed value from defined product revenue pools under an active framework |
@@ -209,7 +209,7 @@ BOARD / Surfboard Migration sits inside the FUZE token model while remaining sep
 | Platform Credits | Product usage credits | Credit purchase or usage does not create migration eligibility |
 | Stablecoins | Payment, settlement, treasury, and compensation rails | Stablecoin balances and payments remain separate from migration claims |
 | Product Revenue | Revenue generated by FUZE products and services | Product revenue is separate from migration allocation |
-| Approved Distributable Value | Reviewed value from defined product revenue pools where an active framework exists | Separate from migration continuity |
+| Approved Distributable Value | Reviewed value from defined product revenue pools where an active framework exists | Separate from BOARD / Surfboard continuity |
 | Wallet-Based Participation Ability | Activation-gated token-related framework | Separate eligibility and activation process |
 | Public Vault Visibility | Public-safe records for selected vaults and token movements | Can display migration allocation and status |
 | Public Vault Access Windows | Controlled access periods for selected vault-token programs where approved | Separate from migration unless an active policy expressly connects them |
@@ -220,17 +220,17 @@ This separation prevents product usage, payment activity, token continuity, and 
 
 ## 6. Eligibility and Claim Model
 
-### 6.1 Eligible Legacy Holders
+### 6.1 Eligible BOARD / Surfboard Holders
 
-Migration access can apply only to holders who satisfy the final BOARD / Surfboard migration criteria.
+Migration access can apply only to BOARD / Surfboard holders who satisfy the final migration criteria.
 
 Eligibility review can include:
 
 | Eligibility Area | Purpose |
 |---|---|
-| Legacy Holder Status | Confirms that the applicant belongs to the defined legacy-holder group |
+| BOARD / Surfboard Holder Status | Confirms that the applicant belongs to the defined eligible holder group |
 | Snapshot Record | Confirms eligible balance or holding status at a defined point where applicable |
-| Source Wallet | Identifies the wallet or record connected to the legacy holding |
+| Source Wallet | Identifies the wallet or record connected to the BOARD / Surfboard holding |
 | Destination Wallet | Identifies the wallet intended to receive FUZE |
 | Exchange or Custody Record | Supports review where holdings were managed by an intermediary |
 | Contract or Pool Record | Supports review of contract-held, staked, pooled, or LP positions where applicable |
@@ -239,7 +239,7 @@ Eligibility review can include:
 | Jurisdiction Review | Determines whether access is supported, restricted, delayed, or unavailable |
 | Final Approval | Confirms migration access under active rules |
 
-Holding a legacy asset or submitting a form does not by itself complete eligibility review.
+Holding BOARD / Surfboard or submitting a migration form does not by itself complete eligibility review.
 
 ### 6.2 Claim Process
 
@@ -288,7 +288,7 @@ The final migration ratio or allocation method must be defined in the active mig
 
 A migration calculation can depend on:
 
-- verified legacy balance
+- verified BOARD / Surfboard balance
 - eligible snapshot
 - supported chain or contract
 - prior migration history
@@ -302,7 +302,7 @@ No ratio should be inferred from market price, historical price, or an unsupport
 
 ### 6.5 Custody and Exchange Positions
 
-Some eligible holders may have held BOARD / Surfboard through exchanges, custodians, contracts, pools, staking systems, or liquidity positions.
+Some eligible BOARD / Surfboard holders may have held assets through exchanges, custodians, contracts, pools, staking systems, or liquidity positions.
 
 These positions can require different evidence.
 
@@ -460,7 +460,7 @@ Wallet-level transparency does not require public personal identity.
 | Planned | Migration framework is being prepared |
 | Under Review | Eligibility, legal, custody, technical, or policy review is ongoing |
 | Approved | Policy is approved but claims may not yet be available |
-| Active | Eligible holders can use the active claim process |
+| Active | Eligible BOARD / Surfboard holders can use the active claim process |
 | Paused | Claims are temporarily stopped for review or correction |
 | Closed | Claim window has ended |
 | Settled | Claims and final records are completed |
@@ -475,7 +475,7 @@ Status reporting explains process state. It does not create market assurance.
 
 ### 9.1 Product-First Continuity
 
-The migration allocation gives eligible legacy continuity a defined place while FUZE develops its current product ecosystem.
+The migration allocation gives BOARD / Surfboard continuity a defined place while FUZE develops its current product ecosystem.
 
 FUZE’s product-first direction focuses on:
 
@@ -545,7 +545,7 @@ Key public boundaries are:
 
 - BOARD / Surfboard Migration is a 25,000,000 FUZE allocation.
 - The allocation represents 5.00% of the fixed 500,000,000 FUZE supply.
-- The allocation supports eligible legacy-holder continuity.
+- The allocation supports continuity for eligible BOARD / Surfboard holders.
 - Migration access depends on final active rules and supporting evidence.
 - Migration is separate from Community Access and Participation Allocation.
 - Migration is separate from Platform Credits and stablecoin compensation.
@@ -566,7 +566,7 @@ Detailed token, custody, market-access, and risk boundaries are covered in the d
 - FUZE uses one ecosystem token: FUZE token.
 - FUZE token has a fixed supply of 500,000,000 FUZE.
 - BOARD / Surfboard Migration receives 25,000,000 FUZE, equal to 5.00% of supply.
-- The allocation supports eligible legacy-holder continuity.
+- The allocation supports continuity for eligible BOARD / Surfboard holders.
 - Migration has its own purpose, vault, eligibility process, claim rules, controls, and reporting.
 - Migration is separate from new community participation.
 - Platform Credits remain product usage credits.
