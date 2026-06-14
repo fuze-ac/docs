@@ -2,359 +2,97 @@
 
 ## Executive Summary
 
-FUZE Wallet-Based Participation explains how FUZE treats wallet-based participation ability under the one-token model.
+FUZE wallet-based participation is a possible future framework for connecting eligible FUZE-holding wallets with approved value from defined product revenue pools. It belongs within the FUZE token model and would operate only after the required rules, reviews, systems, and approvals are ready.
 
-FUZE is a transparency-first AI SaaS platform building practical products on shared infrastructure for identity, credits, payments, AI orchestration, wallet-based records, reporting, and ecosystem participation.
+Holding FUZE token can be one condition, but a token balance alone cannot determine eligibility. An active framework would also consider the relevant snapshot, custody method, wallet category, jurisdiction, verification requirements, available approved distributable value, and current operating status.
 
-FUZE follows a product-first execution model. Product usage comes first, shared platform rails come second, and broader ecosystem participation comes after that.
+Wallet records make the model reviewable without turning personal identity into public information. Public reporting can show an address and its status, while names, account records, identity documents, and supporting evidence remain permissioned.
 
-FUZE uses one token only: FUZE token.
+This one-page summary is for token holders, product users, community members, investors, and partners who want the public model without the detailed operating mechanics.
 
-FUZE token is the single ecosystem token of FUZE. It supports product-connected utility, ecosystem participation, platform alignment, governance direction where applicable, and wallet-based participation ability.
+## 1. The Core Idea
 
-Wallet-based participation ability is not a second token.
+This framework uses FUZE token as its ecosystem token. Wallet-based participation ability is a conditional feature within that structure rather than a separate asset.
 
-Wallet-based participation ability is not automatic for every wallet.
+If FUZE activates the framework, the operating sequence would be:
 
-Wallet-based participation ability is not active as a guaranteed public payout right.
+1. define the active scope and eligibility rules;
+2. confirm the product revenue pools included in the period;
+3. reconcile and approve any distributable value;
+4. record wallets under the published snapshot method;
+5. determine which wallets satisfy the active requirements; and
+6. operate participation, reporting, review, and correction processes under governance controls.
 
-Eligible FUZE-holding wallets may participate in approved distributable value from defined FUZE product revenue pools only if the participation framework becomes active and all required gates are ready.
+Each step depends on the previous one. Product activity, token holding, or technical readiness by itself does not complete the sequence.
 
-Required gates may include legal, accounting, treasury, audit, reporting, smart-contract, privacy, eligibility, operator, jurisdiction, product revenue pool, and approved distributable value gates.
+## 2. What Makes a Wallet Eligible?
 
-Platform Credits are product usage credits and are separate from FUZE token.
+An eligible FUZE-holding wallet is a wallet that meets every requirement for a defined active period or process.
 
-Stablecoins are payment, settlement, treasury, and compensation rails.
+The rules can consider:
 
-FUZE uses wallet-based transparency by default, but FUZE does not publish personal identity publicly.
+- FUZE balance or holding conditions
+- inclusion in the relevant snapshot
+- proof of wallet control or beneficial ownership
+- self-custody, exchange custody, institutional custody, or contract-wallet treatment
+- wallet category, including controlled or restricted categories
+- jurisdiction and any required private verification
+- current framework, claim, and reporting status
 
-FUZE’s public market access direction is DEX first. CEX expansion may come later when product evidence, legal review, exchange review, liquidity readiness, custody treatment, operational readiness, market conditions, and strategic timing support that path. CEX expansion is not guaranteed.
+Eligibility can differ by period because balances, custody, rules, locations, and framework status can change. The complete operating model is available in the [FUZE Wallet-Based Participation Model](../TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/07-FUZE_WALLET_BASED_PARTICIPATION_MODEL_PUBLIC.md).
 
-FUZE does not guarantee payout, income, dividend, yield, profit, token price, listing, liquidity, market support, exit, game earnings, business revenue, AI accuracy, user acquisition, community growth, or investment return.
+## 3. Activation Comes Before Operation
 
-## 1. What FUZE Is
+FUZE can prepare contracts, reports, snapshot tools, vault records, and review processes before participation is active. Preparation gives the ecosystem a foundation for testing and review; activation is the separate decision that allows an approved process to operate.
 
-FUZE is a product-first AI SaaS and ecosystem platform.
+Readiness areas include legal and jurisdiction treatment, accounting, treasury, audit evidence, reporting, technology and security, wallet eligibility, custody, privacy, governance, and responsible operators. A blocked requirement can keep the framework inactive or limit its scope.
 
-The FUZE wallet-based participation model is part of the broader FUZE one-token structure.
+The dedicated [FUZE Participation Activation Gates](../TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/08-FUZE_PARTICIPATION_ACTIVATION_GATES_PUBLIC.md) explains those controls in depth.
 
-FUZE does not use a second public participation token.
+## 4. Product Revenue and Approved Value
 
-FUZE does not use the earlier participation-unit term as public-facing language.
+FUZE products create the business activity behind the wider ecosystem. Product revenue first supports normal business responsibilities such as reconciliation, refunds, fees, costs, partner shares, taxes, reserves, support, and continued operations.
 
-FUZE token is the single ecosystem token.
+Approved distributable value is the reviewed amount, if any, that could enter an activated participation framework after those controls and approvals. It can vary by period and may be unavailable after review.
 
-Platform Credits are product usage credits.
+This separation prevents a gross revenue figure, treasury balance, token allocation, or payment receipt from being presented as an active wallet claim.
 
-Stablecoins are payment, settlement, treasury, and compensation rails.
+## 5. Custody Changes the Evidence
 
-Wallet-based participation ability is a conditional feature of the FUZE token model, not a separate asset and not an automatic payout system.
+Self-custody can provide direct on-chain balance and signature evidence. Exchange or institutional custody can place many users behind an omnibus address, so account-level records or custodian cooperation may be needed. Contract wallets and multisigs can require compatibility review.
 
-This model helps FUZE connect product usage, public reporting, wallet-level transparency, and ecosystem alignment without creating unsafe public claims around income, yield, profit, payout, or investment return.
+The active rules must state which custody types are supported and what evidence is required. A wallet or account can enter review, receive a restricted status, or remain unsupported when the required evidence or technical process is unavailable.
 
-## 2. The Problem
+Custody treatment is explained further in [FUZE Exchange Custody and Wallet Participation](../TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/27-FUZE_EXCHANGE_CUSTODY_AND_WALLET_PARTICIPATION_PUBLIC.md).
 
-Token and participation models can become confusing when public readers do not understand the difference between token ownership, product usage, wallet records, revenue, treasury balances, and payout claims.
+## 6. Public Records, Private Identity
 
-Common problems include:
+The public layer can include wallet addresses, snapshot references, eligibility status, claim status where activated, report hashes, transaction references, pause status, and correction records.
 
-- token holders may assume every wallet automatically qualifies for participation
-- public readers may confuse wallet visibility with public identity exposure
-- product revenue may be mistaken as automatic token-holder distribution
-- treasury balances may be mistaken as claimable value
-- stablecoin balances may be mistaken as payout supply
-- Platform Credits may be mistaken as token rights
-- exchange-held tokens may be mistaken as direct wallet-level records
-- public vault labels may be mistaken as claim systems
-- participation language may be mistaken as guaranteed income
-- market access may be mistaken as guaranteed liquidity
-- CEX planning may be mistaken as confirmed listing
+Permissioned records can include personal identity, contact details, exchange-account evidence, tax information, legal records, wallet-control evidence, and support materials. These records stay separated from public blockchain reporting and are available only to authorized reviewers for an approved purpose.
 
-FUZE solves this by using clear one-token language, wallet-level transparency, activation gates, privacy separation, approved distributable value boundaries, and no-guarantee public language.
+This approach supports wallet-level transparency without identifying the person or organization behind an address. More detail appears in [FUZE Wallet-Based Privacy and Eligibility](../TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/26-FUZE_WALLET_BASED_PRIVACY_AND_ELIGIBILITY_PUBLIC.md).
 
-## 3. The FUZE Solution
+## 7. Separation From Product Usage and Payments
 
-FUZE uses wallet-based participation ability as a conditional framework inside the one-token model.
+Platform Credits support eligible actions inside FUZE products. Buying or using credits does not establish wallet eligibility.
 
-The solution has six parts.
+Stablecoins can support approved product payments, settlement, treasury activity, or compensation. Those operational records remain separate from participation status and approved distributable value.
 
-| Layer | Public Meaning |
-|---|---|
-| FUZE Token | The single ecosystem token of FUZE |
-| Eligible FUZE-Holding Wallet | A wallet that may meet participation criteria if the framework becomes active and all gates are ready |
-| Approved Distributable Value | A defined value category that may exist only after product revenue is confirmed, reconciled, reviewed, reserved where needed, and approved |
-| Activation Gates | Legal, accounting, treasury, audit, reporting, smart-contract, privacy, eligibility, operator, jurisdiction, product revenue pool, and approved value readiness |
-| Wallet-Level Transparency | Public records may show wallet addresses, vault activity, report hashes, snapshot records, eligibility status, and claim status where applicable |
-| Privacy Separation | Private identity and verification records remain off-chain, permissioned, and separated from public blockchain records where required |
+The Community Participation Round also has its own access purpose and workflow. Participation in that round does not establish eligibility under this wallet framework.
 
-This solution keeps the public model clear.
+## 8. Public Boundary
 
-Wallet-based participation ability is not a second token.
+The framework depends on activation, active eligibility rules, custody support, jurisdiction, approved distributable value, security, reporting, and continuing governance approval. Activation and eligibility remain conditional, and the framework provides no financial or market assurance.
 
-It is not automatic.
+Detailed token, wallet, market, and financial boundaries are maintained in the [FUZE Risk and Disclosure Appendix](../WHITEPAPER-PAPERS/05-FUZE_RISK_AND_DISCLOSURE_APPENDIX_PUBLIC.md).
 
-It is not active as a guaranteed public payout right.
+## 9. What Readers Should Remember
 
-It exists only as a conditional ability under the FUZE one-token model.
-
-## 4. Products and Platform
-
-Wallet-based participation ability connects to the broader FUZE product-first ecosystem.
-
-FUZE products include:
-
-| Product | Public Role |
-|---|---|
-| HerHelp | Practical AI SaaS suite |
-| SheetLayer AI | Spreadsheet and business data layer |
-| ShopOS AI | AI-powered shop operating system for QR menu, checkout, queue, payment, loyalty, stock, staff, delivery, reports, TrustCheck, device support, Google Sheets sync, and AI assistance |
-| SpeakShop AI | Promotional voice scripts, sound packs, and speaker announcements |
-| TrainLayer AI | AI learning materials, training workflows, quizzes, guides, and staff/customer education |
-| CommunityLayer AI | Moderation, safety, verification, support, reporting, summaries, and community operations |
-| ZAGA | FUZE game and token-utility ecosystem |
-| ZAGA Arena | Fast battle arena game where players survive, fight bosses, collect USDT and Token Value, build Net Worth, and compete in Telegram-ready multiplayer arenas |
-| ZAGA Districts | Telegram-native cyberpunk MMORPG where real communities build cities, manage economies, hire NPCs, and compete for power |
-| QTB | AI trading intelligence and market interpretation support |
-| AIMM | AI market-making and liquidity operations support |
-| AIE | Event intelligence support |
-| ToolGrid AI | AI utility network with sponsored visibility |
-| Botmad | AI Desktop Employee under permission controls |
-
-Product revenue from these products does not automatically become approved distributable value.
-
-Each product revenue category may require confirmation, reconciliation, refund review, chargeback review, cost review, reserve treatment, treasury review, accounting review, legal review, reporting review, and jurisdiction review before any approved distributable value can exist.
-
-ZAGA Arena and ZAGA Districts are separate products under the ZAGA ecosystem. ZAGA Districts is not a mode inside ZAGA Arena.
-
-QTB is not financial advice, guaranteed trading profit, or autonomous investment execution.
-
-AIMM does not guarantee liquidity, price support, listing performance, trading profit, or market outcome.
-
-ZAGA game values and product activity do not guarantee financial earnings.
-
-## 5. FUZE Token and Platform Credits
-
-FUZE token and Platform Credits are separate.
-
-### FUZE Token
-
-FUZE token is the single ecosystem token of FUZE.
-
-FUZE token supports:
-
-- product-connected utility
-- ecosystem participation
-- platform alignment
-- governance direction where applicable
-- wallet-based participation ability
-
-FUZE token does not guarantee payout, income, dividend, yield, profit, token price, listing, liquidity, market support, exit, game earnings, business revenue, or investment return.
-
-### Platform Credits
-
-Platform Credits are product usage credits.
-
-Platform Credits may support:
-
-- AI tasks
-- reports
-- shop workflows
-- training materials
-- community summaries
-- QTB reports
-- AIMM reports
-- AIE reports
-- ToolGrid visibility
-- Botmad sessions
-- ZAGA utility surfaces where supported
-
-Platform Credits are not FUZE token.
-
-Platform Credits are not equity.
-
-Platform Credits are not debt.
-
-Platform Credits are not investment contracts.
-
-Platform Credits are not income rights.
-
-Platform Credits are not participation rights.
-
-Platform Credits are not governance rights.
-
-Platform Credits are not claim rights.
-
-Platform Credits are not market access rights.
-
-Platform Credits are not exit rights.
-
-### Stablecoins
-
-Stablecoins are payment, settlement, treasury, and compensation rails.
-
-Stablecoins may support product payments, Platform Credit purchases, subscriptions, report purchases, partner settlement, vendor payments, contributor compensation, treasury operations, reserve management, conversion proof, and liquidity-related settlement where applicable.
-
-Stablecoin balances are not automatic product revenue.
-
-Stablecoin balances are not automatic approved distributable value.
-
-Stablecoin balances are not automatic token-holder distribution.
-
-Stablecoin balances are not automatic payout supply.
-
-Stablecoin balances are not market access value.
-
-Stablecoin balances are not investment return.
-
-## 6. Wallet-Based Participation, If Activated
-
-Wallet-based participation ability means an eligible FUZE-holding wallet may participate in approved distributable value from defined FUZE product revenue pools only if the participation framework becomes active and all required gates are ready.
-
-Wallet-based participation ability is:
-
-- not a second token
-- not automatic for every wallet
-- not active as a guaranteed public payout right
-- not based on gross revenue
-- not based on token sale proceeds
-- not based on seed-round funds
-- not based on treasury balance
-- not based on vault balance
-- not based on company-wide profit by default
-- not a dividend
-- not fixed income
-- not investment return
-- not a promise of payout
-
-Required gates may include:
-
-| Gate | Public Meaning |
-|---|---|
-| Legal Gate | Legal treatment and jurisdiction boundaries are reviewed |
-| Accounting Gate | Revenue, cost, reserve, and approved value treatment are reviewed |
-| Treasury Gate | Treasury separation and fund classification are ready |
-| Audit Gate | Review, verification, or audit process is ready where required |
-| Reporting Gate | Public-safe reporting and record structure are ready |
-| Smart-Contract Gate | Smart-contract modules are ready, reviewed, and controlled where applicable |
-| Privacy Gate | Public wallet transparency is separated from private identity records |
-| Eligibility Gate | Eligible wallet rules are defined |
-| Operator Gate | Operational process and responsibilities are ready |
-| Jurisdiction Gate | Restricted regions, legal limits, and compliance boundaries are reviewed |
-| Product Revenue Pool Gate | Relevant product revenue pools are defined and reviewed |
-| Approved Distributable Value Gate | Approved distributable value is confirmed under the active policy |
-
-Approved distributable value is separate from gross revenue, token sale proceeds, seed-round funds, treasury balances, vault balances, stablecoin balances, Platform Credits, and token allocation categories.
-
-A wallet may hold FUZE token without being eligible for any participation distribution.
-
-A wallet may be visible publicly without exposing the person or organization behind it.
-
-An exchange-held token balance may require separate treatment because the public blockchain may show the exchange wallet instead of the individual user.
-
-Self-custody may support direct wallet-level records, but it does not guarantee eligibility, payout, asset safety, token price, liquidity, resale ability, or investment return.
-
-## 7. Public Boundary
-
-FUZE wallet-based participation language uses strict public boundaries.
-
-FUZE does not say every holder receives payout.
-
-FUZE does not say every wallet is eligible.
-
-FUZE does not say product revenue goes directly to token holders.
-
-FUZE does not say treasury balances are claimable.
-
-FUZE does not say stablecoin balances are payout supply.
-
-FUZE does not say Platform Credits are token rights.
-
-FUZE does not say wallet visibility means public identity exposure.
-
-FUZE does not say approved distributable value is guaranteed.
-
-FUZE does not say participation distribution is guaranteed.
-
-FUZE uses wallet-based transparency by default.
-
-Public systems may show wallet addresses, vault activity, report hashes, audit records, snapshot records, eligibility status, and claim status where applicable.
-
-FUZE does not publish personal names, emails, phone numbers, ID documents, passports, home addresses, investor identities, contributor identities, or private agreements by default.
-
-Private verification, if required by law, regulation, treasury controls, exchange requirements, eligibility review, investor agreement, or jurisdiction rules, stays off-chain, permissioned, and separated from public blockchain records.
-
-FUZE’s public market access direction is DEX first.
-
-DEX-first access may support transparent on-chain market access, public pool visibility, self-custody participation, direct token contract verification, and wallet-level transparency.
-
-DEX-first access does not guarantee liquidity, market depth, trading volume, token price, buyer demand, seller access, payout, resale ability, exit, or investment return.
-
-CEX expansion may come later when product evidence, legal review, exchange review, liquidity readiness, custody treatment, operational readiness, market conditions, and strategic timing support that path.
-
-CEX expansion is not guaranteed.
-
-FUZE does not guarantee:
-
-- business revenue
-- product adoption
-- customer growth
-- user acquisition
-- community growth
-- AI accuracy
-- trading results
-- market outcome
-- liquidity
-- listing
-- token price
-- market support
-- participation distribution
-- payout
-- income
-- dividend
-- yield
-- profit
-- resale ability
-- exit
-- game earnings
-- acquisition
-- investment return
-
-FUZE public papers do not provide legal advice, tax advice, accounting advice, financial advice, investment advice, or trading advice.
-
-## 8. Why It Matters
-
-Wallet-based participation matters because it gives FUZE a clearer way to discuss possible future ecosystem participation without creating unsafe public payout claims.
-
-For product users, it keeps product usage separate from token rights.
-
-For Web3 users, it explains that wallet records can support transparency without exposing personal identity.
-
-For token holders, it explains that holding FUZE token does not automatically create payout rights or claim rights.
-
-For investors, it explains that approved distributable value requires legal, accounting, treasury, audit, reporting, smart-contract, privacy, eligibility, operator, jurisdiction, product revenue pool, and approved value readiness.
-
-For communities, it prevents the misunderstanding that FUZE token is a guaranteed income or yield instrument.
-
-For FUZE, it keeps the one-token model clean.
-
-The core message is:
-
-FUZE uses one token only.
-
-FUZE token is the single ecosystem token.
-
-Wallet-based participation ability is conditional and activation-gated.
-
-Platform Credits are product usage credits.
-
-Stablecoins are payment and settlement rails.
-
-Product revenue does not automatically become approved distributable value.
-
-Wallet-level transparency does not mean public identity exposure.
-
-DEX-first market access does not guarantee liquidity.
-
-CEX expansion may come later and is not guaranteed.
-
-FUZE uses wallet-based participation language to support long-term ecosystem alignment while avoiding guaranteed payout, income, dividend, yield, profit, price, listing, liquidity, exit, or investment-return claims.
+- Wallet-based participation is an activation-gated ability within the FUZE token framework.
+- FUZE holding can be relevant, but eligibility requires the complete active rule set.
+- Approved distributable value is reviewed after product revenue controls; it is not gross revenue.
+- Custody affects the evidence and process available to a wallet holder.
+- Public wallet status can be reviewable while personal identity remains private.
+- Platform Credits, payment activity, and community-round access stay separate from wallet eligibility.
+- Detailed mechanics belong in the dedicated participation, activation, privacy, custody, and risk papers.
