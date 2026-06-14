@@ -2,577 +2,282 @@
 
 ## Executive Summary
 
-SpeakShop AI is the promotional voice script, sound-pack, and speaker announcement product under HerHelp and FUZE.
+SpeakShop AI helps shops, stalls, service counters, event booths, and community operators prepare short spoken messages for real customer-facing environments. It turns an approved brief into greeting, promotion, queue, pickup, reminder, or campaign scripts that can be reviewed before staff delivery or supported playback.
 
-It is designed for shops, food stalls, cafés, markets, pop-up vendors, event booths, local service businesses, community events, and customer-facing operators that need fast, practical, AI-assisted spoken communication.
+The product is designed around practical constraints: a message must be easy to hear, accurate, brief enough for repetition, suitable for its location, and consistent with the operator's tone. SpeakShop AI can create variants by language, length, audience, time, or delivery style and can organize approved scripts into reusable sound-pack sets.
 
-SpeakShop AI helps users create:
-
-- customer greeting scripts
-- product promotion scripts
-- queue announcements
-- payment success announcements
-- menu highlight messages
-- campaign message sets
-- speaker-ready text
-- sound-pack ideas
-- staff reminder announcements
-- multi-language announcement variations
-
-Many small shops know what they sell, but they do not always know what to say, when to say it, or how to make announcements sound clear, friendly, and consistent.
-
-SpeakShop AI turns normal shop information into ready-to-use spoken messages.
-
-It can connect with ShopOS AI, SheetLayer AI, TrainLayer AI, CommunityLayer AI, Platform Credits, AI orchestration, device support direction, reporting, and permission controls where appropriate.
-
-Platform Credits support product usage.
-
-FUZE token is the single ecosystem token of FUZE.
-
-Stablecoins support payment, settlement, treasury, and compensation rails.
-
-Wallet-based records can support public-safe transparency where useful while customer, staff, shop, and campaign records stay permissioned where required.
+SpeakShop AI prepares communication material. The operator remains responsible for product facts, prices, offers, pronunciation, consent, public suitability, and the final decision to speak, display, record, or play a message.
 
 ---
 
 ## 1. Product Purpose
 
-SpeakShop AI exists to help shops and businesses speak to customers more clearly.
+A small operator often has a phone, speaker, display, or staff member available but no repeatable process for preparing announcements. Messages are improvised, promotions change during the day, and queue updates can be unclear.
 
-The product purpose is to turn simple business information into useful spoken communication.
+SpeakShop AI provides a focused workflow for turning ordinary operating information into concise spoken communication. It may support:
 
-A shop owner should be able to enter a short idea such as:
+- customer greetings;
+- menu or product highlights;
+- limited-period promotions;
+- queue and pickup announcements;
+- delay or service-status messages;
+- staff reminders;
+- event-booth scripts;
+- community activity notices;
+- multilingual variants; and
+- coordinated message sets for a campaign or service period.
 
-“Promote grilled chicken lunch set.”
-
-SpeakShop AI can turn that idea into a customer-facing announcement such as:
-
-“สวัสดีค่ะ วันนี้มีชุดไก่ย่างหอม ๆ พร้อมข้าวและน้ำจิ้มรสเด็ด แวะมาลองได้เลยค่ะ”
-
-The exact language, tone, length, and format can be adjusted based on shop style, audience, product type, promotion type, and language preference.
-
-SpeakShop AI is designed for real-world environments where communication happens quickly and repeatedly.
-
-It helps users create messages that can be spoken by staff, played through a speaker, used in queue announcements, reused as a sound pack, or connected to shop workflows where supported.
-
-The goal is practical communication, not complicated marketing software.
+The objective is not to replace direct human service. It is to help operators prepare messages that staff can deliver consistently and customers can understand.
 
 ---
 
-## 2. Who This Product Helps
+## 2. Intended Users and Settings
 
-SpeakShop AI helps operators who need better customer-facing spoken messages.
-
-| User Type | Communication Need | How SpeakShop AI Helps |
-|---|---|---|
-| Food stalls | Short product promotions and customer greetings | Creates clear speaker-ready food promotion scripts |
-| Cafés | Daily menu highlights and friendly customer messages | Creates tone-based announcement variations |
-| Market vendors | Repeated promotions in busy walk-by environments | Creates rotating message sets and sound-pack ideas |
-| Small restaurants | Queue, pickup, promotion, and staff announcements | Creates queue scripts and operational messages |
-| Pop-up vendors | Fast event booth communication | Creates booth announcements and campaign sets |
-| Service counters | Queue, service status, and customer updates | Creates queue and status messages |
-| Retail shops | Product highlight and seasonal messages | Creates product promotion and campaign scripts |
-| Event booths | Audience-specific announcements | Creates short event-ready voice messages |
-| Community events | Group announcements and activity reminders | Creates friendly public announcements |
-| Shop staff | Consistent speaking guidance | Creates greeting scripts and training material inputs |
-
-SpeakShop AI is especially useful for shops that already use staff voices, mobile phones, Bluetooth speakers, or small public announcement setups.
-
-The product helps shops sound more prepared, active, and consistent.
-
----
-
-## 3. User Problem and Market Context
-
-Small shops often depend on the owner or staff to speak directly to customers.
-
-This creates common communication problems:
-
-- staff do not know what to say
-- announcements sound inconsistent
-- promotions are not repeated clearly
-- customer greetings feel awkward
-- queue announcements are unclear
-- customers miss promoted items
-- staff forget campaign messages
-- shops have speakers but no good scripts
-- owners need fast messages for daily menu changes
-- local shops need promotion support without a marketing team
-- different times of day need different messages
-- tourists, local customers, and event visitors may need different language styles
-
-Many shops already have a speaker, phone, tablet, or staff member who can speak to customers.
-
-The missing part is the message.
-
-SpeakShop AI fills that gap by helping shops create ready-to-speak and speaker-ready scripts.
-
-This is practical for:
-
-- food stalls
-- quick-service shops
-- market vendors
-- cafés
-- mall kiosks
-- event booths
-- pop-up shops
-- food courts
-- delivery pickup counters
-- shops using QR menu or queue systems
-
-SpeakShop AI is useful because it supports communication that can be used immediately.
-
----
-
-## 4. Product Model
-
-SpeakShop AI works as the communication layer inside HerHelp and FUZE.
-
-The product model has six main layers.
-
-| Layer | Role |
+| User or setting | Typical communication need |
 |---|---|
-| Script Layer | Creates spoken scripts for greetings, promotions, queues, campaigns, and customer messages |
-| Sound Pack Layer | Organizes reusable sound-pack concepts, message sets, and announcement collections |
-| Context Layer | Uses shop data, menu items, campaign goals, time of day, customer type, and language preference where provided |
-| Device Direction Layer | Supports practical use through phones, speakers, screens, and future device workflows where available |
-| Integration Layer | Connects with ShopOS AI, SheetLayer AI, TrainLayer AI, and CommunityLayer AI where appropriate |
-| Reporting Layer | Supports review of campaign, announcement, and message usage where supported |
+| Food stall or cafe | Item highlights, queue references, pickup notices, and closing messages |
+| Market vendor | Short rotating promotions for passing customers |
+| Local retailer | Product or seasonal announcements |
+| Service counter | Queue, delay, status, and service guidance |
+| Pop-up or event booth | Time-sensitive messages tailored to the event audience |
+| Shop manager | Approved scripts for staff and connected devices |
+| Community operator | Public activity reminders and venue notices |
+| Trainer | Practice material for customer-facing staff |
 
-SpeakShop AI is more than a script generator.
-
-It is a practical communication layer for shops and customer-facing environments.
-
-The product can support simple and advanced workflows:
-
-- simple: generate one announcement script
-- campaign-based: create a message set for a weekend promotion
-- connected: use ShopOS AI menu data to generate current item announcements
-- team-based: let an owner approve scripts before staff use them
-- training-based: connect scripts to TrainLayer AI for staff practice
-- reporting-based: summarize which announcement sets were used during a campaign
-
-This gives shop owners a communication system that can start small and grow over time.
+SpeakShop AI is most useful where spoken content is repeated or must change quickly. A user may generate one message or prepare an approved collection for a full campaign.
 
 ---
 
-## 5. Core Features
+## 3. Message Types
 
-### 5.1 Customer Greeting Scripts
+### Greetings
 
-SpeakShop AI can help create greeting scripts for customers.
+A greeting introduces the business or service point and can set expectations for the interaction. Variants may reflect the time of day, venue, audience, or level of formality.
 
-Examples include:
+### Product and offer messages
 
-- morning greeting
-- lunch greeting
-- evening greeting
-- weekend greeting
-- market greeting
-- event booth greeting
-- new customer greeting
-- returning customer greeting
-- polite service greeting
-- tourist-friendly greeting
+An operator can supply the approved item name, price, availability, offer terms, and desired emphasis. SpeakShop AI can then prepare short promotional versions while keeping those source details visible for review.
 
-A good greeting helps the shop feel more active and prepared.
+### Queue and pickup notices
 
-It also gives staff a consistent way to start customer interaction.
+Queue messages can use a number, order reference, or suitable nickname when permitted. They may cover order acceptance, waiting, readiness, delay, pickup location, or a call to the service counter.
 
-### 5.2 Product Promotion Scripts
+### Service and issue updates
 
-SpeakShop AI can create product promotion scripts.
+These messages can explain a temporary delay, unavailable item, changed location, closing time, or other operating condition. The wording should provide useful direction without disclosing private customer or staff information.
 
-Examples include:
+### Staff reminders
 
-- menu item highlight
-- best-seller promotion
-- new item launch
-- limited-time offer
-- combo set promotion
-- discount message
-- holiday promotion
-- weekend special
-- low-stock urgency message
-- premium item explanation
-- lunch set promotion
-- delivery pickup promotion
+Internal announcements can support opening, stock checks, station changes, cleaning, preparation, or closing routines. Staff-only messages should remain separate from customer playback lists.
 
-A food shop can use this to promote items such as grilled chicken, pork ribs, salmon, spicy salad, drinks, snacks, desserts, or lunch sets.
+### Campaign sets
 
-### 5.3 Queue Announcements
-
-SpeakShop AI can help create queue announcement scripts.
-
-Examples include:
-
-- payment success queue message
-- order ready message
-- pickup reminder
-- delayed order apology
-- queue number announcement
-- customer name or nickname announcement where appropriate
-- staff preparation announcement
-- pickup counter reminder
-
-Example:
-
-“คุณปูได้คิวที่ 8 โปรดรอสักครู่ค่ะ”
-
-SpeakShop AI can create variations based on tone, language, shop personality, and customer setting.
-
-### 5.4 Campaign Message Sets
-
-SpeakShop AI can create message sets for campaigns.
-
-Campaign examples include:
-
-- lunch promotion
-- happy hour
-- weekend promotion
-- birthday campaign
-- loyalty campaign
-- new menu launch
-- festival campaign
-- event booth campaign
-- food court campaign
-- delivery campaign
-- member campaign
-
-Instead of generating only one script, SpeakShop AI can prepare multiple messages for different times and customer moods.
-
-A campaign set can include:
-
-- morning greeting
-- lunch rush promotion
-- queue reminder
-- best-seller highlight
-- afternoon offer
-- evening closing message
-
-This helps shops keep communication fresh without starting from zero every day.
-
-### 5.5 Sound Pack Planning
-
-SpeakShop AI can help organize reusable sound packs.
-
-A sound pack can include:
-
-- welcome message
-- product highlight message
-- queue message
-- promotion message
-- thank-you message
-- closing message
-- campaign-specific message
-- seasonal message
-- staff reminder
-- event announcement
-
-Sound packs help shops avoid repeating the same message all day.
-
-They also make it easier to prepare a promotion period before the shop opens.
-
-### 5.6 Multi-Language and Tone Variation
-
-SpeakShop AI can help create different versions of a script.
-
-Possible variations include:
-
-- Thai
-- English
-- simple Thai
-- friendly tone
-- premium tone
-- fun tone
-- polite tone
-- energetic tone
-- short speaker version
-- long promotional version
-- staff version
-- customer version
-
-This is useful for shops in tourist areas, malls, markets, events, mixed-language communities, or locations with different customer types.
-
-### 5.7 Staff Reminder Announcements
-
-SpeakShop AI can help prepare internal staff reminders.
-
-Examples include:
-
-- stock check reminder
-- cleaning reminder
-- queue update reminder
-- payment check reminder
-- opening preparation reminder
-- closing checklist reminder
-- delivery preparation reminder
-- staff station reminder
-- food preparation reminder
-- promotion reminder
-
-These can connect with ShopOS AI and TrainLayer AI where supported.
-
-Staff reminders help a shop keep operational routines consistent.
-
-### 5.8 Speaker-Ready Text
-
-SpeakShop AI can generate text that is ready for speaking or playback.
-
-Speaker-ready text should be:
-
-- easy to pronounce
-- short enough for repeated use
-- clear for customers
-- focused on one message
-- accurate about item names and prices
-- safe for public claims
-- suitable for the shop environment
-
-Spoken messages are different from written marketing copy.
-
-They need to be natural, direct, and easy to hear.
+A campaign set groups approved messages for different moments, such as opening, lunch, afternoon, event peak, and closing. Rotation can reduce repetition while maintaining the same approved offer and brand direction.
 
 ---
 
-## 6. Practical Workflows and Use Cases
+## 4. Brief-to-Announcement Workflow
 
-### Use Case 1: Small Food Shop Promotion Workflow
+### Step 1: Define the purpose
 
-A food shop wants to promote a lunch menu.
+The user selects the message type and intended result. A useful purpose is specific, such as announcing a pickup reference or highlighting an approved lunch offer.
 
-SpeakShop AI can help:
+### Step 2: Supply verified facts
 
-1. Owner enters item name, price, and promotion goal.
-2. SpeakShop AI generates a short announcement.
-3. Owner selects a tone such as friendly, energetic, or premium.
-4. SpeakShop AI creates several variations.
-5. Owner approves one version.
-6. Staff reads or plays the message during lunch.
-7. Shop records the campaign note where supported.
+The brief can include:
 
-This helps the shop communicate consistently during a busy period.
+- business or event name;
+- item or service;
+- price and offer terms;
+- valid dates or times;
+- queue or location details;
+- intended audience;
+- language;
+- preferred tone;
+- maximum length; and
+- words or claims to include or avoid.
 
-### Use Case 2: Queue Announcement Workflow
+Source information may be entered directly or supplied through an authorized connection.
 
-A shop uses ShopOS AI for queue management and SpeakShop AI for queue scripts.
+### Step 3: Generate variants
 
-The workflow can include:
+SpeakShop AI can prepare options that differ by length, energy, formality, language, or delivery context. A speaker version may use shorter sentences than written advertising.
 
-1. Customer completes order or payment.
-2. ShopOS AI creates queue number.
-3. SpeakShop AI prepares or selects queue announcement text.
-4. Staff or speaker announces the queue.
-5. Queue display or screen updates where supported.
+### Step 4: Review for accuracy and suitability
 
-This helps customers understand their order status more clearly.
+The operator checks names, prices, dates, pronunciation, eligibility, tone, and local context. The user can edit the draft or request another version.
 
-### Use Case 3: Weekend Promotion Workflow
+### Step 5: Approve the script
 
-A shop wants stronger weekend messages because customer behavior changes on Saturday and Sunday.
+Only an approved version should move into a staff list, sound pack, campaign schedule, or connected playback workflow. Approval status helps prevent obsolete drafts from being reused.
 
-SpeakShop AI can help:
+### Step 6: Deliver through the selected channel
 
-1. Owner enters weekend promotion.
-2. SpeakShop AI creates a weekend sound-pack set.
-3. Messages are grouped by morning, lunch, afternoon, and evening.
-4. ShopOS AI or staff uses the messages at the right time where supported.
-5. Owner reviews which messages were used and prepares the next campaign.
+The final text may be read by staff, shown as speaking guidance, recorded through an approved process, or sent to a supported voice or device service. SpeakShop AI does not imply that every device or audio-generation option is available in every release.
 
-This gives the shop a more consistent weekend communication plan.
+### Step 7: Retire or revise
 
-### Use Case 4: Event Booth Workflow
-
-A vendor joins a food market or event.
-
-SpeakShop AI can help:
-
-1. Vendor enters booth name, product list, prices, and event audience.
-2. SpeakShop AI creates short booth announcement scripts.
-3. AI creates a rotating set of messages.
-4. Vendor uses a Bluetooth speaker or staff voice.
-5. AIE can support event reporting where applicable.
-
-This helps vendors prepare for high-traffic event environments.
-
-### Use Case 5: Staff Training Workflow
-
-A shop owner wants staff to speak consistently.
-
-SpeakShop AI can help:
-
-1. Generate customer greeting scripts.
-2. Connect scripts to TrainLayer AI as staff training material where supported.
-3. Staff practices approved scripts.
-4. ShopOS AI adds reminders to staff checklists where supported.
-5. Owner updates script versions over time.
-
-This helps the shop turn communication into a repeatable operating routine.
-
-### Use Case 6: Tourist Area Workflow
-
-A shop in a tourist area needs Thai and English messages.
-
-SpeakShop AI can help:
-
-1. Owner writes a Thai promotion.
-2. AI creates an English version.
-3. AI makes a short speaker-ready version.
-4. Owner checks accuracy and tone.
-5. Staff uses the approved version during peak hours.
-
-This helps shops communicate with a wider audience.
+Messages tied to a price, date, stock position, or campaign should expire or return for review when their source facts change.
 
 ---
 
-## 7. Platform Credits and Product Usage
+## 5. Script Controls
 
-Platform Credits are product usage credits for supported FUZE products and services.
+### Length
 
-SpeakShop AI can use Platform Credits for supported usage such as:
+Users can request a short callout, standard announcement, or extended explanation. Repeated public messages should be proportionate to the venue and customer experience.
 
-- customer greeting script generation
-- product promotion script generation
-- queue announcement generation
-- campaign message set creation
-- sound-pack planning
-- multi-language script generation
-- tone variation generation
-- staff reminder script creation
-- speaker-ready text generation
-- ShopOS AI menu-based announcement generation
-- TrainLayer AI staff-training connection
-- campaign summary generation where supported
+### Tone
 
-Platform Credits help users understand SpeakShop AI as a product service.
+Tone settings may include friendly, calm, energetic, formal, premium, playful, or direct. The selected tone should remain appropriate for the product, audience, and situation.
 
-The shop owner uses credits for specific communication actions.
+### Language and localization
 
-Platform Credits are separate from FUZE token.
+SpeakShop AI can prepare language variants where supported. Translation requires review for product names, local phrasing, cultural meaning, pronunciation, and offer accuracy.
 
-FUZE token remains the single ecosystem token of FUZE.
+### Timing and frequency
 
----
+A campaign plan can identify when a message is suitable and how often it should be used. Frequency decisions remain with the operator or the approved connected system.
 
-## 8. FUZE Platform and Token Relationship
+### Pronunciation and delivery notes
 
-SpeakShop AI connects to FUZE because it turns AI into a real-world customer communication product.
+The script may include guidance for difficult product names, numbers, locations, or pauses. Delivery notes are separate from the spoken text so they are not accidentally played or read aloud.
 
-SpeakShop AI can connect to shared platform rails such as:
+### Claims and required details
 
-- identity and access
-- Platform Credits
-- payments and settlement where relevant
-- AI orchestration
-- data and permissions
-- device support direction
-- ShopOS AI workflow connection
-- SheetLayer AI data connection
-- TrainLayer AI staff-training connection
-- CommunityLayer AI announcement connection
-- reporting and transparency
-- wallet-based records where useful
-- product-to-token utility where relevant
-
-FUZE token is the single ecosystem token.
-
-SpeakShop AI’s first job is practical communication.
-
-Detailed token, wallet, market, investor, participation, legal, and disclosure topics belong in dedicated tokenomics, investor, whitepaper, and risk papers.
+Users can identify mandatory price, date, eligibility, health, safety, or promotional wording. SpeakShop AI should preserve approved facts and surface uncertain claims for review rather than inventing support.
 
 ---
 
-## 9. Data, AI, Privacy, and Permission Controls
+## 6. Sound Packs
 
-SpeakShop AI can involve shop, campaign, customer, staff, and product information.
+A sound pack is an organized set of approved scripts for a recurring operating need. It may contain text, delivery notes, language variants, and references to separately produced audio where supported.
 
-Examples include:
+Possible packs include:
 
-- shop name
-- menu items
-- prices
-- promotion details
-- campaign dates
-- queue messages
-- staff reminder scripts
-- customer names or nicknames where appropriate
-- language preferences
-- approved script history
-- sound-pack records
-- device usage notes where supported
+- daily opening and closing;
+- lunch or evening service;
+- queue and pickup;
+- weekend offers;
+- seasonal campaigns;
+- event booth operation;
+- staff-only reminders; and
+- customer-service recovery.
 
-SpeakShop AI should use privacy-aware and permission-aware design.
-
-Important data principles include:
-
-- use shop data only for the intended communication workflow
-- keep customer identifiers limited and appropriate for the queue or service context
-- review AI-generated scripts before public use
-- protect staff and customer information
-- keep private campaign notes permissioned where required
-- separate public announcement text from sensitive source data
-- avoid public claims that the shop owner has not approved
-- use role controls where staff can play messages but owners approve campaigns
-
-AI helps generate communication, but the shop owner or operator should approve public-facing scripts before use.
-
-This keeps spoken communication accurate, appropriate, and aligned with the shop.
+Each item should have an owner, status, version, intended audience, and any expiry condition. A sound pack is a content-management structure; it does not establish ownership rights to third-party music, voices, recordings, or other protected material.
 
 ---
 
-## 10. Reporting and Transparency Direction
+## 7. Practical Examples
 
-SpeakShop AI can support reporting in practical ways.
+### Lunch promotion
 
-Reporting can include:
+A cafe enters the current set name, price, availability period, and desired friendly tone. SpeakShop AI prepares three brief versions. The owner approves one for counter staff and one for a supported speaker workflow, with an expiry at the end of lunch service.
 
-- campaign message history
-- approved script records
-- sound-pack usage notes
-- queue announcement usage where supported
-- promotion calendar summaries
-- staff training material links
-- ShopOS AI campaign records
-- Platform Credit usage records where supported
-- owner review summaries
-- public-safe product usage examples where appropriate
+### Queue handoff
 
-For shop owners, reporting helps review which messages were created and when they were used.
+[ShopOS AI](./04-HERHELP_SHOPOS_AI_PUBLIC.md) supplies an authorized queue reference and readiness status. SpeakShop AI selects an approved pickup format. The public message uses the service reference rather than a full customer identity.
 
-For FUZE, public-safe reporting can help show how practical AI communication products are used without exposing sensitive shop data.
+### Weekend market booth
 
-Reporting should protect customer information, staff notes, private promotion data, and business records where required.
+A vendor prepares a set covering welcome, best seller, limited offer, and closing time. The scripts are adjusted for a noisy environment and organized in a campaign pack for staff use.
 
----
+### Tourist-area service
 
-## 11. Product Boundary
+An operator requests two language versions of a location and pickup message. A fluent reviewer checks wording and pronunciation before either version is approved.
 
-SpeakShop AI is a promotional voice script, sound-pack, and speaker announcement product.
+### Staff communication practice
 
-It supports customer greetings, product promotions, queue announcements, campaign messages, sound-pack planning, staff reminders, language variations, and speaker-ready text.
+A shop manager approves greeting and issue-response scripts, then sends those materials to [TrainLayer AI](./06-HERHELP_TRAINLAYER_AI_PUBLIC.md) for a staff practice module. Customer records are excluded from the training task.
 
-Detailed product, AI, privacy, device, payment, customer communication, legal, token, investor, and disclosure boundaries belong mainly in dedicated papers such as:
+### Community event
 
-- `CORE-PLATFORM-PAPERS/07-FUZE_DATA_PRIVACY_AND_AI_DATA_HANDLING_PUBLIC.md`
-- `AI-SAAS-PRODUCT-PAPERS/16-FUZE_PRODUCT_RISK_BOUNDARIES_PUBLIC.md`
-- `INVESTOR-PARTNER-PAPERS/07-FUZE_AI_SAFETY_AND_RELIABILITY_PUBLIC.md`
-- `INVESTOR-PARTNER-PAPERS/08-FUZE_DATA_PRIVACY_AND_PERMISSION_MODEL_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/29-FUZE_TOKEN_RISK_BOUNDARIES_PUBLIC.md`
-- `WHITEPAPER-PAPERS/05-FUZE_RISK_AND_DISCLOSURE_APPENDIX_PUBLIC.md`
-
-This keeps the SpeakShop AI paper focused on practical customer communication while deeper review remains in the correct documents.
+An organizer supplies an activity schedule, venue instructions, and safety wording. SpeakShop AI prepares short public notices while [CommunityLayer AI](./07-HERHELP_COMMUNITYLAYER_AI_PUBLIC.md) manages the separate community workflow.
 
 ---
 
-## 12. Key Takeaways
+## 8. HerHelp Connections
 
-- SpeakShop AI is the promotional voice script, sound-pack, and speaker announcement product under HerHelp and FUZE.
-- It helps shops create customer greetings, product promotions, queue announcements, campaign messages, sound packs, staff reminders, and speaker-ready text.
-- SpeakShop AI is designed for real-world customer-facing environments such as food stalls, cafés, markets, event booths, pop-up vendors, and service counters.
-- SpeakShop AI can connect with ShopOS AI, SheetLayer AI, TrainLayer AI, and CommunityLayer AI where supported.
-- Platform Credits can support SpeakShop AI product usage where supported.
-- FUZE token is the single ecosystem token of FUZE.
-- AI-generated scripts should be reviewed before public use.
-- Shop, customer, staff, campaign, and device-related data should stay permission-aware.
-- SpeakShop AI helps FUZE show practical AI SaaS value in real local business settings.
-- Detailed risk and disclosure language belongs mainly in dedicated risk and review papers.
+SpeakShop AI operates as the communication module in [HerHelp AI SaaS](./02-HERHELP_AI_SAAS_PUBLIC.md). Useful connections may include:
+
+- ShopOS AI for current item, queue, service, or campaign context;
+- SheetLayer AI for reviewed catalog or schedule fields;
+- TrainLayer AI for approved staff-speaking practice;
+- CommunityLayer AI for public event or activity notices; and
+- supported device services for approved delivery.
+
+Connections should pass only the information required to construct or deliver the message. A queue announcement does not need the customer's order history, and a promotion script does not need private staff records.
+
+---
+
+## 9. Platform Credit Use
+
+SpeakShop AI may use Platform Credits for metered actions such as:
+
+- generating a group of script options;
+- producing tone or length variants;
+- preparing a multilingual version;
+- organizing a campaign message set;
+- drafting delivery or pronunciation notes;
+- converting approved shop context into an announcement;
+- reviewing a script collection for consistency; or
+- summarizing campaign content activity.
+
+The relevant usage basis should be visible before the user confirms a chargeable task. Ordinary reading, approval, or playback functions may follow a separate product-access model.
+
+Credits apply to product processing and remain distinct from the FUZE token.
+
+---
+
+## 10. Data, Permission, and Content Controls
+
+SpeakShop AI generally needs business and campaign context rather than broad customer data. Controls should address:
+
+- who may supply source facts;
+- who may edit or approve public messages;
+- which staff can access internal scripts;
+- which connected product may send data;
+- whether a customer reference is suitable for public use;
+- how long expired campaign material is retained;
+- who may export text or send it to a device; and
+- how obsolete scripts are removed from active use.
+
+Public scripts should avoid private identity, credentials, internal commercial terms, and sensitive customer or staff information. Voice or audio use must also respect consent, publicity rights, intellectual-property rights, and applicable platform rules.
+
+Further principles are available in [FUZE Data, Privacy and AI Data Handling](../CORE-PLATFORM-PAPERS/07-FUZE_DATA_PRIVACY_AND_AI_DATA_HANDLING_PUBLIC.md).
+
+---
+
+## 11. Reporting
+
+SpeakShop reporting can help an owner manage content without claiming that an announcement caused a particular commercial result. Depending on configuration, it may show:
+
+- scripts created and approved;
+- active and expired message sets;
+- language or tone variants;
+- campaign and schedule references;
+- connected source records;
+- staff or device handoffs;
+- revision history;
+- Platform Credit usage; and
+- errors or content exceptions.
+
+Any performance analysis should identify the available evidence and distinguish message activity from sales, attendance, or customer outcomes influenced by other factors.
+
+---
+
+## 12. Product Status and Boundary
+
+SpeakShop AI is presented as a developing product. Script generation, translation, campaign organization, audio handoff, device support, scheduling, and reporting may have different release status or configuration requirements.
+
+The product cannot verify every supplied offer, automatically clear advertising or intellectual-property rights, guarantee translation quality, or determine whether playback is lawful or appropriate in a particular venue. Operators remain responsible for final content and use.
+
+SpeakShop AI does not require token or wallet participation for its communication purpose. Separate FUZE ecosystem mechanisms are documented outside this product paper.
+
+---
+
+## 13. Conclusion
+
+SpeakShop AI gives customer-facing operators a repeatable route from a short brief to a reviewed spoken message. Its value comes from accurate inputs, useful variants, clear approval, controlled delivery, and timely retirement when facts change.
+
+By keeping communication work focused, the product can help a shop or event team sound prepared without turning a simple announcement into a complex marketing project.

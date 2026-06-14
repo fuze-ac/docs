@@ -2,521 +2,264 @@
 
 ## Executive Summary
 
-FUZE Product Launch Sequence explains the product priority, launch order, and readiness direction across the FUZE product ecosystem.
+This paper sets the release order for FUZE product work without assigning unsupported launch dates. The sequence begins with narrow HerHelp workflows, advances shared platform services alongside those workflows, develops ZAGA’s game and community surfaces through their own testing path, and introduces Botmad when its permission model can support bounded work. QTB, AIMM, AIE, and ToolGrid AI follow product-specific evidence and control gates.
 
-FUZE is a product-first AI SaaS and Web3 ecosystem building practical products on shared infrastructure for identity, Platform Credits, payments, AI orchestration, wallet-based records, reporting, workflow support, and ecosystem participation.
+The sequence is dependency-based rather than calendar-based. A product moves forward when its core user journey, data controls, support process, metering or commercial model, monitoring, and reporting are ready for the next audience. Products can progress in parallel, but documentation or prototype status alone does not establish public availability.
 
-FUZE uses a product-first execution model.
-
-Product usage comes first.
-
-Shared platform rails come second.
-
-Broader ecosystem participation comes after that.
-
-This paper exists because FUZE includes many product lines, and each product has a different readiness profile, technical complexity, user audience, data requirement, risk boundary, platform dependency, and revenue direction.
-
-HerHelp, ZAGA, Botmad, QTB, AIMM, AIE, and ToolGrid AI should not be treated as equally ready, equally urgent, or equally close to full public scaling.
-
-The public launch sequence keeps FUZE focused.
-
-The core launch focus is:
-
-1. Public documentation and language clarity.
-2. HerHelp.com and practical AI SaaS workflows.
-3. FUZE Core Platform rails for identity, Platform Credits, payments, AI orchestration, reporting, workspaces, permissions, and wallet-based records.
-4. ZAGA.io and game/community ecosystem surfaces.
-5. Botmad as a permission-controlled AI Desktop Employee.
-6. Specialized products such as QTB, AIMM, AIE, and ToolGrid AI as their workflows, boundaries, and product evidence mature.
-7. Token utility and wallet-aware maturity after product usage, platform rails, reporting, and activation gates are ready.
-
-FUZE token is the single ecosystem token of FUZE.
-
-Platform Credits are product usage credits and are separate from FUZE token.
-
-Stablecoins support payment, settlement, treasury, and compensation rails.
-
-Wallet-based records can support public-safe transparency where useful while personal identity and sensitive product records stay permissioned where required.
-
-The launch sequence does not guarantee launch dates, revenue, user growth, community growth, token demand, token price, listing, liquidity, payout, income, yield, profit, exit, or investment return.
+This approach concentrates effort on complete experiences and allows evidence to change priorities. Public updates should name the product, module, release scope, current status, and next dependency.
 
 ---
 
-## 1. Product Purpose
+## 1. Sequence at a Glance
 
-This paper explains how FUZE organizes product launch priority.
+FUZE organizes product launch work into five waves:
 
-It answers:
-
-- which products are closest to public launch focus
-- why FUZE prioritizes product usage before token expansion
-- how HerHelp, ZAGA, Botmad, QTB, AIMM, AIE, and ToolGrid AI fit into launch order
-- which platform rails must exist before product growth can scale
-- how Platform Credits, FUZE token, stablecoins, and wallet-based records stay separated during launch
-- which risks must be controlled before each product becomes more public
-- how the community can understand product readiness
-- how investors and partners can understand execution order
-- how FUZE avoids overloading users with too many product promises at once
-
-This paper is not a guaranteed roadmap, launch-date promise, fundraising promise, token listing plan, revenue forecast, or investment recommendation.
-
-It is a public explanation of launch priority and readiness logic.
-
----
-
-## 2. Who This Product Helps
-
-This paper helps readers understand how FUZE moves from product ideas into public product execution.
-
-| Reader Type | Need | How This Paper Helps |
+| Wave | Focus | Intended result |
 |---|---|---|
-| Product users | Understand which FUZE products are closest to practical use | Explains public launch focus and product sequence |
-| Community members | Understand why FUZE does not launch every product at once | Shows staged execution and readiness logic |
-| Investors and partners | Understand execution order and platform dependency | Connects product usage, platform rails, and specialized products |
-| Product teams | Understand priority and sequencing | Separates primary launch surfaces from later specialized surfaces |
-| Documentation teams | Keep public papers aligned | Defines a launch narrative that matches product-first language |
-| Token readers | Understand token utility timing | Separates product launch from token outcome promises |
-| Business users | Understand HerHelp and Botmad timing | Shows how practical AI SaaS and work assistance lead usable product adoption |
-| Game communities | Understand ZAGA launch direction | Separates ZAGA Arena and ZAGA Districts as distinct product surfaces |
+| Foundation | Public definitions, product scope, core architecture, permissions, and evidence rules | Teams and readers understand what is being built and how status is proven |
+| Practical AI SaaS | Selected HerHelp modules and the shared services they require | Users can complete narrow, useful AI-assisted workflows |
+| Game and community | ZAGA Arena, ZAGA Districts, and supporting community operations | Testable game experiences with clear records and community support |
+| Cross-product assistance | Botmad with bounded tasks and explicit authority | Users can turn approved product information into reviewed work outputs |
+| Specialized intelligence and distribution | QTB, AIMM, AIE, and ToolGrid AI | Focused releases after domain-specific controls and evidence are operating |
 
-The paper helps readers see FUZE as a controlled product ecosystem rather than a bundle of disconnected ideas.
+Token-connected product features can mature within these waves when their own utility review is complete. They do not replace the product release gates.
 
----
-
-## 3. User Problem and Market Context
-
-Complex product ecosystems often fail when everything is announced as if it is equally ready.
-
-Users can become confused when a platform presents too many products, too much token language, too many future features, and too many revenue directions at the same time.
-
-Common launch problems include:
-
-- unclear product priority
-- too many products described as ready at once
-- weak separation between concept, MVP, beta, and public launch
-- token utility explained before product usage exists
-- platform rails described after product promises
-- market-sensitive products launched without clear boundaries
-- games described with unclear reward language
-- AI tools described without review and permission controls
-- sponsored visibility products described without trust and moderation controls
-- product revenue direction described as guaranteed outcome
-- community expectations growing faster than product evidence
-
-FUZE avoids this by using staged product execution.
-
-The launch sequence keeps the public story clear:
-
-start with useful products, connect them through shared rails, then expand utility and ecosystem participation carefully.
-
-This sequence makes FUZE easier to understand and easier to evaluate.
+The [FUZE Public Status and Roadmap Matrix](../PUBLIC-INDEX/02-FUZE_PUBLIC_STATUS_AND_ROADMAP_MATRIX.md) owns current status labels. The [FUZE Public Roadmap and Priority](../CORE-PLATFORM-PAPERS/05-FUZE_PUBLIC_ROADMAP_AND_PRIORITY_PUBLIC.md) explains the wider platform, commercial, reporting, governance, and ecosystem workstreams.
 
 ---
 
-## 4. Product Model
+## 2. Release Levels
 
-FUZE launch sequencing follows a layered product model.
+Each product or module should move through a clear set of levels.
 
-| Layer | Role |
+| Level | What it establishes |
 |---|---|
-| Documentation Layer | Establishes public language, product boundaries, and product-first clarity |
-| Primary Product Layer | Launches usable product surfaces such as HerHelp and ZAGA |
-| Platform Rail Layer | Connects identity, Platform Credits, payments, AI orchestration, workspaces, reporting, and wallet-based records |
-| Work Assistance Layer | Adds Botmad as a cross-product AI Desktop Employee under permission controls |
-| Specialized Product Layer | Expands QTB, AIMM, AIE, and ToolGrid AI when workflows and boundaries are ready |
-| Token Utility Layer | Connects product activity to FUZE token utility where defined |
-| Wallet and Reporting Layer | Supports public-safe records, transparency, and activation-gated participation where applicable |
+| Defined | User, problem, workflow, scope, owner, and public boundary are documented |
+| Demonstrable | A prototype shows the main journey and known limitations |
+| Internally testable | Authorized testers can use the workflow and record defects |
+| Limited release | A controlled audience has onboarding, support, terms, and monitoring |
+| Public beta | Public access exists with stated limitations and active feedback |
+| Live | The intended service operates under current terms, support, and monitoring |
 
-The launch model is not only a list of products.
-
-It is a maturity path.
-
-Products should become more public when users can understand what the product does, what it supports, how it uses Platform Credits, what data it handles, how it reports activity, and what outcomes it does not guarantee.
+A product can contain modules at different levels. Public language should identify the exact module, audience, geography, network, or integration rather than upgrading the whole product from one successful test.
 
 ---
 
-## 5. Core Features
+## 3. Common Launch Gates
 
-### 5.1 Launch Position
+Before a product expands to a wider audience, the team should review these gates.
 
-FUZE launch strategy follows one core principle:
+### User journey
 
-Product usage first. Platform rails second. Broader ecosystem participation after that.
+The intended user can enter, perform the core action, review the result, and find help. Onboarding and error states are part of the journey.
 
-This means FUZE does not begin by asking the public to believe only in a token story.
+### Product quality
 
-FUZE begins with practical products that people can understand, test, use, and evaluate.
+The main workflow is demonstrable and its limitations are known. The team can distinguish a defect from an expected constraint.
 
-The launch position is:
+### Data and permissions
 
-| Layer | Role |
-|---|---|
-| Product usage | Creates real user workflows, feedback, and product evidence |
-| Platform rails | Connect identity, Platform Credits, payments, AI orchestration, reporting, workspaces, permissions, and wallet-based records |
-| Revenue direction | Comes from product usage, services, packages, credits, sponsored visibility, and business workflows where generated |
-| Token utility | Connects to product-connected utility and ecosystem participation where defined |
-| Wallet-based participation | Remains activation-gated and not active as a guaranteed public payout right |
-| Public reporting | Helps users, community members, and investors evaluate progress without hype |
+Inputs, outputs, retention, roles, approvals, and public/private boundaries are defined and tested for the release scope.
 
-The launch sequence keeps FUZE practical, controlled, and public-readable.
+### Operations
 
-### 5.2 Launch Sequence Principles
+An owner can monitor service health, respond to incidents, support users, pause access, and communicate material changes.
 
-FUZE launch sequencing follows several principles.
+### Commercial readiness
 
-| Principle | Meaning |
-|---|---|
-| Start with usable products | Products that can be explained and used should lead the launch sequence. |
-| Keep rails shared | Identity, Platform Credits, payments, AI orchestration, workspaces, permissions, and reporting should support multiple products. |
-| Avoid premature token promises | Product launch should not be presented as guaranteed token price, liquidity, payout, or return. |
-| Separate credits from token | Platform Credits support product usage; FUZE token supports ecosystem utility. |
-| Use evidence before expansion | Product evidence, feedback, usage records, and reporting matter before scaling. |
-| Launch risk-sensitive products carefully | QTB, AIMM, token utility, and wallet-based participation need stronger boundaries. |
-| Keep private structures private | Sensitive eligibility, legal, tax, investor, and activation-gate details stay private where required. |
-| Use phased maturity | A product can be public in concept before all features are live. |
-| Avoid overloading users | Each launch should explain what users can do now and what remains product direction. |
-| Keep product papers unique | Each product has its own purpose, model, risk boundary, and launch path. |
+Where payment or Platform Credits apply, the product has an understandable usage unit, current terms, records, reconciliation, and correction process.
 
-These principles keep the launch sequence clear.
+### Evidence
 
-### 5.3 Primary Launch Focus
+The team can measure completion, failure, support demand, and continued use. Public claims can be tied to appropriate records.
 
-The primary launch focus is HerHelp.com and ZAGA.io, supported by FUZE Core Platform rails and Botmad.
+### Product-specific review
 
-#### HerHelp.com
+Games, market tools, sponsored placement, wallet functions, events, and autonomous-looking AI workflows receive the additional reviews relevant to their domain.
 
-HerHelp is the practical AI SaaS suite.
-
-HerHelp gives FUZE a business-facing product surface. It can support real users through AI workflows for spreadsheets, shops, voice announcements, training, communities, documents, reports, and operations.
-
-HerHelp can begin with narrow, usable workflows and expand by module.
-
-#### ZAGA.io
-
-ZAGA is the FUZE game and token-utility ecosystem.
-
-ZAGA gives FUZE a game-facing and community-facing product surface. It includes ZAGA Arena and ZAGA Districts as separate products.
-
-ZAGA can support game activity, Telegram community engagement, leaderboards, events, profiles, utility surfaces, and public-safe game reporting.
-
-#### FUZE Core Platform Rails
-
-FUZE Core Platform rails support the product ecosystem.
-
-These rails include identity, Platform Credits, payments, AI orchestration, reporting, wallet-based records, workspaces, permissions, audit visibility where appropriate, and product activity logs.
-
-The rails help products become part of one ecosystem rather than disconnected tools.
-
-#### Botmad
-
-Botmad is the AI Desktop Employee under permission controls.
-
-Botmad is important because it can help users complete work across many FUZE products. It can support documents, reports, tasks, support drafts, file organization direction, checklists, workflow summaries, and operational workflows.
-
-Botmad should stay permission-controlled and human-reviewed.
-
-### 5.4 Specialized Product Surfaces
-
-Specialized products can expand after primary product surfaces and rails are clearer.
-
-These include:
-
-- QTB
-- AIMM
-- AIE
-- ToolGrid AI
-
-QTB supports market interpretation and research workflows.
-
-AIMM supports liquidity operations and market-operations workflows.
-
-AIE supports event intelligence, opportunity discovery, awareness, planning, and reporting.
-
-ToolGrid AI supports utility discovery, sponsored grid visibility, trust review, and distribution infrastructure.
-
-These products can become strong FUZE products, but they need clearer boundaries because they touch market information, liquidity operations, sponsored visibility, event opportunity, advertising, and public communication.
-
-### 5.5 Token Utility and Wallet-Aware Maturity
-
-FUZE token utility should mature alongside product evidence and platform rails.
-
-Token utility can connect to:
-
-- product-connected access where defined
-- ecosystem participation
-- platform alignment
-- community roles where supported
-- game and community utility where supported
-- wallet-based records where useful
-- governance direction where applicable
-- wallet-based participation ability where activated under required controls
-
-Token utility should not lead the launch story before product usage is clear.
-
-Wallet-based participation ability remains activation-gated and requires legal, accounting, treasury, audit, reporting, smart-contract, and jurisdiction readiness before any active claim logic.
+Passing a gate means the evidence is sufficient for the named release scope. It is not a permanent certification.
 
 ---
 
-## 6. Practical Workflows and Use Cases
+## 4. Foundation Wave
 
-### Use Case 1: Public Documentation Before Product Expansion
+The foundation wave establishes the conditions for product work to progress consistently.
 
-FUZE prepares public documentation first.
+Key outputs include:
 
-The workflow can include:
+- approved product names and objectives
+- current status vocabulary
+- core user journeys and boundaries
+- account, workspace, role, and permission patterns
+- data classification and AI handling rules
+- Platform Credit consumption and correction patterns
+- support and incident ownership
+- product and public reporting definitions
 
-1. Product papers explain each product clearly.
-2. Risk boundaries define what each product supports and what it avoids promising.
-3. Platform Credit papers explain product usage.
-4. Token utility papers explain one-token utility without payout promises.
-5. Website summaries make the public story easier to read.
+Shared rails should advance with product needs. For example, a HerHelp team workspace can drive account and role requirements; an AI generation flow can drive metering and review requirements; a later wallet-aware feature can drive address and network support.
 
-This helps FUZE launch with language discipline before larger public growth.
-
-### Use Case 2: HerHelp Practical AI SaaS Launch
-
-A business user starts with HerHelp.
-
-The workflow can include:
-
-1. User selects a simple AI SaaS workflow.
-2. SheetLayer AI, ShopOS AI, SpeakShop AI, TrainLayer AI, or CommunityLayer AI supports a defined task.
-3. Platform Credits support product usage where defined.
-4. User reviews AI output.
-5. Product feedback improves the next workflow.
-
-This gives FUZE practical product evidence.
-
-### Use Case 3: ZAGA Game and Community Launch
-
-A player or community enters ZAGA.
-
-The workflow can include:
-
-1. User joins ZAGA Arena or ZAGA Districts.
-2. Game activity creates profiles, run summaries, city records, badges, or community activity where supported.
-3. CommunityLayer AI and AIE can support event summaries where relevant.
-4. Public-safe reporting explains game activity.
-5. Token utility remains product-connected and bounded.
-
-This gives FUZE a community-facing and game-facing surface.
-
-### Use Case 4: Botmad Cross-Product Work Assistance
-
-A user needs work support across FUZE products.
-
-The workflow can include:
-
-1. HerHelp, AIE, ToolGrid AI, QTB, AIMM, or ZAGA creates product output.
-2. Botmad turns output into tasks, documents, summaries, checklists, or follow-up packages.
-3. User reviews the result.
-4. Sensitive actions stay permission-controlled.
-5. Work summaries support reporting where appropriate.
-
-This helps FUZE show that product information can become real work output.
-
-### Use Case 5: Specialized Product Expansion
-
-FUZE expands QTB, AIMM, AIE, and ToolGrid AI after boundaries are ready.
-
-The workflow can include:
-
-1. Product team defines the product scope.
-2. Product boundary paper explains risks.
-3. Platform Credit relationship is defined.
-4. AI workflow and reporting model are tested.
-5. Public-safe language is reviewed.
-6. Product expands to more users where ready.
-
-This prevents specialized products from becoming vague or risk-heavy.
+The foundation is not a separate infrastructure launch that must be completed in full before any product test. It is a controlled set of reusable capabilities developed alongside active workflows.
 
 ---
 
-## 7. Platform Credits and Product Usage
+## 5. Practical AI SaaS Wave
 
-Platform Credits are product usage credits for supported FUZE products and services.
+HerHelp is the primary business-facing launch path. Its modules can begin with narrow tasks that are easy to explain, test, and support.
 
-During launch, Platform Credits can support:
+| Product | Suitable early scope | Evidence for expansion |
+|---|---|---|
+| SheetLayer AI | A bounded sheet inspection, mapping, or report workflow | Data-quality tests, permission results, useful sample outputs |
+| ShopOS AI | A selected operator workflow or AI-assisted shop report | Operator trial, device behavior, correction and support records |
+| SpeakShop AI | Script or announcement preparation for a defined format | Reviewed output samples, language handling, campaign feedback |
+| TrainLayer AI | Source-to-guide, quiz, or onboarding module | Reviewer evaluation, source traceability, learner-use feedback |
+| CommunityLayer AI | Summary, support-draft, or moderation-assistance workflow | Admin trial, escalation behavior, privacy and review evidence |
 
-- HerHelp AI workflows
-- SheetLayer AI reports and dashboards
-- ShopOS AI operating workflows
-- SpeakShop AI scripts and sound-pack content
-- TrainLayer AI guides and quizzes
-- CommunityLayer AI summaries and reports
-- ZAGA game-related reports, event tools, or utility surfaces where supported
-- QTB market intelligence reports
-- AIMM liquidity operations reports
-- AIE event briefings and recaps
-- ToolGrid AI listings and sponsored visibility setup
-- Botmad work-assistance sessions
+The modules do not need to launch simultaneously. The first candidate should combine clear user value with manageable data, support, and integration requirements.
 
-Platform Credits help users understand product usage.
+### Entry gate
 
-They are separate from FUZE token.
+The module has a named user, source data, expected output, owner, and bounded product claim.
 
-They do not create token ownership, governance rights, income rights, profit-share rights, wallet-based participation claims, or payout rights.
+### Exit evidence
 
-Launch communication should keep Platform Credits in the product usage category.
+Users can complete the workflow, reviewers can assess the output, and operators can support it under the selected release level.
 
 ---
 
-## 8. FUZE Platform and Token Relationship
+## 6. Game and Community Wave
 
-FUZE token is the single ecosystem token.
+ZAGA provides a distinct game and community track. ZAGA Arena and ZAGA Districts remain separate products with different test needs.
 
-The launch sequence connects products to token utility carefully.
+### ZAGA Arena
 
-Product launch can create:
+Arena progression should prioritize the playable session: entry, movement or combat, boss and collection mechanics, run completion, scoring, and results. Multiplayer, Telegram integration, events, leaderboards, and other features expand after the core loop is testable and observable.
 
-- product usage
-- user feedback
-- product records
-- public-safe reports
-- community activity
-- game activity
-- sponsored visibility activity
-- event activity
-- market intelligence outputs
-- work-assistance outputs
-- product revenue direction where generated and reconciled
+Useful evidence includes session completion, defects, latency, balance observations, abuse reports, and player feedback.
 
-These can support token utility context over time.
+### ZAGA Districts
 
-They do not guarantee token price, token demand, payout, income, liquidity, listing, yield, profit, exit, or investment return.
+Districts requires a community and persistence path: city creation or membership, roles, NPC or building systems, shared decisions, records, and economy testing. Its longer-lived state and community authority need different controls from an Arena run.
 
-FUZE token utility can become more meaningful as products create real activity, but token utility should remain separated from product usage payments and Platform Credits.
+Useful evidence includes community onboarding, state consistency, permission behavior, economy review, moderation load, and repeat participation.
 
-Wallet-based participation ability, if activated, belongs to a separate token-related framework and remains gated by legal, accounting, treasury, audit, reporting, smart-contract, and jurisdiction readiness.
+### Supporting products
+
+CommunityLayer AI or AIE can support administration and event reporting when a defined workflow is ready. Their involvement should be treated as a product integration, not assumed from ecosystem proximity.
+
+Game values and mechanics should remain clearly labeled. Any FUZE token-connected feature follows the product-to-token utility process and its current activation status.
 
 ---
 
-## 9. Data, AI, Privacy, and Permission Controls
+## 7. Cross-Product Assistance Wave
 
-Launch sequencing must protect data, AI, privacy, and permissions from the beginning.
+Botmad can connect FUZE outputs to practical desktop work, but its launch order depends on permission and review maturity.
 
-Important controls include:
+An early Botmad release should use bounded tasks such as:
 
-- account and workspace identity
-- role-based product permissions
-- Platform Credit usage records
-- AI usage metering where supported
-- payment and billing controls
-- public-safe reports
-- sensitive data handling
-- wallet-based record separation
-- private identity protection
-- public product boundary language
-- approval workflows for sensitive AI output
-- review paths for market, liquidity, token, investor, legal, sponsor, partner, customer, and file-sensitive content
+- preparing a document from an approved workspace
+- turning a reviewed report into a checklist
+- organizing a defined set of permitted files
+- drafting a support response for human approval
+- compiling follow-up actions from an event or product summary
 
-Each product launch should define what data it touches and how that data is controlled.
+### Entry gate
 
-Examples:
+The task has permitted sources, an action boundary, a maximum scope, and a responsible reviewer.
 
-- ShopOS AI handles shop, customer, staff, stock, and payment-related workflows.
-- CommunityLayer AI handles community messages, moderation notes, and verification support.
-- ZAGA handles game activity, profiles, leaderboards, and community records.
-- QTB handles market research notes and watchlists.
-- AIMM handles exchange, liquidity, provider, and treasury-related notes.
-- AIE handles event, attendee, sponsor, partner, and workspace preference data.
-- ToolGrid AI handles sponsor, advertiser, campaign, listing, and moderation data.
-- Botmad handles files, documents, tasks, support drafts, and workspace workflow records.
+### Exit evidence
 
-Public launch should move faster where privacy and permission controls are clearer.
+Logs show what sources were used, the output can be reviewed, sensitive actions require approval, and failures can be stopped or corrected.
 
-Risk-sensitive products should launch with stronger review paths.
+Actions involving credentials, external sending, publishing, deletion, financial operations, or broad file access require stronger controls than draft preparation.
 
 ---
 
-## 10. Reporting and Transparency Direction
+## 8. Specialized Product Wave
 
-Public reporting helps FUZE show progress without relying on hype.
+The specialized products should launch through focused pilots rather than a single combined release.
 
-Launch reporting can include:
+### QTB
 
-- product status updates
-- public roadmap summaries
-- Platform Credit usage records where supported
-- product usage summaries
-- HerHelp workflow summaries
-- ZAGA game activity summaries
-- Botmad work-assistance summaries
-- QTB market report usage summaries
-- AIMM operations report summaries
-- AIE event intelligence summaries
-- ToolGrid AI visibility summaries
-- AI usage class summaries where supported
-- public-safe wallet references where useful
-- public documentation updates
+QTB can begin with a bounded research or market-context report using identified sources and periods. Expansion requires source handling, reviewer feedback, correction paths, and clear separation from trading instruction.
 
-Reporting should explain what is active, what is supported, and what remains product direction.
+### AIMM
 
-Reporting should not be presented as proof of guaranteed product revenue, user growth, token demand, price movement, liquidity, listing, payout, or investment return.
+AIMM can begin with controlled operational analysis or reporting for authorized users. Venue data, provider information, treasury context, and market-sensitive records require restricted access and specialist review.
 
-The launch sequence uses reporting as a trust layer, not a hype layer.
+### AIE
+
+AIE can begin with event discovery, a planning brief, or a post-event recap for a selected organizer or workspace. Expansion evidence can include relevance, planning usefulness, organizer feedback, and reporting quality.
+
+### ToolGrid AI
+
+ToolGrid AI can begin with curated discovery and reviewed listings. Sponsored placement follows labeling, destination review, campaign controls, billing, moderation, and reporting readiness.
+
+The order among these products can change as prototypes and partners produce evidence. Market sensitivity, data dependency, support burden, and external-provider reliance should influence prioritization.
 
 ---
 
-## 11. Product Boundary
+## 9. Platform Credit and Commercial Timing
 
-FUZE Product Launch Sequence explains launch priority and readiness direction.
+A product can test a workflow before final commercial packaging, but broader paid use requires:
 
-It is not a guaranteed launch-date roadmap, token listing plan, revenue forecast, investment recommendation, exchange plan, legal conclusion, or payout policy.
+1. a defined service or consumption unit;
+2. a visible price, credit amount, allowance, or quote basis;
+3. payment or grant confirmation where applicable;
+4. a completion rule;
+5. a usage and balance record;
+6. refund, reversal, and support handling;
+7. reconciliation and current terms.
 
-Product launch does not guarantee:
+Platform Credits should attach to services users recognize. Product teams should avoid metering ordinary clicks merely because a common credit rail exists.
 
-- product adoption
-- product revenue
-- user growth
-- community growth
-- customer acquisition
-- AI accuracy
-- game earnings
-- market results
-- liquidity
-- listing
-- token demand
-- token price
-- payout
-- income
-- yield
-- profit
-- exit
-- investment return
-
-The launch sequence is a public readiness logic.
-
-Detailed product, AI, token, wallet, legal, market, liquidity, investor, privacy, and disclosure boundaries belong mainly in dedicated papers such as:
-
-- `CORE-PLATFORM-PAPERS/05-FUZE_PUBLIC_ROADMAP_AND_PRIORITY_PUBLIC.md`
-- `AI-SAAS-PRODUCT-PAPERS/16-FUZE_PRODUCT_RISK_BOUNDARIES_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/03-FUZE_ONE_TOKEN_MODEL_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/04-FUZE_TOKEN_UTILITY_MODEL_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/07-FUZE_WALLET_BASED_PARTICIPATION_MODEL_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/29-FUZE_TOKEN_RISK_BOUNDARIES_PUBLIC.md`
-- `INVESTOR-PARTNER-PAPERS/14-FUZE_PRODUCT_STATUS_AND_EVIDENCE_MATRIX_PUBLIC.md`
-- `WHITEPAPER-PAPERS/05-FUZE_RISK_AND_DISCLOSURE_APPENDIX_PUBLIC.md`
-
-This keeps this paper focused on launch sequence while deeper review remains in the correct documents.
+The [FUZE Product to Platform Credits](18-FUZE_PRODUCT_TO_PLATFORM_CREDITS_PUBLIC.md) defines the cross-product consumption lifecycle. Product revenue readiness has its own gate in [FUZE Product Revenue Readiness](21-FUZE_PRODUCT_REVENUE_READINESS_PUBLIC.md).
 
 ---
 
-## 12. Key Takeaways
+## 10. Reporting the Sequence
 
-- FUZE Product Launch Sequence explains public launch priority and readiness logic.
-- FUZE uses product-first execution.
-- Product usage comes first.
-- Shared platform rails come second.
-- Broader ecosystem participation comes after that.
-- Public documentation creates language clarity before larger expansion.
-- HerHelp.com is a primary practical AI SaaS launch focus.
-- ZAGA.io is a primary game and community ecosystem launch focus.
-- FUZE Core Platform rails connect identity, Platform Credits, payments, AI orchestration, workspaces, permissions, reporting, and wallet-based records.
-- Botmad adds permission-controlled AI work assistance across product outputs.
-- QTB, AIMM, AIE, and ToolGrid AI expand as specialized product surfaces when workflows, boundaries, and evidence are ready.
-- Platform Credits support product usage and remain separate from FUZE token.
-- FUZE token is the single ecosystem token.
-- Stablecoins support payment, settlement, treasury, and compensation rails.
-- Wallet-based participation ability remains activation-gated.
-- Launch sequence does not guarantee launch dates, revenue, growth, token demand, token price, listing, liquidity, payout, income, yield, profit, exit, or investment return.
+A launch update should contain:
+
+- product and module
+- previous and current status
+- audience and access scope
+- evidence completed
+- known operating limits
+- next dependency
+- support or correction route
+
+Useful reporting emphasizes observable change. A tested onboarding flow, completed operator pilot, reconciled credit action, or issued public-safe report is more informative than a broad statement that development continues.
+
+Product usage, support volume, completion, reliability, and retention evidence can guide the next release decision. These measures should be interpreted within the size and duration of the release rather than presented as proof of wider adoption.
+
+---
+
+## 11. Reprioritization and Pauses
+
+The sequence can change when:
+
+- user testing reveals a stronger or weaker problem;
+- a shared dependency blocks several products;
+- data, security, or permission risk increases;
+- operating cost or support demand changes materially;
+- a provider or partner dependency changes;
+- another product produces stronger readiness evidence;
+- a product needs redesign, pause, replacement, or retirement.
+
+A priority change should record the reason, affected product, evidence, owner, and next review point. Public communication is appropriate when published access, scope, or status changes.
+
+---
+
+## 12. Public Boundary
+
+This sequence communicates current priority logic and release dependencies. It does not establish fixed delivery dates or represent design-stage products as available.
+
+External services, technical findings, user evidence, partner readiness, security review, and applicable legal or market requirements can alter order and scope. Token utility, wallet participation, and market access retain their dedicated activation and communication rules.
+
+---
+
+## Conclusion
+
+FUZE launches products by completing usable journeys and widening access only when the supporting controls and evidence are ready.
+
+HerHelp leads the practical AI SaaS path, ZAGA follows its game and community test tracks, Botmad depends on bounded authority, and specialized products expand through domain-specific pilots. The order remains adaptable, but every stronger public status must be earned by the named product and release scope.

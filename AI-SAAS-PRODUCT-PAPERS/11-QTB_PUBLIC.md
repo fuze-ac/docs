@@ -2,666 +2,307 @@
 
 ## Executive Summary
 
-QTB — Quant AI Trade Brain is the AI trading intelligence and market interpretation support product under FUZE.
+QTB, or Quant AI Trade Brain, is the FUZE product for AI-assisted market interpretation and research workflow. It helps users organize selected market data, public information, watchlists, chart context, token research, and private notes into structured outputs with timestamps, sources, assumptions, and uncertainty.
 
-QTB is designed to help traders, analysts, crypto-native operators, communities, and market-aware teams move from raw market data and fragmented signals toward clearer interpretation, stronger research workflows, and more structured decision support.
+QTB can support a daily review, project research, a watchlist update, a trading-journal reflection, an educational explanation, or a public-safe market brief. Its purpose is to improve research discipline and decision context rather than direct a user to buy, sell, hold, or execute a trade.
 
-QTB is not positioned as another generic charting tool, passive analytics dashboard, signal-selling service, or wide-open autonomous trading agent.
-
-It is designed to become an intelligence layer for market understanding.
-
-FUZE is a product-first AI SaaS and Web3 ecosystem. QTB gives FUZE a specialized market-intelligence product surface that can support research, reporting, education, community updates, watchlist intelligence, risk-aware communication, and workflow-supported market review.
-
-QTB is strategically important inside FUZE because it expresses the platform’s crypto-native and AI-native identity in a commercially legible product. It shows how FUZE can use AI orchestration, Platform Credits, reporting, workflow infrastructure, and human review to create a high-value product that is useful beyond abstract platform infrastructure.
-
-QTB’s simple product logic is:
-
-market data and signals in → AI-assisted interpretation and synthesis → clearer decision context out
-
-Platform Credits support product usage.
-
-FUZE token is the single ecosystem token of FUZE.
-
-Stablecoins support payment, settlement, treasury, and compensation rails.
-
-Wallet-based records can support public-safe transparency where useful while private research notes, trading journals, user records, team records, and sensitive market-operation notes stay permissioned where required.
-
-QTB’s public role is simple: help users think better and faster in crypto markets without turning AI interpretation into trading instructions.
+The product remains separate from AIMM. QTB interprets and documents market information; AIMM addresses supervised liquidity-operations workflows. Neither product removes the need for authorized human review.
 
 ---
 
 ## 1. Product Purpose
 
-QTB exists to help users organize and understand market information.
+Crypto-market information arrives through charts, exchange data, news, project announcements, social discussion, onchain sources, and personal notes. The difficulty is often establishing what is current, relevant, comparable, and sufficiently supported.
 
-The product purpose is to turn scattered market data, public news, watchlists, token context, trading notes, sentiment signals, and research inputs into readable intelligence outputs.
+QTB gives users a repeatable way to:
 
-QTB can help users create:
+- define a research question;
+- select sources and timeframes;
+- organize facts, observations, and assumptions;
+- compare conflicting indicators;
+- identify missing information;
+- record scenarios and invalidation conditions;
+- maintain a watchlist or journal;
+- prepare a reviewable report; and
+- route follow-up research to the appropriate person.
 
-- market summaries
-- token research notes
-- asset watchlist summaries
-- trading journal summaries
-- public news summaries
-- narrative tracking reports
-- chart commentary drafts
-- volatility context notes
-- risk observation notes
-- market event summaries
-- opportunity and condition notes where supported
-- alert and watchlist intelligence where supported
-- portfolio-context notes where supported
-- educational explanations
-- decision-support reports
-- research templates
-- public-safe market reports
-
-QTB helps users think more clearly about market context.
-
-The product is designed around interpretation, structured synthesis, research support, signal clarity, and workflow-enhanced intelligence.
-
-Its strongest identity is not “AI for trading” in a vague sense.
-
-Its strongest identity is **bounded AI trading intelligence for structured market understanding**.
-
-QTB should return finished intelligence rather than generic chat, while avoiding the risk profile of an uncontrolled autonomous trading agent.
+The output is intended to support thinking. A polished summary should not hide source limitations or transform uncertainty into certainty.
 
 ---
 
-## 2. Who This Product Helps
+## 2. Intended Users
 
-QTB helps market-aware users, teams, and communities that need clearer research workflows.
-
-| User Type | Market Need | How QTB Helps |
-|---|---|---|
-| Crypto users | Understand public market context | Creates summaries, watchlist notes, and risk observations |
-| Traders | Organize notes and review decisions | Structures journals, scenarios, and review questions |
-| Analysts | Prepare structured market notes | Organizes asset context, narrative shifts, and risk points |
-| Crypto-native operators | Track market conditions and communication risks | Summarizes narratives, volatility, liquidity context, and public data |
-| Web3 founders | Understand token narratives and market environment | Produces sector notes and strategic market-context summaries |
-| Community managers | Explain market movement without giving trading advice | Creates public-safe community market updates |
-| Content creators | Create educational market explainers | Drafts neutral market context and glossary sections |
-| Product teams | Understand market conditions around launch or communication | Supports market environment summaries |
-| FUZE ecosystem readers | Understand QTB’s role in the product family | Separates QTB from AIMM, tokenomics, and financial advice |
-
-QTB is especially useful for users who do not suffer from a lack of information.
-
-They suffer from a lack of structured intelligence.
-
-QTB is built for that gap.
-
----
-
-## 3. User Problem and Market Context
-
-Crypto markets are noisy, fragmented, fast-moving, and cognitively expensive.
-
-Users face recurring problems:
-
-- too many signals from too many sources
-- inconsistent interpretation quality
-- weak research structure
-- slow manual synthesis
-- difficulty separating signal from noise
-- scattered watchlists
-- confusing token information
-- weak trading journals
-- no consistent research format
-- no clear risk notes
-- no summary of why a market move happened
-- overreliance on social media opinions
-- poor continuity between intelligence, workflow, and action
-- misunderstanding of AI-generated market commentary
-- confusion between research support and financial advice
-
-Most traders and market-aware users do not lack data.
-
-They lack a reliable structure for turning data into useful market understanding.
-
-Traditional market tools often stop at:
-
-- chart display
-- raw metrics
-- alert feeds
-- loosely connected dashboards
-
-They leave the hardest work to the user:
-
-- interpret the environment
-- compare signals
-- decide what matters
-- document the logic
-- repeat the cycle under time pressure
-
-QTB addresses these problems by creating a clearer intelligence workflow.
-
-The broader market is also moving toward AI-assisted, real-time, workflow-aware systems. As more data and commentary become available, the higher-value layer is trusted synthesis rather than raw access.
-
-QTB is designed for this environment.
-
-It is smarter than static analytics, more structured than generic chat, and more disciplined than broad autonomous agents.
-
----
-
-## 4. Product Model
-
-QTB has eight main product layers.
-
-| Layer | Role |
+| User | Relevant QTB workflow |
 |---|---|
-| Market Summary Layer | Summarizes market movement, news context, and public market narratives |
-| Signal Interpretation Layer | Helps interpret market conditions, signals, context, and changing narratives |
-| Watchlist Layer | Organizes selected assets, notes, changes, and user-defined tracking points |
-| Research Layer | Produces token, sector, project, or asset research summaries |
-| Journal Layer | Helps users organize trading notes, post-trade reflections, and decision history |
-| Risk Note Layer | Highlights uncertainty, volatility, data gaps, and user-defined risk observations |
-| Report Layer | Creates structured reports for personal review, team review, or public-safe context |
-| Integration Layer | Connects with FUZE platform rails, Platform Credits, reporting, and AI orchestration where supported |
+| Individual researcher | Daily market review, asset note, and watchlist |
+| Trader | Pre-decision checklist and post-trade journal |
+| Analyst | Structured project, token, sector, or narrative research |
+| Web3 operator | Market context for product and communication planning |
+| Community manager | Neutral public market explanation |
+| Educator or creator | Reviewed glossary, lesson, or market concept guide |
+| Team reviewer | Shared research with source and approval history |
 
-QTB is not a trading engine.
-
-QTB is not a market-making system.
-
-QTB is not a signal-selling service.
-
-QTB is an AI-supported market interpretation and research workflow product.
-
-The product starts with intelligence, interpretation, and structure.
-
-Over time, it can support richer workflows such as signal scoring, thesis documentation, alert prioritization, model-assisted summaries, collaborative research, and future action-supporting layers under bounded control.
+QTB is useful where a user already has access to information but needs clearer synthesis and a durable review process.
 
 ---
 
-## 5. Core Features
+## 3. Research Workflow
 
-### 5.1 Market Summary Generation
+### Step 1: State the question
 
-QTB can help create market summaries.
+The user defines what they are trying to understand, such as a market move, token event, sector narrative, watchlist change, or past decision.
 
-Market summaries can include:
+### Step 2: Set scope and time
 
-- daily market overview
-- weekly market overview
-- crypto sector summary
-- token category summary
-- public market news summary
-- volatility context
-- macro-related market notes where appropriate
-- exchange or liquidity context where public-safe
-- sentiment summary from selected sources where supported
-- narrative shift summary
+The task identifies assets, venues, periods, time zones, and data types. This helps prevent a short-term indicator from being presented as a long-term conclusion.
 
-Example:
+### Step 3: Add approved sources
 
-A user wants to understand why a group of tokens moved sharply. QTB can help organize public news, price-context notes, narrative changes, and risk observations into one readable market summary.
+Sources can include supported market feeds, public documents, news, user-entered notes, charts, or connected research systems. Each source should retain relevant origin and timestamp information.
 
-### 5.2 Signal Interpretation and Context Synthesis
+### Step 4: Build the context
 
-QTB can help users interpret market signals within context.
+QTB can organize:
 
-Signal interpretation can include:
+- observed data;
+- public statements;
+- user assumptions;
+- calculated or derived indicators;
+- competing interpretations;
+- known gaps; and
+- conditions that would change the current view.
 
-- price movement context
-- volume context where supported
-- volatility context
-- market narrative shifts
-- sector rotation notes
-- liquidity context
-- news and event relationship notes
-- market condition summaries
-- conflicting signal explanation
-- uncertainty and data-gap notes
+### Step 5: Generate a structured output
 
-QTB should help users understand what the environment looks like, what changed, and what remains unclear.
+The user chooses an output such as a market brief, research note, watchlist update, journal entry, scenario comparison, or educational explanation.
 
-This is different from telling users what action to take.
+### Step 6: Review
 
-### 5.3 Watchlist Intelligence
+The user verifies material facts, checks source freshness, and decides whether the output is suitable for private use, team review, or public communication.
 
-QTB can support watchlist workflows.
+### Step 7: Record and revisit
 
-Watchlist features can include:
-
-- asset list organization
-- token note summaries
-- watchlist categories
-- user-defined observation points
-- price movement context where supported
-- news notes
-- risk notes
-- narrative notes
-- catalyst notes
-- watchlist report generation
-- alert prioritization where supported
-
-Example:
-
-A user tracks AI tokens, game tokens, infrastructure tokens, and exchange tokens. QTB can help organize notes by category and summarize what changed since the last review.
-
-### 5.4 Token and Project Research Notes
-
-QTB can help organize token and project research.
-
-Research notes can include:
-
-- project overview
-- product summary
-- token utility summary
-- ecosystem summary
-- public roadmap notes
-- team and community notes where public
-- exchange and liquidity context where public
-- risk notes
-- public documentation summary
-- competitor comparison where supported
-- unanswered questions
-
-Example:
-
-A user wants to research a token before deciding whether to study it further. QTB can help summarize public information and create a checklist of areas to verify.
-
-### 5.5 Chart Commentary Drafting
-
-QTB can help users write chart commentary.
-
-Chart commentary can include:
-
-- price trend notes
-- support and resistance observations
-- volume context where supported
-- volatility notes
-- momentum observations
-- invalidation notes
-- scenario notes
-- timeframe separation
-- neutral technical summary
-
-QTB should use careful wording.
-
-A useful QTB style is:
-
-“Price has moved into a higher-volatility area, and users can review volume, liquidity, and broader market context before forming a view.”
-
-This is different from certainty-based prediction.
-
-### 5.6 Trading Journal Support
-
-QTB can help users maintain a trading journal.
-
-Trading journal support can include:
-
-- trade thesis notes
-- entry reason notes
-- exit reason notes
-- emotional state notes
-- risk plan notes
-- mistake summaries
-- post-trade review
-- pattern recognition
-- weekly review
-- lesson extraction
-- strategy reflection
-
-Example:
-
-A user writes a note after a trade. QTB helps turn it into a structured journal entry with decision context, risk reflection, and review questions.
-
-### 5.7 Risk Observation Notes
-
-QTB can help generate risk observation notes.
-
-Risk notes can include:
-
-- liquidity risk
-- volatility risk
-- smart-contract risk
-- regulatory uncertainty
-- token unlock risk
-- concentration risk
-- exchange access risk
-- narrative risk
-- data quality risk
-- emotional decision risk
-- leverage risk
-- project execution risk
-- market cycle risk
-
-QTB should help users identify uncertainty rather than remove it.
-
-### 5.8 Public-Safe Market Reports
-
-QTB can help create public-safe market reports for communities, projects, or internal teams.
-
-Reports can include:
-
-- market overview
-- sector overview
-- public news summary
-- watchlist context
-- volatility notes
-- risk reminders
-- educational sections
-- glossary explanations
-- community questions answered
-
-Public reports should explain context, not tell readers what to buy, sell, hold, or expect.
+QTB can retain the approved note, relevant version, and follow-up questions. Later reviews can compare what changed rather than recreate the entire context.
 
 ---
 
-## 6. Practical Workflows and Use Cases
+## 4. Core Workspaces
 
-### Use Case 1: Daily Market Review Workflow
+### Market brief
 
-A user wants a daily market review.
+A market brief can summarize selected price, volume, volatility, liquidity, macro, sector, news, and narrative context where supported. It should identify the period and avoid implying a single cause where evidence supports several possibilities.
 
-The workflow can include:
+### Watchlist
 
-1. User selects watchlist categories.
-2. QTB summarizes market context.
-3. QTB organizes public news and narrative notes.
-4. QTB highlights key risk observations.
-5. User reviews the output.
-6. User writes personal notes or decisions separately.
+Users can group assets and define what they want to observe, such as:
 
-This supports a more disciplined review routine.
+- a public event or catalyst;
+- a liquidity or volatility condition;
+- a documentation change;
+- a token release or unlock;
+- a narrative shift;
+- an exchange-access update;
+- a technical level; or
+- a project milestone.
 
-### Use Case 2: Token Research Workflow
+Watchlist alerts should explain the observed condition and source. They are prompts for review rather than trade instructions.
 
-A user wants to study a token.
+### Project and token research
 
-The workflow can include:
+A research note may organize:
 
-1. User enters token name or project.
-2. QTB summarizes public project context.
-3. QTB organizes product, utility, community, liquidity, and roadmap notes where available.
-4. QTB identifies missing information.
-5. QTB creates a research checklist.
-6. User reviews source materials independently.
+- product and user purpose;
+- token role;
+- supply and release information from approved public sources;
+- governance and control structure;
+- roadmap or status;
+- market and liquidity context;
+- community and ecosystem activity;
+- competing products;
+- open questions; and
+- material risk observations.
 
-This helps the user organize research before forming a personal view.
+QTB should link back to the supplied evidence and distinguish project statements from independently observed facts.
 
-### Use Case 3: Trading Journal Workflow
+### Chart context
 
-A trader wants to improve discipline.
+Chart commentary can describe trend, range, volume, volatility, momentum, support or resistance observations, and scenario conditions. Timeframe and data source should accompany the interpretation.
 
-The workflow can include:
+### Trading journal
 
-1. User writes trade notes.
-2. QTB structures the notes into a journal entry.
-3. QTB asks review questions.
-4. QTB highlights repeated patterns.
-5. User reviews lessons over time.
+A private journal can record:
 
-This helps users learn from their own notes.
+- thesis and evidence;
+- planned risk;
+- entry or exit rationale;
+- conditions considered;
+- emotional or behavioral notes;
+- result;
+- process errors; and
+- lessons for later review.
 
-### Use Case 4: Community Market Update Workflow
+QTB may identify repeated themes across the user's own entries. It should not make private journal content visible to a team or public audience without authorization.
 
-A community admin wants to publish a market update.
+### Educational explanation
 
-The workflow can include:
-
-1. Admin provides topics and public information.
-2. QTB creates a neutral market summary.
-3. CommunityLayer AI checks public language tone where supported.
-4. Admin reviews the report.
-5. Admin publishes a public-safe update.
-
-This helps communities communicate market context with clearer boundaries.
-
-### Use Case 5: Project Team Market Context Workflow
-
-A project team wants to understand the market environment before planning communication.
-
-The workflow can include:
-
-1. Team identifies relevant market categories.
-2. QTB summarizes public context.
-3. QTB highlights risk and narrative shifts.
-4. Team reviews liquidity, sentiment, and communication risks.
-5. Team prepares internal notes.
-
-This helps teams speak with better market awareness.
-
-### Use Case 6: Market Education Workflow
-
-A creator or educator wants to explain a market concept.
-
-The workflow can include:
-
-1. User enters a concept such as liquidity, volatility, market narrative, token unlocks, or risk management.
-2. QTB creates an educational explanation.
-3. TrainLayer AI turns the explanation into a short lesson or quiz where supported.
-4. CommunityLayer AI helps turn repeated questions into FAQ items.
-5. User reviews and publishes approved education content.
-
-This helps communities learn without turning education into trading instructions.
-
-### Use Case 7: AI-Assisted Market Operating Workflow
-
-A team wants a more structured market review process.
-
-The workflow can include:
-
-1. Team defines a watchlist and research scope.
-2. QTB summarizes market conditions.
-3. QTB identifies relevant narratives, data gaps, and risk observations.
-4. A human reviewer checks the output.
-5. The team saves the intelligence into a report or workspace.
-6. Follow-up tasks are created for research, communication, or monitoring.
-
-This shows QTB’s long-term direction as a market-intelligence operating layer under bounded control.
+The product can help explain liquidity, volatility, token releases, market structure, risk management, or another selected concept. The explanation should remain educational and identify where the subject requires specialist advice or current jurisdiction-specific information.
 
 ---
 
-## 7. Platform Credits and Product Usage
+## 5. Output Structure
 
-Platform Credits are product usage credits for supported FUZE products and services.
+A useful QTB output can include:
 
-QTB can use Platform Credits for supported functions such as:
+1. question and scope;
+2. as-of time and source set;
+3. observed facts;
+4. market or project context;
+5. relevant scenarios;
+6. conflicting signals;
+7. uncertainty and missing information;
+8. risk observations;
+9. follow-up research; and
+10. reviewer notes.
 
-- market summary generation
-- token research notes
-- watchlist summaries
-- trading journal formatting
-- risk note generation
-- news summary workflows
-- chart commentary drafts
-- public-safe market reports
-- community market updates
-- educational market guides
-- research templates
-- narrative tracking reports
-- signal interpretation summaries
-- alert prioritization where supported
-- report formatting
-- premium workflow access where supported
+This structure helps readers see the basis of an interpretation. It also makes later corrections easier when a source changes or an earlier assumption proves weak.
 
-QTB also has strong monetization logic because market intelligence is a high-value software category.
-
-Possible monetization paths include:
-
-- subscriptions
-- tiered intelligence plans
-- premium research workflows
-- advanced market summaries
-- signal and watchlist modules
-- usage-based AI analysis
-- workspace or team plans where supported
-
-Inside FUZE, QTB can operate through supported payment rails, Platform Credits, and credit-based subscriptions or usage logic.
-
-Platform Credits are separate from FUZE token.
-
-FUZE token remains the single ecosystem token of FUZE.
+QTB may use confidence or evidence labels where supported, but such labels should describe the method used. A model-generated confidence score is not a probability of profit or a guarantee that the interpretation is correct.
 
 ---
 
-## 8. FUZE Platform and Token Relationship
+## 6. Practical Workflows
 
-QTB connects to FUZE because market intelligence can support research, communication, education, product validation, and public-safe reporting across the ecosystem.
+### Daily market review
 
-QTB benefits from FUZE platform rails such as:
+A user selects a watchlist and review period. QTB organizes major observed changes, relevant public events, data gaps, and risk notes. The user adds personal conclusions separately and records questions for the next review.
 
-- identity and access
-- Platform Credits
-- supported billing and payment logic
-- AI orchestration
-- workflow infrastructure
-- data and permissions
-- reporting and transparency
-- wallet-based records where useful
-- CommunityLayer AI for public-safe market updates
-- TrainLayer AI for market education
-- AIMM for adjacent liquidity-operations context while remaining separate
-- ToolGrid AI for tool or project discovery context where appropriate
-- product-to-token utility where relevant
+### Token research
 
-QTB is more than an app screen.
+The researcher supplies a project name and approved sources. QTB prepares a source-linked note across product, token, release, governance, market, and risk topics, then identifies areas that still require verification.
 
-It implies a stronger system underneath:
+### Journal review
 
-- a market-intelligence engine
-- a reliability discipline
-- a context-control layer
-- an evaluation layer
-- a human-facing decision-support surface
+A trader imports selected private journal entries. QTB groups recurring process patterns, missed conditions, and review questions. The user determines whether any pattern is meaningful and what action to take.
 
-FUZE token is the single ecosystem token.
+### Community update
 
-QTB can help users understand public context around markets and tokens, including FUZE-related public materials where appropriate.
+A community administrator selects public sources and a narrow topic. QTB drafts neutral context with an as-of time and uncertainty notes. The administrator reviews claims and publishes only approved, public-safe material.
 
-QTB should not turn FUZE token or any market asset into a trading promise.
+### Market education
 
-Detailed token, wallet, market, investor, legal, participation, and disclosure topics belong in dedicated tokenomics, investor, whitepaper, and risk papers.
+An educator requests a plain-language explanation of a market concept. QTB prepares a draft with examples and key terms. [TrainLayer AI](./06-HERHELP_TRAINLAYER_AI_PUBLIC.md) can convert reviewed content into a learning module.
+
+### Team research handoff
+
+An analyst records the source set, findings, unresolved questions, and next review condition. Another authorized team member can continue the work without losing the original context.
 
 ---
 
-## 9. Data, AI, Privacy, and Permission Controls
+## 7. Alerts and Monitoring
 
-QTB can involve user research notes, watchlists, trading journals, project research, community market questions, and market reports.
+Where supported, QTB can monitor a user-defined condition and create a review item. Conditions may relate to price movement, volume, volatility, public announcements, scheduled events, document changes, or another available data point.
 
-Examples include:
+An alert record should show:
 
-- user watchlists
-- research notes
-- trading journal entries
-- market observations
-- public news summaries
-- token research templates
-- risk notes
-- community market questions
-- report drafts
-- internal team notes
-- user-defined alerts where supported
+- condition requested;
+- source and market venue;
+- observation time;
+- value or event detected;
+- delay or data-quality note;
+- related watchlist or research item; and
+- user action status.
 
-QTB should use privacy-aware and permission-aware design.
-
-Important data principles include:
-
-- user research notes should stay permissioned
-- trading journals should stay private unless the user chooses to share
-- community market reports should use public-safe information
-- AI-generated market commentary should be reviewed before publication
-- public reports should avoid user-specific private trading data
-- team notes and internal strategy records should stay permissioned
-- wallet-based records should stay separate from private identity records
-- sensitive market-operation notes should remain controlled
-
-QTB’s strongest AI / service / human structure is:
-
-SaaS > AI > QTB product > Human
-
-Relevant human and system roles can include:
-
-| Role Layer | Purpose |
-|---|---|
-| Prompt / Context Engineer | Keeps market prompts, data framing, signal interpretation, and output structure consistent and domain-appropriate |
-| AI Evaluation & Reliability Lead | Measures output usefulness, false-positive reduction, summary quality, interpretation reliability, and risk-aware wording |
-| AI Systems Architect | Designs reusable intelligence systems that can scale from single outputs into structured multi-step market workflows |
-| Platform Reliability Engineer | Supports model routing, observability, fallback behavior, and platform-grade performance |
-
-AI can help summarize, structure, and explain market information.
-
-Human review remains important for public communication, risk-sensitive wording, token-related language, and user decisions.
+Users should account for feed delays, outages, inconsistent venue prices, false positives, and changing market conditions. Alert delivery does not establish that an opportunity remains available when the user reads it.
 
 ---
 
-## 10. Reporting and Transparency Direction
+## 8. Public Communication
 
-QTB can support reporting in practical ways.
+QTB can help teams prepare market-context material for a community or product audience. A public brief should:
 
-Reporting can include:
+- use public or approved sources;
+- identify its as-of time;
+- distinguish facts from interpretation;
+- describe uncertainty;
+- avoid individualized advice;
+- avoid undisclosed private trading information;
+- refrain from guaranteed price, return, liquidity, or listing language; and
+- receive authorized review before publication.
 
-- daily market summaries
-- weekly market summaries
-- watchlist reports
-- token research reports
-- narrative shift summaries
-- risk observation reports
-- signal interpretation summaries
-- public-safe market updates
-- trading journal summaries for private review
-- educational market reports
-- community market FAQ updates
-- Platform Credit usage records where supported
-- product usage summaries where appropriate
-
-For users, reporting helps organize market review.
-
-For communities, reporting helps explain market context more clearly.
-
-For FUZE, public-safe reporting can help show QTB as a research and interpretation product without turning it into a trading signal service.
-
-QTB also strengthens the broader FUZE platform thesis.
-
-If FUZE can deliver a useful, monetizable, AI-powered market-intelligence product, it increases confidence in the shared stack: identity, Platform Credits, AI orchestration, workflow infrastructure, reporting, and product-specific controls.
-
-Reporting should protect private user notes, trading journals, team records, and sensitive research data.
+[CommunityLayer AI](./07-HERHELP_COMMUNITYLAYER_AI_PUBLIC.md) may assist with the separate publication and community-support workflow.
 
 ---
 
-## 11. Product Boundary
+## 9. Platform Credit Use
 
-QTB is an AI trading intelligence and market interpretation support product.
+QTB may use Platform Credits for metered processing such as:
 
-It supports market summaries, watchlists, token research notes, trading journal organization, risk observations, chart commentary drafts, educational explanations, signal interpretation, workflow-supported market review, and public-safe market reports.
+- generating a market brief;
+- comparing a watchlist period;
+- preparing a token or project note;
+- analyzing selected journal entries;
+- drafting chart context;
+- monitoring a defined condition;
+- producing a public-safe market update;
+- creating an educational explanation; or
+- formatting a team research report.
 
-QTB is separate from AIMM.
-
-QTB focuses on market interpretation and research workflows.
-
-AIMM focuses on AI market-making and liquidity operations support.
-
-QTB is not a financial advisor, investment manager, guaranteed alpha machine, black-box autonomous trading agent, or trading executor.
-
-Its best product shape is bounded intelligence: useful interpretation under clear controls.
-
-Detailed financial, market, token, legal, investor, AI, privacy, trading, and disclosure boundaries belong mainly in dedicated papers such as:
-
-- `AI-SAAS-PRODUCT-PAPERS/12-AIMM_PUBLIC.md`
-- `AI-SAAS-PRODUCT-PAPERS/16-FUZE_PRODUCT_RISK_BOUNDARIES_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/21-FUZE_LIQUIDITY_AND_LISTING_POLICY_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/22-FUZE_MARKET_PRICE_AND_DEMAND_BOUNDARY_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/29-FUZE_TOKEN_RISK_BOUNDARIES_PUBLIC.md`
-- `INVESTOR-PARTNER-PAPERS/17-FUZE_INVESTOR_RISK_DISCLOSURE_PUBLIC.md`
-- `WHITEPAPER-PAPERS/05-FUZE_RISK_AND_DISCLOSURE_APPENDIX_PUBLIC.md`
-
-This keeps the QTB paper focused on product use while deeper market, legal, token, investor, and disclosure review remains in the correct documents.
+The applicable source scope and usage basis should be visible before a chargeable task begins. Platform Credits apply to product processing and remain separate from the FUZE token.
 
 ---
 
-## 12. Key Takeaways
+## 10. Data, Permissions, and Reliability
 
-- QTB — Quant AI Trade Brain is the AI trading intelligence and market interpretation support product under FUZE.
-- QTB helps traders, analysts, crypto-native operators, communities, and market-aware teams move from fragmented signals toward clearer interpretation.
-- QTB is a research, synthesis, and decision-support workflow product.
-- QTB’s core logic is market data and signals in, AI-assisted interpretation and synthesis, clearer decision context out.
-- QTB is designed to return usable market understanding rather than generic market chat.
-- QTB is separate from AIMM.
-- QTB does not act as a trading engine or market-making system.
-- Platform Credits can support QTB product usage where supported.
-- FUZE token is the single ecosystem token of FUZE.
-- QTB can connect with CommunityLayer AI, TrainLayer AI, ToolGrid AI, AIMM context, and FUZE reporting rails where appropriate.
-- Private research notes, trading journals, user records, and sensitive team notes should stay permission-aware.
-- QTB’s strongest edge is bounded intelligence, outcome-first interpretation, reliability discipline, and platform-level reuse of orchestration, billing, and workflow systems.
-- Detailed market, financial, token, legal, investor, and disclosure boundaries belong mainly in dedicated risk and review papers.
+QTB can contain sensitive personal and organizational material, including watchlists, journals, unpublished research, communication plans, and user-defined alerts.
+
+Controls may include:
+
+- private and team workspaces;
+- source-connection authorization;
+- role-based access;
+- restricted journal visibility;
+- review before publication;
+- retention and deletion settings;
+- export controls;
+- connection revocation;
+- output-version history; and
+- correction records.
+
+Reliability depends on source coverage, freshness, market-venue differences, model behavior, prompt context, and human review. Outputs should preserve source references and surface material gaps.
+
+Wallet data is generally unnecessary for market interpretation. Any activated wallet-based access or billing record should remain separate from private research content and personal identity.
+
+---
+
+## 11. Reporting
+
+Product reporting may cover:
+
+- research tasks by type and status;
+- source availability and freshness;
+- watchlists and alert delivery;
+- report approval and publication;
+- corrections or withdrawn outputs;
+- processing errors;
+- Platform Credit usage; and
+- aggregated product activity.
+
+Private research conclusions, journal details, and user positions should not appear in public reporting. Published examples require appropriate permission and anonymization.
+
+---
+
+## 12. Product Status and Boundary
+
+QTB is presented as a developing product. Data connections, watchlists, alerts, chart support, collaborative research, journal analysis, and reporting may have different release status.
+
+QTB provides research organization and market interpretation support. It is not a broker, exchange, investment adviser, portfolio manager, trade executor, market maker, or source of guaranteed signals.
+
+[AIMM](./12-AIMM_PUBLIC.md) covers supervised liquidity-operations support. Any transition from QTB research into an operational decision requires the controls and authorization of the destination workflow.
+
+---
+
+## 13. Conclusion
+
+QTB helps users move from fragmented market inputs to a source-aware and reviewable research record. Its value lies in disciplined scope, current evidence, explicit uncertainty, and continuity across repeated reviews.
+
+The final market decision remains with the user or authorized organization, outside the QTB interpretation layer.

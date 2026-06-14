@@ -2,736 +2,238 @@
 
 ## Executive Summary
 
-Botmad is the AI Desktop Employee and AI work-execution product under FUZE.
+Botmad is the FUZE AI Desktop Employee for supervised digital work. It helps users turn a defined request into a task plan, gather authorized context, prepare documents or other artifacts, perform supported actions, route sensitive steps for approval, and retain a reviewable record of the work.
 
-Botmad is designed to help users, teams, businesses, operators, founders, creators, shops, product teams, and communities complete computer-based work through permission-controlled AI assistance.
+The product is intended for repetitive and structured tasks across documents, files, support, operations, reporting, and connected FUZE workflows. Its permissions apply to each workspace, source, tool, and action rather than granting broad access by default.
 
-Botmad behaves more like a bounded AI desktop employee than a generic assistant. It helps individuals, teams, and businesses handle repetitive, structured, and operational work more efficiently while keeping access, review, permissions, and accountability clear.
-
-Botmad is not only a chatbot.
-
-It is not only a task manager with AI added.
-
-It is not a wide-open autonomous agent.
-
-Botmad is designed to become a bounded, audit-friendly, AI-assisted work operator for structured digital work.
-
-FUZE is a product-first AI SaaS and Web3 ecosystem. Botmad gives FUZE a work-assistance product surface that can connect AI orchestration, user permissions, task workflows, files, reports, Platform Credits, review steps, workflow infrastructure, product usage records, and public-safe reporting.
-
-Botmad is strategically important because it extends FUZE from intelligence and infrastructure into practical execution support. It helps prove that FUZE is not only building products that analyze and inform, but also products that help real work get done.
-
-Platform Credits support product usage.
-
-FUZE token is the single ecosystem token of FUZE.
-
-Stablecoins support payment, settlement, treasury, and compensation rails.
-
-Wallet-based records can support public-safe transparency where useful while private files, customer records, staff records, investor materials, support tickets, workspace data, workflow records, and sensitive operational information stay permissioned where required.
-
-Botmad’s public role is simple: help users and teams get real work done with less repetitive manual effort while staying more controlled than unsafe autonomous agents.
+Botmad assists with execution but remains under user and organizational control. Sending, publishing, deleting, moving, submitting, purchasing, changing permissions, or taking another consequential action requires the authority and safeguards defined for that workflow.
 
 ---
 
 ## 1. Product Purpose
 
-Botmad exists to help users complete practical desktop and work tasks with AI support.
+Digital work is often split across messages, files, task lists, spreadsheets, support systems, and repeated manual handoffs. A general chat response may explain what to do without producing the required artifact or preserving how the work was completed.
 
-The product purpose is to give users an AI work assistant that can help with daily operational work while staying under permission controls.
+Botmad provides a controlled route for:
 
-Botmad can help users prepare, organize, summarize, draft, and execute supported workflows such as:
+- drafting and revising documents;
+- summarizing approved files or records;
+- converting notes into tasks;
+- preparing reports and handovers;
+- organizing file or project information;
+- drafting support responses;
+- creating operational checklists;
+- coordinating recurring work;
+- using connected product outputs; and
+- recording approvals, actions, and results.
 
-- document drafting
-- report preparation
-- file organization direction
-- task list generation
-- customer support draft writing
-- business checklist creation
-- internal memo drafting
-- meeting note summaries
-- product documentation support
-- spreadsheet-related workflow support
-- shop operation support
-- community support response drafts
-- investor material preparation support
-- public paper preparation support where appropriate
-- desktop workflow assistance
-- operational research summaries
-- repeated task preparation
-- admin support workflows
-- status tracking and follow-up logic
-- workflow-triggered task preparation where supported
-- approval-aware workflow chains where supported
-
-Botmad is designed for practical work, not uncontrolled autonomous decision-making.
-
-A user should be able to ask Botmad to help with a defined work task, review the output, approve next steps, and keep sensitive access controlled.
-
-The core product logic is:
-
-incoming work, tasks, and process context in → AI-assisted execution and workflow layer → clearer, faster, and more structured operational output
-
-Botmad starts from task support, workflow structure, and repetitive execution.
-
-Over time, it can deepen into richer operational environments without losing clarity.
+The objective is completed, reviewable work rather than open-ended conversation.
 
 ---
 
-## 2. Who This Product Helps
+## 2. Intended Users
 
-Botmad helps users and teams who need AI assistance for real work, not only conversation.
-
-| User Type | Work Need | How Botmad Helps |
-|---|---|---|
-| Founders | Daily plans, reports, investor notes, documentation, and follow-up | Turns notes into tasks, drafts, checklists, and summaries |
-| Small business owners | Shop reports, staff checklists, customer messages, and daily operations | Connects with ShopOS AI, SheetLayer AI, SpeakShop AI, and HerHelp workflows |
-| Operators | Repeatable workflows, handovers, internal reports, and task routing | Creates structured operational outputs |
-| Product teams | Documentation, release notes, roadmap summaries, and user support drafts | Turns source notes into usable product documents |
-| Customer support teams | Replies, templates, escalation notes, and support summaries | Drafts consistent support responses under human review |
-| Community admins | Announcements, moderation tasks, support replies, and weekly reports | Converts CommunityLayer AI summaries into operational tasks |
-| Event teams | Agendas, follow-ups, sponsor notes, and event reports | Connects with AIE to produce event documents and checklists |
-| Web3 teams | Market notes, public updates, support docs, and investor materials | Works with QTB, AIMM, ZAGA, and public reporting workflows |
-| Creators | Content plans, scripts, summaries, and publishing checklists | Turns ideas into structured creative outputs |
-| Documentation teams | Public papers, internal guides, FAQs, and handover notes | Supports drafting and review workflows |
-| Workspace teams | Shared workflow execution, role-aware reviews, and recurring processes | Supports permission-aware task routing and work summaries where supported |
-
-Botmad is especially useful when a user has many small tasks spread across files, documents, messages, spreadsheets, reports, and workflows.
-
-Its role is to reduce manual work while keeping human review central.
-
----
-
-## 3. User Problem and Work Context
-
-A large amount of digital work is repetitive, fragmented, and operationally inefficient.
-
-Across startups, SMEs, internal teams, communities, creators, and digital operators, daily work still depends on:
-
-- manual copying and pasting
-- repeated checking across systems
-- follow-up loops
-- simple but frequent decisions
-- routine coordination
-- status chasing
-- process handoffs that consume human attention
-- too many small tasks
-- scattered files and documents
-- repeated support replies
-- manual report writing
-- unclear task ownership
-- slow document preparation
-- weak handover notes
-- poor file organization
-- repetitive formatting work
-- difficulty turning notes into structured documents
-- inconsistent internal checklists
-- lack of permission control for AI assistance
-- risk of AI seeing or exposing sensitive data
-- unclear responsibility when AI output is wrong
-- confusion between AI assistance and autonomous execution
-
-Traditional tools do not solve this cleanly.
-
-Dashboards show information, but they do not act.
-
-Task managers track work, but they do not execute work.
-
-Chat interfaces answer questions, but often do not behave like dependable work operators.
-
-Automation tools connect systems, but many teams still need an intelligent layer that can help structure, supervise, and complete work.
-
-Botmad addresses this gap by acting as a permission-controlled AI Desktop Employee.
-
-It helps users reduce manual work, but it keeps human review and access control central.
-
-Botmad is useful because it focuses on real work assistance, not only conversation.
-
-Its product direction is practical: help the user finish a defined work output, prepare the next step, and make review easier.
-
----
-
-## 4. Product Model
-
-Botmad has nine main product layers.
-
-| Layer | Role |
+| User | Typical Botmad work |
 |---|---|
-| Task Request Layer | Receives user-defined work requests, instructions, and objectives |
-| Permission Layer | Controls what Botmad can access, read, modify, create, or suggest |
-| Work Assistance Layer | Supports drafting, summarizing, organizing, formatting, checking, and workflow preparation |
-| Execution-Support Layer | Helps structure repetitive processes, recurring tasks, work queues, and workflow-triggered outputs where supported |
-| File and Document Layer | Helps prepare or organize documents, reports, checklists, and file workflows where supported |
-| Review and Approval Layer | Keeps human review before sensitive publication, sending, deletion, submission, or execution |
-| Workspace Layer | Supports workspace scope, role-aware work, shared records, and team workflows where supported |
-| Reporting Layer | Supports task summaries, activity reports, audit logs, and work evidence where appropriate |
-| Platform Layer | Connects with Platform Credits, AI orchestration, workflow infrastructure, product data, reporting rails, and FUZE ecosystem direction where supported |
+| Founder or manager | Plans, reports, memos, follow-up, and documentation |
+| Small business | Daily summaries, checklists, customer drafts, and records |
+| Product team | Requirements, release notes, support material, and status reports |
+| Support team | Case summaries, response drafts, escalation notes, and FAQs |
+| Community operator | Announcements, task queues, handovers, and weekly reports |
+| Event team | Agendas, partner follow-up, recaps, and action lists |
+| Documentation team | Outlines, revisions, consistency checks, and change summaries |
+| Workspace operator | Recurring processes, approvals, artifacts, and audit records |
 
-Botmad is not only an assistant UI.
-
-It is better understood as a work operating layer.
-
-The product model is built around a simple operating pattern:
-
-Ask for a task.
-
-Prepare the work.
-
-Review the result.
-
-Approve the next step.
-
-Record the output where appropriate.
-
-This makes Botmad more operations-oriented than general desktop knowledge-work assistants and more controlled than broad personal-agent products.
+Each user sees only the sources and actions allowed by the applicable account, workspace, and connected system.
 
 ---
 
-## 5. Core Features
+## 3. Task Lifecycle
 
-### 5.1 Task Execution Requests
+### Step 1: Request
 
-Botmad can help users turn requests into work actions.
+The user states the desired output, audience, deadline, source scope, and any required format or boundary.
 
-Task requests can include:
+### Step 2: Scope
 
-- create a document outline
-- summarize a file
-- prepare a checklist
-- draft a reply
-- organize notes
-- format content
-- extract action items
-- prepare a report
-- compare versions
-- generate task steps
-- prepare a workflow
-- review text for clarity
-- prepare public-safe wording
-- create handover notes
-- prepare follow-up logic
-- convert notes into next actions
+Botmad identifies the files, records, tools, and permissions needed. Missing authority or unclear instructions return to the user before sensitive work proceeds.
 
-Botmad should ask for or rely on clear task scope before taking sensitive action.
+### Step 3: Plan
 
-### 5.2 Document Preparation
+For multi-step work, Botmad prepares a plan showing inputs, proposed actions, approvals, and expected artifacts.
 
-Botmad can support document preparation workflows.
+### Step 4: Gather authorized context
 
-Document support can include:
+The product accesses only the approved source set. It should prefer the minimum context sufficient for the task.
 
-- draft creation
-- outline creation
-- report formatting
-- meeting note conversion
-- SOP drafting
-- business plan summaries
-- public paper preparation
-- investor note preparation
-- customer support templates
-- product documentation
-- training guides
-- FAQ drafts
-- status summaries
-- risk note drafting
+### Step 5: Prepare or act
 
-Botmad can help users turn rough notes into structured documents.
+Botmad can draft, summarize, classify, transform, compare, organize, or invoke a supported tool within the approved scope.
 
-### 5.3 Workflow Summaries
+### Step 6: Review and approve
 
-Botmad can help summarize workflows.
+The workflow pauses for human review where publication, communication, deletion, submission, payment, permission, or another consequential action requires it.
 
-Workflow summaries can include:
+### Step 7: Deliver the artifact
 
-- daily task summary
-- project status summary
-- customer support summary
-- shop operation summary
-- community activity summary
-- event preparation summary
-- product development summary
-- investor follow-up summary
-- file review summary
-- operational handover summary
+The user receives the document, report, checklist, updated record, or other supported output together with relevant assumptions and unresolved issues.
 
-Summaries help teams understand what happened and what needs attention.
+### Step 8: Record the run
 
-### 5.4 File Organization Direction
-
-Botmad can help users organize files where supported.
-
-File workflow support can include:
-
-- folder structure suggestions
-- file naming suggestions
-- document categorization
-- duplicate detection direction
-- version summary
-- file checklist creation
-- archive suggestions
-- project file mapping
-- data-room organization support
-- public/private file separation direction
-- sensitive file warnings
-
-Botmad should not delete, move, publish, or expose sensitive files without clear permission and appropriate safeguards.
-
-### 5.5 Customer Support Drafting
-
-Botmad can help prepare customer support drafts.
-
-Support drafts can include:
-
-- reply templates
-- refund response drafts
-- product explanation messages
-- troubleshooting steps
-- apology messages
-- escalation notes
-- FAQ answers
-- status updates
-- onboarding replies
-- payment issue responses
-- community support responses
-
-Botmad can help teams respond faster and more consistently.
-
-### 5.6 Operational Checklists
-
-Botmad can help create operational checklists.
-
-Checklist examples include:
-
-- opening checklist
-- closing checklist
-- launch checklist
-- content publishing checklist
-- product release checklist
-- investor follow-up checklist
-- community moderation checklist
-- event preparation checklist
-- customer support checklist
-- file review checklist
-- privacy review checklist
-- public language review checklist
-- data-room checklist
-- approval checklist
-- recurring process checklist
-
-Botmad can support repeatable operations by turning tasks into clear steps.
-
-### 5.7 Permission-Based Work Routing
-
-Botmad can support permission-aware routing where supported.
-
-Permission-based routing can include:
-
-- assigning tasks to team members
-- separating admin-only tasks
-- separating public and private document access
-- routing support tickets
-- routing review requests
-- escalating sensitive tasks
-- identifying required approval
-- preparing approval summaries
-- separating draft, review, and final states
-- clarifying personal versus workspace scope
-
-This is important because not every user should access every file, workflow, or action.
-
-### 5.8 Review and Approval Support
-
-Botmad can help users prepare outputs for review.
-
-Review and approval support can include:
-
-- draft state labels
-- final review summaries
-- sensitive data warnings
-- checklist-based review
-- public language review
-- approval notes
-- change summaries
-- owner assignment
-- next-step recommendations
-- handover records
-
-This helps keep Botmad useful without making it an uncontrolled autonomous agent.
-
-### 5.9 Workflow and Automation Support
-
-Botmad can support structured workflow execution where product rules and permissions allow.
-
-Workflow support can include:
-
-- recurring work queues
-- scheduled task preparation
-- workflow-scan results
-- recommendation outputs
-- operator preferences
-- workflow configurations
-- run records and execution artifacts
-- approval-aware process chains
-- team work supervision where supported
-- system-linked task assistance where supported
-
-Botmad should rely on shared FUZE workflow and automation infrastructure rather than creating hidden product-local execution systems.
+Where configured, Botmad retains task status, source references, approvals, tool actions, errors, and artifact location for later review.
 
 ---
 
-## 6. Practical Workflows and Use Cases
+## 4. Work Capabilities
 
-### Use Case 1: Founder Work Assistant Workflow
+### Documents
 
-A founder uses Botmad to prepare daily work.
+Botmad can prepare outlines, drafts, summaries, FAQs, procedures, meeting notes, status reports, release notes, handovers, and comparison documents from authorized sources.
 
-The workflow can include:
+### Files and project structure
 
-1. Founder gives Botmad a list of priorities.
-2. Botmad converts priorities into a task plan.
-3. Botmad drafts documents or summaries.
-4. Founder reviews the outputs.
-5. Botmad prepares follow-up checklists.
-6. Founder approves what to send, publish, or assign.
+Supported file work may include inventory, naming suggestions, categorization, duplicate candidates, version comparison, archive planning, and public/private separation. Destructive changes require explicit authority.
 
-This helps founders move from scattered priorities into actionable work.
+### Support and communication
 
-### Use Case 2: Customer Support Workflow
+Botmad can summarize a case, retrieve approved guidance, draft a response, identify escalation conditions, and prepare a final review package. The responsible team member controls the message sent to the customer or community.
 
-A team uses Botmad for support drafts.
+### Checklists and recurring processes
 
-The workflow can include:
+The product can convert an approved process into steps, owners, dependencies, review points, and completion records. Scheduled preparation does not remove approval requirements.
 
-1. Support messages are summarized.
-2. Botmad drafts reply options.
-3. Sensitive cases are flagged for human review.
-4. Team member edits and approves the response.
-5. Botmad prepares a support summary report.
+### Connected work
 
-This helps support teams respond more consistently.
-
-### Use Case 3: Public Documentation Workflow
-
-A product team uses Botmad to prepare public documentation.
-
-The workflow can include:
-
-1. Team provides source notes.
-2. Botmad creates a document outline.
-3. Botmad drafts a public-ready document.
-4. Public language boundaries are checked.
-5. Human reviewer approves the final version.
-6. Botmad prepares a summary of changes.
-
-This helps teams create public documents under review.
-
-### Use Case 4: Shop Operations Workflow
-
-A shop owner uses Botmad with HerHelp products.
-
-The workflow can include:
-
-1. ShopOS AI generates daily shop data.
-2. SheetLayer AI summarizes stock or sales records.
-3. SpeakShop AI creates announcement scripts.
-4. Botmad prepares the daily owner report.
-5. Botmad creates tomorrow’s task checklist.
-6. Owner reviews and approves tasks.
-
-This helps small shops turn product data into owner action.
-
-### Use Case 5: Community Admin Workflow
-
-A community admin uses Botmad with CommunityLayer AI.
-
-The workflow can include:
-
-1. CommunityLayer AI summarizes community messages.
-2. Botmad creates admin tasks.
-3. Botmad drafts announcements or support replies.
-4. Admin reviews moderation-sensitive output.
-5. Botmad creates a weekly community operations report.
-
-This helps community admins convert summaries into action.
-
-### Use Case 6: Event Follow-Up Workflow
-
-An event team uses Botmad with AIE.
-
-The workflow can include:
-
-1. AIE creates an event recap and follow-up list.
-2. Botmad turns the recap into partner emails, internal tasks, and sponsor report drafts.
-3. Team reviews sensitive sponsor or attendee information.
-4. Botmad prepares a final follow-up package.
-5. Event owner approves what to send.
-
-This helps events turn activity into organized follow-up.
-
-### Use Case 7: Workspace Process Workflow
-
-A team uses Botmad for a recurring internal process.
-
-The workflow can include:
-
-1. Workspace admin defines the process and permissions.
-2. Botmad scans approved context where supported.
-3. Botmad prepares recurring summaries and task recommendations.
-4. Team members review tasks according to role.
-5. Sensitive actions are routed for approval.
-6. Botmad records the workflow output where appropriate.
-
-This helps teams create repeatable operations without losing permission control.
+Botmad may use approved outputs from HerHelp, ShopOS AI, SheetLayer AI, CommunityLayer AI, AIE, QTB, AIMM, ToolGrid AI, or another supported FUZE product. The destination workflow receives only the context needed for its task.
 
 ---
 
-## 7. Platform Credits and Product Usage
+## 5. Permission and Approval Model
 
-Platform Credits are product usage credits for supported FUZE products and services.
+Botmad permissions can address:
 
-Botmad can use Platform Credits for supported functions such as:
+- workspace and role;
+- source file or record;
+- read, create, edit, move, delete, send, publish, or submit action;
+- connected application;
+- spending or Platform Credit limit;
+- approved destination;
+- data sensitivity;
+- task duration;
+- one-time or recurring authority; and
+- required reviewer.
 
-- task request processing
-- document drafting
-- report preparation
-- meeting note summaries
-- customer support draft generation
-- operational checklist generation
-- file organization suggestions
-- workflow summaries
-- public-safe wording support
-- review summaries
-- task routing support
-- daily work plans
-- product documentation assistance
-- event follow-up drafting
-- shop owner report preparation
-- community operations report generation
-- premium desktop assistance where supported
-- usage-based AI execution where supported
-- premium workflow modules where supported
-- advanced reporting or control features where supported
+An approval should identify the proposed action and material effect. Approval for a draft is not approval to publish it, and access to a folder is not authority to disclose its contents.
 
-Botmad has strong monetization potential because businesses are willing to pay for tools that save time and improve operational consistency.
-
-Possible monetization paths include:
-
-- subscriptions
-- seat-based pricing
-- workspace-based plans
-- usage-based AI execution
-- premium workflow modules
-- advanced automation features
-- advanced reporting or control features
-- enterprise-oriented operating tiers where supported
-
-Inside FUZE, Botmad can operate through supported payment rails, Platform Credits, shared subscriptions, usage billing, and credit-based subscription or action-based usage logic.
-
-This gives Botmad a hybrid SaaS model: recurring access plus premium execution and AI-assisted operational usage.
-
-Platform Credits are separate from FUZE token.
-
-FUZE token remains the single ecosystem token of FUZE.
+Credentials and signing secrets should remain in approved secure systems rather than task prompts or public artifacts.
 
 ---
 
-## 8. FUZE Platform and Token Relationship
+## 6. Practical Workflows
 
-Botmad connects to FUZE because many FUZE products create information that needs to become tasks, documents, summaries, reports, or operational outputs.
+### Founder briefing
 
-Botmad should be a platform-native FUZE product, not a detached AI tool.
+The founder selects approved project updates and asks for a daily brief. Botmad prepares priorities, blockers, decisions, and follow-up tasks. The founder assigns or sends items after review.
 
-Botmad can own product-specific meaning and workflow-support logic such as:
+### Customer support
 
-- workflow-scan definitions and results
-- task-assistance objects
-- run records and execution artifacts
-- recommendation outputs
-- operator preferences
-- workflow configurations
-- Botmad-specific summaries and reports
+Botmad summarizes the customer's issue, finds approved guidance, and drafts a reply. Account, refund, legal, safety, or unusual cases route to the appropriate reviewer.
 
-Botmad should rely on shared FUZE systems for:
+### Public documentation
 
-- identity and account continuity
-- workspace and organization logic
-- role and permission control
-- Platform Credits
-- subscriptions and usage billing
-- AI orchestration and model routing
-- AI usage metering
-- workflow and automation infrastructure
-- queue, worker, and scheduled-task execution
-- audit, reporting, correction, and support flows
+A product team supplies approved source material. Botmad prepares an outline and draft, flags unsupported claims, records reviewer changes, and produces a change summary. Publication remains a separate authorized step.
 
-Botmad can connect to shared platform rails such as:
+### Shop operations
 
-- identity and access
-- workspaces
-- Platform Credits
-- payments and settlement where relevant
-- AI orchestration
-- workflow infrastructure
-- queue and scheduled-task support
-- data and permissions
-- reporting and transparency
-- wallet-based records where useful
-- HerHelp for practical AI SaaS workflows
-- SheetLayer AI for spreadsheet summaries and reports
-- ShopOS AI for shop operations and owner summaries
-- SpeakShop AI for announcement scripts and campaign notes
-- TrainLayer AI for training guides and onboarding materials
-- CommunityLayer AI for community tasks and announcements
-- ZAGA for game community reports, event notes, and support summaries
-- QTB for market notes and structured reports where appropriate
-- AIMM for market operations notes and public-safe updates where appropriate
-- AIE for event documents, follow-ups, and reports
-- ToolGrid AI for listing workflows, comparison notes, and visibility reports
-- product-to-token utility where relevant
+ShopOS AI and SheetLayer AI provide approved operating summaries. Botmad creates an owner brief and next-day checklist without importing unnecessary customer or staff details.
 
-FUZE token is the single ecosystem token.
+### Community handover
 
-Botmad can help users work across FUZE product outputs, but Botmad should not turn FUZE token or any product output into a financial promise, automated authority, permission override, or execution guarantee.
+CommunityLayer AI supplies an approved queue summary. Botmad prepares assignments, response drafts, and a handover record. Moderators retain control of member-impacting action.
 
-Detailed AI, work assistance, product, privacy, token, investor, legal, and disclosure topics belong in dedicated product, investor, whitepaper, and risk papers.
+### Event follow-up
+
+AIE supplies the reviewed event recap and commitments. Botmad drafts partner follow-up, internal tasks, and sponsor-report sections for event-owner approval.
 
 ---
 
-## 9. Data, AI, Privacy, and Permission Controls
+## 7. Platform Credit Use
 
-Botmad can involve sensitive work, file, customer, business, community, investor, shop, workspace, and team data.
+Botmad may use Platform Credits for metered work such as:
 
-Examples include:
+- processing a task request;
+- summarizing selected files;
+- drafting a document or response set;
+- comparing versions;
+- generating a report or checklist;
+- preparing a recurring-work package;
+- invoking selected AI-assisted tools; or
+- producing an audit or handover summary.
 
-- documents
-- files
-- customer messages
-- support tickets
-- shop reports
-- sales summaries
-- stock records
-- community messages
-- event notes
-- investor drafts
-- private memos
-- staff tasks
-- file paths
-- review notes
-- public paper drafts
-- internal reports
-- workspace records
-- approval notes
-- workflow-scan results
-- task-assistance objects
-- run records
-- execution artifacts
-- recommendation outputs
-- operator preferences
-- workflow configurations
+External services, purchases, subscriptions, or third-party tool charges follow their own authorization and billing rules. Botmad should display the applicable product charge before a metered task begins.
 
-Botmad should use privacy-aware and permission-aware design.
-
-Important data principles include:
-
-- file access should follow user permission
-- private files should stay permissioned
-- customer and support records should remain controlled
-- investor documents should follow the correct review path
-- community moderation-sensitive content should be reviewed before use
-- AI-generated output should be reviewed before publication, sending, deletion, submission, or external use
-- public reports should use public-safe summaries
-- wallet-based records should stay separate from private identity records
-- sensitive business, staff, customer, legal, or financial data should remain permissioned
-- personal scope and workspace scope should stay clear
-- high-cost or asynchronous actions should be observable and commercially safe
-- meaningful actions should remain auditable where appropriate
-- least-context discipline should guide AI context use
-
-AI can help draft, summarize, organize, classify, and prepare work.
-
-Human review remains important for public communication, customer replies, investor materials, legal-sensitive documents, financial-sensitive content, file actions, workflow approvals, and operational decisions.
+Within Botmad, credits fund defined product processing; FUZE-token functions remain outside ordinary desktop-task execution.
 
 ---
 
-## 10. Reporting and Transparency Direction
+## 8. Data and Security Controls
 
-Botmad can support reporting in practical ways.
+Botmad can encounter files, customer records, staff data, investor material, support cases, credentials, financial information, and internal operating records.
 
-Reporting can include:
+Controls may include:
 
-- task summaries
-- daily work reports
-- workflow summaries
-- customer support summaries
-- document preparation reports
-- file organization notes
-- review and approval records
-- public-safe output summaries
-- community operations reports
-- shop owner reports
-- event follow-up reports
-- investor follow-up reports
-- run records
-- execution artifacts
-- workflow summaries
-- audit logs where appropriate
-- AI usage metering where supported
-- Platform Credit usage records where supported
-- product usage summaries where appropriate
+- least-context access;
+- workspace separation;
+- role and action permissions;
+- sensitive-field filtering;
+- temporary access;
+- approved tool and destination lists;
+- encryption and secure storage;
+- retention and deletion settings;
+- connection revocation;
+- output review;
+- incident handling; and
+- records of consequential actions.
 
-For users, reporting helps remember what work was prepared.
+Private identity and sensitive records should remain within their authorized context. Wallet data is generally unrelated to desktop work and should appear only where a separately activated workflow requires it.
 
-For teams, reporting helps create handover and accountability.
-
-For FUZE, Botmad can help show product-first AI work assistance through structured outputs, reviewed workflows, workspace records, and permission-aware task execution.
-
-Reporting should protect private files, customer data, staff data, investor records, support messages, internal reports, and sensitive workflow details.
-
-Botmad should not rely on hidden AI execution pathways or product-local workflow engines that bypass shared platform controls.
+Botmad handling follows [FUZE Data, Privacy and AI Data Handling](../CORE-PLATFORM-PAPERS/07-FUZE_DATA_PRIVACY_AND_AI_DATA_HANDLING_PUBLIC.md).
 
 ---
 
-## 11. Product Boundary
+## 9. Artifacts and Reporting
 
-Botmad is the AI Desktop Employee and work-execution assistance product under FUZE.
+A task record may show:
 
-It supports task execution requests, document preparation, workflow summaries, file organization direction, customer support drafts, operational checklists, desktop workflow assistance, review summaries, workflow support, and permission-based work routing.
+- request and requester;
+- source scope;
+- plan and status;
+- models or tools used where appropriate;
+- approvals;
+- created or changed artifacts;
+- external actions;
+- errors and retries;
+- Platform Credit usage; and
+- final reviewer or disposition.
 
-Botmad is a permission-controlled work-assistance product.
+Reporting should help users understand what Botmad did without exposing the sensitive contents of every task. Public reporting uses aggregated or non-identifying activity.
 
-It is not an uncontrolled autonomous agent.
-
-Botmad should not access, send, publish, delete, move, submit, approve, or expose sensitive material without clear permission and appropriate safeguards.
-
-Botmad should not become a shadow platform with hidden identity, billing, AI, workflow, or control systems.
-
-Its best product shape is bounded execution: workflow-aware action, stronger approvals, auditability where appropriate, workspace-aware product design, and platform-level reuse of identity, billing, orchestration, and execution systems.
-
-Detailed AI, privacy, work execution, data, product, legal, investor, token, and disclosure boundaries belong mainly in dedicated papers such as:
-
-- `CORE-PLATFORM-PAPERS/07-FUZE_DATA_PRIVACY_AND_AI_DATA_HANDLING_PUBLIC.md`
-- `AI-SAAS-PRODUCT-PAPERS/16-FUZE_PRODUCT_RISK_BOUNDARIES_PUBLIC.md`
-- `INVESTOR-PARTNER-PAPERS/07-FUZE_AI_SAFETY_AND_RELIABILITY_PUBLIC.md`
-- `INVESTOR-PARTNER-PAPERS/08-FUZE_DATA_PRIVACY_AND_PERMISSION_MODEL_PUBLIC.md`
-- `INVESTOR-PARTNER-PAPERS/17-FUZE_INVESTOR_RISK_DISCLOSURE_PUBLIC.md`
-- `WHITEPAPER-PAPERS/05-FUZE_RISK_AND_DISCLOSURE_APPENDIX_PUBLIC.md`
-
-This keeps the Botmad paper focused on work assistance and product utility while deeper review remains in the correct documents.
+Artifacts should retain ownership and access rules appropriate to the workspace. A team document should not become the private asset of the member who initiated the run.
 
 ---
 
-## 12. Key Takeaways
+## 10. Product Status and Boundary
 
-- Botmad is the AI Desktop Employee and AI work-execution product under FUZE.
-- Botmad helps users complete practical computer-based work through permission-controlled AI assistance.
-- Botmad is not only a chatbot.
-- Botmad is designed to behave more like a bounded AI desktop employee than a generic assistant.
-- Botmad supports task requests, document preparation, workflow summaries, file organization direction, customer support drafts, operational checklists, desktop assistance, review workflows, and permission-based routing.
-- Botmad’s core logic is incoming work, tasks, and process context in, AI-assisted execution and workflow layer, clearer and more structured operational output out.
-- Botmad can connect with HerHelp, SheetLayer AI, ShopOS AI, SpeakShop AI, TrainLayer AI, CommunityLayer AI, ZAGA, QTB, AIMM, AIE, ToolGrid AI, shared workflow infrastructure, and FUZE reporting rails where appropriate.
-- Platform Credits can support Botmad product usage where supported.
-- FUZE token is the single ecosystem token of FUZE.
-- Private files, customer records, staff data, investor materials, support tickets, workspace data, workflow records, and sensitive operational information should stay permission-aware.
-- AI-generated outputs should be reviewed before publication, sending, deletion, submission, or external use.
-- Botmad should stay platform-native and rely on shared FUZE systems for identity, permissions, credits, billing, AI orchestration, metering, workflow infrastructure, audit, reporting, correction, and support flows.
-- Botmad’s strongest edge is bounded execution, workflow-aware action, stronger approvals and auditability, workspace-aware design, and platform-level reuse of identity, billing, orchestration, and execution systems.
-- Botmad helps FUZE prove that the platform can support not only analysis and infrastructure, but real AI-assisted work execution.
-- Detailed risk and disclosure language belongs mainly in dedicated risk and review papers.
+Botmad is presented as a developing product. File access, connected tools, recurring tasks, action execution, approvals, and reporting may have different release status.
+
+Botmad is a supervised work-execution assistant rather than an unrestricted autonomous agent. Organizations remain responsible for decisions, legal obligations, financial approvals, employment actions, customer commitments, and the accuracy of published material.
+
+The product should fail safely when permission, source, destination, or action scope is uncertain.
+
+---
+
+## 11. Conclusion
+
+Botmad connects a clear work request to an authorized artifact or action. Its value comes from practical completion, limited access, visible approvals, and records that make the result understandable.
+
+The product becomes useful as a desktop employee only when human authority, workspace ownership, and security controls remain explicit throughout the task.

@@ -2,547 +2,238 @@
 
 ## Executive Summary
 
-ZAGA is the FUZE game and token-utility ecosystem.
+ZAGA is the FUZE game family and the product context for game-related ecosystem utility. It provides a shared route into two distinct experiences: ZAGA Arena for short battle sessions and ZAGA Districts for persistent, community-led city building.
 
-It gives FUZE a Web3-native and Telegram-ready product family where game activity, community participation, wallet-aware utility, product usage, and public-safe reporting can connect through shared FUZE platform rails.
+The family layer coordinates entry, player or community profiles, campaigns, recognition, product usage, support, and public-safe reporting. Each game retains its own mechanics, progression, records, and operating rules.
 
-ZAGA is not only a game brand.
-
-It is the product family that organizes FUZE’s game and token-utility surfaces.
-
-The ZAGA product family includes:
-
-- ZAGA as the game and token-utility ecosystem
-- ZAGA Arena as the fast battle arena game
-- ZAGA Districts as the Telegram-native cyberpunk MMORPG and community city-builder
-- ZAGA utility surfaces for wallet-aware access, community campaigns, game participation, roles, badges, reporting, and product-linked activity where supported
-
-ZAGA sits beside HerHelp inside the FUZE ecosystem.
-
-HerHelp focuses on practical AI SaaS for businesses, shops, spreadsheets, training, communities, and work assistance.
-
-ZAGA focuses on games, community participation, Telegram-native experiences, wallet-aware utility, and productized token utility.
-
-FUZE is a product-first AI SaaS and Web3 ecosystem. ZAGA supports that direction by turning token utility and community participation into product experiences that users can play, join, understand, and review.
-
-Platform Credits support product usage.
-
-FUZE token is the single ecosystem token of FUZE.
-
-Stablecoins support payment, settlement, treasury, and compensation rails.
-
-Wallet-based records can support public-safe transparency where useful while personal identity and sensitive operational records stay permissioned where required.
+ZAGA is product-led. Gameplay and community experience must stand on their own before wallet-aware access, FUZE token utility, or broader ecosystem participation becomes relevant. Game values, scores, roles, and city-economy terms should be understood according to the rules of the relevant product rather than as promises of real-world financial value.
 
 ---
 
 ## 1. Product Purpose
 
-ZAGA exists to make FUZE’s game and token-utility ecosystem easier to use and understand.
+ZAGA gives FUZE one clear public home for its game products without merging them into a single game. A user should be able to:
 
-The product purpose is to turn Web3 utility into real product surfaces instead of leaving utility as vague language.
+- understand the difference between Arena and Districts;
+- choose the experience that matches their interest;
+- view current product status and participation requirements;
+- join an approved campaign or community event;
+- manage relevant game identity and permissions;
+- see how Platform Credits can apply to defined product actions;
+- understand when wallet-aware utility is in scope; and
+- find suitable activity reports and support information.
 
-ZAGA can support:
-
-- game access and activity
-- community participation
-- wallet-aware utility where supported
-- role and badge recognition where supported
-- campaigns and quests
-- game-related community events
-- Telegram-native participation
-- public-safe activity records
-- product-linked token utility
-- Platform Credit usage for supported product actions
-- AI-assisted community and game operations
-- reporting and transparency surfaces
-
-ZAGA gives FUZE a product family that can connect games, communities, token utility, wallet records, and platform reporting.
-
-The goal is practical ecosystem participation.
-
-A user should be able to see what ZAGA is, which product they are entering, how the game or community surface works, how FUZE rails support the experience, and where deeper token or risk explanations are located.
+The family model also helps administrators and partners design game-related activities without copying gameplay rules into every campaign.
 
 ---
 
-## 2. Who This Product Helps
+## 2. Choose a ZAGA Experience
 
-ZAGA helps users, communities, and ecosystem participants who want a clearer Web3 product experience.
+| Product | Core experience | Typical session | Primary identity |
+|---|---|---|---|
+| [ZAGA Arena](./09-ZAGA_ARENA_PUBLIC.md) | Fast battle-arena play with survival, bosses, scores, strategy, and competition | Short, replayable run or event | Player and run |
+| [ZAGA Districts](./10-ZAGA_DISTRICTS_PUBLIC.md) | Persistent cyberpunk MMORPG and community city-builder | Ongoing group progression | Community, district, and role |
 
-| User Type | What They Need | How ZAGA Helps |
-|---|---|---|
-| Players | Fast, repeatable game experiences with scores, roles, badges, and community competition | ZAGA Arena provides battle arena gameplay and shareable activity |
-| Telegram communities | A game/community system that can turn group activity into participation | ZAGA Districts gives communities a cyberpunk MMORPG and city-builder surface |
-| Web3 users | Utility that feels usable rather than abstract | ZAGA connects wallet-aware access, roles, campaigns, and product experiences where supported |
-| FUZE community members | A clear way to understand token utility and community participation | ZAGA explains game and utility surfaces through public product documentation |
-| Partners | Future utility paths, campaigns, and participation systems | ZAGA can support reusable utility and campaign models where applicable |
-| Community admins | Game events, player/community updates, and public-safe summaries | ZAGA can connect with CommunityLayer AI and reporting rails where supported |
-| Product reviewers | A clearer map of how games, token utility, credits, and wallet records connect | ZAGA separates product usage, token utility, wallet records, and risk boundaries |
+Arena is action-first. Districts is coordination-first.
 
-ZAGA is especially useful for communities that want activity beyond passive announcements.
-
-It gives people something to do.
+A ZAGA campaign can reference both products, while each product retains its own progress, ownership, and status rules. Cross-product recognition must be expressly defined and supported.
 
 ---
 
-## 3. User Problem and Market Context
+## 3. Intended Users
 
-Many Web3 ecosystems struggle to explain utility clearly.
+ZAGA can serve:
 
-Common problems include:
+- players looking for accessible competitive sessions;
+- Telegram communities seeking shared game activity;
+- community organizers running approved challenges or events;
+- FUZE users exploring game-connected utility;
+- moderators and support teams assisting participants;
+- product teams reviewing game activity and feedback; and
+- partners considering a controlled game or community campaign.
 
-- token utility sounds vague
-- communities wait for future promises
-- users do not know what they can do today
-- game and token language becomes mixed
-- wallet access is difficult to explain
-- community activity is hard to measure
-- holders want visible participation, not only market discussion
-- product usage and token utility are not separated clearly
-- game rewards and financial language become confusing
-- public reporting is weak or scattered
-
-ZAGA responds to this by treating token utility and community participation as product design.
-
-That means utility should be attached to surfaces users can understand:
-
-- a game
-- a room
-- a role
-- a badge
-- a city
-- a campaign
-- a quest
-- a report
-- a community action
-- a wallet-aware access path where supported
-
-This makes ZAGA important to FUZE’s product-first direction.
-
-The broader market has moved toward experiences that are easier to join, especially through Telegram-native products, browser games, Mini Apps, community games, and wallet-aware participation systems.
-
-ZAGA fits that direction by combining games, community systems, and utility rails under one product family.
+Entry requirements can differ by product, event, age or jurisdictional considerations, technical availability, and community rules. Public materials should state the applicable requirement at the point of participation.
 
 ---
 
-## 4. Product Model
+## 4. Shared ZAGA Services
 
-ZAGA has four main product layers.
+### Product discovery
 
-| Product Layer | Role |
+The ZAGA family surface can direct users to the appropriate game, current status, supported access path, instructions, and public documentation. It should avoid presenting roadmap features as active.
+
+### Profiles and community context
+
+A user can have a game profile, community association, event record, or approved role. Districts can center the group identity, while Arena centers the player's run and competitive activity.
+
+Profile information should be limited to what the game or event needs. A public display name or game identifier should not reveal a private legal identity.
+
+### Campaigns and events
+
+ZAGA can support structured activities such as:
+
+- Arena challenges;
+- boss or seasonal events;
+- Districts quests;
+- city or faction campaigns;
+- onboarding activities;
+- community competitions;
+- partner-supported events; and
+- cross-community showcases.
+
+Every campaign should identify the product, period, entry conditions, scoring or completion basis, recognition, organizer, and reporting method. Any economic or token-related element requires its own approved terms and controls.
+
+### Recognition
+
+Supported recognition can include a badge, role, leaderboard position, campaign status, run record, district achievement, or public-safe activity reference.
+
+Recognition is contextual. A badge or role shows the condition defined by the game or campaign; it does not establish professional status, investment rights, or a guaranteed future benefit.
+
+### Support and education
+
+ZAGA can route game questions, account issues, rule clarifications, safety reports, and campaign inquiries to the responsible product or community team. Beginner material may be prepared through TrainLayer AI, and approved community operations may use CommunityLayer AI.
+
+---
+
+## 5. User Journey
+
+### Step 1: Enter the ZAGA family surface
+
+The user reviews the available games, current release status, access requirements, and relevant community channels.
+
+### Step 2: Select Arena or Districts
+
+The user chooses fast individual competition or persistent community play. The selected game's paper and interface provide the detailed mechanics.
+
+### Step 3: Establish the required profile
+
+The product creates or connects the minimum profile, community, and permission records needed for the experience.
+
+### Step 4: Review rules
+
+The user sees game controls, conduct rules, event terms, scoring definitions, data use, and any applicable product charge before participation.
+
+### Step 5: Play or coordinate
+
+Arena records a run or match according to its rules. Districts records group decisions, roles, resources, and progression according to its separate systems.
+
+### Step 6: Receive a result
+
+The product can provide a score, summary, badge, city update, event status, or other defined output. Public sharing remains subject to the user's choices and community rules.
+
+### Step 7: Review ongoing activity
+
+Players and administrators can use supported histories, leaderboards, community updates, and reports to understand the activity that occurred.
+
+---
+
+## 6. Wallet-Aware Utility
+
+Some ZAGA experiences or campaigns can use a wallet to check an expressly defined condition. Possible uses include:
+
+- entry to a controlled event;
+- recognition of an eligible FUZE-holding wallet;
+- assignment of a supported utility role;
+- a game-related claim or access step;
+- verification of an onchain campaign action; or
+- a public-safe wallet activity reference.
+
+Wallet-aware functions are activation-gated and should identify the snapshot, asset, network, rule, and review process that apply. Holding a wallet or token does not by itself create access to every game, campaign, reward, or community role.
+
+A wallet address may be visible onchain, but ZAGA public reporting must not connect it to a person's private identity. Self-custody and exchange-custody arrangements can also require different treatment because an exchange account may not provide a user with direct control of the visible holding address.
+
+Detailed wallet participation mechanics belong in the dedicated FUZE wallet and token papers.
+
+---
+
+## 7. FUZE Token and Platform Credits
+
+The FUZE token is the ecosystem token used where an approved ZAGA utility mechanism calls for it. Relevant uses can include controlled access, recognition, campaign logic, or another supported game-related function.
+
+The existence of the token does not turn game scores, simulated balances, virtual treasuries, or market-inspired terminology into redeemable assets. Each utility surface must state what the token does in that specific context.
+
+Platform Credits can meter supported ZAGA product services, for example:
+
+- creating or administering a game event;
+- generating an approved community or run summary;
+- using selected AI-assisted game-operation tools;
+- preparing a campaign report;
+- accessing a premium product function; or
+- processing another defined ZAGA service.
+
+Platform Credits remain product-consumption units and are separate from the FUZE token.
+
+---
+
+## 8. Community Operations
+
+ZAGA activities can generate support, moderation, event, and communication work. Administrator responsibilities can include:
+
+- publish current rules and status;
+- separate Arena and Districts questions;
+- review reports of abuse or unfair play;
+- coordinate event times and eligibility;
+- resolve result or record disputes;
+- manage public leaderboards;
+- prepare safety or maintenance updates; and
+- answer questions about game values and utility boundaries.
+
+[CommunityLayer AI](./07-HERHELP_COMMUNITYLAYER_AI_PUBLIC.md) may assist with approved summaries, queues, and announcement drafts. Final player-impacting and community actions remain with authorized operators.
+
+---
+
+## 9. Data and Permission Controls
+
+ZAGA can process:
+
+| Record | Examples |
 |---|---|
-| ZAGA Ecosystem Layer | Organizes the game and token-utility direction under the ZAGA brand |
-| Game Surface Layer | Includes ZAGA Arena and ZAGA Districts as separate game products |
-| Utility Layer | Supports wallet-aware access, roles, badges, campaigns, quests, holder recognition, and product-linked activity where supported |
-| Platform Rail Layer | Connects ZAGA to FUZE identity, Platform Credits, AI orchestration, payments, wallet records, reporting, data permissions, and controls |
+| Profile | Display name, account reference, preferences, and access status |
+| Game | Session, score, action, result, progression, and game-economy values |
+| Community | Group, district, role, event, moderation, and support activity |
+| Wallet | Address, network, snapshot, eligibility, and claim status where activated |
+| Campaign | Entry, task, score, badge, and completion evidence |
+| Operational | Device, error, anti-abuse, review, and correction records |
 
-The simple model is:
+Controls can include role-based access, separation by product, limited wallet linkage, anti-abuse review, retention settings, public-display choices, and correction processes.
 
-Product experience first.
+Public leaderboards and reports should use a chosen game identity or other non-identifying reference. Private account, moderation, partner, and security records remain permissioned.
 
-Utility second.
-
-Reporting and controls around both.
-
-This keeps ZAGA from becoming only a token explanation.
-
-A player can start with ZAGA Arena.
-
-A Telegram group can start with ZAGA Districts.
-
-A FUZE community member can understand how wallet-aware utility may connect later through controlled product surfaces.
-
-A partner can understand how ZAGA can become a utility activation path.
+The platform-wide data approach is described in [FUZE Data, Privacy and AI Data Handling](../CORE-PLATFORM-PAPERS/07-FUZE_DATA_PRIVACY_AND_AI_DATA_HANDLING_PUBLIC.md).
 
 ---
 
-## 5. Core Features
+## 10. Reporting
 
-### 5.1 ZAGA Ecosystem Hub
+Family-level reporting can help readers understand ZAGA without reproducing detailed game telemetry. It can include:
 
-ZAGA can act as the public game and token-utility hub for FUZE.
+- product and release status;
+- active campaigns or events;
+- participation counts with stated methodology;
+- Arena activity summaries;
+- Districts community updates;
+- badges or roles issued under defined rules;
+- Platform Credit usage;
+- wallet checks or claims in aggregated form;
+- support and correction status; and
+- links to game-specific evidence.
 
-The hub can explain:
-
-- what ZAGA is
-- how ZAGA Arena works
-- how ZAGA Districts works
-- how the two games are different
-- how Platform Credits support product usage where supported
-- how FUZE token fits into ecosystem participation
-- how wallet-aware records support public-safe transparency where useful
-- how users can follow product status, community updates, and public documentation
-
-The hub gives ZAGA one public home.
-
-### 5.2 ZAGA Arena
-
-ZAGA Arena is the fast battle arena game where players survive, fight bosses, collect USDT and Token Value, build Net Worth, and compete in Telegram-ready multiplayer arenas.
-
-ZAGA Arena is action-first.
-
-Its player loop can include:
-
-- entering an arena
-- moving, aiming, shooting, and dodging
-- fighting mobs and bosses
-- collecting game resources and drops
-- growing Net Worth as game score
-- choosing strategy options
-- competing on leaderboards
-- earning badges
-- receiving a run summary
-- sharing results with the community
-
-ZAGA Arena gives ZAGA a fast, repeatable, community-friendly game surface.
-
-### 5.3 ZAGA Districts
-
-ZAGA Districts is a Telegram-native cyberpunk MMORPG where real communities build cities, manage economies, hire NPCs, and compete for power.
-
-ZAGA Districts is separate from ZAGA Arena.
-
-ZAGA Arena is the fast battle arena game.
-
-ZAGA Districts is the community MMORPG and city-builder game.
-
-ZAGA Districts can include:
-
-- Telegram groups as cities or districts
-- community roles
-- city buildings
-- NPC workers
-- treasuries as game mechanics
-- taxes as game mechanics
-- defenses
-- quests
-- alliances
-- rivalries
-- city reputation
-- token or NFT utility surfaces where supported
-- community competition
-
-ZAGA Districts gives communities a long-term group-based game surface.
-
-### 5.4 Wallet-Aware Utility
-
-ZAGA can support wallet-aware utility where applicable.
-
-Wallet-aware utility can include:
-
-- access checks
-- eligibility status
-- role recognition
-- badge recognition
-- holder recognition
-- campaign access
-- event access
-- game-related utility
-- community participation
-- quest participation
-- public-safe records
-
-Wallet-based records can support transparency without exposing personal identity publicly.
-
-### 5.5 Community Campaigns and Quests
-
-ZAGA can support community campaigns and quests.
-
-Examples include:
-
-- play events
-- Telegram community quests
-- leaderboard challenges
-- city-building campaigns
-- holder recognition campaigns
-- partner utility campaigns
-- community contribution tasks
-- content and sharing campaigns
-- onboarding quests
-- event participation campaigns
-
-Campaigns and quests help turn community attention into action.
-
-### 5.6 Badges, Roles, and Recognition
-
-ZAGA can support badges, roles, and recognition where supported.
-
-Recognition can include:
-
-- player badges
-- community roles
-- city roles
-- event badges
-- contributor recognition
-- holder recognition
-- seasonal participation status
-- leaderboard records
-- public-safe activity summaries
-
-Recognition gives users identity inside the ecosystem without turning every activity into a financial claim.
-
-### 5.7 Reporting and Transparency
-
-ZAGA can connect to reporting rails.
-
-Reporting can include:
-
-- game activity summaries
-- community participation summaries
-- leaderboard updates
-- campaign reports
-- public-safe wallet references
-- Platform Credit usage records where supported
-- ZAGA Arena status updates
-- ZAGA Districts status updates
-- partner utility reports where applicable
-- public documentation links
-
-Reporting helps communities understand what is happening and where to read more.
+Reports should separate observed activity from targets, planned features, simulated game values, and promotional examples. A campaign result does not demonstrate future adoption, token price, income, or investment performance.
 
 ---
 
-## 6. Practical Workflows and Use Cases
+## 11. Product Status and Boundary
 
-### Use Case 1: ZAGA Arena Player Flow
+ZAGA, Arena, and Districts are presented as developing products. Release status, gameplay systems, Telegram integration, utility functions, wallet checks, events, and reporting may change through controlled product development.
 
-A player enters ZAGA Arena.
+ZAGA is not an offer of financial return. Arena's USDT, Token Value, Net Worth, Market Roles, and related terminology are game mechanics unless a separately approved utility surface expressly states otherwise. Districts treasuries, taxes, salaries, resources, and city economies are also gameplay systems.
 
-The workflow can include:
-
-1. Player joins a room.
-2. Player fights mobs and bosses.
-3. Player collects game resources.
-4. Net Worth grows as the game score.
-5. Player competes on the leaderboard.
-6. Player receives a run summary.
-7. Player shares the result with the community.
-8. CommunityLayer AI can summarize event activity where supported.
-
-This creates a fast gameplay loop that can support community participation.
-
-### Use Case 2: ZAGA Districts Community Flow
-
-A Telegram community enters ZAGA Districts.
-
-The workflow can include:
-
-1. Community creates or joins a district.
-2. Members receive community roles.
-3. The city builds structures.
-4. The city hires NPCs.
-5. Members complete quests.
-6. The city manages defenses and reputation.
-7. The community competes with rivals.
-8. Public-safe reports summarize progress where supported.
-
-This gives Telegram groups a game-based community identity.
-
-### Use Case 3: Community Campaign Flow
-
-A FUZE or ZAGA community runs a campaign.
-
-The workflow can include:
-
-1. Admin defines the campaign.
-2. ZAGA creates participation tasks.
-3. Wallet-aware checks are used where supported.
-4. Community members complete game or community actions.
-5. Badges or roles are updated where supported.
-6. CommunityLayer AI summarizes results.
-7. Public-safe reporting explains campaign activity.
-
-This helps community campaigns become more structured.
-
-### Use Case 4: Partner Utility Flow
-
-A future partner wants a clearer utility surface.
-
-The workflow can include:
-
-1. Partner defines utility goal.
-2. ZAGA maps access, role, or campaign logic.
-3. Platform Credits support product usage where supported.
-4. Wallet-aware records support eligibility where applicable.
-5. Game or community surfaces support participation.
-6. Public-safe reports summarize utility activity.
-
-This gives partner ecosystems a clearer utility activation path.
-
-### Use Case 5: Product Education Flow
-
-A new user wants to understand ZAGA.
-
-The workflow can include:
-
-1. User reads the ZAGA public paper.
-2. User chooses ZAGA Arena or ZAGA Districts.
-3. TrainLayer AI creates beginner education where supported.
-4. CommunityLayer AI collects repeated questions.
-5. Documentation and FAQs are improved over time.
-
-This helps users learn ZAGA without confusion.
+DEX-first or possible later CEX market-access discussion belongs in dedicated liquidity and market papers, not in this game-family guide.
 
 ---
 
-## 7. Platform Credits and Product Usage
+## 12. Conclusion
 
-Platform Credits are product usage credits for supported FUZE products and services.
+ZAGA gives FUZE a coherent game route while preserving two different product objectives. Arena delivers short competitive action; Districts delivers persistent community strategy.
 
-ZAGA can use Platform Credits for supported product usage such as:
-
-- game-related product actions
-- utility access checks
-- campaign setup
-- community event tools
-- AI-assisted game or community summaries
-- public-safe reports
-- role or badge workflow support where applicable
-- ZAGA Arena event tools where supported
-- ZAGA Districts city tools where supported
-- partner utility templates where applicable
-- Telegram community utility tools
-- premium product surfaces where product rules allow
-
-Platform Credits help keep product usage separate from FUZE token.
-
-A user can understand credits as usage for actions, tools, reports, campaigns, and product surfaces.
-
-FUZE token remains the single ecosystem token.
-
----
-
-## 8. FUZE Platform and Token Relationship
-
-ZAGA connects to FUZE because it creates Web3 and Telegram-native product surfaces for the ecosystem.
-
-ZAGA can connect to FUZE platform rails through:
-
-- identity and access
-- Platform Credits
-- payment and settlement rails where relevant
-- AI orchestration
-- data and permissions
-- wallet-based records where useful
-- reporting and transparency
-- governance direction where applicable
-- product-to-token utility where relevant
-- CommunityLayer AI
-- TrainLayer AI
-- Botmad
-- public documentation and risk boundaries
-
-FUZE token is the single ecosystem token of FUZE.
-
-In the ZAGA context, FUZE token can support ecosystem participation, product-connected utility, platform alignment, governance direction where applicable, and wallet-based participation ability where activated under required controls.
-
-ZAGA helps give the token product context.
-
-Detailed token allocation, release, wallet-based participation, vault, market, legal, governance, and risk topics belong in dedicated tokenomics, investor, and whitepaper papers.
-
----
-
-## 9. Data, AI, Privacy, and Permission Controls
-
-ZAGA can involve game, community, wallet, product, event, partner, and reporting data.
-
-Examples include:
-
-- player profiles
-- leaderboard records
-- badges
-- game session summaries
-- Telegram community activity
-- city or district records
-- campaign participation records
-- quest progress
-- wallet-based public references where supported
-- role and access records
-- event records
-- partner utility records
-- public-safe reports
-
-ZAGA should use privacy-aware and permission-aware design.
-
-Important data principles include:
-
-- game activity can support public-safe community records
-- personal identity should stay private in public-facing wallet records
-- community moderation or support data should stay permissioned where required
-- wallet-aware checks should be separated from private identity records
-- AI-generated reports and summaries should be reviewed before publication
-- player and community records should be handled according to product rules
-- public reporting should use approved summaries and public-safe references
-- partner or operational records should stay permissioned where required
-
-AI can support summaries, event reports, game updates, community operations, documentation, and support workflows.
-
-Human review remains important for public announcements, risk-sensitive wording, partner records, and token-related communication.
-
----
-
-## 10. Reporting and Transparency Direction
-
-ZAGA can support reporting in practical ways.
-
-Reporting can include:
-
-- ZAGA product status
-- ZAGA Arena event summaries
-- ZAGA Districts community summaries
-- leaderboard updates
-- badge and role summaries
-- campaign reports
-- quest participation summaries
-- Platform Credit usage records where supported
-- wallet-based public-safe records where useful
-- partner utility reports where applicable
-- public documentation updates
-- product evidence summaries
-- risk boundary references
-
-Reporting should help communities understand what is active, what is supported, and where deeper explanation exists.
-
-Public-facing reporting should focus on product activity, game participation, community progress, and utility status.
-
-Sensitive user identity, private partner records, operational files, and internal review notes should stay permissioned where required.
-
----
-
-## 11. Product Boundary
-
-ZAGA is the FUZE game and token-utility ecosystem.
-
-It includes ZAGA Arena and ZAGA Districts as separate game products under the ZAGA brand.
-
-ZAGA Arena reward and value language should be understood as game mechanics or controlled utility-surface language.
-
-ZAGA Districts city economies, NPCs, treasuries, taxes, defenses, and token/NFT utility are game and community mechanics.
-
-Detailed product, game, token, wallet, market, legal, investor, privacy, and disclosure boundaries belong mainly in dedicated papers such as:
-
-- `AI-SAAS-PRODUCT-PAPERS/09-ZAGA_ARENA_PUBLIC.md`
-- `AI-SAAS-PRODUCT-PAPERS/10-ZAGA_DISTRICTS_PUBLIC.md`
-- `AI-SAAS-PRODUCT-PAPERS/16-FUZE_PRODUCT_RISK_BOUNDARIES_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/03-FUZE_ONE_TOKEN_MODEL_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/07-FUZE_WALLET_BASED_PARTICIPATION_MODEL_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/29-FUZE_TOKEN_RISK_BOUNDARIES_PUBLIC.md`
-- `WHITEPAPER-PAPERS/04-FUZE_TOKEN_AND_WALLET_PARTICIPATION_ARCHITECTURE_PUBLIC.md`
-- `WHITEPAPER-PAPERS/05-FUZE_RISK_AND_DISCLOSURE_APPENDIX_PUBLIC.md`
-
-This keeps the ZAGA paper focused on the product family while deeper review remains in the correct documents.
-
----
-
-## 12. Key Takeaways
-
-- ZAGA is the FUZE game and token-utility ecosystem.
-- ZAGA gives FUZE Web3-native, Telegram-ready, game, community, and utility surfaces.
-- ZAGA Arena is the fast battle arena game.
-- ZAGA Districts is the Telegram-native cyberpunk MMORPG and community city-builder.
-- ZAGA Arena and ZAGA Districts are separate products under the ZAGA brand.
-- ZAGA can support wallet-aware utility, roles, badges, campaigns, quests, community participation, and public-safe records where supported.
-- Platform Credits can support ZAGA product usage where supported.
-- FUZE token is the single ecosystem token of FUZE.
-- ZAGA connects to FUZE platform rails through identity, credits, AI orchestration, wallet records, reporting, permissions, and controls.
-- ZAGA helps turn token utility and community participation into usable product experiences.
-- Detailed game, token, wallet, market, legal, investor, and disclosure boundaries belong mainly in dedicated risk and review papers.
+The shared family layer helps users discover the right product, join defined activities, understand game-connected utility, and review public-safe records without confusing gameplay with financial promises.

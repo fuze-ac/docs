@@ -2,367 +2,274 @@
 
 ## Executive Summary
 
-FUZE Core Platform Rails explain the shared infrastructure that connects FUZE products into one product-first AI SaaS and Web3 ecosystem.
+FUZE Core Platform Rails are reusable services that products can integrate instead of implementing common functions independently. They cover access, product usage, payments, AI orchestration, data permissions, wallet-aware records, reporting, and operational governance.
 
-FUZE builds practical products first. Those products include AI SaaS tools, shop systems, spreadsheet workflows, training layers, community operations, game products, market interpretation support, event intelligence, utility discovery, and AI work assistance.
+A rail is more than shared code. It has an owner, an interface, authoritative records, access rules, monitoring, and defined behavior when a dependency fails. Products remain responsible for their user experience and domain logic while the rail supplies a consistent platform capability.
 
-The platform rails make these products easier to connect, operate, report, and expand.
-
-The core rails include:
-
-- identity and access rails
-- Platform Credits rails
-- payment and settlement rails
-- AI orchestration rails
-- data and permission rails
-- wallet-based record rails
-- reporting and transparency rails
-- governance and control rails
-- product-to-token utility rails
-- risk and boundary reference rails
-
-These rails help FUZE avoid becoming a group of disconnected products.
-
-They also help readers understand how FUZE can grow as a platform while keeping product usage, Platform Credits, wallet records, FUZE token, stablecoins, reporting, privacy, and risk topics in the right place.
-
-FUZE token is the single ecosystem token.
-
-Platform Credits support product usage.
-
-Stablecoins support payment, settlement, treasury, and compensation rails.
-
-Wallet-based records support public-safe transparency where useful while sensitive identity stays private.
+This paper defines the public service model and integration expectations. It does not prescribe a specific vendor, network, database, model provider, or contract deployment.
 
 ---
 
-## 1. Purpose of This Paper
+## 1. What Qualifies as a Rail
 
-This paper explains the shared rails behind FUZE.
+A capability becomes a platform rail when multiple credible workflows benefit from one governed service boundary.
 
-The platform rails are the foundation that allows different FUZE products to connect over time.
+Each rail should define:
 
-Without shared rails, each product would need its own account model, payment model, credit model, AI workflow system, reporting system, privacy rules, wallet records, and platform controls.
+- the request or event it accepts;
+- the decision or result it returns;
+- the record for which it is authoritative;
+- the product and operator roles allowed to use it;
+- its availability and response expectations;
+- monitoring, reconciliation, correction, and incident behavior;
+- versioning and migration rules.
 
-With shared rails, FUZE can build products that remain unique but still connect to the same ecosystem foundation.
-
-This paper explains:
-
-- what FUZE Core Platform Rails are
-- why they matter
-- how they support products
-- how Platform Credits fit into usage
-- how payment and stablecoin rails fit into operations
-- how AI orchestration supports product workflows
-- how wallet records support public-safe transparency
-- how reporting and governance rails support trust
-- where deeper risk and disclosure topics belong
-
-This paper is a platform infrastructure paper, not a product paper and not a tokenomics paper.
+This prevents the platform from becoming a loosely connected set of helpers. A product team should know which system owns an account status, credit balance, payment classification, AI task record, permission decision, wallet reference, or published report version.
 
 ---
 
-## 2. Reader Problem This Paper Solves
+## 2. Rail Catalogue
 
-Readers may understand FUZE products one by one but still ask how they connect.
+| Rail | Authoritative responsibility | Typical product interaction |
+|---|---|---|
+| Identity and Access | Accounts, workspaces, roles, sessions, and access decisions | Authenticate a user and authorize an action |
+| Product Usage and Credits | Defined usage events, Platform Credit balances, consumption, and corrections | Quote, reserve, consume, reverse, or display usage |
+| Payment and Settlement | Payment intent, route, status, classification, and reconciliation reference | Initiate or check a supported commercial transaction |
+| AI Orchestration | Approved task, context policy, model route, execution status, and review metadata | Submit an AI task and receive a governed result |
+| Data and Permission | Data classification, consent or authority, access policy, retention, and deletion state | Check whether data can be collected, used, shared, or removed |
+| Wallet-Aware Records | Address references, supported network context, transaction evidence, and public-safe status | Associate a wallet record with an approved product or ecosystem action |
+| Reporting and Evidence | Metric definitions, report versions, source references, corrections, and publication state | Produce an internal, qualified, or public-safe report |
+| Governance and Operations | Configuration approval, release control, exceptions, incidents, and service ownership | Request or execute a controlled platform change |
 
-For example:
-
-- How does ShopOS AI connect to FUZE?
-- How does SheetLayer AI connect to reporting?
-- How does CommunityLayer AI connect to permissions?
-- How does ZAGA connect to the broader platform?
-- How do Platform Credits work across products?
-- How does wallet-based transparency fit into the system?
-- How can AI workflows be reused across different products?
-- How does FUZE keep product, token, wallet, and risk language separated?
-
-The answer is the FUZE Core Platform Rails.
-
-These rails are the shared infrastructure layer under the product ecosystem.
-
-The product is what users see first.
-
-The rails are what help FUZE connect products into a larger system.
+Token utility can call relevant rails where a defined mechanism requires them. The token itself is not a general-purpose replacement for identity, product usage, payment, or reporting services.
 
 ---
 
-## 3. FUZE Public Position
+## 3. Identity and Access Rail
 
-FUZE’s public position is product-first.
+The identity rail answers who or what is requesting an action and whether the action is allowed in the current context.
 
-The platform rails support that position.
+Its model can include:
 
-| FUZE Position | How Core Rails Support It |
+- individual, team, organization, partner, contributor, and service accounts;
+- product workspaces and memberships;
+- roles and scoped permissions;
+- session and device context;
+- account recovery and security events;
+- optional wallet association where a workflow supports it.
+
+A product sends the actor, workspace, requested action, and relevant context. The rail returns an access decision and the policy or role reference that supports it.
+
+Products should not infer sensitive authority from a public wallet address alone. A wallet may provide an address-based context, while staff roles, customer permissions, private verification, and administrative authority remain governed by their appropriate systems.
+
+When identity services are unavailable, products should fail closed for privileged or destructive actions. Limited low-risk functionality may continue only where an approved offline or cached policy permits it.
+
+---
+
+## 4. Product Usage and Platform Credits Rail
+
+The usage rail records defined product consumption. It can support usage quotes, reservations, completed consumption, reversals, corrections, bonuses, expiry rules, and balance presentation.
+
+A reliable usage event identifies:
+
+| Field | Purpose |
 |---|---|
-| Products come first | Rails help products operate without making every product rebuild the same foundation. |
-| Products connect through shared infrastructure | Rails create common systems for identity, credits, payments, AI, wallet records, reporting, and controls. |
-| Platform Credits support product usage | Credit rails help supported products connect to usage-based access or product actions. |
-| Wallet records support transparency | Wallet rails help create public-safe references where useful. |
-| FUZE token stays ecosystem-level | Token utility connects to the broader ecosystem instead of replacing product value. |
-| Public reporting supports trust | Reporting rails help organize status, metrics, report hashes, dashboards, and review direction. |
-| Risk details belong in the right place | Boundary papers hold deeper risk language so platform papers stay readable. |
+| Product and action | States what service was requested |
+| Actor or workspace | Identifies the permitted consuming context |
+| Quantity and unit | Defines the measurable usage |
+| Credit or pricing rule version | Preserves how the action was evaluated |
+| Idempotency reference | Prevents duplicate consumption during retries |
+| Outcome | Records completion, failure, cancellation, or correction |
+| Timestamp and source | Supports reconciliation and investigation |
 
-The rails are not the public story by themselves.
+Platform Credits apply to supported product actions. The rail should make balances and consumption understandable to the user and maintain separation from FUZE token records.
 
-The public story begins with products. The rails explain how those products become a connected platform.
+If the usage rail cannot confirm a balance or reservation, the product should avoid silently delivering an unrecorded billable action. A product may use an approved grace or retry policy, but the eventual result must reconcile to one authoritative record.
+
+See [FUZE Platform Credits Usage Examples](06-FUZE_PLATFORM_CREDITS_USAGE_EXAMPLES_PUBLIC.md) for product-facing scenarios.
 
 ---
 
-## 4. Platform Model
+## 5. Payment and Settlement Rail
 
-FUZE Core Platform Rails can be understood as ten connected rails.
+The payment rail coordinates supported commercial movement without assuming one route for every product or region.
 
-| Rail | Main Role |
+Its responsibilities include:
+
+- creating a payment or settlement intent;
+- selecting an approved route;
+- recording provider, network, or processor references;
+- tracking pending, completed, failed, refunded, disputed, or corrected states;
+- classifying funds for product, treasury, settlement, or compensation purposes;
+- connecting the transaction to reconciliation records.
+
+Stablecoins may be used within payment, settlement, treasury, or compensation operations. Their records should identify the actual purpose and remain distinct from Platform Credit balances and FUZE token utility.
+
+External processors, networks, wallets, marketplaces, and banks can introduce delayed or conflicting states. The rail should preserve the external reference, avoid duplicate fulfillment, and expose a review path for exceptions. A user-facing product should show a pending state instead of treating an unconfirmed event as final.
+
+---
+
+## 6. AI Orchestration Rail
+
+The AI rail gives products a controlled way to request generation, analysis, interpretation, moderation assistance, summarization, or other approved model tasks.
+
+An AI task can include:
+
+- product and task class;
+- authorized input and context references;
+- data sensitivity and retention policy;
+- model or provider policy;
+- cost or usage limit;
+- output format and validation;
+- human-review requirement;
+- safety, quality, and escalation rules.
+
+The rail returns the task status, output or error, model-route metadata appropriate for operations, usage record, and review state. Product teams remain responsible for deciding how the result is presented and what human action follows.
+
+Sensitive prompts, customer records, credentials, private partner material, or regulated data require the corresponding permission and provider controls. Market, legal, financial, safety, identity, and high-impact operational outputs should not bypass required human review.
+
+Fallback behavior may route to another approved model, reduce functionality, queue the task, or ask the user to retry. It should not change data handling or quality claims without notice.
+
+---
+
+## 7. Data and Permission Rail
+
+The data rail applies policy to information as it moves through products and shared services.
+
+It can maintain:
+
+- data categories and sensitivity labels;
+- collection purpose and authority;
+- workspace, user, and partner access rules;
+- AI-use permissions;
+- geographic or contractual restrictions where applicable;
+- retention and deletion schedules;
+- export, correction, and audit events.
+
+Permission is evaluated for the requested use, not merely for possession of the data. Information collected to complete a shop order, for example, should not automatically become AI training context, public reporting material, or partner data.
+
+Products should minimize transferred data and prefer references or scoped fields over complete records. Logs and reports need their own redaction and retention treatment.
+
+The [FUZE Data Privacy and AI Data Handling](07-FUZE_DATA_PRIVACY_AND_AI_DATA_HANDLING_PUBLIC.md) paper provides the deeper public policy.
+
+---
+
+## 8. Wallet-Aware Record Rail
+
+The wallet rail supports address-based records when a product or ecosystem mechanism has a defined reason to use them.
+
+Possible records include:
+
+- supported network and wallet address references;
+- transaction or contract references;
+- product-connected access status;
+- snapshots or vault references for an approved mechanism;
+- public report links and correction states;
+- eligibility or claim status where an activated framework requires them.
+
+The rail should separate public-safe evidence from private verification. Public systems may show an address and status without publishing the person's name, contact data, documents, customer history, or other sensitive records.
+
+Network, contract, and transaction references require validation. Unsupported networks, malformed addresses, conflicting custody records, or incomplete confirmations should produce an explicit exception rather than an assumed match.
+
+Detailed token-related eligibility and participation mechanics belong in the dedicated wallet papers. This rail only defines the shared record capability.
+
+---
+
+## 9. Reporting and Evidence Rail
+
+The reporting rail converts governed source events into reviewable information.
+
+It manages:
+
+- metric definitions and source ownership;
+- aggregation and privacy rules;
+- reporting periods;
+- draft, reviewed, published, superseded, and corrected versions;
+- source references or hashes where useful;
+- access levels for internal, partner, investor, community, or public reports.
+
+A public metric should be traceable to a definition and source period. Corrections should preserve the earlier version, reason, reviewer, and effective replacement where appropriate.
+
+Reporting should distinguish observed results from targets, examples, projections, and roadmap direction. A dashboard is a presentation surface; it is not the authoritative source unless the reporting model explicitly makes it one.
+
+See [FUZE Transparency and Reporting Rails](09-FUZE_TRANSPARENCY_AND_REPORTING_RAILS_PUBLIC.md).
+
+---
+
+## 10. Governance and Operations Rail
+
+Shared services require controlled change because one modification can affect several products.
+
+The governance rail can cover:
+
+- service ownership and escalation;
+- configuration and policy approval;
+- release review and rollback;
+- access exceptions;
+- incident declaration and response;
+- dependency and vendor review;
+- schema or interface versioning;
+- security, privacy, finance, and legal sign-off where required.
+
+Low-risk operational changes may use delegated authority. Sensitive changes involving funds, permissions, public status, wallet logic, contracts, or disclosures need the approvals appropriate to their impact.
+
+Every rail should publish an operational contact, health indicators, known dependency status, and a process for product teams to report issues.
+
+---
+
+## 11. Integration Pattern
+
+A product integration follows a controlled lifecycle:
+
+1. Define the workflow and identify the rail dependency.
+2. Agree on request, response, record ownership, and error states.
+3. Map roles, permissions, data, and reporting requirements.
+4. Test normal, duplicate, delayed, denied, and failed requests.
+5. Establish monitoring, reconciliation, support, and incident ownership.
+6. Release to an approved scope.
+7. Review service quality and migrate versions deliberately.
+
+The product should retain enough local context to explain the user experience, while the rail remains authoritative for its domain record.
+
+### Example: AI-Assisted Shop Report
+
+ShopOS AI confirms the operator's workspace and report permission through identity services. It requests approved shop data under the data policy, sends a bounded task to AI orchestration, records any supported credit consumption, and stores the reviewed result. Reporting services can then include the completed report in the appropriate history.
+
+If the model request fails, the product preserves the input state and provides retry or manual completion. It should not consume a completed-action charge until the usage policy's completion condition is met.
+
+---
+
+## 12. Reliability and Failure Model
+
+Rails should expose clear health and failure states:
+
+| State | Product response |
 |---|---|
-| Identity and Access Rail | Handles users, roles, permissions, user profiles, product access, wallet-aware access where supported, and account-level controls. |
-| Platform Credits Rail | Supports product usage credits across supported products and services. |
-| Payment and Settlement Rail | Supports payment, settlement, treasury, compensation, and supported payment paths. |
-| AI Orchestration Rail | Supports AI generation, summaries, routing, analysis, workflow assistance, reporting, and decision-support outputs. |
-| Data and Permission Rail | Supports privacy controls, data access rules, user consent direction, product permissions, and AI data handling. |
-| Wallet-Based Record Rail | Supports wallet references, snapshots, report links, eligibility status where applicable, vault references, and public-safe transparency. |
-| Reporting and Transparency Rail | Supports public papers, status reports, dashboards, metrics, report hashes, audit direction, and review surfaces. |
-| Governance and Control Rail | Supports approval logic, operating controls, multisig direction, timelock direction, smart contract readiness, and safeguards where applicable. |
-| Product-to-Token Utility Rail | Explains how products can connect to FUZE token utility where relevant. |
-| Risk and Boundary Reference Rail | Routes deeper product, token, AI, investor, market, and legal boundaries into dedicated papers. |
+| Healthy | Process normally and record the authoritative result |
+| Degraded | Limit affected functionality and communicate the constraint |
+| Delayed | Show pending status and reconcile asynchronously |
+| Denied | Explain the applicable access or policy decision where safe |
+| Failed | Preserve the request reference, avoid duplicate side effects, and offer recovery |
+| Corrected | Link the replacement record and retain an audit trail |
 
-These rails are shared, but each product can use them differently.
+Retries require idempotency for credit, payment, wallet, and other state-changing actions. Monitoring should detect unusual failure rates, reconciliation gaps, permission denials, model cost spikes, and stale reports.
 
-A shop product may need credits, payments, reports, devices, and AI messages.
-
-A community product may need roles, moderation, summaries, verification, and reports.
-
-A game product may need player identity, leaderboards, wallet-aware features, and reporting.
-
-A market interpretation product may need data, AI summaries, watchlists, reporting, and risk-aware language.
-
-The rails allow different products to use the same platform foundation without becoming the same product.
+No shared rail removes the need for product-level quality and support. It provides a consistent place to operate the common dependency.
 
 ---
 
-## 5. How the System Works
+## 13. Public Boundary
 
-The rails work behind product activity.
+This paper describes a service architecture direction. It does not confirm that every rail, integration, vendor route, network, wallet function, token mechanism, or reporting surface is deployed or active.
 
-A user starts with a product.
+Platform services can experience downtime, integration errors, incorrect records, security incidents, external-provider failures, or delayed reconciliation. Sensitive identity and operational information remains permissioned even when a wallet or report reference is public.
 
-The product calls the platform rails it needs.
-
-The rails support the workflow.
-
-The platform can then produce records, usage data, reports, or transparency references where appropriate.
-
-### Example Flow
-
-A small shop uses ShopOS AI.
-
-The product experience may involve:
-
-1. a shop owner account
-2. staff permissions
-3. QR menu setup
-4. order and queue flow
-5. payment or settlement record
-6. stock and loyalty activity
-7. AI-generated messages or reports
-8. Platform Credit usage where supported
-9. reporting outputs
-10. privacy and permission controls
-
-The user sees a shop operating system.
-
-The platform rails support the experience behind the scenes.
-
-### Shared Rail Logic
-
-The same idea can apply across other products:
-
-| Product | Rails That May Matter Most |
-|---|---|
-| SheetLayer AI | Identity, data permissions, AI orchestration, reporting, Platform Credits |
-| ShopOS AI | Identity, payments, credits, AI, data, reporting, device support |
-| SpeakShop AI | AI orchestration, content generation, credits, media workflow, reporting |
-| TrainLayer AI | AI orchestration, learning content, credits, permissions, reporting |
-| CommunityLayer AI | Roles, permissions, moderation, summaries, verification, reporting |
-| ZAGA Arena | Game identity, wallet-aware records, leaderboards, reporting, token utility where relevant |
-| ZAGA Districts | Community identity, group operations, game economy records, reporting, token utility where relevant |
-| QTB | Data, AI interpretation, watchlists, reporting, risk-aware language |
-| AIMM | Monitoring, reporting, market operations support, governance, risk-aware language |
-| AIE | Event data, summaries, reporting, recommendations, partner workflows |
-| ToolGrid AI | Discovery, sponsored visibility, reviews, reporting, permissions |
-| Botmad | Permissions, AI work assistance, data controls, task outputs, reporting |
-
-The platform rails make the ecosystem reusable and easier to understand.
+Current status is tracked through the [FUZE Public Status and Roadmap Matrix](../PUBLIC-INDEX/02-FUZE_PUBLIC_STATUS_AND_ROADMAP_MATRIX.md). The [FUZE Technical Architecture Public](../WHITEPAPER-PAPERS/03-FUZE_TECHNICAL_ARCHITECTURE_PUBLIC.md) provides the broader system view.
 
 ---
 
-## 6. Product, Credit, Wallet, and Token Relationship
+## Conclusion
 
-The rails keep products, Platform Credits, stablecoins, wallet records, and FUZE token separated but connected.
+FUZE Core Platform Rails turn repeated product needs into governed services. Clear interfaces, record ownership, permissions, monitoring, and failure behavior allow products to share capabilities without losing their domain focus.
 
-| Part | Rail Relationship |
-|---|---|
-| Products | Use platform rails to deliver practical workflows. |
-| Platform Credits | Connect to supported product usage. |
-| Stablecoins | Support payment, settlement, treasury, and compensation operations. |
-| Wallet records | Support public-safe records and transparency where useful. |
-| FUZE token | Connects to ecosystem participation, product-connected utility, platform alignment, governance direction where applicable, and wallet-based participation ability where activated under required controls. |
-
-### Platform Credits Rail
-
-Platform Credits are designed for product usage.
-
-They help FUZE create a usage layer across supported products.
-
-Examples can include AI workflow usage, report generation, shop functions, community operations, training material creation, utility discovery, or AI work assistance.
-
-### Payment and Settlement Rail
-
-Payment and settlement rails support operational flows.
-
-Stablecoins can support treasury, payment, settlement, and compensation functions where supported.
-
-Other payment paths can be used where product context, region, and supported integrations allow.
-
-### Wallet-Based Record Rail
-
-Wallet records can support transparency without making public identity the main public record.
-
-The wallet record rail can support public-safe references such as wallet addresses, snapshots, report hashes, vault references, token release records, eligibility status where applicable, and claim status where applicable.
-
-### FUZE Token Rail
-
-FUZE token is the single ecosystem token.
-
-The token rail connects to ecosystem participation, product-connected utility, platform alignment, governance direction where applicable, and wallet-based participation ability where activated under required controls.
-
-The token rail should be explained deeply in tokenomics, governance, investor, wallet, and whitepaper papers.
-
-Normal product papers should keep token language short and relevant.
-
----
-
-## 7. Governance, Reporting, and Controls
-
-Core platform rails need controls because they connect many products.
-
-The rails can support:
-
-| Control Type | Purpose |
-|---|---|
-| Role controls | Define what users, staff, operators, contributors, partners, or admins can access. |
-| Permission controls | Protect product data, AI workflows, reporting, and sensitive actions. |
-| AI review controls | Support human review, safe generation, workflow checking, and quality review where relevant. |
-| Reporting controls | Help convert product and platform activity into public-safe reports or internal records. |
-| Wallet record controls | Keep public-safe records separated from private identity and sensitive verification. |
-| Treasury and payment controls | Support payment, settlement, treasury, and compensation handling where applicable. |
-| Governance controls | Support approval rules, multisig direction, timelock direction, and controlled execution where applicable. |
-| Smart contract readiness controls | Support staged deployment, review, audit direction, and activation gates where relevant. |
-| Risk routing controls | Route product, token, market, AI, investor, and legal boundaries to dedicated papers. |
-
-These controls help FUZE grow without mixing every topic into one public message.
-
-They also help readers understand which papers to read for which type of review.
-
----
-
-## 8. Practical Examples
-
-### Example 1: A Shop Uses Multiple Rails
-
-A shop uses ShopOS AI for QR menu, checkout, queue, loyalty, stock, staff, delivery, reports, and AI assistance.
-
-The product can connect to:
-
-- identity and access rails for owner and staff roles
-- Platform Credits rails for supported product usage
-- payment rails for checkout and settlement paths
-- AI orchestration rails for messages and reports
-- reporting rails for daily summaries
-- data and permission rails for shop information
-
-The shop owner sees one product. The platform rails make the product more connected.
-
-### Example 2: A Community Uses AI and Reporting Rails
-
-A community uses CommunityLayer AI for moderation, verification, support, summaries, and community operations.
-
-The product can connect to:
-
-- role and permission controls
-- AI orchestration
-- reporting outputs
-- member activity summaries
-- public-safe transparency where useful
-
-The community manager sees better operations. FUZE rails support the workflow.
-
-### Example 3: A Game Connects to Wallet Records
-
-ZAGA Arena gives players a fast battle arena experience.
-
-The game can connect to:
-
-- player identity
-- leaderboard records
-- wallet-aware surfaces where relevant
-- game reporting
-- platform utility connections
-- public-safe ecosystem records
-
-The gameplay remains the center. The rails help connect the game to the broader FUZE ecosystem.
-
-### Example 4: Market Support Products Use Risk-Aware Rails
-
-QTB and AIMM are crypto-native product surfaces.
-
-QTB supports market interpretation and research workflows.
-
-AIMM supports liquidity operations monitoring, reporting, and market-operations workflows.
-
-These products need AI, data, reporting, permission, and risk-aware language rails.
-
-The dedicated risk papers hold the deeper market and token boundaries.
-
-### Example 5: Botmad Uses Permission Rails
-
-Botmad is an AI Desktop Employee under permission controls.
-
-It can support research, documentation, artifact creation, reporting, and task assistance.
-
-Permission rails help define what Botmad can access, what it can generate, and where human review fits into the workflow.
-
----
-
-## 9. Public Boundary
-
-FUZE Core Platform Rails explain the shared infrastructure behind the ecosystem.
-
-This paper does not replace deeper product, token, AI, legal, investor, market, or disclosure documents.
-
-Readers can continue into:
-
-- `CORE-PLATFORM-PAPERS/06-FUZE_PLATFORM_CREDITS_USAGE_EXAMPLES_PUBLIC.md`
-- `CORE-PLATFORM-PAPERS/07-FUZE_DATA_PRIVACY_AND_AI_DATA_HANDLING_PUBLIC.md`
-- `CORE-PLATFORM-PAPERS/08-FUZE_WALLET_BASED_PLATFORM_MODEL_PUBLIC.md`
-- `CORE-PLATFORM-PAPERS/09-FUZE_TRANSPARENCY_AND_REPORTING_RAILS_PUBLIC.md`
-- `PUBLIC-INDEX/03-FUZE_PUBLIC_LANGUAGE_AND_BOUNDARY_INDEX.md`
-- `AI-SAAS-PRODUCT-PAPERS/16-FUZE_PRODUCT_RISK_BOUNDARIES_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/29-FUZE_TOKEN_RISK_BOUNDARIES_PUBLIC.md`
-- `WHITEPAPER-PAPERS/05-FUZE_RISK_AND_DISCLOSURE_APPENDIX_PUBLIC.md`
-
-This keeps the core rails paper focused on infrastructure while still giving readers clear paths to deeper review.
-
----
-
-## 10. Key Takeaways
-
-- FUZE Core Platform Rails connect FUZE products into one product-first ecosystem.
-- The rails support identity, Platform Credits, payments, AI orchestration, data permissions, wallet records, reporting, governance, product-to-token utility, and risk references.
-- Products remain the first reason to use FUZE.
-- Rails make products easier to connect, operate, report, and expand.
-- Platform Credits support product usage.
-- Stablecoins support payment, settlement, treasury, and compensation rails.
-- Wallet records support public-safe transparency where useful.
-- FUZE token is the single ecosystem token.
-- Detailed token, market, investor, AI, legal, and risk boundaries belong mainly in dedicated papers.
-- The rails help FUZE grow as a connected platform instead of a group of disconnected products.
+The rail model supports gradual integration: products can adopt the services they need, when evidence and operational readiness justify the dependency.

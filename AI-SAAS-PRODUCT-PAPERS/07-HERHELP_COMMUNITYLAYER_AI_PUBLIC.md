@@ -2,565 +2,265 @@
 
 ## Executive Summary
 
-CommunityLayer AI is the community operations, moderation, safety, verification, support, reporting, summary, and admin-assistance product under HerHelp and FUZE.
+CommunityLayer AI helps owners, administrators, moderators, and support teams organize work arising from active online communities. It can summarize approved message sets, group repeated questions, prepare support drafts, structure moderation review, record escalation context, assist with onboarding content, and produce public-safe operational reports.
 
-It is designed for Telegram groups, Web3 communities, product communities, creator communities, customer support groups, online learning groups, event communities, game communities, and business communities that need stronger operational support.
+The product is intended for product, business, creator, learning, event, game, and Web3 communities that need more structure than a live chat feed provides. It gives human operators queues and review material rather than making final decisions about members.
 
-CommunityLayer AI helps community owners and admins manage:
-
-- repeated questions
-- member onboarding
-- moderation summaries
-- support routing
-- announcement drafting
-- verification workflows
-- safety review
-- issue reports
-- community health summaries
-- public-safe reporting
-- moderator training inputs
-- product feedback summaries
-
-Many communities grow through chat, but chat alone is difficult to manage.
-
-Important questions repeat. Rules are missed. Moderators cannot read everything. New members need onboarding. Scams, spam, abuse, and confusion can appear quickly. CommunityLayer AI helps turn community activity into clearer workflows, summaries, actions, and reports.
-
-CommunityLayer AI is part of the HerHelp AI SaaS suite. It can connect with TrainLayer AI, SheetLayer AI, SpeakShop AI, ShopOS AI, Platform Credits, AI orchestration, product data, reporting, permission controls, wallet-based records where useful, and FUZE platform rails where supported.
-
-Platform Credits support product usage.
-
-FUZE token is the single ecosystem token of FUZE.
-
-Stablecoins support payment, settlement, treasury, and compensation rails.
-
-Wallet-based records can support public-safe transparency where useful while private member, moderator, verification, support, and community records stay permissioned where required.
+Moderator judgment, emergency response, platform enforcement, legal review, and specialist safety work remain human or organizational responsibilities. Community owners control rules, access, actions, appeals, and published communication.
 
 ---
 
 ## 1. Product Purpose
 
-CommunityLayer AI exists to help community operators manage real community work.
+As a community grows, important work becomes difficult to see inside a fast message stream. Questions repeat, product issues are mixed with general discussion, moderator handovers lose context, and public updates can accidentally include private information.
 
-The product purpose is to turn fast-moving community activity into structured support, moderation, safety, verification, reporting, and admin workflows.
+CommunityLayer AI creates operational structure around that activity. It may help a team:
 
-CommunityLayer AI can help users create and manage:
+- identify recurring support topics;
+- organize unanswered questions;
+- summarize a defined conversation period;
+- prepare moderator handover notes;
+- group reports by issue type;
+- draft responses or announcements for review;
+- route urgent or specialist matters;
+- maintain onboarding and FAQ material; and
+- report on community activity without publishing member identity.
 
-- community summaries
-- moderation summaries
-- repeated-question detection
-- FAQ updates
-- onboarding messages
-- support routing
-- member verification workflows
-- admin reports
-- announcement drafts
-- rule explanations
-- scam and spam review notes
-- safety reports
-- issue summaries
-- event community updates
-- public-safe community reports
-- moderator training inputs
-- community health summaries
-- campaign summaries
-- member feedback summaries
-
-CommunityLayer AI is designed for community owners who need more structure without turning their community into a complex enterprise system.
-
-It supports admins and moderators.
-
-Human operators remain important for sensitive decisions, tone, final approvals, and community judgment.
+The product assists the people responsible for a community through defined connections, permissions, and reviewable tasks.
 
 ---
 
-## 2. Who This Product Helps
+## 2. Intended Users
 
-CommunityLayer AI helps groups that live inside fast-moving chat, social, and community environments.
-
-| User Type | Community Need | How CommunityLayer AI Helps |
-|---|---|---|
-| Telegram group owners | Summaries, rules, FAQs, support, and moderation support | Creates summaries, repeated-question lists, and admin notes |
-| Web3 communities | Member education, safety, wallet questions, token language, and public updates | Supports safety reminders, public-safe reports, and FAQ workflows |
-| Game communities | Player questions, events, leaderboards, and community updates | Summarizes game discussion and separates product-specific questions |
-| Product communities | User support, product feedback, onboarding, and issue routing | Groups support topics and creates FAQ updates |
-| Creator communities | Content updates, member engagement, event reminders, and audience support | Drafts announcements and summarizes audience feedback |
-| Learning communities | Questions, lessons, member progress, and study support | Connects questions to TrainLayer AI education material |
-| Customer support groups | Repeated issues, escalation, and status updates | Routes support topics and prepares response drafts |
-| Event communities | Event questions, speaker updates, schedule changes, and post-event summaries | Creates event updates and public-safe summaries |
-| Business communities | Member support, operations, and admin reports | Creates admin reports, summaries, and action lists |
-| Moderation teams | Rule review, suspicious patterns, and handover notes | Supports moderator summaries and issue timelines |
-
-CommunityLayer AI is especially useful when a group becomes too active for manual admin work alone.
-
----
-
-## 3. User Problem and Market Context
-
-Online communities are difficult to manage because conversations move quickly and expectations are high.
-
-Common community problems include:
-
-- repeated beginner questions
-- unclear rules
-- too many admin tasks
-- spam and scam attempts
-- member complaints
-- moderation inconsistency
-- missing support tickets
-- unorganized announcements
-- new members who do not know where to start
-- community fatigue
-- poor summary of what happened each day
-- no clear record of decisions
-- no clean reporting for founders, partners, or investors
-- no easy way to convert community questions into FAQs or training material
-- no easy way to separate public messages from private moderation notes
-
-Telegram groups, Discord servers, Web3 communities, product communities, and creator communities often rely on manual admin work.
-
-As communities grow, the same admin team must answer more questions, monitor more risks, and publish more updates.
-
-CommunityLayer AI addresses this gap by helping community teams summarize, organize, route, and review community activity.
-
-The product is built for practical community operations, not hype.
-
----
-
-## 4. Product Model
-
-CommunityLayer AI has seven main product layers.
-
-| Layer | Role |
+| User | Operational need |
 |---|---|
-| Summary Layer | Turns chat activity, questions, issues, and events into summaries |
-| Moderation Layer | Supports moderator review, rule explanation, issue detection, and action notes |
-| Verification Layer | Supports member screening, access checks, role logic, and verification workflows where supported |
-| Support Layer | Routes repeated questions, support topics, complaints, and help requests |
-| Reporting Layer | Creates admin reports, public-safe summaries, community health notes, and campaign reports |
-| Training Layer | Connects with TrainLayer AI to create moderator guides, onboarding lessons, and community education |
-| Integration Layer | Connects with other FUZE products, Platform Credits, wallet records, and reporting rails where appropriate |
+| Community owner | Rules, roles, oversight, and periodic review |
+| Administrator | Onboarding, announcements, access, and support coordination |
+| Moderator | Review queues, case context, actions, and handovers |
+| Support team | Question grouping, response drafts, and product escalation |
+| Product team | Aggregated feedback and recurring issue patterns |
+| Event organizer | Schedule updates, venue questions, and participant guidance |
+| Trainer | Learning material based on approved recurring questions |
+| Reporting reviewer | Public-safe summaries and operating evidence |
 
-CommunityLayer AI is not only a chatbot.
-
-It is an operations layer for community teams.
-
-It helps convert unstructured chat into useful admin actions and public-safe reporting.
-
-A group can start with daily summaries, then add repeated-question detection, support routing, moderation handover notes, onboarding material, safety summaries, and public-safe reports.
+CommunityLayer AI can support a single group or several separated workspaces. Permissions should reflect each person's responsibility and the sensitivity of the underlying activity.
 
 ---
 
-## 5. Core Features
+## 3. Operating Model
 
-### 5.1 Community Summaries
+Community work moves through six stages.
 
-CommunityLayer AI can generate summaries of community activity.
+### 3.1 Intake
 
-Summaries can include:
+The workspace receives information from an authorized community connection, approved export, support form, or administrator entry. The owner defines which channels, time periods, and message types are in scope.
 
-- daily chat summary
-- weekly community summary
-- key questions
-- repeated topics
-- common complaints
-- product feedback
-- member sentiment notes
-- event discussion summary
-- campaign discussion summary
-- support issue summary
-- admin action list
+### 3.2 Classification
 
-Example:
+CommunityLayer AI can group activity into categories such as onboarding, product question, bug report, account issue, event question, feedback, rule concern, suspected spam, safety report, or moderator review.
 
-A Telegram group has hundreds of messages in one day. CommunityLayer AI can summarize the main questions, repeated issues, positive feedback, negative concerns, and admin follow-up items.
+Classification is a routing aid. A label should not be treated as a final finding about a person or incident.
 
-### 5.2 Repeated-Question Detection
+### 3.3 Queue and assignment
 
-CommunityLayer AI can help identify repeated questions.
+Items can enter support, moderation, announcement, content, or escalation queues. An owner and priority help the team understand who should act and when.
 
-Repeated questions can include:
+### 3.4 Human review
 
-- how to use a product
-- where to find a link
-- how Platform Credits work
-- what FUZE token is
-- how wallet-based participation ability works where applicable
-- how ZAGA Arena works
-- how ZAGA Districts differs from ZAGA Arena
-- how to join an event
-- how to register
-- how to solve a common issue
+An authorized operator reads the relevant source context, checks the AI summary, and decides whether to answer, escalate, close, or request more information.
 
-Repeated-question detection can help admins update FAQs, pinned messages, onboarding flows, and training materials.
+### 3.5 Action and record
 
-### 5.3 Moderation Support
+The operator may send an approved response, apply a platform action, update an FAQ, publish an announcement, or refer the matter to another responsible team. The record should distinguish an AI suggestion from the action actually taken.
 
-CommunityLayer AI can support moderation workflows.
+### 3.6 Follow-up and reporting
 
-Moderation support can include:
-
-- rule explanation
-- flagged message summaries
-- spam pattern notes
-- scam-warning summaries
-- user dispute summaries
-- admin action notes
-- moderator handover notes
-- issue timeline summaries
-- public-safe moderation reports
-- high-risk keyword review where supported
-
-CommunityLayer AI helps moderators understand what happened.
-
-Sensitive moderation decisions should remain with human admins or moderators.
-
-### 5.4 Verification Workflows
-
-CommunityLayer AI can support verification workflows where supported.
-
-Verification workflows can include:
-
-- onboarding questions
-- role checks
-- community membership checks
-- wallet-based public record checks where appropriate
-- partner or contributor access checks
-- event access workflows
-- admin approval queues
-- duplicate account review notes
-- suspicious behavior summaries
-
-Verification must be handled carefully because it can involve private or sensitive information.
-
-Private verification records should stay permissioned, access-controlled, and separated from public blockchain records.
-
-### 5.5 Support Routing
-
-CommunityLayer AI can help route support requests.
-
-Support routing can include:
-
-- bug reports
-- product questions
-- payment questions
-- Platform Credit usage questions
-- wallet questions
-- account access questions
-- game questions
-- event questions
-- partner questions
-- investor FAQ questions
-- urgent admin issues
-
-Support routing helps admins decide what needs a reply, what needs escalation, and what can be answered with an existing guide.
-
-### 5.6 Announcement Drafting
-
-CommunityLayer AI can help draft announcements.
-
-Announcement types can include:
-
-- product updates
-- event reminders
-- community rules
-- FAQ updates
-- launch notices
-- maintenance notices
-- moderation reminders
-- campaign messages
-- weekly summaries
-- safety warnings
-- roadmap status notes
-
-Announcements should follow FUZE public language boundaries.
-
-For example, public announcements should avoid guaranteed payout, guaranteed listing, guaranteed liquidity, guaranteed token price, guaranteed game earnings, and guaranteed AI accuracy language.
-
-AI-generated announcements should be reviewed before publication.
-
-### 5.7 Public-Safe Community Reports
-
-CommunityLayer AI can support public-safe reports.
-
-Reports can include:
-
-- weekly community summary
-- campaign summary
-- product feedback summary
-- moderation activity summary
-- support topic summary
-- event community report
-- safety issue summary
-- repeated-question summary
-- community health notes
-
-Public-safe reports should avoid exposing:
-
-- private member identity
-- private messages
-- personal data
-- private moderator notes
-- sensitive complaints
-- private agreements
-- payment records
-- private verification records
-
-This allows communities to communicate progress while keeping sensitive records protected.
+Open items, repeated topics, response status, and significant changes can be reviewed over time. Public reporting uses aggregation and redaction appropriate to the audience.
 
 ---
 
-## 6. Practical Workflows and Use Cases
+## 4. Core Workspaces
 
-### Use Case 1: Telegram Community Admin Workflow
+### Community summaries
 
-A Telegram group admin uses CommunityLayer AI to manage a busy group.
+A summary can cover a defined channel, topic, or period. It may identify:
 
-The workflow can include:
+- major discussion themes;
+- common questions;
+- product feedback;
+- unresolved support items;
+- announced events or changes;
+- moderator follow-up; and
+- links to source context for authorized reviewers.
 
-1. CommunityLayer AI summarizes daily chat.
-2. AI identifies repeated questions.
-3. Admin reviews support topics.
-4. AI drafts an FAQ update.
-5. Admin approves a public announcement.
-6. AI prepares a moderator handover note.
-7. Weekly public-safe report is created where appropriate.
+Summaries should distinguish observed conversation from interpretation and should avoid presenting general sentiment as a scientific measure.
 
-This helps admins manage high-volume chat more clearly.
+### Support queue
 
-### Use Case 2: Web3 Community Safety Workflow
+Repeated questions and help requests can be grouped by product or issue. CommunityLayer AI may suggest an existing guide, prepare a reply draft, or route the item to a support owner.
 
-A Web3 community uses CommunityLayer AI to help identify risk patterns.
+Account, payment, wallet, safety, and legal matters may require restricted handling or specialist escalation rather than a general community reply.
 
-The workflow can include:
+### Moderation review
 
-1. AI summarizes suspicious messages.
-2. AI groups possible scam reports.
-3. Moderators review flagged topics.
-4. Admins publish a safety reminder.
-5. CommunityLayer AI prepares a public-safe safety summary.
+The moderation workspace can organize reported messages, likely rule categories, relevant context, previous actions, and proposed next steps. Final action belongs to an authorized moderator.
 
-This helps communities respond to safety issues with more structure.
+Automated outputs can be incomplete or biased by missing context, language, humor, reclaimed terms, or coordinated reporting. Reviewers should be able to inspect the underlying material they are permitted to access.
 
-### Use Case 3: Product Support Workflow
+### Safety and escalation
 
-A product community uses CommunityLayer AI to manage user questions.
+CommunityLayer AI can help identify high-priority reports and preserve an escalation timeline. The community owner defines emergency, platform, security, legal, or wellbeing contacts outside the ordinary queue.
 
-The workflow can include:
+The product should not give users the impression that AI monitoring guarantees prevention or immediate response.
 
-1. AI identifies common product issues.
-2. Support topics are grouped by product.
-3. Repeated questions become FAQ items.
-4. TrainLayer AI creates user education material.
-5. Admins publish a support update.
-6. Product team reviews feedback patterns.
+### Onboarding and knowledge
 
-This helps product teams learn from community questions.
+Administrators can turn approved rules, product guidance, and recurring questions into pinned messages, welcome sequences, or learning material. [TrainLayer AI](./06-HERHELP_TRAINLAYER_AI_PUBLIC.md) provides the dedicated workflow for longer guides and moderator training.
 
-### Use Case 4: ZAGA Game Community Workflow
+### Announcement review
 
-A ZAGA community uses CommunityLayer AI to manage player questions and event updates.
-
-The workflow can include:
-
-1. AI summarizes game discussion.
-2. AI identifies repeated ZAGA Arena questions.
-3. AI separates ZAGA Arena and ZAGA Districts questions.
-4. Admin drafts event announcements.
-5. AI prepares leaderboard or challenge summaries where supported.
-6. Public-safe community update is published.
-
-This keeps ZAGA Arena and ZAGA Districts clearly separated while supporting both communities.
-
-### Use Case 5: Investor and Community Update Workflow
-
-A FUZE community team uses CommunityLayer AI to prepare public update notes.
-
-The workflow can include:
-
-1. AI summarizes public community questions.
-2. AI identifies investor-related confusion.
-3. AI checks announcement wording against public language boundaries.
-4. Admin reviews token, credit, and wallet-based participation wording.
-5. Public-safe FAQ update is prepared.
-
-This helps FUZE communicate clearly without mixing public updates with private investor materials.
-
-### Use Case 6: Community Education Workflow
-
-A community uses CommunityLayer AI with TrainLayer AI.
-
-The workflow can include:
-
-1. CommunityLayer AI identifies repeated beginner questions.
-2. Admin selects the questions that matter most.
-3. TrainLayer AI creates a beginner guide.
-4. CommunityLayer AI drafts a pinned message.
-5. Members receive clearer onboarding material.
-
-This helps active communities improve over time.
+CommunityLayer AI can draft event notices, service updates, FAQ changes, rule reminders, and product communication. An authorized publisher checks facts, dates, links, claims, and audience before release.
 
 ---
 
-## 7. Platform Credits and Product Usage
+## 5. Practical Workflows
 
-Platform Credits are product usage credits for supported FUZE products and services.
+### Product support community
 
-CommunityLayer AI can use Platform Credits for supported functions such as:
+The product team connects an approved support channel. CommunityLayer AI groups repeated questions and prepares a daily queue. Support staff answer account-specific matters privately, while recurring general questions become candidates for a reviewed FAQ update.
 
-- daily community summary generation
-- repeated-question detection
-- moderation summary generation
-- support topic routing
-- announcement draft generation
-- FAQ update generation
-- public-safe report generation
-- safety summary generation
-- verification workflow summaries
-- moderator handover notes
-- community health summaries
-- campaign report generation
-- TrainLayer AI education conversion where supported
+### Moderator handover
 
-Platform Credits help users understand CommunityLayer AI as a practical product service.
+At a shift change, the outgoing moderator selects open cases and unresolved reports. The product prepares a concise handover with status, source references, prior actions, and next review time. The incoming moderator confirms the context rather than relying on the summary alone.
 
-Admins use credits for specific community operations.
+### Scam or impersonation reports
 
-Platform Credits are separate from FUZE token.
+Member reports are grouped into a restricted review queue. Moderators inspect relevant evidence, preserve necessary records, apply the community or platform process, and publish a general safety reminder if appropriate. The public notice does not expose reporter identity.
 
-FUZE token remains the single ecosystem token of FUZE.
+### Event community
+
+An organizer uses CommunityLayer AI to group schedule, location, registration, accessibility, and support questions. Approved answers feed an event FAQ, while urgent venue changes enter an announcement workflow.
+
+### New-member onboarding
+
+An administrator reviews the most common beginner questions and selects the material suitable for a welcome sequence. The content explains where to find official information, how to request help, and which conduct rules apply.
+
+### Product-feedback review
+
+CommunityLayer AI groups feedback themes and links each theme to the authorized source context. The product team receives an aggregated report rather than a list that unnecessarily identifies individual members.
 
 ---
 
-## 8. FUZE Platform and Token Relationship
+## 6. Verification and Access
 
-CommunityLayer AI connects to FUZE because communities are an important part of product adoption, support, Web3 education, game activity, event participation, and ecosystem communication.
+Some communities use eligibility or access checks for private channels, events, roles, products, or contributor groups. CommunityLayer AI may organize a review queue where such a process is configured.
 
-CommunityLayer AI can connect to shared platform rails such as:
+The community owner should define:
 
-- identity and access
-- Platform Credits
-- payments and settlement where relevant
-- AI orchestration
-- data and permissions
-- public-safe reporting
-- wallet-based records where useful
-- product-to-token utility where relevant
-- governance and controls where applicable
-- ZAGA community surfaces
-- TrainLayer AI education workflows
-- SheetLayer AI campaign or member records
-- SpeakShop AI announcement scripts
-- ShopOS AI customer or shop communities where supported
+- the legitimate purpose of the check;
+- the minimum required evidence;
+- who may review it;
+- how a decision can be corrected or appealed;
+- how long records are retained; and
+- what information, if any, is suitable for public reporting.
 
-FUZE token is the single ecosystem token.
+A public wallet record may support a narrowly defined eligibility check, but it should not be used to reveal or infer a member's private identity. Exchange-custody and self-custody records may also require different evidence and review processes.
 
-CommunityLayer AI’s first job is community operations support.
-
-Detailed token, wallet, market, investor, participation, legal, and disclosure topics belong in dedicated tokenomics, investor, whitepaper, and risk papers.
+Verification support does not make CommunityLayer AI an identity authority and does not justify collecting unrelated personal information.
 
 ---
 
-## 9. Data, AI, Privacy, and Permission Controls
+## 7. HerHelp Connections
 
-CommunityLayer AI can involve sensitive community, member, moderation, support, verification, and product data.
+CommunityLayer AI is the community-operations module within [HerHelp AI SaaS](./02-HERHELP_AI_SAAS_PUBLIC.md). Authorized connections may include:
 
-Examples include:
+- TrainLayer AI for onboarding and moderator learning;
+- [SpeakShop AI](./05-HERHELP_SPEAKSHOP_AI_PUBLIC.md) for approved public announcement scripts;
+- SheetLayer AI for reviewed event, campaign, or reporting data;
+- ShopOS AI for a separately authorized customer or local-business community; and
+- product teams that receive routed feedback or support issues.
 
-- member messages
-- usernames
-- support questions
-- moderation notes
-- complaints
-- safety reports
-- scam reports
-- verification information
-- wallet-related public record checks where appropriate
-- admin decisions
-- community rules
-- event access notes
-- campaign records
-- public updates
-- private moderator handovers
-
-CommunityLayer AI should use privacy-aware and permission-aware design.
-
-Important data principles include:
-
-- use community data only for the intended admin or support workflow
-- separate public messages from private moderation notes
-- protect member identity and sensitive complaints
-- keep private verification records permissioned
-- review AI-generated summaries and announcements before publication
-- keep wallet-based public record checks separate from personal identity
-- use public-safe summaries for public reports
-- keep admin-only records access-controlled
-- route high-risk issues to human moderators
-
-AI can support summaries, routing, moderation context, and reporting.
-
-Human admins and moderators should review sensitive outputs and final public communication.
+Each handoff should carry only the information needed by the destination workflow. A training module can use anonymized examples instead of private moderation records.
 
 ---
 
-## 10. Reporting and Transparency Direction
+## 8. Platform Credit Use
 
-CommunityLayer AI can support reporting in practical ways.
+CommunityLayer AI may use Platform Credits for metered processing such as:
 
-Reporting can include:
+- summarizing a selected discussion period;
+- grouping repeated questions;
+- preparing a support-response draft set;
+- organizing moderation reports;
+- generating a moderator handover;
+- drafting a reviewed announcement;
+- converting questions into onboarding material;
+- preparing an aggregated feedback report; or
+- producing a public-safe community summary.
 
-- daily community summaries
-- weekly community reports
-- repeated-question reports
-- moderation activity summaries
-- support topic summaries
-- campaign reports
-- event community reports
-- product feedback summaries
-- public-safe safety summaries
-- admin action lists
-- moderator handover notes
-- Platform Credit usage records where supported
-- public-safe product evidence where appropriate
+Credits measure the requested processing action, not the moderator decision or the value of a member's participation. The product should show the applicable usage basis before a chargeable operation is confirmed.
 
-For community admins, reporting helps manage daily activity.
-
-For FUZE, public-safe reporting can help show community learning, product feedback, support patterns, and ecosystem communication.
-
-Reporting should protect member identity, private messages, sensitive complaints, verification details, and moderator notes.
-
-Public-facing reports should use approved summaries and avoid sensitive source records.
+Platform Credits remain separate from the FUZE token.
 
 ---
 
-## 11. Product Boundary
+## 9. Data and Permission Controls
 
-CommunityLayer AI is a community operations, moderation, safety, verification, support, reporting, summary, and admin-assistance product.
+Community records may include usernames, messages, complaints, support details, safety reports, moderator notes, access evidence, product information, and staff decisions.
 
-It supports community management, but it does not replace human moderators, legal review, safety professionals, customer support leadership, or final admin judgment.
+Relevant controls can include:
 
-Detailed product, AI, privacy, moderation, community safety, verification, legal, token, investor, and disclosure boundaries belong mainly in dedicated papers such as:
+- channel and time-range selection;
+- role-based access;
+- restricted moderation and safety queues;
+- limited source-message visibility;
+- redaction before training or reporting use;
+- separate public and internal drafts;
+- approval before external publication;
+- retention and deletion settings;
+- connection revocation;
+- action and correction records; and
+- controls against using private data for unrelated purposes.
 
-- `CORE-PLATFORM-PAPERS/07-FUZE_DATA_PRIVACY_AND_AI_DATA_HANDLING_PUBLIC.md`
-- `AI-SAAS-PRODUCT-PAPERS/16-FUZE_PRODUCT_RISK_BOUNDARIES_PUBLIC.md`
-- `INVESTOR-PARTNER-PAPERS/07-FUZE_AI_SAFETY_AND_RELIABILITY_PUBLIC.md`
-- `INVESTOR-PARTNER-PAPERS/08-FUZE_DATA_PRIVACY_AND_PERMISSION_MODEL_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/26-FUZE_WALLET_BASED_PRIVACY_AND_ELIGIBILITY_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/29-FUZE_TOKEN_RISK_BOUNDARIES_PUBLIC.md`
-- `WHITEPAPER-PAPERS/05-FUZE_RISK_AND_DISCLOSURE_APPENDIX_PUBLIC.md`
+Members should be informed through the community's appropriate notices and rules about relevant moderation and support processes. Sensitive cases should move into restricted channels rather than remain in public chat.
 
-This keeps the CommunityLayer AI paper focused on practical community operations while deeper review remains in the correct documents.
+The platform-wide treatment of authorized sources, retention, and AI processing appears in [FUZE Data, Privacy and AI Data Handling](../CORE-PLATFORM-PAPERS/07-FUZE_DATA_PRIVACY_AND_AI_DATA_HANDLING_PUBLIC.md).
 
 ---
 
-## 12. Key Takeaways
+## 10. Reporting
 
-- CommunityLayer AI is the community operations product under HerHelp and FUZE.
-- It helps communities summarize, moderate, verify, route support, draft announcements, create reports, and manage repeated questions.
-- CommunityLayer AI is designed for Telegram groups, Web3 communities, product communities, creator communities, game communities, support groups, and event communities.
-- CommunityLayer AI can connect with TrainLayer AI, SheetLayer AI, SpeakShop AI, ShopOS AI, and ZAGA community surfaces where supported.
-- Platform Credits can support CommunityLayer AI product usage where supported.
-- FUZE token is the single ecosystem token of FUZE.
-- AI-generated summaries, moderation notes, and announcements should be reviewed before action or publication.
-- Member, moderation, verification, support, and private community records should stay permission-aware.
-- Public-safe reports can support transparency without exposing sensitive records.
-- Detailed risk and disclosure language belongs mainly in dedicated risk and review papers.
+Internal reports may cover:
+
+- message sets or periods reviewed;
+- support topics and status;
+- repeated questions;
+- moderation queue volume;
+- actions and appeals;
+- safety escalations;
+- announcement history;
+- onboarding updates;
+- response or closure time; and
+- Platform Credit usage.
+
+Public-safe reports can describe aggregated activity, published changes, common topics, and completed operating work. They should exclude private messages, personal identity, restricted verification evidence, confidential complaints, and moderator-only analysis.
+
+Metrics need context. A higher report count may reflect increased harm, stronger reporting awareness, a campaign, or a change in collection methods. CommunityLayer AI can organize evidence but should not assign a simplistic community-health conclusion.
+
+---
+
+## 11. Product Status and Boundary
+
+CommunityLayer AI is presented as a developing product. Connections, summaries, classification, moderation support, access review, announcements, and reports may have different release status.
+
+Human operators control member-impacting action. The product cannot guarantee detection of abuse, scams, threats, policy violations, or emergencies, and it is not a substitute for platform reporting, law enforcement, crisis services, legal counsel, or qualified safety specialists.
+
+Routine community use does not require FUZE token or wallet participation. Wallet information appears only where an independently authorized access or eligibility process makes it relevant.
+
+---
+
+## 12. Conclusion
+
+CommunityLayer AI turns approved community activity into manageable queues, summaries, handovers, and reports. Its purpose is to help responsible teams see work, preserve context, and communicate consistently.
+
+The product works best when permissions are narrow, moderators inspect source context, escalation paths are defined, and public reporting protects the people behind the community activity.

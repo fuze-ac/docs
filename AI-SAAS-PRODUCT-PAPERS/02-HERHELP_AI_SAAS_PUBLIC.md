@@ -2,649 +2,237 @@
 
 ## Executive Summary
 
-HerHelp is the practical AI SaaS suite under FUZE.
+HerHelp is the FUZE workspace for people and small teams that need practical AI assistance across documents, commerce, communication, training, and community operations. Instead of treating each task as a disconnected prompt, HerHelp organizes work around projects, reusable context, permissioned inputs, review steps, and exportable outputs.
 
-It is designed as the main user-facing AI product family for business owners, shop operators, teams, creators, communities, educators, local operators, and everyday users who need practical AI workflows rather than abstract AI tools.
+The suite connects five focused modules: SheetLayer for structured records and document workflows, ShopOS for commerce operations, SpeakShop for customer-facing communication, TrainLayer for learning and enablement, and CommunityLayer for organized group engagement. A user can begin with one module and introduce another when a workflow requires it, while retaining control over the information shared between tasks.
 
-HerHelp helps users move from “I know AI can help me” to “I have a usable workflow, output, report, checklist, script, dashboard, training guide, or community summary.”
-
-HerHelp organizes AI assistance into product layers, including:
-
-- SheetLayer AI for spreadsheet and business data workflows
-- ShopOS AI for shop operations
-- SpeakShop AI for promotional voice scripts, sound packs, and announcements
-- TrainLayer AI for training materials, quizzes, guides, and onboarding
-- CommunityLayer AI for moderation, support, verification, summaries, and community operations
-- related workflow surfaces that can connect to Botmad, AIE, ToolGrid AI, ZAGA, QTB, AIMM, and FUZE platform rails where appropriate
-
-FUZE is a product-first AI SaaS and Web3 ecosystem building practical products on shared infrastructure for identity, Platform Credits, payments, AI orchestration, wallet-based records, reporting, workflow support, and ecosystem participation.
-
-HerHelp is one of the clearest product-first surfaces of FUZE because it gives users practical AI tools they can understand and use before they need to understand the full platform.
-
-Platform Credits support product usage.
-
-FUZE token is the single ecosystem token of FUZE.
-
-Stablecoins support payment, settlement, treasury, and compensation rails.
-
-Wallet-based records can support public-safe transparency where useful while personal identity, business records, customer records, community data, shop data, training data, and workspace information stay permissioned where required.
-
-HerHelp supports practical AI usage.
-
-It does not guarantee business revenue, customer growth, sales growth, user growth, community growth, AI accuracy, staff performance, operational results, token outcome, or investment return.
+HerHelp is a product workspace, not an autonomous decision maker or a substitute for professional judgment. Users remain responsible for source quality, approvals, publication, and actions taken from generated material.
 
 ---
 
 ## 1. Product Purpose
 
-HerHelp exists to make AI useful for real work.
+Many individuals, small businesses, and operating teams use separate tools for spreadsheets, product content, customer replies, internal training, and community updates. The resulting workflow is fragmented:
 
-Many AI tools are powerful but difficult for normal users, small businesses, local shops, community operators, educators, creators, and non-technical teams to apply.
+- source material is copied repeatedly;
+- formatting and tone vary between channels;
+- approvals are difficult to trace;
+- useful context remains trapped in individual tasks; and
+- teams spend time moving information rather than completing work.
 
-Users often need more than a chatbot.
+HerHelp provides a common place to prepare, route, review, and reuse AI-assisted work. Its purpose is operational: reduce repetitive preparation while keeping people in control of sensitive inputs and final decisions.
 
-They need:
-
-- guided workflows
-- reusable templates
-- business-specific outputs
-- product-specific modules
-- local business formats
-- staff checklists
-- shop reports
-- spreadsheet summaries
-- training guides
-- customer-facing scripts
-- community admin support
-- repeatable workflows
-- permission-aware handling
-- product usage that can be priced and recorded through Platform Credits where supported
-
-HerHelp is designed to turn AI into practical product workflows.
-
-The product purpose is to help users:
-
-- generate useful content
-- organize business data
-- create reports
-- support shop operations
-- prepare promotional scripts
-- build training materials
-- support community moderation
-- summarize operational information
-- create reusable workflows
-- prepare checklists and SOPs
-- support local business campaigns
-- connect AI usage to Platform Credits where supported
-- use AI without needing deep technical knowledge
-
-HerHelp is not positioned as a general AI experiment.
-
-It is positioned as a practical AI SaaS suite that turns user problems into structured AI-assisted outputs.
+The suite is designed for users who want guided workflows without having to assemble their own AI toolchain. It can support a solo operator completing one task or a team coordinating several related activities.
 
 ---
 
-## 2. Who This Product Helps
+## 2. Intended Users
 
-HerHelp is designed for practical users who need AI support for real workflows.
+HerHelp can serve:
 
-| User Type | HerHelp Need | How HerHelp Helps |
+- individuals organizing recurring administrative work;
+- small and medium-sized businesses managing products, customers, and teams;
+- shop operators preparing listings, campaigns, and service responses;
+- trainers creating structured learning material;
+- community managers coordinating announcements and participation;
+- project teams that need consistent source material across several outputs; and
+- approved service partners supporting customer workflows.
+
+The relevant module depends on the job being completed. Users can select only the tools and workspaces required for their roles.
+
+---
+
+## 3. How the Suite Is Organized
+
+HerHelp combines a shared workspace with specialist modules. The workspace holds the project purpose, approved source material, reusable instructions, task history, and access settings. Modules perform narrower types of work within that controlled context.
+
+| Module | Primary job | Dedicated paper |
 |---|---|---|
-| Small business owners | Reports, content, checklists, customer messages, and simple workflows | Provides AI outputs that support daily operations |
-| Shop operators | Menus, queue messages, stock summaries, staff checklists, loyalty campaigns, and daily reports | Connects ShopOS AI, SpeakShop AI, and SheetLayer AI workflows |
-| Community admins | Repeated questions, moderation summaries, support routing, and announcements | Connects CommunityLayer AI to practical admin workflows |
-| Creators | Campaign ideas, scripts, product explanations, content plans, and publishing support | Helps turn ideas into reusable content outputs |
-| Educators and trainers | Lessons, guides, quizzes, onboarding, and staff training | Uses TrainLayer AI to structure knowledge into learning materials |
-| Founders | Product notes, business plans, pitch summaries, reports, and documentation | Helps turn messy notes into structured documents |
-| Team managers | SOPs, task lists, internal guides, onboarding, and weekly summaries | Supports repeatable internal workflows |
-| Web3 and Telegram community operators | Announcements, moderation reports, FAQs, and public-safe updates | Connects AI summaries to community operations |
-| Local service businesses | Customer replies, promotions, operating checklists, and service explanations | Makes AI usable for daily service workflows |
-| FUZE ecosystem users | A practical entry point into FUZE products | Lets users start with real product tasks before broader ecosystem participation |
+| SheetLayer | Organize structured records, tables, and document-based workflows | [SheetLayer AI SaaS](./03-HERHELP_SHEETLAYER_AI_PUBLIC.md) |
+| ShopOS | Support catalog, store, and commerce operations | [ShopOS AI SaaS](./04-HERHELP_SHOPOS_AI_PUBLIC.md) |
+| SpeakShop | Prepare customer-facing conversational and communication outputs | [SpeakShop AI SaaS](./05-HERHELP_SPEAKSHOP_AI_PUBLIC.md) |
+| TrainLayer | Build and manage learning, onboarding, and enablement material | [TrainLayer AI SaaS](./06-HERHELP_TRAINLAYER_AI_PUBLIC.md) |
+| CommunityLayer | Coordinate structured community information and engagement workflows | [CommunityLayer AI SaaS](./07-HERHELP_COMMUNITYLAYER_AI_PUBLIC.md) |
 
-HerHelp is not limited to one industry.
-
-Its strength is practical workflow support across different user types.
+This paper explains the suite-level experience. Detailed module capabilities, examples, and boundaries belong in the linked product papers.
 
 ---
 
-## 3. User Problem and Market Context
+## 4. HerHelp Workflow
 
-AI adoption is growing across business, content, education, customer support, communities, and operations.
+### 4.1 Create a workspace
 
-However, many users still face practical barriers.
+A user begins with a workspace for a business, project, campaign, course, or community activity. The workspace establishes authorized members, relevant information, and available modules.
 
-Common user problems include:
+### 4.2 Add approved context
 
-- not knowing what prompt to write
-- not knowing how to turn AI output into a business workflow
-- using scattered tools without a system
-- needing AI outputs in a local business format
-- needing AI for shop operations, training, data, and community management
-- needing AI support without hiring a full technical team
-- needing templates, checklists, reports, dashboards, scripts, and repeatable workflows
-- needing AI that works with familiar tools such as spreadsheets, simple records, and daily business notes
-- needing permission controls for teams and staff
-- needing affordable usage-based access instead of complex enterprise software
-- needing AI that feels practical rather than abstract
-- needing product-specific modules instead of one generic chat surface
+The user selects the source material required for the task, such as product records, operating instructions, brand guidance, training notes, or community information. Inputs should be limited to material the user is permitted to process.
 
-HerHelp addresses this by organizing AI into practical product layers.
+### 4.3 Choose a task and module
 
-A shop owner can use AI for menus, queue messages, daily reports, stock notes, and staff checklists.
+HerHelp routes the job to the relevant module. A structured catalog cleanup belongs in SheetLayer; a store-content task belongs in ShopOS; a response workflow can use SpeakShop. The user can review the selected route before work proceeds.
 
-A community admin can use AI for repeated questions, summaries, moderation notes, announcements, and reports.
+### 4.4 Generate a working output
 
-A team manager can use AI for training guides, quizzes, SOPs, onboarding, and checklists.
+The selected module uses the approved context and task instructions to prepare a draft, transformation, classification, summary, or other supported output. The result remains associated with its source task so that the user can understand how it was produced.
 
-A founder can use AI for documents, summaries, product plans, reports, and public-ready materials.
+### 4.5 Review and approve
 
-HerHelp is built for practical usage first.
+Human review remains part of the workflow. Depending on permissions, a reviewer may correct content, request another version, approve an export, or reject the result.
 
-That makes it one of the most important product-first surfaces inside FUZE.
+### 4.6 Reuse or hand off
+
+Approved material can support a related task in another module when the user authorizes that handoff. Reuse reduces repeated data entry, but it does not give every module unrestricted access to the entire workspace.
+
+### 4.7 Export and record
+
+Where supported, users can export or publish approved outputs through available product connections. HerHelp can retain task and usage records needed for operational review, subject to workspace settings and applicable retention controls.
 
 ---
 
-## 4. Product Model
+## 5. Cross-Module Work
 
-HerHelp is the AI SaaS suite inside FUZE.
+The main value of the suite appears when one operational activity needs several kinds of output. HerHelp allows these tasks to remain coordinated without collapsing the modules into a single general-purpose tool.
 
-The product model has several layers.
+### Commerce campaign
 
-| Product Model Layer | Role |
-|---|---|
-| AI Workflow Layer | Helps users generate, summarize, analyze, explain, organize, draft, route, and prepare outputs |
-| Product Module Layer | Organizes AI into specific tools such as SheetLayer AI, ShopOS AI, SpeakShop AI, TrainLayer AI, and CommunityLayer AI |
-| Business Context Layer | Helps users apply AI to shops, spreadsheets, training, communities, content, reports, and operations |
-| Platform Credits Layer | Supports product usage credits where supported |
-| Workspace and Permission Layer | Supports account, team, staff, and workspace usage where supported |
-| Reporting and Data Layer | Supports outputs, summaries, dashboards, checklists, usage reporting, and public-safe reports where appropriate |
-| Platform Rail Layer | Connects HerHelp to FUZE identity, payments, AI orchestration, Platform Credits, reporting, and ecosystem utility where relevant |
+A shop team can organize product records in SheetLayer, prepare store material in ShopOS, draft customer communication in SpeakShop, and create staff guidance in TrainLayer. Each stage uses only the context required for its job, and publication remains subject to user approval.
 
-HerHelp is not only a single AI chat tool.
+### Team onboarding
 
-It is a modular AI SaaS suite.
+An operator can structure role information and checklists in SheetLayer, convert approved material into lessons through TrainLayer, and use CommunityLayer to coordinate updates for the relevant group. Changes to source material can be reviewed before revised training or notices are issued.
 
-A user may start with general AI assistance and then move into a specialized module when they need a focused workflow.
+### Community activity
 
-Examples:
+A community manager can plan an activity in CommunityLayer, prepare participant information with SheetLayer, and use SpeakShop for approved response templates. If commerce is involved, ShopOS may support the related catalog or campaign work without exposing unrelated community records.
 
-- business data work can move into SheetLayer AI
-- shop operations can move into ShopOS AI
-- shop announcements can move into SpeakShop AI
-- training content can move into TrainLayer AI
-- community management can move into CommunityLayer AI
-- follow-up work can connect to Botmad where supported
-- event workflows can connect to AIE where supported
-- discovery and sponsored visibility can connect to ToolGrid AI where appropriate
-
-This modular structure helps HerHelp become a practical product family rather than a generic AI page.
+These handoffs are optional. A workspace may stay within one module when that is the clearest and most proportionate workflow.
 
 ---
 
-## 5. Core Features
+## 6. Core Suite Features
 
-### 5.1 AI Writing and Content Support
+### Project context
 
-HerHelp can help users create practical content such as:
+HerHelp keeps task instructions and approved source material connected to a defined workspace. This helps users avoid recreating the same background for every task.
 
-- product descriptions
-- social posts
-- customer replies
-- announcements
-- scripts
-- marketing copy
-- business summaries
-- training content
-- community updates
-- support responses
-- FAQ content
-- public-safe messages
-- campaign drafts
+### Reusable assets
 
-This helps users turn rough ideas into usable text.
+Teams can maintain approved templates, terminology, tone guidance, and operating references for repeated use. Reusable assets should have clear ownership and review dates.
 
-### 5.2 Business Workflow Support
+### Task history
 
-HerHelp can help users prepare business workflow outputs such as:
+Task records can show what was requested, which module was used, and how an output moved through review. Available detail may vary by product configuration and retention settings.
 
-- checklists
-- SOPs
-- reports
-- task lists
-- workflow guides
-- daily summaries
-- team instructions
-- product plans
-- operating documents
-- onboarding steps
-- owner reports
-- staff notes
-- customer-facing content
+### Human approval
 
-This gives users practical outputs they can review and reuse.
+Roles can separate preparation from approval. A contributor may create a draft while an authorized reviewer controls export, publication, or operational use.
 
-### 5.3 SheetLayer AI
+### Controlled handoffs
 
-SheetLayer AI is the spreadsheet and business data layer.
+Information can move between HerHelp modules for a defined purpose. Workspace permissions and task scope determine which users and modules may access that information.
 
-SheetLayer AI supports:
+### Practical exports
 
-- SheetMap — map sheet columns, tabs, formulas, and business meaning
-- SheetView — create dashboards, tables, summaries, and mobile views
-- SheetFlow — turn records into workflow actions
-- SheetSync — handle daily sheet sync and updates
-- SheetGuard — permissions, sensitive fields, and access control
-
-Typical use cases include:
-
-- reading spreadsheet data
-- mapping columns and tabs
-- explaining formulas
-- preparing dashboards
-- creating business reports
-- connecting Google Sheets-style data to workflows
-- organizing business records
-- identifying sensitive fields
-- creating recurring data summaries
-- turning business records into task lists
-
-Boundary:
-
-SheetLayer AI supports data workflows, but it does not guarantee perfect data accuracy, financial correctness, tax correctness, accounting correctness, business decision correctness, or operational result.
-
-### 5.4 ShopOS AI
-
-ShopOS AI is the AI-powered shop operating system under HerHelp.
-
-It supports QR menu, checkout, queue, payment, loyalty, stock, staff, delivery, reports, TrustCheck, device support, Google Sheets sync, and AI assistance.
-
-Typical use cases include:
-
-- creating QR menu content
-- preparing menu item descriptions
-- creating queue messages
-- generating daily shop reports
-- making staff checklists
-- organizing stock records
-- preparing loyalty campaigns
-- preparing birthday promotion logic where supported
-- supporting delivery summaries
-- syncing shop data with spreadsheets
-- creating customer-facing messages
-- supporting device and printer setup direction where applicable
-- preparing low-cost starter package workflows where supported
-
-Boundary:
-
-ShopOS AI supports shop operations. It does not guarantee shop revenue, customer traffic, payment approval, staff performance, delivery results, customer retention, food safety, tax correctness, or business success.
-
-### 5.5 SpeakShop AI
-
-SpeakShop AI supports promotional voice scripts, sound packs, speaker announcements, queue messages, shop voice prompts, and campaign audio content.
-
-Typical use cases include:
-
-- writing shop announcements
-- preparing customer greeting scripts
-- creating queue announcements
-- generating product promotion scripts
-- creating market or event booth messages
-- preparing seasonal campaign messages
-- organizing announcement variations
-- preparing short audio scripts for mobile or speaker use
-- supporting local shop campaigns
-
-SpeakShop AI can work with ShopOS AI and AIE where supported.
-
-Boundary:
-
-SpeakShop AI supports promotional communication. It does not guarantee foot traffic, sales conversion, campaign success, customer response, revenue growth, translation accuracy, or advertising compliance.
-
-### 5.6 TrainLayer AI
-
-TrainLayer AI supports AI learning materials, training workflows, quizzes, guides, staff/customer education, onboarding, and practical knowledge delivery.
-
-Typical use cases include:
-
-- creating staff training guides
-- generating quizzes
-- preparing onboarding flows
-- turning product knowledge into learning material
-- writing customer education guides
-- creating internal process documentation
-- preparing role-based training content
-- converting SOPs into lessons
-- supporting volunteer or event training
-- creating product tutorials
-
-TrainLayer AI can support HerHelp users and other FUZE product users.
-
-Boundary:
-
-TrainLayer AI supports learning and training workflows. It does not guarantee learning outcomes, staff performance, certification results, compliance readiness, safety outcomes, customer behavior, or business results.
-
-### 5.7 CommunityLayer AI
-
-CommunityLayer AI supports moderation, safety, verification, support, reporting, summaries, and community operations.
-
-Typical use cases include:
-
-- summarizing Telegram group activity
-- generating moderation reports
-- drafting announcements
-- identifying repeated questions
-- creating community FAQ content
-- routing support topics
-- preparing admin summaries
-- supporting verification workflows
-- reviewing public-safe community metrics
-- summarizing community sentiment
-- preparing weekly community operations reports
-
-CommunityLayer AI can support Web3 groups, product communities, Telegram communities, game communities, creator communities, event communities, and support groups.
-
-Boundary:
-
-CommunityLayer AI supports community operations. It does not guarantee community growth, perfect moderation, abuse prevention, scam prevention, member safety, user retention, support resolution, or safety outcomes.
-
-### 5.8 Cross-Product Workflow Support
-
-HerHelp can connect to other FUZE product surfaces where supported.
-
-Examples include:
-
-- AIE for event planning and recap workflows
-- ToolGrid AI for tool discovery and sponsored visibility workflows
-- Botmad for task execution, document drafting, and follow-up packaging
-- ZAGA for community, game, tournament, and event-related summaries
-- QTB for market-context summaries where appropriate
-- AIMM for public-safe market-operations notes where appropriate
-
-This helps HerHelp act as a practical AI front door for multiple user needs.
+Outputs may be prepared for supported file formats, channels, or connected systems. An export does not remove the user's responsibility to check accuracy, rights, and suitability for the destination.
 
 ---
 
-## 6. Practical Workflows and Use Cases
+## 7. Practical Examples
 
-### Use Case 1: Small Shop Workflow
+### Example A: Product information refresh
 
-A small food shop uses HerHelp to prepare daily operations.
+A retailer imports an approved product table into SheetLayer and identifies incomplete records. ShopOS then uses the reviewed data to prepare updated descriptions for selected items. A manager checks the outputs before they reach the store.
 
-The workflow can include:
+### Example B: Customer-service preparation
 
-1. Use ShopOS AI to update menu items.
-2. Use SheetLayer AI to summarize stock records.
-3. Use SpeakShop AI to generate lunch promotion announcements.
-4. Use TrainLayer AI to create a staff checklist.
-5. Use HerHelp reporting to create a daily sales and task summary.
-6. Use Botmad where supported to prepare follow-up tasks.
+A service team supplies current policies and approved answer guidance. SpeakShop prepares response drafts for recurring questions, while TrainLayer turns the same reviewed guidance into an internal refresher. Customer-specific information is not required for the training version.
 
-This workflow supports operations, but it does not guarantee sales, customer traffic, staff performance, customer retention, or revenue.
+### Example C: New volunteer onboarding
 
-### Use Case 2: Community Admin Workflow
+A community operator organizes role details and schedules, prepares short learning material in TrainLayer, and coordinates announcements through CommunityLayer. Access can be limited so volunteers see only the information relevant to their participation.
 
-A Telegram community admin uses HerHelp to support group operations.
+### Example D: Small-team campaign
 
-The workflow can include:
-
-1. Use CommunityLayer AI to summarize daily chat.
-2. Identify repeated questions.
-3. Generate an FAQ update.
-4. Draft a weekly announcement.
-5. Prepare a moderation summary.
-6. Create a public-safe community report.
-7. Route tasks to Botmad where supported.
-
-This workflow supports admin work, but it does not guarantee community growth, perfect moderation, scam prevention, abuse prevention, or user retention.
-
-### Use Case 3: Business Data Workflow
-
-A business owner uses HerHelp and SheetLayer AI to understand operational data.
-
-The workflow can include:
-
-1. Import spreadsheet data.
-2. Map columns and tabs.
-3. Summarize sales, stock, staff, customer, or product records.
-4. Generate a dashboard plan.
-5. Create a management report.
-6. Prepare action items.
-7. Protect sensitive fields through permission-aware workflows where supported.
-
-This workflow supports business data review, but it does not guarantee data accuracy, financial correctness, tax correctness, accounting correctness, or business success.
-
-### Use Case 4: Training Workflow
-
-A team manager uses HerHelp and TrainLayer AI to create internal training.
-
-The workflow can include:
-
-1. Upload or describe a process.
-2. Generate a training guide.
-3. Create quiz questions.
-4. Build role-specific examples.
-5. Prepare a staff onboarding checklist.
-6. Summarize completion or feedback where supported.
-7. Turn the guide into future playbooks where supported.
-
-This workflow supports learning, but it does not guarantee learning outcomes, staff performance, safety outcomes, or certification validity.
-
-### Use Case 5: Creator or Operator Workflow
-
-A creator or operator uses HerHelp for content and productivity.
-
-The workflow can include:
-
-1. Generate post ideas.
-2. Draft scripts.
-3. Create product explanations.
-4. Prepare campaign messages.
-5. Organize tasks.
-6. Produce summary reports.
-7. Prepare reusable prompt or workflow templates where supported.
-
-This workflow supports content and productivity, but it does not guarantee engagement, conversion, customer growth, or revenue.
-
-### Use Case 6: Event and Campaign Workflow
-
-A team uses HerHelp with AIE and SpeakShop AI for an event or campaign.
-
-The workflow can include:
-
-1. Use AIE to prepare the event plan.
-2. Use SpeakShop AI to write speaker or booth announcements.
-3. Use SheetLayer AI to organize event or sales data.
-4. Use CommunityLayer AI to summarize community questions.
-5. Use HerHelp to produce a recap and follow-up checklist.
-6. Use Botmad where supported to turn the recap into tasks and messages.
-
-This workflow supports event and campaign operations, but it does not guarantee attendance, sales, sponsor results, or campaign success.
+A team defines its campaign brief once, prepares product material through ShopOS, creates response guidance through SpeakShop, and records internal steps through SheetLayer. Reviewers can approve each output independently rather than accepting the campaign as one undifferentiated package.
 
 ---
 
-## 7. Platform Credits and Product Usage
+## 8. Platform Credit Use
 
-Platform Credits are product usage credits for supported FUZE products and services.
+Platform Credits can be used to access metered HerHelp activity, such as:
 
-HerHelp may use Platform Credits for supported usage such as:
+- processing an uploaded table or document;
+- generating or transforming approved product content;
+- preparing communication drafts;
+- creating learning material from supplied sources;
+- running a community-content workflow; or
+- using supported premium processing or export functions.
 
-- AI content generation
-- report generation
-- spreadsheet mapping
-- dashboard summaries
-- formula explanation
-- shop reports
-- queue messages
-- menu content
-- promotional scripts
-- sound-pack content
-- training guide generation
-- quiz generation
-- community summaries
-- moderation reports
-- support drafts
-- event and campaign recaps where supported
-- premium workflow access
-- workspace usage where supported
+The amount required can depend on the module, workload, processing level, and applicable product rules. Users should be able to see the relevant usage basis before confirming a chargeable task.
 
-Platform Credits help users understand HerHelp as a product service.
-
-Users spend credits for supported AI workflows, summaries, reports, modules, and outputs.
-
-Platform Credits are separate from FUZE token.
-
-Platform Credits do not create token ownership, governance rights, income rights, profit-share rights, wallet-based participation claims, or payout rights.
+Platform Credits are for product consumption. They are not the FUZE token, do not represent ownership, and are not a market-traded asset.
 
 ---
 
-## 8. FUZE Platform and Token Relationship
+## 9. Data and Permission Controls
 
-HerHelp connects to FUZE because it gives the ecosystem practical AI SaaS usage.
+HerHelp is intended to apply purpose-based access across its shared workspace and modules. Relevant controls can include:
 
-HerHelp can connect to shared platform rails such as:
+- user and role permissions;
+- workspace separation;
+- module-specific access;
+- approval requirements;
+- source and output visibility settings;
+- connection and export authorization;
+- retention and deletion settings;
+- activity records; and
+- removal of unnecessary personal or confidential information before processing.
 
-- identity and access
-- user accounts
-- workspace access where supported
-- Platform Credits
-- payments and settlement where relevant
-- AI orchestration
-- product data
-- reporting and transparency
-- wallet-based records where useful
-- permissions and sensitive-field controls
-- product usage summaries
-- Botmad work-assistance handoffs
-- ToolGrid AI utility discovery where relevant
-- AIE event intelligence where relevant
-- product-to-token utility where appropriate
+Users should provide only information they are authorized to use. Higher-sensitivity material may require additional review or may be unsuitable for a given workflow.
 
-FUZE token is the single ecosystem token.
+Cross-module reuse must remain deliberate. The presence of information in a workspace does not by itself make that information appropriate for every task, user, or destination.
 
-HerHelp can support product-connected utility and ecosystem participation where defined.
-
-HerHelp product usage should not be described as a token price promise, payout promise, profit-share promise, income right, or investment return.
-
-Detailed token, wallet, participation, market, legal, and disclosure topics belong in dedicated tokenomics and risk papers.
+For the wider public approach, see [FUZE Data, Privacy and AI Data Handling](../CORE-PLATFORM-PAPERS/07-FUZE_DATA_PRIVACY_AND_AI_DATA_HANDLING_PUBLIC.md).
 
 ---
 
-## 9. Data, AI, Privacy, and Permission Controls
+## 10. Reporting
 
-HerHelp can involve business, shop, spreadsheet, community, training, customer, staff, and workspace data.
+HerHelp reporting is intended to help users understand product activity rather than expose the contents of every task. Depending on configuration, reporting may cover:
 
-Examples include:
+- tasks initiated and completed;
+- modules used;
+- Platform Credit consumption;
+- review and approval status;
+- exports or connected actions;
+- processing errors or exceptions; and
+- workspace-level activity trends.
 
-- spreadsheet data
-- business records
-- sales summaries
-- stock records
-- staff checklists
-- customer messages
-- shop menu data
-- delivery notes
-- community messages
-- moderation summaries
-- training content
-- quiz data
-- support drafts
-- event notes
-- reports
-- workspace permissions
-- Platform Credit usage records
-
-HerHelp should use privacy-aware and permission-aware design.
-
-Important data principles include:
-
-- business data should stay permissioned
-- spreadsheet records should follow user and workspace access
-- customer and staff records should remain controlled
-- community moderation data should be handled carefully
-- training content should be reviewed before use
-- AI-generated outputs should be reviewed before publication or sensitive use
-- public reports should use public-safe summaries
-- wallet-based records should stay separate from private identity records
-- sensitive shop, customer, payment-adjacent, community, sponsor, investor, or file data should remain permissioned
-
-AI can help draft, summarize, explain, classify, and prepare outputs.
-
-Human review remains important for public communication, business decisions, customer replies, community moderation, legal-sensitive content, financial-sensitive content, shop operations, and training materials.
+Access to reports should follow the same permission model as the underlying work. Public reporting, where provided, should use aggregated or non-identifying information and should not reveal private customer, employee, or community identity.
 
 ---
 
-## 10. Reporting and Transparency Direction
+## 11. Product Status and Boundaries
 
-HerHelp can support reporting in practical ways.
+HerHelp is presented as a developing FUZE product suite. Availability, module coverage, integrations, and usage rules may change through controlled product releases.
 
-Reporting can include:
+The suite assists with preparation and coordination. It does not independently authorize publication, make binding business decisions, verify every supplied fact, or replace legal, financial, medical, employment, or other regulated professional advice.
 
-- AI workflow summaries
-- Platform Credit usage records where supported
-- product usage summaries
-- spreadsheet reports
-- shop reports
-- training reports
-- community reports
-- customer support summaries
-- event and campaign summaries where supported
-- public-safe business summaries
-- module-level usage summaries
-- workspace usage summaries where supported
+Users remain responsible for:
 
-For users, reporting helps remember what was generated and what work was prepared.
+- ensuring they may use the supplied data;
+- reviewing generated content;
+- applying appropriate specialist judgment;
+- approving external actions; and
+- complying with rules that apply to their organization and destination channel.
 
-For teams, reporting helps create handovers and accountability.
-
-For FUZE, HerHelp reporting can help show product-first AI SaaS usage through real workflows and reviewed outputs.
-
-Reporting should protect private business data, customer data, staff data, shop records, community records, spreadsheet files, and sensitive workflow details.
-
-Reporting supports review and transparency.
-
-It does not guarantee business results, AI accuracy, revenue, customer growth, or operational success.
+HerHelp does not require a user to participate in token or wallet programs in order to understand its product purpose. Any separately activated ecosystem participation mechanism is governed by its own eligibility, control, and disclosure materials.
 
 ---
 
-## 11. Product Boundary
+## 12. Conclusion
 
-HerHelp is the practical AI SaaS suite under FUZE.
+HerHelp gives individuals and operating teams a structured way to move from source material to reviewed output across several common areas of work. Its modules remain focused, while the shared workspace provides continuity, permission control, and accountable handoffs.
 
-It supports AI writing, business workflows, spreadsheet data, shop operations, promotional scripts, training materials, community operations, reports, summaries, checklists, and related workflow outputs.
-
-HerHelp is not a guarantee engine for business revenue, customer growth, sales growth, community growth, productivity improvement, AI accuracy, operational result, token outcome, or investment return.
-
-HerHelp does not replace professional legal, accounting, tax, security, financial, compliance, medical, food safety, employment, or regulatory review where such review is required.
-
-Detailed product, AI, privacy, token, legal, data, investor, and disclosure boundaries belong mainly in dedicated papers such as:
-
-- `CORE-PLATFORM-PAPERS/07-FUZE_DATA_PRIVACY_AND_AI_DATA_HANDLING_PUBLIC.md`
-- `AI-SAAS-PRODUCT-PAPERS/16-FUZE_PRODUCT_RISK_BOUNDARIES_PUBLIC.md`
-- `AI-SAAS-PRODUCT-PAPERS/17-FUZE_PRODUCT_LANGUAGE_DICTIONARY_PUBLIC.md`
-- `AI-SAAS-PRODUCT-PAPERS/18-FUZE_PRODUCT_TO_PLATFORM_CREDITS_PUBLIC.md`
-- `AI-SAAS-PRODUCT-PAPERS/19-FUZE_PRODUCT_TO_TOKEN_UTILITY_BRIDGE_PUBLIC.md`
-- `INVESTOR-PARTNER-PAPERS/07-FUZE_AI_SAFETY_AND_RELIABILITY_PUBLIC.md`
-- `INVESTOR-PARTNER-PAPERS/08-FUZE_DATA_PRIVACY_AND_PERMISSION_MODEL_PUBLIC.md`
-- `WHITEPAPER-PAPERS/05-FUZE_RISK_AND_DISCLOSURE_APPENDIX_PUBLIC.md`
-
-This keeps the HerHelp paper focused on practical AI SaaS product utility while deeper review remains in the correct documents.
-
----
-
-## 12. Key Takeaways
-
-- HerHelp is the practical AI SaaS suite under FUZE.
-- HerHelp is the main user-facing AI product family for practical workflows.
-- HerHelp helps users turn AI into real outputs such as reports, summaries, scripts, dashboards, checklists, guides, and community operations.
-- HerHelp includes SheetLayer AI, ShopOS AI, SpeakShop AI, TrainLayer AI, and CommunityLayer AI.
-- SheetLayer AI supports spreadsheet and business data workflows.
-- ShopOS AI supports shop operations.
-- SpeakShop AI supports promotional voice scripts, sound packs, and announcements.
-- TrainLayer AI supports training materials, quizzes, guides, and onboarding.
-- CommunityLayer AI supports moderation, support, verification, summaries, reporting, and community operations.
-- Platform Credits can support HerHelp product usage where supported.
-- Platform Credits are separate from FUZE token.
-- FUZE token is the single ecosystem token of FUZE.
-- HerHelp can connect to FUZE platform rails through identity, Platform Credits, payments, AI orchestration, reporting, permissions, and product usage records.
-- HerHelp supports practical AI workflows but does not guarantee business revenue, customer growth, AI accuracy, operational results, token outcomes, or investment return.
-- HerHelp is one of the clearest product-first surfaces of FUZE because it lets users start with practical work before broader ecosystem participation.
+The practical measure of the suite is whether it helps users complete useful work with less repetition and clearer oversight. Product access, module detail, and processing rules should therefore be evaluated through the relevant HerHelp module and FUZE product documentation.

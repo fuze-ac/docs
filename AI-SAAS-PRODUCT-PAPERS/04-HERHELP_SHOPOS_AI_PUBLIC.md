@@ -2,667 +2,279 @@
 
 ## Executive Summary
 
-ShopOS AI is the AI-powered shop operating system under HerHelp and FUZE.
+ShopOS AI is the HerHelp operating workspace for small shops and local service businesses. It brings menu or catalog setup, order handling, queues, checkout records, stock review, staff tasks, customer communication, delivery notes, loyalty activity, and daily reporting into one practical workflow.
 
-It is designed for small shops, food businesses, market stalls, cafés, service counters, pop-up vendors, local retailers, and owner-operated businesses that need a practical operating system for daily shop work.
+The product is intended for operators who currently coordinate work through paper, chat, spreadsheets, payment applications, and staff memory. A shop can begin with a limited setup, such as a QR menu and queue, then add other supported functions as its operating needs develop.
 
-ShopOS AI supports QR menu, checkout, queue, payment, loyalty, stock, staff, delivery, reports, TrustCheck, device support, Google Sheets sync, and AI assistance.
-
-Many small shops do not need a heavy enterprise system. They need simple tools that help them sell, organize, announce, track, report, and improve operations without increasing daily complexity.
-
-ShopOS AI gives these shops a product-first AI operating layer.
-
-It connects shop workflows to FUZE platform rails through identity, Platform Credits, payments, AI orchestration, data permissions, reporting, wallet-based records where useful, and product controls.
-
-Platform Credits support product usage.
-
-FUZE token is the single ecosystem token of FUZE.
-
-Stablecoins support payment, settlement, treasury, and compensation rails.
-
-Wallet-based records can support public-safe transparency where useful while customer, shop, staff, and owner data stay permissioned where required.
-
-ShopOS AI’s public role is simple: help small shops operate better with practical AI, simple digital workflows, and clearer daily records.
+ShopOS AI assists owners and staff with preparation, coordination, and review. It does not replace operator approval, payment-provider controls, accounting records, food-safety practice, employment responsibilities, or other obligations that apply to the business.
 
 ---
 
 ## 1. Product Purpose
 
-ShopOS AI exists to help small shops run daily operations with practical AI support.
+Small shops need software that fits the pace of the counter. A system that requires extensive setup or specialist administration can create more work than it removes.
 
-The purpose is to give shop owners a simple operating system that can help with:
+ShopOS AI is designed to give an owner a clear daily operating view:
 
-- menu setup
-- QR ordering
-- checkout workflow
-- queue management
-- payment status
-- customer announcements
-- loyalty and birthday promotions
-- stock and ingredient tracking
-- staff checklists
-- delivery summaries
-- daily reports
-- product performance summaries
-- Google Sheets sync
-- AI-generated shop messages
-- TrustCheck-style review workflows
-- device support for phones, tablets, screens, printers, speakers, and monitors where supported
+- what can be sold;
+- which orders are active;
+- where each order is in the queue;
+- whether payment status has been recorded;
+- which stock items need attention;
+- what staff must complete;
+- which delivery or customer issues are open; and
+- what the owner should review at the end of the day.
 
-ShopOS AI is designed around real shop operations, not abstract software features.
-
-A shop owner should be able to use ShopOS AI to organize daily tasks, reduce manual work, improve reporting, and create more consistent customer-facing workflows.
-
-The product should feel practical from the first day.
-
-A small shop can begin with QR menu, order flow, queue numbers, simple reports, and AI messages. Over time, the same shop can add loyalty, stock, staff workflows, delivery notes, device support, and Google Sheets sync.
+The product can support food stalls, cafes, market vendors, small restaurants, service counters, pop-up booths, local retailers, and other owner-operated businesses. Available features and integrations depend on the configured release and the shop's operating context.
 
 ---
 
-## 2. Who This Product Helps
+## 2. Core Operating Areas
 
-ShopOS AI helps small and local operators who need a better operating layer without enterprise complexity.
-
-| User Type | What They Need | How ShopOS AI Helps |
-|---|---|---|
-| Food stalls | Simple menu, fast order flow, queue handling, and announcements | QR menu, queue, speaker scripts, daily reports |
-| Cafés | Menu updates, staff tasks, loyalty, and customer messages | Menu layer, staff checklist, loyalty, AI content |
-| Market vendors | Mobile-first operation with low hardware cost | Phone/tablet workflow, QR display, simple reports |
-| Small restaurants | Queue, checkout, stock, staff, and delivery support | Order flow, stock summaries, staff tasks, delivery notes |
-| Pop-up booths | Quick setup and campaign messaging | QR menu, promotion scripts, customer-facing messages |
-| Service counters | Queue, customer profile, status updates, and reports | Queue management, customer notes, report summaries |
-| Local retailers | Product records, stock, staff, and loyalty support | Inventory workflows, staff checklists, customer profiles |
-| Owner-operated shops | Simple system to replace paper, memory, and scattered apps | Connected shop records, daily reports, AI assistance |
-
-ShopOS AI is especially useful for shops that currently depend on paper notes, mobile chats, spreadsheets, staff memory, and manual reporting.
-
-It gives those shops a practical bridge into a more digital and AI-assisted workflow.
-
----
-
-## 3. User Problem and Market Context
-
-Small shops often operate with limited staff, limited budget, and limited time.
-
-They need tools that fit their real working style.
-
-Common shop problems include:
-
-- handwritten orders
-- unclear queue handling
-- manual menu updates
-- no simple QR menu
-- no consistent checkout flow
-- no simple loyalty system
-- no birthday promotion workflow
-- stock tracking in notebooks or spreadsheets
-- staff tasks handled verbally
-- daily reports created manually
-- delivery orders managed across many channels
-- no easy connection between menu, sales, stock, and staff tasks
-- no simple customer announcement system
-- no AI assistant for daily shop work
-- no clear digital record for owner review
-
-Many small shops use a mix of paper, mobile phones, chat apps, spreadsheets, payment apps, and memory.
-
-This can work when the shop is small, but it becomes difficult when order volume increases, staff changes, or the owner wants clearer reports.
-
-ShopOS AI is designed for this gap.
-
-It gives small operators a practical operating system that can start simple and grow with the shop.
-
----
-
-## 4. Product Model
-
-ShopOS AI works as a shop operating layer connected to HerHelp and FUZE.
-
-The product model has several layers.
-
-| Layer | Role |
+| Area | ShopOS AI role |
 |---|---|
-| Menu layer | QR menu, item details, prices, categories, promotions, and availability |
-| Order and checkout layer | Order capture, checkout flow, payment status, and order notes where supported |
-| Queue layer | Queue numbers, wait flow, announcements, and status updates |
-| Loyalty layer | Customer profile, phone-based login where supported, birthdays, promotions, and repeat-customer support |
-| Stock layer | Ingredients, menu item stock, low-stock summaries, and Google Sheets sync |
-| Staff layer | Opening checklist, daily tasks, roles, handover notes, and staff workflow support |
-| Delivery layer | Delivery order summaries, preparation notes, issue notes, and customer communication support |
-| Report layer | Daily reports, sales summaries, menu performance, stock summaries, and operational notes |
-| TrustCheck layer | Review, verification, quality, or trust-related workflows where supported |
-| Device layer | Screens, printers, speakers, tablets, phones, and external device support where available |
-| AI assistant layer | AI-generated messages, reports, scripts, checklists, summaries, and decision-support outputs |
+| Menu or catalog | Maintain items, categories, prices, descriptions, options, and availability |
+| Orders | Capture selected items, quantities, notes, and progress status |
+| Queue | Assign and display an order sequence or service position |
+| Checkout | Present totals and retain approved payment-status records |
+| Stock | Review products, ingredients, supplies, and low-stock exceptions |
+| Staff | Organize opening, service, handover, and closing work |
+| Loyalty | Support permissioned customer offers and repeat-visit activity |
+| Delivery | Coordinate preparation, handoff, status, and issue notes |
+| Communication | Prepare menu copy, announcements, replies, and promotions |
+| Reports | Summarize sales activity, operations, exceptions, and usage |
 
-ShopOS AI is more than a point-of-sale idea.
-
-It is a broader shop operating system that combines daily operations, AI assistance, reporting, simple hardware paths, and FUZE platform rails.
+These areas can operate together, but a shop does not need to activate every one. The initial configuration should match the operator's actual workflow.
 
 ---
 
-## 5. Core Features
+## 3. Shop Setup
 
-### 5.1 QR Menu
+### 3.1 Business workspace
 
-ShopOS AI can support QR menu workflows.
+The owner creates a workspace for a location, stall, booth, or service point. Access can be separated for owners, managers, counter staff, preparation staff, and approved support partners.
 
-QR menu features can include:
+### 3.2 Menu or catalog
 
-- menu item setup
-- item categories
-- item names
-- prices
-- descriptions
-- images where supported
-- availability status
-- add-ons
-- special notes
-- promotions
-- language variations
-- customer-facing menu view
-- staff-facing menu controls
+The operator can enter or import items with fields such as:
 
-AI can help generate menu descriptions, translate item names, create promotional wording, or prepare customer-friendly explanations.
+- item name and category;
+- price and option choices;
+- customer-facing description;
+- availability;
+- preparation or service notes;
+- image where supported; and
+- linked stock information.
 
-### 5.2 Checkout
+AI assistance may help draft descriptions, organize categories, or prepare language variants. The shop reviews pricing, ingredients, claims, and availability before publication.
 
-ShopOS AI can support checkout workflows.
+### 3.3 Service flow
 
-Checkout features can include:
+The shop defines the statuses used during service, such as received, confirmed, preparing, ready, completed, or cancelled. A service business may use appointment or counter stages instead of food-order stages.
 
-- order summary
-- item quantity
-- price calculation
-- payment status
-- discount handling where supported
-- receipt direction
-- payment method notes
-- staff confirmation
-- order completion status
-- refund notes where supported
-- daily payment summary where supported
+### 3.4 Devices and displays
 
-Checkout support can connect to payment rails where available.
+A basic setup may use a phone and printed QR code. Depending on available support, a shop may later add a tablet, customer display, preparation screen, printer, label device, monitor, or speaker.
 
-### 5.3 Queue Management
-
-ShopOS AI can support queue workflows.
-
-Queue features can include:
-
-- queue number generation
-- customer name or nickname support where appropriate
-- order status
-- preparation status
-- pickup status
-- queue announcement scripts
-- screen display support
-- speaker announcement support
-- staff queue dashboard
-- estimated wait note where supported
-
-Example:
-
-A customer pays successfully and receives queue number 8. The system can announce a message such as “คุณปูได้คิวที่ 8 โปรดรอสักครู่” where supported.
-
-### 5.4 Payment Support
-
-ShopOS AI can support payment workflows depending on available integrations and product scope.
-
-Payment-related workflows can include:
-
-- payment method setup
-- payment status tracking
-- payment confirmation notes
-- receipt support
-- settlement records
-- refund notes where supported
-- split payment notes where supported
-- shop owner payment summary
-- payment reconciliation support
-
-Stablecoins are payment, settlement, treasury, and compensation rails where supported by FUZE systems.
-
-ShopOS AI can also connect to non-stablecoin payment paths where available and appropriate for the product context.
-
-### 5.5 Loyalty and Customer Profile
-
-ShopOS AI can support loyalty and customer profile workflows.
-
-Possible features include:
-
-- customer registration by phone number where supported
-- simple passkey-style login where supported
-- customer name
-- birth date for birthday promotion
-- visit history where supported
-- loyalty points or rewards where supported
-- promotion eligibility
-- customer notes with permission controls
-- birthday campaign messages
-- repeat-customer offers
-
-The purpose is to help shops build simple customer relationships without needing complex CRM software.
-
-### 5.6 Stock and Inventory
-
-ShopOS AI can support stock workflows.
-
-Stock features can include:
-
-- ingredient records
-- menu item stock
-- supplier notes
-- low-stock alerts
-- daily stock summaries
-- usage estimation
-- stock checklists
-- waste tracking where supported
-- Google Sheets sync
-- stock report generation
-- purchase reminder suggestions
-
-For food shops, stock tracking can connect menu items to ingredients.
-
-This helps the owner understand which items are running low and which ingredients may need reorder.
-
-### 5.7 Staff and Daily Operations
-
-ShopOS AI can support staff workflows.
-
-Staff features can include:
-
-- opening checklist
-- closing checklist
-- station checklist
-- task assignment
-- role-based staff view
-- shift notes
-- handover notes
-- preparation tasks
-- cleaning tasks
-- menu preparation tasks
-- stock check tasks
-- daily reminder generation
-- staff training connection through TrainLayer AI
-
-Example:
-
-A shop owner can create a lunch station checklist that tells staff what to prepare before opening, what to check during service, and what to clean after closing.
-
-### 5.8 Delivery Support
-
-ShopOS AI can support delivery workflows.
-
-Delivery features can include:
-
-- delivery order notes
-- customer address handling where supported
-- delivery platform order summary
-- preparation checklist
-- delivery timing notes
-- customer message templates
-- delivery issue notes
-- order status summary
-- delivery report
-
-Delivery support gives shop owners a clearer way to organize orders that come from outside the shop counter.
-
-### 5.9 Reports
-
-ShopOS AI can support reporting workflows.
-
-Report types can include:
-
-- daily sales summary
-- menu item performance
-- stock summary
-- staff task summary
-- queue summary
-- loyalty campaign summary
-- delivery summary
-- refund or issue summary
-- customer feedback summary
-- weekly shop report
-- owner dashboard
-- Google Sheets export or sync where supported
-
-Reports help shop owners understand operations without reading every order manually.
-
-### 5.10 TrustCheck
-
-TrustCheck can support trust, review, quality, verification, or confidence-related workflows where supported.
-
-TrustCheck-style features can include:
-
-- shop profile trust signals
-- menu or product verification notes
-- customer feedback review
-- issue tracking
-- staff checklist verification
-- order issue review
-- public-safe shop quality notes
-- owner review workflow
-- customer complaint summary
-- internal quality report
-
-TrustCheck helps make shop operations more reviewable.
-
-### 5.11 Device Support
-
-ShopOS AI can support devices depending on product scope and integrations.
-
-Device support can include:
-
-- phone as shop device
-- tablet as menu or order device
-- customer screen
-- kitchen screen
-- queue display
-- receipt printer
-- label printer
-- speaker
-- Bluetooth speaker
-- external monitor
-- cashier device
-- QR display
-- staff device
-- owner dashboard
-
-Device support is important because many small shops want affordable hardware options.
-
-A shop can begin with only a phone and later add a tablet, screen, printer, or speaker.
-
-### 5.12 Google Sheets Sync
-
-ShopOS AI can connect to Google Sheets-style workflows through SheetLayer AI and SheetSync where supported.
-
-Google Sheets sync can support:
-
-- menu import
-- stock export
-- sales summary export
-- staff checklist records
-- loyalty record export where permission allows
-- daily report sync
-- order summary sync
-- expense notes
-- owner dashboard data
-- business record backup
-
-This is important because many shops already trust Google Sheets as their familiar business record.
-
-### 5.13 AI Assistance
-
-ShopOS AI can use AI assistance to support daily work.
-
-AI assistance can include:
-
-- menu description generation
-- promotion message generation
-- queue announcement scripts
-- staff checklist creation
-- daily report summaries
-- stock alert summaries
-- customer reply templates
-- birthday promotion messages
-- delivery issue summaries
-- training material connection
-- owner question answering
-- product performance interpretation
-- Google Sheets explanation
-
-AI assistance should support the shop owner and staff inside practical workflows.
+Device connections should be tested for the operating environment. Hardware availability and compatibility are configuration matters rather than universal product promises.
 
 ---
 
-## 6. Practical Workflows and Use Cases
+## 4. Customer and Order Journey
 
-### Use Case 1: Lunch Rush Workflow
+### Step 1: View available items
 
-A food shop prepares for the lunch rush.
+A customer can open a supported QR menu, catalog, or staff-assisted order surface. The displayed information should reflect the latest approved item and availability data.
 
-ShopOS AI can help:
+### Step 2: Create the order
 
-1. Update available menu items.
-2. Show QR menu to customers.
-3. Capture orders.
-4. Confirm checkout status.
-5. Generate queue numbers.
-6. Send queue information to a screen or speaker where supported.
-7. Track preparation status.
-8. Summarize lunch sales after the rush.
+The order records selected items, quantities, options, and necessary notes. The shop should avoid collecting customer information that is unrelated to fulfillment.
 
-This workflow helps the shop organize high-volume periods.
+### Step 3: Confirm checkout
 
-### Use Case 2: Staff Opening Checklist
+ShopOS AI can present an order total and record status received from an approved payment or checkout process. Payment methods may include conventional rails and, where specifically supported, an approved stablecoin payment path.
 
-A shop owner creates a morning checklist.
+The underlying payment provider remains responsible for its own authorization and settlement functions. ShopOS AI should not mark payment as successful without the relevant confirmation or operator action.
 
-ShopOS AI can help:
+### Step 4: Assign service position
 
-1. List opening tasks.
-2. Assign station preparation.
-3. Remind staff to check stock.
-4. Prepare queue or menu devices.
-5. Generate staff notes.
-6. Save completion records where supported.
+The system can provide a queue number or other service reference. Staff can move the order through the configured stages, while customer displays or announcements use only the information appropriate for public presentation.
 
-This helps owners reduce repeated verbal instructions.
+### Step 5: Prepare and hand off
 
-### Use Case 3: Birthday Promotion Workflow
+Preparation notes, station tasks, packing checks, or service instructions can accompany the order. Staff confirm completion before the item is collected, delivered, or closed.
 
-A shop registers customers with simple profile information where supported.
+### Step 6: Record exceptions
 
-ShopOS AI can help:
-
-1. Store customer name and birth date with permission controls.
-2. Identify birthday promotion eligibility.
-3. Generate birthday message copy.
-4. Prepare customer-facing offer text.
-5. Track usage where supported.
-
-This helps small shops run simple loyalty campaigns.
-
-### Use Case 4: Stock and Menu Workflow
-
-A shop uses stock records to manage menu availability.
-
-ShopOS AI can help:
-
-1. Track ingredients.
-2. Connect ingredients to menu items.
-3. Identify low-stock items.
-4. Suggest purchase reminders.
-5. Update item availability.
-6. Sync stock records with Google Sheets where supported.
-
-This helps owners understand what they can sell today.
-
-### Use Case 5: Delivery Order Workflow
-
-A shop receives delivery orders from multiple channels.
-
-ShopOS AI can help:
-
-1. Capture delivery order notes.
-2. Prepare cooking or packing checklists.
-3. Generate customer message templates.
-4. Track issue notes.
-5. Summarize delivery activity.
-6. Export or sync records where supported.
-
-This gives the shop a clearer delivery operations layer.
-
-### Use Case 6: Owner Daily Report
-
-At the end of the day, the owner wants a simple summary.
-
-ShopOS AI can help prepare:
-
-- sales summary
-- best-selling items
-- low-stock notes
-- staff task summary
-- queue activity
-- delivery summary
-- issue notes
-- next-day checklist
-
-This helps the owner review the shop without manually collecting every record.
+Cancelled items, refunds, delays, substitutions, complaints, or other exceptions can be recorded for manager review. Sensitive customer or payment details should remain restricted.
 
 ---
 
-## 7. Platform Credits and Product Usage
+## 5. Daily Shop Operations
 
-Platform Credits are product usage credits for supported FUZE products and services.
+### Queue and service status
 
-ShopOS AI can use Platform Credits for supported usage such as:
+ShopOS AI can organize active work by order stage, station, or priority. A queue view may show service references, elapsed time, and current status without revealing unnecessary customer identity.
 
-- AI menu description generation
-- promotional message generation
-- queue announcement script generation
-- daily report generation
-- staff checklist generation
-- stock summary generation
-- customer reply templates
-- birthday promotion messages
-- delivery issue summaries
-- Google Sheets explanation
-- advanced shop workflow assistance
-- TrustCheck-style review summaries where supported
+AI can help prepare announcement wording, but the shop determines the language, timing, and suitability for its customers and location.
 
-Platform Credits help shops understand usage through product actions.
+### Stock and availability
 
-The shop owner does not need to think of credits as a token. Credits are part of the product usage layer.
+The stock area can track selected products, ingredients, packaging, or supplies. Operators may use it to:
 
-FUZE token remains the single ecosystem token of FUZE.
+- review quantities entered by staff;
+- identify low-stock exceptions;
+- link an unavailable ingredient to affected menu items;
+- prepare a purchase or count checklist;
+- record waste or adjustment notes where supported; and
+- compare approved shop records with a spreadsheet export.
 
----
+ShopOS AI does not establish physical stock by itself. Counts and adjustments require operator input or an authorized connected source.
 
-## 8. FUZE Platform and Token Relationship
+### Staff tasks
 
-ShopOS AI connects to FUZE because it is one of the most practical product surfaces in the HerHelp suite.
+Role-based checklists can support opening, preparation, service, cleaning, handover, and closing. Managers can assign an owner and due stage to a task, then review completion or exceptions.
 
-ShopOS AI can connect to shared rails such as:
+Training material for recurring processes can be prepared through [TrainLayer AI](./06-HERHELP_TRAINLAYER_AI_PUBLIC.md) when the shop authorizes that handoff.
 
-- identity and access
-- Platform Credits
-- payments and settlement
-- AI orchestration
-- data and permissions
-- wallet-based records where useful
-- reporting and transparency
-- product-to-token utility where relevant
-- governance and controls where applicable
+### Delivery work
 
-ShopOS AI helps FUZE become useful for local businesses and everyday operators.
+For supported delivery channels, the workspace can consolidate preparation notes, status, packaging checks, handoff information, and customer-message drafts. Delivery addresses and contact details should be visible only to roles that require them.
 
-The token relationship should stay simple in ShopOS AI public materials.
-
-ShopOS AI’s first job is to help shops operate.
-
-Detailed token, wallet, market, investor, legal, participation, and disclosure topics belong in dedicated tokenomics, investor, whitepaper, and risk papers.
+An external delivery service remains responsible for its own platform, driver, and fulfillment controls.
 
 ---
 
-## 9. Data, AI, Privacy, and Permission Controls
+## 6. Loyalty and Customer Communication
 
-ShopOS AI can involve sensitive shop, staff, customer, payment, loyalty, delivery, and operational data.
+ShopOS AI may support simple loyalty or promotion workflows based on the shop's configuration and customer permission. These can include visit records, offer eligibility, birthday campaigns, or redemption status.
+
+Customer profiles should collect the minimum information needed for the selected program. A birth date, phone number, order history, or preference is personal data and should not become a general staff directory.
+
+The communication workspace can help prepare:
+
+- promotional copy;
+- item announcements;
+- queue or pickup messages;
+- service replies;
+- birthday offers;
+- delivery updates; and
+- issue-response drafts.
+
+[SpeakShop AI](./05-HERHELP_SPEAKSHOP_AI_PUBLIC.md) provides the dedicated workflow for promotional scripts and announcement content. ShopOS AI supplies only the approved shop context needed for that task.
+
+Messages should be reviewed for price, availability, eligibility, language, and destination before use.
+
+---
+
+## 7. TrustCheck
+
+TrustCheck is the ShopOS AI review area for operating quality and exception follow-up where that function is available. It can organize evidence rather than issue an unconditional trust score.
+
+Relevant records may include:
+
+- unresolved order issues;
+- repeated stock adjustments;
+- checklist exceptions;
+- customer feedback categories;
+- refund or cancellation patterns;
+- item-information review;
+- manager confirmations; and
+- corrective actions.
+
+Access should reflect the sensitivity of the underlying records. A public-facing quality statement should be supported by approved, appropriately scoped information and should not expose customers, staff, or confidential shop operations.
+
+---
+
+## 8. Connected Workflows
+
+ShopOS AI is one module within [HerHelp AI SaaS](./02-HERHELP_AI_SAAS_PUBLIC.md). Connections are intended to reduce duplicate preparation while maintaining product-specific permissions.
 
 Examples include:
 
-- customer names
-- phone numbers
-- birth dates
-- loyalty records
-- order history
-- payment notes
-- delivery addresses where supported
-- staff tasks
-- staff schedules
-- sales summaries
-- supplier notes
-- stock records
-- issue records
-- customer feedback
-- shop performance reports
+- [SheetLayer AI](./03-HERHELP_SHEETLAYER_AI_PUBLIC.md) for reviewed menu, stock, sales, or task imports and exports;
+- SpeakShop AI for approved customer-facing announcements;
+- TrainLayer AI for staff onboarding and process material;
+- CommunityLayer AI for a separately authorized local or member community; and
+- FUZE reporting rails for suitable operating evidence.
 
-ShopOS AI should use privacy-aware and permission-aware design.
-
-Important data principles include:
-
-- shop data supports shop operations
-- customer profile fields should stay permissioned
-- birth date data should be used carefully for promotion workflows
-- payment records should stay controlled
-- staff records should respect role boundaries
-- public summaries should use public-safe information
-- AI-generated messages and reports should be reviewed before sensitive use
-- Google Sheets sync should respect data access rules
-- device connections should follow product and hardware controls
-
-AI assistance should help owners and staff create better workflows, but human review remains important for customer messages, payment-related notes, staff decisions, and public reports.
+A connected task should receive only the fields necessary for its purpose. Customer, staff, payment, and supplier records should not be copied into unrelated modules.
 
 ---
 
-## 10. Reporting and Transparency Direction
+## 9. Platform Credit Use
 
-ShopOS AI can support reporting for shop owners and product review.
+Metered AI and reporting functions in ShopOS AI may use Platform Credits. Examples can include:
 
-Reporting can include:
+- drafting menu descriptions or translations;
+- preparing a promotional message;
+- generating a staff checklist;
+- summarizing a service period;
+- organizing stock exceptions;
+- producing a customer-reply draft;
+- reviewing delivery issue notes;
+- preparing a TrustCheck summary; or
+- creating an owner report.
 
-- daily sales summary
-- menu item performance
-- stock summary
-- staff task summary
-- queue summary
-- loyalty campaign summary
-- delivery summary
-- issue summary
-- customer feedback summary
-- Google Sheets export or sync
-- owner dashboard
-- Platform Credit usage records where supported
-- public-safe product evidence where appropriate
+Routine order or shop functions may follow a different product-access model. The usage screen should identify which action consumes credits and the applicable basis before the operator confirms it.
 
-For shop owners, reporting helps daily decision-making.
-
-For FUZE, aggregated and public-safe product reporting can help show product readiness, usage direction, and practical value.
-
-Reporting should protect customer, staff, payment, and private shop records.
-
-Public-facing reports should use public-safe summaries, not sensitive source data.
+Platform Credits account for product activity; they are separate from the FUZE token and are not a customer loyalty point or payment currency.
 
 ---
 
-## 11. Product Boundary
+## 10. Data and Permission Controls
 
-ShopOS AI is an AI-powered shop operating system.
+ShopOS AI can process several categories of operational data:
 
-It supports shop workflows, QR menu, checkout, queue, payment, loyalty, stock, staff, delivery, reports, TrustCheck, device support, Google Sheets sync, and AI assistance.
+| Data area | Control concern |
+|---|---|
+| Customer | Contact details, order history, loyalty eligibility, and preferences |
+| Staff | Roles, schedules, tasks, performance notes, and access |
+| Payment | Status, reference, refund, and reconciliation information |
+| Delivery | Address, contact, order, and handoff details |
+| Commercial | Pricing, sales, suppliers, costs, and stock |
+| Devices | Session, connection, print, display, and access records |
 
-Detailed product, payment, AI, privacy, device, legal, accounting, tax, token, investor, and disclosure boundaries belong mainly in dedicated papers such as:
+Controls may include role permissions, workspace separation, device authorization, restricted fields, approval steps, retention settings, export controls, and connection revocation.
 
-- `CORE-PLATFORM-PAPERS/07-FUZE_DATA_PRIVACY_AND_AI_DATA_HANDLING_PUBLIC.md`
-- `AI-SAAS-PRODUCT-PAPERS/16-FUZE_PRODUCT_RISK_BOUNDARIES_PUBLIC.md`
-- `INVESTOR-PARTNER-PAPERS/08-FUZE_DATA_PRIVACY_AND_PERMISSION_MODEL_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/29-FUZE_TOKEN_RISK_BOUNDARIES_PUBLIC.md`
-- `WHITEPAPER-PAPERS/05-FUZE_RISK_AND_DISCLOSURE_APPENDIX_PUBLIC.md`
-
-This keeps the ShopOS AI paper focused on practical shop operations while deeper review remains in the correct documents.
+Public queue displays should use a suitable service reference rather than a full customer identity. Public reporting should rely on aggregated or non-identifying information. Further principles appear in [FUZE Data, Privacy and AI Data Handling](../CORE-PLATFORM-PAPERS/07-FUZE_DATA_PRIVACY_AND_AI_DATA_HANDLING_PUBLIC.md).
 
 ---
 
-## 12. Key Takeaways
+## 11. Reporting
 
-- ShopOS AI is the AI-powered shop operating system under HerHelp and FUZE.
-- ShopOS AI helps small shops organize daily work through QR menu, checkout, queue, payment, loyalty, stock, staff, delivery, reports, TrustCheck, device support, Google Sheets sync, and AI assistance.
-- The product is designed for practical local business operations.
-- A shop can start with a phone and expand to tablets, screens, printers, speakers, and other supported devices over time.
-- Platform Credits can support ShopOS AI product usage where supported.
-- FUZE token is the single ecosystem token of FUZE.
-- ShopOS AI connects to FUZE platform rails through identity, credits, payments, AI orchestration, data permissions, reporting, wallet records where useful, and controls.
-- Customer, staff, payment, delivery, and shop records require privacy-aware handling.
-- Reporting should help owners understand the shop while protecting sensitive information.
-- Detailed risk and disclosure language belongs mainly in dedicated risk and review papers.
+An owner report can combine the operational information needed to review a shift or period, such as:
+
+- orders by status;
+- recorded sales activity;
+- popular or unavailable items;
+- queue and service exceptions;
+- stock warnings and adjustments;
+- staff checklist completion;
+- delivery issues;
+- loyalty or campaign activity;
+- refunds or cancellations;
+- Platform Credit usage; and
+- follow-up tasks.
+
+Each report should identify its source period and any excluded channels. Recorded sales activity should not be presented as audited revenue, and payment status should be reconciled against the applicable provider or business record.
+
+Where a shop continues to use spreadsheets, approved exports and comparisons can be handled through SheetLayer AI without giving every spreadsheet user access to the live ShopOS workspace.
+
+---
+
+## 12. Product Status and Boundary
+
+ShopOS AI is presented as a developing product. QR menu, order, queue, checkout, loyalty, stock, staff, delivery, TrustCheck, device, payment, and integration functions may reach availability at different stages.
+
+The product supports shop coordination and AI-assisted preparation. Owners remain responsible for accurate prices and item information, lawful customer communication, staff management, physical stock, payment reconciliation, accounting, tax, safety, and regulatory requirements.
+
+Customer use of the shop surface does not require participation in FUZE token or wallet programs. Any separate ecosystem mechanism is governed by its own activation and disclosure materials.
+
+---
+
+## 13. Conclusion
+
+ShopOS AI gives a small operator one place to coordinate the working day, from menu availability and orders through staff tasks, stock exceptions, customer communication, and owner review.
+
+Its value depends on practical adoption at the counter: clear roles, limited setup, reliable records, reviewed AI outputs, and tools that match the shop's actual operating needs.

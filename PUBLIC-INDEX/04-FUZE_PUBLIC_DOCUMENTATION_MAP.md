@@ -2,370 +2,196 @@
 
 ## Executive Summary
 
-The FUZE Public Documentation Map explains how the full FUZE public paper system connects.
+The FUZE public-paper system supports different kinds of reading. A first-time visitor needs a concise introduction, a product user needs workflow detail, an investor needs evidence and dependencies, and a technical or risk reviewer needs the papers that define controls.
 
-The Public Paper Index lists the papers. This Documentation Map explains how the papers work together, which reader paths they support, and how different topics move from simple public understanding to deeper review.
+This map shows how those documents relate. It organizes the corpus by function rather than repeating the complete filename inventory. Readers can start with a summary, follow a subject into its primary paper, inspect the supporting mechanism or evidence, and finish with the relevant boundary source.
 
-FUZE is a product-first AI SaaS and Web3 ecosystem building practical products on shared platform rails for identity, Platform Credits, payments, AI orchestration, wallet-based records, reporting, and ecosystem participation.
-
-The documentation system is designed to keep FUZE easy to understand.
-
-A new reader can begin with the FAQ and one-page overview.
-
-A product user can move into HerHelp, SheetLayer AI, ShopOS AI, ZAGA, QTB, AIMM, AIE, ToolGrid AI, or Botmad.
-
-A crypto or Web3 community reader can move into ZAGA, FUZE token, Platform Credits, wallet records, public language, and tokenomics papers.
-
-An investor can move into product revenue, use of funds, product evidence, investor risk, data room index, and final investor summary papers.
-
-A reviewer can move into language, legal, risk, privacy, market access, token risk, and disclosure papers.
-
-The map keeps each topic in the right place so FUZE public materials stay clear, useful, product-first, and readable.
+The map also prevents one document from carrying every explanation. Product papers can stay practical because token mechanics have their own route. Investor papers can focus on evaluation because product, architecture, status, and risk sources remain available for deeper review.
 
 ---
 
-## 1. Purpose of This Paper
+## 1. How the Documentation System Works
 
-This paper explains the relationship between FUZE public documents.
+The 99 approved public papers form a layered reference system. Each layer answers a different question:
 
-FUZE has a large paper system because the project covers several connected areas:
-
-- practical AI SaaS products
-- Web3 ecosystem participation
-- Platform Credits
-- FUZE token
-- wallet-based records
-- ZAGA game products
-- QTB market interpretation support
-- AIMM liquidity operations support
-- AIE event intelligence
-- ToolGrid AI utility discovery
-- Botmad AI work assistance
-- investor and partner materials
-- public reporting
-- risk and disclosure documents
-- whitepaper and technical architecture papers
-
-The purpose of this paper is to show where each topic belongs.
-
-This map helps readers avoid common confusion, such as:
-
-- reading a token paper before understanding FUZE products
-- treating Platform Credits like FUZE token
-- treating a product paper like an investor document
-- treating game mechanics like financial promises
-- treating AI support as perfect automation
-- treating market access discussion as an exchange promise
-- treating wallet-level transparency as public identity exposure
-- treating the whitepaper as the first paper to perfect before the system is cleaned
-
-The Documentation Map keeps FUZE organized.
-
----
-
-## 2. Who This Paper Helps
-
-This paper helps readers who want to understand how the FUZE paper system connects before reading everything.
-
-| Reader | How This Map Helps |
-|---|---|
-| New public readers | Shows the simplest reading path |
-| Product users | Shows where product and Platform Credit papers connect |
-| Crypto and Web3 community members | Shows where FUZE token, ZAGA, wallet records, and language papers fit |
-| Investors | Shows how investor papers connect to product, revenue, evidence, and risk papers |
-| Partners | Shows collaboration, expansion, event, utility, and AI work-support paper paths |
-| Reviewers | Shows where legal, risk, privacy, AI, and disclosure topics are handled |
-| Technical readers | Shows where platform rails, reporting, smart contract readiness, and architecture papers connect |
-| Website visitors | Shows which short papers are best for quick understanding |
-
-This paper is a connection map, not a replacement for the individual papers.
-
----
-
-## 3. FUZE Public Position
-
-FUZE public documentation follows one main position:
-
-FUZE builds practical products first, connects them through shared platform rails, and supports broader ecosystem participation after that.
-
-The documentation map reflects that order.
-
-| FUZE Area | Documentation Role |
-|---|---|
-| Practical products | Explained in product papers before deeper token or participation topics |
-| Platform rails | Explained in core platform papers as the shared infrastructure layer |
-| Platform Credits | Explained as product usage credits |
-| Wallet records | Explained as public-safe transparency and record support |
-| FUZE token | Explained as the single ecosystem token |
-| Investor context | Explained through investor and partner papers |
-| Risk and disclosure | Explained mainly in dedicated language, risk, legal, investor, token, and disclosure papers |
-| Whitepaper | Used as the final connected master narrative after the public paper system is aligned |
-
-This order helps FUZE stay product-first and reader-friendly.
-
----
-
-## 4. How to Read the FUZE Paper System
-
-Readers do not need to read all 99 papers at once.
-
-The paper system works in layers.
-
-| Layer | Best For | Folder |
+| Layer | Reader question | Typical result |
 |---|---|---|
-| Navigation layer | Finding the right starting point | `PUBLIC-INDEX/` |
-| Fast public layer | Website visitors and first-time readers | `WEBSITE-SUMMARY-PAPERS/` |
-| Platform layer | Understanding FUZE infrastructure | `CORE-PLATFORM-PAPERS/` |
-| Product layer | Understanding what FUZE builds | `AI-SAAS-PRODUCT-PAPERS/` |
-| Tokenomics and governance layer | Understanding FUZE token, Platform Credits, wallets, vaults, and controls | `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/` |
-| Investor and partner layer | Understanding investment and partnership context | `INVESTOR-PARTNER-PAPERS/` |
-| Master narrative layer | Reading the complete story | `WHITEPAPER-PAPERS/` |
-| Risk and disclosure layer | Reviewing detailed boundaries | Dedicated risk, language, legal, investor, token, market, AI, and disclosure papers across groups |
+| Entry | Where should I begin? | A short audience-specific introduction |
+| Subject | What is this product, platform, or mechanism? | Purpose, workflow, model, and terminology |
+| Connection | How does it relate to the wider ecosystem? | Dependencies, shared rails, utility, or commercial context |
+| Evidence | What is documented, ready, active, or measurable? | Status, records, controls, and reporting |
+| Boundary | What conditions, limitations, or review requirements apply? | Risk, privacy, legal, market, and claim guidance |
+| Synthesis | How does the complete system fit together? | Whitepaper, architecture, or final investor view |
 
-A simple reader can stay in the navigation and website layers.
-
-A product user can move into the product layer.
-
-A serious reviewer can follow the deeper paths.
+Most readers need only part of this chain. The [FUZE Public Paper Index](00-FUZE_PUBLIC_PAPER_INDEX.md) provides the authoritative inventory when a specific filename is needed.
 
 ---
 
-## 5. Main Reader Paths
+## 2. The Main Hubs
 
-### 5.1 Fast Public Understanding Path
+Several papers act as transfer points between documentation areas.
 
-Use this path for first-time readers.
+| Hub | Use it to move between |
+|---|---|
+| [FUZE Public FAQ](01-FUZE_PUBLIC_FAQ.md) | Common questions and the appropriate deeper topic |
+| [FUZE One Page Overview](../WEBSITE-SUMMARY-PAPERS/01-FUZE_ONE_PAGE_OVERVIEW_PUBLIC.md) | First contact and the product, platform, token, investor, or risk routes |
+| [FUZE AI SaaS Product Index](../AI-SAAS-PRODUCT-PAPERS/01-FUZE_AI_SAAS_PRODUCT_INDEX_PUBLIC.md) | The product portfolio and individual product papers |
+| [FUZE Platform Overview](../CORE-PLATFORM-PAPERS/01-FUZE_PLATFORM_OVERVIEW_PUBLIC.md) | Products and their shared infrastructure |
+| [FUZE Tokenomics Overview](../TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/01-FUZE_TOKENOMICS_OVERVIEW_PUBLIC.md) | Supply, utility, circulation, participation, vault, and market policies |
+| [FUZE Investor Overview](../INVESTOR-PARTNER-PAPERS/01-FUZE_INVESTOR_OVERVIEW_PUBLIC.md) | Product thesis and the public diligence set |
+| [FUZE Public Status and Roadmap Matrix](02-FUZE_PUBLIC_STATUS_AND_ROADMAP_MATRIX.md) | Design statements and the evidence required for stronger status claims |
+| [FUZE Risk and Disclosure Appendix](../WHITEPAPER-PAPERS/05-FUZE_RISK_AND_DISCLOSURE_APPENDIX_PUBLIC.md) | A subject paper and its consolidated public risk treatment |
 
-| Step | Paper | Why It Matters |
-|---:|---|---|
-| 1 | `PUBLIC-INDEX/01-FUZE_PUBLIC_FAQ.md` | Gives simple answers |
-| 2 | `WEBSITE-SUMMARY-PAPERS/01-FUZE_ONE_PAGE_OVERVIEW_PUBLIC.md` | Explains FUZE quickly |
-| 3 | `AI-SAAS-PRODUCT-PAPERS/01-FUZE_AI_SAAS_PRODUCT_INDEX_PUBLIC.md` | Shows the product ecosystem |
-| 4 | `CORE-PLATFORM-PAPERS/01-FUZE_PLATFORM_OVERVIEW_PUBLIC.md` | Explains the platform foundation |
-
-### 5.2 Product Understanding Path
-
-Use this path for users, operators, and product-focused readers.
-
-| Step | Paper | Why It Matters |
-|---:|---|---|
-| 1 | `AI-SAAS-PRODUCT-PAPERS/01-FUZE_AI_SAAS_PRODUCT_INDEX_PUBLIC.md` | Gives the full product map |
-| 2 | `AI-SAAS-PRODUCT-PAPERS/02-HERHELP_AI_SAAS_PUBLIC.md` | Explains the practical AI SaaS suite |
-| 3 | Individual product papers | Explain specific product purpose and use cases |
-| 4 | `AI-SAAS-PRODUCT-PAPERS/18-FUZE_PRODUCT_TO_PLATFORM_CREDITS_PUBLIC.md` | Explains product-to-credit usage |
-| 5 | `AI-SAAS-PRODUCT-PAPERS/20-FUZE_PRODUCT_LAUNCH_SEQUENCE_PUBLIC.md` | Explains product launch sequence |
-| 6 | `AI-SAAS-PRODUCT-PAPERS/21-FUZE_PRODUCT_REVENUE_READINESS_PUBLIC.md` | Explains revenue readiness direction |
-
-### 5.3 Platform Understanding Path
-
-Use this path for readers who want to understand how FUZE connects products.
-
-| Step | Paper | Why It Matters |
-|---:|---|---|
-| 1 | `CORE-PLATFORM-PAPERS/01-FUZE_PLATFORM_OVERVIEW_PUBLIC.md` | Explains FUZE as a platform |
-| 2 | `CORE-PLATFORM-PAPERS/02-FUZE_ECOSYSTEM_MAP_PUBLIC.md` | Maps ecosystem layers |
-| 3 | `CORE-PLATFORM-PAPERS/03-FUZE_PRODUCT_FIRST_EXECUTION_MODEL_PUBLIC.md` | Explains the product-first model |
-| 4 | `CORE-PLATFORM-PAPERS/04-FUZE_CORE_PLATFORM_RAILS_PUBLIC.md` | Explains shared platform rails |
-| 5 | `CORE-PLATFORM-PAPERS/06-FUZE_PLATFORM_CREDITS_USAGE_EXAMPLES_PUBLIC.md` | Gives Platform Credit usage examples |
-| 6 | `CORE-PLATFORM-PAPERS/08-FUZE_WALLET_BASED_PLATFORM_MODEL_PUBLIC.md` | Explains wallet-based records |
-| 7 | `CORE-PLATFORM-PAPERS/09-FUZE_TRANSPARENCY_AND_REPORTING_RAILS_PUBLIC.md` | Explains reporting and transparency rails |
-
-### 5.4 Crypto and Web3 Community Path
-
-Use this path for community readers who care about FUZE token, ZAGA, and wallet records.
-
-| Step | Paper | Why It Matters |
-|---:|---|---|
-| 1 | `PUBLIC-INDEX/01-FUZE_PUBLIC_FAQ.md` | Gives simple public explanation |
-| 2 | `AI-SAAS-PRODUCT-PAPERS/08-ZAGA_PUBLIC.md` | Explains the ZAGA ecosystem |
-| 3 | `AI-SAAS-PRODUCT-PAPERS/09-ZAGA_ARENA_PUBLIC.md` | Explains ZAGA Arena |
-| 4 | `AI-SAAS-PRODUCT-PAPERS/10-ZAGA_DISTRICTS_PUBLIC.md` | Explains ZAGA Districts |
-| 5 | `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/03-FUZE_ONE_TOKEN_MODEL_PUBLIC.md` | Explains FUZE token as the single ecosystem token |
-| 6 | `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/04-FUZE_TOKEN_UTILITY_MODEL_PUBLIC.md` | Explains product-connected token utility |
-| 7 | `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/26-FUZE_WALLET_BASED_PRIVACY_AND_ELIGIBILITY_PUBLIC.md` | Explains wallet records and privacy |
-| 8 | `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/32-FUZE_PUBLIC_LANGUAGE_DICTIONARY_PUBLIC.md` | Explains approved public token language |
-
-### 5.5 Investor and Partner Path
-
-Use this path for investor and partner review.
-
-| Step | Paper | Why It Matters |
-|---:|---|---|
-| 1 | `INVESTOR-PARTNER-PAPERS/01-FUZE_INVESTOR_OVERVIEW_PUBLIC.md` | Gives the investor entry point |
-| 2 | `INVESTOR-PARTNER-PAPERS/02-FUZE_PRODUCT_REVENUE_MODEL_PUBLIC.md` | Explains revenue direction |
-| 3 | `INVESTOR-PARTNER-PAPERS/03-FUZE_GO_TO_MARKET_PUBLIC.md` | Explains go-to-market direction |
-| 4 | `INVESTOR-PARTNER-PAPERS/04-FUZE_STRATEGIC_PARTNER_MODEL_PUBLIC.md` | Explains partner model |
-| 5 | `INVESTOR-PARTNER-PAPERS/11-FUZE_INVESTOR_READINESS_SUMMARY_PUBLIC.md` | Summarizes investor readiness |
-| 6 | `INVESTOR-PARTNER-PAPERS/12-FUZE_ROUND_STRUCTURE_AND_USE_OF_FUNDS_PUBLIC.md` | Explains funding and use-of-funds direction |
-| 7 | `INVESTOR-PARTNER-PAPERS/14-FUZE_PRODUCT_STATUS_AND_EVIDENCE_MATRIX_PUBLIC.md` | Explains product evidence direction |
-| 8 | `INVESTOR-PARTNER-PAPERS/17-FUZE_INVESTOR_RISK_DISCLOSURE_PUBLIC.md` | Gives investor risk reference |
-| 9 | `INVESTOR-PARTNER-PAPERS/20-FUZE_FINAL_INVESTOR_SUMMARY_PUBLIC.md` | Gives the final investor summary |
-
-### 5.6 Risk, Legal, and Disclosure Path
-
-Use this path for reviewers who need boundary documents.
-
-| Step | Paper | Why It Matters |
-|---:|---|---|
-| 1 | `PUBLIC-INDEX/03-FUZE_PUBLIC_LANGUAGE_AND_BOUNDARY_INDEX.md` | Defines public language boundaries |
-| 2 | `AI-SAAS-PRODUCT-PAPERS/16-FUZE_PRODUCT_RISK_BOUNDARIES_PUBLIC.md` | Explains product risk boundaries |
-| 3 | `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/28-FUZE_LEGAL_AND_COMPLIANCE_MESSAGING_PUBLIC.md` | Explains legal and compliance messaging |
-| 4 | `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/29-FUZE_TOKEN_RISK_BOUNDARIES_PUBLIC.md` | Explains token risk boundaries |
-| 5 | `INVESTOR-PARTNER-PAPERS/17-FUZE_INVESTOR_RISK_DISCLOSURE_PUBLIC.md` | Explains investor risk |
-| 6 | `WEBSITE-SUMMARY-PAPERS/05-FUZE_RISK_AND_COMPLIANCE_ONE_PAGE_PUBLIC.md` | Gives a short risk and compliance summary |
-| 7 | `WHITEPAPER-PAPERS/05-FUZE_RISK_AND_DISCLOSURE_APPENDIX_PUBLIC.md` | Holds the deeper risk and disclosure appendix |
-
-### 5.7 Whitepaper and Technical Path
-
-Use this path for readers who want the complete narrative and architecture view.
-
-| Step | Paper | Why It Matters |
-|---:|---|---|
-| 1 | `WHITEPAPER-PAPERS/02-FUZE_LITEPAPER_PUBLIC.md` | Gives a shorter master narrative |
-| 2 | `WHITEPAPER-PAPERS/01-FUZE_WHITEPAPER_PUBLIC.md` | Gives the full public whitepaper |
-| 3 | `WHITEPAPER-PAPERS/03-FUZE_TECHNICAL_ARCHITECTURE_PUBLIC.md` | Explains technical architecture |
-| 4 | `WHITEPAPER-PAPERS/04-FUZE_TOKEN_AND_WALLET_PARTICIPATION_ARCHITECTURE_PUBLIC.md` | Explains token and wallet architecture |
-| 5 | `WHITEPAPER-PAPERS/05-FUZE_RISK_AND_DISCLOSURE_APPENDIX_PUBLIC.md` | Gives detailed risk and disclosure reference |
+These hubs are orientation tools. Their summaries should point to detailed sources instead of duplicating them.
 
 ---
 
-## 6. Paper Groups and Their Roles
+## 3. Core Relationship Chains
 
-### 6.1 Public Index / Navigation Papers
+### 3.1 Product to Platform
 
-These papers help readers enter the FUZE documentation system.
+The product route begins with a user problem and ends with the infrastructure needed to support the workflow:
 
-| File | Role |
-|---|---|
-| `PUBLIC-INDEX/00-FUZE_PUBLIC_PAPER_INDEX.md` | Main list and navigation layer |
-| `PUBLIC-INDEX/01-FUZE_PUBLIC_FAQ.md` | Simple public questions and answers |
-| `PUBLIC-INDEX/02-FUZE_PUBLIC_STATUS_AND_ROADMAP_MATRIX.md` | Status language and roadmap matrix |
-| `PUBLIC-INDEX/03-FUZE_PUBLIC_LANGUAGE_AND_BOUNDARY_INDEX.md` | Approved language and public boundary rules |
-| `PUBLIC-INDEX/04-FUZE_PUBLIC_DOCUMENTATION_MAP.md` | Explains how the paper system connects |
+`Product index -> individual product -> product controls -> platform rails -> status and reporting`
 
-### 6.2 Core Platform Papers
+An individual paper explains users, tasks, features, examples, permissions, and outputs. The product-control papers then cover shared language, credit consumption, launch sequence, revenue readiness, and product risk. Core-platform papers explain reusable identity, payment, AI orchestration, data, wallet, and reporting capabilities.
 
-These papers explain FUZE as a platform.
+This chain keeps a ShopOS AI, ZAGA, QTB, AIMM, AIE, ToolGrid AI, or Botmad explanation centered on that product. Readers who need system-level detail can continue without requiring every product paper to repeat it.
 
-They show how practical products connect through shared rails.
+Recommended start: [FUZE AI SaaS One-Page](../WEBSITE-SUMMARY-PAPERS/02-FUZE_AI_SAAS_ONE_PAGE_PUBLIC.md).
 
-| File | Role |
-|---|---|
-| `CORE-PLATFORM-PAPERS/01-FUZE_PLATFORM_OVERVIEW_PUBLIC.md` | Main platform overview |
-| `CORE-PLATFORM-PAPERS/02-FUZE_ECOSYSTEM_MAP_PUBLIC.md` | Ecosystem map |
-| `CORE-PLATFORM-PAPERS/03-FUZE_PRODUCT_FIRST_EXECUTION_MODEL_PUBLIC.md` | Product-first execution model |
-| `CORE-PLATFORM-PAPERS/04-FUZE_CORE_PLATFORM_RAILS_PUBLIC.md` | Shared platform rails |
-| `CORE-PLATFORM-PAPERS/05-FUZE_PUBLIC_ROADMAP_AND_PRIORITY_PUBLIC.md` | Public roadmap and priority |
-| `CORE-PLATFORM-PAPERS/06-FUZE_PLATFORM_CREDITS_USAGE_EXAMPLES_PUBLIC.md` | Platform Credit usage examples |
-| `CORE-PLATFORM-PAPERS/07-FUZE_DATA_PRIVACY_AND_AI_DATA_HANDLING_PUBLIC.md` | Data privacy and AI data handling |
-| `CORE-PLATFORM-PAPERS/08-FUZE_WALLET_BASED_PLATFORM_MODEL_PUBLIC.md` | Wallet-based platform model |
-| `CORE-PLATFORM-PAPERS/09-FUZE_TRANSPARENCY_AND_REPORTING_RAILS_PUBLIC.md` | Transparency and reporting rails |
+### 3.2 Product Usage to Ecosystem Utility
 
-### 6.3 AI SaaS / Product Papers
+The corpus separates direct product consumption from broader ecosystem mechanisms:
 
-These papers explain what FUZE builds.
+`Product workflow -> Platform Credit use -> product-to-token bridge -> token utility -> mechanism-specific controls`
 
-Product papers should feel practical, specific, and human-readable.
+The first two steps concern supported product actions and their usage records. The bridge paper explains where a product may connect to FUZE token utility. Tokenomics papers carry the deeper utility, governance, circulation, eligibility, vault, or participation treatment.
 
-| Product Area | Main Papers |
-|---|---|
-| Product index | `AI-SAAS-PRODUCT-PAPERS/01-FUZE_AI_SAAS_PRODUCT_INDEX_PUBLIC.md` |
-| HerHelp family | `02-HERHELP_AI_SAAS_PUBLIC.md`, `03-HERHELP_SHEETLAYER_AI_PUBLIC.md`, `04-HERHELP_SHOPOS_AI_PUBLIC.md`, `05-HERHELP_SPEAKSHOP_AI_PUBLIC.md`, `06-HERHELP_TRAINLAYER_AI_PUBLIC.md`, `07-HERHELP_COMMUNITYLAYER_AI_PUBLIC.md` |
-| ZAGA family | `08-ZAGA_PUBLIC.md`, `09-ZAGA_ARENA_PUBLIC.md`, `10-ZAGA_DISTRICTS_PUBLIC.md` |
-| Market and liquidity support | `11-QTB_PUBLIC.md`, `12-AIMM_PUBLIC.md` |
-| Event, utility, and work support | `13-AIE_PUBLIC.md`, `14-TOOLGRID_PUBLIC.md`, `15-BOTMAD_PUBLIC.md` |
-| Product control papers | `16-FUZE_PRODUCT_RISK_BOUNDARIES_PUBLIC.md`, `17-FUZE_PRODUCT_LANGUAGE_DICTIONARY_PUBLIC.md` |
-| Product bridge papers | `18-FUZE_PRODUCT_TO_PLATFORM_CREDITS_PUBLIC.md`, `19-FUZE_PRODUCT_TO_TOKEN_UTILITY_BRIDGE_PUBLIC.md`, `20-FUZE_PRODUCT_LAUNCH_SEQUENCE_PUBLIC.md`, `21-FUZE_PRODUCT_REVENUE_READINESS_PUBLIC.md` |
+Readers should use the [FUZE Product to Platform Credits](../AI-SAAS-PRODUCT-PAPERS/18-FUZE_PRODUCT_TO_PLATFORM_CREDITS_PUBLIC.md) paper for the consumption route and the [FUZE Product to Token Utility Bridge](../AI-SAAS-PRODUCT-PAPERS/19-FUZE_PRODUCT_TO_TOKEN_UTILITY_BRIDGE_PUBLIC.md) for the ecosystem connection.
 
-### 6.4 Tokenomics / Governance / Compliance Papers
+### 3.3 Token Model to Wallet Participation
 
-These papers explain the controlled token, wallet, credit, governance, vault, legal, market, and reporting layers.
+The token and wallet route moves from general structure to conditional mechanics:
 
-| Paper Range | Main Role |
-|---|---|
-| `01` to `05` | Tokenomics overview, token allocation table, one-token model, token utility model, and token utility roadmap |
-| `06` to `10` | Community participation, wallet-based participation, activation gates, approved distributable value, and Platform Credits relationship |
-| `11` to `13` | Stablecoin compensation, controlled circulation, and token release clarity |
-| `14` to `18` | Vault and reserve policy, vault-by-vault release rules, public vault visibility, access windows, and pricing mechanism |
-| `19` to `23` | Team/advisor/partner vesting, BOARD/Surfboard migration, liquidity and listing policy, market price boundary, and seed round exposure |
-| `24` to `28` | Governance, smart contract readiness, wallet privacy, exchange custody, and legal messaging |
-| `29` to `32` | Token risk, growth and M&A boundary, development governance, and public language dictionary |
+`Tokenomics overview -> allocation and utility -> wallet model -> activation gates -> value approval -> privacy, custody, claims, and risk`
 
-### 6.5 Investor / Partner Papers
+This order matters. A reader should understand supply and utility before interpreting a wallet-based mechanism. Eligibility records, approved distributable value, self-custody or exchange-custody treatment, and claim procedures require their specialist papers.
 
-These papers help investors and partners evaluate FUZE.
+For a short entry, use the [FUZE One-Token Model One-Page](../WEBSITE-SUMMARY-PAPERS/06-FUZE_ONE_TOKEN_MODEL_ONE_PAGE_PUBLIC.md). The [FUZE Wallet-Based Participation Model](../TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/07-FUZE_WALLET_BASED_PARTICIPATION_MODEL_PUBLIC.md) is the primary mechanism source.
 
-| Paper Range | Main Role |
-|---|---|
-| `01` to `03` | Investor overview, product revenue model, and go-to-market direction |
-| `04` to `06` | Strategic partner model, enterprise and SME expansion, and Web3 community expansion |
-| `07` to `10` | AI safety, data privacy, public metrics, and long-term optionality |
-| `11` to `14` | Investor readiness, use of funds, token launch mechanics, and product evidence direction |
-| `15` to `20` | Investor FAQ, deck outline, risk disclosure, data room index, exchange boundary, and final investor summary |
+### 3.4 Market Access and Public Status
 
-### 6.6 Website Summary Papers
+Market-access reading should follow the control sequence rather than infer availability from ecosystem plans:
 
-Website papers are the short public layer.
+`Liquidity and listing policy -> launch mechanics -> market boundary -> custody treatment -> verified status`
 
-They should be easy to read before deeper papers.
+The policy papers describe FUZE's decentralized-first direction and the conditions around any possible later centralized venue. Investor launch material explains execution dependencies. Market and custody papers cover venue-specific issues, while the status matrix distinguishes exploration, preparation, application, approval, and live access.
 
-| File | Role |
-|---|---|
-| `WEBSITE-SUMMARY-PAPERS/01-FUZE_ONE_PAGE_OVERVIEW_PUBLIC.md` | Fast FUZE overview |
-| `WEBSITE-SUMMARY-PAPERS/02-FUZE_AI_SAAS_ONE_PAGE_PUBLIC.md` | Fast AI SaaS summary |
-| `WEBSITE-SUMMARY-PAPERS/03-FUZE_TOKENOMICS_ONE_PAGE_PUBLIC.md` | Fast tokenomics summary |
-| `WEBSITE-SUMMARY-PAPERS/04-FUZE_INVESTOR_ONE_PAGE_PUBLIC.md` | Fast investor summary |
-| `WEBSITE-SUMMARY-PAPERS/05-FUZE_RISK_AND_COMPLIANCE_ONE_PAGE_PUBLIC.md` | Fast risk and compliance summary |
-| `WEBSITE-SUMMARY-PAPERS/06-FUZE_ONE_TOKEN_MODEL_ONE_PAGE_PUBLIC.md` | Fast one-token model summary |
-| `WEBSITE-SUMMARY-PAPERS/07-FUZE_WALLET_BASED_PARTICIPATION_ONE_PAGE_PUBLIC.md` | Fast wallet-based participation summary |
+Start with [FUZE Liquidity and Listing Policy](../TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/21-FUZE_LIQUIDITY_AND_LISTING_POLICY_PUBLIC.md) when the route itself is the subject.
 
-### 6.7 Whitepaper / Master Narrative Papers
+### 3.5 Investor Evaluation
 
-Whitepaper papers connect the full system after the other layers are clear.
+The investor route combines business context with evidence:
 
-| File | Role |
-|---|---|
-| `WHITEPAPER-PAPERS/01-FUZE_WHITEPAPER_PUBLIC.md` | Full master narrative |
-| `WHITEPAPER-PAPERS/02-FUZE_LITEPAPER_PUBLIC.md` | Shorter master narrative |
-| `WHITEPAPER-PAPERS/03-FUZE_TECHNICAL_ARCHITECTURE_PUBLIC.md` | Technical architecture |
-| `WHITEPAPER-PAPERS/04-FUZE_TOKEN_AND_WALLET_PARTICIPATION_ARCHITECTURE_PUBLIC.md` | Token and wallet architecture |
-| `WHITEPAPER-PAPERS/05-FUZE_RISK_AND_DISCLOSURE_APPENDIX_PUBLIC.md` | Risk and disclosure appendix |
+`Investor overview -> product and revenue model -> go-to-market -> readiness and status -> funding use -> governance and risk -> final synthesis`
+
+Product papers remain the source for user value. Investor papers interpret commercial paths, distribution, capital priorities, evidence, controls, and strategic dependencies for an evaluation audience. The data-room index shows how deeper diligence material would be organized without publishing private records.
+
+The fastest entry is the [FUZE Investor One-Page](../WEBSITE-SUMMARY-PAPERS/04-FUZE_INVESTOR_ONE_PAGE_PUBLIC.md). Readers assessing collaboration should branch to the [FUZE Strategic Partner Model](../INVESTOR-PARTNER-PAPERS/04-FUZE_STRATEGIC_PARTNER_MODEL_PUBLIC.md).
+
+### 3.6 Architecture and Risk
+
+Technical review connects system design to operational boundaries:
+
+`Platform rails -> technical architecture -> token and wallet architecture -> governance and readiness -> risk appendix`
+
+The general architecture paper covers components and interfaces. The token-and-wallet architecture narrows the view to token, eligibility, value, records, and claims. Governance, multisig, timelock, contract-readiness, privacy, and reporting papers supply control detail.
+
+Architecture describes intended system behavior; the status and risk sources show what evidence or conditions are still required.
 
 ---
 
-## 7. Language, Boundary, and Risk Control
+## 4. Audience Routes
 
-FUZE uses a layered language system.
+### First-Time Reader
 
-Normal product and platform papers should explain products, workflows, platform rails, credits, wallet records, and reporting in simple language.
+1. Read the [FUZE One Page Overview](../WEBSITE-SUMMARY-PAPERS/01-FUZE_ONE_PAGE_OVERVIEW_PUBLIC.md).
+2. Use the [FUZE Public FAQ](01-FUZE_PUBLIC_FAQ.md) for the first unresolved question.
+3. Continue to the product, platform, token, investor, or risk hub that matches that question.
 
-Dedicated risk and disclosure papers should hold deeper boundaries.
+### Product User or Operator
 
-This keeps the paper system readable while still allowing serious review.
+1. Open the [FUZE AI SaaS Product Index](../AI-SAAS-PRODUCT-PAPERS/01-FUZE_AI_SAAS_PRODUCT_INDEX_PUBLIC.md).
+2. Select the relevant individual product.
+3. Follow its credit, data, permission, reporting, launch, or risk reference only as needed.
 
-The main rule is:
+### Web3 Community Reader
 
-- lead with product value
-- explain the platform clearly
-- keep token and wallet language precise
-- keep privacy clear
-- keep risk details in the right place
-- avoid outdated terms, missing-file references, and old numbering references
-- keep every paper unique to its purpose
+1. Begin with the one-token summary or ZAGA product paper according to interest.
+2. Read utility and wallet records as separate subjects.
+3. Use the status matrix before interpreting a mechanism as active.
+4. Consult the dedicated wallet, market, or token-risk paper for detailed conditions.
 
-FUZE public language should make readers feel that the project is practical, organized, transparent, and worth following.
+### Investor or Strategic Partner
+
+1. Start with the appropriate one-page or overview.
+2. Review product evidence and commercial paths.
+3. Inspect readiness, funding use, reporting, governance, and privacy.
+4. Finish with investor risk or the consolidated appendix.
+
+### Technical, Legal, or Risk Reviewer
+
+1. Identify the mechanism in its primary subject paper.
+2. Trace its architecture, data, governance, custody, and reporting dependencies.
+3. Check the current status and evidence vocabulary.
+4. Apply the topic-specific risk or disclosure source.
 
 ---
 
-## 8. Key Takeaways
+## 5. Reading by Question
 
-- The FUZE Public Documentation Map explains how the full paper system connects.
-- The Public Paper Index lists the papers; this map explains the relationship between them.
-- FUZE documentation is organized around product-first communication.
-- New readers can start with FAQ, one-page overview, platform overview, and product index.
-- Product users can follow the product and Platform Credits path.
-- Crypto and Web3 readers can follow the ZAGA, FUZE token, and wallet record path.
-- Investors can follow the revenue, evidence, use-of-funds, risk, and final summary path.
-- Reviewers can follow the language, legal, risk, privacy, market access, and disclosure path.
-- Website papers should stay short and public-facing.
-- Whitepaper papers should connect the full system after the other layers are aligned.
+| Question | First paper | Then inspect |
+|---|---|---|
+| What does FUZE build? | Product index | Individual products and platform overview |
+| How do shared capabilities connect products? | Ecosystem map | Core platform rails and technical architecture |
+| How are supported product actions consumed? | Platform Credit usage examples | Product-to-credit mapping and reporting |
+| How is FUZE token structured? | Tokenomics overview | Allocation, one-token model, utility, and circulation |
+| How could wallet participation work? | Wallet-based participation model | Activation, value approval, privacy, custody, claims, and risk |
+| What is ready or live? | Status and roadmap matrix | The evidence source for the named product or mechanism |
+| How does FUZE approach market access? | Liquidity and listing policy | Launch, custody, market boundary, and status |
+| What should an investor evaluate? | Investor overview | Revenue, go-to-market, readiness, funding use, metrics, and risk |
+| Where are public wording rules? | [FUZE Public Language and Boundary Index](03-FUZE_PUBLIC_LANGUAGE_AND_BOUNDARY_INDEX.md) | Product or token dictionary and the relevant risk source |
+| Where is the connected master narrative? | Litepaper | Whitepaper and specialist architecture papers |
+
+---
+
+## 6. Source Precedence
+
+When two papers appear to address the same subject, use this order:
+
+1. A mechanism-specific paper controls its detailed explanation.
+2. An approved allocation or policy paper controls fixed values and formal categories.
+3. The status matrix controls public status vocabulary, while the underlying evidence supports the status.
+4. A dedicated risk paper controls the detailed limitations for its domain.
+5. Website pages, FAQs, decks, and final summaries provide orientation rather than override specialist sources.
+
+An older or broader summary should be corrected when it conflicts with a current primary source. Private diligence material is outside this public map and should not be inferred from public index entries.
+
+---
+
+## 7. Navigation Boundaries
+
+This map describes relationships between approved public papers. It does not establish product availability, delivery dates, token or wallet rights, exchange access, commercial terms, or professional conclusions.
+
+A link shows where a subject is explained; it is not evidence that every described capability is active. Readers should pair mechanism papers with current status and, where relevant, the applicable evidence and risk source.
+
+Public wallet references should remain separate from personal identity. Private partner, customer, investor, legal, tax, accounting, security, custody, and credential records do not become public merely because a related topic appears in this map.
+
+---
+
+## Conclusion
+
+The FUZE documentation system is designed for progressive depth. Readers can enter through a concise page, move to the primary subject, inspect its connections and evidence, and use a dedicated boundary paper when the topic requires closer review.
+
+The index answers which papers exist. This map answers what to read next and why.

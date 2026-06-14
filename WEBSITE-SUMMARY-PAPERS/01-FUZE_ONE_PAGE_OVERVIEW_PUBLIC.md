@@ -2,403 +2,108 @@
 
 ## Executive Summary
 
-FUZE is a transparency-first AI SaaS platform building practical products on shared infrastructure for identity, credits, payments, AI orchestration, wallet-based records, reporting, and ecosystem participation.
+FUZE is building an ecosystem where useful AI products come first and shared Web3-ready infrastructure helps those products work together.
 
-FUZE follows product-first execution. Product usage comes first, platform rails come second, and broader ecosystem participation comes after that.
+The entry point is practical: a shop can improve daily operations, a team can organize spreadsheet data, a community can manage support and moderation, a player can enter a game experience, or an operator can use specialized intelligence tools. Behind those products, FUZE develops common rails for accounts, permissions, Platform Credits, payments, AI orchestration, reporting, and wallet-aware records.
 
-FUZE builds practical AI SaaS products for shops, SMEs, communities, Web3 teams, event organizers, market-aware users, game communities, operators, founders, and teams.
+This gives FUZE two connected strengths. Each product can solve a specific user problem, while the platform can reuse capabilities that would otherwise be rebuilt in isolation. FUZE token provides one ecosystem-level token framework where relevant, but ordinary product value does not depend on every user becoming a token participant.
 
-FUZE uses one token only: **FUZE token**.
+This page is a first introduction for product users, community members, builders, partners, and investors. It shows what FUZE is creating, how the pieces connect, and where to continue for deeper detail.
 
-FUZE token is the single ecosystem token of FUZE. It supports product-connected utility, ecosystem participation, platform alignment, governance direction where applicable, and wallet-based participation ability.
+## Products Are the Front Door
 
-Platform Credits are product usage credits and are separate from FUZE token.
+FUZE starts with experiences that people can understand through use.
 
-Stablecoins are payment, settlement, treasury, and compensation rails.
+The HerHelp family applies AI to everyday business and operational work. SheetLayer AI turns spreadsheet data into clearer views and workflows. ShopOS AI brings ordering, queue, stock, loyalty, staff, and reporting tools into a shop-focused system. SpeakShop AI supports promotional audio content, while TrainLayer AI and CommunityLayer AI help teams create learning materials and operate communities.
 
-Wallet-based participation ability is an activation-gated framework inside the FUZE token model.
+ZAGA adds game and community experiences. ZAGA Arena centers on fast battle sessions and multiplayer competition. ZAGA Districts is a separate Telegram-native cyberpunk MMORPG built around cities, economies, NPCs, and community power.
 
-FUZE’s public market access direction is DEX first. CEX expansion may come later and is not guaranteed.
+Specialized products extend the ecosystem further:
 
-FUZE uses clear public boundaries around token utility, wallet-based records, market access, AI output, and product revenue. Detailed risk and disclosure language is covered in the FUZE Risk and Disclosure Appendix.
+- QTB supports market research and interpretation workflows;
+- AIMM supports liquidity-operations intelligence and reporting;
+- AIE helps teams discover, plan, and review events;
+- ToolGrid AI combines utility discovery with clearly identified sponsored visibility; and
+- Botmad provides supervised AI work assistance under permission controls.
 
----
+Readers can explore the full catalogue in the [FUZE AI SaaS Product Index](../AI-SAAS-PRODUCT-PAPERS/01-FUZE_AI_SAAS_PRODUCT_INDEX_PUBLIC.md).
 
-## 1. What FUZE Is
+## Shared Rails Connect the Products
 
-FUZE is a product-first AI SaaS platform with Web3-connected transparency rails.
+FUZE products address different audiences, but many need the same underlying capabilities.
 
-It is designed to connect practical AI products, Platform Credits, payments, stablecoin settlement, wallet-based records, public reporting, and one ecosystem token into a single operating model.
-
-FUZE is not presented as a token-only project.
-
-FUZE is not built only around speculation.
-
-FUZE is built around product usage first.
-
----
-
-## 2. The FUZE Product Ecosystem
-
-FUZE products are organized around practical user needs.
-
-| Product Area | Products |
+| Shared capability | What it supports |
 |---|---|
-| Practical AI SaaS | HerHelp, SheetLayer AI, ShopOS AI, SpeakShop AI, TrainLayer AI, CommunityLayer AI |
-| Game and Community Utility | ZAGA, ZAGA Arena, ZAGA Districts |
-| Market and Liquidity Intelligence | QTB, AIMM |
-| Event and Utility Network | AIE, ToolGrid AI |
-| AI Work Assistance | Botmad |
+| Identity and permissions | Accounts, roles, workspaces, product access, and controlled actions |
+| Platform Credits | Usage of supported AI tasks, reports, modules, and workflows |
+| Payments and settlement | Product purchases and approved operational payment paths |
+| AI orchestration | Model routing, generation, analysis, summaries, and supervised assistance |
+| Data and reporting | Usage records, dashboards, evidence, and public-safe summaries |
+| Wallet-aware records | Token-related or participation records where a product or policy requires them |
 
-Each product has its own purpose, user group, product evidence path, revenue path, Platform Credit relationship, AI risk boundary, and public communication boundary.
+A shared platform can make product development more consistent. A reporting pattern proven in one service can inform another. Permission controls can follow a common approach. Usage records can become easier for customers and operators to interpret.
 
----
+The deeper system design is described in the [FUZE Platform Overview](../CORE-PLATFORM-PAPERS/01-FUZE_PLATFORM_OVERVIEW_PUBLIC.md).
 
-## 3. Practical AI SaaS
+## How People Can Enter FUZE
 
-### HerHelp
+Different readers can begin in different places.
 
-HerHelp is the practical AI SaaS suite under FUZE.
+**A small business** might start with ShopOS AI or SheetLayer AI and use Platform Credits for selected product actions.
 
-### SheetLayer AI
+**A community team** might begin with CommunityLayer AI, TrainLayer AI, or ZAGA community experiences.
 
-SheetLayer AI turns spreadsheets and business data into mapped workflows, dashboards, reports, and AI-supported business views.
+**A Web3 operator** might use QTB, AIMM, wallet-aware reporting, or token-related utility where supported.
 
-### ShopOS AI
+**An event or growth team** might combine AIE planning with ToolGrid AI discovery and sponsored campaigns.
 
-ShopOS AI is an AI-powered shop operating system for QR menu, checkout, queue, payment, loyalty, stock, staff, delivery, reports, TrustCheck, device support, Google Sheets sync, and AI assistance.
+**A partner** might integrate a product, distribution channel, data source, payment path, event program, or technical rail.
 
-### SpeakShop AI
+This range matters because FUZE is not designed around a single acquisition path. Useful products can introduce users to the ecosystem, and shared infrastructure can make later connections easier without forcing every feature into the first interaction.
 
-SpeakShop AI supports promotional voice scripts, sound packs, speaker announcements, queue announcements, shop messages, event announcements, and campaign audio workflows.
+## Credits, Payments, and the Token
 
-### TrainLayer AI
+FUZE keeps three important roles distinct.
 
-TrainLayer AI supports training materials, quizzes, SOP conversion, onboarding materials, learning guides, and staff or customer education.
+Platform Credits support consumption of eligible product services. They can help meter AI work, reports, modules, or other usage without requiring a customer to manage token mechanics.
 
-### CommunityLayer AI
+Stablecoins can be used for selected payment, settlement, treasury, vendor, or contributor operations when the relevant workflow supports them.
 
-CommunityLayer AI supports moderation, safety, verification, support, reporting, summaries, and community operations.
+FUZE token is the ecosystem token used for token-specific utility and alignment. The [FUZE One-Token Model One-Page](./06-FUZE_ONE_TOKEN_MODEL_ONE_PAGE_PUBLIC.md) explains how that structure avoids multiplying token identities across products.
 
-Boundary:
+These systems can interact, but they are recorded and governed according to their own purpose. A product purchase, a credit balance, an operational payment, and token ownership are different events.
 
-AI SaaS products support practical workflows, but product results, business outcomes, and AI outputs still require responsible use, review, and operational judgment.
+## Transparency With Permission Boundaries
 
----
+FUZE uses documentation, product records, reporting, and wallet-level evidence to make the ecosystem easier to review.
 
-## 4. ZAGA Ecosystem
+Public-safe information can show product status, usage categories, token or vault activity, report references, and other records that help readers understand progress or policy execution. Personal identity, customer data, credentials, private agreements, and sensitive account evidence remain protected through permissioned processes.
 
-ZAGA is the FUZE game and token-utility ecosystem.
+AI products also require practical controls. Permissions, human review, source awareness, logging, and product-specific safeguards help users understand what an AI system did and where judgment remains necessary.
 
-ZAGA includes ZAGA Arena and ZAGA Districts as separate products.
+## A Product-First Growth Model
 
-ZAGA Arena is the fast battle arena game where players survive, fight bosses, collect USDT and Token Value, build Net Worth, and compete in Telegram-ready multiplayer arenas.
+FUZE can expand through several reinforcing paths:
 
-ZAGA Districts is a Telegram-native cyberpunk MMORPG where real communities build cities, manage economies, hire NPCs, and compete for power.
+1. products solve focused problems for users;
+2. recurring usage creates evidence about demand and workflow value;
+3. shared rails reduce repeated platform work;
+4. partners extend integration, distribution, and market access; and
+5. ecosystem utility grows around products that have a real reason to exist.
 
-ZAGA Districts is not a mode inside ZAGA Arena.
+The sequence keeps platform and token features connected to execution. It also gives FUZE room to serve Web2 customers, Web3 communities, enterprises, SMEs, games, events, and technical partners through different combinations of products and rails.
 
-Boundary:
+## Public Boundary
 
-ZAGA game values, USDT and Token Value language, Net Worth, city economies, NPCs, treasuries, taxes, salaries, quests, defenses, and token or NFT utility are game/community mechanics or controlled utility surfaces. Detailed risk language is covered in the FUZE Risk and Disclosure Appendix.
+FUZE public materials describe product direction, platform architecture, token utility, and future capabilities. Delivery schedules, adoption, revenue, AI outputs, market access, wallet eligibility, liquidity, listings, and financial outcomes depend on execution and external conditions.
 
----
+Readers evaluating those dependencies should use the [FUZE Risk and Disclosure Appendix](../WHITEPAPER-PAPERS/05-FUZE_RISK_AND_DISCLOSURE_APPENDIX_PUBLIC.md) as the consolidated source for deeper limitations.
 
-## 5. QTB, AIMM, AIE, ToolGrid AI, and Botmad
+## Where to Go Next
 
-QTB is AI trading intelligence and market interpretation support. It is not financial advice, investment advice, trading instruction, guaranteed market prediction, or autonomous trading execution.
+- Product users can start with the [AI SaaS One-Page](./02-FUZE_AI_SAAS_ONE_PAGE_PUBLIC.md).
+- Web3 readers can use the [One-Token Model One-Page](./06-FUZE_ONE_TOKEN_MODEL_ONE_PAGE_PUBLIC.md).
+- Potential partners and investors can read the [Investor One-Page](./04-FUZE_INVESTOR_ONE_PAGE_PUBLIC.md).
+- Readers interested in conditional wallet participation can use the [Wallet-Based Participation One-Page](./07-FUZE_WALLET_BASED_PARTICIPATION_ONE_PAGE_PUBLIC.md).
 
-AIMM is AI market-making and liquidity operations support. It is not price support, guaranteed liquidity, fake volume, market manipulation, or guaranteed listing performance.
-
-AIE is event intelligence for planning, sponsor reports, participant feedback summaries, campaign summaries, and post-event reporting.
-
-ToolGrid AI is an AI utility network with sponsored visibility. Sponsored placements are marked and do not guarantee ranking, clicks, conversion, user acquisition, sales, or revenue.
-
-Botmad is the AI Desktop Employee under permission controls. It supports work assistance, but it does not guarantee perfect output, error-free work, productivity improvement, or business success.
-
----
-
-## 6. Shared Platform Rails
-
-FUZE products connect through shared platform rails.
-
-These rails may include:
-
-- identity and account rails
-- workspace permission rails
-- Platform Credit rails
-- payment rails
-- stablecoin rails
-- AI orchestration rails
-- product usage records
-- wallet-based records
-- public reporting rails
-- report hash rails
-- public vault visibility direction
-- partner access controls
-- data privacy controls
-- smart-contract readiness where applicable
-- governance direction where applicable
-
-Boundary:
-
-Shared rails support platform coherence, while scalability, uptime, adoption, revenue, token demand, liquidity, listing, payout, acquisition, exit, and investment outcomes remain subject to execution and market conditions.
-
----
-
-## 7. Product Revenue Model
-
-FUZE revenue paths are product-based.
-
-Possible revenue paths include:
-
-- Platform Credit purchases
-- AI SaaS subscriptions
-- usage-based product fees
-- product module fees
-- shop packages
-- training packages
-- community operation packages
-- event intelligence packages
-- sponsored visibility packages
-- QTB reports
-- AIMM reports
-- Botmad work-assistance sessions
-- ZAGA utility services where defined and compliant
-- partner service fees
-- implementation fees
-- enterprise packages
-- SME packages
-
-Boundary:
-
-Revenue paths are business model paths, not revenue guarantees. Product revenue and approved distributable value are explained in deeper tokenomics, investor, and risk papers.
-
----
-
-## 8. Platform Credits
-
-Platform Credits are product usage credits.
-
-They may support AI tasks, reports, shop workflows, training materials, community summaries, QTB reports, AIMM reports, AIE reports, ToolGrid visibility, Botmad sessions, and ZAGA utility surfaces where supported.
-
-Platform Credits are separate from FUZE token.
-
-Platform Credits are not FUZE token, equity, debt, investment contracts, income rights, participation rights, governance rights, claim rights, or market access rights.
-
-Boundary:
-
-Platform Credits support product usage. Detailed credit, token, and participation boundaries are covered in the Platform Credits and risk papers.
-
----
-
-## 9. Stablecoin Rails
-
-Stablecoins are payment, settlement, treasury, and compensation rails.
-
-Stablecoin balances may relate to product payments, Platform Credit purchases, subscriptions, report purchases, partner settlement, vendor payments, contributor compensation, treasury transfers, reserves, investor funds, liquidity-related settlement, conversion proof, refunds, or non-revenue transfers.
-
-Stablecoin records require classification.
-
-Boundary:
-
-Stablecoins are operational rails. They are not automatically product revenue, approved distributable value, token-holder distributions, payout supply, liquidity, market access value, or investment return.
-
----
-
-## 10. FUZE Token
-
-FUZE uses one token only: FUZE token.
-
-FUZE token is the single ecosystem token of FUZE.
-
-FUZE token supports product-connected utility, ecosystem participation, platform alignment, governance direction where applicable, and wallet-based participation ability.
-
-FUZE does not use a second public participation token.
-
-Boundary:
-
-FUZE token utility is part of the ecosystem model. Detailed token risk, market access, and wallet-based participation boundaries are covered in the dedicated tokenomics and risk papers.
-
----
-
-## 11. Wallet-Based Participation Ability
-
-Wallet-based participation ability is a possible FUZE token-related framework where eligible FUZE-holding wallets may participate in approved distributable value from defined FUZE product revenue pools if the framework becomes active.
-
-It is not a second token.
-
-It is not automatic for every wallet.
-
-It is not active as a guaranteed public payout right.
-
-Activation may require legal, accounting, treasury, audit, reporting, smart-contract, privacy, eligibility, operator, jurisdiction, approved distributable value, and product revenue pool gates.
-
-Boundary:
-
-Wallet-based participation ability is activation-gated. Detailed rules and risk boundaries are covered in the wallet-based participation, activation gate, and risk appendix papers.
-
----
-
-## 12. Market Access
-
-FUZE’s public market access direction is DEX first.
-
-CEX expansion may come later and is not guaranteed.
-
-DEX-first access can provide transparent on-chain market access, but it does not guarantee liquidity, market depth, trading volume, token price, buyer demand, seller access, payout, exit, or investment return.
-
-Exchange custody may not support individual user-level wallet records, snapshots, eligibility, private verification, claim support, or wallet-based participation if a future framework activates.
-
-Self-custody gives direct wallet control but creates user responsibility.
-
-Boundary:
-
-Market access supports access and transparency. It does not create guaranteed liquidity, resale, listing, payout, or investment outcomes.
-
----
-
-## 13. Public Transparency
-
-FUZE public transparency may include:
-
-- public papers
-- public FAQ
-- public product status matrix
-- public documentation map
-- product usage categories
-- Platform Credit usage categories
-- stablecoin payment categories
-- revenue category summaries where confirmed and appropriate
-- token release records
-- vault labels
-- public vault visibility
-- report hashes
-- AI safety categories
-- data privacy categories
-- investor readiness categories
-- roadmap status categories
-
-Boundary:
-
-Public transparency supports reviewability and public understanding. It does not replace execution, product evidence, audits, legal review, accounting review, or market reality.
-
----
-
-## 14. Investor Readiness
-
-FUZE investor readiness is based on:
-
-- public platform papers
-- product evidence
-- revenue model clarity
-- Platform Credit separation
-- stablecoin classification
-- one-token model clarity
-- wallet-based participation boundaries
-- token launch mechanics
-- exchange and market access boundaries
-- AI safety and data privacy boundaries
-- public metrics and reporting direction
-- investor FAQ
-- investor deck outline
-- investor risk disclosure
-- investor data-room index
-- round structure and use-of-funds clarity
-
-Boundary:
-
-Investor readiness supports diligence, but it does not guarantee investment, valuation, product adoption, revenue, liquidity, listing, payout, acquisition, exit, or return.
-
----
-
-## 15. Key Boundaries
-
-FUZE public language keeps the following boundaries clear:
-
-| Area | Boundary |
-|---|---|
-| Products | Adoption, retention, and revenue are not guaranteed |
-| Product Revenue | Not approved distributable value by default |
-| Platform Credits | Product usage credits, not investment rights |
-| Stablecoins | Payment rails, not automatic distributions |
-| FUZE Token | No price, payout, liquidity, listing, or return guarantee |
-| Wallet Participation | Activation-gated and not automatic |
-| Token Launch | Not a guaranteed market or liquidity event |
-| Exchange Access | DEX-first direction, CEX-later possibility, no guaranteed liquidity |
-| Market Price | May rise, fall, or become volatile |
-| AIMM | Not price support or liquidity guarantee |
-| QTB | Not financial advice or trading instruction |
-| ZAGA | Game mechanics, not guaranteed earnings |
-| AI | Output may be wrong, stale, biased, or incomplete |
-| Data Privacy | Controls reduce risk, not perfect protection |
-| Smart Contracts | No zero-exploit or zero-bug guarantee |
-| Custody | Self-custody and exchange custody carry risk |
-| Legal and Regulatory | Approval and treatment are not guaranteed |
-| Fundraising | Private strategic fundraising, not public solicitation |
-| Data Room | Supports diligence, not investment guarantee |
-| M&A | Optionality, not guaranteed exit |
-
----
-
-## 16. Community-Safe Summary
-
-Community members can say:
-
-- FUZE is product-first.
-- FUZE is a transparency-first AI SaaS platform.
-- FUZE uses one token only: FUZE token.
-- Platform Credits are product usage credits.
-- Stablecoins are payment and settlement rails.
-- Wallet-based participation is activation-gated and not automatic.
-- Product revenue does not automatically go to token holders.
-- DEX-first access does not guarantee easy resale.
-- CEX expansion may come later and is not guaranteed.
-- Liquidity is not guaranteed.
-- Token price is not guaranteed.
-- QTB is not financial advice.
-- AIMM is not price support.
-- ZAGA game values are game mechanics.
-- Public vaults support transparency, not public claim rights.
-- Data-room readiness supports investor review, not investment guarantee.
-- Acquisition and exit are not guaranteed.
-
-Community members avoid saying:
-
-- CEX listing is guaranteed
-- liquidity is guaranteed
-- token price is guaranteed
-- every holder will be paid
-- all revenue goes to holders
-- Platform Credits are token rights
-- stablecoin treasury goes to holders
-- exchange holders automatically qualify
-- QTB guarantees trades
-- AIMM protects price
-- ZAGA guarantees earnings
-- acquisition is guaranteed
-- exit is guaranteed
-
----
-
-## 17. Final One-Page Takeaway
-
-FUZE is a product-first, transparency-first AI SaaS platform building practical products and shared Web3-connected rails.
-
-The platform is designed around practical AI products, Platform Credits, stablecoin payments, public reporting, wallet-level records, and one ecosystem token.
-
-FUZE token is the single ecosystem token of FUZE.
-
-Platform Credits are product usage credits.
-
-Stablecoins are payment, settlement, treasury, and compensation rails.
-
-Wallet-based participation ability is activation-gated and not automatic.
-
-Product revenue does not automatically become approved distributable value.
-
-FUZE’s investor story is built on product usage, platform rails, public transparency, disciplined boundaries, and long-term optionality.
-
-Boundary:
-
-FUZE uses clear public boundaries around token utility, wallet-based records, market access, AI output, and product revenue. Detailed risk and disclosure language is covered in the FUZE Risk and Disclosure Appendix.
+FUZE is easiest to understand from the outside in: begin with the product that matters to you, then follow the shared rails and ecosystem relationships that support it.
