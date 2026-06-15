@@ -2,873 +2,322 @@
 
 ## Executive Summary
 
-FUZE Public Metrics and Transparency explains how FUZE can communicate public-safe metrics, reporting categories, report hashes, product status reporting, token release transparency, vault visibility, Platform Credit reporting, revenue-category reporting, wallet-level records, privacy boundaries, and no-guarantee transparency language.
+FUZE public metrics are intended to help readers distinguish documented direction, completed work, controlled testing, active use, and commercially relevant evidence. A published number is useful only when its definition, period, scope, source, review status, and limitations are understandable.
 
-FUZE is a transparency-first AI SaaS platform building practical products on shared infrastructure for identity, credits, payments, AI orchestration, wallet-based records, reporting, and ecosystem participation.
+This paper sets the investor-facing standard for selecting, presenting, and maintaining public metrics. It covers the metric registry, evidence levels, publication workflow, privacy review, report integrity, and correction history. The shared technical reporting process is described separately in the [FUZE Transparency and Reporting Rails](../CORE-PLATFORM-PAPERS/09-FUZE_TRANSPARENCY_AND_REPORTING_RAILS_PUBLIC.md).
 
-FUZE follows product-first execution. Product usage comes first, platform rails come second, and broader ecosystem participation comes after that.
+FUZE can report selected product, commercial, platform, reliability, partner, community, and ecosystem information as supporting records become available. Public reporting remains narrower than internal operations or qualified diligence. It uses aggregate or otherwise public-safe evidence and does not expose personal identity, customer records, confidential agreements, security details, or private wallet associations.
 
-FUZE uses one token only: **FUZE token**.
-
-FUZE token is the single ecosystem token of FUZE. It supports product-connected utility, ecosystem participation, platform alignment, governance direction where applicable, and wallet-based participation ability.
-
-Public metrics and transparency matter because FUZE combines AI SaaS products, Platform Credits, stablecoin payment rails, wallet-level records, public vault visibility, product status reporting, token release clarity, revenue-category reporting, and investor/community education.
-
-Transparency helps investors and community members understand what exists, what is active, what is under development, what is only a direction, what is activation-gated, and what is not promised.
-
-FUZE transparency is not a guarantee of revenue, adoption, token demand, token price, listing, liquidity, payout, income, yield, profit, acquisition, exit, AI accuracy, game earnings, or investment return.
-
-Public metrics should be accurate, defined, privacy-aware, and clearly limited.
-
-Platform Credits are product usage credits and are separate from FUZE token.
-
-Stablecoins are payment, settlement, treasury, and compensation rails.
-
-Wallet-based participation ability is a separate activation-gated framework inside the FUZE token model.
-
-FUZE uses wallet-level transparency without public identity exposure.
+Metrics are evidence, not conclusions by themselves. Investors should read them with product status, cohort size, measurement method, costs, data quality, and changes in definition. FUZE should correct material errors visibly and preserve enough version history for readers to identify the current record.
 
 ---
 
-## 1. Investor or Partner Purpose
+## 1. Purpose and Audience
 
-This paper explains FUZE’s public metrics and transparency model for investors, partners, community members, product users, and public readers.
+This paper answers a practical diligence question: **what should a reader require before relying on a FUZE public metric?**
 
-It answers:
+It is written for:
 
-- What public metrics can FUZE report safely?
-- What should not be reported publicly?
-- How can FUZE show product status without overpromising?
-- How can FUZE report Platform Credit usage without confusing credits with FUZE token?
-- How can FUZE report stablecoin payment categories without implying automatic distributions?
-- How can FUZE use report hashes?
-- How can FUZE use public vault visibility?
-- How can FUZE protect private identity while showing wallet-level records?
-- How can FUZE communicate token release and circulation clarity?
-- How should investors evaluate public metrics?
-- What transparency claims should FUZE avoid?
+- prospective and current investors reviewing public evidence;
+- partners evaluating delivery or integration progress;
+- product users and community members following operating updates;
+- analysts comparing status across FUZE products and platform functions;
+- FUZE teams preparing information for public release.
 
-This paper is not a financial statement, audit report, legal opinion, tax opinion, accounting policy, securities disclosure, listing announcement, token sale document, public investment offer, payout policy, or guaranteed-result statement.
-
-It is a public metrics and transparency model paper.
+The paper defines a disclosure discipline rather than a promise to publish every available record. Some information belongs in user reports, partner reports, investor diligence materials, accounting workpapers, security records, or other permissioned environments.
 
 ---
 
-## 2. FUZE Transparency Position
+## 2. What Makes a Metric Decision-Useful
 
-FUZE’s public transparency position is:
+A decision-useful metric connects a claim to a defined observation.
 
-**FUZE uses public-safe reporting, wallet-level transparency, product status records, report hashes, vault labels, token release clarity, Platform Credit reporting, stablecoin category reporting, and risk boundaries to help investors and communities evaluate the platform without exposing private identity or promising outcomes.**
-
-This position has eight parts.
-
-| Area | FUZE Position |
+| Required element | Reader question |
 |---|---|
-| Public-safe reporting | FUZE reports categories, status, summaries, hashes, and wallet-level records where appropriate |
-| Product status clarity | FUZE separates concept, design, prototype, testing, live, paused, under review, and activation-gated status |
-| Platform Credit clarity | Platform Credit usage may be reported as product usage data, not token-holder rights |
-| Stablecoin clarity | Stablecoin payments may be reported as payment, settlement, treasury, or compensation categories |
-| Wallet-level transparency | Wallet records can support public review without public identity exposure |
-| Report hashes | Hashes can prove a report existed in a specific form, but they are not full audits by themselves |
-| Risk boundaries | Transparency does not guarantee business, market, token, AI, game, or investment outcomes |
-| Privacy protection | Public transparency avoids unnecessary exposure of personal, customer, investor, contributor, partner, and private verification data |
+| Metric name | Which measure is being discussed? |
+| Business purpose | What decision or claim does the measure inform? |
+| Calculation | How is the value produced? |
+| Unit | Is it counting users, organizations, actions, value, time, or a rate? |
+| Scope | Which product, feature, geography, channel, or audience is included? |
+| Period | When did measurement begin and end? |
+| Cohort | Which records qualify for inclusion? |
+| Exclusions | Which tests, failures, duplicates, refunds, or internal events were removed? |
+| Source | Which system or approved record supports the result? |
+| Owner | Who maintains the definition and reviews exceptions? |
+| Evidence level | How directly can the value be verified? |
+| Version | Which definition and report release produced the figure? |
 
-Transparency is a trust tool.
+A total without this context can hide meaningful differences. For example, account creation, first successful workflow, repeated product use, and a paying customer are separate events. Combining them under a single label such as “users” weakens the report.
 
-It is not a return promise.
-
----
-
-## 3. Why Public Metrics Matter
-
-Public metrics matter because FUZE needs to communicate progress in a way that is useful and credible.
-
-Investors and community members need to understand:
-
-- which products exist
-- which products are active
-- which products are still under development
-- which products are revenue-ready
-- which products are only concept or design
-- how Platform Credits are used
-- how product revenue categories are reported
-- how stablecoin payments are classified
-- how FUZE token release and circulation are tracked
-- how vaults and reserves are labeled
-- how wallet records are shown
-- how public reports are verified
-- what data remains private
-- which claims are not guaranteed
-
-Without defined metrics, public updates can become confusing, speculative, or unsafe.
-
-Boundary:
-
-Public metrics support evaluation, but they do not guarantee product success, revenue, token demand, payout, liquidity, listing, exit, or investment return.
+Rates also require both numerator and denominator. A completion percentage should identify what began, what counted as completion, which period applied, and how retries or abandoned sessions were handled.
 
 ---
 
-## 4. Public Metrics Principles
+## 3. Public Metric Registry
 
-FUZE public metrics should follow clear principles.
+FUZE should maintain an approved registry for recurring public measures. The registry is the reference point for names, definitions, source ownership, and publication status.
 
-### 4.1 Accuracy
+Each entry can record:
 
-Metrics should be based on available records and should not be inflated.
+1. a stable metric identifier;
+2. the approved display name;
+3. the current definition and calculation;
+4. the authoritative source and responsible owner;
+5. scope, cohort, period, and exclusions;
+6. privacy or aggregation requirements;
+7. expected update cadence;
+8. definition version and effective date;
+9. quality checks and known limitations;
+10. related reports, corrections, and superseded versions.
 
-### 4.2 Definition
+The registry prevents the same label from acquiring different meanings in a website update, investor presentation, dashboard, and partner report. When a calculation changes materially, FUZE should issue a new definition version and explain whether prior periods were restated.
 
-Each metric should explain what is counted and what is excluded.
-
-### 4.3 Privacy
-
-Metrics should avoid unnecessary exposure of user identity, customer identity, investor identity, contributor identity, private verification records, private agreements, and confidential business data.
-
-### 4.4 Context
-
-Metrics should be explained with product status, time period, data source, and limitations where relevant.
-
-### 4.5 Separation
-
-Metrics should separate product usage, Platform Credits, stablecoins, FUZE token records, vault records, and wallet participation status.
-
-### 4.6 Risk Boundary
-
-Metrics should not imply guaranteed growth, revenue, payout, token price, liquidity, listing, or exit.
-
-### 4.7 Update Discipline
-
-Metrics should be updated under a clear cadence where possible and corrected when errors are found.
-
-Boundary:
-
-Metric principles improve trust, but they do not guarantee perfect data or perfect outcomes.
+Experimental measures can be labeled as such before they become recurring public metrics. This allows FUZE to test usefulness without presenting an unstable method as a permanent standard.
 
 ---
 
-## 5. Public Metrics Categories
+## 4. Evidence Levels
 
-FUZE public metrics may be organized into categories.
+Public metrics can carry different strengths of support. A simple evidence scale helps readers interpret them.
 
-| Category | Purpose |
+| Level | Evidence character | Appropriate public treatment |
+|---|---|---|
+| E0: Direction | A proposed measure or reporting intention | Describe as planned or under definition |
+| E1: Documented | Definition, owner, and source design exist | State that the measurement method is documented |
+| E2: Tested | Sample or controlled records have been processed and reviewed | Present as test evidence with scope and period |
+| E3: Operating | The source and calculation run in a bounded live environment | Report the observed operating result and cohort |
+| E4: Reconciled | Relevant records have passed domain review and reconciliation | Identify the review basis and reporting period |
+| E5: Independently examined | An approved external party has examined a stated scope | Name the scope and form of examination only when publication is authorized |
+
+Evidence strength belongs to the metric and period, not permanently to the product. A product may have operating usage data while its revenue classification remains at a tested level. A wallet transaction may be publicly visible while its business purpose still requires private reconciliation.
+
+The status language in the [FUZE Public Status and Roadmap Matrix](../PUBLIC-INDEX/02-FUZE_PUBLIC_STATUS_AND_ROADMAP_MATRIX.md) should remain aligned with the evidence used in metric reports.
+
+---
+
+## 5. Metric Families
+
+FUZE can organize public reporting into families without forcing every product to publish the same dashboard.
+
+### 5.1 Product adoption and use
+
+Product measures can address qualified access, onboarding, first completed workflow, continued use, output review, support activity, and retention within a defined cohort. Each product chooses signals that reflect its actual user problem.
+
+Raw event volume should be separated from meaningful completion. Internal testing, demonstrations, automated activity, promotional use, and repeated retries require explicit treatment.
+
+### 5.2 Commercial evidence
+
+Commercial reporting can distinguish offer readiness, paid transactions, fulfilled services, refunds, disputes, repeated purchase, and reconciled revenue categories. Values should match the classification and period used by the relevant finance records.
+
+The [FUZE Product Revenue Model](02-FUZE_PRODUCT_REVENUE_MODEL_PUBLIC.md) owns the detailed transaction and revenue distinctions. Public summaries should use approved aggregates rather than disclose customer identities, contracts, invoices, or private pricing.
+
+### 5.3 Platform use and reliability
+
+Shared-rail metrics can show which products use a service, successful and failed requests, availability, latency, reconciliation exceptions, permission decisions, and incident recovery. Adoption by several products is stronger platform evidence than an architecture description alone.
+
+Platform Credit activity can be reported as product-consumption evidence with grants, purchases, reservations, use, reversals, or adjustments classified appropriately. Credit reporting remains distinct from token records.
+
+### 5.4 AI quality and safety
+
+Relevant signals can include task completion, human acceptance, correction, escalation, policy denial, source quality, latency, cost, and incident categories. Aggregate counts require the workflow and review method because different products carry different consequences.
+
+The [FUZE AI Safety and Reliability](07-FUZE_AI_SAFETY_AND_RELIABILITY_PUBLIC.md) paper explains the control and evaluation lifecycle behind these measures.
+
+### 5.5 Distribution and partner delivery
+
+Channel metrics can cover qualified interest, onboarding, activation, workflow completion, support burden, conversion, continued use, and partner delivery milestones. Announcement counts should remain separate from integrations, pilots, active deployments, and renewed relationships.
+
+### 5.6 Community and ecosystem activity
+
+Community reporting can address participation in defined programs, events, product feedback, contributor work, education, or approved governance processes. Audience size alone is a weak signal unless FUZE also explains activity quality, source, period, and relevance.
+
+Token release, vault, market-access, or wallet-participation records should appear only when the corresponding mechanism and reporting basis are applicable. Their specialist papers own supply, eligibility, custody, activation, and market detail.
+
+---
+
+## 6. Stage and Cohort Separation
+
+Public reports should not combine incompatible stages.
+
+FUZE should separate:
+
+- internal tests from external use;
+- invited trials from public access;
+- promotional activity from paid activity;
+- registered accounts from qualified active users;
+- started workflows from completed outcomes;
+- transaction attempts from settled payments;
+- gross inflows from reconciled revenue classifications;
+- signed interest from operating partner delivery;
+- design readiness from active mechanism status.
+
+Early cohorts can still provide useful evidence when their size and selection are visible. A result from five invited organizations answers a different question than a result from an open public release. FUZE should avoid extrapolating one cohort beyond the environment actually observed.
+
+Where a cumulative figure is published, the accompanying period report should show material additions, exclusions, or definition changes so that growth can be interpreted.
+
+---
+
+## 7. Evidence Sources and Quality Checks
+
+The metric owner should identify the source closest to the observed event. Examples include product event records, payment-provider status, support systems, approved finance schedules, release records, incident logs, partner acceptance records, governance decisions, and public-chain references.
+
+Before publication, quality review can test:
+
+- required fields and timestamp consistency;
+- duplicate or retry handling;
+- test and internal-account exclusions;
+- late-arriving or missing records;
+- refund, reversal, cancellation, and dispute treatment;
+- source-to-report reconciliation;
+- calculation and rounding;
+- timezone and reporting cutoff;
+- cohort and access classification;
+- privacy transformations.
+
+A spreadsheet or dashboard may calculate or present a value, but the report should still identify the underlying source. Manual adjustments require a reason, owner, supporting evidence, and review history.
+
+Known data gaps should be stated in proportion to their effect. Treating absent records as zero can create a misleading result, particularly when an external provider, network, or integration is delayed.
+
+---
+
+## 8. Publication Classes
+
+FUZE information can be delivered at several access levels.
+
+| Class | Typical content |
 |---|---|
-| Product Status Metrics | Explain whether products are concept, design, prototype, testing, live, paused, or under review |
-| Product Usage Metrics | Explain usage categories, active modules, report generation, or workflow activity where public-safe |
-| Platform Credit Metrics | Explain credit purchase and usage categories without treating credits as tokens |
-| Payment and Stablecoin Metrics | Explain payment categories, settlement categories, and treasury categories where public-safe |
-| Revenue Category Metrics | Explain revenue categories where confirmed and appropriate, without implying approved distributable value |
-| Token Release Metrics | Explain unlocks, releases, circulation categories, vault movement, and supply clarity |
-| Vault and Reserve Metrics | Explain public-safe vault labels, reserve categories, and wallet activity |
-| Wallet Participation Metrics | Explain status only if applicable and active or under review, without public identity exposure |
-| AI Safety Metrics | Explain AI workflow categories, incidents, improvements, and limitations where appropriate |
-| Community Metrics | Explain community activity categories without promising growth |
-| Investor Readiness Metrics | Explain documentation, data-room, reporting, and review readiness |
+| Internal operating report | Detailed events, exceptions, costs, incidents, and owner actions |
+| User or workspace report | Activity and records belonging to an authorized user or organization |
+| Partner report | Measures agreed for a specific integration, campaign, or delivery scope |
+| Qualified diligence report | Approved commercial, financial, technical, governance, and risk evidence |
+| Public report | Selected aggregate status and metrics suitable for unrestricted access |
 
-Each category requires its own boundary.
+Moving a report to a wider audience requires a separate disclosure decision. Accuracy approval does not automatically authorize publication, and public availability of one data point does not make its private business context public.
+
+Qualified investors may receive greater detail under the applicable access and confidentiality process. Public papers should not imply that permissioned diligence records are available without review.
 
 ---
 
-## 6. Product Status Reporting
+## 9. Public Review Workflow
 
-Product status reporting helps public readers understand what FUZE products are and where they stand.
+A metric should pass a repeatable release process:
 
-Possible status labels include:
+```text
+registered definition
+-> source extraction
+-> quality validation
+-> calculation
+-> domain review
+-> privacy and disclosure review
+-> approval
+-> publication and registry update
+```
 
-- concept
-- research
-- design
-- prototype
-- internal testing
-- testnet where applicable
-- limited release
-- public beta where appropriate
-- live where confirmed
-- paused
-- under review
-- deprecated
-- replaced
-- activation-gated
-- not active
-- planned
-- completed where verified
+Domain review depends on the subject. Product owners review workflow meaning; finance owners review commercial classification; operations owners review reliability; privacy and security owners review exposure; token, treasury, governance, or legal reviewers enter where their subject requires them.
 
-Status labels should be specific.
-
-For example:
-
-- A product paper can be complete while the product is still under development.
-- A public demo can exist before full product launch.
-- A smart contract can be in readiness state without live claim activation.
-- A product can be live for limited users but not publicly available.
-- A feature can be designed but not deployed.
-
-Boundary:
-
-Product status reporting does not guarantee delivery dates, adoption, revenue, token demand, or investment return.
+The released report should identify its period, version, publication date, evidence level, and current status. A draft dashboard or internal snapshot should not be cited publicly as though it were an approved period report.
 
 ---
 
-## 7. Product Usage Reporting
+## 10. Privacy and Aggregation
 
-Product usage reporting can show whether users are interacting with FUZE products.
+Public transparency must preserve the boundary between reviewable activity and private identity.
 
-Possible product usage metrics include:
+Publication review should consider direct identifiers, customer content, employee or contributor records, private investor information, partner terms, credentials, signer details, wallet-to-person associations, precise locations, small cohorts, unique events, and combinations that enable re-identification.
 
-- active product modules
-- product workflows used
-- reports generated
-- AI tasks completed
-- shop workflows configured
-- queue sessions processed
-- menus created
-- training materials generated
-- community summaries generated
-- moderation reports generated
-- QTB reports generated
-- AIMM reports generated
-- AIE event reports generated
-- ToolGrid visibility campaigns
-- Botmad sessions
-- ZAGA gameplay activity categories
-- ZAGA Districts community activity categories
+Available controls include:
 
-Product usage metrics should be privacy-safe and clearly defined.
+- aggregation across an appropriate cohort;
+- minimum group-size rules;
+- delayed release;
+- category grouping or value ranges;
+- redaction of sensitive fields;
+- pseudonymous references without identity linkage;
+- omission when transformation would still create material exposure.
 
-Boundary:
-
-Usage does not guarantee revenue, retention, customer satisfaction, token demand, token price, listing, liquidity, payout, or investment return.
+An on-chain address or transaction can be referenced when it supports an approved public purpose. FUZE should not publish the private person behind that address merely to make a report appear more complete.
 
 ---
 
-## 8. Product-Specific Transparency
+## 11. Dashboards and Period Reports
 
-Each FUZE product needs its own transparency logic.
+Dashboards are useful for current visibility, while period reports provide a reviewed record. They should be treated as related but different products.
 
-### 8.1 HerHelp
+A public dashboard should show:
 
-Metrics may include active modules, AI workflow categories, credit usage categories, reports generated, and product status.
+- the metric name and definition reference;
+- scope and current reporting period;
+- freshness or last-update time;
+- evidence or source category;
+- definition version;
+- known delay, incident, or incomplete-data notice;
+- link to the latest formal report or correction.
 
-### 8.2 SheetLayer AI
+Period reports should explain material movement, cohort changes, method changes, and relevant limitations. If a live dashboard differs from a closed-period report, the update timing and source treatment should explain the difference.
 
-Metrics may include mapped sheets, dashboards generated, formula explanations, sync records, and business-data workflow categories.
-
-### 8.3 ShopOS AI
-
-Metrics may include shop workspaces, QR menus, queue sessions, stock workflows, loyalty workflows, reports, device setup categories, and Google Sheets sync categories.
-
-### 8.4 SpeakShop AI
-
-Metrics may include scripts generated, sound-pack categories, announcement categories, campaign types, and language categories.
-
-### 8.5 TrainLayer AI
-
-Metrics may include guides created, quizzes generated, SOP conversions, training sessions, and learning material categories.
-
-### 8.6 CommunityLayer AI
-
-Metrics may include group summaries, moderation reports, verification workflows, support summaries, safety reports, and community operation categories.
-
-### 8.7 ZAGA
-
-Metrics may include game status, gameplay sessions, event categories, leaderboard categories, game economy reporting categories, and community activity categories.
-
-ZAGA Arena and ZAGA Districts are separate products under the ZAGA brand.
-
-### 8.8 QTB
-
-Metrics may include report categories, market summary categories, watchlist note categories, and educational output categories.
-
-### 8.9 AIMM
-
-Metrics may include liquidity-operation report categories, venue note categories, order-book observation categories, and market-operation summary categories.
-
-### 8.10 AIE
-
-Metrics may include event reports, campaign summaries, sponsor report categories, attendee feedback categories, and event intelligence workflows.
-
-### 8.11 ToolGrid AI
-
-Metrics may include listings, sponsored visibility categories, campaign reports, category pages, and discovery activity.
-
-### 8.12 Botmad
-
-Metrics may include work-assistance sessions, document drafts, task summaries, checklist categories, permissioned workflow categories, and report categories.
-
-Boundary:
-
-Product-specific transparency does not guarantee product adoption, revenue, user growth, customer growth, AI accuracy, or business outcome.
+Vanity totals should not crowd out measures tied to product value, quality, economics, or reliable operation. A smaller set of stable metrics is more useful than a large dashboard with shifting definitions.
 
 ---
 
-## 9. Platform Credit Reporting
+## 12. Hashes and Publication Integrity
 
-Platform Credits are product usage credits.
+A report hash can help readers verify that a retrieved file matches the version registered by FUZE. A publication entry can include the title, report identifier, period, version, hash algorithm, digest, release date, location, and current status.
 
-FUZE may report Platform Credit metrics in public-safe ways.
+Hash verification answers an integrity question about the file. It does not establish that every source record was complete, that the calculation was professionally audited, or that the reported outcome will continue.
 
-Possible Platform Credit metrics include:
-
-- credit package categories
-- credits purchased by category
-- credits consumed by product category
-- credits used for AI tasks
-- credits used for reports
-- credits used for shop workflows
-- credits used for training materials
-- credits used for community summaries
-- credits used for QTB reports
-- credits used for AIMM reports
-- credits used for AIE reports
-- credits used for ToolGrid visibility
-- credits used for Botmad sessions
-- promotional credit categories
-- bonus credit categories
-- failed-task adjustment categories
-- refund adjustment categories
-
-Platform Credit reporting should avoid exposing individual customer identity unless permissioned and appropriate.
-
-Boundary:
-
-Platform Credits are not FUZE token, not equity, not debt, not investment contracts, not income rights, not participation rights, not governance rights, and not claim rights.
+Where digital signatures are used, FUZE also needs controlled keys, public verification instructions, rotation procedures, and revocation records. A signature is useful only when readers can identify the authorized signer and validate the current key status.
 
 ---
 
-## 10. Payment and Stablecoin Reporting
+## 13. Corrections, Restatements, and Supersession
 
-Stablecoins are payment, settlement, treasury, and compensation rails.
+Public credibility requires visible correction rather than silent replacement.
 
-FUZE may report payment and stablecoin categories where public-safe.
+When FUZE identifies a material issue, the report owner should:
 
-Possible categories include:
+1. assess the affected metrics, periods, and audiences;
+2. label or withdraw the affected public version where needed;
+3. preserve the original under controlled history;
+4. correct the source, classification, or calculation;
+5. complete the required domain and disclosure review;
+6. publish a replacement with the reason and material effect;
+7. update dashboards, indexes, and dependent reports.
 
-- product payments
-- Platform Credit purchases
-- AI SaaS subscriptions
-- report purchases
-- partner settlement
-- contributor compensation
-- vendor payment
-- treasury transfer
-- reserve transfer
-- conversion proof
-- refund category
-- chargeback category
-- non-revenue transfer category
+A restatement changes a previously reported value or interpretation in a material way. A supersession replaces a report because a newer period, definition, or document is current. Minor presentation fixes can use a lighter correction note, but the publication registry should still identify the active version.
 
-Stablecoin reporting must classify inflows and outflows carefully.
-
-A stablecoin transaction may be visible on-chain, but its business context may be private.
-
-Boundary:
-
-Stablecoin records are not automatic product revenue, approved distributable value, token-holder distributions, or participation claims.
+Definition changes should not be disguised as performance changes. Where comparable historical recalculation is impractical, FUZE should mark the break and begin a new series.
 
 ---
 
-## 11. Product Revenue Category Reporting
+## 14. Investor Interpretation
 
-FUZE may report product revenue categories where confirmed, reconciled, and appropriate.
+Investors can evaluate a public metric through six questions:
 
-Possible revenue category reports include:
+1. **Relevance:** does the measure connect to product value, execution, economics, or control?
+2. **Definition:** could another reviewer reproduce the inclusion and calculation logic?
+3. **Evidence:** what source and evidence level support the reported value?
+4. **Comparability:** are periods, cohorts, and definitions consistent?
+5. **Quality:** which exclusions, gaps, adjustments, or corrections affect interpretation?
+6. **Context:** how does the metric relate to product status, costs, support, risk, and the next operating decision?
 
-- HerHelp revenue category
-- SheetLayer AI revenue category
-- ShopOS AI revenue category
-- SpeakShop AI revenue category
-- TrainLayer AI revenue category
-- CommunityLayer AI revenue category
-- ZAGA utility revenue category where defined and compliant
-- QTB report revenue category
-- AIMM report revenue category
-- AIE event intelligence revenue category
-- ToolGrid AI sponsored visibility category
-- Botmad session category
-- partner service fee category
-- implementation service category
-- subscription category
-- usage-based fee category
-- module fee category
+No single number proves the FUZE investment thesis. A stronger view combines product completion, continued use, commercial classification, platform reuse, reliability, governance, and evidence quality.
 
-Revenue category reporting requires careful classification.
-
-It should distinguish:
-
-- gross payment
-- failed payment
-- refunded payment
-- chargeback
-- taxes where applicable
-- payment fees
-- infrastructure costs
-- AI costs
-- support costs
-- operating reserves
-- product category
-- product revenue pool where applicable
-- approved distributable value status where applicable
-
-Boundary:
-
-Product revenue category reporting does not mean revenue is guaranteed, profit is guaranteed, or approved distributable value exists.
+The [FUZE Product Status and Evidence Matrix](14-FUZE_PRODUCT_STATUS_AND_EVIDENCE_MATRIX_PUBLIC.md) provides the companion status framework. The [FUZE Investor Overview](01-FUZE_INVESTOR_OVERVIEW_PUBLIC.md) places public evidence within the wider diligence route.
 
 ---
 
-## 12. Approved Distributable Value Transparency
+## 15. Public Boundary
 
-Approved distributable value is different from gross revenue.
+This paper is a reporting framework, not an audit opinion, financial statement, investment offer, valuation, or forecast. Public metrics should describe the observed scope and evidence available at the time of release.
 
-If FUZE ever reports approved distributable value, it should be defined carefully.
+FUZE can withhold or aggregate information when publication would expose personal data, confidential commercial terms, customer records, security controls, private treasury context, or another protected interest. The existence of a metric does not require its unrestricted disclosure.
 
-Approved distributable value may require:
-
-- defined product revenue pool
-- revenue confirmation
-- reconciliation
-- exclusions
-- deductions
-- reserves
-- tax review where applicable
-- accounting review
-- treasury review
-- legal review
-- audit or evidence review where required
-- approval
-- activation status
-- eligibility rules
-- reporting readiness
-- jurisdiction review
-- privacy readiness
-- smart-contract readiness where applicable
-
-Boundary:
-
-Product revenue does not automatically become approved distributable value. Approved distributable value does not guarantee payout, claim availability, eligibility, token price, liquidity, listing, or investment return.
+Token price, exchange access, liquidity, investment performance, future revenue, and ecosystem participation outcomes should not be inferred from product activity or reporting volume. Dedicated tokenomics, market-access, and risk papers provide the relevant boundaries for those subjects.
 
 ---
 
-## 13. Token Release and Circulation Reporting
+## Conclusion
 
-FUZE token release and circulation reporting can support supply clarity.
+FUZE public transparency should make important claims easier to test. That requires stable metric definitions, identifiable evidence, clear cohorts, proportionate privacy controls, subject-matter review, versioned publication, and an accessible correction history.
 
-Possible token release metrics include:
-
-- total supply
-- allocation categories
-- released supply category
-- unreleased supply category
-- vault category
-- vesting category
-- team, advisor, partner category
-- community allocation category
-- migration allocation category
-- liquidity allocation category
-- treasury or reserve category
-- circulating supply estimate where defined
-- release event
-- release date
-- report hash
-- transaction reference
-- timelock status where applicable
-- multisig status where public-safe
-- locked or restricted category
-- unlock schedule category
-
-Reporting should clearly define what is included and excluded from circulation.
-
-Boundary:
-
-Controlled circulation reporting supports transparency, but it does not guarantee token price, liquidity, demand, listing, trading volume, or exit.
-
----
-
-## 14. Vault and Reserve Reporting
-
-Public Vault Visibility can support public trust.
-
-Vault and reserve reporting may include:
-
-- vault labels
-- vault purpose
-- vault category
-- release status
-- reserve category
-- transaction reference
-- vault movement
-- report hash
-- wallet address
-- timelock or multisig reference where public-safe
-- access window status
-- public access window policy where applicable
-- excluded or reserved category
-
-Public Vault Visibility is transparency.
-
-It is not unrestricted public control.
-
-Public Vault Access Windows are controlled access windows where final policy allows.
-
-Boundary:
-
-Vault visibility does not create unrestricted access, treasury control, claim rights, payout, income, yield, profit, token price support, or investment return.
-
----
-
-## 15. Wallet-Level Transparency Reporting
-
-FUZE uses wallet-level transparency without public identity exposure.
-
-Wallet-level reporting may include:
-
-- wallet address
-- vault label
-- transaction reference
-- token release record
-- snapshot category where applicable
-- eligibility category where applicable
-- claim status where applicable
-- custody category where applicable
-- public vault access category
-- report hash
-- audit reference where public
-
-Wallet-level reporting should avoid exposing private identity publicly by default.
-
-Private identity data may include:
-
-- personal name
-- email
-- phone number
-- ID document
-- passport
-- address
-- investor identity
-- contributor identity
-- customer identity
-- private verification record
-- private agreement
-- private exchange record
-- private custody record
-
-Boundary:
-
-Wallet-level transparency supports public review, but it does not guarantee eligibility, claim support, payout, or identity exposure.
-
----
-
-## 16. Community and Web3 Metrics
-
-FUZE may report Web3 and community metrics in public-safe ways.
-
-Possible community metrics include:
-
-- community education posts
-- public paper views by category where available
-- community event categories
-- ZAGA event categories
-- Telegram activity categories
-- CommunityLayer AI summary categories
-- moderation report categories
-- QTB community report categories
-- AIMM community report categories
-- ToolGrid AI sponsored visibility categories
-- AIE event categories
-- partner education categories
-- feedback theme categories
-- support category summaries
-
-Community metrics should not be presented as guaranteed growth.
-
-Boundary:
-
-Community metrics do not guarantee community growth, token demand, token price, liquidity, listing, payout, or investment return.
-
----
-
-## 17. AI Safety and Reliability Metrics
-
-FUZE may report AI safety and reliability categories where public-safe.
-
-Possible AI metrics include:
-
-- AI workflow categories
-- report generation categories
-- human review categories
-- permission-control updates
-- model or workflow improvement categories
-- incident category summaries
-- corrected output category summaries
-- known limitation summaries
-- data privacy update summaries
-- product-specific AI safety updates
-- fallback and error category summaries
-
-AI safety metrics should protect sensitive data and avoid implying perfect output.
-
-Boundary:
-
-AI safety metrics do not guarantee AI accuracy, zero hallucination, zero data incident, zero bias, zero unsafe output, or business result.
-
----
-
-## 18. Investor Readiness Metrics
-
-Investor readiness metrics can help investors understand whether FUZE is organized for review.
-
-Possible investor readiness metrics include:
-
-- public paper completion status
-- public documentation index status
-- data room index status
-- product status matrix
-- product revenue model readiness
-- go-to-market readiness
-- risk disclosure readiness
-- legal messaging readiness
-- tokenomics documentation status
-- governance documentation status
-- smart-contract readiness status
-- development governance status
-- AI safety documentation status
-- privacy and permission documentation status
-- investor FAQ status
-
-Investor readiness metrics support review.
-
-They do not guarantee investment, acquisition, liquidity, listing, token price, payout, or return.
-
----
-
-## 19. Report Hashes and Evidence Records
-
-Report hashes can support evidence discipline.
-
-A report hash can show that a specific version of a report existed at a specific time.
-
-Report hashes may apply to:
-
-- public papers
-- product reports
-- token release reports
-- vault visibility reports
-- revenue category reports
-- Platform Credit reports
-- stablecoin category reports
-- AI safety reports
-- incident summaries
-- investor readiness documents
-- data room index records
-- governance reports
-- smart-contract readiness reports
-
-However, a hash only proves that a document fingerprint existed.
-
-It does not prove the document is accurate, complete, audited, legally approved, or financially assured.
-
-Boundary:
-
-Report hashes support evidence records. They are not full audits by themselves.
-
----
-
-## 20. Metrics That Should Not Be Public by Default
-
-Some data should not be public by default.
-
-Examples include:
-
-- personal identities
-- customer lists
-- emails
-- phone numbers
-- ID documents
-- KYC or AML records
-- private investor records
-- private contributor records
-- private compensation records
-- private legal workpapers
-- tax records
-- accounting workpapers
-- private support tickets
-- private customer files
-- private spreadsheets
-- private prompts
-- private AI outputs
-- private partner terms
-- private exchange communications
-- private market maker discussions
-- security-sensitive logs
-- incident details that increase risk
-- private data room content
-- non-public financial records
-- private wallet identity links
-
-FUZE can share public-safe categories without exposing private information.
-
-Boundary:
-
-Transparency does not mean public exposure of every record.
-
----
-
-## 21. Update, Correction, and Error Handling
-
-Public metrics can contain mistakes if data is wrong, incomplete, stale, duplicated, misclassified, or misunderstood.
-
-FUZE should have a correction path.
-
-Correction may include:
-
-- identify issue
-- classify severity
-- correct the data where possible
-- update public report where appropriate
-- state correction if public impact is meaningful
-- keep private records protected
-- update report hash where appropriate
-- improve data collection
-- improve review process
-- improve metric definition
-- update boundary language
-- record correction internally
-
-Common metric issues include:
-
-- duplicated counts
-- wrong status label
-- stale product status
-- missing refund adjustment
-- wrong credit category
-- wrong stablecoin category
-- wrong token release category
-- public label error
-- wallet category error
-- report hash mismatch
-- privacy issue
-- overbroad claim
-- unsupported conclusion
-
-Boundary:
-
-Correction process improves transparency, but it does not guarantee perfect data.
-
----
-
-## 22. Transparency and Public Language Boundaries
-
-FUZE transparency language should avoid turning metrics into promises.
-
-Avoided language includes:
-
-- revenue guaranteed
-- users guaranteed
-- token demand guaranteed
-- token price supported
-- liquidity guaranteed
-- listing confirmed unless actually confirmed publicly
-- public report proves return
-- vault balance belongs to holders
-- stablecoin balance creates payout rights
-- Platform Credits create token rights
-- product usage guarantees approved distributable value
-- wallet status guarantees claim
-- report hash equals audit
-- AI safety metric guarantees accuracy
-- game activity guarantees earnings
-
-Approved language includes:
-
-- public-safe metrics support transparency
-- metrics are defined by category
-- metrics require context
-- metrics do not guarantee outcomes
-- wallet-level transparency does not expose personal identity by default
-- Platform Credits are product usage credits
-- stablecoins are payment, settlement, treasury, and compensation rails
-- approved distributable value requires activation and review
-- report hashes support evidence discipline
-- product status reporting does not guarantee product success
-
----
-
-## 23. Investor Evaluation Framework
-
-Investors can evaluate FUZE public metrics and transparency through practical questions.
-
-| Evaluation Area | Investor Question |
-|---|---|
-| Definition clarity | Are metrics clearly defined? |
-| Product status clarity | Does FUZE separate concept, design, prototype, testing, live, paused, and activation-gated states? |
-| Privacy | Are public reports protecting user, customer, investor, contributor, partner, and verification data? |
-| Credit reporting | Are Platform Credits reported as product usage credits, not tokens? |
-| Stablecoin reporting | Are stablecoins reported as payment, settlement, treasury, or compensation categories? |
-| Token release clarity | Are token release and circulation categories clearly explained? |
-| Vault visibility | Are vault labels and records public-safe and clearly bounded? |
-| Wallet transparency | Can wallets be visible without public identity exposure? |
-| Revenue category | Are revenue categories reconciled and not confused with approved distributable value? |
-| Evidence records | Do report hashes and version records improve reviewability? |
-| Correction process | Can errors be corrected publicly where appropriate? |
-| Risk boundary | Are metrics prevented from becoming outcome guarantees? |
-
-This framework helps investors evaluate transparency quality without assuming guaranteed outcomes.
-
-Boundary:
-
-Investor evaluation of metrics does not guarantee revenue, token demand, liquidity, listing, payout, exit, acquisition, or investment return.
-
----
-
-## 24. Risk and Disclosure Reference
-
-Important public boundaries include:
-
-- Public metrics support evaluation, but they do not guarantee product success, revenue, token demand, payout, liquidity, listing, exit, or investment return.
-- Metric principles improve trust, but they do not guarantee perfect data or perfect outcomes.
-- Product status reporting does not guarantee delivery dates, adoption, revenue, token demand, or investment return.
-- Product usage does not guarantee revenue, retention, customer satisfaction, token demand, token price, listing, liquidity, payout, or investment return.
-- Platform Credits are not FUZE token, not equity, not debt, not investment contracts, not income rights, not participation rights, not governance rights, and not claim rights.
-- Stablecoin records are not automatic product revenue, approved distributable value, token-holder distributions, or participation claims.
-- Product revenue category reporting does not mean revenue is guaranteed, profit is guaranteed, or approved distributable value exists.
-- Product revenue does not automatically become approved distributable value.
-- Controlled circulation reporting supports transparency, but it does not guarantee token price, liquidity, demand, listing, trading volume, or exit.
-- Vault visibility does not create unrestricted access, treasury control, claim rights, payout, income, yield, profit, token price support, or investment return.
-- Wallet-level transparency supports public review, but it does not guarantee eligibility, claim support, payout, or identity exposure.
-- Community metrics do not guarantee community growth, token demand, token price, liquidity, listing, payout, or investment return.
-- AI safety metrics do not guarantee AI accuracy, zero hallucination, zero data incident, zero bias, zero unsafe output, or business result.
-- Report hashes support evidence records. They are not full audits by themselves.
-- Transparency does not mean public exposure of every record.
-- Correction process improves transparency, but it does not guarantee perfect data.
-- FUZE token does not guarantee payout, income, yield, profit, token price, token demand, listing, liquidity, market support, trading volume, exit, acquisition, game earnings, business revenue, user growth, community growth, approved distributable value, wallet eligibility, claim availability, AI accuracy, smart-contract security, sponsored performance, trading profit, market-making result, or investment return.
-
-More detailed boundaries are handled in dedicated papers, including:
-
-- `CORE-PLATFORM-PAPERS/09-FUZE_TRANSPARENCY_AND_REPORTING_RAILS_PUBLIC.md`
-- `INVESTOR-PARTNER-PAPERS/07-FUZE_AI_SAFETY_AND_RELIABILITY_PUBLIC.md`
-- `INVESTOR-PARTNER-PAPERS/08-FUZE_DATA_PRIVACY_AND_PERMISSION_MODEL_PUBLIC.md`
-- `AI-SAAS-PRODUCT-PAPERS/16-FUZE_PRODUCT_RISK_BOUNDARIES_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/13-FUZE_TOKEN_RELEASE_AND_CIRCULATION_CLARITY_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/16-FUZE_PUBLIC_VAULT_VISIBILITY_SYSTEM_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/26-FUZE_WALLET_BASED_PRIVACY_AND_ELIGIBILITY_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/28-FUZE_LEGAL_AND_COMPLIANCE_MESSAGING_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/29-FUZE_TOKEN_RISK_BOUNDARIES_PUBLIC.md`
-
-This paper focuses on public metrics and transparency while deeper transparency rails, AI safety, data privacy, product risk, token release, vault visibility, wallet privacy, legal messaging, and token-risk topics remain in dedicated papers.
-
----
-
-## 25. Key Takeaways
-
-- FUZE Public Metrics and Transparency explains how FUZE can communicate public-safe metrics, reporting categories, report hashes, product status reporting, token release transparency, vault visibility, Platform Credit reporting, revenue-category reporting, wallet-level records, privacy boundaries, and no-guarantee transparency language.
-- FUZE transparency is public-safe and privacy-aware.
-- Public metrics should be accurate, defined, contextual, separated by category, and clearly bounded.
-- Product status reporting should separate concept, research, design, prototype, testing, live, paused, under review, deprecated, replaced, activation-gated, not active, planned, and completed states.
-- Product usage reporting does not guarantee revenue, retention, token demand, or investment return.
-- Platform Credit reporting must keep credits separate from FUZE token.
-- Stablecoin reporting must classify payments, settlement, treasury, compensation, and non-revenue movements carefully.
-- Product revenue category reporting does not automatically create approved distributable value.
-- Controlled circulation reporting supports transparency without guaranteeing price or liquidity.
-- Public Vault Visibility supports public review without creating unrestricted access.
-- Wallet-level transparency can support public records without public identity exposure.
-- Report hashes support evidence discipline but are not full audits by themselves.
-- Transparency does not mean public exposure of every private record.
-- Public metrics and transparency do not guarantee product success, revenue, token demand, token price, listing, liquidity, payout, income, yield, profit, acquisition, exit, or investment return.
+The result is not the maximum possible volume of public data. It is a smaller, controlled body of information that investors, partners, users, and community readers can interpret without confusing plans, tests, operating results, and private records.
