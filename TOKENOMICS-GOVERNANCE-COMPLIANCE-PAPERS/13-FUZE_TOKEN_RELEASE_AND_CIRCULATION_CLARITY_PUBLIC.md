@@ -2,660 +2,406 @@
 
 ## Executive Summary
 
-FUZE Token Release and Circulation Clarity explains how FUZE communicates token release, unlocks, vesting, circulating supply, locked supply, reserved supply, treasury supply, vault movement, claim status, and supply reporting.
+FUZE token supply reports use distinct terms for allocation, custody, restriction, release, claimability, deployment, and circulation. A transaction or unlock can change one status without changing every other status.
 
-FUZE uses one ecosystem token only: **FUZE token**.
+This paper is the public terminology and reporting standard. It defines the supply fields, classification tests, reconciliation equations, event labels, report format, and correction rules needed to interpret FUZE token movement consistently.
 
-FUZE token is the single ecosystem token of FUZE. It supports product-connected utility, ecosystem participation, platform alignment, governance direction where applicable, community participation structures, and wallet-based participation ability where activated under required controls.
+The fixed supply is **500,000,000 FUZE**. That total includes all approved allocation categories and remains separate from current transferable, deployed, claimable, or circulating amounts.
 
-Token release and circulation clarity is important because public readers, investors, community members, exchanges, partners, contributors, product users, and legacy holders need to understand the difference between total supply, circulating supply, locked supply, reserved supply, vested supply, unvested supply, treasury supply, liquidity-related supply, claimable supply, released supply, unlocked supply, and tokens held in vaults.
-
-A release, unlock, vesting event, vault transfer, treasury movement, reserve balance, migration status, or liquidity-related allocation needs context before readers can understand what it means.
-
-Controlled circulation and clear reporting help FUZE reduce confusion, but they do not guarantee token price, listing, liquidity, trading volume, market support, exit, payout, income, yield, profit, wallet eligibility, approved distributable value, claim availability, or investment return.
-
-FUZE execution order is:
-
-**Product usage first. Platform rails second. Broader ecosystem participation after that.**
-
-FUZE tokenomics principle is:
-
-**Purpose-specific allocation. Vault-based control. Controlled circulation. Product-first utility. Long-term ecosystem alignment.**
-
-Platform Credits are product usage credits and are separate from FUZE token.
-
-Stablecoins are payment, settlement, treasury, and compensation rails.
-
-Wallet-based participation ability is a separate activation-gated framework inside the FUZE token model.
+The operating movement controls are defined in the [FUZE Controlled Circulation Policy](12-FUZE_CONTROLLED_CIRCULATION_POLICY_PUBLIC.md). Category-specific release conditions remain in the vault and vesting papers.
 
 ---
 
-## 1. Purpose of This Paper
+## 1. Clarity Objective
 
-This paper explains how FUZE communicates token release and circulation.
+Supply reporting should let a reader answer:
 
-It defines:
+- which number is being presented;
+- what date, block, network, and methodology apply;
+- which tokens changed state;
+- whether custody or economic availability changed;
+- which allocation and event caused the change;
+- whether prior figures were corrected or restated.
 
-- fixed supply language
-- total supply
-- circulating supply
-- locked supply
-- reserved supply
-- vested and unvested supply
-- treasury supply
-- liquidity-related supply
-- released supply
-- unlocked supply
-- claimable supply
-- vault movement
-- allocation release categories
-- team, advisor, partner, community, ecosystem, treasury, liquidity, migration, and reserve status
-- the difference between release, unlock, circulation, claim, sale, transfer, and vault movement
-- how release clarity relates to controlled circulation
-- how release clarity relates to vault-by-vault release rules
-- how release clarity relates to Platform Credits, stablecoins, and wallet-based participation
-- what public wording FUZE uses and avoids when discussing supply
-
-This paper is not a token sale document, price forecast, exchange listing plan, liquidity promise, market-making promise, accounting policy, tax opinion, legal opinion, investment recommendation, public payout policy, claim instruction, or financial-return promise.
-
-It is a public clarity paper for token movement, release status, vault status, and circulation reporting.
+Terms describe different states even when they apply to the same tokens at different points in time.
 
 ---
 
-## 2. Reader Problem This Paper Solves
+## 2. Controlling Supply
 
-Token supply language can be confusing when release, unlock, vesting, claim, vault movement, treasury deployment, reserve balance, and active circulation are treated as the same thing.
+The approved token supply is:
 
-Readers may ask:
-
-- Does total supply mean all tokens are in the market?
-- Does an unlock mean tokens are immediately circulating?
-- Does a vesting event mean tokens are sold?
-- Does a vault transfer mean public distribution?
-- Does treasury supply mean approved distributable value?
-- Does reserve supply mean payout supply?
-- Does liquidity-related supply guarantee liquidity?
-- Does claimable supply apply to every reader?
-- Does migration supply guarantee market value?
-- Does public vault visibility give unrestricted treasury control?
-- Which supply number should a community member read?
-- Which supply number should an exchange or data provider use?
-
-This paper solves that problem by giving FUZE a clear public vocabulary for supply and movement.
-
-The key answer is:
-
-Token movement has categories. Public reporting should explain the category, purpose, control status, and boundary before readers interpret it.
-
----
-
-## 3. FUZE Public Position
-
-FUZE’s public position is:
-
-**Token release and circulation should be explained with clear supply categories, allocation purpose, vault labels, release status, control model, and public boundaries.**
-
-The public model uses these principles:
-
-| Principle | Public Meaning |
-|---|---|
-| One token only | FUZE token is the single ecosystem token |
-| Fixed supply clarity | FUZE uses a fixed total supply of 500,000,000 FUZE |
-| Clear categories | Total supply, circulating supply, locked supply, reserved supply, vested supply, treasury supply, and claimable supply have separate meanings |
-| Purpose-specific allocation | Token movement connects to allocation purpose |
-| Vault-based control | Token custody and release logic are organized by vault or controlled category where practical |
-| Release status context | A release, unlock, claim, or transfer needs category and control context |
-| Public reporting | Supply changes are explained where public-safe |
-| Market boundary | Circulation clarity supports transparency and discipline rather than market-result promises |
-
-Token release clarity helps readers understand supply movement without creating unsafe investment expectations.
-
----
-
-## 4. Core Model
-
-### 4.1 Fixed Supply
-
-FUZE uses fixed supply language to describe the total token supply defined for the FUZE token system.
-
-| Item | Value |
+| Field | Value |
 |---|---:|
-| Total FUZE Token Supply | 500,000,000 FUZE |
-| Allocation Categories | 10 |
-| Allocation Principle | Purpose-specific allocation |
-| Control Principle | Vault-based control and controlled circulation |
-| Product Principle | Product-first utility |
-| Ecosystem Principle | Long-term ecosystem alignment |
+| Fixed total supply | 500,000,000 FUZE |
+| Approved allocation categories | 10 |
+| Allocation reconciliation | 100.00% |
 
-Fixed supply means the total supply is defined as a capped token amount within the FUZE tokenomics model.
+The [FUZE Token Allocation Table](02-FUZE_TOKEN_ALLOCATION_TABLE_PUBLIC.md) controls category names, amounts, percentages, and mandates.
 
-Fixed supply includes tokens across multiple allocation categories, including categories that can remain locked, vested, reserved, claimable, unreleased, operationally deployed, or controlled according to vault rules, timing, governance direction, and reporting logic.
+Supply reports should identify the verified token contract and network when those details are approved for publication. This paper omits the address.
 
-| Supply Layer | Public Meaning |
+---
+
+## 3. Supply Vocabulary
+
+### Total supply
+
+The complete issued supply under the verified FUZE token contract, adjusted for any verifiable burn or other approved supply-changing event.
+
+The public tokenomics model fixes this value at 500,000,000 FUZE unless an approved and publicly documented technical or policy event changes the on-chain figure consistently with the governing model.
+
+### Allocated supply
+
+Tokens assigned to one of the ten approved purpose categories. Allocation describes mandate, separate from release and circulation.
+
+### Custodied supply
+
+Tokens held in an identified wallet, vault, contract, custodian, bridge, or other controlled location. Custody alone is insufficient to determine circulation.
+
+### Locked supply
+
+Tokens restricted by contract, vesting, lockup, policy, agreement, jurisdiction, claim condition, or another enforceable limitation.
+
+### Unlocked supply
+
+Tokens for which a specified lock or vesting restriction has ended. Other restrictions or controlled custody can remain.
+
+### Vested supply
+
+Tokens that have satisfied the applicable vesting condition. Vested tokens can remain unreleased or non-circulating.
+
+### Unvested supply
+
+Tokens awaiting satisfaction of the vesting condition.
+
+### Claimable supply
+
+Tokens available for an eligible recipient to claim under an active process and current claim window.
+
+### Claimed supply
+
+Tokens successfully claimed under the applicable process. Claimed status alone is insufficient to determine whether another lock applies.
+
+### Released supply
+
+Tokens moved from a prior controlled state under an approved release instruction.
+
+### Operationally deployed supply
+
+Tokens placed into an approved program, contract, partner arrangement, incentive process, treasury use, or market operation.
+
+### Circulating supply
+
+Tokens reasonably available in user or market circulation under the published methodology. The method should explain treatment of controlled treasury wallets, vesting wallets, contracts, liquidity pools, bridges, custodians, claims, and restrictions.
+
+### Reserved supply
+
+Tokens retained for a defined future purpose outside ordinary circulation.
+
+### Treasury-controlled supply
+
+Tokens controlled by FUZE treasury, reserve, foundation, program, signer, or another approved operating authority.
+
+### Liquidity-deployed supply
+
+Tokens placed into an approved liquidity or market-structure operation. Reports should distinguish supplied, paired, withdrawn, committed, custodied, and externally available amounts.
+
+### Bridged or represented supply
+
+A representation backed by locked or custodied FUZE on another network or system. Backed representations should reconcile to the underlying tokens and remain excluded from economic supply as newly issued units.
+
+### Burned supply
+
+Tokens verifiably sent to an approved irreversible burn mechanism and removed from the applicable supply calculation.
+
+---
+
+## 4. Event Vocabulary
+
+| Event | Required interpretation |
 |---|---|
-| Total fixed supply | Full defined supply of the FUZE token model |
-| Allocated supply | Tokens assigned to a purpose-specific category |
-| Locked supply | Tokens assigned but not actively circulating |
-| Circulating supply | Tokens released into active circulation according to reporting method |
-| Reserved supply | Tokens held for a defined purpose and release condition |
-| Vested supply | Tokens released over time or by rule according to vesting structure |
-| Claimable supply | Tokens available for claim by eligible parties under defined active rules |
-| Reported supply | Supply categories presented for public transparency |
+| Allocation | Assigns purpose; leaves circulation unchanged by itself |
+| Vault deposit | Changes custody; classification depends on continuing control |
+| Vault withdrawal | Removes tokens from a vault; resulting state depends on destination and restrictions |
+| Unlock | Ends a stated restriction; transfer and circulation require separate evidence |
+| Vest | Satisfies a vesting condition; release can remain pending |
+| Release | Authorizes or executes movement from a controlled state |
+| Claim opens | Makes an approved amount claimable for eligible recipients |
+| Claim | Moves or records tokens for a qualified claimant |
+| Program deployment | Assigns tokens to an approved operating program |
+| Liquidity deployment | Places tokens into market-structure activity under the relevant policy |
+| Custody transfer | Moves tokens between controlled locations without necessarily changing circulation |
+| Return | Restores unused or recovered tokens to approved control |
+| Reclassification | Changes allocation purpose or reporting category under approval |
+| Burn | Permanently reduces supply where technically verified |
+| Correction | Repairs an erroneous amount, label, or prior report |
 
-Fixed supply supports clarity.
+Public updates should name the event rather than relying on the vague term “tokens moved.”
 
-It does not guarantee token value, liquidity, listing, market outcome, price appreciation, payout, income, or investment return.
+---
 
-### 4.2 Final Allocation Categories
+## 5. Classification Tests
 
-FUZE applies purpose-specific allocation across ten categories.
+Before assigning circulating status, the reporting owner should assess:
 
-| Allocation Category | Amount (FUZE) | % of Supply | Release and Circulation Context |
-|---|---:|---:|---|
-| Community Participation Allocation | 110,000,000 | 22.00% | Eligibility-controlled community participation, product-user participation, contribution recognition, participation windows, lockups, and public reporting where applicable |
-| BOARD / Surfboard Migration | 25,000,000 | 5.00% | Claim-based or eligibility-based legacy-holder migration continuity |
-| Team Allocation | 45,000,000 | 9.00% | Long-term team, founder, builder, operator, and future contributor vesting |
-| Foundation Reserve | 35,000,000 | 7.00% | Long-horizon stewardship reserve under governance controls |
-| Treasury Reserve | 120,000,000 | 24.00% | Strategic platform reserve and controlled treasury deployment |
-| Holder Incentives | 55,000,000 | 11.00% | Earned or program-based holder, product-user, loyalty, referral, campaign, and participation incentives |
-| Ecosystem Growth & Partnerships | 40,000,000 | 8.00% | Partner, integration, grant, campaign, and ecosystem milestone releases |
-| Liquidity & Market Operations | 30,000,000 | 6.00% | Approved market-structure and liquidity-operations support |
-| Advisors / Strategic Contributors | 15,000,000 | 3.00% | Advisor, expert, operator, and strategic contributor vesting or milestone logic |
-| Transparency / Stability Reserve | 25,000,000 | 5.00% | Exceptional trust, transparency, or stability reserve under governance controls |
-| **Total** | **500,000,000** | **100.00%** | **Full fixed supply** |
+### Control
 
-Allocation categories are purpose-specific.
+Does FUZE or another restricted operator retain unilateral or governed control over the tokens?
 
-They organize token supply, release logic, and reporting status.
+### Transferability
 
-They do not create guaranteed token access, payout, profit, liquidity, listing, price appreciation, exit, or investment return.
+Can the holder transfer the tokens without a lock, contract, policy, legal, custody, or program restriction?
 
-### 4.3 Key Supply Terms
+### Availability
 
-FUZE public reporting uses supply terms consistently.
+Are the tokens available to users or markets, or merely prepared for future release?
 
-| Term | Meaning |
+### Obligation
+
+Are the tokens committed to a recipient, program, partner, vesting schedule, claim process, or reserve?
+
+### Custody
+
+Are tokens in self-custody, omnibus custody, treasury custody, a contract, bridge, vesting vault, claim vault, or liquidity position?
+
+### Return rights
+
+Can unused or cancelled tokens be recovered to a controlled allocation?
+
+### Method consistency
+
+Does the classification match the published methodology used for prior periods?
+
+No single test is decisive in every case. The report should explain material judgment.
+
+---
+
+## 6. Reconciliation Equations
+
+The high-level supply equation is:
+
+```text
+Total supply = circulating + non-circulating
+```
+
+The non-circulating population can include overlapping descriptive attributes, so reports should avoid summing labels that lack mutual exclusivity.
+
+For example, team tokens can be both treasury-custodied and unvested. A report should either use exclusive state buckets or clearly label attributes.
+
+An exclusive state reconciliation can use:
+
+```text
+Opening state balance
++ inbound reclassifications
+- outbound reclassifications
++ returns and corrections
+- releases or deployments
+= closing state balance
+```
+
+Circulating-supply movement can be expressed as:
+
+```text
+Opening circulating supply
++ newly classified circulating
+- returned, locked, burned, or otherwise removed
++/- corrections
+= closing circulating supply
+```
+
+Every report should reconcile to the controlling total and explain any bridged representation or burn treatment.
+
+---
+
+## 7. Point-in-Time and Period Reporting
+
+### Point-in-time report
+
+Shows balances and classifications at a specified timestamp or block.
+
+Required fields include:
+
+- report time and timezone;
+- network and block where applicable;
+- total supply;
+- exclusive circulation categories;
+- allocation or custody references;
+- methodology version.
+
+### Period movement report
+
+Shows events between an opening and closing point.
+
+Required fields include:
+
+- opening balances;
+- release, claim, vesting, deployment, return, correction, and reclassification events;
+- closing balances;
+- transaction or governance references;
+- unresolved items.
+
+Comparisons between a point-in-time balance and a period flow require an explanation of the difference.
+
+---
+
+## 8. Reporting Schema
+
+| Field | Description |
 |---|---|
-| Total Supply | Full fixed FUZE token supply of 500,000,000 FUZE |
-| Circulating Supply | Tokens considered available in public or market circulation under the reporting method used |
-| Locked Supply | Tokens restricted by lockup, vesting, contract, policy, custody, jurisdiction, or legal condition |
-| Reserved Supply | Tokens held for future ecosystem, treasury, product, liquidity-related, partner, team, community, reserve, or defined purpose |
-| Vested Supply | Tokens that have passed vesting conditions but may still be held or controlled |
-| Unvested Supply | Tokens not yet available under vesting conditions |
-| Treasury Supply | Tokens held by FUZE treasury-related wallets or vaults |
-| Ecosystem Supply | Tokens reserved for product, community, partner, growth, or ecosystem development |
-| Liquidity-Related Supply | Tokens assigned to liquidity-related operations where defined |
-| Released Supply | Tokens moved or made available under a release process |
-| Unlocked Supply | Tokens whose lockup or vesting restriction has ended |
-| Claimable Supply | Tokens available for claim by eligible parties under defined active rules |
-| Burned Supply | Tokens removed from supply if a burn is executed and verifiable |
-| Non-Circulating Hold | Tokens held under policy, reserve, lockup, governance, or custody control and not treated as active circulation |
+| Report identifier | Stable name and version |
+| Scope | Network, contract, allocations, wallets, and systems included |
+| As-of record | Timestamp and block or source cutoff |
+| Methodology | Classification definitions and calculation rules |
+| Total supply | Controlling supply figure |
+| Circulating supply | Amount under the published method |
+| Non-circulating supply | Reconciled remainder |
+| State detail | Exclusive balances or clearly labeled attributes |
+| Period events | Releases, claims, deployments, returns, burns, and corrections |
+| Allocation detail | Source category for material movement |
+| Evidence | Transactions, vaults, contracts, governance, or report references |
+| Exceptions | Unresolved or estimated items |
+| Prior-period changes | Restatements and methodology changes |
+| Owner and review | Responsible preparer and reviewer |
 
-Each term has a specific public meaning.
-
-Boundary:
-
-A supply category explains status. It does not guarantee market outcome.
-
-### 4.4 Release Type Terms
-
-FUZE also separates release types.
-
-| Release Type | Meaning | Boundary |
-|---|---|---|
-| Allocation assignment | Tokens assigned to a category | Category assignment needs release context |
-| Vault deposit | Tokens moved into a vault or controlled account | Vault movement can be operational or reserve-related |
-| Unlock | Restriction ends or changes | Unlocks can still remain under policy or custody controls |
-| Vesting release | Tokens become eligible under a vesting schedule | Vesting status needs distribution and transfer context |
-| Claim-based release | Eligible parties may claim under defined active rules | Eligibility and active rules matter |
-| Earned release | Tokens release after defined participation, contribution, campaign, or product rules | Earned release follows program rules |
-| Milestone release | Tokens release after approved milestone or partner condition | Milestone release follows approved terms |
-| Treasury deployment | Tokens move for approved strategic or operational purpose | Treasury movement follows purpose and governance controls |
-| Liquidity deployment | Tokens move for approved market-structure purpose | Liquidity-related movement does not create liquidity guarantees |
-| Reserve movement | Tokens move between reserve categories or controlled wallets | Reserve movement needs reporting context |
-| Distribution vault movement | Tokens move into distribution logic where activated | Claim status depends on activation gates |
-| Burn | Tokens are removed from supply if verifiable | Burn records do not create price guarantees |
-
-This terminology helps FUZE explain token movement without overpromising what movement means.
+Machine-readable exports and human-readable summaries should use the same definitions.
 
 ---
 
-## 5. Token, Credits, Stablecoins, and Wallet Relationship
+## 9. Interpretation Examples
 
-Release and circulation clarity applies to FUZE token.
+### Treasury wallet transfer
 
-Platform Credits, stablecoins, product revenue, approved distributable value, and wallet-based participation ability require separate labels.
+FUZE moves tokens from one controlled treasury wallet to another after a custody update.
 
-| System | Public Role | Relationship to Release and Circulation |
-|---|---|---|
-| FUZE token | Single ecosystem token | Release and circulation reporting applies directly to token supply |
-| Platform Credits | Product usage credits | Credits do not increase or reduce FUZE token supply |
-| Stablecoins | Payment, settlement, treasury, and compensation rails | Stablecoin balances are payment and treasury rails, not token supply categories |
-| Product revenue | Revenue from FUZE products and services | Product revenue can support operations and may enter separate review where applicable |
-| Approved distributable value | Reviewed value from defined product revenue pools where an active framework exists | Separate from token release reporting unless a future framework is activated |
-| Wallet-based participation ability | Possible activation-gated framework inside FUZE token model | Requires separate eligibility, activation, privacy, and claim-status reporting |
+**Report treatment:** custody movement; circulation remains unchanged when control and restrictions remain equivalent.
 
-This separation keeps public readers from confusing product usage, payment rails, token supply, and participation status.
+### Team vesting event
+
+A scheduled portion satisfies vesting but remains in a controlled vesting contract.
+
+**Report treatment:** unvested decreases and vested-unreleased increases; circulating supply may remain unchanged.
+
+### Migration claim
+
+An eligible legacy holder claims tokens during an active window.
+
+**Report treatment:** claimable decreases and claimed increases. Circulation treatment follows any continuing lock and the published method.
+
+### Community approval pending release
+
+A participant receives an approved allocation record but release conditions remain outstanding.
+
+**Report treatment:** committed or approved-pending-release; awaiting release and outside circulation.
+
+### Liquidity-pool deployment
+
+Tokens move from a controlled market-operations wallet into an approved pool.
+
+**Report treatment:** liquidity-deployed amount is reported separately; circulating classification follows the methodology and position structure.
+
+### Bridge mint
+
+Underlying FUZE is locked and an equivalent representation is minted on another network.
+
+**Report treatment:** underlying and representation reconcile one-to-one; the representation remains excluded from new economic supply.
 
 ---
 
-## 6. Controls, Gates, and Governance
+## 10. Allocation and Wallet Labels
 
-Token release and circulation clarity depends on controls.
+Public wallets and contracts should use labels that identify:
 
-Important controls include:
+- controlling allocation or function;
+- custody or contract type;
+- current status;
+- supported network;
+- whether the address is active, replaced, or deprecated;
+- authoritative publication source.
 
-- allocation purpose
-- vault labeling
-- release type labeling
-- vesting rules
-- lockup rules
-- claim rules
-- eligibility rules
-- migration rules
-- partner milestone rules
-- community participation rules
-- reserve movement rules
-- treasury deployment rules
-- liquidity-related deployment rules
-- multisig controls where applicable
-- timelock controls where applicable
-- legal review
-- accounting review
-- jurisdiction review
-- governance approval
-- public reporting readiness
+Mixing unrelated allocation purposes in one wallet requires a documented sub-ledger and reporting method.
 
-### 6.1 Total Supply
-
-Total supply is the full fixed FUZE token supply.
-
-FUZE total supply is:
-
-**500,000,000 FUZE**
-
-Total supply can include:
-
-- circulating tokens
-- locked tokens
-- reserved tokens
-- treasury tokens
-- team tokens
-- advisor tokens
-- partner tokens
-- ecosystem tokens
-- liquidity-related tokens
-- community tokens
-- migration tokens
-- product utility tokens
-- unvested tokens
-- claimable tokens where active
-- tokens held in contracts or vaults
-
-Public reporting avoids using total supply as if all tokens are immediately available in the market.
-
-Boundary:
-
-Total supply is the full defined token amount. It does not represent immediate market circulation, approved distributable value, payout supply, public claim value, or available liquidity.
-
-### 6.2 Circulating Supply
-
-Circulating supply is the portion of FUZE token considered available in public or market circulation under the reporting method used.
-
-Circulating supply may include tokens that are transferable and not locked by schedule, contract, policy, custody, or defined restriction.
-
-Circulating supply may exclude:
-
-- locked tokens
-- unvested tokens
-- treasury reserves
-- team vesting tokens
-- advisor vesting tokens
-- partner locked tokens
-- ecosystem reserve tokens
-- tokens held in smart contracts under lock
-- tokens held for future allocation
-- tokens restricted by legal or jurisdiction condition
-- tokens reserved for product utility
-- tokens reserved for liquidity-related operations but not yet circulating
-- tokens in migration vaults before active claim
-- tokens in community participation vaults before defined access
-- tokens in distribution vaults before activation
-
-Circulating supply reporting identifies the method used.
-
-Boundary:
-
-Circulating supply reporting does not guarantee market liquidity, trading volume, token demand, exchange access, or price stability.
-
-### 6.3 Locked Supply
-
-Locked supply means tokens are restricted from active movement by lockup, vesting, smart contract, policy, custody, jurisdiction, or legal condition.
-
-Locked supply can include:
-
-- team vesting tokens
-- advisor vesting tokens
-- contributor locked tokens
-- partner milestone tokens
-- treasury reserve locks
-- foundation reserve locks
-- community participation lockups
-- migration claim vault balances before active claim
-- ecosystem program locks
-- liquidity-related operational controls
-- smart-contract locks
-- timelock-controlled tokens
-
-Locked supply supports public clarity because it shows which tokens are not treated as active market supply under the reporting method.
-
-Boundary:
-
-Locked supply may unlock in the future, but future unlock status still requires release, transfer, eligibility, custody, policy, and reporting context.
-
-### 6.4 Released Supply and Unlocked Supply
-
-Released supply means tokens have moved or become available under a release process.
-
-Unlocked supply means a lockup or restriction has ended or changed.
-
-These terms are related but not identical.
-
-A token can be unlocked and still remain:
-
-- in treasury custody
-- in a team wallet
-- in a contributor wallet
-- in a vault
-- subject to transfer limits
-- subject to policy controls
-- subject to jurisdiction limits
-- subject to reporting review
-
-A release can occur for many reasons:
-
-- migration claim
-- team vesting
-- advisor vesting
-- community program
-- holder incentive
-- partner milestone
-- treasury deployment
-- liquidity-related operation
-- ecosystem grant
-- reserve movement
-- reportable vault transfer
-
-Boundary:
-
-Release or unlock language should identify the purpose, category, and control status.
-
-### 6.5 Claimable Supply
-
-Claimable supply means tokens are available for claim by eligible parties under defined active rules.
-
-Claimable supply can apply to:
-
-- BOARD / Surfboard Migration
-- selected Community Participation programs
-- holder incentive programs
-- specific claim campaigns
-- future utility or participation programs where active
-
-Claimable supply requires:
-
-- active rules
-- eligibility logic
-- claim window where applicable
-- claim source
-- wallet rules
-- jurisdiction handling
-- anti-abuse controls
-- public reporting
-
-Boundary:
-
-Claimable supply applies only under defined active rules. It is not universal access.
-
-### 6.6 Treasury Supply and Reserve Supply
-
-Treasury supply and reserve supply are tokens held for future purpose, platform stability, product development, ecosystem support, liquidity-related operations, transparency, or strategic deployment.
-
-Treasury and reserve categories can include:
-
-- Treasury Reserve
-- Foundation Reserve
-- Transparency / Stability Reserve
-- Ecosystem Growth & Partnerships
-- Liquidity & Market Operations
-- Holder Incentives
-- portions of Community Participation Allocation before release
-- portions of other allocation categories before deployment
-
-Treasury and reserve supply requires careful labeling because these categories may be visible in wallets or vaults while still remaining controlled.
-
-Boundary:
-
-A visible treasury or reserve balance does not automatically mean circulating supply, payout supply, available liquidity, approved distributable value, or public claim value.
-
-### 6.7 Liquidity-Related Supply
-
-Liquidity-related supply refers to tokens assigned to liquidity or market-structure operations where approved.
-
-Liquidity-related supply can support:
-
-- DEX liquidity preparation
-- liquidity seeding
-- exchange access preparation where applicable
-- market-structure support
-- operational liquidity planning
-- market operation reporting
-- venue or market support reviews
-
-Boundary:
-
-Liquidity-related supply supports market-structure needs. It does not guarantee liquidity, listing, trading volume, price support, market-making result, resale availability, or exit opportunity.
-
-### 6.8 Vault Movement
-
-Vault movement means tokens move between vaults, contracts, controlled accounts, custody structures, or reporting categories.
-
-Vault movement can happen for:
-
-- category separation
-- migration preparation
-- community participation setup
-- vesting vault setup
-- liquidity vault setup
-- treasury reserve organization
-- smart-contract readiness
-- reporting cleanup
-- governance control
-- security or custody reason
-- public vault visibility
-- future release preparation
-
-Vault movement should be reported with purpose and category where public-safe.
-
-Boundary:
-
-Vault movement is a movement event. It needs purpose, control status, and release context before readers treat it as circulation.
+An address label supports interpretation; establishing personal ownership requires separate evidence. Public reporting must keep the person behind a wallet private.
 
 ---
 
-## 7. Reporting and Transparency Direction
+## 11. Unlock and Release Calendar
 
-Token release and circulation clarity can support public-safe reporting.
+A public calendar can show known or conditional events.
 
-Reporting can include:
+Each entry should identify:
 
-- total supply
-- allocation categories
-- circulating supply
-- locked supply
-- reserved supply
-- vested supply
-- unvested supply
-- treasury supply
-- liquidity-related supply
-- released supply
-- unlocked supply
-- claimable supply
-- non-circulating holds
-- vault balances
-- vault movements
-- release type labels
-- release schedule summaries
-- claim status
-- migration status
-- community participation access status
-- team and advisor vesting summaries where public-safe
-- liquidity-related deployment categories
-- burn records if applicable
-- report hashes where applicable
-- governance status
-- public risk boundaries
+- allocation;
+- event type;
+- earliest or scheduled time;
+- amount or calculation method;
+- conditions;
+- current status;
+- resulting classification if completed;
+- report or governance reference.
 
-A public report should explain:
+Conditional dates should be labeled as such. A calendar entry alone is insufficient evidence that a release occurred.
 
-- what moved
-- why it moved
-- which allocation category it belongs to
-- whether it is circulating, locked, reserved, claimable, vested, or controlled
-- which policy controls apply
-- whether a claim system is active
-- which public boundaries apply
-
-Reporting supports public understanding.
-
-It does not create financial assurance.
+Actual events should be reconciled after execution, including delays, partial completion, cancellation, or correction.
 
 ---
 
-## 8. Market, Legal, or Operational Context
+## 12. Data Providers and Third Parties
 
-### 8.1 Why Release Clarity Matters
+Exchanges, explorers, market-data services, partners, and community dashboards can use different circulation methods.
 
-Release clarity matters because token movement can be misread.
+FUZE should publish:
 
-A transfer may be operational.
+- its authoritative methodology;
+- current verified figures;
+- public wallet labels;
+- report and correction history;
+- contact route for material discrepancies.
 
-A vault balance may be reserved.
-
-A release may be vested but not sold.
-
-A claim may apply only to eligible wallets.
-
-A liquidity allocation may be used for market-structure support without guaranteeing liquidity.
-
-A treasury movement may support product operations, reserve organization, or custody control.
-
-A public vault view may help transparency while still keeping operational control under governance.
-
-This paper gives FUZE public language for explaining these differences clearly.
-
-### 8.2 Product-First Circulation
-
-FUZE token release and circulation should support product-first execution.
-
-Release clarity connects to:
-
-- HerHelp product usage
-- ZAGA utility surfaces
-- platform rail readiness
-- Community Participation Round
-- BOARD / Surfboard Migration
-- Holder Incentives
-- Ecosystem Growth & Partnerships
-- team and advisor vesting
-- treasury reserves
-- liquidity-related operations
-- public reporting
-- governance readiness
-
-Token movement should be easier to understand when readers can see which product, allocation, vault, or program it supports.
-
-### 8.3 Relationship to Controlled Circulation Policy
-
-This paper supports the Controlled Circulation Policy.
-
-Controlled Circulation Policy defines the release discipline.
-
-Token Release and Circulation Clarity defines the public language for describing release and circulation status.
-
-Together, they help FUZE explain token supply without creating speculative or unsafe assumptions.
-
-### 8.4 Market Boundary
-
-Release and circulation clarity is a reporting and communication model.
-
-It does not guarantee:
-
-- token demand
-- token price
-- exchange listing
-- liquidity
-- trading volume
-- market-making result
-- price support
-- resale availability
-- exit opportunity
-- investment return
-
-Market access, custody, liquidity operations, exchange support, and public trading environments require separate boundary language and review.
+Third parties may adopt different classifications. Differences should be explained rather than presented as proof that one number is intentionally misleading.
 
 ---
 
-## 9. Risk and Disclosure Reference
+## 13. Corrections and Restatements
 
-Important public boundaries include:
+A correction addresses an error within the existing method. A restatement changes prior figures because of a material error, newly available evidence, or methodology change.
 
-- FUZE uses one ecosystem token: FUZE token.
-- FUZE token supply is fixed at 500,000,000 FUZE.
-- Total supply and circulating supply have different meanings.
-- Release, unlock, vesting, claim, vault movement, treasury movement, and circulation have different meanings.
-- Allocation categories have separate purposes and release logic.
-- Vault balances require category and control context.
-- Claimable supply applies only under active rules and eligibility criteria.
-- Treasury supply and reserve supply require controlled reporting.
-- Liquidity-related supply supports market-structure needs but does not create market guarantees.
-- Platform Credits are product usage credits and remain separate from FUZE token release.
-- Stablecoins are payment, settlement, treasury, and compensation rails.
-- Wallet-based participation ability remains activation-gated.
-- Public reporting supports transparency and does not create financial assurance.
-- FUZE token does not guarantee payout, income, yield, profit, token price, listing, liquidity, market support, exit, game earnings, business revenue, user growth, community growth, approved distributable value, wallet eligibility, claim availability, or investment return.
+The record should identify:
 
-More detailed boundaries are handled in dedicated papers, including:
+1. affected report and period;
+2. prior and revised figures;
+3. reason;
+4. affected classifications;
+5. methodology version;
+6. reviewer and effective date;
+7. downstream reports or providers notified.
 
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/02-FUZE_TOKEN_ALLOCATION_TABLE_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/12-FUZE_CONTROLLED_CIRCULATION_POLICY_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/14-FUZE_VAULT_AND_RESERVE_POLICY_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/15-FUZE_VAULT_BY_VAULT_RELEASE_RULES_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/16-FUZE_PUBLIC_VAULT_VISIBILITY_SYSTEM_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/17-FUZE_PUBLIC_VAULT_ACCESS_WINDOWS_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/19-FUZE_TEAM_ADVISOR_PARTNER_VESTING_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/20-FUZE_BOARD_SURFBOARD_MIGRATION_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/21-FUZE_LIQUIDITY_AND_LISTING_POLICY_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/24-FUZE_GOVERNANCE_MULTISIG_TIMELOCK_MODEL_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/29-FUZE_TOKEN_RISK_BOUNDARIES_PUBLIC.md`
-
-This paper focuses on release and circulation clarity while deeper allocation, circulation, vault, migration, liquidity, governance, and risk topics remain in dedicated papers.
+Prior versions should remain accessible and visibly superseded.
 
 ---
 
-## 10. Key Takeaways
+## 14. Relationship to Other Systems
 
-- FUZE Token Release and Circulation Clarity explains how FUZE communicates release, unlocks, vesting, circulation, vaults, claims, treasury supply, reserves, and supply reporting.
-- FUZE uses one ecosystem token: FUZE token.
-- FUZE token supply is fixed at 500,000,000 FUZE.
-- Total supply, circulating supply, locked supply, reserved supply, vested supply, treasury supply, liquidity-related supply, claimable supply, and vault balances have different meanings.
-- Token release needs allocation category, release type, control status, and public reporting context.
-- An unlock can still require custody, policy, jurisdiction, transfer, or reporting context.
-- A vault transfer can be operational, treasury-related, migration-related, liquidity-related, reserve-related, or reporting-related.
-- Claimable supply applies only under active rules and eligibility criteria.
-- Public vault visibility supports transparency but does not create unrestricted public treasury control.
-- Liquidity-related supply supports market-structure readiness but does not guarantee liquidity, listing, trading volume, price support, or exit opportunity.
-- Platform Credits remain separate from FUZE token release.
-- Stablecoins remain separate payment, settlement, treasury, and compensation rails.
-- Wallet-based participation ability remains activation-gated.
-- Public reporting helps readers understand token movement without creating market, payout, or investment-return expectations.
+Platform Credits remain outside FUZE token supply calculations. Stablecoin balances are payment and treasury records rather than FUZE supply.
+
+Approved distributable value is a separate value-ledger status. Wallet-based participation uses its own eligibility, snapshot, claim, and correction records where activated.
+
+These systems can be reported alongside token supply only when their units and purposes remain distinct.
+
+---
+
+## 15. Public Boundary
+
+This paper covers terminology and reporting methods rather than announcing a release, unlock, claim, burn, bridge, circulating-supply figure, or market event.
+
+Circulation figures require current contract, wallet, custody, restriction, and event data. Market liquidity and venue support remain separate from supply classification.
+
+Circulation-specific risks are summarized in [FUZE Token Risk Boundaries](29-FUZE_TOKEN_RISK_BOUNDARIES_PUBLIC.md), with consolidated treatment in the [FUZE Risk and Disclosure Appendix](../WHITEPAPER-PAPERS/05-FUZE_RISK_AND_DISCLOSURE_APPENDIX_PUBLIC.md).
+
+---
+
+## Conclusion
+
+FUZE release clarity depends on using supply terms as defined states rather than synonyms.
+
+The reporting schema connects each number to a timestamp, methodology, allocation, event, custody record, and reconciliation. This allows readers to distinguish an allocation, transfer, unlock, vest, claim, deployment, and circulating-supply change without inferring more than the evidence supports.

@@ -2,627 +2,462 @@
 
 ## Executive Summary
 
-FUZE Vault-by-Vault Release Rules defines how each FUZE token allocation behaves before tokens enter active circulation.
+FUZE assigns its fixed token supply to ten approved purposes. This paper defines the evidence and decision conditions required before tokens can move from each corresponding allocation vault.
 
-FUZE uses one ecosystem token only: **FUZE token**.
+Release rules differ because the categories solve different problems. Community access depends on an approved participation process. Migration depends on verified continuity records. Team and advisor grants depend on vesting or contribution conditions. Partner support depends on documented milestones. Reserve and market-operation deployments require their own treasury, governance, and operating evidence.
 
-FUZE token is the single ecosystem token of FUZE. It supports product-connected utility, ecosystem participation, platform alignment, governance direction where applicable, community participation structures, and wallet-based participation ability where activated under required controls.
+Every release should identify its source allocation, authority, recipient or destination class, trigger, amount, restrictions, execution record, resulting supply status, and exception route. Allocation alone creates none of those later states.
 
-The vault-by-vault model supports FUZE’s Controlled Circulation Policy by separating token supply into purpose-specific vaults. Each vault has its own purpose, release logic, access rule, control model, lockup direction, reporting requirement, and public risk boundary.
-
-FUZE does not treat every allocation as a simple unlock schedule.
-
-A Community Participation Vault behaves differently from a Team Vesting Vault.
-
-A BOARD / Surfboard Migration Vault behaves differently from a Liquidity Operations Vault.
-
-A Treasury Reserve Vault behaves differently from a Holder Incentives Vault.
-
-A Transparency / Stability Vault behaves differently from normal circulating inventory.
-
-The vault-by-vault model helps public readers understand how the fixed **500,000,000 FUZE** supply is governed across ten allocation categories.
-
-FUZE applies one core operating principle across all vaults:
-
-**Stablecoins pay for work. FUZE tokens align long-term participation. Platform Credits power product usage.**
-
-Platform Credits are product usage credits and are separate from FUZE token.
-
-Stablecoins are payment, settlement, treasury, and operational compensation rails.
-
-Vault-by-vault release rules support transparency, supply clarity, controlled circulation, public reporting, and long-term ecosystem alignment. They do not guarantee payout, income, dividend, yield, profit, token price, listing, liquidity, market support, exit, game earnings, business revenue, user growth, community growth, approved distributable value, wallet eligibility, claim availability, or investment return.
+This paper provides the category decision matrix. The [FUZE Vault and Reserve Policy](14-FUZE_VAULT_AND_RESERVE_POLICY_PUBLIC.md) governs custody administration, while the [FUZE Token Allocation Table](02-FUZE_TOKEN_ALLOCATION_TABLE_PUBLIC.md) remains authoritative for category names and values.
 
 ---
 
-## 1. Purpose of This Paper
+## 1. Release Objective
 
-This paper defines the public release rules for each FUZE allocation vault.
+A release rule converts an allocation mandate into an auditable movement decision.
 
-It explains:
+For each vault, the rule should answer:
 
-- why FUZE uses vault-by-vault release rules
-- how each allocation category connects to a vault purpose
-- how each vault releases tokens
-- who can access each vault
-- which controls apply to each vault
-- what can be reported publicly
-- how vault releases connect to controlled circulation
-- how vault releases connect to token release and circulation clarity
-- how vault releases connect to public vault visibility
-- how selected vaults may connect to public vault access windows
-- how release rules differ between community, migration, team, treasury, incentives, ecosystem, liquidity, advisor, foundation, and transparency categories
-- what public claims FUZE avoids when discussing vault releases
+1. What approved outcome can the allocation support?
+2. Which event makes a release request eligible for review?
+3. What evidence must accompany the request?
+4. Which restrictions continue after execution?
+5. How is the movement classified and reported?
+6. What happens when the event is cancelled, disputed, or incomplete?
 
-This paper is not a token sale document, public investment offer, legal opinion, tax opinion, accounting policy, treasury audit, smart-contract audit, exchange listing plan, liquidity plan, payout policy, claim instruction, or financial-return promise.
-
-It is a public control and release-rule paper.
+These rules govern outbound movement from allocation control. They do not set a universal unlock calendar or make a category available merely because its balance exists.
 
 ---
 
-## 2. Reader Problem This Paper Solves
+## 2. Common Release States
 
-Token release becomes confusing when every allocation is described with the same release language.
+Tokens can pass through several states before and after movement.
 
-Readers may ask:
-
-- Which vault is for community participation?
-- Which vault is for BOARD / Surfboard Migration?
-- Which vault is for team and builders?
-- Which vault is for advisors and strategic contributors?
-- Which vault is for treasury reserve?
-- Which vault is for liquidity-related operations?
-- Which vault can support public access windows?
-- Which vault requires vesting?
-- Which vault uses claim-based release?
-- Which vault is reserved for exceptional stability or transparency needs?
-- Which vault release depends on product readiness?
-- Which vault release depends on eligibility, jurisdiction, governance, or partner milestones?
-
-This paper solves that problem by explaining release rules vault by vault.
-
-The key answer is:
-
-Each FUZE vault has its own purpose, release logic, access rule, control model, transparency rule, and public boundary.
-
----
-
-## 3. FUZE Public Position
-
-FUZE’s public position is:
-
-**Each FUZE vault has one clear purpose, one release logic, one access rule, one control model, one transparency rule, and one public risk boundary.**
-
-This model follows FUZE’s tokenomics principle:
-
-**Purpose-specific allocation. Vault-based control. Controlled circulation. Product-first utility. Long-term ecosystem alignment.**
-
-The vault-by-vault model exists because FUZE allocations are not interchangeable.
-
-| Allocation Type | Public Reason for Separation |
+| State | Release meaning |
 |---|---|
-| Community Participation Allocation | Supports eligible community participation, product-user participation, contributor recognition, and future community programs |
-| BOARD / Surfboard Migration | Supports eligible legacy-holder migration continuity |
-| Team Allocation | Supports long-term founder, builder, operator, and team alignment |
-| Foundation Reserve | Supports long-horizon stewardship and mission continuity |
-| Treasury Reserve | Supports strategic platform reserve and controlled treasury flexibility |
-| Holder Incentives | Supports earned holder, product-user, loyalty, referral, campaign, and participation programs |
-| Ecosystem Growth & Partnerships | Supports partner, grant, integration, milestone, and ecosystem expansion activity |
-| Liquidity & Market Operations | Supports approved market-structure and liquidity-operations needs |
-| Advisors / Strategic Contributors | Supports advisor, operator, expert, and strategic contributor alignment |
-| Transparency / Stability Reserve | Supports exceptional trust, transparency, or stability actions under governance controls |
+| Reserved | Held under the approved allocation mandate |
+| Proposed | Included in a release request awaiting review |
+| Approved | Authorized for a stated amount, destination, and condition |
+| Committed | Connected to an agreement, program, grant, or obligation |
+| Claimable | Available to an eligible recipient through an active claim process |
+| Vesting | Subject to time, service, milestone, or other continuing conditions |
+| Released | Moved or assigned under an approved instruction |
+| Deployed | Placed into an operating program, contract, or market structure |
+| Returned | Restored to controlled allocation custody |
+| Suspended | Held while an exception, dispute, or review remains open |
 
-FUZE uses vault separation to reduce ambiguity and improve public reviewability.
-
-Vault release rules support release clarity and controlled circulation. They do not guarantee market results.
+The same transaction can change custody while leaving restriction or circulation status unchanged. Reports should use the terminology in [FUZE Token Release and Circulation Clarity](13-FUZE_TOKEN_RELEASE_AND_CIRCULATION_CLARITY_PUBLIC.md).
 
 ---
 
-## 4. Core Model
+## 3. Release Packet
 
-### 4.1 Master Vault Rule Template
+Every material release should have a packet proportionate to its purpose and exposure.
 
-Every FUZE vault is described through a shared public rule template.
+### Core fields
 
-| Rule Area | Public Meaning |
+| Field | Required record |
 |---|---|
-| Vault name | Public vault or allocation name |
-| Allocation amount | Amount of FUZE assigned to the category |
-| Allocation percentage | Percentage of the fixed 500,000,000 FUZE supply |
-| Purpose | Why the vault exists |
-| Release logic | How tokens can move from the vault |
-| Access rule | Who can receive, claim, access, or use tokens from the vault |
-| Control model | Governance, approval, lockup, vesting, milestone, eligibility, compliance, or policy controls |
-| Transparency rule | What can be reported publicly where appropriate |
-| Risk boundary | What the vault does not promise |
+| Request identifier | Stable reference for the decision and execution |
+| Source allocation | Controlling category and available vault balance |
+| Purpose | Approved use tied to the category mandate |
+| Trigger | Event or condition that opened release review |
+| Destination | Recipient class, contract, wallet, custodian, program, or venue |
+| Amount | FUZE requested and any remaining category commitment |
+| Conditions | Eligibility, vesting, lock, milestone, claim, or operating restriction |
+| Evidence | Agreement, work record, snapshot, program rule, approval, or technical record |
+| Authority | Required operational, treasury, governance, and specialist approvals |
+| Execution | Network, transaction, contract action, or custody instruction |
+| Classification | Resulting custody, release, deployment, and circulation state |
+| Exception route | Return, cancellation, revocation, correction, or suspension treatment |
 
-This shared structure makes each vault easier to understand and compare.
+### Decision tests
 
-### 4.2 Final Allocation and Vault Map
+The reviewer should confirm:
 
-| Vault / Allocation | Amount (FUZE) | % of Supply | Primary Release Logic |
+- the request fits the source mandate;
+- the source has sufficient uncommitted balance;
+- required conditions are measurable and satisfied;
+- the destination and network have been verified;
+- continuing restrictions can be enforced or recorded;
+- reporting owners can reconcile the result.
+
+A release is ready only after the required decision tests pass.
+
+---
+
+## 4. Approved Allocation Matrix
+
+| Allocation vault | Approved amount | Share | Primary release basis |
 |---|---:|---:|---|
-| Community Participation Vault | 110,000,000 | 22.00% | Eligibility-controlled participation, product-user access, lockups, staged access, earned participation, and selected public access windows where policy allows |
-| BOARD / Surfboard Migration Vault | 25,000,000 | 5.00% | Claim-based or eligibility-based migration for eligible legacy holders |
-| Team Vesting Vault | 45,000,000 | 9.00% | Long-term vesting for founders, builders, operators, engineers, product owners, and future key contributors |
-| Foundation Reserve Vault | 35,000,000 | 7.00% | Long-horizon stewardship reserve under governance controls |
-| Treasury Reserve Vault | 120,000,000 | 24.00% | Strategic reserve deployment under treasury and governance controls |
-| Holder Incentives Vault | 55,000,000 | 11.00% | Earned incentives, loyalty, referrals, product-user programs, and participation campaigns |
-| Ecosystem Growth & Partnerships Vault | 40,000,000 | 8.00% | Partner grants, integrations, ecosystem milestones, and controlled expansion programs |
-| Liquidity Operations Vault | 30,000,000 | 6.00% | Approved liquidity, exchange support, and market-structure operations |
-| Advisor / Strategic Contributor Vault | 15,000,000 | 3.00% | Advisor, operator, expert, and strategic contributor vesting or milestone logic |
-| Transparency / Stability Vault | 25,000,000 | 5.00% | Exceptional trust, transparency, or stability action under governance controls |
-| **Total** | **500,000,000** | **100.00%** | **Full vault-based supply model** |
+| Community Participation Allocation | 110,000,000 FUZE | 22.00% | Eligible participation or approved community program |
+| BOARD / Surfboard Migration | 25,000,000 FUZE | 5.00% | Verified legacy continuity and active migration process |
+| Team Allocation | 45,000,000 FUZE | 9.00% | Approved grant with vesting or service conditions |
+| Foundation Reserve | 35,000,000 FUZE | 7.00% | Long-horizon stewardship decision |
+| Treasury Reserve | 120,000,000 FUZE | 24.00% | Approved strategic treasury deployment |
+| Holder Incentives | 55,000,000 FUZE | 11.00% | Earned or qualified program outcome |
+| Ecosystem Growth & Partnerships | 40,000,000 FUZE | 8.00% | Partner, grant, integration, or ecosystem milestone |
+| Liquidity & Market Operations | 30,000,000 FUZE | 6.00% | Approved market-structure operation |
+| Advisors / Strategic Contributors | 15,000,000 FUZE | 3.00% | Approved contribution, service period, or milestone |
+| Transparency / Stability Reserve | 25,000,000 FUZE | 5.00% | Exceptional trust, transparency, or stability action |
+| **Total fixed supply** | **500,000,000 FUZE** | **100.00%** | **Ten purpose-specific release paths** |
 
-Each vault has a separate release purpose. FUZE does not use one generic token-release rule for all categories.
-
-### 4.3 Release Type Framework
-
-FUZE uses release types to explain how tokens move from vaults.
-
-| Release Type | Public Meaning | Example Vaults |
-|---|---|---|
-| Eligibility-Controlled Release | Tokens release only to eligible parties under defined rules | Community Participation Vault; BOARD / Surfboard Migration Vault |
-| Claim-Based Release | Tokens become claimable by eligible parties under an active claim process | BOARD / Surfboard Migration Vault; selected Community Participation programs |
-| Vesting Release | Tokens release over time or under role-based schedules | Team Vesting Vault; Advisor / Strategic Contributor Vault |
-| Earned Release | Tokens release after participation, contribution, loyalty, referral, product use, or campaign rules are satisfied | Holder Incentives Vault; Community Participation Vault |
-| Milestone Release | Tokens release after approved partner, contributor, ecosystem, or integration milestones | Ecosystem Growth & Partnerships Vault |
-| Strategic Reserve Deployment | Tokens move only for approved long-term platform or treasury purpose | Treasury Reserve Vault; Foundation Reserve Vault |
-| Controlled Operational Deployment | Tokens move for market-structure or operational purpose under policy controls | Liquidity Operations Vault |
-| Exceptional Reserve Use | Tokens move only for trust, transparency, or stability needs under governance controls | Transparency / Stability Vault |
-| Public Vault Access Window | Selected vault tokens become available through controlled access windows where final policy allows | Community Participation Vault; selected Treasury or Ecosystem categories where policy allows |
-| Non-Circulating Hold | Tokens remain held under reserve, governance, or policy control | Foundation Reserve Vault; Transparency / Stability Vault where applicable |
-
-A release type explains movement logic.
-
-It does not guarantee sale, liquidity, listing, market demand, price outcome, payout, income, yield, or investment return.
+The table states primary release bases. An active program can add stricter controls while remaining within the approved mandate.
 
 ---
 
-## 5. Token, Credits, Stablecoins, and Wallet Relationship
+## 5. Community Participation Allocation
 
-Vault-by-vault release rules apply to FUZE token allocation categories.
+**Allocation:** 110,000,000 FUZE, or 22.00% of supply.
 
-They sit beside Platform Credits, stablecoin rails, product revenue, approved distributable value, and wallet-based participation ability.
+### Release trigger
 
-| System | Public Role | Vault-by-Vault Relationship |
-|---|---|---|
-| FUZE token | Single ecosystem token | Vault rules govern token allocation, release, vesting, locks, claims, reserves, and circulation status |
-| Platform Credits | Product usage credits | Credits remain product usage units and do not become token vault balances |
-| Stablecoins | Payment, settlement, treasury, and compensation rails | Stablecoin rails support work payment and treasury operations outside FUZE token vault release |
-| Product revenue | Revenue from FUZE products and services | Can support operations and may enter separate review where applicable |
-| Approved distributable value | Reviewed value from defined product revenue pools where an active framework exists | Separate from vault release unless a future active framework references it |
-| Wallet-based participation ability | Possible activation-gated framework inside FUZE token model | Requires separate eligibility, activation, privacy, and claim-status reporting |
+An approved community round, product-user route, contributor route, or other community program opens under published rules.
 
-This separation keeps public communication clear.
+### Required evidence
 
-FUZE token vaults organize token supply.
+- active program or round approval;
+- eligible participant class and applicable jurisdiction treatment;
+- allocation budget and per-participant method;
+- identity, account, wallet, contribution, or product-use evidence required by the route;
+- duplicate and abuse review;
+- release, lock, claim, or vesting conditions.
 
-Platform Credits power product usage.
+### Destination and state
 
-Stablecoins pay for work and settlement.
+Tokens can move to a controlled distribution contract, approved participant wallet, custodian, vesting structure, or program account. The record should distinguish approved, claimable, released, locked, and circulating amounts.
 
-Wallet-based participation remains controlled by its own activation gates.
+### Exception treatment
 
----
+Rejected, expired, duplicate, cancelled, or unclaimed assignments remain within or return to the category unless another treatment receives formal approval.
 
-## 6. Controls, Gates, and Governance
-
-Vault-by-vault release rules require controls.
-
-Important controls include:
-
-- vault purpose definition
-- allocation amount
-- allocation percentage
-- release type
-- eligibility rule
-- claim rule
-- vesting rule
-- lockup rule
-- milestone rule
-- treasury approval
-- governance approval
-- multisig controls where applicable
-- timelock controls where applicable
-- public-safe reporting
-- legal review
-- jurisdiction review
-- accounting review where relevant
-- smart-contract readiness where applicable
-- anti-abuse review where relevant
-- privacy controls where relevant
-- emergency pause or correction process where relevant
-
-### 6.1 Community Participation Vault
-
-| Item | Rule |
-|---|---|
-| Allocation | 110,000,000 FUZE |
-| Percentage | 22.00% |
-| Purpose | Eligible community participation, product-user participation, contributor recognition, and future community programs |
-| Release logic | Eligibility-controlled participation windows, lockups, staged access, earned participation, and Public Vault Access where final policy allows |
-| Access rule | Eligible community members, product users, contributors, ecosystem supporters, or approved participant classes |
-| Control model | Jurisdiction review, compliance review, product readiness, platform readiness, lockup rules, eligibility controls, and policy approval |
-| Transparency rule | Public-safe allocation size, window status, lockup rules, released amount, remaining amount, and participation purpose |
-| Boundary | Product-aligned participation access, not unrestricted public buying or market-outcome messaging |
-
-The Community Participation Vault supports the Community Participation Round and keeps public participation tied to eligibility, product context, controlled circulation, and public reporting.
-
-Community Participation Vault releases may connect to:
-
-- community participation windows
-- product-user access
-- contributor recognition
-- community education
-- ZAGA utility
-- ZAGA Arena participation
-- ZAGA Districts participation
-- CommunityLayer AI programs
-- HerHelp product-user programs
-- ecosystem contribution programs
-
-Community participation access does not guarantee token profit, token price, liquidity, listing, payout, income, yield, game earnings, or investment return.
-
-### 6.2 BOARD / Surfboard Migration Vault
-
-| Item | Rule |
-|---|---|
-| Allocation | 25,000,000 FUZE |
-| Percentage | 5.00% |
-| Purpose | Eligible legacy-holder migration continuity from the BOARD / Surfboard context |
-| Release logic | Claim-based or eligibility-based migration process |
-| Access rule | Eligible legacy holders who satisfy final migration rules |
-| Control model | Claim window, identity or wallet verification where applicable, migration ratio rules, lockup rules where applicable, and public reporting controls |
-| Transparency rule | Public-safe migration status, claimed amount, remaining amount, contract reference, and policy reference where available |
-| Boundary | Separate from Community Participation Allocation and general treasury inventory |
-
-The BOARD / Surfboard Migration Vault protects continuity while preventing confusion between legacy-holder migration and public community access.
-
-Migration release does not guarantee market value, token price, liquidity, listing, payout, or investment return.
-
-### 6.3 Team Vesting Vault
-
-| Item | Rule |
-|---|---|
-| Allocation | 45,000,000 FUZE |
-| Percentage | 9.00% |
-| Purpose | Long-term alignment for founders, core team, builders, operators, engineers, product owners, and future key hires |
-| Release logic | Vesting over time |
-| Access rule | Approved team members and future key contributors under documented role and allocation rules |
-| Control model | Vesting schedule, cliff where applicable, role documentation, governance controls, and release records |
-| Transparency rule | Public-safe total allocation, vesting direction, released amount, locked amount, and high-level schedule direction |
-| Boundary | Long-term alignment vault, not short-term cash compensation replacement |
-
-The Team Vesting Vault aligns long-term builders with the platform.
-
-FUZE separates work payment and token alignment:
-
-**Stablecoins pay for work. FUZE tokens align long-term participation.**
-
-Team tokens support long-term alignment. They do not guarantee product success, token price, liquidity, listing, payout, income, or exit.
-
-### 6.4 Foundation Reserve Vault
-
-| Item | Rule |
-|---|---|
-| Allocation | 35,000,000 FUZE |
-| Percentage | 7.00% |
-| Purpose | Long-horizon stewardship, mission continuity, governance readiness, and platform-level reserve support |
-| Release logic | Strategic reserve deployment only under governance controls |
-| Access rule | Foundation-level or governance-approved use only |
-| Control model | Multisig approval, timelock where appropriate, policy reference, public event visibility where available, and reporting controls |
-| Transparency rule | Public-safe reserve amount, vault status, policy category, and release purpose where applicable |
-| Boundary | Long-horizon reserve category, not normal circulating inventory |
-
-The Foundation Reserve Vault supports platform resilience and long-term stewardship.
-
-It should move only under approved purpose and governance controls.
-
-### 6.5 Treasury Reserve Vault
-
-| Item | Rule |
-|---|---|
-| Allocation | 120,000,000 FUZE |
-| Percentage | 24.00% |
-| Purpose | Strategic platform reserve, treasury flexibility, ecosystem support, and controlled deployment |
-| Release logic | Strategic deployment under treasury and governance controls |
-| Access rule | FUZE treasury-approved use under policy controls |
-| Control model | Treasury policy, governance approval, multisig controls where applicable, timelock where appropriate, public-safe reporting, and purpose review |
-| Transparency rule | Public-safe vault amount, deployment category, release reason, and remaining reserve where appropriate |
-| Boundary | Strategic reserve, not unrestricted public access or automatic approved distributable value |
-
-The Treasury Reserve Vault gives FUZE flexibility while keeping deployment subject to purpose and control.
-
-Treasury deployment can support platform, product, ecosystem, liquidity-related, or strategic needs where approved.
-
-### 6.6 Holder Incentives Vault
-
-| Item | Rule |
-|---|---|
-| Allocation | 55,000,000 FUZE |
-| Percentage | 11.00% |
-| Purpose | Earned holder incentives, loyalty, referrals, product-user programs, campaigns, and participation incentives |
-| Release logic | Earned release through defined incentive or participation rules |
-| Access rule | Eligible holders, product users, community participants, campaign participants, or approved program classes |
-| Control model | Program rules, eligibility checks, anti-abuse review, lockup or vesting where applicable, and reporting |
-| Transparency rule | Public-safe program type, allocation usage, released amount, remaining amount, and campaign status where appropriate |
-| Boundary | Earned or program-based incentive category, not guaranteed income or return |
-
-The Holder Incentives Vault supports long-term participation and product-linked engagement.
-
-Incentives should be connected to defined programs and public rules rather than vague promises.
-
-### 6.7 Ecosystem Growth & Partnerships Vault
-
-| Item | Rule |
-|---|---|
-| Allocation | 40,000,000 FUZE |
-| Percentage | 8.00% |
-| Purpose | Partner grants, integrations, ecosystem expansion, campaigns, contribution programs, and milestone-based growth |
-| Release logic | Milestone release or approved ecosystem program release |
-| Access rule | Approved partners, integrations, contributors, projects, ecosystem programs, campaigns, or strategic initiatives |
-| Control model | Partner agreement, milestone proof, delivery review, vesting or lockup where applicable, governance approval, and reporting |
-| Transparency rule | Public-safe partner category, program purpose, milestone status, released amount, and remaining amount where appropriate |
-| Boundary | Ecosystem growth category, not guaranteed partnership outcome or market result |
-
-The Ecosystem Growth & Partnerships Vault helps FUZE support integrations, campaigns, tools, builders, and partners that expand the ecosystem.
-
-Release should follow documented purpose and review.
-
-### 6.8 Liquidity Operations Vault
-
-| Item | Rule |
-|---|---|
-| Allocation | 30,000,000 FUZE |
-| Percentage | 6.00% |
-| Purpose | Approved market-structure support, DEX readiness, liquidity-related operations, exchange access preparation, and market operations |
-| Release logic | Controlled operational deployment under liquidity, treasury, legal, and market-boundary policy |
-| Access rule | FUZE-approved market-structure or liquidity-related operations only |
-| Control model | Treasury review, legal review, market-policy review, deployment record, reconciliation, multisig controls where applicable, and reporting |
-| Transparency rule | Public-safe deployment category, amount, purpose, venue category, and remaining amount where appropriate |
-| Boundary | Market-structure support category, not liquidity assurance or price support |
-
-The Liquidity Operations Vault can support market readiness.
-
-It does not guarantee liquidity, listing, trading volume, token price, price support, market-making result, resale availability, or exit opportunity.
-
-### 6.9 Advisor / Strategic Contributor Vault
-
-| Item | Rule |
-|---|---|
-| Allocation | 15,000,000 FUZE |
-| Percentage | 3.00% |
-| Purpose | Advisor, operator, expert, strategic contributor, and specialized ecosystem support alignment |
-| Release logic | Vesting, milestone release, or contribution-based release under defined rules |
-| Access rule | Approved advisors, strategic contributors, experts, operators, or special contributors |
-| Control model | Advisory scope, contribution records, milestone proof, vesting, lockups, governance review, and public-safe reporting |
-| Transparency rule | Public-safe total allocation, release direction, locked amount, released amount, and category purpose |
-| Boundary | Contribution-alignment category, not unrestricted compensation or guaranteed reward |
-
-Advisor and strategic contributor releases should connect to real contribution, long-term alignment, or approved milestone logic.
-
-Stablecoin compensation can support short-term work payment while FUZE token remains long-term alignment.
-
-### 6.10 Transparency / Stability Vault
-
-| Item | Rule |
-|---|---|
-| Allocation | 25,000,000 FUZE |
-| Percentage | 5.00% |
-| Purpose | Exceptional trust, transparency, stability, governance, or public-confidence actions under controlled conditions |
-| Release logic | Exceptional reserve use under governance controls |
-| Access rule | Approved exceptional-use cases only |
-| Control model | Governance review, multisig controls where applicable, timelock where appropriate, reporting, public justification, and risk review |
-| Transparency rule | Public-safe purpose, amount, remaining balance, and event explanation where appropriate |
-| Boundary | Exceptional reserve category, not normal circulating inventory or public payout pool |
-
-The Transparency / Stability Vault supports exceptional cases where FUZE may need to strengthen trust, transparency, resilience, or platform stability.
-
-Its use should be rare, controlled, documented, and publicly explained where appropriate.
+The [FUZE Community Participation Round](06-FUZE_COMMUNITY_PARTICIPATION_ROUND_PUBLIC.md) owns the round workflow. This category remains separate from migration and conditional wallet-based participation.
 
 ---
 
-## 7. Reporting and Transparency Direction
+## 6. BOARD / Surfboard Migration
 
-Vault-by-vault release rules support public-safe reporting.
+**Allocation:** 25,000,000 FUZE, or 5.00% of supply.
 
-Reporting can include:
+### Release trigger
 
-- vault name
-- allocation amount
-- allocation percentage
-- release logic
-- access rule
-- control model
-- transparency rule
-- risk boundary
-- released amount
-- locked amount
-- remaining amount
-- claim status where applicable
-- migration status where applicable
-- vesting status where public-safe
-- public access window status where applicable
-- governance status
-- multisig or timelock status where public-safe
-- report hashes where appropriate
-- public release summaries
-- public boundary reminders
+The migration process is active and an applicant has a supportable legacy BOARD / Surfboard position under the approved method.
 
-Public reporting should explain what changed and why.
+### Required evidence
 
-It should also explain which vault was involved, what release type applies, and whether the tokens are locked, vested, claimable, released, reserved, or controlled.
+- source position or snapshot evidence;
+- self-custody, exchange-custody, contract, staking, or pool treatment as applicable;
+- destination-wallet verification;
+- duplicate-claim and prior-migration review;
+- approved conversion or claim calculation;
+- jurisdiction and release conditions.
 
-Public reporting should protect private information such as investor identities, contributor identities, employee records, customer records, private agreements, tax records, legal analysis, accounting workpapers, private treasury procedures, and sensitive security details.
+### Destination and state
 
-Reporting supports transparency.
+An approved amount can become claimable, move to a migration distribution structure, or transfer to the verified destination under any continuing lock. Aggregate reporting should show approved, claimed, released, and remaining amounts.
 
-It does not create financial assurance.
+### Exception treatment
+
+Conflicting ownership, incomplete intermediary evidence, duplicate submissions, or calculation disputes move to suspension or correction. Unused migration supply retains its category mandate.
+
+Detailed eligibility and custody handling belong in [FUZE BOARD / Surfboard Migration](20-FUZE_BOARD_SURFBOARD_MIGRATION_PUBLIC.md).
 
 ---
 
-## 8. Market, Legal, or Operational Context
+## 7. Team Allocation
 
-### 8.1 Relationship to Controlled Circulation
+**Allocation:** 45,000,000 FUZE, or 9.00% of supply.
 
-Vault-by-vault release rules are the operational layer of controlled circulation.
+### Release trigger
 
-Controlled circulation explains the discipline.
+An approved team grant reaches a vesting date, service condition, role milestone, or other documented release event.
 
-Vault-by-vault rules explain how that discipline applies to each allocation.
+### Required evidence
 
-Together, they show:
+- approved grant and recipient class;
+- grant amount and allocation source;
+- vesting basis and effective date;
+- completed service or milestone record;
+- continuing lock, custody, and cancellation terms;
+- authorized release calculation.
 
-- why each allocation exists
-- which vault holds the allocation
-- how the allocation can move
-- who may access the allocation
-- which controls apply
-- how public reporting should describe the movement
-- which boundaries apply
+### Destination and state
 
-### 8.2 Relationship to Public Vault Visibility
+Released tokens can remain in a vesting contract, move to an approved wallet, or enter another controlled custody arrangement. Vesting completion and circulating status require separate classification.
 
-Public Vault Visibility can show selected vault information in a public-safe way.
+### Exception treatment
 
-It may show:
+Unvested or unearned amounts can be cancelled or restored to category control according to the governing grant terms. Corrections should preserve prior calculations and effective dates.
 
-- vault name
-- purpose
-- allocation amount
-- release status
-- report hash
-- claim status where active
-- public access window status where active
-- governance reference where appropriate
-- public boundary
-
-Visibility helps readers understand vault purpose and status.
-
-It does not create unrestricted public access.
-
-### 8.3 Relationship to Public Vault Access Windows
-
-Public Vault Access Windows are possible controlled access windows for selected vault tokens where final policy allows.
-
-They may connect to:
-
-- Community Participation Vault
-- selected Ecosystem Growth & Partnerships programs
-- selected Holder Incentive programs
-- selected Treasury-related access programs where final policy allows
-
-Access windows require:
-
-- eligibility rules
-- participation rules
-- public window rules
-- lockup or vesting rules where applicable
-- jurisdiction review
-- compliance review
-- payment or access rules where applicable
-- anti-abuse review
-- reporting
-- governance approval
-
-Access windows should be explained as eligibility-controlled.
-
-They are not unrestricted public buying, unrestricted treasury access, or guaranteed token access.
-
-### 8.4 Relationship to Product-First Execution
-
-Vault release should support product-first execution.
-
-Product-first release can connect to:
-
-- HerHelp product usage
-- ZAGA utility surfaces
-- ZAGA Arena and ZAGA Districts participation
-- CommunityLayer AI activity
-- Platform Credit product usage
-- QTB, AIMM, AIE, ToolGrid AI, and Botmad product surfaces
-- partner integrations
-- product-user incentives
-- public reporting
-- utility readiness
-
-Token release should become easier to understand when connected to product purpose.
-
-### 8.5 Market Boundary
-
-Vault-by-vault release rules are supply-control rules.
-
-They do not guarantee:
-
-- token demand
-- token price
-- exchange listing
-- liquidity
-- trading volume
-- market-making result
-- price support
-- resale availability
-- exit opportunity
-- investment return
-
-Market access, custody, liquidity operations, exchange support, and public trading environments require separate boundary language and review.
+The detailed alignment framework is maintained in [FUZE Team Advisor Partner Vesting](19-FUZE_TEAM_ADVISOR_PARTNER_VESTING_PUBLIC.md).
 
 ---
 
-## 9. Risk and Disclosure Reference
+## 8. Foundation Reserve
 
-Important public boundaries include:
+**Allocation:** 35,000,000 FUZE, or 7.00% of supply.
 
-- FUZE uses one ecosystem token: FUZE token.
-- FUZE token supply is fixed at 500,000,000 FUZE.
-- Each vault has a separate purpose and release logic.
-- Vault-by-vault rules support controlled circulation and supply clarity.
-- Community Participation Vault follows eligibility-controlled participation logic.
-- BOARD / Surfboard Migration Vault follows separate eligible legacy-holder migration logic.
-- Team and advisor vaults follow long-term alignment and vesting logic.
-- Treasury, foundation, and transparency vaults follow reserve and governance logic.
-- Liquidity Operations Vault supports market-structure readiness but does not create market guarantees.
-- Holder Incentives Vault supports defined incentive programs and does not create guaranteed income.
-- Platform Credits are product usage credits and remain separate from FUZE token vaults.
-- Stablecoins are payment, settlement, treasury, and operational compensation rails.
-- Wallet-based participation ability remains activation-gated.
-- Public vault visibility supports transparency and does not create unrestricted public treasury access.
-- Public vault access windows require eligibility, policy, jurisdiction, compliance, and control rules where active.
-- FUZE token does not guarantee payout, income, yield, profit, token price, listing, liquidity, market support, exit, game earnings, business revenue, user growth, community growth, approved distributable value, wallet eligibility, claim availability, or investment return.
+### Release trigger
 
-More detailed boundaries are handled in dedicated papers, including:
+A foundation-level stewardship, mission-continuity, governance, or long-horizon platform need receives the required authorization.
 
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/12-FUZE_CONTROLLED_CIRCULATION_POLICY_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/13-FUZE_TOKEN_RELEASE_AND_CIRCULATION_CLARITY_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/14-FUZE_VAULT_AND_RESERVE_POLICY_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/16-FUZE_PUBLIC_VAULT_VISIBILITY_SYSTEM_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/17-FUZE_PUBLIC_VAULT_ACCESS_WINDOWS_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/18-FUZE_VAULT_ACCESS_PRICING_MECHANISM_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/19-FUZE_TEAM_ADVISOR_PARTNER_VESTING_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/20-FUZE_BOARD_SURFBOARD_MIGRATION_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/21-FUZE_LIQUIDITY_AND_LISTING_POLICY_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/24-FUZE_GOVERNANCE_MULTISIG_TIMELOCK_MODEL_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/29-FUZE_TOKEN_RISK_BOUNDARIES_PUBLIC.md`
+### Required evidence
 
-This paper focuses on vault-by-vault release rules while deeper circulation, vault visibility, access windows, pricing, migration, liquidity, governance, and disclosure topics remain in dedicated papers.
+- purpose statement connecting the request to foundation responsibilities;
+- amount, destination, and expected duration;
+- comparison with other suitable allocations;
+- governance and custody approval;
+- continuing restriction or return treatment;
+- effect on remaining reserve capacity.
+
+### Destination and state
+
+Tokens can move into an approved stewardship program, contract, controlled wallet, or recipient arrangement. Reserve withdrawal should be reported separately from circulating-supply treatment.
+
+### Exception treatment
+
+Cancelled initiatives and unused balances should return to foundation custody. A purpose outside the foundation mandate requires a category reclassification process.
 
 ---
 
-## 10. Key Takeaways
+## 9. Treasury Reserve
 
-- FUZE Vault-by-Vault Release Rules explains how each token allocation behaves before tokens enter active circulation.
-- FUZE uses one ecosystem token: FUZE token.
-- FUZE token supply is fixed at 500,000,000 FUZE.
-- FUZE uses ten allocation vaults with different purposes and release rules.
-- Community Participation Vault supports eligible community and product-user participation.
-- BOARD / Surfboard Migration Vault supports eligible legacy-holder continuity.
-- Team Vesting Vault supports long-term builder alignment.
-- Foundation Reserve Vault supports long-horizon stewardship.
-- Treasury Reserve Vault supports strategic reserve deployment under treasury and governance controls.
-- Holder Incentives Vault supports earned and program-based incentives.
-- Ecosystem Growth & Partnerships Vault supports partner, grant, integration, milestone, and ecosystem growth.
-- Liquidity Operations Vault supports market-structure readiness under controls.
-- Advisor / Strategic Contributor Vault supports advisor and contributor alignment.
-- Transparency / Stability Vault supports exceptional trust, transparency, or stability actions under governance controls.
-- Stablecoins pay for work. FUZE tokens align long-term participation. Platform Credits power product usage.
-- Vault rules support transparency and controlled circulation, but they do not guarantee payout, liquidity, listing, token price, market support, or investment return.
+**Allocation:** 120,000,000 FUZE, or 24.00% of supply.
+
+### Release trigger
+
+FUZE approves a strategic platform, infrastructure, operating, ecosystem, financing, or treasury action that fits the reserve mandate.
+
+### Required evidence
+
+- treasury proposal and use classification;
+- amount, timing, destination, and alternatives considered;
+- source balance and existing commitments;
+- governance, custody, and specialist review appropriate to the action;
+- conversion, lock, return, or counterparty terms;
+- accounting and public-reporting treatment.
+
+### Destination and state
+
+Treasury movement can be a custody transfer, commitment, operational deployment, conversion, or external release. The packet must name the resulting state rather than treating every withdrawal as circulation.
+
+### Exception treatment
+
+Failed, cancelled, excess, or recovered deployments return to treasury or recovery custody. Material purpose changes require a new decision.
+
+Treasury Reserve is strategic capacity rather than a standing source for participation, incentives, or distributable value.
+
+---
+
+## 10. Holder Incentives
+
+**Allocation:** 55,000,000 FUZE, or 11.00% of supply.
+
+### Release trigger
+
+A participant satisfies the measurable rules of an approved loyalty, referral, product-use, campaign, recognition, or holder program.
+
+### Required evidence
+
+- program objective, duration, and budget;
+- eligible behavior and calculation method;
+- participant or wallet qualification;
+- abuse, duplicate, and reversal controls;
+- earned amount and any claim deadline;
+- lock, expiry, or transfer conditions.
+
+### Destination and state
+
+Qualified amounts can become claimable, transfer to recipients, or remain subject to a program lock. Reports should distinguish budgeted, earned, distributed, expired, recovered, and remaining balances.
+
+### Exception treatment
+
+Invalid, reversed, expired, or fraudulent qualifications are cancelled or recovered under the program rules. A new campaign requires its own approved budget and evidence model.
+
+---
+
+## 11. Ecosystem Growth & Partnerships
+
+**Allocation:** 40,000,000 FUZE, or 8.00% of supply.
+
+### Release trigger
+
+An approved partner, integration, grant, distribution, or ecosystem initiative completes a defined milestone or enters an authorized vesting stage.
+
+### Required evidence
+
+- approved relationship or program scope;
+- deliverable, milestone, or service-period definition;
+- completion and acceptance record;
+- grant or partner amount and schedule;
+- continuing obligations, lock, or return rights;
+- confidential and public reporting classifications.
+
+### Destination and state
+
+Tokens can move to a partner-controlled wallet, vesting arrangement, grant contract, or program account. Public reporting can aggregate counterparties where commercial terms or identity remain private.
+
+### Exception treatment
+
+Incomplete milestones, terminated relationships, or unused grants follow the agreement’s cancellation, vesting, return, or recovery provisions. Announcing a relationship is insufficient evidence for release.
+
+---
+
+## 12. Liquidity & Market Operations
+
+**Allocation:** 30,000,000 FUZE, or 6.00% of supply.
+
+### Release trigger
+
+An approved DEX, liquidity, custody, venue-preparation, or other market-structure operation is ready for execution.
+
+### Required evidence
+
+- operating purpose and venue or counterparty class;
+- deployment amount and paired asset where relevant;
+- custody, treasury, legal, and market-policy review;
+- pricing, range, term, withdrawal, or service parameters where applicable;
+- monitoring and reconciliation owner;
+- return, pause, and incident procedure.
+
+### Destination and state
+
+Tokens can move to an operating wallet, pool, contract, custodian, or approved service provider. Reports should distinguish committed, supplied, paired, withdrawn, returned, and externally available amounts.
+
+### Exception treatment
+
+Unused inventory, withdrawn positions, terminated arrangements, and recovered balances return to controlled category custody. Venue support and market conditions remain external variables.
+
+DEX-first and possible CEX-later treatment is defined in the [FUZE Liquidity and Listing Policy](21-FUZE_LIQUIDITY_AND_LISTING_POLICY_PUBLIC.md).
+
+---
+
+## 13. Advisors / Strategic Contributors
+
+**Allocation:** 15,000,000 FUZE, or 3.00% of supply.
+
+### Release trigger
+
+An approved advisor or strategic contributor satisfies a documented service period, contribution requirement, milestone, or vesting event.
+
+### Required evidence
+
+- role and contribution scope;
+- grant amount and release basis;
+- accepted work, milestone, or service record;
+- vesting and lock conditions;
+- conflict, termination, and revocation treatment;
+- approval and calculation record.
+
+### Destination and state
+
+An earned portion can remain in vesting custody or move to an approved recipient wallet. The public record should use category-level reporting where personal agreements require confidentiality.
+
+### Exception treatment
+
+Unearned or unvested amounts follow the governing cancellation or return rule. A changed contribution scope requires an amended approval before later release.
+
+Short-term work compensation and long-term token alignment should remain separately documented.
+
+---
+
+## 14. Transparency / Stability Reserve
+
+**Allocation:** 25,000,000 FUZE, or 5.00% of supply.
+
+### Release trigger
+
+FUZE identifies an exceptional trust, transparency, security, reporting, or ecosystem-stability need that fits this reserve better than another allocation.
+
+### Required evidence
+
+- event or objective requiring action;
+- explanation of category fit;
+- proposed amount, destination, and safeguards;
+- governance, treasury, legal, security, or market review as relevant;
+- monitoring period and success criteria;
+- public explanation and closure route.
+
+### Destination and state
+
+Tokens can move into a controlled response, assurance, recovery, or stability structure. The release record should state whether the tokens remain restricted, are deployed, or return after the event.
+
+### Exception treatment
+
+Unused or recovered amounts return to reserve custody. Recurring ordinary expenses should use their normal allocation or treasury path instead of this exceptional reserve.
+
+The category provides response capacity rather than an automatic market-support mechanism.
+
+---
+
+## 15. Execution and Reconciliation
+
+After approval, the operator should:
+
+1. verify the source vault, destination, asset, network, and amount;
+2. confirm signer or contract authority;
+3. execute the instruction;
+4. capture transaction and custody evidence;
+5. update source and destination ledgers;
+6. classify continuing restrictions and circulation treatment;
+7. reconcile the closing vault balance;
+8. publish or schedule the required report.
+
+The category equation is:
+
+```text
+Opening allocation balance
+- completed releases
++ verified returns
++/- approved corrections
+= closing allocation balance
+```
+
+Proposed, approved, committed, and claimable amounts should also be tracked because they affect available capacity before an on-chain transfer occurs.
+
+---
+
+## 16. Amendments and Exceptions
+
+An exception can change execution details while preserving the allocation mandate. Examples include a replacement destination, delayed milestone, revised claim route, or alternate custody arrangement.
+
+A change of purpose is more significant. Moving tokens from one allocation mandate to another requires formal reclassification, updates to the controlling allocation record, and public communication where applicable.
+
+Emergency action can suspend or return a release when authority, destination, evidence, legality, security, or reconciliation is materially uncertain. The final disposition should remain linked to the original request.
+
+---
+
+## 17. Public Reporting
+
+A release report can include:
+
+- source allocation and opening balance;
+- release type, amount, and period;
+- recipient or destination class;
+- aggregate eligibility, vesting, milestone, or operating status;
+- continuing restrictions;
+- transaction or governance references;
+- returned, cancelled, corrected, or disputed amounts;
+- closing category balance and methodology.
+
+Reports should protect personal identity, private compensation, partner terms, credentials, and sensitive operating details. Wallet-level transparency should label function without identifying the person behind an address.
+
+Public display behavior is maintained in the [FUZE Public Vault Visibility System](16-FUZE_PUBLIC_VAULT_VISIBILITY_SYSTEM_PUBLIC.md).
+
+---
+
+## 18. Boundaries
+
+These rules authorize no current release by themselves. Each movement requires an active program, grant, agreement, migration process, treasury instruction, or operating decision with the specified evidence.
+
+Platform Credits remain product-usage records, and stablecoin treasury activity remains separate from FUZE allocation balances. Market availability, venue support, liquidity, and token price also remain separate from a release decision.
+
+Detailed risk treatment is consolidated in [FUZE Token Risk Boundaries](29-FUZE_TOKEN_RISK_BOUNDARIES_PUBLIC.md).
+
+---
+
+## Conclusion
+
+Vault-by-vault rules give every FUZE allocation a release path matched to its approved purpose.
+
+The source category, trigger, evidence, authority, destination, restrictions, execution record, resulting state, and exception route together determine whether movement is supportable. This structure keeps community, migration, team, reserve, incentive, partner, market-operation, and exceptional-use decisions distinct while preserving one reconciled allocation ledger.

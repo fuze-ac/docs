@@ -2,692 +2,416 @@
 
 ## Executive Summary
 
-FUZE Vault Access Pricing Mechanism explains how FUZE defines pricing controls for selected vault-token access when Public Vault Access Windows are approved under final policy.
+The FUZE Vault Access Pricing Mechanism defines how an approved Public Vault Access Window can calculate, validate, publish, and settle its access price. It separates the policy decision to open a window from the technical process used to produce a reproducible price.
 
-FUZE uses one ecosystem token only: **FUZE token**.
+Each active pricing profile must identify its unit of account, reference sources, observation period, source-quality rules, calculation method, floor or cap where approved, adjustment factor, rounding, validity period, deviation limits, and failure behavior. The resulting price should be traceable to a signed or otherwise authorized calculation record.
 
-FUZE token is the single ecosystem token of FUZE. It supports product-connected utility, ecosystem participation, platform alignment, governance direction where applicable, community participation structures, and wallet-based participation ability where activated under required controls.
+Market data can serve as an input only when it is sufficiently current and reliable for the approved profile. Early or disrupted conditions can instead use a specifically approved fixed reference. When required inputs fail validation, the pricing process pauses rather than silently substituting a new method.
 
-Vault Access Pricing Mechanism focuses on one specific purpose:
-
-**pricing selected Public Vault Access Windows.**
-
-It does not define general token market value, exchange listing price, future token price, liquidity, market demand, trading volume, or investment return.
-
-The mechanism defines how selected vault-token access can use approved price policies, signed approved prices, market references where reliable, TWAP references where mature enough, minimum price floors, premium multipliers where applicable, deviation checks, purchase caps, lockups, proceeds reporting, governance controls, and public-safe transparency.
-
-The purpose is to prevent arbitrary admin-set pricing, hidden discounts, unfair insider access, unclear private access, uncontrolled vault movement, and confusing access terms.
-
-Public Vault Access Windows remain eligibility-controlled, compliance-gated, lockup-aware, public-reportable, and selective.
-
-Platform Credits are product usage credits and are separate from FUZE token.
-
-Stablecoins are payment, settlement, treasury, and operational compensation rails.
-
-Wallet-based participation ability is a separate activation-gated framework inside the FUZE token model.
-
-FUZE does not guarantee payout, income, dividend, yield, profit, token price, listing, liquidity, market support, trading volume, exit, game earnings, business revenue, user growth, community growth, approved distributable value, wallet eligibility, Public Vault Access Window availability, smart-contract security, AI accuracy, or investment return.
+This mechanism applies only to a window activated under [FUZE Public Vault Access Windows](17-FUZE_PUBLIC_VAULT_ACCESS_WINDOWS_PUBLIC.md). It publishes no current FUZE price and provides no forecast of market value.
 
 ---
 
-## 1. Purpose of This Paper
+## 1. Pricing Objective
 
-This paper explains FUZE Vault Access Pricing Mechanism.
+An access price should be:
 
-It defines:
+- authorized before use;
+- reproducible from stated inputs;
+- resistant to stale or abnormal data;
+- consistent across eligible participants in the same pricing interval;
+- bounded by approved policy parameters;
+- recorded with enough evidence for later review.
 
-- what vault-access pricing means
-- why FUZE separates vault-access pricing from market price promises
-- how pricing applies only to selected Public Vault Access Windows where final policy allows
-- how early-stage, transitional-stage, mature-market-stage, and exceptional-policy-stage pricing can work
-- how signed approved prices, minimum price floors, reference prices, TWAP, premium multipliers, deviation checks, liquidity thresholds, purchase caps, lockups, and public reporting can apply
-- how payment assets and proceeds destinations can be handled
-- how vault-access pricing relates to Public Vault Access Windows
-- how vault-access pricing differs from market price and demand boundaries
-- how vault-access pricing differs from liquidity and listing policy
-- which vaults may fit pricing-based access
-- which vaults generally do not fit pricing-based access
-- what public claims FUZE avoids
-
-This paper is not a token valuation paper, price forecast, price target, listing plan, liquidity plan, trading advice, investment recommendation, legal opinion, tax opinion, accounting policy, token sale document, public investment offer, public solicitation, payout policy, claim instruction, smart-contract audit, or financial-return promise.
-
-It is a public pricing-control and access-window policy paper.
+The mechanism should answer who approved the profile, which data was used, how the calculation worked, when the result was valid, and why any override or pause occurred.
 
 ---
 
-## 2. Reader Problem This Paper Solves
+## 2. Scope
 
-Selected vault access can create confusion when pricing is unclear.
+This paper governs the calculation of FUZE quantity or consideration for a specific approved vault window.
 
-Readers may ask:
+It covers:
 
-- Who sets the price?
-- Does one admin control pricing?
-- Is the price based on a hidden discount?
-- Does a minimum floor mean market price support?
-- Does a TWAP reference mean a future price promise?
-- Does a premium multiplier mean token appreciation is expected?
-- Does an access window replace exchange liquidity?
-- Does pricing-based access create investment rights?
-- Does a Public Vault Access Window equal public sale inventory?
-- Which vaults can use pricing-based access?
-- How does FUZE prevent unfair access concentration?
-- How does FUZE pause pricing when market data is unreliable?
+- fixed approved references;
+- single-source and multi-source market references;
+- time-weighted calculations;
+- floors, caps, and adjustment factors;
+- source qualification and deviation tests;
+- stablecoin conversion and payment treatment;
+- signed price records;
+- recalculation, pause, correction, and reporting.
 
-This paper solves that problem by defining vault-access pricing as a policy-controlled access mechanism.
-
-The key answer is:
-
-Vault-access pricing exists to make selected Public Vault Access Windows clearer, fairer, more controlled, and more reportable. It does not define future token value or market outcome.
+It does not set window eligibility, source-vault authority, participant limits, token release conditions, or proceeds use. Those fields belong to the active window record.
 
 ---
 
-## 3. FUZE Public Position
+## 3. Pricing Profile
 
-FUZE’s public position is:
+Every window using payment should reference one approved pricing profile.
 
-**Vault Access Pricing Mechanism defines pricing controls for selected vault-token access where Public Vault Access Windows are approved under final policy. It is a pricing-control model, not a token valuation promise, listing price promise, liquidity promise, price-support system, market-support system, payout system, or financial-return model.**
-
-FUZE uses this principle:
-
-**Market-aligned vault access uses approved price policies, minimum price floors, purchase caps, lockups, and public reporting. No single admin silently sets or changes selected vault-access pricing.**
-
-The Vault Access Pricing Mechanism follows FUZE’s tokenomics principle:
-
-**Purpose-specific allocation. Vault-based control. Controlled circulation. Product-first utility. Long-term ecosystem alignment.**
-
-This position has several important parts.
-
-| Area | FUZE Public Position |
+| Profile field | Required definition |
 |---|---|
-| Pricing discipline | Pricing follows approved policy controls |
-| Source vault clarity | Pricing applies only to selected approved source vaults |
-| Access-window scope | Pricing applies only during defined access windows |
-| Eligibility control | Pricing applies only to eligible participants under active rules |
-| Market alignment | Pricing can reference market data where reliable and policy-approved |
-| Minimum floor | Pricing can include lower-bound controls where policy allows |
-| Purchase caps | Access can be limited by account, wallet, entity, window, category, or time period |
-| Lockups | Tokens accessed through pricing windows can remain restricted after access |
-| Governance control | Pricing policies, updates, pauses, and exceptional review follow approved controls |
-| Public reporting | Pricing method, status, references, and boundaries can be reported where public-safe |
-| Market boundary | Pricing policy supports controlled access and transparency rather than market-result promises |
+| Profile identifier | Stable name and version |
+| Window identifier | Access window authorized to use the profile |
+| Quote unit | Stablecoin, fiat-equivalent unit, or other approved denomination |
+| Reference type | Fixed approved, spot reference, TWAP, or multi-source calculation |
+| Sources | Approved venues, pools, feeds, or signed policy records |
+| Pair and route | FUZE quote pair and any conversion path |
+| Observation period | Start, end, sampling method, and timezone or block range |
+| Source tests | Freshness, depth, activity, deviation, and availability requirements |
+| Adjustment | Approved multiplier or fixed adjustment |
+| Bounds | Floor, cap, or other approved limit |
+| Precision | Decimal places and rounding direction |
+| Validity | Time or block interval for use |
+| Failure mode | Pause, retry, alternate approved profile, or manual review |
+| Authority | Approver and signer or publication method |
 
-The mechanism exists because selected vault access can affect public trust.
-
-When pricing is unclear, community members can worry about hidden discounts, preferential insider access, arbitrary admin decisions, or unfair token movement.
-
-Vault-access pricing gives FUZE a clearer and more policy-based way to explain selected access windows.
+Profile changes require a new version. Historical calculations should retain the profile version used at the time.
 
 ---
 
-## 4. Core Model
+## 4. Pricing Profiles
 
-### 4.1 Definition
+### Fixed approved reference
 
-Vault Access Pricing Mechanism is a public pricing policy for selected FUZE vault-token access.
+A specifically approved quote is used for a defined window or interval.
 
-| Element | Public Meaning |
+This profile can be appropriate when market references are absent, immature, fragmented, or unsuitable. Its approval record should state the basis, quote unit, validity period, source-vault context, and review authority.
+
+### Market-reference profile
+
+The calculation uses a current price from an approved market source that passes the profile's quality tests.
+
+This profile should identify the exact venue, pair, route, timestamp rule, and treatment of spreads or fees.
+
+### Time-weighted profile
+
+The calculation uses observations across an approved period to reduce dependence on one instant.
+
+The profile should define sampling frequency, missing observations, weighting, and the minimum usable data coverage.
+
+### Multi-source profile
+
+The calculation combines qualified observations from more than one approved source.
+
+The profile should state how sources are normalized, weighted, filtered, and combined. A median, weighted average, or another method can be used only when the active version defines it.
+
+### Exceptional review profile
+
+Pricing is paused pending an approved manual decision because normal inputs have failed. Any replacement quote requires its own basis, authorization, validity, and public status.
+
+---
+
+## 5. Source Qualification
+
+A source must pass qualification before its observation enters a calculation.
+
+### Identity
+
+The venue, pool, feed, contract, pair, network, and quote asset must match the approved profile.
+
+### Freshness
+
+The latest observation must fall within the profile's maximum age. A source beyond that age is stale.
+
+### Activity
+
+The source should meet the defined minimum activity, trade, or update requirement for the observation period.
+
+### Depth
+
+Where market depth matters, the source should meet the approved liquidity or executable-size threshold.
+
+### Integrity
+
+The process should detect abnormal gaps, crossed values, impossible quantities, duplicated observations, data-feed errors, or known source incidents.
+
+### Deviation
+
+The source should remain within the approved difference from other qualified sources or from the profile's comparison reference.
+
+A source can be valid for public market information yet unsuitable for an access-window calculation. Qualification is profile-specific.
+
+---
+
+## 6. Reference Calculation
+
+The general structure is:
+
+```text
+Qualified observations
+-> normalized quote unit
+-> approved aggregation method
+= reference price
+```
+
+For a time-weighted profile:
+
+```text
+Reference price =
+sum(observation price x observation duration)
+/ total qualified duration
+```
+
+For a weighted multi-source profile:
+
+```text
+Reference price =
+sum(source reference x approved source weight)
+/ sum(active source weights)
+```
+
+Weights, observation periods, and minimum coverage are parameters, not assumptions. The active profile must provide them.
+
+If too few sources or observations remain after qualification, the calculation enters its defined failure mode.
+
+---
+
+## 7. Adjustment and Bounds
+
+An approved profile can transform the reference price.
+
+```text
+Adjusted price = reference price x approved adjustment factor
+```
+
+The factor can remain neutral or implement a specifically approved premium or other policy adjustment. Its purpose and value should be visible in the window record.
+
+Where a lower bound applies:
+
+```text
+Bounded price = max(adjusted price, approved floor)
+```
+
+Where an upper bound also applies:
+
+```text
+Bounded price = min(max(adjusted price, approved floor), approved cap)
+```
+
+Floors and caps control the window calculation only. They do not set or protect prices on an external venue.
+
+Changes to a factor, floor, or cap require profile versioning and approval before they affect participants.
+
+---
+
+## 8. Deviation Tests
+
+Deviation tests determine whether a result is credible enough to publish.
+
+For a source against the comparison reference:
+
+```text
+Deviation =
+absolute(source price - comparison price)
+/ comparison price
+```
+
+The profile defines the permitted threshold and required response.
+
+Possible responses include:
+
+- exclude the source and recalculate;
+- require additional observations;
+- shorten or extend the observation period under an already approved rule;
+- pause publication;
+- escalate to exceptional review.
+
+The system should avoid selecting whichever source produces the preferred result. Source inclusion follows the profile established before calculation.
+
+---
+
+## 9. Quote Conversion
+
+A reference can require conversion when the source pair differs from the window's quote unit.
+
+```text
+FUZE quote in target unit =
+FUZE reference in intermediate unit
+x intermediate-to-target conversion rate
+```
+
+Every conversion leg needs its own approved source, timestamp, precision, and quality tests. The final record should preserve the original observations and converted result.
+
+Stablecoin denominations should identify the exact asset and network. Similar display values do not make different stablecoins, wrapped assets, or custody balances interchangeable.
+
+When a conversion asset materially departs from its intended reference or encounters a custody or network incident, the profile's failure rule applies.
+
+---
+
+## 10. Precision and Rounding
+
+The profile should specify:
+
+- price precision;
+- token-quantity precision;
+- payment precision;
+- rounding direction;
+- treatment of residual amounts;
+- minimum executable payment or allocation.
+
+The participant calculation is:
+
+```text
+FUZE quantity =
+eligible consideration
+/ valid bounded price
+```
+
+The result is rounded according to the active profile and then checked against participant and window limits.
+
+Rounding should be deterministic. The same inputs and profile version should produce the same price and quantity.
+
+---
+
+## 11. Validity Interval
+
+Each published price has a defined validity interval.
+
+The price record should show:
+
+- calculation time;
+- observation cutoff;
+- valid-from time or block;
+- expiry time or block;
+- profile version;
+- status.
+
+Applications or payments received after expiry use the next valid price or follow the window's expiration treatment. A delayed transaction should not silently inherit an expired quote.
+
+Longer validity can simplify participant experience but increases exposure to changing inputs. Shorter validity improves recency but requires more frequent calculation and settlement handling. The active profile makes that tradeoff explicit.
+
+---
+
+## 12. Signed Price Record
+
+A price used for allocation should be stored as an authorized record.
+
+| Field | Content |
 |---|---|
-| Approved price policy | Pricing rule approved under FUZE governance and public policy controls |
-| Signed approved price | Policy-approved price signed or authorized by approved governance controls |
-| Signed reference price | Approved price reference used when market data is partial or transitional |
-| Minimum price floor | Lower bound that prevents selected access below approved policy |
-| TWAP reference | Time-weighted average price reference where sufficient market maturity exists |
-| Premium multiplier | Policy-based adjustment above a reference price where applicable |
-| Deviation check | Control that detects abnormal price divergence or unreliable market conditions |
-| Liquidity threshold | Control that checks whether reference data is sufficiently reliable |
-| Purchase cap | Limit per account, wallet, entity, access window, participant class, or policy period |
-| Lockup | Restriction that delays full active circulation after access |
-| Policy reference | Public policy document, hash, governance record, or approval reference |
-| Public reporting | Public-safe disclosure of pricing method, access-window status, references, and access history |
+| Price record ID | Unique calculation identifier |
+| Window and profile | Window ID and profile version |
+| Quote | Final price, unit, and precision |
+| Inputs | Source identifiers and observation references |
+| Calculation | Reference, adjustment, bounds, conversion, and rounding |
+| Validity | Start and expiry |
+| Quality status | Freshness, depth, coverage, and deviation results |
+| Authority | Signer, multisignature, governance, contract, or approved publisher |
+| Evidence | Hash, transaction, report, or immutable log reference |
 
-The mechanism supports policy-based pricing discipline.
-
-It is not a token valuation forecast.
-
-### 4.2 Public Boundary
-
-Vault Access Pricing Mechanism should be read as a pricing-control tool for selected access windows.
-
-It does not provide:
-
-- token price prediction
-- price target
-- listing price
-- market floor promise
-- price protection
-- market support
-- liquidity guarantee
-- listing guarantee
-- trading volume guarantee
-- demand guarantee
-- exit guarantee
-- public investment offer
-- public solicitation
-- payout system
-- dividend system
-- yield system
-- passive-income system
-- approved distributable value
-- wallet-based participation distribution
-- treasury claim
-
-A minimum price floor is a lower-bound access policy, not market price protection.
-
-A TWAP reference is a reference input, not a future price promise.
-
-A signed approved price is an access-window policy input, not a valuation guarantee.
-
-A premium multiplier is a pricing-control method, not token appreciation.
-
-A purchase cap is an access concentration control, not demand assurance.
-
-A lockup is a controlled-circulation tool, not price support.
-
-### 4.3 Staged Pricing Model
-
-FUZE can use staged pricing because market maturity changes over time.
-
-| Stage | Pricing Model | Public Role |
-|---|---|---|
-| Early-stage / low-liquidity stage | Signed approved price, minimum price floor, purchase caps, lockups, policy approval, and public reporting | Uses policy controls when reliable market references are not mature enough |
-| Transitional stage | Signed reference price, limited market reference where reliable, deviation checks, caps, lockups, governance review, and reporting | Combines approved policy with emerging market context |
-| Mature market stage | TWAP reference, premium multiplier where applicable, minimum floor, deviation checks, liquidity threshold, caps, lockups, and public reporting | Uses market data as a reference where reliable |
-| Exceptional policy stage | Paused, manually reviewed, or governance-approved pricing where abnormal conditions exist | Protects the system during unreliable, abnormal, manipulated, illiquid, or uncertain conditions |
-
-This staged model prevents FUZE from treating early-stage and mature-stage markets as the same.
-
-### 4.4 Early-Stage Pricing
-
-Early-stage pricing is used when reliable market references are not yet mature enough.
-
-| Control | Public Role |
-|---|---|
-| Signed approved price | Price approved through policy and governance controls |
-| Minimum price floor | Prevents selected access below approved lower bound |
-| Purchase caps | Limits concentration and reduces unfair access |
-| Lockups | Reduces immediate uncontrolled circulation |
-| Eligibility controls | Limits access to approved participant classes |
-| Public access window | Shows purpose, amount, rules, and status where applicable |
-| Policy reference | Connects pricing to public policy or governance record |
-| Pause control | Allows access to stop if conditions become unsuitable |
-| Reporting | Records price method and access-window status where public-safe |
-
-Early-stage pricing is a policy-controlled access method.
-
-It is not a market price prediction.
-
-### 4.5 Transitional Pricing
-
-Transitional pricing is used when market data begins to exist but does not yet provide a mature-market reference.
-
-| Control | Public Role |
-|---|---|
-| Signed reference price | Combines approved policy with emerging market context |
-| Limited market reference | Uses available market data where reliable enough |
-| Minimum floor | Maintains approved lower bound |
-| Deviation checks | Detects abnormal movement or unreliable data |
-| Purchase caps | Limits concentration and access-window pressure |
-| Lockups | Supports controlled circulation |
-| Public reporting | Explains method and status where appropriate |
-| Governance review | Allows adjustment or pause under defined controls |
-
-Transitional pricing recognizes market development without over-relying on immature liquidity.
-
-### 4.6 Mature Market Pricing
-
-Mature market pricing can use TWAP references and policy controls.
-
-| Control | Public Role |
-|---|---|
-| TWAP reference | Uses time-weighted average price where reliable market data exists |
-| Premium multiplier | Can apply above reference price where policy requires |
-| Minimum price floor | Prevents pricing below approved floor |
-| Deviation check | Identifies abnormal or manipulated market conditions |
-| Liquidity threshold | Confirms whether reference data is sufficient for use |
-| Purchase cap | Limits access concentration |
-| Lockup / vesting | Controls post-access circulation |
-| Public reporting | Shows pricing method, reference logic, and access status where public-safe |
-| Governance override | Allows pause or review under abnormal conditions |
-
-Mature market pricing uses market data as a reference, not as a guarantee.
-
-### 4.7 Exceptional Policy Stage
-
-Exceptional policy stage applies when normal pricing references are unreliable or unsuitable.
-
-Exceptional conditions may include:
-
-- abnormal volatility
-- unreliable liquidity
-- suspected manipulation
-- data outage
-- venue outage
-- oracle issue
-- DEX pool distortion
-- CEX reference issue
-- regulatory concern
-- contract issue
-- treasury concern
-- access-window abuse
-- sybil concern
-- abnormal access concentration
-- market event
-- security incident
-- emergency governance event
-
-Exceptional policy handling may include:
-
-- pause
-- manual review
-- governance review
-- legal review
-- treasury review
-- smart-contract review
-- new reference method
-- revised access limits
-- revised lockup terms
-- access-window delay
-- access-window cancellation
-- public-safe update
-
-Boundary:
-
-Pause or review protects process integrity. It does not guarantee market recovery, price stability, access availability, liquidity, payout, or return.
+The authorization method should prevent an unapproved operator from changing a price after participants rely on it.
 
 ---
 
-## 5. Token, Credits, Stablecoins, and Wallet Relationship
+## 13. Participant Calculation
 
-Vault Access Pricing Mechanism applies to selected FUZE vault-token access where Public Vault Access Windows are approved.
+The window applies the valid price record after eligibility and payment checks.
 
-It remains separate from Platform Credits, stablecoin rails, wallet-based participation ability, and approved distributable value.
+```text
+Accepted consideration =
+verified payment
+- ineligible, excess, failed, or refundable amount
+```
 
-| System | Public Role | Pricing Mechanism Relationship |
-|---|---|---|
-| FUZE token | Single ecosystem token | Selected access-window pricing applies only to approved source vault tokens |
-| Platform Credits | Product usage credits | Credits power product usage and do not use token vault-access pricing |
-| Stablecoins | Payment, settlement, treasury, and compensation rails | Stablecoins may serve as payment rails where access-window policy allows |
-| Product revenue | Revenue from FUZE products and services | Separate from vault-token access pricing unless policy defines proceeds treatment |
-| Approved distributable value | Reviewed value from defined product revenue pools where an active framework exists | Separate from access-window pricing |
-| Wallet-based participation ability | Possible activation-gated token-related framework | Separate from access-window pricing and requires its own gates |
+```text
+Preliminary FUZE amount =
+accepted consideration
+/ valid price
+```
 
-This separation helps public readers understand that a pricing mechanism for selected token access is not the same as product pricing, credit pricing, stablecoin settlement, approved distributable value, or wallet-based participation.
+The preliminary amount is then subject to participant limits, remaining window capacity, allocation method, and rounding.
 
----
-
-## 6. Controls, Gates, and Governance
-
-Vault Access Pricing Mechanism requires controls before any pricing-based access window becomes active.
-
-Important controls include:
-
-- source vault approval
-- access-window approval
-- eligibility rules
-- jurisdiction review
-- legal review
-- compliance review
-- pricing rule
-- minimum floor
-- reference method
-- deviation check
-- liquidity threshold where applicable
-- purchase cap
-- lockup rule
-- payment method approval
-- stablecoin settlement review where applicable
-- proceeds destination reporting
-- smart-contract readiness where applicable
-- multisig controls where applicable
-- timelock controls where applicable
-- treasury control
-- public reporting
-- pause and correction process
-- governance approval
-
-### 6.1 Price Reference Inputs
-
-The Vault Access Pricing Mechanism can use different reference inputs depending on market maturity and policy readiness.
-
-| Input | Public Role |
-|---|---|
-| Approved policy price | Governance-approved price for early-stage access |
-| Signed approved price | Signed or authorized approved price for a defined access window |
-| Signed reference price | Approved reference price where market data is developing |
-| Stablecoin-denominated reference | Price expressed in USDC, USDT, or approved stablecoin where applicable |
-| DEX TWAP | Time-weighted average price from approved DEX source where reliable |
-| CEX reference | Exchange price reference where approved and available |
-| Multi-source reference | Combined reference across approved venues where appropriate |
-| Liquidity threshold | Confirms whether a source has sufficient depth or activity |
-| Volatility range | Identifies abnormal price movement |
-| Deviation range | Detects difference between sources or unexpected movement |
-| Governance approval | Confirms source and method under policy |
-| Public record | Records selected method for public-safe reporting |
-
-Reference inputs help make pricing easier to explain.
-
-They do not guarantee future market price.
-
-### 6.2 Minimum Price Floor
-
-A minimum price floor can prevent selected vault access from being priced below an approved lower bound.
-
-A minimum price floor may be used to:
-
-- prevent unfair discounting
-- protect allocation discipline
-- reduce hidden private access concerns
-- support controlled circulation
-- make public access windows easier to compare
-- support public trust in pricing policy
-
-Boundary:
-
-A minimum price floor is an access-window pricing control. It does not guarantee market price, market floor, liquidity, or resale value.
-
-### 6.3 Premium Multiplier
-
-A premium multiplier may apply above a reference price where policy requires.
-
-A premium multiplier may be used when FUZE wants selected access to reflect:
-
-- controlled access
-- access scarcity
-- policy premium
-- lockup or staged-release design
-- market-aligned fairness
-- treasury support
-- ecosystem support
-- public access discipline
-
-Boundary:
-
-A premium multiplier is a pricing policy setting. It does not mean the token will appreciate or trade at that value later.
-
-### 6.4 Purchase Caps
-
-Purchase caps limit access concentration.
-
-Purchase caps may apply by:
-
-- user
-- wallet
-- account
-- community
-- workspace
-- entity
-- partner category
-- jurisdiction
-- window
-- time period
-- total program
-
-Purchase caps help reduce unfair concentration and improve access discipline.
-
-Boundary:
-
-Purchase caps limit access. They do not guarantee demand, price, resale, liquidity, or allocation completion.
-
-### 6.5 Lockups
-
-Access-window tokens may include lockups, vesting, staged release, or claim schedules.
-
-Lockups can help:
-
-- reduce immediate uncontrolled circulation
-- align access with long-term participation
-- reduce short-term speculative pressure
-- improve public circulation reporting
-- match source-vault release policy
-- support product-first participation
-- create clearer supply timelines
-
-Boundary:
-
-A lockup is a circulation-control tool. It does not guarantee price, liquidity, payout, or return.
-
-### 6.6 Payment Assets and Proceeds Destination
-
-Public Vault Access Windows may accept approved payment assets where final policy allows.
-
-Payment assets may include:
-
-- stablecoins such as USDT or USDC where supported
-- fiat-equivalent rails where supported
-- other approved payment methods where policy allows
-
-Proceeds destination may be reported in public-safe categories, such as:
-
-- product development
-- HerHelp launch and operations
-- ZAGA product operations
-- platform infrastructure
-- stablecoin treasury reserve
-- legal and accounting review
-- security and smart-contract review
-- ecosystem support
-- liquidity-related operations where approved
-- public reporting and transparency systems
-- operating runway
-- contributor or vendor compensation through approved stablecoin rails
-
-Proceeds reporting should explain public category and purpose.
-
-It should protect private invoices, payroll records, contributor identities, vendor contracts, investor identities, customer records, legal workpapers, accounting workpapers, and sensitive treasury procedures.
-
-### 6.7 Source Vault Fit
-
-Pricing-based access does not fit every vault.
-
-| Vault / Allocation | Pricing-Based Access Fit |
-|---|---|
-| Community Participation Allocation | Strong fit where eligible access windows are approved |
-| Treasury Reserve | Possible fit only for controlled strategic access where policy allows |
-| Ecosystem Growth & Partnerships | Possible fit for selected partner, ecosystem, or strategic access windows |
-| Holder Incentives | Usually better suited for earned release than pricing-based access |
-| Liquidity & Market Operations | Governed by liquidity and market-operations policy rather than normal public access pricing |
-| Team Allocation | Not a normal pricing-based access source |
-| Advisors / Strategic Contributors | Generally governed by contributor policy, vesting, or milestone logic |
-| Foundation Reserve | Long-horizon reserve; generally not a normal pricing access source |
-| Transparency / Stability Reserve | Exceptional reserve under governance controls |
-| BOARD / Surfboard Migration | Separate migration claim or eligibility process |
-
-Source vault fit depends on vault purpose, legal review, public policy, and governance approval.
+If approved demand exceeds capacity, the allocation method in the window record determines scaling or queue treatment. Pricing should remain separate from allocation priority.
 
 ---
 
-## 7. Reporting and Transparency Direction
+## 14. Payment and Settlement
 
-Vault Access Pricing Mechanism can support public-safe reporting.
+The payment record should identify:
 
-Reporting can include:
+- participant or permissioned account reference;
+- payment asset and network;
+- expected and received amount;
+- transaction or custody evidence;
+- price record used;
+- allocated FUZE;
+- excess, refund, or shortfall;
+- settlement and release status.
 
-- access-window name
-- source vault
-- window type
-- pricing stage
-- approved policy price
-- signed approved price where appropriate
-- reference method
-- minimum floor
-- premium multiplier where applicable
-- TWAP method where applicable
-- deviation check status
-- liquidity threshold status
-- purchase cap
-- lockup rule
-- accepted payment assets
-- proceeds destination category
-- policy reference
-- contract reference
-- governance reference
-- multisig reference where public-safe
-- timelock reference where public-safe
-- window status
-- total accessed amount
-- remaining amount
-- pause status
-- settlement status
-- report hash
-- public boundary
+Network fees, conversion costs, payment-provider fees, or custody charges require an explicit treatment. They should not appear as unexplained differences between consideration and allocation.
 
-A useful public pricing report should explain:
-
-- how the price was determined
-- which source vault was used
-- who could participate
-- what limits applied
-- what lockups applied
-- which payment assets were accepted
-- where proceeds go in public-safe categories
-- what the price does not imply
-
-Reporting supports transparency.
-
-It does not create financial assurance.
+Proceeds reporting can use public categories while invoices, customer identity, account information, and detailed treasury records remain permissioned.
 
 ---
 
-## 8. Market, Legal, or Operational Context
+## 15. Failure and Pause Rules
 
-### 8.1 Relationship to Public Vault Access Windows
+Pricing should pause when:
 
-Vault Access Pricing Mechanism exists for Public Vault Access Windows.
+- required sources are unavailable or stale;
+- data coverage falls below the profile minimum;
+- deviation exceeds the approved threshold;
+- a source, oracle, network, stablecoin, or venue has a material incident;
+- the signed record is missing, invalid, or expired;
+- payment or allocation systems cannot apply the price consistently;
+- an approved authority suspends the window.
 
-It should not be used as a general token market-price statement.
+The public status should identify whether pricing, applications, payment, allocation, or release is paused. Submitted records should retain their applicable terms and status.
 
-Public Vault Access Windows use pricing controls only when selected vault-token access is approved.
-
-The access-window model includes:
-
-- source vault
-- eligible participants
-- window status
-- pricing method
-- lockup rule
-- access limits
-- policy reference
-- proceeds destination
-- public reporting
-
-Pricing is one component of access-window control.
-
-Eligibility, jurisdiction, compliance, lockups, treasury, governance, and reporting also matter.
-
-### 8.2 Relationship to Community Participation Round
-
-Community Participation Round may use Public Vault Access Windows where final policy allows.
-
-When pricing-based access is used, the source vault is the Community Participation Allocation, which is **110,000,000 FUZE** inside the fixed **500,000,000 FUZE** supply.
-
-Pricing-based community access can support:
-
-- product-aligned participation
-- market-aligned pricing
-- eligibility controls
-- public reporting
-- lockups or staged release
-- proceeds destination clarity
-- controlled circulation
-
-Community Participation access remains separate from wallet-based participation ability and approved distributable value.
-
-### 8.3 Relationship to Market Price and Demand Boundary
-
-Vault-access pricing can reference market data where reliable, but it does not define market price or demand.
-
-Market price is determined by market activity, market access, liquidity, demand, supply, macro conditions, user behavior, exchange context, DEX conditions, and many external factors.
-
-FUZE can define access-window pricing controls.
-
-FUZE cannot guarantee market price, market demand, liquidity, listing, trading volume, or resale value.
-
-### 8.4 Relationship to Liquidity and Listing Policy
-
-Liquidity and listing policy is separate from vault-access pricing.
-
-Vault-access pricing supports selected controlled access.
-
-Liquidity and listing policy explains market access, DEX-first direction, possible later CEX expansion, custody boundaries, liquidity-related operations, and market-outcome boundaries.
-
-A Public Vault Access Window should not be described as a listing substitute.
-
-A pricing mechanism should not be described as liquidity assurance.
-
-### 8.5 Market Boundary
-
-Vault Access Pricing Mechanism is a pricing-control and access-window policy system.
-
-It does not guarantee:
-
-- token demand
-- token price
-- exchange listing
-- liquidity
-- trading volume
-- market-making result
-- price support
-- resale availability
-- exit opportunity
-- investment return
-
-Market access, custody, liquidity operations, exchange support, and public trading environments require separate boundary language and review.
+An alternate profile can activate only when it was pre-approved for the condition or receives a new exceptional approval.
 
 ---
 
-## 9. Risk and Disclosure Reference
+## 16. Correction and Recalculation
 
-Important public boundaries include:
+A correction is required when an input, formula, parameter, conversion, rounding rule, or published record was wrong.
 
-- Vault Access Pricing Mechanism applies only to selected Public Vault Access Windows where final policy allows.
-- It is a pricing-control model for access windows, not a token valuation model.
-- Pricing policy does not guarantee future token price, listing price, exchange price, liquidity, trading volume, market demand, resale value, or investment return.
-- Minimum price floors are lower-bound access controls, not market price protection.
-- TWAP references are reference inputs, not price forecasts.
-- Signed approved prices are access-window policy inputs, not valuation guarantees.
-- Premium multipliers are pricing policy tools, not appreciation promises.
-- Purchase caps limit access concentration and do not guarantee demand.
-- Lockups support controlled circulation and do not guarantee price or liquidity.
-- Stablecoin payments for access windows require settlement and treasury controls.
-- Proceeds destination reporting supports transparency and does not expose private financial records.
-- Community Participation access remains separate from wallet-based participation ability.
-- Community Participation access remains separate from approved distributable value.
-- Platform Credits are product usage credits and remain separate from FUZE token access pricing.
-- Stablecoins are payment, settlement, treasury, and compensation rails.
-- FUZE token does not guarantee payout, income, yield, profit, token price, listing, liquidity, market support, trading volume, exit, game earnings, business revenue, user growth, community growth, approved distributable value, wallet eligibility, Public Vault Access Window availability, smart-contract security, AI accuracy, or investment return.
+The correction record should include:
 
-More detailed boundaries are handled in dedicated papers, including:
+1. affected price records and validity intervals;
+2. prior and corrected inputs;
+3. prior and corrected results;
+4. affected applications, payments, and allocations;
+5. participant treatment;
+6. approval and publication time;
+7. downstream reports updated.
 
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/06-FUZE_COMMUNITY_PARTICIPATION_ROUND_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/12-FUZE_CONTROLLED_CIRCULATION_POLICY_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/15-FUZE_VAULT_BY_VAULT_RELEASE_RULES_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/16-FUZE_PUBLIC_VAULT_VISIBILITY_SYSTEM_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/17-FUZE_PUBLIC_VAULT_ACCESS_WINDOWS_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/21-FUZE_LIQUIDITY_AND_LISTING_POLICY_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/22-FUZE_MARKET_PRICE_AND_DEMAND_BOUNDARY_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/24-FUZE_GOVERNANCE_MULTISIG_TIMELOCK_MODEL_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/25-FUZE_SMART_CONTRACT_READINESS_AND_ACTIVATION_GATES_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/28-FUZE_LEGAL_AND_COMPLIANCE_MESSAGING_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/29-FUZE_TOKEN_RISK_BOUNDARIES_PUBLIC.md`
-
-This paper focuses on vault access pricing while deeper community participation, vault access windows, liquidity, market demand, governance, smart-contract, legal, and risk topics remain in dedicated papers.
+A market movement after a valid calculation is not a calculation error. Repricing follows the next interval rather than rewriting a previously valid record.
 
 ---
 
-## 10. Key Takeaways
+## 17. Reporting
 
-- FUZE Vault Access Pricing Mechanism explains pricing controls for selected Public Vault Access Windows where final policy allows.
-- FUZE uses one ecosystem token: FUZE token.
-- The mechanism prices selected access windows; it does not define general token market value.
-- Public Vault Access Windows are eligibility-controlled, compliance-gated, lockup-aware, and selective.
-- Pricing can use signed approved prices, signed reference prices, minimum floors, TWAP references, premium multipliers, deviation checks, liquidity thresholds, purchase caps, lockups, and public reporting.
-- Early-stage pricing can rely on approved policy when market references are not mature enough.
-- Transitional pricing can combine approved policy with emerging market data.
-- Mature market pricing can use TWAP references where reliable.
-- Exceptional policy handling can pause or review access windows when conditions are abnormal.
-- Minimum floors, TWAP references, premium multipliers, purchase caps, and lockups are controls, not market guarantees.
-- Stablecoins may support access-window payment where policy allows.
-- Platform Credits remain product usage credits and do not use token vault-access pricing.
-- Community Participation access remains separate from wallet-based participation ability and approved distributable value.
-- Vault-access pricing supports fairness, transparency, and controlled circulation without creating payout, price, liquidity, listing, or return promises.
+A public pricing report can show:
+
+- window and source allocation;
+- profile identifier and pricing type;
+- quote unit and validity interval;
+- approved source classes;
+- observation and aggregation method;
+- adjustment factor and bounds where public;
+- source-quality and deviation status;
+- final price and calculation hash;
+- total consideration and FUZE allocated;
+- pauses, overrides, and corrections.
+
+The report should make the method understandable without publishing private participant data, credentials, protected vendor terms, or security procedures.
+
+---
+
+## 18. Boundaries
+
+The mechanism governs a specific access-window calculation. It is separate from general market price, venue liquidity, token demand, and future resale conditions.
+
+A floor is a window parameter, a TWAP is a historical reference, and an adjustment is a policy input. None provides a price target or market-support commitment.
+
+Market communication boundaries are maintained in [FUZE Market Price and Demand Boundary](22-FUZE_MARKET_PRICE_AND_DEMAND_BOUNDARY_PUBLIC.md). DEX-first and possible later CEX considerations remain in the [FUZE Liquidity and Listing Policy](21-FUZE_LIQUIDITY_AND_LISTING_POLICY_PUBLIC.md).
+
+---
+
+## Conclusion
+
+FUZE vault-access pricing depends on an approved profile, qualified inputs, deterministic calculation, explicit bounds, fixed precision, a validity interval, and an authorized price record.
+
+This structure lets participants and reviewers reproduce how a window price was produced. It also gives FUZE a clear pause and correction route when data quality, settlement, or authorization fails.

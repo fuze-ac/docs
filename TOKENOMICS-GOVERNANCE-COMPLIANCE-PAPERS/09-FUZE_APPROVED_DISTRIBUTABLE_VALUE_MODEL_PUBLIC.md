@@ -2,664 +2,402 @@
 
 ## Executive Summary
 
-FUZE Approved Distributable Value Model explains how FUZE separates ordinary product revenue from value that may become eligible for a future wallet-based participation framework.
+Approved distributable value is a controlled accounting and governance status applied to value from a defined FUZE product-revenue pool after confirmation, reconciliation, deductions, reserves, review, and authorization.
 
-FUZE uses one ecosystem token only: **FUZE token**.
+The model begins with a named product pool and reporting period. Source receipts are matched to approved offers and fulfilled product activity. Refunds, disputes, fees, taxes, delivery costs, partner obligations, operating needs, and approved reserves are then considered under the applicable treatment. The resulting calculation enters review rather than becoming automatically available.
 
-FUZE token is the single ecosystem token of FUZE. It supports product-connected utility, ecosystem participation, platform alignment, governance direction where applicable, community participation structures, and wallet-based participation ability where activated under required controls.
+An approval record identifies the pool, period, source currency or asset, calculation version, approved amount, treasury location, reviewer decisions, restrictions, and reporting status. If wallet-based participation is inactive, an approved calculation does not create a claim process.
 
-Wallet-based participation ability is a possible FUZE token-related framework where eligible FUZE-holding wallets may participate in approved distributable value from defined FUZE product revenue pools if the framework becomes active.
+This paper owns the calculation lifecycle and value ledger. It does not define wallet eligibility, snapshots, claim mechanics, or the broader activation-gate decision.
 
-Approved distributable value is a controlled, reviewed, and approved value category. It begins with defined product revenue only after that revenue is confirmed, reconciled, reviewed, adjusted, approved, and connected to an active participation framework.
+---
 
-This model keeps FUZE public language clear.
+## 1. Model Objective
 
-Revenue can exist at different stages:
+The model prevents several different business values from being described as though they were interchangeable.
 
-| Revenue / Value Stage | Public Meaning |
+It distinguishes:
+
+- customer payments from recognized product revenue;
+- gross product revenue from reconciled product revenue;
+- reconciled product revenue from an amount submitted for approval;
+- an approved amount from treasury movement;
+- treasury movement from a claimable amount under an active mechanism.
+
+This separation supports accurate accounting, treasury control, governance review, and public communication.
+
+---
+
+## 2. Core Definitions
+
+### Source receipt
+
+A payment or settlement event recorded through an approved product channel. A receipt requires business context before it can be classified as product revenue.
+
+### Confirmed product revenue
+
+Revenue linked to an approved offer, customer or authorized account, fulfilled product or service activity, payment evidence, and applicable period.
+
+### Reconciled product revenue
+
+Confirmed product revenue after corrections, refunds, chargebacks, failures, timing adjustments, and other required reconciliation entries.
+
+### Net pool value
+
+The value remaining after the approved deduction and cost treatment for the defined product-revenue pool and period.
+
+### Reserved value
+
+Value retained for approved obligations, operating continuity, uncertainty, risk, support, tax, refunds, or another documented purpose.
+
+### Candidate distributable value
+
+The calculated amount submitted for legal, accounting, treasury, audit or assurance, governance, and reporting review.
+
+### Approved distributable value
+
+Candidate value that has completed the required review and received formal approval for a stated pool, period, amount, asset, purpose, and mechanism scope.
+
+### Claimable or distributable amount
+
+The amount, if any, made available through an active mechanism after eligibility, treasury, technical, jurisdiction, and claim-period conditions are applied.
+
+These statuses should not be collapsed into a single label such as “revenue available.”
+
+---
+
+## 3. Product-Revenue Pool
+
+Every calculation begins with a defined pool.
+
+The pool specification should include:
+
+| Field | Required content |
 |---|---|
-| Gross revenue | Total recorded or received before review, deductions, reserves, and reconciliation |
-| Confirmed product revenue | Revenue connected to actual product usage, payment records, invoices, or service delivery |
-| Reconciled product revenue | Product revenue reviewed against refunds, chargebacks, failed payments, fees, taxes, costs, and exclusions |
-| Reviewed product revenue | Product revenue checked through accounting, treasury, legal, reporting, and audit processes where required |
-| Approved distributable value | Reviewed value from defined product revenue pools that may be considered only if a participation framework is active |
-| Claimable value where activated | Value that may be claimable only under active rules, eligible-wallet status, jurisdiction availability, and defined claim logic |
+| Pool identifier | Stable name and version |
+| Product scope | Products, offers, services, or modules included |
+| Entity and account scope | Relevant operating entity and approved source accounts |
+| Reporting period | Start, end, cutoff, and timezone |
+| Revenue basis | Applicable recognition or classification method |
+| Payment routes | Included fiat, invoice, card, stablecoin, partner-funded, or other routes |
+| Platform Credit treatment | Purchased, included, granted, promotional, consumed, reversed, or expired treatment |
+| Fulfillment evidence | Records required to support product delivery |
+| Currency or asset basis | Calculation unit and conversion method where needed |
+| Cost and deduction policy | Categories and allocation method |
+| Reserve policy | Required reserve categories and approval |
+| Owner | Product, finance, treasury, and reviewer responsibilities |
 
-Platform Credits are product usage credits and are separate from FUZE token.
+Pools should be narrow enough to reconcile. “All FUZE revenue” is insufficient when products, entities, periods, payment routes, fulfillment evidence, and cost structures differ.
 
-Stablecoins are payment, settlement, treasury, and operational compensation rails.
-
-Product revenue, if generated, requires reconciliation and review before any future participation model can reference it.
-
-FUZE does not guarantee payout, income, dividend, yield, profit, token price, listing, liquidity, market support, exit, game earnings, business revenue, user growth, community growth, approved distributable value, participation activation, wallet eligibility, claim availability, or investment return.
-
----
-
-## 1. Purpose of This Paper
-
-This paper explains how FUZE defines approved distributable value.
-
-It defines:
-
-- what approved distributable value means
-- how product revenue moves through confirmation, reconciliation, review, approval, and activation checks
-- how Platform Credit purchases relate to product revenue treatment
-- how stablecoin payments relate to product revenue treatment
-- why treasury balances, token sale proceeds, seed-round funds, game mechanics, market movement, and unreconciled payments are handled outside the approved distributable value category
-- what product revenue sources may be considered
-- what deductions, costs, reserves, and controls may apply
-- how approved distributable value connects to wallet-based participation ability
-- why product revenue does not create automatic claim logic
-- how FUZE uses approved distributable value language to support clearer public communication
-- what public claims FUZE avoids
-
-This paper is not a payout policy, claim instruction, legal opinion, tax opinion, accounting policy, audit report, investment recommendation, token sale document, listing plan, liquidity plan, smart-contract audit, or financial-return promise.
-
-It is a public model paper for explaining the relationship between revenue, reconciliation, deductions, reserves, approvals, controls, and possible activation-gated wallet-based participation.
+Not every product-revenue pool must enter this model. FUZE can retain revenue for product delivery, operations, reserves, growth, or other approved purposes.
 
 ---
 
-## 2. Reader Problem This Paper Solves
+## 4. Period Close
 
-Revenue language can confuse public readers when different value categories are combined into one general word.
+The period close establishes the source dataset for calculation.
 
-A product may receive payment.
+### 4.1 Capture
 
-A workspace may buy Platform Credits.
+FUZE collects the approved offer, invoice, payment, settlement, product usage, fulfillment, Platform Credit, refund, dispute, fee, and support records for the period.
 
-A sponsor may pay for ToolGrid AI visibility.
+### 4.2 Match
 
-A shop may subscribe to ShopOS AI.
+Receipts are matched to the relevant product, offer, customer or account, fulfillment record, payment route, and reporting period.
 
-A user may buy an AI report.
+### 4.3 Classify
 
-A wallet may hold FUZE token.
+Each record receives an approved classification such as confirmed revenue, deferred or pending treatment, refund, failed payment, internal transfer, financing receipt, tax, pass-through amount, or another defined category.
 
-A game may show USDT, Token Value, Net Worth, city treasury, taxes, or NPC salary mechanics.
+### 4.4 Reconcile
 
-These activities do not all carry the same meaning.
+Product, payment, treasury, and finance records are compared. Differences receive an explanation, correction, or unresolved-item status.
 
-Readers may ask:
+### 4.5 Lock
 
-- Which product revenue can be reviewed?
-- Which revenue belongs to a defined product revenue pool?
-- Which deductions or reserves apply?
-- Which values stay outside participation review?
-- Which wallets are eligible if a framework becomes active?
-- Which reports show status only?
-- Which records create actual claim logic?
-- Which values need legal, accounting, treasury, audit, reporting, and jurisdiction review?
-
-This paper solves that problem by defining approved distributable value as a controlled output of a review process.
-
-The key answer is:
-
-Product revenue can be an input. Approved distributable value can exist only after confirmation, reconciliation, exclusions, deductions, reserves, review, approval, active framework status, eligibility rules, and reporting readiness.
+The calculation dataset is versioned after the close owner confirms the cutoff and open-item treatment. Later corrections use controlled adjustment entries rather than silently changing the source data.
 
 ---
 
-## 3. FUZE Public Position
+## 5. Calculation Structure
 
-FUZE’s public position is:
+The model can be represented as:
 
-**Approved distributable value is the portion of defined FUZE product revenue that may be considered for eligible-wallet participation only if the participation framework becomes active and after required confirmation, reconciliation, deductions, reserves, review, reporting, approval, legal checks, accounting checks, treasury controls, audit process, eligibility rules, and jurisdiction checks.**
+```text
+Confirmed product revenue
+- refunds, reversals, chargebacks, and failed settlement
+- approved taxes, fees, and pass-through obligations
+- product delivery and pool-specific costs
+- partner, vendor, contributor, and service obligations
+- approved operating and risk reserves
++/- documented period and correction adjustments
+= candidate distributable value
+```
 
-This position has several important parts.
+This is a control structure, not a fixed accounting rule. The exact treatment depends on the product, entity, contract, asset, jurisdiction, reporting period, and professional review.
 
-| Component | Public Meaning |
+The calculation should avoid double deductions. A cost included in product delivery should not be deducted again through a broad operating allocation without a defined reason.
+
+Where costs support more than one pool, the allocation method should be documented and applied consistently. Possible methods can use direct attribution, measured usage, transaction count, service time, or another supportable driver.
+
+---
+
+## 6. Excluded Sources
+
+The following sources remain outside a product-revenue pool unless an approved specification and professional review establish a different treatment:
+
+| Source | Reason for separate treatment |
 |---|---|
-| Defined product revenue | Only revenue from defined FUZE product revenue pools can enter review |
-| Confirmation | Revenue connects to real payment, product usage, invoice, service, or workspace records |
-| Reconciliation | Revenue is matched, reviewed, and adjusted |
-| Deductions | Refunds, chargebacks, fees, taxes, costs, partner shares, vendor costs, and other required deductions may apply |
-| Reserves | FUZE can reserve funds for operations, risk, support, treasury stability, obligations, and platform continuity |
-| Review | Accounting, legal, treasury, audit, reporting, and jurisdiction checks may apply |
-| Approval | Value enters the approved category only after a defined approval path |
-| Activation | A participation framework must be active before claim logic can exist |
-| Eligibility | Only eligible FUZE-holding wallets can be considered if the framework is active |
-| Boundary | Product revenue supports review; it does not create automatic payout, income, yield, profit, or claim availability |
+| Equity, seed, or other financing receipts | Capital funding rather than ordinary product delivery |
+| Token allocation or token-sale-related proceeds | Token or fundraising activity with separate policies |
+| Internal treasury transfers | Movement between controlled accounts rather than external revenue |
+| Unrealized token or asset value | Market valuation without a settled product transaction |
+| Liquidity-pool balances and market inventory | Market-structure assets rather than product revenue |
+| Customer deposits or refundable balances | Potential obligation pending fulfillment or final treatment |
+| Unpaid invoices and failed settlement | No confirmed receipt |
+| Promotional or granted Platform Credits | Product-use allowance without the same purchase record |
+| Game scores, simulated balances, or internal resources | Product mechanics rather than recognized external value |
+| Restricted, disputed, fraudulent, or unidentified receipts | Unresolved source, ownership, or legal treatment |
 
-Approved distributable value is a reviewed status.
-
-It is more specific than payment received, dashboard revenue, funds held in a wallet, or ordinary product revenue before review.
-
-The purpose of this model is to keep public reporting disciplined, understandable, and safe.
+Exclusion from this model does not determine the final accounting or legal treatment of the source. It means the value cannot enter the approved-distributable-value calculation without the required classification and review.
 
 ---
 
-## 4. Core Model
+## 7. Deductions and Costs
 
-### 4.1 Product Revenue
+The pool policy should identify applicable deduction categories.
 
-Product revenue means value received from defined FUZE products or services where the payment is confirmed, recorded, and tied to actual product usage or service delivery.
+### Transaction adjustments
 
-Possible product revenue sources may include:
+Refunds, chargebacks, failed settlement, duplicate payment, provider reversals, discounts, and corrections tied to source revenue.
 
-| Product Revenue Source | Public Context |
+### Taxes and statutory obligations
+
+Amounts collected, accrued, withheld, or payable under the relevant treatment.
+
+### Payment and conversion costs
+
+Processor fees, network fees, conversion costs, banking charges, and other costs required to receive or settle the payment.
+
+### Product delivery costs
+
+AI inference, hosting, storage, communications, support, moderation, implementation, event, fulfillment, and other direct costs attributable to the pool.
+
+### Contractual obligations
+
+Partner shares, licensed services, vendor amounts, contributor compensation, referral obligations, and other approved commitments.
+
+### Shared costs
+
+Pool-attributed infrastructure, security, finance, compliance, customer service, or operating costs under an approved allocation method.
+
+The calculation record should show the amount, basis, source, owner, and evidence for each material category.
+
+---
+
+## 8. Reserves
+
+Reserves retain value for obligations or uncertainty rather than treating the complete net pool as a candidate amount.
+
+Potential reserve purposes include:
+
+- refunds and chargebacks;
+- tax and statutory obligations;
+- service completion and customer support;
+- infrastructure and AI usage;
+- security and incident response;
+- legal, accounting, audit, and compliance work;
+- partner and vendor obligations;
+- treasury and operating continuity;
+- correction or dispute exposure.
+
+Each reserve should identify:
+
+1. purpose;
+2. calculation basis;
+3. amount;
+4. owner and approval;
+5. custody or ledger treatment;
+6. review or release trigger;
+7. reporting classification.
+
+A reserve release in a later period does not enter a candidate calculation automatically. The pool policy should state how released reserves are reconsidered.
+
+---
+
+## 9. Asset and Conversion Treatment
+
+Product revenue can be received in different currencies or assets. The pool should define a consistent calculation basis.
+
+Where conversion is required, the record should identify:
+
+- source asset and amount;
+- transaction or settlement reference;
+- conversion venue or provider;
+- rate source and timestamp;
+- fees and slippage;
+- resulting asset and amount;
+- treasury destination;
+- reviewer and reconciliation status.
+
+An on-chain stablecoin receipt still needs product, payer, fulfillment, period, refund, fee, and classification context.
+
+Market movements after receipt should be separated from product revenue performance unless the approved method requires and explains another treatment.
+
+---
+
+## 10. Approval Packet
+
+The candidate amount enters review through an approval packet.
+
+The packet should contain:
+
+- pool specification and version;
+- reporting period and cutoff;
+- source-revenue summary;
+- reconciliation and unresolved-item report;
+- deduction and cost schedule;
+- reserve schedule;
+- asset and conversion records;
+- candidate calculation;
+- treasury balance and custody confirmation;
+- accounting and legal review references;
+- audit or assurance findings where required;
+- activation-gate status;
+- proposed public report;
+- approval and rejection fields.
+
+Sensitive customer, employee, partner, identity, contractual, and professional records remain permissioned. The public report can summarize the approved result and method without exposing those materials.
+
+---
+
+## 11. Approval Decision
+
+The authorized decision can:
+
+- approve the candidate amount;
+- approve a lower amount;
+- defer the decision pending evidence;
+- require a larger reserve;
+- exclude a source or cost treatment;
+- return the calculation for correction;
+- reject the candidate amount;
+- approve the value while keeping participation inactive.
+
+The decision record should state:
+
+| Decision field | Required record |
 |---|---|
-| Platform Credit purchases | Product usage credits for supported FUZE products and services |
-| AI SaaS subscription fees | Subscription access for supported HerHelp or FUZE AI SaaS products |
-| Product module fees | Fees for specific product modules or product capabilities |
-| Usage-based product fees | Usage-based billing for AI workflows, reports, tools, or services |
-| Report generation fees | Fees for generated reports, analysis, summaries, dashboards, or documents |
-| Shop operating system packages | ShopOS AI packages, QR menu, queue, payment, loyalty, stock, staff, and report workflows |
-| Community bot service packages | CommunityLayer AI bot services, summaries, moderation support, verification, onboarding, and reporting |
-| Training package fees | TrainLayer AI learning materials, quizzes, onboarding, validation, and deployment workflows |
-| Event intelligence packages | AIE event discovery, sponsor opportunity, alert, and report packages |
-| Sponsored visibility packages | ToolGrid AI sponsored visibility, review controls, destination checks, and public trust workflows |
-| Market interpretation report fees | QTB market interpretation and intelligence reports |
-| Liquidity operations support fees | AIMM operational support reports and market-structure workflows |
-| Botmad work-assistance session fees | Botmad supervised work, documentation, artifacts, and execution evidence |
-| ZAGA game utility service fees | ZAGA utility services where defined and compliant |
-| Partner service fees | Partner service fees tied to FUZE product delivery |
+| Pool and period | Controlling scope |
+| Calculation version | Exact packet reviewed |
+| Approved amount | Value and asset or currency |
+| Treasury location | Controlled account or vault reference |
+| Purpose | Approved mechanism or retained status |
+| Conditions | Restrictions, dependencies, or expiry |
+| Reviewers and authority | Recorded approvals |
+| Effective status | Approved, deferred, rejected, superseded, or cancelled |
+| Public-report status | Approved disclosure and publication reference |
 
-Product revenue must connect to a real product or service.
+Approved distributable value remains a status attached to this record. It is not a general description of all treasury value.
 
-It must be recorded, confirmed, and reconciled before it can enter any approved value review.
+---
 
-Boundary:
+## 12. Ledger and Status
 
-Product revenue may support future review, but it does not create automatic approved distributable value.
+FUZE should maintain an approved-value ledger.
 
-### 4.2 Gross Revenue
-
-Gross revenue is the total amount received or recorded before deductions, adjustments, reserves, refunds, taxes, fees, and costs.
-
-Gross revenue is an early input, not the final participation-review value.
-
-Gross revenue may need to be adjusted for:
-
-- refunds
-- chargebacks
-- payment processor fees
-- platform fees
-- gas fees
-- exchange or conversion fees
-- taxes
-- cost of service delivery
-- AI inference costs
-- infrastructure costs
-- support costs
-- partner shares
-- vendor costs
-- staff or contributor compensation
-- reserves
-- accounting adjustments
-- failed or disputed payments
-- fraud or abuse adjustments
-- jurisdiction restrictions
-
-FUZE treats gross revenue as a starting number that requires review.
-
-Public communication should avoid suggesting that gross revenue flows directly to eligible wallets.
-
-### 4.3 Confirmed Product Revenue
-
-Confirmed product revenue is product revenue that passes basic confirmation.
-
-Confirmation may include:
-
-- payment received
-- product or service identified
-- invoice or usage record matched
-- payment method recorded
-- user or workspace record linked where appropriate
-- Platform Credit purchase matched where applicable
-- refund period considered where applicable
-- chargeback risk considered where applicable
-- stablecoin transaction matched where applicable
-- fiat payment matched where applicable
-- product revenue pool identified where applicable
-
-Confirmed product revenue is stronger than a raw receipt.
-
-It still needs additional reconciliation, deduction, reserve, review, and approval steps before any participation framework can reference it.
-
-Boundary:
-
-Confirmed revenue supports the review process. It does not create automatic claim logic.
-
-### 4.4 Reconciled Product Revenue
-
-Reconciled product revenue is product revenue that has been reviewed and adjusted.
-
-Reconciliation may include:
-
-- matching payment records to product usage
-- matching Platform Credit usage to product service
-- matching stablecoin transaction records to invoices or product records
-- deducting refunds
-- deducting chargebacks
-- deducting payment fees
-- excluding failed payments
-- excluding promotional credits
-- excluding unpaid invoices
-- identifying product category
-- identifying revenue period
-- checking customer records where appropriate
-- checking tax treatment
-- checking accounting classification
-- checking whether the revenue belongs to a defined product revenue pool
-
-Reconciled product revenue is a stronger input for review.
-
-It may still be excluded, reserved, reduced, delayed, or rejected under the approved distributable value policy.
-
-### 4.5 Approved Distributable Value
-
-Approved distributable value is the value that remains after the defined process is completed.
-
-The process may include:
-
-1. Product revenue is generated.
-2. Product revenue is confirmed.
-3. Product revenue is reconciled.
-4. Excluded categories are removed.
-5. Refunds and chargebacks are handled.
-6. Fees and taxes are considered.
-7. Operating costs are considered.
-8. Product-specific costs are considered.
-9. AI usage costs are considered.
-10. Infrastructure costs are considered.
-11. Support costs are considered.
-12. Vendor costs are considered.
-13. Partner shares are considered.
-14. Contributor compensation is considered.
-15. Reserves are applied.
-16. Treasury controls are followed.
-17. Accounting review is completed.
-18. Audit or review process is completed where required.
-19. Legal and jurisdiction review is completed.
-20. Product revenue pool rules are applied.
-21. Approval process is completed.
-22. Participation framework is active.
-23. Eligibility rules are applied.
-24. Reporting readiness is available where applicable.
-25. Claim logic is active where applicable.
-
-Approved distributable value is a controlled and reviewed output.
-
-It exists only after the relevant product, treasury, accounting, legal, reporting, eligibility, and activation requirements are satisfied.
-
-### 4.6 Excluded Value Categories
-
-The approved distributable value model keeps several categories outside participation value review unless a future policy expressly defines a different treatment through proper controls.
-
-| Excluded Category | Public Boundary |
+| Status | Meaning |
 |---|---|
-| Token sale proceeds | Fundraising-related token proceeds are outside product revenue review |
-| Seed-round funds | Private strategic fundraising capital is outside product revenue review |
-| General treasury balance | Treasury balances support operations, reserves, runway, obligations, and platform continuity |
-| Reserve balance | Reserves support treasury stability, obligations, risk, support, and future operations |
-| Game rewards | Game mechanics and controlled utility surfaces stay separate from approved distributable value |
-| Unrealized token value | Token price or treasury token value is outside product revenue review |
-| Liquidity pool value | LP value belongs to market structure, not product revenue review |
-| Exchange trading volume | Trading activity is outside product revenue review |
-| Market price movement | Price movement is outside product revenue review |
-| Platform Credit balance | Credit balances represent product usage value, not token-holder claim value |
-| Promotional credits | Promotional credits require separate accounting treatment |
-| Bonus credits | Bonus credits support product usage or promotion rather than approved value |
-| Failed payments | Failed payments do not enter revenue review |
-| Unpaid invoices | Unpaid invoices require payment confirmation before review |
-| Internal transfers | Internal movement does not represent product revenue |
-| Sponsor discussions | Discussions enter review only after contracting, payment, and recording |
-| Refundable or disputed payments | Disputed or refundable value may be excluded or delayed |
-| Fraud or abuse-related value | Fraud or abuse-related value is excluded or adjusted under review |
-| Restricted-jurisdiction value | Some value may be restricted under legal review |
+| Draft calculation | Period data is being prepared |
+| Under reconciliation | Source records and adjustments are being matched |
+| Candidate | Calculation is complete enough for approval review |
+| Deferred | Decision awaits evidence, remediation, or another condition |
+| Approved | Amount has received the required authorization |
+| Reserved pending activation | Approved amount remains controlled while the mechanism is inactive |
+| Available to active process | Approved amount is assigned to an activated scope |
+| Partially used | A portion has moved through the approved process |
+| Completed | The period and process have been reconciled and closed |
+| Corrected | A later approved adjustment changes the prior record |
+| Cancelled | Prior approval is withdrawn before completion |
 
-This separation protects the public model from overstatement.
+The ledger should reconcile opening approved value, authorized movement, unused or returned amounts, corrections, and closing balance.
 
 ---
 
-## 5. Token, Credits, Stablecoins, and Wallet Relationship
+## 13. Relationship to Activation and Eligibility
 
-Approved distributable value sits inside the FUZE token model, while product usage credits and payment rails keep separate roles.
+An approved amount is one prerequisite for wallet-based participation. It does not satisfy the other gates.
 
-| System | Public Role | Relationship to Approved Distributable Value |
-|---|---|---|
-| FUZE token | Single ecosystem token | Eligible FUZE-holding wallets may be relevant only if wallet-based participation is activated |
-| Platform Credits | Product usage credits | Credit purchases may become product revenue only after confirmation and accounting treatment; credits are not claim rights |
-| Stablecoins | Payment, settlement, treasury, and compensation rails | Stablecoin payments require reconciliation and do not automatically create approved distributable value |
-| Product revenue | Revenue from defined FUZE products or services | Potential input only after confirmation and reconciliation |
-| Approved distributable value | Reviewed and approved value from defined product revenue pools | Relevant only if the participation framework is active and approved |
-| Wallet records | Public-safe transparency layer | Can show status where appropriate without exposing personal identity publicly |
+Before value can enter an active process, FUZE still needs the applicable:
 
-This relationship protects public clarity.
+- activation decision;
+- eligibility and snapshot records;
+- custody treatment;
+- treasury authorization;
+- technical configuration;
+- jurisdiction scope;
+- privacy controls;
+- claim or participation period;
+- public notice and support route.
 
-Product usage remains product usage.
-
-Platform Credits remain product usage credits.
-
-Stablecoins remain payment and settlement rails.
-
-FUZE token remains the single ecosystem token.
-
-Approved distributable value remains controlled and activation-gated.
+The [FUZE Participation Activation Gates](08-FUZE_PARTICIPATION_ACTIVATION_GATES_PUBLIC.md) owns the readiness decision. The [FUZE Wallet-Based Participation Model](07-FUZE_WALLET_BASED_PARTICIPATION_MODEL_PUBLIC.md) owns the participant workflow where activated.
 
 ---
 
-## 6. Controls, Gates, and Governance
+## 14. Corrections
 
-Approved distributable value requires controls.
+Corrections can arise from late refunds, chargebacks, settlement reversals, duplicate records, cost reallocations, tax updates, source-data errors, conversion errors, or audit findings.
 
-Important controls include:
+A correction record should identify:
 
-- product revenue pool definition
-- payment confirmation
-- invoice and usage matching
-- Platform Credit treatment
-- stablecoin treatment
-- fiat payment treatment where applicable
-- refund and chargeback handling
-- fee handling
-- tax treatment
-- product-specific cost review
-- AI usage cost review
-- infrastructure cost review
-- support cost review
-- vendor and partner cost review
-- contributor compensation review
-- reserve policy
-- treasury control
-- accounting review
-- audit or evidence review where required
-- legal review
-- jurisdiction review
-- governance approval
-- reporting readiness
-- activation framework status
-- eligibility review
-- claim logic readiness where applicable
+1. affected pool, period, and prior version;
+2. reason and evidence;
+3. amount and category affected;
+4. treasury and participant impact;
+5. reviewer and approval;
+6. revised public report;
+7. recovery, offset, reserve, or other approved treatment.
 
-No value should be described as approved distributable value before the required process is complete.
+FUZE should preserve the prior report and mark it as corrected or superseded rather than deleting the history.
 
-### 6.1 Approval Process
-
-The approval process may include:
-
-| Step | Purpose |
-|---|---|
-| Product revenue pool definition | Defines which product revenue is in scope |
-| Confirmation | Confirms payment and product usage |
-| Reconciliation | Adjusts for refunds, chargebacks, fees, costs, and exclusions |
-| Accounting review | Checks classification, timing, and treatment |
-| Treasury review | Checks reserve, wallet, settlement, and movement controls |
-| Legal review | Checks structure, wording, jurisdiction, and restrictions |
-| Audit or evidence review | Supports trust in records and calculations |
-| Governance approval | Confirms approval path and change management |
-| Reporting readiness | Prepares public-safe status and explanation |
-| Activation status check | Confirms whether wallet-based participation framework is active |
-| Eligibility application | Applies eligible-wallet rules where activated |
-| Claim logic check | Confirms claim process where applicable |
-
-This approval process keeps the model disciplined.
-
-### 6.2 Product Revenue Pool Definition
-
-Defined product revenue pools are essential.
-
-Potential product revenue pools may include:
-
-| Product Revenue Pool | Revenue Context |
-|---|---|
-| HerHelp | AI SaaS subscriptions, usage, modules, reports, workflows, and business services |
-| SheetLayer AI | Spreadsheet mapping, dashboards, reports, and data workflows |
-| ShopOS AI | QR menu, queue, payment, loyalty, stock, staff, delivery, reports, and shop workflows |
-| SpeakShop AI | Voice scripts, sound packs, announcements, and promotional workflows |
-| TrainLayer AI | Training materials, quizzes, onboarding, validation, and learning workflows |
-| CommunityLayer AI | Community summaries, moderation support, verification, support, and reporting |
-| ZAGA products | Game utility services, event tools, token utility surfaces, and community systems where approved |
-| QTB | Market interpretation reports, research workflows, and AI-assisted market intelligence |
-| AIMM | Market-operations summaries, liquidity operation reports, and operator workflows |
-| AIE | Event intelligence reports, alerts, opportunity summaries, and recaps |
-| ToolGrid AI | Sponsored visibility, tool listings, campaign reports, and partner workflows |
-| Botmad | AI work-assistance sessions, documents, artifacts, and supervised workflow outputs |
-
-Not every product revenue pool has to be included.
-
-A pool must be defined, reviewed, and approved before it can be considered.
-
-### 6.3 Reserve and Deduction Logic
-
-Approved distributable value may be reduced by deductions and reserves.
-
-Possible deductions and reserves include:
-
-- refunds
-- chargebacks
-- payment fees
-- gas fees
-- exchange or conversion fees
-- taxes
-- product delivery costs
-- AI inference costs
-- infrastructure costs
-- hosting costs
-- support costs
-- customer service costs
-- vendor costs
-- partner shares
-- contributor compensation
-- employee or contractor costs
-- operating reserves
-- legal reserves
-- tax reserves
-- treasury reserves
-- risk reserves
-- compliance reserves
-- fraud or abuse adjustments
-- correction reserves
-- future support obligations
-
-This keeps approved distributable value narrower than revenue.
-
-### 6.4 Activation and Eligibility
-
-Approved distributable value is relevant to wallet-based participation only if the participation framework is active.
-
-Even if approved distributable value exists, eligibility rules still apply.
-
-Participation requires:
-
-- active framework
-- defined product revenue pool
-- approved distributable value
-- eligible FUZE-holding wallet
-- activation gates ready
-- reporting readiness
-- claim logic where applicable
-- jurisdiction availability
-- privacy controls
-- treasury controls
-
-No single condition is enough by itself.
+If an active process is materially affected, the relevant authority can pause it while records and participant impact are reviewed.
 
 ---
 
-## 7. Reporting and Transparency Direction
+## 15. Public Reporting
 
-Approved distributable value can support public-safe reporting.
+A public approved-value report can include:
 
-Reporting can include:
+- pool name and reporting period;
+- calculation status and version;
+- confirmed and reconciled revenue summary;
+- deduction categories;
+- reserve categories;
+- candidate and approved amounts where applicable;
+- source asset and conversion summary;
+- activation status;
+- authorized movement and remaining balance;
+- correction history;
+- report, transaction, or assurance references.
 
-- product revenue pool definitions where applicable
-- gross revenue category summaries
-- confirmed revenue summaries
-- reconciled revenue summaries
-- excluded category summaries
-- deduction and reserve category summaries
-- approved distributable value status where applicable
-- activation status
-- eligibility-rule summaries
-- claim status where applicable
-- report hashes
-- public dashboard references
-- audit references where appropriate
-- legal and jurisdiction boundary summaries
-- privacy boundary summaries
-- public risk reminders
+Amounts should state their unit and period. Reports should distinguish an approved amount from a claimable, paid, completed, or circulating amount.
 
-Public reporting should make the status clear.
-
-A report may say:
-
-- no approved distributable value has been approved
-- product revenue is under review
-- revenue is confirmed but still awaiting reconciliation
-- revenue is reconciled but still awaiting approval
-- approved distributable value exists but participation is not active
-- participation framework is active under defined rules
-- claim logic is paused
-- claim logic is retired
-
-Reporting supports public understanding.
-
-It does not create payout, eligibility, claim, token price, liquidity, listing, income, yield, profit, or investment-return guarantees.
+Public wallet or transaction references must not reveal personal identity. Customer, partner, contributor, investor, employee, and tax records remain protected.
 
 ---
 
-## 8. Market, Legal, or Operational Context
+## 16. Public Boundary
 
-### 8.1 Relationship to Platform Credits
+This paper defines a calculation, approval, and ledger model. It is not a payout schedule, accounting opinion, tax conclusion, claim notice, or representation that approved value exists for a current period.
 
-Platform Credits are product usage credits.
+Product revenue can be retained for operations, obligations, reserves, product development, and other approved purposes. A period can close with no candidate or approved distributable value.
 
-Platform Credit purchases may be revenue only when recognized under the relevant product and accounting treatment.
-
-Platform Credit usage records can support product reporting.
-
-Platform Credit balances represent product usage value.
-
-Buying Platform Credits does not create wallet-based participation eligibility.
-
-Spending Platform Credits does not create wallet-based participation eligibility.
-
-Promotional or bonus credits require separate accounting treatment before any revenue status can be considered.
-
-### 8.2 Relationship to Stablecoins
-
-Stablecoins are payment, settlement, treasury, and operational compensation rails.
-
-Stablecoin payments may support product revenue when connected to a real product or service and properly recorded.
-
-Stablecoin payments still require reconciliation.
-
-Stablecoin balances can support treasury, payment, settlement, vendor, contributor, and operating workflows.
-
-Stablecoin payments do not automatically create payout rights, claim rights, governance rights, wallet-based participation eligibility, or investment-return rights.
-
-### 8.3 Relationship to ZAGA Game Mechanics
-
-ZAGA products may include game mechanics, utility surfaces, leaderboards, badges, events, city systems, and token/NFT utility.
-
-ZAGA Arena uses game language such as USDT, Token Value, Net Worth, runs, bosses, drops, leaderboards, and share cards.
-
-ZAGA Districts may include city treasuries, taxes, NPC salaries, defenses, utility assets, and community economy mechanics.
-
-These are game mechanics or controlled utility surfaces.
-
-They stay separate from approved distributable value unless a future product revenue pool, accounting treatment, legal review, treasury process, and approval path expressly define a compliant revenue treatment.
-
-They do not guarantee financial earnings.
-
-They do not automatically create wallet-based participation eligibility.
-
-### 8.4 Relationship to Treasury
-
-Treasury balances can serve many platform purposes.
-
-Treasury may include:
-
-- operational funds
-- reserves
-- stablecoins
-- token reserves
-- product funds
-- payment settlement balances
-- vendor funds
-- contributor compensation funds
-- investor funds
-- seed-round funds
-- liquidity operation funds
-- tax reserves
-- risk reserves
-- future product runway funds
-
-Funds can exist in treasury for many reasons.
-
-Approved distributable value requires a separate definition, review, approval, and activation path.
-
-Treasury movement requires separate controls.
-
-### 8.5 Market Boundary
-
-Approved distributable value is not a market-support mechanism.
-
-It does not guarantee:
-
-- token demand
-- token price
-- listing
-- liquidity
-- trading volume
-- market-making result
-- price support
-- resale availability
-- exit opportunity
-- investment return
-
-Market access, custody, liquidity operations, exchange support, and public trading environments require separate boundary language and review.
+Calculation-specific boundaries should be read with [FUZE Token Risk Boundaries](29-FUZE_TOKEN_RISK_BOUNDARIES_PUBLIC.md); the broader public risk source is the [FUZE Risk and Disclosure Appendix](../WHITEPAPER-PAPERS/05-FUZE_RISK_AND_DISCLOSURE_APPENDIX_PUBLIC.md).
 
 ---
 
-## 9. Risk and Disclosure Reference
+## Conclusion
 
-Important public boundaries include:
+Approved distributable value is produced through a controlled chain: define the pool, close the period, confirm and reconcile revenue, apply costs and reserves, prepare the approval packet, record the decision, and maintain the ledger.
 
-- Approved distributable value is a reviewed and approved value category.
-- Gross revenue is an early input, not the final participation-review value.
-- Product revenue requires confirmation, reconciliation, deductions, reserves, review, approval, and activation checks.
-- Token sale proceeds, seed-round funds, treasury balances, game mechanics, Platform Credit balances, and unreconciled payments remain outside ordinary approved distributable value treatment.
-- Product revenue does not automatically become approved distributable value.
-- Gross revenue should not be presented as directly flowing to eligible wallets.
-- Approved distributable value can exist only after required confirmation, reconciliation, review, deductions, reserves, approval, activation, eligibility, and reporting readiness.
-- Approved distributable value does not guarantee payout.
-- Wallet-based participation ability is activation-gated.
-- FUZE token ownership does not automatically create claim eligibility.
-- Platform Credit purchases or usage do not create claim eligibility.
-- Stablecoin payments do not create claim eligibility.
-- Public reporting supports transparency and does not create financial assurance.
-- FUZE token does not guarantee payout, income, dividend, yield, profit, token price, listing, liquidity, market support, exit, game earnings, business revenue, user growth, community growth, approved distributable value, participation activation, wallet eligibility, claim availability, or investment return.
-
-More detailed boundaries are handled in dedicated papers, including:
-
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/07-FUZE_WALLET_BASED_PARTICIPATION_MODEL_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/08-FUZE_PARTICIPATION_ACTIVATION_GATES_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/10-FUZE_PLATFORM_CREDITS_RELATIONSHIP_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/11-FUZE_STABLECOIN_COMPENSATION_POLICY_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/14-FUZE_VAULT_AND_RESERVE_POLICY_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/24-FUZE_GOVERNANCE_MULTISIG_TIMELOCK_MODEL_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/25-FUZE_SMART_CONTRACT_READINESS_AND_ACTIVATION_GATES_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/26-FUZE_WALLET_BASED_PRIVACY_AND_ELIGIBILITY_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/28-FUZE_LEGAL_AND_COMPLIANCE_MESSAGING_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/29-FUZE_TOKEN_RISK_BOUNDARIES_PUBLIC.md`
-- `INVESTOR-PARTNER-PAPERS/02-FUZE_PRODUCT_REVENUE_MODEL_PUBLIC.md`
-- `WHITEPAPER-PAPERS/05-FUZE_RISK_AND_DISCLOSURE_APPENDIX_PUBLIC.md`
-
-This paper focuses on approved distributable value while deeper wallet, participation, credit, stablecoin, vault, governance, legal, investor, and disclosure topics remain in dedicated papers.
-
----
-
-## 10. Key Takeaways
-
-- FUZE Approved Distributable Value Model explains the difference between product revenue and approved distributable value.
-- FUZE uses one ecosystem token: FUZE token.
-- Platform Credits are product usage credits and remain separate from FUZE token.
-- Stablecoins are payment, settlement, treasury, and operational compensation rails.
-- Product revenue can be an input but does not automatically become approved distributable value.
-- Gross revenue is an early number before reconciliation, deductions, reserves, and review.
-- Token sale proceeds, seed-round funds, treasury balances, game mechanics, Platform Credit balances, and unreconciled payments remain outside ordinary approved distributable value treatment.
-- Approved distributable value can exist only after confirmation, reconciliation, exclusions, deductions, reserves, review, treasury control, approval, activation, eligibility, and reporting readiness.
-- Wallet-based participation ability is activation-gated and does not create automatic payout rights.
-- FUZE token ownership does not automatically create claim eligibility.
-- Public reporting can explain status but does not create payout, eligibility, claim, token price, liquidity, listing, or investment-return guarantees.
+This model keeps product revenue, candidate value, approved value, treasury movement, and active-process availability as separate statuses. That distinction allows FUZE to report the calculation clearly without turning ordinary receipts or treasury balances into implied participant claims.

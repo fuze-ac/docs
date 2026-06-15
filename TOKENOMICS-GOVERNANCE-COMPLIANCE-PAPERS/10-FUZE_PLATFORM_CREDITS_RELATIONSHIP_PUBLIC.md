@@ -2,656 +2,347 @@
 
 ## Executive Summary
 
-FUZE Platform Credits Relationship explains the public relationship between Platform Credits, product usage, FUZE token, stablecoins, product revenue, approved distributable value, and wallet-based participation boundaries.
+Platform Credits are FUZE product-consumption units. They allow supported product actions to be priced, authorized, metered, corrected, and reported without making ordinary SaaS usage depend on token ownership.
 
-Platform Credits are product usage credits for supported FUZE products and services.
+A credit balance can come from purchase, subscription allowance, enterprise or partner funding, trial, promotion, support adjustment, or another approved grant. Those sources require separate ledger classifications because they can have different payment, revenue, expiry, refund, and reporting treatment.
 
-They help users access practical product workflows such as AI generation, reports, spreadsheet mapping, shop operations, training materials, community summaries, market interpretation reports, liquidity operations reports, event intelligence, sponsored visibility, game-related utility surfaces where supported, and Botmad work-assistance sessions.
+Credits move through a controlled lifecycle: issue or allocate, make available to an account or workspace, reserve for an action, consume after the action reaches its defined completion state, reverse or adjust when needed, and expire or close under policy.
 
-FUZE uses one ecosystem token only: **FUZE token**.
-
-FUZE token is the single ecosystem token of FUZE. It supports product-connected utility, ecosystem participation, platform alignment, governance direction where applicable, community participation structures, and wallet-based participation ability where activated under required controls.
-
-Platform Credits keep product usage separate from token ownership.
-
-Stablecoins support payment, settlement, treasury, and operational compensation rails.
-
-Wallet-based participation ability is a separate activation-gated framework inside the FUZE token model. It may become relevant only for eligible FUZE-holding wallets if all required legal, accounting, treasury, audit, reporting, smart-contract, eligibility, privacy, operator, product-revenue, approved-distributable-value, and jurisdiction gates are ready.
-
-Buying Platform Credits, spending Platform Credits, receiving bonus credits, receiving granted credits, or using FUZE products does not create automatic wallet-based participation eligibility.
-
-FUZE does not guarantee payout, income, dividend, yield, profit, token price, listing, liquidity, market support, exit, game earnings, business revenue, user growth, community growth, approved distributable value, wallet eligibility, AI accuracy, or investment return.
+Platform Credits remain separate from FUZE token. They are also distinct from the payment asset used to fund a purchase. This paper defines that relationship and the controlling credit ledger; product-specific metering examples remain in the product and platform credit papers.
 
 ---
 
-## 1. Purpose of This Paper
+## 1. Credit Objective
 
-This paper explains the public role of Platform Credits in the FUZE ecosystem.
+FUZE products can consume different levels of AI processing, data work, reporting, support, infrastructure, and product capacity. Platform Credits provide a common way to represent that consumption.
 
-It defines:
+The credit system should help users and operators answer:
 
-- what Platform Credits are
-- why FUZE uses Platform Credits
-- how Platform Credits support product usage
-- how Platform Credits connect to HerHelp, ZAGA, ZAGA Arena, ZAGA Districts, QTB, AIMM, AIE, ToolGrid AI, Botmad, and FUZE Core Platform
-- how Platform Credits differ from FUZE token
-- how Platform Credits differ from stablecoins
-- how Platform Credits differ from wallet-based participation ability
-- how Platform Credit purchases can become product revenue only where recorded, confirmed, reconciled, and treated under applicable product and accounting rules
-- why Platform Credit revenue requires additional review before any approved distributable value treatment
-- how Platform Credits support Web2-friendly product usage without requiring crypto knowledge
-- how Platform Credits support reporting, workspace billing, product limits, refunds, expiry, and abuse control
-- what public language FUZE uses when explaining credits
-- what public claims FUZE avoids
+- what balance is available;
+- which account or workspace controls it;
+- which product action can consume it;
+- how much is authorized or reserved;
+- when consumption becomes final;
+- what happens after failure or correction;
+- which source funded the balance;
+- how payment, revenue, and product records reconcile.
 
-This paper is not a pricing table, payment policy, refund policy, tax opinion, accounting policy, legal opinion, investment recommendation, token sale document, payout policy, wallet participation policy, or financial-return promise.
-
-It is a public relationship paper that explains the boundaries between credits, token, payments, product usage, product revenue, and possible activation-gated wallet-based participation.
+Credits are useful when they make product usage predictable. They should not obscure prices, create unexplained deductions, or merge product access with token rights.
 
 ---
 
-## 2. Reader Problem This Paper Solves
+## 2. Credit Classes
 
-Product platforms become confusing when every payment, token, wallet, credit, reward, revenue item, and participation concept is explained with the same language.
+The ledger should preserve the source and policy of each credit class.
 
-Users may ask:
-
-- Are Platform Credits the same as FUZE token?
-- Can a normal customer use FUZE products without understanding crypto?
-- Do credits create token rights?
-- Can stablecoins buy product usage?
-- Does product usage create wallet eligibility?
-- Does a Platform Credit purchase become product revenue?
-- Does product revenue become approved distributable value?
-- How do HerHelp, ZAGA, QTB, AIMM, AIE, ToolGrid AI, and Botmad use credits differently?
-- How can a team manage credit usage across products and workspaces?
-- How does FUZE report usage without exposing private customer or workspace data?
-
-This paper solves that problem by giving Platform Credits a clear role:
-
-Platform Credits are the product usage layer.
-
-FUZE token is the ecosystem token.
-
-Stablecoins are payment, settlement, treasury, and operational compensation rails.
-
-Wallet-based participation ability is a separate activation-gated framework.
-
----
-
-## 3. FUZE Public Position
-
-FUZE’s public position is:
-
-**Platform Credits are product usage credits for supported FUZE products and services. FUZE token is the single ecosystem token. Stablecoins are payment, settlement, treasury, and operational compensation rails.**
-
-Platform Credits exist to make product usage easier to access, price, record, manage, and report.
-
-The relationship is simple:
-
-| Item | Public Role | Boundary |
+| Credit class | Typical source | Key treatment |
 |---|---|---|
-| Platform Credits | Product usage credits | Product access, usage control, billing, and reporting units |
-| FUZE token | Single ecosystem token | Ecosystem utility and participation direction under token-specific rules |
-| Stablecoins | Payment, settlement, treasury, and operational compensation rails | Operational payment and settlement function |
-| Wallet-based participation ability | Possible activation-gated ability for eligible FUZE-holding wallets | Controlled by separate eligibility, approval, and activation gates |
-| Product revenue | Revenue from real products and services where recorded and reconciled | Requires confirmation, accounting treatment, and review |
-| Approved distributable value | Controlled and approved value from defined product revenue pools if the framework is active | Requires active framework, approval, and eligibility rules |
+| Purchased credits | Confirmed customer payment | Linked to payment, offer, refund, and revenue treatment |
+| Subscription allowance | Included in a recurring plan | Tied to the plan period, renewal, rollover, and cancellation rules |
+| Enterprise or partner credits | Contracted organization budget | Controlled by agreement, workspace, and authorized administrators |
+| Trial credits | Onboarding or product evaluation | Limited by scope, period, and abuse controls |
+| Promotional credits | Campaign or approved promotion | Separately labeled from purchased value |
+| Support credits | Service correction or customer support action | Linked to the original issue and approval |
+| Granted credits | Testing, education, community, or another approved program | No assumed customer payment or ordinary revenue record |
+| Internal testing credits | Quality assurance or operational testing | Excluded from customer usage and revenue reporting |
 
-Platform Credits keep product usage separate from token ownership.
-
-This separation helps users, community members, investors, partners, product customers, shops, teams, contributors, and public readers understand what they are buying or using.
-
-FUZE uses Platform Credits to keep the platform product-first.
-
-The public execution order remains:
-
-**Product usage first. Platform rails second. Broader ecosystem participation after that.**
+Credits from different classes can appear in one workspace while retaining separate lot or source records.
 
 ---
 
-## 4. Core Model
+## 3. Ledger Model
 
-### 4.1 Platform Credits Definition
+Each credit ledger entry can include:
 
-Platform Credits are product usage credits used across FUZE products and services.
+1. credit transaction identifier;
+2. account, workspace, or organization;
+3. credit class and source reference;
+4. product or permitted scope;
+5. amount;
+6. status;
+7. issue, effective, and expiry times;
+8. payment or contract reference where applicable;
+9. reservation or usage reference;
+10. approval and correction history.
 
-| Term | Public Definition |
+The account balance is the sum of available credit entries after finalized additions, consumption, reversals, transfers where permitted, and expiry.
+
+Ledger history should remain append-oriented. Corrections should create linked entries rather than silently rewriting the original transaction.
+
+---
+
+## 4. Credit Lifecycle
+
+### 4.1 Issue or allocate
+
+FUZE creates or assigns credits under an approved package, subscription, agreement, trial, promotion, support decision, or internal process.
+
+The record identifies the credit class, amount, permitted scope, responsible owner, and applicable policy.
+
+### 4.2 Make available
+
+Credits become available to a user, workspace, team, shop, community, partner, or organization after the source conditions are satisfied.
+
+A purchase can remain pending until payment confirmation. A partner allocation can remain pending until the agreement or milestone becomes effective.
+
+### 4.3 Authorize
+
+Before a product action begins, the system checks:
+
+- available balance;
+- product and feature eligibility;
+- role and workspace authority;
+- estimated or maximum usage;
+- rate-card version;
+- relevant limits.
+
+### 4.4 Reserve
+
+A variable or long-running action can reserve an estimated maximum. Reserved credits are unavailable for other use but are not yet final consumption.
+
+### 4.5 Consume
+
+Credits are finalized when the product reaches its defined billable or usage-complete state. The usage record should identify the action, quantity, result status, rate, and final amount.
+
+### 4.6 Release or reverse
+
+Unused reservation is released. Failed, duplicated, cancelled, or incorrectly metered actions can receive a full or partial reversal according to policy.
+
+### 4.7 Expire or close
+
+Credits can expire when the controlling package, plan, grant, or agreement permits it. The ledger records the amount, policy basis, notice treatment, and effective time.
+
+---
+
+## 5. Usage Authorization
+
+A product should present the credit basis before a user confirms an action where practical.
+
+| Usage model | User-facing information |
 |---|---|
-| Platform Credits | Product usage credits for FUZE products and services |
-| Credit balance | Available credits in a user, workspace, business, team, community, partner, or product account |
-| Credit usage | Product action, AI action, report, workflow, service, sponsored placement, game-related utility action, or platform action that consumes credits |
-| Credit package | A defined amount of credits sold, bundled, granted, or allocated under product rules |
-| Subscription credits | Credits included in a recurring product plan |
-| Add-on credits | Additional credits purchased or allocated for extra usage |
-| Workspace credits | Credits assigned to a business, team, shop, project, community, or organization |
-| Partner credits | Credits assigned under partner, agency, enterprise, sponsor, or campaign terms |
-| Granted credits | Credits granted for trials, onboarding, promotions, support, testing, or partner programs |
-| Bonus credits | Additional credits provided under product rules |
-| Credit policy | Rules for purchase, allocation, use, refund, reversal, expiry, transferability, limits, abuse control, and reporting |
-| Credit report | Usage summary showing how credits were consumed |
+| Fixed action | Exact credit amount for the defined action |
+| Volume-based | Unit, rate, estimate, and final measured quantity |
+| Session or task budget | Maximum reservation and completion treatment |
+| Included allowance | Remaining allowance and overage behavior |
+| Tiered action | Selected level, included work, and additional usage |
 
-Platform Credits are product accounting and usage units.
+The interface should distinguish an estimate from a final charge.
 
-They are designed for product use, product limits, product billing, and product reporting.
-
-### 4.2 Core Separation Model
-
-FUZE separates three major systems.
-
-| System | What It Is | Public Role |
-|---|---|---|
-| Platform Credits | Product usage credits | Help users access supported FUZE product actions |
-| FUZE token | Single ecosystem token | Supports ecosystem participation, utility, alignment, and activation-gated participation direction where applicable |
-| Stablecoins | Payment, settlement, treasury, and operational compensation rails | Support payments, contributor compensation, settlement, and treasury operations |
-
-This separation keeps the platform easier to understand.
-
-Users can buy and use product credits without assuming they bought FUZE token.
-
-Token holders can understand FUZE token utility without confusing it with product billing credits.
-
-Contributors can receive stablecoin compensation without creating token-holder payout expectations.
-
-### 4.3 Why FUZE Uses Platform Credits
-
-FUZE uses Platform Credits because different products consume different levels of AI, data, reporting, workflow, support, infrastructure, and product resources.
-
-A single product price does not always fit every use case.
-
-Platform Credits can support flexible product usage across:
-
-- AI SaaS workflows
-- spreadsheet workflows
-- shop operation workflows
-- speaker scripts and sound packs
-- training guides and quizzes
-- community reports and moderation support
-- game-related utility surfaces
-- market interpretation reports
-- liquidity operations reports
-- event intelligence reports
-- sponsored visibility workflows
-- Botmad work-assistance sessions
-- public-safe documentation support
-- product usage reports
-
-Platform Credits help FUZE separate:
-
-- product usage from token ownership
-- user payment from token utility
-- product revenue from approved distributable value
-- service access from participation rights
-- customer usage from investor exposure
-- AI cost from tokenomics
-- product billing from wallet-based participation
-- Web2 product usage from Web3 token mechanics
-
-This separation supports public clarity.
-
-### 4.4 Platform Credits and Product Usage
-
-Platform Credits connect directly to product usage.
-
-A product usage event may include:
-
-- product selected
-- module used
-- workspace or account where supported
-- credit amount consumed
-- output generated
-- report created
-- AI workflow completed
-- service delivered
-- time or period of usage
-- support status where applicable
-- failed or refunded workflow status where applicable
-
-This makes Platform Credits useful for product reporting.
-
-A clear usage record can help users understand:
-
-- what they paid for
-- what they used
-- what output was created
-- which product consumed credits
-- what usage remains
-- what support issue may need review
-- how a workspace, shop, team, or community used the product
-
-Boundary:
-
-A usage record supports product clarity. It does not guarantee revenue quality, approved distributable value, wallet eligibility, participation activation, claim availability, payout, or investment return.
+If the product cannot estimate accurately, it should use a maximum authorization, staged confirmation, or another control that prevents unexpected balance exhaustion.
 
 ---
 
-## 5. Token, Credits, Stablecoins, and Wallet Relationship
+## 6. Completion and Failure Rules
 
-Platform Credits sit beside FUZE token, stablecoin rails, and wallet-based records.
+Every credit-supported action needs a completion definition.
 
-| Relationship | Public Explanation |
+Completion can mean:
+
+- a report is generated and available;
+- an approved product workflow reaches its terminal state;
+- a scheduled service period is delivered;
+- an event, campaign, or placement begins or completes under its terms;
+- a work session produces the agreed output;
+- another product-specific acceptance condition is satisfied.
+
+Failure handling should distinguish:
+
+| Outcome | Credit treatment |
 |---|---|
-| Platform Credits to FUZE token | Credits support product usage; FUZE token supports ecosystem utility and participation direction |
-| Platform Credits to stablecoins | Stablecoins may support payment for credits where product rules allow |
-| Platform Credits to product revenue | Credit purchases may become product revenue only after confirmation, reconciliation, and accounting treatment |
-| Platform Credits to approved distributable value | Credit-related revenue needs additional review before any approved value treatment |
-| Platform Credits to wallet-based participation | Credit usage does not create eligibility by itself |
-| Platform Credits to reporting | Credit records can support product usage, workspace billing, usage limits, and public-safe product activity categories |
-| Platform Credits to privacy | Credit records can be role-controlled and separated from sensitive product data |
+| Action never started | Release the reservation |
+| System failure before useful output | Reverse or release under policy |
+| Partial output accepted | Apply the defined partial treatment |
+| User cancellation | Apply the disclosed cancellation rule |
+| Duplicate action | Correct the duplicate entry |
+| Product output delivered but disputed | Use the support and review process |
+| Abuse or prohibited use | Apply the applicable restriction and ledger treatment |
 
-The relationship protects FUZE’s product-first model.
-
-Platform Credits make products easier to use.
-
-FUZE token keeps ecosystem utility clear.
-
-Stablecoins keep payment and settlement clear.
-
-Wallet-based participation remains controlled by its own activation gates.
+Product teams should not invent ad hoc credit adjustments outside the approved support and correction process.
 
 ---
 
-## 6. Controls, Gates, and Governance
+## 7. Accounts, Workspaces, and Budgets
 
-Platform Credits require product, billing, reporting, and control rules.
+Credits can belong to an individual account or a managed workspace.
 
-Important controls include:
+Workspace controls can include:
 
-- product pricing rules
-- credit package rules
-- usage metering
-- workspace credit assignment
-- account credit assignment
-- subscription credit limits
-- add-on credit limits
-- bonus credit rules
-- granted credit rules
-- credit expiry rules
-- refund and reversal rules
-- abuse and fraud review
-- AI usage cost tracking
-- product output tracking
-- payment confirmation
-- stablecoin payment matching where applicable
-- Platform Credit revenue treatment
-- accounting review
-- tax review where applicable
-- support workflow
-- public-safe reporting
-- privacy controls
-- role-based workspace permissions
-- product-specific limits
-- partner and sponsor controls where applicable
+- owners and billing administrators;
+- members allowed to use credits;
+- product and feature limits;
+- team, project, branch, or campaign budgets;
+- per-action and period limits;
+- approval requirements;
+- alerts and low-balance thresholds;
+- report access;
+- transfer or reassignment rules.
 
-### 6.1 Credit Policy
+A workspace administrator should not automatically gain access to the private content of every product action merely because the administrator manages the credit budget. Billing visibility and product-data permission are separate controls.
 
-A credit policy can define:
+---
 
-| Policy Area | Purpose |
+## 8. Payment Relationship
+
+A payment can fund a Platform Credit purchase, but the payment asset does not become the credit.
+
+```text
+Approved offer -> payment authorization -> settlement confirmation
+-> credit issuance -> product consumption -> reconciliation
+```
+
+The payment record should identify:
+
+- payer or contracting account within authorized systems;
+- amount and currency or asset;
+- provider, bank, network, or transaction reference;
+- fees and conversion;
+- offer, invoice, or package;
+- settlement and refund status;
+- resulting credit entry.
+
+Supported payment routes can include approved fiat, card, bank, invoice, stablecoin, partner-funded, or other provider flows.
+
+A stablecoin transfer without product and invoice context should not create credits automatically.
+
+---
+
+## 9. Revenue Relationship
+
+Credit issuance and revenue recognition are separate records.
+
+A purchased credit package can create a payment and a credit obligation before the credits are consumed. Subscription allowance, promotional credits, granted credits, refunds, expiry, and unused balances can require different treatment.
+
+The revenue record should connect:
+
+1. the approved offer;
+2. payment and settlement;
+3. issued credit class and amount;
+4. product delivery or consumption evidence;
+5. refunds, reversals, expiry, and adjustments;
+6. applicable accounting period and classification.
+
+Credit consumption proves that a supported product action occurred under the usage system. It does not by itself prove a cash receipt or final revenue treatment.
+
+The [FUZE Product Revenue Model](../INVESTOR-PARTNER-PAPERS/02-FUZE_PRODUCT_REVENUE_MODEL_PUBLIC.md) provides the investor-facing commercial chain. Any later approved-value review belongs in [FUZE Approved Distributable Value Model](09-FUZE_APPROVED_DISTRIBUTABLE_VALUE_MODEL_PUBLIC.md).
+
+---
+
+## 10. Relationship to FUZE Token
+
+Platform Credits and FUZE token serve different user needs.
+
+| Platform Credits | FUZE token |
 |---|---|
-| Purchase | Defines how credits are purchased or assigned |
-| Allocation | Defines who receives credits and where they can be used |
-| Consumption | Defines which product actions consume credits |
-| Expiry | Defines whether credits expire |
-| Transferability | Defines whether credits can move between users or workspaces |
-| Refunds | Defines how failed, reversed, or refunded product actions are handled |
-| Abuse control | Defines how fraud, spam, misuse, or abnormal usage is reviewed |
-| Reporting | Defines how usage is shown to users, teams, partners, and public-safe reports |
-| Accounting treatment | Defines when credit purchases may become product revenue |
-| Workspace control | Defines who can spend, assign, or view credits |
+| Represent supported product consumption | Supports approved ecosystem token functions |
+| Recorded in the product credit ledger | Recorded through the applicable token and wallet systems |
+| Can be purchased, included, granted, adjusted, or expired under credit policy | Governed by token supply, allocation, utility, custody, circulation, and market policies |
+| Designed for straightforward product use | Relevant only where a token-related product or ecosystem function is defined |
 
-Credit policy keeps product usage predictable.
+A product can use credits without requiring a wallet. A token utility can exist without charging Platform Credits. When both appear in one workflow, the interface should explain each condition separately.
 
-### 6.2 Accounting and Revenue Treatment
-
-Platform Credit purchases can become product revenue only where recorded, confirmed, reconciled, and treated under applicable product and accounting rules.
-
-The credit revenue path may include:
-
-1. User or workspace purchases credits.
-2. Payment is confirmed.
-3. Credit balance is updated.
-4. Product action consumes credits.
-5. Usage record is created.
-6. Product revenue treatment is reviewed.
-7. Refunds, reversals, failed payments, bonus credits, and promotional credits are separated.
-8. Accounting and reporting treatment are applied.
-
-This path makes Platform Credits useful for product billing and reporting.
-
-It also prevents credit balances from being treated as token rights.
-
-### 6.3 Approved Distributable Value Boundary
-
-Platform Credit revenue may become a product revenue input where properly recorded and reconciled.
-
-Approved distributable value requires additional controls.
-
-Those controls may include:
-
-- defined product revenue pool
-- confirmation
-- reconciliation
-- deductions
-- exclusions
-- reserves
-- accounting review
-- treasury review
-- legal review
-- audit or evidence review
-- jurisdiction review
-- approval path
-- active participation framework
-- eligibility rules
-- reporting readiness
-- claim logic where applicable
-
-This means a Platform Credit purchase does not directly create approved distributable value.
-
-It first belongs to product usage and product revenue treatment.
-
-### 6.4 Governance and Review
-
-Governance may apply to credit rules where relevant.
-
-Governance and review can cover:
-
-- credit package design
-- pricing policy
-- refund policy
-- expiry policy
-- partner credit rules
-- sponsor credit rules
-- enterprise credit rules
-- product usage records
-- reporting standards
-- abuse controls
-- public language
-- accounting treatment
-- treasury treatment
-- privacy treatment
-- customer support process
-
-This helps FUZE keep Platform Credits useful, flexible, and understandable.
+FUZE should not market credits as a token substitute or imply that credit balances convert into FUZE token unless a future approved policy expressly defines a supported conversion. No such conversion is established by this paper.
 
 ---
 
-## 7. Reporting and Transparency Direction
+## 11. Transfer, Sharing, and Conversion
 
-Platform Credits can support product usage reporting.
+The credit policy should state whether credits can:
 
-Reporting can include:
+- move between users in the same workspace;
+- be reassigned by an administrator;
+- move between workspaces under one organization;
+- transfer to another customer;
+- roll over into a later period;
+- convert between product-specific packages;
+- be redeemed or refunded.
 
-- credit purchase records
-- credit usage records
-- product action summaries
-- workspace usage reports
-- AI usage summaries
-- report generation summaries
-- sponsored visibility usage
-- ToolGrid AI campaign usage
-- AIE event intelligence usage
-- QTB market report usage
-- AIMM operation report usage
-- Botmad work-assistance usage
-- ShopOS AI owner reports
-- SheetLayer AI data workflow reports
-- CommunityLayer AI admin reports
-- ZAGA game-related utility reports where supported
-- refund and reversal summaries
-- bonus and granted credit summaries
-- public-safe product activity categories
+Default restrictions should match product, fraud, accounting, support, and customer-expectation needs.
 
-For users, reporting helps them understand what was consumed.
-
-For teams, reporting helps workspace owners review product usage.
-
-For partners and sponsors, reporting can show campaign or service usage where appropriate.
-
-For FUZE, reporting helps connect product-first usage to public-safe evidence.
-
-Reporting should protect private data.
-
-Public reports should use categories and summaries rather than exposing sensitive user, customer, workspace, payment, shop, community, sponsor, partner, or file data.
-
-Reporting supports transparency.
-
-It does not create financial assurance.
+Open external transferability or market trading would materially change the nature of the credit system and require classification, governance, legal, accounting, and technical review.
 
 ---
 
-## 8. Market, Legal, or Operational Context
+## 12. Expiry, Refunds, and Adjustments
 
-### 8.1 Platform Credits and FUZE Products
+Expiry and refund rules should be visible before purchase or allocation.
 
-Platform Credits may support many FUZE product surfaces.
+The policy can distinguish:
 
-| Product / System | Possible Platform Credit Usage |
-|---|---|
-| HerHelp | AI workflows, documents, reports, business tasks, premium modules, workspace usage, business guidance |
-| SheetLayer AI | Spreadsheet mapping, dashboard generation, formula explanation, sync summaries, workflow actions, permission reviews |
-| ShopOS AI | QR menu setup, queue workflows, shop reports, loyalty messages, stock summaries, staff workflows, TrustCheck-style reports |
-| SpeakShop AI | Promotional scripts, queue announcements, sound-pack content, speaker campaigns |
-| TrainLayer AI | Training guides, quizzes, onboarding materials, SOP conversion, validation workflows |
-| CommunityLayer AI | Community summaries, moderation reports, support routing, FAQ generation, verification workflows |
-| ZAGA | Game-related utility, event tools, profile features, public-safe game reports, utility actions, eligibility checks |
-| ZAGA Arena | Run summaries, share cards, tournament tools, leaderboard reports, event access, room utilities |
-| ZAGA Districts | City reports, district dashboards, community game tools, NPC systems, quest tools |
-| QTB | Market summaries, research notes, watchlists, trading journal support |
-| AIMM | Liquidity operation reports, venue notes, exchange communication summaries, operator workflows |
-| AIE | Event plans, sponsor reports, recaps, campaign summaries, opportunity mapping |
-| ToolGrid AI | Listings, comparison summaries, sponsored visibility workflows, campaign reports, review workflows |
-| Botmad | Work-assistance sessions, document drafts, task summaries, checklists, code support, research preparation, execution evidence |
-| FUZE Core Platform | Identity, AI orchestration, reporting, workflow usage, workspace services, platform operations |
+- refundable unused purchased credits;
+- non-refundable consumed credits;
+- failed-action reversals;
+- subscription allowance that resets;
+- promotional or trial credits that expire;
+- enterprise balances governed by contract;
+- support adjustments;
+- account closure treatment.
 
-Each product can define its own credit usage rules.
-
-Boundary:
-
-Credit usage supports product access and workflows. It does not guarantee product result, business result, token result, market result, or financial result.
-
-### 8.2 HerHelp Credits Relationship
-
-HerHelp is FUZE’s practical AI SaaS suite for SMEs, shop owners, creators, educators, teams, and community-based businesses.
-
-HerHelp can use Platform Credits for:
-
-| HerHelp Area | Credit Use |
-|---|---|
-| AI writing and analysis | Product copy, reports, summaries, checklists, customer messages, and business guidance |
-| Owner dashboards | Daily, weekly, monthly, and business-performance dashboards |
-| Workflow actions | Tasks, approvals, follow-ups, status changes, and staff actions |
-| Data preparation | Import, cleanup, mapping, formatting, validation, and sync |
-| Add-on modules | Extra products, premium features, devices, branches, or advanced reports |
-| Workspace access | Businesses, teams, shops, classrooms, communities, or client projects |
-| Support and setup | Assisted onboarding, guided configuration, and implementation support where applicable |
-
-HerHelp credits support product usage, not token participation.
-
-### 8.3 ShopOS AI Credits Relationship
-
-ShopOS AI is FUZE’s AI-powered shop operating system for QR menu, checkout, queue, payment, loyalty, stock, staff workflow, delivery, reports, TrustCheck, device support, Google Sheets sync, and AI assistance.
-
-ShopOS AI can use credits for:
-
-| ShopOS AI Area | Credit Use |
-|---|---|
-| QR shop tools | Menu, checkout, queue, order status, and owner dashboard actions |
-| AI assistance | Promotion text, stock guidance, customer summaries, staff messages, and owner guidance |
-| TrustCheck | Stock-vs-revenue checks, mismatch alerts, anomaly review, and operational reports |
-| Customer memory | Customer profile, birthday, usual order, loyalty, and return-customer workflows where product rules allow |
-| Device support | Queue screen, speaker, printer, kitchen screen, cashier screen, and multi-device support |
-| Channel tracking | Walk-in, pickup, own delivery, LINE, phone, and third-party channel tracking where applicable |
-| Reports | Daily, weekly, monthly, product, customer, staff, and channel reports |
-
-Credits make ShopOS AI easier to package for small businesses.
-
-Boundary:
-
-ShopOS AI usage does not guarantee shop revenue, customer growth, staff performance, payment success, delivery result, or business result.
-
-### 8.4 ZAGA Credits Relationship
-
-ZAGA is the FUZE game and token-utility ecosystem.
-
-Platform Credits may support ZAGA-related product or service actions where supported.
-
-Examples can include:
-
-- game-related reports
-- profile features
-- event tools
-- tournament tools
-- share cards
-- community utility surfaces
-- room utilities
-- district dashboards
-- quest support
-- moderation or community reports
-- public-safe activity summaries
-
-ZAGA Arena and ZAGA Districts are separate products.
-
-ZAGA Arena is the fast battle arena game where players survive, fight bosses, collect USDT and Token Value, build Net Worth, and compete in Telegram-ready multiplayer arenas.
-
-ZAGA Districts is the Telegram-native cyberpunk MMORPG where real communities build cities, manage economies, hire NPCs, and compete for power.
-
-ZAGA Districts is not a mode inside ZAGA Arena.
-
-Boundary:
-
-ZAGA credit usage supports product and game utility surfaces. It does not guarantee game earnings, token price, liquidity, listing, payout, income, or investment return.
-
-### 8.5 QTB and AIMM Credits Relationship
-
-QTB and AIMM are specialized crypto-native intelligence products.
-
-QTB can use Platform Credits for:
-
-- market summaries
-- watchlists
-- research notes
-- market interpretation reports
-- trading journal support
-- risk observations
-- public-safe market education
-
-AIMM can use Platform Credits for:
-
-- liquidity operation reports
-- venue notes
-- market-structure summaries
-- exchange communication summaries
-- operator workflows
-- public-safe market operation reports
-
-Boundary:
-
-QTB does not provide financial advice, trading instructions, guaranteed trading results, or investment instructions.
-
-AIMM does not guarantee liquidity, price support, listing performance, market outcome, autonomous market action, or trading profit.
-
-### 8.6 AIE, ToolGrid AI, and Botmad Credits Relationship
-
-AIE can use credits for:
-
-- event discovery
-- opportunity mapping
-- sponsor reports
-- event recaps
-- campaign summaries
-- alerts
-- follow-up reports
-
-ToolGrid AI can use credits for:
-
-- tool listings
-- comparison summaries
-- sponsored visibility setup
-- campaign reports
-- trust review workflows
-- partner reports
-
-Botmad can use credits for:
-
-- work-assistance sessions
-- document drafts
-- task summaries
-- checklists
-- research preparation
-- code support
-- execution evidence
-- workflow handoffs
-
-Boundary:
-
-AIE does not guarantee event outcome, sponsor result, ticket result, or user acquisition.
-
-ToolGrid AI sponsored visibility does not guarantee traffic, ranking, customers, conversion, sales, or revenue.
-
-Botmad supports supervised work and reviewable outputs; sensitive actions require permission and human review.
-
-### 8.7 Web2-Friendly Usage
-
-Platform Credits help FUZE serve Web2 users and Web3 users together.
-
-A normal shop owner can use ShopOS AI without needing to understand wallets, tokenomics, or smart contracts.
-
-A community admin can pay for summaries and reports through normal product usage flows.
-
-A sponsor can buy ToolGrid AI visibility packages without receiving token rights.
-
-A team can assign credits to a workspace without creating token ownership.
-
-This is why Platform Credits are important to FUZE’s product-first model.
+An adjustment entry should identify the original transaction, reason, amount, approver, and effect on payment, credit, usage, and revenue records.
 
 ---
 
-## 9. Risk and Disclosure Reference
+## 13. Abuse and Integrity
 
-Important public boundaries include:
+Credit controls should address:
 
-- Platform Credits are product usage credits.
-- Platform Credits are separate from FUZE token.
-- Platform Credits support product access, usage, reports, workflows, modules, and services where supported.
-- FUZE token is the single ecosystem token.
-- Stablecoins support payment, settlement, treasury, and operational compensation rails.
-- Platform Credit purchases can become product revenue only after confirmation, reconciliation, and accounting treatment where applicable.
-- Product revenue requires further review before approved distributable value treatment.
-- Buying, spending, receiving, or using credits does not create wallet-based participation eligibility by itself.
-- Wallet-based participation ability remains activation-gated.
-- Product usage records support product reporting and do not create payout rights.
-- Bonus credits, granted credits, promotional credits, refunds, failed payments, chargebacks, and reversed usage require separate handling.
-- FUZE token does not guarantee payout, income, yield, profit, token price, listing, liquidity, market support, exit, game earnings, business revenue, user growth, community growth, approved distributable value, wallet eligibility, AI accuracy, or investment return.
+- automated or abnormal consumption;
+- duplicate requests;
+- compromised accounts;
+- unauthorized workspace use;
+- manipulated referral or promotion activity;
+- payment fraud and chargebacks;
+- exploitation of failure reversals;
+- attempts to resell restricted credits;
+- meter or rate-card errors.
 
-More detailed boundaries are handled in dedicated papers, including:
+FUZE can limit, pause, or investigate affected usage while preserving evidence and providing an appropriate support route.
 
-- `CORE-PLATFORM-PAPERS/06-FUZE_PLATFORM_CREDITS_USAGE_EXAMPLES_PUBLIC.md`
-- `AI-SAAS-PRODUCT-PAPERS/18-FUZE_PRODUCT_TO_PLATFORM_CREDITS_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/03-FUZE_ONE_TOKEN_MODEL_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/07-FUZE_WALLET_BASED_PARTICIPATION_MODEL_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/08-FUZE_PARTICIPATION_ACTIVATION_GATES_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/09-FUZE_APPROVED_DISTRIBUTABLE_VALUE_MODEL_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/11-FUZE_STABLECOIN_COMPENSATION_POLICY_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/28-FUZE_LEGAL_AND_COMPLIANCE_MESSAGING_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/29-FUZE_TOKEN_RISK_BOUNDARIES_PUBLIC.md`
-- `WHITEPAPER-PAPERS/05-FUZE_RISK_AND_DISCLOSURE_APPENDIX_PUBLIC.md`
-
-This paper focuses on Platform Credits while deeper credit, token, wallet, stablecoin, approved value, legal, and disclosure topics remain in dedicated papers.
+Controls should avoid exposing security-sensitive thresholds or private customer information in public reports.
 
 ---
 
-## 10. Key Takeaways
+## 14. Reporting and Privacy
 
-- FUZE Platform Credits Relationship explains the role of Platform Credits inside the FUZE ecosystem.
-- Platform Credits are product usage credits for supported FUZE products and services.
-- Platform Credits help users access AI workflows, reports, modules, workspace usage, sponsored visibility, game-related utility surfaces, and work-assistance sessions where supported.
-- FUZE token is the single ecosystem token.
-- Stablecoins support payment, settlement, treasury, and operational compensation rails.
-- Platform Credits keep product usage separate from token ownership.
-- Platform Credits help FUZE serve Web2 users and Web3 users together.
-- Platform Credit purchases may become product revenue only after confirmation, reconciliation, and accounting treatment where applicable.
-- Product revenue requires further review before approved distributable value treatment.
-- Buying, spending, receiving, or using credits does not create wallet-based participation eligibility by itself.
-- Credit usage records support product reporting, workspace billing, limits, support review, and public-safe product activity categories.
-- Platform Credits are important to FUZE’s product-first execution model because they let users pay for useful products before broader ecosystem participation becomes relevant.
+Users should be able to review:
+
+- opening and closing balance;
+- additions by credit class;
+- reservations and releases;
+- finalized usage by product or action;
+- reversals, adjustments, transfers, and expiry;
+- rate or policy version;
+- payment references where appropriate.
+
+Workspace reports can aggregate by team, project, branch, product, period, or budget without exposing product content to unauthorized billing roles.
+
+Public reporting can use aggregate issued, purchased, granted, consumed, reversed, and expired categories. It must not expose customer identity, workspace content, payment credentials, private product data, or personal wallet associations.
+
+---
+
+## 15. Product Implementation References
+
+Product teams define the exact action, meter, estimate, reservation, completion, and correction behavior through [FUZE Product to Platform Credits](../AI-SAAS-PRODUCT-PAPERS/18-FUZE_PRODUCT_TO_PLATFORM_CREDITS_PUBLIC.md).
+
+Reader-facing examples across AI tasks, shops, training, communities, events, market research, games, and work sessions are maintained in [FUZE Platform Credits Usage Examples](../CORE-PLATFORM-PAPERS/06-FUZE_PLATFORM_CREDITS_USAGE_EXAMPLES_PUBLIC.md).
+
+This relationship paper remains the primary source for ledger classes, payment and revenue separation, workspace controls, and credit policy.
+
+---
+
+## 16. Public Boundary
+
+This paper defines product credits and their relationship to payment, revenue, and FUZE token. It does not publish prices, refund terms for a specific offer, formal accounting policy, or token-conversion rights.
+
+Actual credit packages, rates, validity, transferability, refunds, supported products, and payment routes depend on the approved product offer and current policy.
+
+Credit purchases or usage do not establish wallet-participation eligibility or a claim against FUZE token, treasury assets, or product revenue.
+
+---
+
+## Conclusion
+
+Platform Credits provide a product-first usage layer with a traceable lifecycle from source and allocation through authorization, reservation, consumption, correction, and expiry.
+
+Their value as an operating system depends on clear credit classes, append-oriented ledger records, transparent user authorization, workspace controls, and reconciliation with payment and product delivery.
+
+Keeping credits separate from FUZE token lets customers use supported products through familiar product flows while token functions remain governed by their dedicated policies.

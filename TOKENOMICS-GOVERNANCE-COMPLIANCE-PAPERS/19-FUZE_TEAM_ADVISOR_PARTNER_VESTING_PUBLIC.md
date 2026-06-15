@@ -2,658 +2,356 @@
 
 ## Executive Summary
 
-FUZE Team Advisor Partner Vesting explains how FUZE treats team, advisor, partner, strategic contributor, builder, operator, service provider, and private seed-related token exposure through vesting, lockups, milestone release, contribution records, revocation controls, vault separation, stablecoin compensation separation, and public-safe reporting.
+FUZE uses vesting and milestone controls to connect token grants with sustained work, strategic contribution, or completed partner outcomes. This paper defines the grant records, release conditions, custody states, amendment rules, revocation treatment, and aggregate reporting applied to those relationships.
 
-FUZE uses one ecosystem token only: **FUZE token**.
+The approved Team Allocation is 45,000,000 FUZE, representing 9.00% of the fixed supply. The Advisors / Strategic Contributors allocation is 15,000,000 FUZE, representing 3.00%. Qualifying partner grants can use an approved portion of the 40,000,000 FUZE Ecosystem Growth & Partnerships allocation under that category's mandate.
 
-FUZE token is the single ecosystem token of FUZE. It supports product-connected utility, ecosystem participation, platform alignment, governance direction where applicable, community participation structures, and wallet-based participation ability where activated under required controls.
+No universal vesting schedule is established here. Each grant must state its recipient class, amount, effective date, vesting or milestone method, continuing obligations, custody, termination treatment, and approval authority.
 
-Team, advisor, partner, and strategic contributor allocations exist to support long-term ecosystem alignment, product delivery, strategic cooperation, technical contribution, operating contribution, public reporting, governance readiness, and platform growth where properly defined.
-
-FUZE applies the principle:
-
-**Stablecoins pay for work. FUZE tokens align long-term participation. Platform Credits power product usage.**
-
-This means contributors can be paid for real work through USDT, USDC, fiat-equivalent payments, milestone payments, product revenue, approved treasury operations, or approved Public Vault Access proceeds where applicable. FUZE token allocations remain focused on long-term alignment, contribution recognition, ecosystem participation, governance readiness, and product utility.
-
-Vesting and lockups help reduce confusion around token release. They show that allocation, vesting, unlock, transfer, sale, and active circulation are different states.
-
-A vested token may still require custody, transfer, policy, reporting, or lockup context.
-
-A team allocation is separate from community participation.
-
-A partner allocation supports approved cooperation but does not by itself prove partnership outcome.
-
-An advisor allocation supports strategic contribution but does not by itself prove business result.
-
-A contributor allocation supports alignment with meaningful contribution but does not replace product delivery evidence.
-
-Platform Credits are product usage credits and are separate from FUZE token.
-
-Stablecoins are payment, settlement, treasury, and compensation rails.
-
-Wallet-based participation ability is a separate activation-gated framework inside the FUZE token model.
-
-FUZE does not guarantee payout, income, dividend, yield, profit, token price, listing, liquidity, market support, exit, game earnings, business revenue, user growth, community growth, approved distributable value, wallet eligibility, or investment return.
+Token alignment and payment for completed work are separate records. Stablecoin or fiat-equivalent compensation can support current services, while a FUZE grant can recognize longer-term alignment under documented conditions.
 
 ---
 
-## 1. Purpose of This Paper
+## 1. Policy Objective
 
-This paper explains FUZE’s public model for team, advisor, partner, strategic contributor, builder, operator, service provider, and private seed-related token exposure.
+The vesting policy should ensure that:
 
-It defines:
+- grants originate from the correct allocation;
+- release follows measurable time, service, or milestone conditions;
+- unearned amounts remain under controlled treatment;
+- recipient and custody records can be reconciled;
+- amendments and exceptions receive approval;
+- public reports protect private compensation and identity.
 
-- why FUZE uses vesting, lockups, and release controls
-- which allocation groups require long-term alignment language
-- how team, advisor, partner, and strategic contributor allocations are explained
-- how private seed-related token exposure remains separate from public participation
-- how vesting, lockups, unlocks, releases, transfers, sales, and circulation differ
-- how token allocations differ from stablecoin compensation
-- how revocation protects unvested and unearned allocation
-- how milestone-based release applies to partners and contributors
-- how vault separation supports controlled circulation
-- how multisig, timelock, approval workflows, and reporting can protect sensitive release activity
-- how public reporting can show aggregate category status without exposing private agreements or personal identity
-- what public claims FUZE avoids
-
-This paper is not an employment contract, advisor agreement, partner agreement, contributor agreement, seed-round term sheet, legal opinion, tax opinion, accounting policy, token sale document, investment recommendation, payout policy, listing plan, liquidity plan, or financial-return promise.
-
-It is a public vesting, alignment, and allocation-boundary paper.
+The policy applies to founders, employees, builders, operators, advisors, experts, strategic contributors, integration partners, grant recipients, and other approved relationship classes.
 
 ---
 
-## 2. Reader Problem This Paper Solves
+## 2. Allocation Scope
 
-Team, advisor, partner, and contributor token allocations can be misunderstood when public readers do not separate alignment, compensation, vesting, unlocks, actual circulation, and contribution records.
-
-Readers may ask:
-
-- Are team tokens immediately circulating?
-- Does advisor allocation mean immediate market supply?
-- Does partner allocation mean a partnership is already successful?
-- Does contributor allocation replace stablecoin compensation?
-- Does vesting mean tokens are sold?
-- Does an unlock mean tokens are active market supply?
-- Can unvested allocation return to the vault?
-- How does FUZE pay contributors for work?
-- How are long-term token allocations separated from short-term payment?
-- How can FUZE report vesting without exposing private contracts?
-
-This paper solves that problem by defining token exposure as long-term alignment, while stablecoins and fiat-equivalent rails support work payment where approved.
-
-The key answer is:
-
-Vesting supports alignment and controlled circulation. Stablecoins support work payment. Public reporting explains category status without turning private agreements into public documents.
-
----
-
-## 3. FUZE Public Position
-
-FUZE’s public position is:
-
-**Team, advisor, partner, strategic contributor, builder, operator, service provider, and private seed-related token exposure is structured for long-term alignment, contribution accountability, controlled circulation, and public trust.**
-
-The vesting model follows FUZE’s tokenomics principle:
-
-**Purpose-specific allocation. Vault-based control. Controlled circulation. Product-first utility. Long-term ecosystem alignment.**
-
-The public position has several parts.
-
-| Area | FUZE Public Position |
-|---|---|
-| Long-term alignment | Allocations support long-term contribution and ecosystem alignment |
-| Purpose-specific allocation | Each allocation category has a clear role |
-| Vesting discipline | Tokens can release over time instead of becoming available all at once |
-| Lockup discipline | Some tokens remain restricted for defined periods or conditions |
-| Milestone discipline | Partner and contributor release can depend on approved milestone completion |
-| Revocation controls | Unvested or unearned allocation can return to vault, remain locked, or be cancelled under policy |
-| Stablecoin compensation separation | Work payment remains separate from long-term token alignment |
-| Vault separation | Team, advisor, partner, contributor, and seed-related exposure can use separate vaults or wallet categories |
-| Governance controls | Sensitive release activity can use multisig, timelock, approval workflows, and public-safe reporting where appropriate |
-| Public-safe reporting | Aggregate vesting and release categories can be reported without exposing private personal or contract details |
-| Market boundary | Vesting supports discipline and trust without promising price, liquidity, listing, market support, payout, income, yield, profit, exit, or investment return |
-
-Vesting exists to support discipline and trust.
-
-It does not promise market outcomes.
-
----
-
-## 4. Core Model
-
-### 4.1 Vesting Policy Definition
-
-Team Advisor Partner Vesting is the public policy for long-term release of contributor-aligned FUZE token exposure.
-
-| Policy Area | Public Meaning |
-|---|---|
-| Team vesting | Time-based and role-based release for founders, core team, builders, operators, and future key contributors |
-| Advisor vesting | Contribution-based, time-based, or milestone-based release for advisors, experts, strategic supporters, and external contributors |
-| Partner vesting | Milestone-based release for ecosystem partners, integrations, distribution partners, grants, and partner programs |
-| Strategic contributor vesting | Contribution-based release for high-impact operators, technical specialists, public contributors, ecosystem supporters, or implementation contributors |
-| Seed-related token exposure | Private strategic seed-related token exposure where applicable, governed by lockups, vesting, eligibility, legal review, and private terms |
-| Revocation | Unvested or unearned allocations can be cancelled, returned, reallocated, or retained by vault rules where policy allows |
-| Stablecoin compensation separation | Work payment is separated from long-term token alignment |
-| Public reporting | Aggregate vesting and release categories can be reported without exposing private personal or contract details |
-| Risk boundary | Vesting does not create price, liquidity, listing, payout, return, or market-performance promises |
-
-### 4.2 Allocation Categories Covered
-
-This policy connects to several FUZE allocation categories.
-
-| Allocation Category | Amount (FUZE) | % of Supply | Vesting / Release Relationship |
+| Approved category | Amount | Share | Vesting relevance |
 |---|---:|---:|---|
-| Team Allocation | 45,000,000 | 9.00% | Long-term team vesting for founders, core team, builders, operators, and future key contributors |
-| Advisors / Strategic Contributors | 15,000,000 | 3.00% | Advisor, expert, operator, and strategic contributor vesting or milestone release |
-| Ecosystem Growth & Partnerships | 40,000,000 | 8.00% | Partner, grant, integration, ecosystem, and business-development milestone release |
-| Treasury Reserve | 120,000,000 | 24.00% | Approved treasury support for stablecoin compensation, strategic programs, or operating support where policy allows |
-| Community Participation Allocation | 110,000,000 | 22.00% | Separate community participation allocation, not team/advisor vesting |
-| Holder Incentives | 55,000,000 | 11.00% | Earned incentives, not team/advisor vesting |
-| BOARD / Surfboard Migration | 25,000,000 | 5.00% | Separate migration continuity allocation |
-| Liquidity & Market Operations | 30,000,000 | 6.00% | Liquidity-related operating allocation, not team/advisor vesting |
-| Foundation Reserve | 35,000,000 | 7.00% | Long-horizon stewardship reserve |
-| Transparency / Stability Reserve | 25,000,000 | 5.00% | Exceptional trust, transparency, or stability reserve |
+| Team Allocation | 45,000,000 FUZE | 9.00% | Founder, employee, builder, operator, and future key-team alignment |
+| Advisors / Strategic Contributors | 15,000,000 FUZE | 3.00% | Advisor, expert, operator, and strategic-contribution grants |
+| Ecosystem Growth & Partnerships | 40,000,000 FUZE | 8.00% | Approved partner, integration, grant, and ecosystem milestones |
 
-Team, advisor, partner, and strategic contributor vesting rules protect allocation clarity.
+The partner category supports more than token vesting. Only the amount assigned to an approved partner grant enters this policy.
 
-### 4.3 Team Vesting Model
+The [FUZE Token Allocation Table](02-FUZE_TOKEN_ALLOCATION_TABLE_PUBLIC.md) controls category values. This paper governs recipient-level conditions and release records.
 
-The Team Allocation is **45,000,000 FUZE**, equal to **9.00%** of the fixed **500,000,000 FUZE** total supply.
+---
 
-Team vesting can apply to people working on:
+## 3. Grant Types
 
-| Team Category | Public Role |
+### Team grant
+
+Supports long-term alignment for a founder, employee, builder, operator, engineer, product owner, or other approved team role.
+
+### Advisor grant
+
+Supports defined strategic, technical, product, legal, market, community, or operating advice over a stated period or set of deliverables.
+
+### Strategic contributor grant
+
+Supports specialized work or ecosystem contribution that sits outside normal team treatment and has a documented outcome.
+
+### Partner milestone grant
+
+Supports an approved integration, distribution, implementation, grant, campaign, infrastructure, or ecosystem relationship. Release depends on accepted milestones or a continuing service condition.
+
+Classification should follow the substance of the relationship. A label alone cannot move a grant into a different allocation.
+
+---
+
+## 4. Grant Record
+
+Every grant should contain:
+
+| Field | Required content |
 |---|---|
-| Founder / leadership | Long-term direction, platform execution, product leadership, investor communication, governance, and strategic control |
-| Core product team | Product ownership, roadmap, documentation, UX, delivery, and launch operations |
-| Engineering team | Architecture, backend, frontend, AI orchestration, infrastructure, smart contracts, security, tests, and deployments |
-| Operations team | Platform operations, admin, customer support, documentation, reporting, and partner operations |
-| Growth / marketing team | Product marketing, community materials, public communication, launch assets, and user acquisition support |
-| Community and support team | Community support, onboarding, moderation assistance, event operations, user support, and education |
-| Future key hires | Strategic hires who support long-term FUZE product and platform execution |
+| Grant identifier | Stable internal reference |
+| Recipient class | Team, advisor, strategic contributor, or partner |
+| Source allocation | Approved token category and vault |
+| Grant amount | Maximum FUZE covered by the approval |
+| Effective date | Start of the grant conditions |
+| Vesting method | Time, service, milestone, hybrid, or staged |
+| Conditions | Role, deliverable, acceptance, conduct, or continuing obligation |
+| Schedule | Dates, periods, percentages, or milestone tranches |
+| Custody | Vault, contract, custodian, or approved wallet treatment |
+| Release authority | Required approvers and execution owner |
+| Termination | Earned, unearned, disputed, and returned amount treatment |
+| Transfer restrictions | Lock, custody, or other post-vesting conditions |
+| Reporting class | Internal detail and public aggregate treatment |
 
-Team vesting can include:
+The record should be approved before vesting begins. Retroactive grants require explicit rationale and authority.
 
-| Vesting Control | Public Role |
+---
+
+## 5. Vesting Methods
+
+### Time-based vesting
+
+FUZE becomes earned in defined portions over an approved period. The schedule should state the start date, intervals, and final vesting point.
+
+### Cliff with later vesting
+
+The first portion becomes earned only after a stated initial period. Later portions follow the approved schedule.
+
+### Service-based vesting
+
+Vesting depends on continued service or role performance through each measurement date.
+
+### Milestone vesting
+
+Release depends on completion and acceptance of a defined deliverable or outcome.
+
+### Hybrid vesting
+
+A grant combines time, service, and milestone conditions. The record should explain how each component affects the amount.
+
+### Staged grant
+
+Separate tranches become available for review as a relationship progresses. Approval of one stage does not automatically approve later stages.
+
+The chosen method should match what FUZE can verify. Vague expectations are insufficient release evidence.
+
+---
+
+## 6. Team Vesting
+
+A team grant should connect long-term token alignment to an approved role and service relationship.
+
+The record can address:
+
+- role and responsibility;
+- full-time, part-time, founder, or other approved status;
+- vesting commencement;
+- cliff and periodic release where used;
+- approved leave or role-change treatment;
+- termination or departure;
+- confidentiality and conduct obligations;
+- custody and post-vesting restrictions.
+
+At each vesting event, the owner should confirm active status or other satisfied conditions, calculate the earned portion, record prior releases, and approve the next state.
+
+Public reporting should aggregate team grants. Individual compensation, personal identity, employment terms, and wallet ownership remain permissioned.
+
+---
+
+## 7. Advisor and Strategic Contributor Vesting
+
+Advisor and contributor grants should be bounded by a written scope.
+
+Useful conditions include:
+
+- stated advisory domain;
+- expected meeting or review cadence;
+- specific introductions, analysis, documents, or implementation support;
+- service period;
+- milestone acceptance criteria;
+- conflict and confidentiality obligations;
+- termination and replacement treatment.
+
+Time alone can be an incomplete measure when the relationship is deliverable-based. A hybrid schedule can require both passage of time and evidence of continuing contribution.
+
+The reviewer should preserve the accepted work record without publishing private communications or professional advice.
+
+---
+
+## 8. Partner Milestone Vesting
+
+A partner grant should connect FUZE release to outcomes within an approved relationship.
+
+Possible milestone classes include:
+
+- technical integration completed and accepted;
+- product or service deployment;
+- supported distribution or onboarding capability;
+- campaign or event delivery with required reporting;
+- infrastructure, security, data, payment, or AI service completion;
+- grant deliverables and maintenance obligations;
+- continuing support through an agreed operating period.
+
+Each milestone should identify:
+
+1. deliverable and owner;
+2. objective acceptance evidence;
+3. reviewer and approval authority;
+4. tranche amount;
+5. deadline or measurement period;
+6. cure, delay, or partial-completion treatment;
+7. continuing lock or service condition.
+
+A partnership announcement is separate from milestone acceptance. Release follows evidence and approval rather than publicity.
+
+Commercial terms, customer information, credentials, and non-public partner identity can remain permissioned while aggregate category activity is reported.
+
+---
+
+## 9. Vesting Ledger
+
+FUZE should maintain a recipient-level vesting ledger.
+
+| Ledger field | Purpose |
 |---|---|
-| Cliff | Delays initial token release until an alignment period is completed |
-| Linear vesting | Releases tokens gradually over time |
-| Role-based allocation | Allocation connected to role, responsibility, and contribution scope |
-| Future hire reserve | Supports future key hires under documented rules |
-| Revocation | Unvested allocation can be cancelled, returned, or retained under policy |
-| Stablecoin compensation separation | Work payment remains separate from token alignment |
-| Vault separation | Team tokens can remain in Team Vesting Vault or controlled wallet category |
-| Reporting | Aggregate team allocation, locked amount, released amount, and vesting direction can be reported where public-safe |
+| Original grant | Maximum approved amount |
+| Unvested | Amount awaiting satisfaction of conditions |
+| Vested unreleased | Earned amount remaining in controlled custody |
+| Released | Amount moved under an approved instruction |
+| Continuing restriction | Released or vested amount still locked or controlled |
+| Cancelled | Unearned amount removed from the recipient grant |
+| Returned | Amount restored to allocation custody |
+| Disputed | Amount awaiting resolution |
+| Corrected | Adjustment linked to a prior error |
 
-Team vesting aligns builders with long-term product delivery.
+The grant reconciliation is:
 
-Boundary:
+```text
+Original grant
+= unvested
++ vested unreleased
++ released
++ cancelled or returned
++/- corrections
+```
 
-Team allocation supports alignment, but it does not guarantee product delivery, business revenue, token price, liquidity, listing, payout, income, yield, exit, or investment return.
+Fields should be defined as exclusive buckets for this equation. Continuing restrictions can be tracked as attributes of vested or released balances.
 
-### 4.4 Advisor / Strategic Contributor Vesting Model
+---
 
-The Advisors / Strategic Contributors allocation is **15,000,000 FUZE**, equal to **3.00%** of total supply.
+## 10. Vesting Review
 
-This allocation applies to approved advisors, experts, operators, strategic supporters, and external contributors.
+Before approving a vesting event, the reviewer should confirm:
 
-| Contributor Type | Public Role |
-|---|---|
-| Strategic advisors | Strategy, partnerships, investor communication, market positioning, ecosystem expansion, or governance support |
-| Product advisors | Product direction, user needs, UX, business model, pricing direction, and product-market context |
-| Technical advisors | Architecture, smart contracts, AI systems, security, infrastructure, data, and integration guidance |
-| Market operations advisors | Market-operations context, exchange support, liquidity-operations support, and risk-aware market structure where legally appropriate |
-| Legal / compliance advisors | Legal, risk, jurisdiction, policy, disclosure, public language, and governance support |
-| Community advisors | Ambassador programs, moderation systems, onboarding, language, events, and community growth workflows |
-| Strategic contributors | Meaningful ecosystem work, introductions, integrations, implementation, documentation, or partner support |
-| Operating contributors | Support for launch, reporting, product execution, community operations, partner operations, or platform work |
+- the grant remains valid;
+- the event date or milestone is due;
+- service or deliverable evidence is complete;
+- prior releases and corrections are reconciled;
+- termination, suspension, or dispute status is clear;
+- the destination and custody method remain approved;
+- continuing restrictions are recorded;
+- source-vault capacity is available.
 
-Advisor and contributor vesting can include:
+The release packet then follows the [FUZE Vault-by-Vault Release Rules](15-FUZE_VAULT_BY_VAULT_RELEASE_RULES_PUBLIC.md).
 
-| Vesting Control | Public Role |
-|---|---|
-| Contribution scope | Allocation connected to documented contribution role |
-| Time-based vesting | Release over an approved vesting period |
-| Milestone-based release | Release when approved contribution milestones are completed |
-| Cliff | Delays initial release until relationship quality and contribution are validated |
-| Lockup | Restricts active circulation after allocation |
-| Revocation | Unvested allocation can be cancelled when contribution stops or rules are breached |
-| Stablecoin compensation separation | Advisors and contributors can receive work payment separately where approved |
-| Reporting | Aggregate advisor/contributor allocation and release status can be reported where public-safe |
+---
 
-Advisor and strategic contributor allocation supports long-term strategic value.
+## 11. Custody and Release
 
-Boundary:
+Unvested grants should remain in controlled allocation custody or an approved vesting contract.
 
-Advisor allocation does not guarantee advisor performance, partnership success, fundraising success, listing, liquidity, token price, revenue, payout, income, yield, or investment return.
+After vesting, FUZE can:
 
-### 4.5 Ecosystem Partner Vesting and Milestone Release
+- retain the earned amount in a vesting structure;
+- make the amount claimable;
+- transfer it to an approved recipient wallet;
+- place it under a continuing lock;
+- release it in stages according to the grant.
 
-The Ecosystem Growth & Partnerships allocation is **40,000,000 FUZE**, equal to **8.00%** of total supply.
+Vested and released are distinct states. A vested amount can remain unreleased, and a released amount can remain subject to a lock or custody restriction.
 
-This allocation supports approved ecosystem growth, partner programs, integrations, distribution, grants, co-marketing, partner campaigns, ecosystem expansion, and milestone-based cooperation.
+Destination verification should avoid publishing the person's identity behind a wallet. Public labels can identify the aggregate category or vesting function.
 
-| Partner Type | Release Relationship |
-|---|---|
-| Integration partners | Release connected to completed technical integration, live usage, or service delivery |
-| Ecosystem partners | Release connected to ecosystem expansion, campaigns, distribution, or community onboarding |
-| Grant recipients | Release connected to approved grant milestones and deliverables |
-| Ambassadors / community partners | Release connected to public contribution, campaign quality, and approved community outcomes |
-| Distribution partners | Release connected to real distribution support, onboarding, product usage, or sales support |
-| Strategic operators | Release connected to operational support, reporting, execution, or platform milestone |
-| Product partners | Release connected to HerHelp, ZAGA, ToolGrid AI, Botmad, or other product integration milestones |
-| Infrastructure partners | Release connected to completed infrastructure, data, security, AI, or payment-rail support |
+---
 
-Partner releases should connect to deliverables or milestones rather than vague relationship announcements.
+## 12. Payment Separation
 
-Possible milestone examples include:
+Current work payment should be documented independently from token vesting.
 
-- signed partner scope
-- technical integration completed
-- product or service launched
-- traffic or usage report delivered
-- sponsor or campaign report completed
-- API integration verified
-- community onboarding completed
-- revenue channel activated
-- compliance check completed
-- public report delivered
-- security review completed where relevant
-- support workflow activated
+Stablecoin or fiat-equivalent compensation records can identify:
 
-Boundary:
+- approved service or employment basis;
+- invoice, payroll, milestone, or compensation period;
+- payment amount and asset;
+- treasury approval;
+- settlement and accounting evidence.
 
-Partner allocation supports cooperation and ecosystem expansion. It does not guarantee partnership success, user growth, revenue, token price, liquidity, listing, payout, income, yield, or investment return.
+A FUZE grant record instead identifies long-term allocation, earning conditions, vesting, custody, and release.
 
-### 4.6 Private Seed-Related Token Exposure
+One relationship can include both forms of value, but payment completion should not silently change a token grant, and token vesting should not substitute for missing payment records.
 
-Private seed-related token exposure is separate from public participation and public vault access.
+Platform Credits remain product-usage units and belong to neither compensation nor vesting ledgers.
 
-Seed round discussions are private strategic fundraising conversations.
+---
 
-They are not public token sales, public investment offers, or public solicitations.
+## 13. Role or Scope Changes
 
-Private seed-related token exposure, where applicable, can involve:
+A material role, scope, or partner-plan change can require a grant amendment.
 
-| Area | Public Boundary |
-|---|---|
-| Private terms | Terms are handled through private strategic fundraising process |
-| Lockups | Exposure can be subject to lockups or release schedules |
-| Vesting | Token exposure can release over time or through agreed controls |
-| Legal review | Terms require legal, compliance, and jurisdiction review |
-| Investor records | Investor identity and private agreements remain permissioned |
-| Public reporting | Only public-safe category summaries should be shown where appropriate |
-| Market boundary | Exposure does not guarantee token price, listing, liquidity, exit, or investment return |
+The amendment should identify:
 
-Public readers should not treat private seed-related exposure as public access, Community Participation Round access, wallet-based participation eligibility, or approved distributable value.
+1. prior and revised terms;
+2. vested status at the effective date;
+3. treatment of future tranches;
+4. changed milestones or service conditions;
+5. approvals and recipient acknowledgement;
+6. ledger and reporting updates.
 
-### 4.7 Revocation and Reallocation
+An amendment should preserve earned amounts unless the governing terms and applicable review support another treatment. New responsibilities can use a new grant when that provides clearer allocation and reporting.
 
-Revocation controls protect the ecosystem when contribution does not continue, milestones are not completed, agreements are breached, or allocation rules require cancellation.
+---
 
-Revocation can apply to:
+## 14. Termination, Revocation, and Return
 
-- unvested team allocation
-- unearned advisor allocation
-- unearned contributor allocation
-- milestone-based partner allocation
-- grant allocation
-- campaign allocation
-- unclaimed allocation
-- inactive contributor allocation
-- allocation tied to breached policy
+Termination treatment should follow the approved grant.
 
 Possible outcomes include:
 
-| Outcome | Public Meaning |
+| Outcome | Treatment |
 |---|---|
-| Return to vault | Tokens remain in the original vault |
-| Remain locked | Tokens stay locked until policy review |
-| Reallocation | Tokens move to another approved purpose under governance or policy |
-| Cancellation of allocation right | The person or entity no longer has access to unvested or unearned tokens |
-| Public-safe correction | Aggregate reporting may update category status where appropriate |
+| Standard departure | Vested amount retained under applicable restrictions; unvested amount cancelled or returned |
+| Milestone failure | Affected tranche cancelled, delayed, reduced, or placed into cure review |
+| Relationship termination | Future vesting stops at the defined effective point |
+| Policy breach | Grant or release enters suspension and authorized review |
+| Grant cancellation | Unearned amount returns to allocation control |
+| Dispute | Contested amount remains restricted pending resolution |
 
-Revocation supports accountability and controlled circulation.
+Revocation should be evidence-based and approved. The ledger should preserve the original grant, affected amount, reason class, effective date, and final disposition.
 
-It should follow documented policy and proper review.
-
----
-
-## 5. Token, Credits, Stablecoins, and Wallet Relationship
-
-Team, advisor, partner, and contributor vesting sits inside the FUZE token model and remains separate from Platform Credits, stablecoin compensation, product revenue, approved distributable value, and wallet-based participation ability.
-
-| System | Public Role | Vesting Relationship |
-|---|---|---|
-| FUZE token | Single ecosystem token | Used for long-term alignment, vesting, contribution recognition, and ecosystem participation |
-| Platform Credits | Product usage credits | Credits power product usage and do not replace compensation or token vesting |
-| Stablecoins | Payment, settlement, treasury, and compensation rails | Used for work payment, contractor payment, vendor payment, and operating compensation where approved |
-| Product revenue | Revenue from FUZE products and services | Can support operations and stablecoin compensation after confirmation and review |
-| Approved distributable value | Reviewed value from defined product revenue pools where an active framework exists | Separate from team/advisor/partner vesting |
-| Wallet-based participation ability | Possible activation-gated token-related framework | Separate from vesting and compensation |
-
-This separation protects public understanding.
-
-Stablecoins pay for work.
-
-FUZE tokens align long-term participation.
-
-Platform Credits power product usage.
+Returned tokens retain their source allocation unless formal reclassification occurs.
 
 ---
 
-## 6. Controls, Gates, and Governance
+## 15. Corrections
 
-Team, advisor, partner, and contributor vesting requires controls.
+Calculation, schedule, recipient, custody, or reporting errors require a correction record.
 
-Important controls include:
+The record should show the prior entry, corrected entry, cause, affected vesting periods, released amount impact, recovery or supplemental release treatment, approval, and downstream reports.
 
-- allocation category
-- role definition
-- contribution scope
-- vesting schedule
-- cliff period where applicable
-- lockup terms
-- milestone terms
-- public-safe reporting
-- revocation rules
-- reallocation rules
-- vault separation
-- custody and wallet rules
-- private agreement records
-- stablecoin compensation separation
-- treasury approval where applicable
-- legal review
-- tax review where applicable
-- accounting review where applicable
-- jurisdiction review
-- governance approval
-- multisig controls where applicable
-- timelock controls where applicable
-- conflict-of-interest review where appropriate
-- anti-abuse review where appropriate
-
-### 6.1 Vesting, Unlock, Release, Transfer, Sale, and Circulation
-
-FUZE separates the public meaning of vesting, unlock, release, transfer, sale, and circulation.
-
-| Term | Public Meaning |
-|---|---|
-| Vesting | Tokens become available over time or under rules |
-| Cliff | Initial waiting period before release begins |
-| Unlock | Restriction ends or changes under defined rules |
-| Release | Tokens move or become available under a defined process |
-| Transfer | Tokens move from one wallet or account to another |
-| Sale | A token holder sells tokens into a market or buyer arrangement |
-| Circulation | Tokens are considered active circulating supply under a reporting method |
-| Lockup | Tokens remain restricted after allocation or access |
-| Claim | Eligible party claims tokens under an active claim process |
-| Revocation | Unvested or unearned allocation is cancelled, returned, or retained under policy |
-
-These terms should not be treated as the same thing.
-
-A vested token can still remain subject to custody, policy, lockup, transfer, or reporting context.
-
-An unlock does not automatically mean sale.
-
-A transfer does not automatically mean market circulation.
-
-### 6.2 Vault Separation
-
-Vesting should use vault separation where practical.
-
-Relevant vaults include:
-
-| Vault | Role |
-|---|---|
-| Team Vesting Vault | Holds team allocation under vesting rules |
-| Advisor / Strategic Contributor Vault | Holds advisor, contributor, expert, and operator allocation under vesting or milestone rules |
-| Ecosystem Growth & Partnerships Vault | Holds partner, grant, integration, and ecosystem milestone allocation |
-| Treasury Reserve Vault | Supports approved stablecoin compensation, strategic programs, or operating support |
-| Foundation Reserve Vault | Supports long-term stewardship and reserve logic |
-| Transparency / Stability Vault | Supports exceptional trust or stability needs under governance controls |
-
-Vault separation helps public readers understand allocation purpose and release logic.
-
-### 6.3 Stablecoin Compensation Controls
-
-Stablecoin compensation can help FUZE pay contributors, vendors, contractors, advisors, operators, and service providers for real work.
-
-Stablecoin compensation can require:
-
-- approved scope
-- invoice or milestone
-- delivery evidence
-- treasury approval
-- payment record
-- tax or accounting review where applicable
-- jurisdiction review where applicable
-- public-safe category reporting where appropriate
-
-Stablecoin compensation reduces pressure to use FUZE token for short-term work payment.
-
-This helps preserve token allocations for long-term alignment.
-
-### 6.4 Public-Safe Reporting
-
-Public-safe reporting can show aggregate status without exposing private records.
-
-Reporting can include:
-
-- total team allocation
-- total advisor / contributor allocation
-- total partner allocation
-- high-level vesting direction
-- locked amount
-- released amount
-- remaining amount
-- milestone release status
-- revocation category updates
-- vault category status
-- stablecoin compensation category summaries where appropriate
-- governance reference where appropriate
-- report hash where appropriate
-
-Public reporting should avoid exposing:
-
-- employee names unless voluntarily public
-- private investor identity
-- private contributor identity
-- private contract terms
-- private advisor agreements
-- private partner agreements
-- payroll records
-- tax records
-- legal workpapers
-- accounting workpapers
-- sensitive treasury procedures
-- private wallet ownership where privacy controls apply
-
-Reporting supports transparency.
-
-It does not create financial assurance.
+A later change in relationship terms is an amendment rather than a correction. Keeping the two event types separate preserves an accurate history.
 
 ---
 
-## 7. Reporting and Transparency Direction
+## 16. Public Reporting
 
-FUZE can report team, advisor, partner, and contributor vesting in public-safe ways.
+Public reports can include:
 
-Reporting can include:
+- source allocation and total approved value;
+- aggregate number or class of grants;
+- unvested, vested unreleased, released, cancelled, and returned amounts;
+- high-level schedule or milestone approach;
+- period releases and corrections;
+- remaining category balance;
+- methodology and report date.
 
-- allocation category
-- allocation amount
-- allocation percentage
-- vault name
-- release logic
-- vesting direction
-- lockup status
-- released amount
-- locked amount
-- remaining amount
-- milestone status
-- revocation status where applicable
-- stablecoin compensation separation
-- policy reference
-- governance reference
-- report hash
-- public boundary
+The public layer should exclude personal compensation, private contracts, customer data, partner negotiations, professional advice, account credentials, and personal wallet ownership.
 
-A useful vesting report should explain:
-
-- which allocation category is being discussed
-- whether the allocation is time-based, milestone-based, role-based, or contribution-based
-- how much is locked, released, or remaining
-- what public-safe controls apply
-- what remains private
-- what the release does not imply
-
-Public reporting can build trust while protecting privacy and private agreements.
+Reports should distinguish team, advisor or contributor, and partner categories. Combining them into one total can obscure different mandates and release conditions.
 
 ---
 
-## 8. Market, Legal, or Operational Context
+## 17. Boundaries
 
-### 8.1 Product-First Alignment
+This paper defines grant administration and release conditions. It does not announce individual grants, recipient identities, fixed schedules, current token availability, or financial outcomes.
 
-Vesting should support FUZE’s product-first execution model.
+Vesting controls supply timing and contribution alignment. Product delivery, partner success, market access, liquidity, and token price remain separate outcomes.
 
-FUZE launch focus is HerHelp.com and ZAGA.io, supported by FUZE Core Platform rails and accelerated internally by Botmad.
-
-Team, advisor, partner, and contributor alignment should support:
-
-- HerHelp product delivery
-- ZAGA utility surfaces
-- ZAGA Arena and ZAGA Districts
-- ShopOS AI
-- SheetLayer AI
-- SpeakShop AI
-- TrainLayer AI
-- CommunityLayer AI
-- QTB
-- AIMM
-- AIE
-- ToolGrid AI
-- Botmad
-- FUZE Core Platform rails
-- public reporting
-- governance readiness
-- stablecoin compensation separation
-- controlled circulation
-
-This keeps token allocation connected to actual platform execution.
-
-### 8.2 Strategic Partner Context
-
-Strategic partner allocation should connect to real ecosystem value.
-
-Potential partner value can include:
-
-- product integration
-- distribution
-- user onboarding
-- community activation
-- enterprise channel access
-- developer ecosystem support
-- event support
-- sponsored visibility ecosystem
-- infrastructure
-- data
-- AI workflows
-- payment rails
-- security
-- reporting
-- localization
-- support operations
-
-Partner release should depend on defined scope, milestone, delivery evidence, and review.
-
-### 8.3 Private Seed Context
-
-Seed round discussions are private strategic fundraising conversations.
-
-Seed-related token exposure, where applicable, remains separate from:
-
-- Community Participation Round
-- Public Vault Access Windows
-- Platform Credits
-- stablecoin compensation
-- wallet-based participation ability
-- approved distributable value
-- public market access
-
-Private seed-related exposure should be explained carefully in investor materials and public boundary papers.
-
-### 8.4 Market Boundary
-
-Vesting is an alignment and controlled-circulation mechanism.
-
-It does not guarantee:
-
-- token demand
-- token price
-- exchange listing
-- liquidity
-- trading volume
-- market-making result
-- price support
-- resale availability
-- exit opportunity
-- investment return
-
-Market access, custody, liquidity operations, exchange support, and public trading environments require separate boundary language and review.
+Detailed category and market risks are maintained in [FUZE Token Risk Boundaries](29-FUZE_TOKEN_RISK_BOUNDARIES_PUBLIC.md).
 
 ---
 
-## 9. Risk and Disclosure Reference
+## Conclusion
 
-Important public boundaries include:
+FUZE team, advisor, contributor, and partner grants should earn their release through clear time, service, or milestone conditions.
 
-- Team, advisor, partner, and contributor allocations support long-term alignment.
-- Vesting, unlock, release, transfer, sale, and circulation are separate concepts.
-- Stablecoins pay for work.
-- FUZE tokens align long-term participation.
-- Platform Credits power product usage.
-- Team Allocation is separate from Community Participation Allocation.
-- Advisor / Strategic Contributor Allocation is separate from Holder Incentives.
-- Ecosystem Growth & Partnerships allocation is milestone-oriented and separate from liquidity-related operations.
-- Private seed-related token exposure is separate from public participation and public vault access.
-- Revocation can apply to unvested or unearned allocation under policy.
-- Public reporting can show aggregate categories without exposing private agreements or personal identity.
-- Wallet-based participation ability remains activation-gated.
-- FUZE token does not guarantee payout, income, yield, profit, token price, listing, liquidity, market support, exit, game earnings, business revenue, user growth, community growth, approved distributable value, wallet eligibility, or investment return.
-
-More detailed boundaries are handled in dedicated papers, including:
-
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/11-FUZE_STABLECOIN_COMPENSATION_POLICY_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/12-FUZE_CONTROLLED_CIRCULATION_POLICY_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/13-FUZE_TOKEN_RELEASE_AND_CIRCULATION_CLARITY_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/14-FUZE_VAULT_AND_RESERVE_POLICY_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/15-FUZE_VAULT_BY_VAULT_RELEASE_RULES_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/23-FUZE_SEED_ROUND_AND_TOKEN_RELATED_EXPOSURE_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/24-FUZE_GOVERNANCE_MULTISIG_TIMELOCK_MODEL_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/29-FUZE_TOKEN_RISK_BOUNDARIES_PUBLIC.md`
-- `INVESTOR-PARTNER-PAPERS/12-FUZE_ROUND_STRUCTURE_AND_USE_OF_FUNDS_PUBLIC.md`
-- `INVESTOR-PARTNER-PAPERS/17-FUZE_INVESTOR_RISK_DISCLOSURE_PUBLIC.md`
-
-This paper focuses on team, advisor, partner, and contributor vesting while deeper compensation, circulation, seed-round, governance, investor, and risk topics remain in dedicated papers.
-
----
-
-## 10. Key Takeaways
-
-- FUZE Team Advisor Partner Vesting explains how FUZE treats long-term token exposure for team, advisors, partners, strategic contributors, builders, operators, service providers, and private seed-related participants.
-- FUZE uses one ecosystem token: FUZE token.
-- FUZE token supply is fixed at 500,000,000 FUZE.
-- Team Allocation is 45,000,000 FUZE, equal to 9.00% of supply.
-- Advisors / Strategic Contributors allocation is 15,000,000 FUZE, equal to 3.00% of supply.
-- Ecosystem Growth & Partnerships allocation is 40,000,000 FUZE, equal to 8.00% of supply.
-- Vesting supports long-term alignment and controlled circulation.
-- Milestone release connects partner and contributor allocation to delivery evidence.
-- Revocation protects the ecosystem from unearned or unvested allocation.
-- Stablecoins pay for work.
-- FUZE tokens align long-term participation.
-- Platform Credits power product usage.
-- Public reporting can show aggregate vesting and release categories without exposing private agreements or personal identity.
-- Vesting supports alignment and transparency without creating payout, price, liquidity, listing, market-support, or investment-return promises.
+Approved grant records, measurable evidence, reconciled ledgers, controlled custody, amendment discipline, revocation rules, and aggregate reporting connect long-term token alignment to actual relationships while keeping private terms and identity outside the public record.

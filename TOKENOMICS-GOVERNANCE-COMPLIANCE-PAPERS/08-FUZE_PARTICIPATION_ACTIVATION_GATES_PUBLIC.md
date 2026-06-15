@@ -2,852 +2,397 @@
 
 ## Executive Summary
 
-FUZE Participation Activation Gates explains the readiness gates required before any wallet-based participation claim logic can become active.
+FUZE participation activation gates are the documented conditions that must be satisfied before wallet-based participation can move from design or readiness into an active operating state.
 
-FUZE uses one ecosystem token only: **FUZE token**.
+The gates cover legal, accounting, treasury, audit, reporting, technical, eligibility, privacy, operating, product-revenue, approved-value, and jurisdiction readiness. Each gate requires an owner, evidence, status, dependencies, decision, review date, and conditions for continued approval.
 
-FUZE token is the single ecosystem token of FUZE. It supports product-connected utility, ecosystem participation, platform alignment, governance direction where applicable, community participation structures, and wallet-based participation ability where activated under required controls.
+Readiness is not activation. Policies, calculations, contracts, vaults, snapshots, reports, and support processes can be prepared or tested while the mechanism remains unavailable. Activation requires a separate authorized decision that identifies the exact scope, effective time, eligible population, value period, contracts or systems, and public notice.
 
-Wallet-based participation ability is a possible FUZE token-related framework where eligible FUZE-holding wallets may participate in approved distributable value from defined FUZE product revenue pools if the framework becomes active.
-
-This ability is not a second token.
-
-It is not automatic for every wallet.
-
-It is not active as a guaranteed public payout right.
-
-Activation gates are required because wallet-based participation touches sensitive areas:
-
-- product revenue
-- Platform Credit revenue treatment
-- stablecoin payment treatment
-- accounting controls
-- treasury controls
-- approved distributable value
-- wallet eligibility
-- custody treatment
-- privacy
-- jurisdiction rules
-- smart contracts
-- public reports
-- audits
-- dispute processes
-- claim logic
-- public wording
-
-FUZE can build transparency and readiness rails early, including vault records, report hash registries, multisig controls, timelocks, conversion proof records, audit records, eligibility concepts, and snapshot logic where appropriate.
-
-However, live participation claim logic does not activate until legal, accounting, treasury, audit, reporting, smart-contract, eligibility, privacy, operator, product-revenue, approved-distributable-value, and jurisdiction gates are ready.
-
-Platform Credits are product usage credits and are separate from FUZE token.
-
-Stablecoins are payment, settlement, treasury, and operational compensation rails.
-
-Product revenue, if generated, requires reconciliation and does not automatically become approved distributable value.
-
-FUZE does not guarantee payout, income, dividend, yield, profit, token price, listing, liquidity, market support, trading volume, exit, game earnings, business revenue, user growth, community growth, approved distributable value, claim availability, wallet eligibility, smart-contract security, or investment return.
+This paper owns the gate register and decision process. It does not repeat the detailed wallet workflow, approved distributable value calculation, smart-contract design, or privacy model maintained in their primary papers.
 
 ---
 
-## 1. Purpose of This Paper
+## 1. Gate Objective
 
-This paper explains the activation gates for wallet-based participation ability.
+The gate system exists to prevent a sensitive mechanism from becoming active because one technical component is ready while other required controls remain unresolved.
 
-It defines:
+It provides:
 
-- what participation activation gates are
-- why FUZE needs activation gates before any live claim logic
-- why readiness is different from activation
-- which legal, accounting, treasury, audit, reporting, smart-contract, eligibility, privacy, operator, product-revenue, approved-distributable-value, and jurisdiction gates apply
-- what FUZE can build early for transparency
-- what cannot activate too early
-- how approved distributable value relates to activation
-- how wallet-level transparency works without public identity exposure
-- how smart-contract readiness differs from claim availability
-- how participation language is framed as activation-gated wallet-based participation
-- what public claims FUZE avoids before activation
+- a complete inventory of activation conditions;
+- accountable owners and reviewers;
+- consistent status terminology;
+- evidence requirements for each decision;
+- dependency and exception tracking;
+- a formal activation record;
+- pause, remediation, and reactivation procedures;
+- public-safe status reporting.
 
-This paper is not a payout policy, claim instruction, legal opinion, securities opinion, tax opinion, accounting policy, audit report, smart-contract audit, investment recommendation, token sale document, listing plan, liquidity plan, or financial-return promise.
-
-It is a public readiness and control paper.
+No single contract deployment, treasury balance, product-revenue report, wallet snapshot, audit activity, or policy document constitutes activation.
 
 ---
 
-## 2. Reader Problem This Paper Solves
+## 2. Scope of Activation
 
-Wallet-based participation can create confusion if readers cannot separate readiness, activation, eligibility, product revenue, approved distributable value, smart contracts, and claim availability.
+An activation decision must define its scope precisely.
 
-Readers may ask:
-
-- Is wallet-based participation already active?
-- Does smart-contract readiness mean claims are live?
-- Does a vault record mean value is distributable?
-- Does product revenue automatically create approved distributable value?
-- Does holding FUZE automatically create eligibility?
-- Does using FUZE products create eligibility?
-- Does buying Platform Credits create eligibility?
-- Does stablecoin payment create eligibility?
-- Does a snapshot automatically create claim rights?
-- Does ZAGA game activity count as approved distributable value?
-- Who checks legal, accounting, treasury, privacy, and jurisdiction readiness?
-- What happens if a claim process needs to pause?
-
-This paper solves that problem by defining activation gates.
-
-The core answer is:
-
-Readiness can be built before activation. Live claim logic activates only if all required gates are ready and the framework is approved.
-
----
-
-## 3. FUZE Public Position
-
-FUZE’s public position is:
-
-**Wallet-based participation ability may activate only if the participation framework becomes active and all required gates are ready.**
-
-The required gates include:
-
-| Gate | Public Meaning |
+| Scope element | Required definition |
 |---|---|
-| Legal gate | Public wording, legal status, eligibility, transfer rules, claim language, and jurisdiction treatment are reviewed |
-| Accounting gate | Revenue, costs, reserves, refunds, fees, taxes, and approved distributable value policy are defined |
-| Treasury gate | Vaults, reserves, multisig, timelock, approvals, payment rails, and treasury controls are ready |
-| Audit gate | Review, audit, verification, dispute window, evidence process, and correction process are ready |
-| Reporting gate | Public-safe reports, report hashes, dashboards, records, and status disclosures are ready |
-| Smart-contract gate | Readiness contracts and activation contracts are reviewed and ready where applicable |
-| Eligibility gate | Eligible wallet rules, custody treatment, transfer treatment, verification requirements, and exclusion rules are defined |
-| Privacy gate | Public wallet records are separated from private identity and off-chain verification |
-| Operator gate | Sensitive approval, treasury movement, activation, pause, and correction actions use role separation and governance controls |
-| Product-revenue gate | Defined product revenue pools, product usage records, payment records, and reconciliation paths are ready |
-| Approved-distributable-value gate | Approved distributable value calculation, deductions, reserves, review, and approval process are ready |
-| Jurisdiction gate | Country, residency, securities, tax, exchange, custody, payment, and distribution rules are reviewed |
+| Mechanism | The participation function being activated |
+| Product-revenue pool | The defined source period and product scope, where applicable |
+| Approved value | The reviewed amount and approval reference |
+| Eligible population | Supported wallet, custody, participant, and jurisdiction classes |
+| Record date | Snapshot or qualification period |
+| Claim or participation period | Opening, closing, and relevant cutoff times |
+| Technical systems | Contracts, networks, vaults, registries, and interfaces |
+| Operator | Responsible operating and support roles |
+| Public notice | Approved status, instructions, and boundaries |
+| Review period | Date or event that triggers reassessment |
 
-No live public participation claim logic exists before these gates are ready.
-
-Activation-gated means controlled, reviewed, conditional, and status-based.
-
-It does not mean guaranteed future activation.
+A gate can be ready for one limited scope and unresolved for another. For example, a self-custody pilot in one supported context does not establish readiness for exchange custody or every jurisdiction.
 
 ---
 
-## 4. Core Model
+## 3. Gate Register
 
-### 4.1 Why Activation Gates Are Required
+FUZE should maintain a controlled gate register.
 
-Wallet-based participation ability is sensitive because it may connect eligible FUZE-holding wallets to approved distributable value from defined FUZE product revenue pools if activated.
+Each entry includes:
 
-This creates important questions:
+1. gate identifier and name;
+2. accountable owner;
+3. required evidence;
+4. pass criteria;
+5. current status;
+6. dependencies and blocking issues;
+7. reviewer and decision;
+8. effective and expiry or review dates;
+9. conditions or limitations;
+10. linked remediation and change records.
 
-- What product revenue is included?
-- What revenue is excluded?
-- What product revenue pools are defined?
-- What costs are deducted?
-- What refunds, chargebacks, and failed payments are excluded?
-- What reserves are applied?
-- Which wallets are eligible?
-- Are exchange-held tokens supported?
-- Are transfer situations treated differently?
-- Which jurisdictions are allowed?
-- Is private verification required?
-- Are smart contracts reviewed?
-- Are reports public-safe?
-- Who approves activation?
-- Who approves treasury movement?
-- Who approves claim logic?
-- What happens if there is a dispute?
-- What happens if data is wrong?
-- What happens if a contract issue appears?
-- What happens if legal review changes?
-- What happens if a wallet is not eligible?
-- What happens if a jurisdiction becomes restricted?
-- What happens if a claim process needs to pause?
+The register should preserve prior decisions. A changed status should identify what changed, who approved it, and whether the activation scope is affected.
 
-Activation gates prevent premature claims.
+---
 
-They help FUZE avoid public confusion, legal risk, accounting risk, treasury risk, audit risk, technical risk, privacy risk, governance risk, investor misunderstanding, and community overexpectation.
-
-Boundary:
-
-Activation gates protect the framework, but they do not guarantee payout, participation activation, token price, liquidity, listing, exit, or investment return.
-
-### 4.2 Readiness Is Different From Activation
-
-FUZE may build readiness infrastructure before participation is active.
-
-Readiness means FUZE prepares systems, records, contracts, reporting, and controls.
-
-Activation means claim logic or participation distribution becomes live under approved rules.
-
-These are different.
+## 4. Status Vocabulary
 
 | Status | Meaning |
 |---|---|
-| Concept defined | The public model is explained |
-| Readiness infrastructure | Transparency, records, vaults, reports, compatibility systems, and review systems may be prepared |
-| Private review | Legal, accounting, treasury, audit, privacy, and jurisdiction review may occur |
-| Testnet or prototype | Smart-contract logic may be tested without public economic activation |
-| Gate-ready | Required gates are ready for final review |
-| Activated | Eligible-wallet participation claim logic becomes active under approved rules |
-| Paused | Activation or claims may be paused because of legal, technical, treasury, audit, reporting, privacy, jurisdiction, or governance issue |
-| Retired | A framework may be discontinued or replaced if review shows it is not suitable |
+| Not started | No accepted evidence package exists |
+| In preparation | Owner is developing policy, process, system, or records |
+| Under review | Evidence has been submitted to the responsible reviewer |
+| Remediation required | Review found issues that must be resolved |
+| Conditionally ready | Pass criteria are met subject to stated limits or pre-activation actions |
+| Ready | Evidence satisfies the gate for the defined scope |
+| Expired | Prior readiness requires renewal or updated evidence |
+| Suspended | A material issue temporarily invalidates readiness |
+| Not applicable | The gate does not apply to the stated scope, with documented rationale |
 
-FUZE can be transparent about readiness without saying participation is active.
+“Not applicable” requires approval. It should not be used merely because evidence is difficult to obtain.
 
-Readiness does not mean activation.
-
-Activation does not mean guaranteed ongoing claim availability.
-
-### 4.3 Readiness Contracts vs Activation Contracts
-
-FUZE separates readiness contracts from activation contracts.
-
-Readiness contracts support proof, transparency, reporting, vault structure, and control before live claim logic exists.
-
-Activation contracts support live eligible-wallet claim logic only if the framework becomes active and all required gates are ready.
-
-| Category | Purpose | Public Boundary |
-|---|---|---|
-| Readiness contracts | Support transparency, records, vaults, report hashes, conversion proof, token release clarity, audit references, and compatibility | Not payout systems |
-| Activation contracts | Support eligibility, snapshots, distribution vaults, transfer restrictions, and claims if activated | Not active until all gates are ready |
-
-This separation allows FUZE to build Web3 transparency early while avoiding premature payout promises.
-
-Boundary:
-
-A readiness contract is not an active distribution or claim system.
-
-### 4.4 Long-Term Participation Boundary
-
-FUZE’s public position is:
-
-**Wallet-based participation ability is a possible long-term design direction inside the one-token model. It is not immediate, not guaranteed, not automatic, and not a current public payout framework. Any future framework requires legal, accounting, treasury, technical, governance, privacy, reporting, and transparency readiness.**
-
-FUZE does not present token ownership as:
-
-- automatic profit rights
-- automatic revenue rights
-- automatic payout rights
-- automatic cash-flow rights
-- investment-yield rights
-- ownership rights
-- regulated-right entitlement
-- immediate benefit
-- guaranteed future benefit
-
-Product revenue can support operations, stablecoin compensation, infrastructure, treasury planning, product expansion, reserves, and transparency.
-
-Any future wallet-based participation framework remains separate and subject to readiness, approval, and public-safe rules.
+The overall mechanism remains pre-activation until every required gate is `Ready` or `Conditionally ready` with all pre-activation conditions completed.
 
 ---
 
-## 5. Token, Credits, Stablecoins, and Wallet Relationship
+## 5. Required Gates
 
-Participation activation gates sit inside the broader FUZE token model.
+### 5.1 Legal gate
 
-| System | Public Role | Activation Relationship |
-|---|---|---|
-| FUZE token | Single ecosystem token | Wallet-based participation ability is connected to eligible FUZE-holding wallets only if activated |
-| Platform Credits | Product usage credits | Credit usage does not activate eligibility or claim logic |
-| Stablecoins | Payment, settlement, treasury, and compensation rails | Stablecoin payments require reconciliation and do not automatically create claim rights |
-| Product revenue | Revenue from defined FUZE products or services | Requires confirmation, reconciliation, review, and approved-pool definition |
-| Approved distributable value | Reviewed and approved value from defined product revenue pools | Relevant only if framework is active and approved |
-| Wallet records | Public-safe record layer | Can support transparency without public identity exposure |
-| Smart contracts | Readiness and activation rails where applicable | Do not replace legal, accounting, treasury, audit, privacy, or jurisdiction review |
+**Objective:** Confirm that the proposed operating structure, rights, communication, eligibility, restrictions, and user process have received appropriate legal review for the defined scope.
 
-This relationship protects public clarity.
+Evidence can include a current issue list, approved public language, participant terms, jurisdiction treatment, rights analysis, transfer and claim treatment, dispute provisions, and required private advice.
 
-Product usage remains product usage.
+**Pass condition:** Material legal questions have an approved treatment, required restrictions are implementable, and public materials match the reviewed structure.
 
-Platform Credits remain product usage credits.
+### 5.2 Accounting gate
 
-Stablecoins remain payment and settlement rails.
+**Objective:** Establish consistent recognition, classification, deduction, reserve, period, and reconciliation methods for the product-revenue pool and approved value.
 
-FUZE token remains the single ecosystem token.
+Evidence can include accounting memos, source-system mappings, revenue and cost definitions, Platform Credit treatment, stablecoin and fiat treatment, refund and chargeback handling, period-close procedures, and reviewer signoff.
 
-Wallet-based participation ability remains activation-gated.
+**Pass condition:** The source records and calculation can be reproduced, reconciled, reviewed, corrected, and reported.
+
+### 5.3 Treasury gate
+
+**Objective:** Confirm that custody, reserves, approvals, settlement assets, transaction execution, and reconciliation are controlled.
+
+Evidence can include vault mapping, signer and authority records, multisig or equivalent controls, transaction limits, emergency procedures, settlement workflow, balance reconciliation, and segregation from operating funds.
+
+**Pass condition:** An authorized movement can be executed and reconciled without relying on one person or mixing unrelated balances.
+
+### 5.4 Audit and assurance gate
+
+**Objective:** Provide independent or appropriately separated review of the records, calculations, controls, and exceptions relevant to activation.
+
+Evidence can include review procedures, test samples, findings, correction logs, contract-review references, report hashes, and an open-issues register.
+
+**Pass condition:** Material findings are resolved or formally accepted within the defined scope, and evidence remains available for later review.
+
+### 5.5 Reporting gate
+
+**Objective:** Ensure that participants and public readers can understand current status, scope, calculation period, eligibility, activity, corrections, and limitations.
+
+Evidence can include report templates, data mappings, metric definitions, publication workflow, correction history, and privacy review.
+
+**Pass condition:** FUZE can publish accurate, timely, public-safe reports that distinguish readiness, activation, approval, claim, and completion states.
+
+### 5.6 Smart-contract and technical gate
+
+**Objective:** Confirm that the required contracts, applications, data sources, wallet flows, monitoring, pause controls, and support systems behave as approved.
+
+Evidence can include specifications, deployment status, tests, security review, role configuration, network and wallet support, failure handling, monitoring, incident exercises, and verified interfaces.
+
+**Pass condition:** The active configuration matches the reviewed specification, critical findings are addressed, privileged actions are controlled, and the system can be paused or corrected where designed.
+
+Detailed contract readiness belongs in [FUZE Smart Contract Readiness and Activation Gates](25-FUZE_SMART_CONTRACT_READINESS_AND_ACTIVATION_GATES_PUBLIC.md).
+
+### 5.7 Eligibility gate
+
+**Objective:** Define who qualifies and how the decision is evidenced.
+
+Evidence can include wallet requirements, holding or record rules, supported custody, snapshot logic, exclusions, transfer treatment, duplicate controls, verification needs, dispute routes, and test cases.
+
+**Pass condition:** The same facts produce consistent eligibility results, unsupported cases are identified, and corrections can be processed without arbitrary decisions.
+
+### 5.8 Privacy gate
+
+**Objective:** Preserve public wallet transparency without exposing personal identity or unnecessary private records.
+
+Evidence can include data inventory, purpose and retention rules, access roles, identity-wallet separation, public report fields, deletion and correction procedures, security controls, and vendor treatment.
+
+**Pass condition:** Public outputs reveal only approved address-level or aggregate information, while permissioned identity and support records remain protected.
+
+### 5.9 Operator and governance gate
+
+**Objective:** Confirm that FUZE has the people, authority, procedures, support capacity, and change controls required to run the mechanism.
+
+Evidence can include role assignments, approval matrix, operating runbook, training, support procedures, escalation paths, incident response, change control, pause authority, and succession coverage.
+
+**Pass condition:** Named operators can execute the full workflow, reviewers remain separated from sensitive execution where required, and no critical action depends on an undocumented individual.
+
+### 5.10 Product-revenue gate
+
+**Objective:** Confirm that the defined product-revenue pool is supported by settled, classified, and reconcilable product records.
+
+Evidence can include invoices, payment and settlement records, Platform Credit mappings, refunds, chargebacks, taxes, fees, product costs, partner shares, period cutoffs, and source ownership.
+
+**Pass condition:** Included revenue can be traced to the defined products and period, excluded receipts remain separated, and material uncertainty is resolved or reflected in the calculation.
+
+### 5.11 Approved-distributable-value gate
+
+**Objective:** Confirm that value proposed for the activated mechanism has passed the required deductions, reserves, reviews, and approvals.
+
+Evidence can include the approved-value calculation, reserve rationale, treasury availability, legal and accounting reviews, governance approval, version history, and public reporting record.
+
+**Pass condition:** The amount is final for the stated period and scope, authorized for the mechanism, and reconciled to the relevant treasury records.
+
+The detailed calculation model is maintained in [FUZE Approved Distributable Value Model](09-FUZE_APPROVED_DISTRIBUTABLE_VALUE_MODEL_PUBLIC.md).
+
+### 5.12 Jurisdiction gate
+
+**Objective:** Define where and for whom the mechanism can operate under the approved legal, tax, payment, custody, data, and communication treatment.
+
+Evidence can include supported and restricted scope, participant representations, screening requirements, local advice, custody limitations, tax communication, and change-monitoring procedures.
+
+**Pass condition:** The system and user process can enforce the approved scope, and changes can trigger timely restriction, pause, or review.
 
 ---
 
-## 6. Controls, Gates, and Governance
-
-### 6.1 Legal Gate
-
-The legal gate exists because wallet-based participation ability may involve legal and regulatory questions.
-
-Legal review may need to examine:
-
-- whether the framework creates regulated rights
-- public wording
-- eligibility rules
-- wallet-based records
-- transfer restrictions where required
-- claim process
-- investor communication
-- community communication
-- product revenue pool treatment
-- approved distributable value wording
-- smart-contract claim wording
-- public dashboard wording
-- dispute and pause rights
-- jurisdiction availability
-- private verification requirements
-- identity or screening requirements where applicable
-- securities, commodities, payment, exchange, tax, and corporate law considerations where applicable
-
-FUZE does not activate live claim logic until legal review supports the structure in the relevant context.
-
-Legal review may also determine that some jurisdictions, wallet types, participants, or transfer situations require restrictions.
-
-Boundary:
-
-Legal review readiness does not guarantee that every jurisdiction, wallet, investor, community member, or holder can participate.
-
-### 6.2 Accounting Gate
-
-The accounting gate exists because product revenue and approved distributable value are not the same thing.
-
-Before activation, FUZE needs a defined accounting model for:
-
-- product revenue recognition
-- Platform Credit revenue treatment
-- stablecoin payment treatment
-- fiat payment treatment where applicable
-- refunds
-- chargebacks
-- failed payments
-- unpaid invoices
-- promotional credits
-- bonus credits
-- fees
-- taxes
-- operating expenses
-- product-specific costs
-- AI usage costs
-- infrastructure costs
-- support costs
-- vendor costs
-- partner shares
-- contributor compensation
-- reserve policy
-- treasury separation
-- timing of revenue recognition
-- cost allocation by product revenue pool
-- approved distributable value calculation
-- reporting periods
-- audit trail
-- dispute process
-
-Approved distributable value can exist only after reconciliation and review.
-
-Gross revenue is not approved distributable value.
-
-Product revenue does not automatically become approved distributable value.
-
-Boundary:
-
-Accounting readiness does not guarantee product revenue, approved distributable value, payout, income, profit, yield, or investment return.
-
-### 6.3 Treasury Gate
-
-The treasury gate exists because any approved participation distribution, if activated, requires controlled treasury handling.
-
-Treasury readiness may include:
-
-- treasury vault separation
-- reserve vault separation
-- product revenue records
-- stablecoin payment records
-- conversion proof records
-- operating wallet separation
-- distribution vault if activated
-- multisig controls
-- timelock controls
-- role-based approvals
-- emergency pause process
-- payment rail review
-- transaction recordkeeping
-- treasury reconciliation
-- reserve policy
-- operational expense policy
-- no single-person control over sensitive movement
-- public-safe treasury reporting where appropriate
-
-Treasury controls separate operational funds, reserves, product revenue, credit payments, token-related vaults, and any possible distribution vault.
-
-Boundary:
-
-A treasury vault, reserve vault, or visible wallet does not automatically mean funds are approved distributable value.
-
-### 6.4 Audit Gate
-
-The audit gate exists because participation logic requires trust in records, calculations, contracts, and reports.
-
-Audit readiness may include:
-
-- revenue records
-- payment records
-- refund records
-- chargeback records
-- cost records
-- reserve records
-- allocation records
-- vault records
-- snapshot records where applicable
-- eligibility records
-- claim records where applicable
-- smart-contract review records
-- treasury movement records
-- dispute and correction records
-- public report evidence
-- report hashes where appropriate
-
-Audit readiness supports reviewability.
-
-Boundary:
-
-Audit readiness does not guarantee that a claim will be available or that approved distributable value will exist.
-
-### 6.5 Reporting Gate
-
-The reporting gate exists because public-facing participation logic requires public-safe explanations.
-
-Reporting readiness may include:
-
-- participation model status
-- gate status
-- allocation status
-- vault status
-- revenue pool definitions where applicable
-- approved distributable value status where applicable
-- eligibility-rule summaries
-- snapshot summaries where applicable
-- claim status where applicable
-- privacy boundary summaries
-- jurisdiction boundary summaries
-- public report hashes
-- public risk reminders
-
-Reports must be understandable and accurate enough for public readers.
-
-Reporting should clearly distinguish:
-
-- readiness from activation
-- product revenue from approved distributable value
-- wallet records from personal identity
-- Platform Credits from FUZE token
-- stablecoin payments from participation rights
-- smart-contract readiness from live claims
-
-Boundary:
-
-Public reporting does not guarantee payout, eligibility, approved distributable value, claim availability, or investment return.
-
-### 6.6 Smart-Contract Gate
-
-The smart-contract gate exists because on-chain systems can create public expectations.
-
-Smart-contract readiness may include:
-
-- contract design
-- testnet review
-- security review
-- role review
-- pause logic
-- upgrade or immutability review
-- snapshot logic
-- claim logic where applicable
-- vault logic
-- report hash registry
-- release records
-- distribution vault controls where applicable
-- privacy review
-- legal and accounting review alignment
-
-FUZE may use readiness contracts before activation contracts.
-
-Readiness contracts can support transparency and recordkeeping.
-
-Activation contracts can support live claim logic only if the framework becomes active.
-
-Boundary:
-
-A smart contract does not replace legal, accounting, treasury, audit, privacy, eligibility, operator, or jurisdiction gates.
-
-### 6.7 Eligibility Gate
-
-The eligibility gate defines who may participate if a framework becomes active.
-
-Eligibility readiness may include:
-
-- eligible wallet definition
-- holding status rules
-- snapshot rules
-- custody treatment
-- exchange-held token treatment
-- transfer treatment
-- restricted wallet treatment
-- locked or vested token treatment
-- jurisdiction limitations
-- private verification requirements
-- exclusion rules
-- participation agreement requirements
-- dispute process
-- correction process
-- anti-abuse controls
-
-Eligibility is not automatic.
-
-Holding FUZE token alone does not automatically create eligibility.
-
-Using products, buying Platform Credits, participating in the Community Participation Round, or receiving migration communication does not automatically create eligibility.
-
-### 6.8 Privacy Gate
-
-The privacy gate protects users from public identity exposure.
-
-Wallet-level records can be public-safe, while personal information stays private or permissioned.
-
-Public-safe records may include:
-
-- wallet address
-- vault record
-- snapshot reference
-- eligibility status where applicable
-- claim status where applicable
-- report hash
-- allocation reference
-- release record
-- public status reference
-
-Private records may include:
-
-- names
-- emails
-- phone numbers
-- ID documents
-- addresses
-- tax records
-- legal agreements
-- eligibility support materials
-- payment support materials
-- accounting workpapers
-- treasury workpapers
-- restricted-jurisdiction review
-- customer records
-- investor records
-- contributor records
-
-Privacy readiness ensures that public transparency does not become public personal identity exposure.
-
-### 6.9 Operator and Governance Gate
-
-The operator gate ensures that FUZE has the human, technical, and governance capacity to operate participation logic.
-
-Operator readiness may include:
-
-- role separation
-- approval process
-- multisig signer readiness
-- timelock procedure
-- emergency pause process
-- support workflow
-- dispute resolution process
-- correction workflow
-- incident response
-- claim support
-- public communication process
-- internal access controls
-- documentation
-- review records
-
-Governance readiness may include:
-
-- approval path
-- change management
-- release-rule review
-- treasury review
-- reporting review
-- legal and accounting coordination
-- public notice process
-
-Boundary:
-
-Operator readiness does not guarantee activation, payout, claim availability, or market outcome.
-
-### 6.10 Product-Revenue and Approved-Distributable-Value Gate
-
-The product-revenue gate and approved-distributable-value gate are central to participation activation.
-
-Product-revenue readiness may include:
-
-- defined product revenue pools
-- product usage records
-- invoices
-- payment records
-- Platform Credit treatment
-- stablecoin payment records
-- refunds
-- chargebacks
-- failed payments
-- product-specific costs
-- AI usage costs
-- support costs
-- infrastructure costs
-- partner shares
-- taxes
-- reserves
-- reporting periods
-- reconciliation process
-
-Approved-distributable-value readiness may include:
-
-- excluded categories
-- deduction policy
-- reserve policy
-- legal review
-- accounting review
-- treasury review
-- audit review
-- governance approval
-- public-safe reporting
-- claim-period definition where activated
-
-Approved distributable value is narrower than product revenue.
-
-It is not gross revenue.
-
-It is not token sale proceeds.
-
-It is not seed-round funds.
-
-It is not game rewards.
-
-It is not general treasury balance.
-
-It is not Platform Credit balance.
-
-Boundary:
-
-Product revenue does not automatically become approved distributable value.
-
-Approved distributable value does not automatically create a payout.
-
-### 6.11 Jurisdiction Gate
-
-The jurisdiction gate addresses country, residency, legal-status, securities, tax, payment, exchange, custody, and distribution differences.
-
-Jurisdiction readiness may include:
-
-- restricted territory review
-- residency rules
-- sanctions screening where required
-- local securities review
-- local tax review
-- transfer restriction review
-- custody treatment
-- exchange-held wallet treatment
-- payment rail treatment
-- identity verification requirements where applicable
-- public communication restrictions
-- claim availability restrictions
-
-A framework can be ready in one context and restricted in another.
-
-Boundary:
-
-Jurisdiction readiness does not guarantee global availability.
+## 6. Gate Dependencies
+
+Gates are related but not interchangeable.
+
+| Dependency | Why it matters |
+|---|---|
+| Product revenue before approved value | Value cannot be approved from an undefined or unreconciled source pool |
+| Legal treatment before public notice | User rights and restrictions must match the reviewed structure |
+| Eligibility before snapshot finalization | The record method must reflect the rules it is meant to test |
+| Privacy before public reporting | Report fields must be designed before sensitive data is published |
+| Treasury before technical activation | Contracts and interfaces need an approved source and execution authority |
+| Technical readiness before operator signoff | Operators must train against the actual system |
+| Reporting before activation | Status and corrections need a usable publication route |
+| Audit after source records and calculation | Review requires stable evidence and a reproducible method |
+
+A gate owner should record upstream dependencies and avoid issuing final readiness based on assumed completion elsewhere.
 
 ---
 
-## 7. Reporting and Transparency Direction
+## 7. Evidence Pack
 
-Participation activation gates can support public-safe transparency.
+The activation evidence pack consolidates the current gate records.
 
-Reporting can include:
+It should contain:
 
-- gate status
-- readiness status
-- activation status
-- paused status
-- retired status
-- vault records
-- report hashes
-- snapshot references
-- eligibility summaries
-- privacy boundaries
-- jurisdiction summaries
-- product revenue pool status where applicable
-- approved distributable value status where applicable
-- smart-contract readiness status
-- public risk boundary reminders
+- activation scope statement;
+- gate register and status summary;
+- evidence index with owners and dates;
+- unresolved issue and remediation log;
+- approved-value and treasury references;
+- technical deployment and configuration references;
+- eligibility and privacy specifications;
+- operating runbook and support route;
+- public notice draft;
+- activation, pause, and rollback checklist;
+- decision record.
 
-Public reports should clearly state whether a framework is:
-
-- not active
-- in readiness
-- under review
-- gate-ready
-- activated
-- paused
-- retired
-
-Reporting should never blur readiness and activation.
-
-Reporting can build trust only when it is clear.
+Evidence can be public, permissioned, or restricted according to sensitivity. A public paper or dashboard should not imply that restricted evidence has been independently verified unless that review occurred.
 
 ---
 
-## 8. Market, Legal, or Operational Context
+## 8. Activation Review
 
-### 8.1 What FUZE Can Build Early
+The activation review should occur after gate owners submit their final status.
 
-FUZE can build infrastructure that supports future readiness without activating claim logic.
+The reviewer or authorized body should:
 
-This can include:
+1. confirm the exact activation scope;
+2. verify all required gates and conditions;
+3. examine unresolved issues and accepted limitations;
+4. test consistency between legal, accounting, treasury, eligibility, technical, privacy, and public materials;
+5. confirm operator and support readiness;
+6. approve, reject, defer, or narrow the proposed scope;
+7. set the effective time and next review trigger;
+8. authorize the public notice and activation checklist.
 
-- vault architecture
-- multisig controls
-- timelock controls
-- report hash registries
-- public-safe dashboards
-- allocation records
-- token release records
-- product revenue record models
-- Platform Credit records
-- stablecoin payment records
-- snapshot logic
-- testnet contracts
-- eligibility concepts
-- audit trail models
-- public documentation
-- product revenue pool definitions
-- risk boundary papers
-
-These systems can make FUZE more transparent and prepared.
-
-They do not make wallet-based participation active by themselves.
-
-### 8.2 What Cannot Activate Too Early
-
-FUZE should not activate live claim logic before the required gates are ready.
-
-The following should not be presented as active before approval:
-
-- eligible-wallet claims
-- approved distributable value claims
-- distribution contracts
-- payout dashboards
-- guaranteed claim calendars
-- unconditional eligibility
-- public claim portals
-- payout percentages
-- revenue distribution promises
-- fixed-yield or passive-income language
-- token-holder payout rights
-- game reward conversion into approved distributable value
-- Platform Credit conversion into participation rights
-
-This protects users and FUZE.
-
-### 8.3 Relationship to FUZE Products
-
-FUZE products may create product revenue pools only after product revenue is defined, recorded, confirmed, reconciled, and reviewed.
-
-Possible product revenue sources can include:
-
-- HerHelp AI SaaS usage
-- SheetLayer AI usage
-- ShopOS AI modules and shop workflows
-- SpeakShop AI scripts and sound packs
-- TrainLayer AI guides and learning workflows
-- CommunityLayer AI summaries and support workflows
-- ZAGA utility services where defined and approved
-- QTB market interpretation reports under financial-advice boundaries
-- AIMM market-operations summaries under market-outcome boundaries
-- AIE event intelligence reports
-- ToolGrid AI sponsored visibility under disclosure controls
-- Botmad supervised work-assistance sessions
-
-A product revenue source must be included in a defined and approved product revenue pool before it can be relevant to wallet-based participation ability.
-
-### 8.4 Market Boundary
-
-Participation activation gates do not create market protection.
-
-They do not guarantee:
-
-- token demand
-- token price
-- exchange listing
-- liquidity
-- trading volume
-- market-making result
-- price support
-- resale availability
-- exit opportunity
-- investment return
-
-Market access, custody, liquidity operations, exchange support, and public trading environments require separate boundary language and review.
+The decision should be recorded before live operation begins.
 
 ---
 
-## 9. Risk and Disclosure Reference
+## 9. Conditional Readiness and Exceptions
 
-Important public boundaries include:
+A gate can be conditionally ready when the remaining action is specific, low enough risk for the proposed scope, and capable of completion before activation or within an approved operating condition.
 
-- FUZE uses one ecosystem token: FUZE token.
-- Wallet-based participation ability is activation-gated.
-- Activation gates do not guarantee future activation.
-- Readiness is different from activation.
-- Readiness contracts are not payout systems.
-- Smart-contract readiness does not create claim availability.
-- Holding FUZE token alone does not automatically create eligibility.
-- Using FUZE products does not automatically create eligibility.
-- Buying or spending Platform Credits does not automatically create eligibility.
-- Stablecoin payment does not automatically create eligibility.
-- Product revenue does not automatically become approved distributable value.
-- Gross revenue, token sale proceeds, seed-round funds, treasury balances, game rewards, Platform Credit balances, and unreconciled payments are not approved distributable value.
-- Approved distributable value requires confirmation, reconciliation, review, exclusions, treasury control, approval, and an active framework.
-- Wallet-level transparency does not require public personal identity exposure.
-- Jurisdiction review may limit availability.
-- Public reporting supports transparency and does not create financial assurance.
-- FUZE token does not guarantee payout, income, dividend, yield, profit, token price, listing, liquidity, market support, trading volume, exit, game earnings, business revenue, user growth, community growth, approved distributable value, claim availability, wallet eligibility, smart-contract security, or investment return.
+The condition record should identify:
 
-More detailed boundaries are handled in dedicated papers, including:
+- outstanding action;
+- responsible owner;
+- deadline or trigger;
+- affected scope;
+- interim control;
+- consequence if incomplete.
 
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/03-FUZE_ONE_TOKEN_MODEL_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/07-FUZE_WALLET_BASED_PARTICIPATION_MODEL_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/09-FUZE_APPROVED_DISTRIBUTABLE_VALUE_MODEL_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/10-FUZE_PLATFORM_CREDITS_RELATIONSHIP_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/13-FUZE_TOKEN_RELEASE_AND_CIRCULATION_CLARITY_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/24-FUZE_GOVERNANCE_MULTISIG_TIMELOCK_MODEL_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/25-FUZE_SMART_CONTRACT_READINESS_AND_ACTIVATION_GATES_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/26-FUZE_WALLET_BASED_PRIVACY_AND_ELIGIBILITY_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/27-FUZE_EXCHANGE_CUSTODY_AND_WALLET_PARTICIPATION_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/28-FUZE_LEGAL_AND_COMPLIANCE_MESSAGING_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/29-FUZE_TOKEN_RISK_BOUNDARIES_PUBLIC.md`
-- `WHITEPAPER-PAPERS/04-FUZE_TOKEN_AND_WALLET_PARTICIPATION_ARCHITECTURE_PUBLIC.md`
-- `WHITEPAPER-PAPERS/05-FUZE_RISK_AND_DISCLOSURE_APPENDIX_PUBLIC.md`
+An exception cannot override a fundamental absence of legal authority, source-value reconciliation, treasury control, eligibility definition, privacy protection, or safe technical operation.
 
-This paper focuses on activation gates while deeper wallet, approved value, legal, custody, governance, smart-contract, and disclosure topics remain in dedicated papers.
+Repeated exceptions should trigger redesign rather than becoming the normal operating model.
 
 ---
 
-## 10. Key Takeaways
+## 10. Activation Checklist
 
-- FUZE Participation Activation Gates explains readiness gates required before any wallet-based participation claim logic can become active.
-- FUZE uses one ecosystem token: FUZE token.
-- Wallet-based participation ability is possible, token-related, eligibility-controlled, and activation-gated.
-- Wallet-based participation ability is not a second token, not automatic, and not active as a guaranteed public payout right.
-- Readiness is different from activation.
-- Readiness contracts are not activation contracts.
-- Live claim logic cannot exist before required gates are ready.
-- Required gates include legal, accounting, treasury, audit, reporting, smart-contract, eligibility, privacy, operator, product-revenue, approved-distributable-value, and jurisdiction gates.
-- Product revenue does not automatically become approved distributable value.
-- Approved distributable value requires confirmation, reconciliation, review, exclusions, treasury control, approval, and an active framework.
-- Wallet-level transparency does not require public identity exposure.
-- Smart contracts can support transparency, but they do not replace legal, accounting, treasury, audit, privacy, operator, eligibility, or jurisdiction review.
-- Platform Credits are product usage credits and remain separate from FUZE token.
-- Stablecoins are payment, settlement, treasury, and operational compensation rails.
-- Activation gates do not guarantee payout, claim availability, token price, listing, liquidity, income, yield, profit, exit, or investment return.
+Immediately before activation, FUZE should confirm:
+
+- gate statuses remain current;
+- approved value and treasury balances remain reconciled;
+- contract addresses, network, roles, and limits match the decision;
+- snapshot or eligibility records are finalized as approved;
+- public notice and user instructions are published;
+- support, monitoring, and incident channels are staffed;
+- pause authority is available;
+- reporting and correction processes are operational;
+- the effective time is recorded consistently across systems.
+
+If a material item differs from the approved evidence pack, activation should return to review.
+
+---
+
+## 11. Pause Triggers
+
+An active mechanism should pause or enter urgent review when a material issue affects:
+
+- legal or jurisdiction support;
+- source revenue or approved-value accuracy;
+- treasury custody or reconciliation;
+- contract security, availability, or privileged roles;
+- eligibility or snapshot integrity;
+- privacy or identity protection;
+- operator authority or support capacity;
+- public reporting accuracy;
+- sanctions, fraud, abuse, or duplicate claims;
+- third-party custody, network, oracle, or infrastructure reliability.
+
+The pause record should state the affected scope, effective time, known impact, temporary controls, investigation owner, communication plan, and conditions for resumption.
+
+A pause should preserve evidence and avoid exposing private participant details.
+
+---
+
+## 12. Remediation and Reactivation
+
+Reactivation is a new decision, not an automatic consequence of fixing one issue.
+
+FUZE should:
+
+1. identify root cause and affected records;
+2. correct systems, calculations, eligibility, communications, or controls;
+3. assess participant and treasury impact;
+4. retest the relevant workflow;
+5. obtain renewed gate decisions where evidence changed;
+6. update reports and correction history;
+7. authorize a revised scope and effective time.
+
+Material changes to rights, eligibility, value, custody, contracts, jurisdictions, or public language may require the full gate review.
+
+---
+
+## 13. Ongoing Gate Review
+
+Readiness can expire as products, laws, contracts, operators, data, custody models, or market infrastructure change.
+
+Gate owners should define review triggers such as:
+
+- a new product-revenue pool or calculation period;
+- material change in approved-value policy;
+- contract upgrade or network migration;
+- expanded custody or jurisdiction scope;
+- new data collection or identity process;
+- operator or signer change;
+- material incident or correction;
+- changed legal, accounting, tax, or audit advice;
+- prolonged inactivity before activation.
+
+The register should show the next review date or event for every ready gate.
+
+---
+
+## 14. Public Status Reporting
+
+FUZE can publish a concise activation status without exposing private advice, personal identity, security-sensitive details, or confidential workpapers.
+
+| Public field | Example treatment |
+|---|---|
+| Mechanism status | Design, preparation, under review, gate-ready, active, paused, or retired |
+| Scope | Supported product pool, custody class, network, period, or jurisdiction summary |
+| Gate summary | Ready, conditional, under review, or blocked counts with definitions |
+| Effective record | Activation, pause, or retirement date and version |
+| Approved value | Status and period where publication is appropriate |
+| Reports | Links to public-safe calculation, activity, correction, or audit references |
+| Changes | Material scope, rule, contract, or status updates |
+
+Gate-ready should not be described as active. A public dashboard should identify the authoritative decision record and latest update.
+
+---
+
+## 15. Relationship to the Participation Model
+
+The [FUZE Wallet-Based Participation Model](07-FUZE_WALLET_BASED_PARTICIPATION_MODEL_PUBLIC.md) explains eligible FUZE-holding wallets, custody treatment, snapshots, approved value, claims, privacy, and corrections where activated.
+
+This paper answers a narrower question: **what evidence and approvals must exist before that workflow can operate?**
+
+Community Participation Round access, product use, Platform Credit activity, stablecoin payments, token holding, or appearance in a draft snapshot do not satisfy the activation gates.
+
+---
+
+## 16. Public Boundary
+
+This gate framework is a readiness and governance model. It does not announce activation, create eligibility, approve value, open a claim period, or publish transaction instructions.
+
+Future activation depends on the evidence and decision for a defined scope. A gate can be delayed, restricted, suspended, or closed when requirements change.
+
+For consolidated risk treatment, use [FUZE Token Risk Boundaries](29-FUZE_TOKEN_RISK_BOUNDARIES_PUBLIC.md) and the [FUZE Risk and Disclosure Appendix](../WHITEPAPER-PAPERS/05-FUZE_RISK_AND_DISCLOSURE_APPENDIX_PUBLIC.md).
+
+---
+
+## Conclusion
+
+FUZE participation activation requires coordinated readiness across twelve gates and a separate authorized decision.
+
+The gate register turns broad readiness statements into accountable evidence, pass criteria, dependencies, conditions, and review dates. The activation, pause, and reactivation processes then ensure that live status follows the approved scope rather than technical preparation alone.
