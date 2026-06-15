@@ -8,7 +8,7 @@ The one-token model gives products, users, partners, contributors, wallets, cust
 
 One token does not mean one undifferentiated system. Platform Credits remain product-consumption units, while stablecoins can support defined payment and settlement activity. Product permissions, loyalty records, game values, access passes, points, badges, and internal accounting entries can exist without becoming additional ecosystem tokens.
 
-The design objective is coherence. Every proposed token-related feature should map to FUZE token or remain clearly outside the token layer. New rights, labels, wrapped forms, receipt assets, and partner integrations require review so they do not create a de facto second public token or imply rights that FUZE has not approved.
+The design objective is coherence. Every proposed token-related feature should map to FUZE token or remain clearly outside the token layer. New rights, labels, wrapped forms, receipt assets, and partner integrations require review so they do not create a competing token identity or imply rights that FUZE has not approved.
 
 This paper defines the architectural rationale, classification tests, integration rules, and change controls for maintaining that model. Detailed utility, allocation, wallet participation, and market policies remain in their specialist papers.
 
@@ -175,7 +175,7 @@ The product qualification and lifecycle process is described in [FUZE Product to
 
 ## 7. Participation Within the Model
 
-FUZE does not create a separate public participation token.
+Wallet-based participation ability remains a function within the FUZE token model.
 
 The Community Participation Round concerns eligible access to the Community Participation Allocation. It is an allocation and access process, not a new token identity.
 

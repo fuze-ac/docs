@@ -2,769 +2,391 @@
 
 ## Executive Summary
 
-FUZE Exchange Custody and Wallet Participation explains how FUZE treats self-custody, exchange custody, institutional custody, OTC transfer, wallet-level transparency, wallet-based eligibility, snapshots, claim support, transfer treatment, custody-unsupported status, and public communication around custody risk.
+Exchange and institutional custody separate the on-chain wallet from the customer who holds a beneficial account balance. A public exchange address can represent many users, while the exchange controls signing, deposits, withdrawals, internal transfers, and account records.
 
-FUZE uses one ecosystem token only: **FUZE token**.
+This structure affects any FUZE process that relies on wallet control, snapshots, beneficial ownership, direct contract interaction, or user-level claims. Support therefore depends on an approved custody mode, exchange cooperation, account evidence, cutoff rules, jurisdiction treatment, reconciliation, and participant communication.
 
-FUZE token is the single ecosystem token of FUZE. It supports product-connected utility, ecosystem participation, platform alignment, governance direction where applicable, community participation structures, and wallet-based participation ability where activated under required controls.
+FUZE can support self-custody directly where the active rules permit wallet signatures and address-level evidence. Exchange-held or omnibus balances can require withdrawal before a cutoff, exchange-provided records, an intermediary distribution process, or an unsupported status.
 
-Custody matters because wallet-based participation depends on wallet-level records, eligibility rules, snapshots, claim status, private verification where required, jurisdiction review, custody treatment, smart-contract readiness, reporting readiness, and activation status.
-
-A self-custody wallet may provide direct wallet-level visibility because the user controls the blockchain wallet directly.
-
-An exchange-custody account may not provide direct user-level visibility because the visible blockchain wallet usually belongs to the exchange, custodian, omnibus wallet, pooled account, or settlement system rather than the individual user.
-
-Exchange-held FUZE token may require separate treatment under active rules.
-
-OTC transfers may also affect eligibility assumptions. Buying FUZE token through OTC does not automatically transfer historical eligibility, snapshot status, claim status, private agreement rights, migration status, investor terms, contributor rights, or participation status unless active rules define that treatment.
-
-Platform Credits are product usage credits and are separate from FUZE token.
-
-Stablecoins are payment, settlement, treasury, and operational compensation rails.
-
-Wallet-based participation ability is a possible activation-gated framework inside the FUZE token model.
-
-FUZE uses wallet-level transparency without public identity exposure.
-
-FUZE does not guarantee payout, income, dividend, yield, profit, token price, listing, liquidity, market support, trading volume, exit, game earnings, business revenue, user growth, community growth, approved distributable value, wallet eligibility, claim availability, smart-contract security, AI accuracy, or investment return.
+This paper defines those custody modes and operating records. Listing or custody availability alone does not establish participation support.
 
 ---
 
-## 1. Purpose of This Paper
+## 1. Custody Objective
 
-This paper explains FUZE’s public model for exchange custody and wallet participation.
+The custody framework should answer:
 
-It defines:
+1. Who controls the on-chain address?
+2. Who is the beneficial holder?
+3. Which record establishes the user-level balance?
+4. Can the holder sign or interact directly?
+5. How are snapshot cutoffs and transfers handled?
+6. Who submits or receives a claim?
+7. How are aggregate and user records reconciled?
+8. What happens if the custodian cannot support the process?
 
-- what self-custody means
-- what exchange custody means
-- what institutional custody means
-- why custody matters for wallet-based participation
-- why exchange-held FUZE token may require separate treatment
-- how custody can affect snapshots, eligibility records, wallet proof, and claim support
-- how OTC transfer can affect wallet participation assumptions
-- how wallet-level transparency works without public identity exposure
-- why token ownership through an exchange account may need different treatment from direct wallet control
-- how exchange wallets, omnibus wallets, and pooled custody wallets may be treated
-- how users, investors, community members, and holders can understand transfer and custody risk
-- how custody relates to Platform Credits, stablecoins, FUZE token, Public Vault Access Windows, migration claims, and wallet-based participation ability
-- what public wording FUZE uses and avoids
-
-This paper is not an exchange policy, custody agreement, legal opinion, tax opinion, accounting policy, KYC policy, AML policy, claim instruction, token sale document, public investment offer, public solicitation, investment recommendation, listing announcement, liquidity guarantee, payout policy, or financial-return promise.
-
-It is a public custody and wallet-participation boundary paper.
+The objective is accurate user-level treatment where the custody model can support it.
 
 ---
 
-## 2. Reader Problem This Paper Solves
+## 2. Custody Types
 
-Wallet-based systems are easier to understand when the reader knows who controls the wallet and which records can be verified.
-
-A self-custody wallet, exchange account, omnibus wallet, institutional custody account, vesting wallet, treasury wallet, smart-contract wallet, or OTC settlement wallet can all hold or move tokens, but they do not create the same record situation.
-
-Readers may ask:
-
-- Is an exchange-held balance visible as the user’s wallet?
-- Can an exchange user sign a wallet message?
-- Can an exchange-held balance be included in a user-level snapshot?
-- Can an exchange support user-level claims?
-- Does a DEX purchase create the same record as an OTC transfer?
-- Does a transfer after a snapshot keep the same eligibility?
-- Does a custody wallet represent one user or many users?
-- Does exchange listing automatically support wallet-based participation?
-- Does exchange custody guarantee eligibility or claim support?
-
-This paper solves that problem by defining custody as a record, control, and eligibility topic.
-
-The key answer is:
-
-Wallet-based participation depends on active rules and record support. Self-custody may support direct wallet-level records. Exchange custody, institutional custody, and OTC transfer may require special treatment, additional evidence, or may be unsupported under specific frameworks.
-
----
-
-## 3. FUZE Public Position
-
-FUZE’s public position is:
-
-**Wallet-based participation depends on defined wallet records, eligibility rules, custody treatment, snapshots, verification where required, jurisdiction review, claim support, and activation status.**
-
-The position follows FUZE’s tokenomics principle:
-
-**Purpose-specific allocation. Vault-based control. Controlled circulation. Product-first utility. Long-term ecosystem alignment.**
-
-This position has several parts.
-
-| Area | FUZE Public Position |
+| Type | Control and record model |
 |---|---|
-| Self-custody | May support direct wallet-level records because the user controls the wallet directly |
-| Exchange custody | May require separate treatment because the visible blockchain wallet may belong to the exchange or custodian, not the individual user |
-| Institutional custody | May require custodian-level records, beneficial ownership records, verification, and agreement review |
-| OTC transfer | Does not automatically transfer historical eligibility, snapshot status, claim status, or participation status |
-| Snapshots | Snapshot inclusion depends on active rules, timing, custody type, and record method |
-| Claim support | Claim support matters only if a claim framework becomes active |
-| Privacy | FUZE uses wallet-level transparency without public identity exposure |
-| Custody-unsupported status | Some accounts or wallets may be unsupported if the custody method cannot support required records or claim logic |
-| Market boundary | Custody type does not guarantee payout, eligibility, liquidity, listing, exit, or investment return |
+| Self-custody | User controls the address and can usually sign directly |
+| User multisignature | A defined signer group controls a contract or wallet |
+| Smart-contract wallet | Programmable wallet controls execution under its code and signers |
+| Exchange custody | Exchange controls wallets and maintains internal customer balances |
+| Omnibus custody | One or more on-chain addresses represent many beneficial accounts |
+| Institutional custody | Custodian maintains accounts and authority for clients |
+| Staking or protocol custody | Tokens sit in a contract with a receipt, share, or position record |
+| Vesting custody | Tokens remain under a vesting contract or controlled grant record |
+| Treasury or program custody | FUZE or an approved operator controls assets for a defined mandate |
 
-Custody is not only a technical topic.
-
-It affects public trust, investor clarity, eligibility design, user education, product communication, smart-contract readiness, and future participation readiness.
+The active process should define which types it supports and what evidence each requires.
 
 ---
 
-## 4. Core Model
+## 3. Control and Beneficial Ownership
 
-### 4.1 Custody Types
+On-chain control and beneficial ownership can differ.
 
-A user, investor, contributor, partner, or holder may hold FUZE token through different custody types.
+For self-custody, a valid signature can demonstrate address control. It does not by itself establish every legal, jurisdictional, or account fact.
 
-| Custody Type | Public Meaning |
+For exchange or omnibus custody:
+
+- the custodian signs transactions;
+- the public address can aggregate many users;
+- customer balances exist in an internal ledger;
+- deposit and withdrawal times can differ from internal trade times;
+- the customer may lack direct contract access;
+- public chain data cannot allocate the omnibus balance among customers.
+
+Eligibility systems should record both custody control and the claimed beneficial position where relevant.
+
+---
+
+## 4. Custody Support Modes
+
+### Direct self-custody
+
+The participant uses a supported address, signs the required message, appears in the applicable snapshot, and interacts directly with the approved process.
+
+### Withdraw-before-cutoff
+
+An exchange user withdraws FUZE to a supported self-custody wallet before the stated snapshot or registration cutoff.
+
+### Evidence-supported account
+
+FUZE reviews exchange or custodian records that establish the user's eligible balance under the active method.
+
+### Custodian-assisted
+
+The custodian supplies user-level data, submits an aggregate record, or supports claims and internal distribution under an approved arrangement.
+
+### Omnibus representative
+
+The custodian or another authorized representative participates for the omnibus position and remains responsible for user allocation under documented controls.
+
+### Unsupported
+
+The custody method lacks sufficient user-level evidence, cooperation, technical compatibility, jurisdiction support, or reconciliation capability.
+
+The active notice should identify the supported modes rather than asking users to infer them.
+
+---
+
+## 5. Exchange Cooperation Record
+
+Where exchange support is used, the record should define:
+
+| Field | Required content |
 |---|---|
-| Self-custody wallet | User directly controls the wallet and private key |
-| Hardware wallet | User controls a wallet through dedicated signing hardware |
-| User multisig wallet | User or user group controls a multisig wallet |
-| Smart contract wallet | User controls a programmable wallet contract |
-| Exchange account | User holds token through an exchange account |
-| Exchange hot wallet | Exchange-controlled operational wallet |
-| Exchange cold wallet | Exchange-controlled storage wallet |
-| Omnibus wallet | Custodian or exchange wallet that combines many users |
-| Pooled custody wallet | Custody wallet where user-level balances are internal records |
-| Institutional custodian | Regulated or professional custodian holding on behalf of clients |
-| OTC settlement wallet | Wallet used in private negotiated settlement |
-| Vesting wallet | Wallet or contract holding locked or vested token exposure |
-| Team / advisor / partner wallet | Allocation wallet connected to contributor or partner categories |
-| Treasury / reserve wallet | FUZE-controlled treasury or reserve wallet |
-| Bridge or protocol wallet | Wallet connected to bridge, protocol, or infrastructure use where applicable |
-
-Each custody type can affect eligibility, visibility, wallet proof, snapshot support, and claim support.
-
-### 4.2 Why Custody Matters
-
-Custody affects:
-
-- who controls the private key
-- who appears on-chain
-- who can sign messages
-- who can connect to supported applications
-- who can prove wallet control
-- who appears in snapshots
-- who can receive direct claims if activated
-- who may require private verification
-- who may be excluded
-- whether eligibility can be shown publicly
-- whether the wallet can interact with claim contracts
-- whether jurisdiction restrictions apply
-- whether exchange or custodian cooperation is required
-- whether account-level records exist
-- whether deposits and withdrawals can be timed accurately
-- whether claim records can be matched to a user
-- whether transfer restrictions can be supported
-
-Boundary:
-
-Custody affects record design, but it does not guarantee eligibility, payout, liquidity, exit, claim support, wallet-based participation, or investment return.
-
-### 4.3 Self-Custody
-
-Self-custody means the user controls the wallet directly.
-
-Self-custody may include:
-
-- browser wallet
-- mobile wallet
-- hardware wallet
-- multisig wallet controlled by the user or user group
-- smart contract wallet controlled by the user or user group
-
-Self-custody may make wallet-level participation easier to support because the wallet holder can directly:
-
-- hold FUZE token
-- sign messages
-- connect to supported FUZE applications
-- appear in on-chain snapshots
-- prove wallet control
-- interact with supported contracts if activated
-- receive wallet-level status records
-- claim directly if a claim framework becomes active and the wallet is eligible
-
-Self-custody also creates user responsibility.
-
-Self-custody users protect:
-
-- private keys
-- seed phrases
-- wallet approvals
-- device security
-- transaction signing
-- phishing risk
-- malicious links
-- fake token contracts
-- fake claim sites
-- wrong-address transfers
-- wallet-drainer risks
-- device compromise
-- social engineering risk
-
-Boundary:
-
-Self-custody may support direct wallet records, but it does not guarantee eligibility, claim rights, payout, asset safety, liquidity, listing, exit, or investment return.
-
-### 4.4 Exchange Custody
-
-Exchange custody means the user holds FUZE token through an exchange account instead of directly controlling the blockchain wallet.
-
-In exchange custody, the on-chain wallet may be:
-
-- exchange hot wallet
-- exchange cold wallet
-- omnibus wallet
-- pooled custody wallet
-- deposit wallet
-- withdrawal wallet
-- settlement wallet
-- custodian-controlled wallet
-
-The public blockchain may show the exchange wallet, not the individual user.
-
-This can make wallet-based participation more complex.
-
-The exchange may control:
-
-- custody
-- deposits
-- withdrawals
-- internal user balances
-- wallet movement
-- account records
-- compliance review
-- regional access
-- user identity records
-- claim support if any
-- snapshot support if any
-- user-level proof if any
-- internal distribution if any
-
-Boundary:
-
-Exchange custody does not automatically support user-level wallet participation records.
+| Venue and account model | Exchange, network, wallet, and omnibus structure |
+| Supported process | Snapshot, eligibility, migration, claim, or another defined route |
+| Customer evidence | Fields and statement or API method supplied |
+| Cutoff | Trade, ledger, deposit, withdrawal, or snapshot time |
+| Jurisdiction | Supported customer locations and restrictions |
+| Data transfer | Format, security, minimization, and retention |
+| Claim model | Direct customer, exchange aggregate, or internal distribution |
+| Reconciliation | On-chain, omnibus, and customer-ledger matching |
+| Exceptions | Frozen accounts, pending withdrawals, disputes, or unsupported balances |
+| Communication | Responsibilities for customer notices and support |
 
-### 4.5 Exchange-Held FUZE Token
-
-Exchange-held FUZE token may not be visible at the individual user level on-chain.
-
-This can affect:
-
-- wallet ownership proof
-- user-level balance proof
-- snapshot inclusion
-- eligibility status
-- claim status
-- private verification
-- jurisdiction review
-- deposit timing
-- withdrawal timing
-- exchange cooperation
-- user-level claim support
-- beneficial ownership records
-- claim distribution if activated
-- transfer restriction support where required
-- public reporting
-- dispute resolution
-- tax or account treatment where applicable
-
-If a future wallet-based participation framework becomes active, exchange-held tokens may require special rules.
-
-Possible rules may include:
-
-- exchange wallets excluded
-- exchange wallets supported only if the exchange cooperates
-- exchange users required to withdraw to self-custody before a snapshot
-- exchange users required to verify through exchange records where legally supported
-- exchange users treated according to exchange policy
-- exchange wallets treated as custody-unsupported
-- exchange wallets included only under a special reporting method
-- exchange wallets reviewed case by case
-- exchange-held balances not eligible for direct claim
-- exchange claim support handled through separate exchange process where supported
-
-The exact treatment is defined before activation.
-
-Boundary:
-
-Holding FUZE token on an exchange does not automatically create eligibility, snapshot support, claim support, payout, or participation continuity.
-
-### 4.6 Institutional Custody
-
-Institutional custody means an approved or professional custodian holds FUZE token on behalf of an institution, fund, company, family office, partner, or other account holder.
-
-Institutional custody may require:
-
-- custodian account records
-- beneficial ownership records
-- legal entity verification
-- KYB review where applicable
-- authorized signer records
-- jurisdiction review
-- custody agreement review
-- transfer restriction review
-- snapshot support review
-- claim support review if activated
-- account-level proof
-- audit record support
-- reporting support
-- private verification
+Exchange cooperation should be confirmed before public claims of support.
 
-Institutional custody can support record discipline, but it can also create user-level visibility challenges if the custodian uses pooled wallets or omnibus structures.
+---
 
-Boundary:
+## 6. Snapshot Cutoffs
 
-Institutional custody does not automatically create eligibility, claim support, payout, liquidity, exit, or investment return.
+Custody systems can produce several relevant times:
 
-### 4.7 Wallet Participation and Custody Comparison
+- on-chain block time;
+- exchange trade time;
+- internal ledger cutoff;
+- deposit credit time;
+- withdrawal debit time;
+- blockchain withdrawal completion;
+- statement generation time.
 
-| Topic | Self-Custody | Exchange Custody |
-|---|---|---|
-| Wallet control | User controls wallet directly | Exchange or custodian controls wallet |
-| On-chain visibility | User wallet appears directly | Exchange wallet may appear instead |
-| Message signing | Usually possible | Usually not possible directly through exchange account |
-| Snapshot clarity | More direct | May require exchange cooperation |
-| Claim interaction | More direct if activated | May be unsupported or indirect |
-| Private verification | May still be required | May require exchange or custodian records |
-| Eligibility clarity | Easier to define | More complex |
-| Transfer timing | User controls timing | Exchange controls deposits and withdrawals |
-| Custody risk | User key and transaction risk | Exchange and custody-provider risk |
-| Public reporting | Wallet-level records may be easier | User-level records may be hidden behind exchange systems |
+The active method should select the controlling time and explain pending transactions.
 
-This comparison helps readers understand why custody type matters.
+For example, a withdrawal requested before the snapshot but completed afterward can appear both as an internal debit and an on-chain exchange balance at the block. Reconciliation rules should prevent double counting or omission.
 
-### 4.8 OTC Transfer Treatment
+Cutoffs should use an explicit timezone or block number and a consistent treatment across participants.
 
-OTC transfer means token movement through a private or negotiated transaction instead of public exchange trading.
+---
 
-OTC transfers may affect eligibility assumptions.
+## 7. User-Level Evidence
 
-An OTC buyer may receive FUZE token, but historical eligibility or claim-related status may not automatically move with the token.
+Potential evidence includes:
 
-OTC treatment may require rules for:
+- official account statement;
+- transaction and trade history;
+- deposit or withdrawal record;
+- exchange-signed or custodian-signed confirmation;
+- authenticated API record;
+- account identifier and beneficial-owner verification;
+- custodian allocation file;
+- proof of a later self-custody withdrawal.
 
-- transfer timing
-- transfer evidence
-- seller eligibility
-- buyer eligibility
-- lockup status
-- vesting status
-- claim status
-- migration status
-- private agreement rights
-- jurisdiction treatment
-- private verification
-- anti-abuse controls
-- duplicate claim prevention
-- source wallet status
-- destination wallet status
-- reporting status
-- excluded wallet treatment
+Screenshots alone can be altered or omit relevant context. The method should define authenticity, required fields, date range, and acceptable combinations.
 
-Boundary:
+Evidence should remain permissioned. Public reports can show aggregate custody categories without exposing account identity.
 
-Buying FUZE token through OTC does not automatically transfer historical eligibility, snapshot status, claim status, migration status, investor terms, contributor rights, private agreement rights, or wallet-based participation status unless active rules define that treatment.
+---
 
-### 4.9 Custody-Unsupported Status
+## 8. Self-Custody Proof
 
-Some custody methods may be unsupported for specific wallet-based systems.
+A self-custody process can require:
 
-Custody-unsupported status can apply when:
+1. supported chain and verified FUZE contract;
+2. wallet connection or address submission;
+3. unique signed message;
+4. snapshot or balance check;
+5. wallet-category and duplicate review;
+6. jurisdiction or private verification where required;
+7. destination compatibility;
+8. eligibility status.
 
-- no user-level wallet proof exists
-- no message signing is possible
-- exchange does not support claims
-- exchange does not support snapshots
-- custodian does not provide account-level proof
-- jurisdiction review prevents participation
-- KYC or KYB records are unavailable where required
-- claim logic cannot identify the beneficial holder
-- transfer restriction cannot be enforced
-- custody wallet combines many unrelated users
-- privacy controls cannot be satisfied
-- duplicate or false claim risk is too high
-- contract custody is too complex to verify
-- private records are incomplete
+The signed message should contain the FUZE domain or process, nonce, purpose, network, and expiration to reduce replay and phishing risk.
 
-Custody-unsupported status is a technical, legal, operational, or records-based status.
+Lost keys, compromised wallets, contract wallets, and multisignatures require their own support route where available.
 
-It does not judge the user.
+---
 
-It means the custody method cannot support the required process under defined rules.
+## 9. Exchange Deposits and Withdrawals
 
-### 4.10 Snapshot and Claim Support
+Deposits and withdrawals can affect both evidence and status.
 
-Snapshot and claim support depend on active rules.
+The method should define:
 
-A snapshot can record wallet status at a defined time.
+- latest withdrawal time for self-custody treatment;
+- pending deposit and withdrawal treatment;
+- internal transfer treatment;
+- withdrawal fees and net quantity;
+- wrong-network or unsupported-asset cases;
+- frozen or restricted account cases;
+- replacement destination verification.
 
-A claim process can allow eligible wallets or account holders to claim only if a claim framework is active.
+Users should receive enough notice to understand operational lead times. FUZE cannot control an exchange's processing speed, maintenance, fees, account restrictions, or withdrawal availability.
 
-Custody affects both.
+---
 
-| Topic | Public Requirement |
+## 10. Claim Models
+
+### Direct wallet claim
+
+An eligible self-custody or compatible contract wallet interacts with the approved claim process.
+
+### Account-evidence claim
+
+The user provides supported custody evidence and receives an approved destination status after review.
+
+### Custodian aggregate claim
+
+The custodian claims or receives an aggregate amount and distributes internally according to the approved user-level ledger.
+
+### Custodian attest-and-direct
+
+The custodian attests eligible customer amounts while users receive directly to verified destination wallets.
+
+### Manual controlled distribution
+
+An operator executes approved user-level records through a permissioned process when direct contract interaction is unsuitable.
+
+Each model should identify liability, custody, data, fees, unclaimed amounts, correction, and user-support responsibilities.
+
+---
+
+## 11. Omnibus Reconciliation
+
+An intermediary process should reconcile three levels:
+
+```text
+Verified omnibus or custody position
+= eligible customer balances
++ excluded or unsupported balances
++ pending and exception balances
+```
+
+For a distribution:
+
+```text
+Aggregate amount received
+= customer amounts completed
++ pending customer amounts
++ returned or unclaimed amount
++/- corrections
+```
+
+The custodian and FUZE should agree on identifiers, periods, precision, and exception ownership. Aggregate on-chain movement is insufficient evidence of customer-level completion.
+
+---
+
+## 12. Eligibility Status
+
+Custody-related statuses can include:
+
+| Status | Meaning |
 |---|---|
-| Snapshot block or date | Must be defined |
-| Wallet category | Self-custody, exchange, treasury, team, partner, migration, contract, or other category |
-| Holding amount | Must be recorded under defined method |
-| Eligibility status | Must follow active rules |
-| Claim window | Must be active where applicable |
-| Claim method | Direct wallet claim, exchange-supported claim, custodian-supported claim, or unsupported status |
-| Privacy boundary | Private identity remains permissioned |
-| Jurisdiction boundary | Availability may differ by location |
-| Dispute process | May be required for contested records |
-| Pause process | May protect the system during review or correction |
+| Directly supported | Address-level proof and interaction are supported |
+| Evidence review | Account or beneficial-position evidence is under review |
+| Custodian supported | Approved intermediary process exists |
+| Withdrawal required | Self-custody is required before the cutoff |
+| Pending transfer | Deposit or withdrawal prevents final classification |
+| Unsupported custody | Required records or interaction are unavailable |
+| Restricted | Jurisdiction, account, lock, or policy condition prevents access |
+| Disputed | Ownership, balance, cutoff, or duplicate issue remains open |
 
-Snapshot inclusion and claim support require defined rules.
-
-They are not assumed from token ownership alone.
+Status should be process-specific. An exchange can support trading but remain unsupported for a particular snapshot or claim.
 
 ---
 
-## 5. Token, Credits, Stablecoins, and Wallet Relationship
+## 13. OTC and Private Transfers
 
-Exchange custody and wallet participation sit inside the FUZE token and wallet-record model.
+An OTC transaction transfers FUZE under a private settlement, but related statuses may remain with the original record.
 
-| System | Public Role | Custody Relationship |
-|---|---|---|
-| FUZE token | Single ecosystem token | Token holding may be self-custodied, exchange-custodied, contract-custodied, or treasury-controlled |
-| Platform Credits | Product usage credits | Credits are product usage records and do not create exchange-custody token rights |
-| Stablecoins | Payment, settlement, treasury, and compensation rails | Stablecoin payment and custody records may require separate treatment |
-| Product revenue | Revenue from FUZE products and services | Product revenue records are separate from token custody |
-| Approved distributable value | Reviewed value from defined product revenue pools where active framework exists | Requires separate activation and eligibility framework |
-| Wallet-based participation ability | Possible activation-gated token-related framework | Custody type affects eligibility and claim support where activated |
-| Public Vault Access Windows | Controlled access windows where final policy allows | May require account, wallet, custody, eligibility, jurisdiction, pricing, and lockup rules |
-| BOARD / Surfboard Migration | Legacy-holder continuity allocation | May require snapshot, wallet, exchange, custody, and claim treatment |
-| Liquidity and listing | Market access and exchange readiness | Listing does not automatically create wallet-based participation support |
+Review can include:
 
-This separation helps public readers understand that exchange listing, token holding, Platform Credit usage, stablecoin payment, migration claim, and wallet-based participation are different concepts.
+- source and destination transaction;
+- trade or agreement time;
+- beneficial ownership;
+- lock or vesting;
+- snapshot cutoff;
+- prior claim or migration status;
+- jurisdiction and verification;
+- duplicate or related-party concerns.
 
----
-
-## 6. Controls, Gates, and Governance
-
-Exchange custody and wallet participation require controls.
-
-Important controls include:
-
-- custody type definition
-- self-custody wallet proof
-- exchange custody treatment
-- institutional custody treatment
-- OTC transfer treatment
-- snapshot rule
-- claim rule
-- beneficial ownership proof
-- private verification where required
-- KYC or KYB where applicable
-- exchange cooperation where needed
-- exchange account record review
-- custody agreement review
-- jurisdiction review
-- legal review
-- tax review where applicable
-- accounting review where applicable
-- transfer restriction review
-- anti-abuse review
-- duplicate claim prevention
-- dispute process
-- emergency pause
-- reporting readiness
-- smart-contract readiness
-- privacy controls
-- public boundary language
-
-### 6.1 Exchange Support Controls
-
-If exchange support is needed, controls may include:
-
-| Control | Purpose |
-|---|---|
-| Exchange record request | Confirms user-level balance or history where available |
-| Exchange cooperation | Determines whether the venue supports claim or snapshot logic |
-| Deposit/withdrawal cutoff | Clarifies timing around snapshots or claims |
-| User proof requirement | Defines whether users must provide account evidence |
-| Withdrawal requirement | May require users to self-custody before a snapshot or claim |
-| Exchange-level claim | Could allow exchange to claim and distribute internally if supported |
-| Unsupported status | Applies where exchange cannot support required records or claims |
-| Jurisdiction screening | Applies where exchange or user location creates restrictions |
-| Privacy control | Keeps exchange account records permissioned |
-| Public reporting | Uses aggregate categories rather than exposing user account details |
-
-Exchange support must be defined before any user assumes exchange-held eligibility.
-
-### 6.2 Self-Custody Controls
-
-Self-custody controls may include:
-
-- wallet connection
-- wallet signature
-- token balance record
-- snapshot inclusion
-- chain and contract verification
-- claim contract interaction where active
-- user acknowledgement
-- private verification where required
-- jurisdiction confirmation where required
-- duplicate claim review
-- compromised wallet process
-- lost wallet process
-- transfer timing rule
-- public-safe reporting
-
-Self-custody may be more direct, but users remain responsible for wallet safety.
-
-### 6.3 Institutional Custody Controls
-
-Institutional custody controls may include:
-
-- beneficial ownership record
-- custodian account statement
-- legal entity verification
-- authorized representative verification
-- custody agreement review
-- jurisdiction review
-- exchange or custodian cooperation
-- private verification
-- account-level proof
-- transfer restriction support
-- tax and accounting review
-- public-safe reporting
-
-Institutional custody may support stronger record discipline, but it still needs defined rules.
-
-### 6.4 OTC Transfer Controls
-
-OTC transfer controls may include:
-
-- seller wallet evidence
-- buyer wallet evidence
-- transfer transaction record
-- private agreement review where required
-- lockup status review
-- snapshot status review
-- claim status review
-- migration status review
-- investor term review where relevant
-- jurisdiction review
-- anti-abuse review
-- public-safe reporting
-
-OTC transfers should not be assumed to transfer every historical status.
-
-### 6.5 Dispute and Correction Process
-
-Custody and eligibility systems may need dispute or correction processes.
-
-Possible issues include:
-
-- exchange record mismatch
-- missing deposit record
-- missing withdrawal record
-- lost wallet access
-- compromised wallet
-- wrong snapshot category
-- duplicate claim
-- OTC transfer dispute
-- custody proof dispute
-- jurisdiction issue
-- private verification mismatch
-- smart-contract issue
-- public report error
-- wallet label error
-- claim window issue
-- support ticket issue
-
-A dispute process helps keep the system fair and accurate.
-
-A pause process may protect users and FUZE during serious review events.
+The recipient's token balance is evidence of current ownership, not proof that historical eligibility, investor terms, contribution rights, or claim status transferred.
 
 ---
 
-## 7. Reporting and Transparency Direction
+## 14. Contract and Protocol Custody
 
-Exchange custody and wallet participation can support public-safe reporting.
+Tokens in staking, liquidity, bridge, lending, vault, or other protocol contracts can be represented by:
 
-Reporting can include:
+- receipt tokens;
+- pool shares;
+- internal accounting;
+- claimable balances;
+- underlying contract state.
 
-- custody category summaries
-- self-custody eligible category counts where active
-- exchange custody category counts where active and public-safe
-- custody-unsupported category counts where appropriate
-- snapshot status
-- claim status where active
-- migration claim status
-- Public Vault Access Window eligibility status
-- exchange support status where public
-- withdrawal requirement where applicable
-- claim window status
-- dispute status category
-- paused status
-- report hash
-- privacy boundary
-- jurisdiction boundary
-- wallet-based participation activation status
-- public risk boundary
+The method should define which representation controls, how underlying FUZE is calculated, and how duplicate counting is prevented.
 
-Reporting should not expose:
-
-- exchange account identities
-- user names
-- email addresses
-- phone numbers
-- KYC records
-- AML records
-- identity documents
-- private investor records
-- private OTC agreements
-- private custody agreements
-- tax records
-- legal workpapers
-- accounting workpapers
-- private support tickets
-- confidential exchange communications
-- sensitive security procedures
-
-Reporting supports transparency.
-
-It does not create financial assurance.
+Technical compatibility also matters. A contract can hold an eligible economic position while being unable to sign or call the claim interface directly.
 
 ---
 
-## 8. Market, Legal, or Operational Context
+## 15. Privacy and Data Sharing
 
-### 8.1 Relationship to Liquidity and Listing
+Custody records can contain identity, account balances, transaction history, jurisdiction, tax information, and verification data.
 
-Exchange custody depends on exchange support.
+FUZE and any cooperating custodian should define:
 
-A listing can make token trading available on a venue, but listing does not automatically support:
+- minimum fields;
+- purpose and authority;
+- secure transfer;
+- permitted reviewers;
+- retention and deletion;
+- correction;
+- incident responsibilities;
+- public aggregation.
 
-- wallet-based participation
-- user-level snapshots
-- user-level claims
-- direct wallet signatures
-- migration support
-- Public Vault Access Window support
-- internal distribution
-- account-level reporting
-- eligibility verification
+Public reporting should keep beneficial-owner identity and exchange account records private.
 
-Exchange support has to be reviewed separately.
-
-### 8.2 Relationship to Wallet-Based Participation Ability
-
-Wallet-based participation ability remains activation-gated.
-
-Custody treatment is one part of activation readiness.
-
-A participation framework may require:
-
-- self-custody only
-- supported exchange custody
-- exchange-assisted claim
-- custodian-assisted proof
-- withdrawal before snapshot
-- excluded exchange wallets
-- special claim process
-- private verification
-- unsupported status for certain custody types
-
-The final rules define treatment.
-
-### 8.3 Relationship to BOARD / Surfboard Migration
-
-BOARD / Surfboard Migration may involve custody questions.
-
-Legacy holders may have held assets through:
-
-- self-custody wallets
-- exchanges
-- contracts
-- pools
-- custody providers
-- old migration tools
-- bridge or chain environments
-
-Migration claim support may require separate rules for custody, evidence, and claim status.
-
-### 8.4 Relationship to Product-First Execution
-
-Custody policy supports product-first execution by preventing token custody issues from confusing product utility.
-
-FUZE products can still operate with Platform Credits, stablecoin payments, workspaces, AI workflows, reports, and product accounts.
-
-A user can use HerHelp, ShopOS AI, SheetLayer AI, CommunityLayer AI, ZAGA, QTB, AIMM, AIE, ToolGrid AI, or Botmad without automatically becoming part of a wallet-based participation framework.
-
-### 8.5 Market Boundary
-
-Exchange custody and wallet participation policy is a custody, records, and eligibility model.
-
-It does not guarantee:
-
-- token demand
-- token price
-- exchange listing
-- liquidity
-- trading volume
-- market-making result
-- price support
-- resale availability
-- exit opportunity
-- investment return
-
-Market access, custody, liquidity operations, exchange support, and public trading environments require separate boundary language and review.
+The broader data model is defined in [FUZE Wallet-Based Privacy and Eligibility](26-FUZE_WALLET_BASED_PRIVACY_AND_ELIGIBILITY_PUBLIC.md).
 
 ---
 
-## 9. Risk and Disclosure Reference
+## 16. Custody Incidents
 
-Important public boundaries include:
+Relevant incidents include:
 
-- Self-custody and exchange custody have different record models.
-- Exchange-held FUZE token may require separate treatment.
-- Exchange-held balances may not support user-level snapshots, direct claims, or eligibility records unless the exchange supports the required process.
-- Institutional custody may require custodian records, beneficial ownership records, KYB, and private verification.
-- OTC transfers may affect eligibility assumptions.
-- Buying FUZE token through OTC does not automatically transfer historical eligibility, snapshot status, claim status, private agreement rights, migration status, investor terms, contributor rights, or participation status unless active rules define that treatment.
-- Custody-unsupported status can apply where required records or claim logic cannot be supported.
-- Public reporting protects private identity and exchange account records.
-- Wallet-based participation ability remains activation-gated.
-- Platform Credits are product usage credits and remain separate from FUZE token.
-- Stablecoins are payment, settlement, treasury, and compensation rails.
-- FUZE token does not guarantee payout, income, yield, profit, token price, listing, liquidity, market support, trading volume, exit, game earnings, business revenue, user growth, community growth, approved distributable value, wallet eligibility, claim availability, smart-contract security, AI accuracy, or investment return.
+- exchange suspension or insolvency concern;
+- compromised account or wallet;
+- incorrect customer allocation;
+- delayed or failed withdrawal;
+- missing or corrupted custody records;
+- chain or network mismatch;
+- duplicate claim;
+- unauthorized data disclosure;
+- frozen account or legal restriction.
 
-More detailed boundaries are handled in dedicated papers, including:
+The response should preserve records, pause affected processing, identify balances and users, coordinate with the custodian, communicate status, and document recovery or correction.
 
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/07-FUZE_WALLET_BASED_PARTICIPATION_MODEL_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/08-FUZE_PARTICIPATION_ACTIVATION_GATES_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/16-FUZE_PUBLIC_VAULT_VISIBILITY_SYSTEM_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/20-FUZE_BOARD_SURFBOARD_MIGRATION_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/21-FUZE_LIQUIDITY_AND_LISTING_POLICY_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/22-FUZE_MARKET_PRICE_AND_DEMAND_BOUNDARY_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/26-FUZE_WALLET_BASED_PRIVACY_AND_ELIGIBILITY_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/28-FUZE_LEGAL_AND_COMPLIANCE_MESSAGING_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/29-FUZE_TOKEN_RISK_BOUNDARIES_PUBLIC.md`
-
-This paper focuses on exchange custody and wallet participation while deeper wallet participation, privacy, migration, liquidity, market boundaries, legal messaging, and token risk topics remain in dedicated papers.
+An exchange incident can affect support even when the FUZE contract and self-custody process remain healthy.
 
 ---
 
-## 10. Key Takeaways
+## 17. Disputes and Corrections
 
-- FUZE Exchange Custody and Wallet Participation explains how FUZE treats self-custody, exchange custody, institutional custody, OTC transfer, wallet-level transparency, eligibility, snapshots, claim support, transfer treatment, custody-unsupported status, and custody risk.
-- FUZE uses one ecosystem token: FUZE token.
-- Self-custody may support direct wallet-level records because the user controls the wallet directly.
-- Exchange custody may require separate treatment because the visible blockchain wallet may belong to an exchange, custodian, omnibus wallet, pooled account, or settlement system.
-- Exchange-held FUZE token may require special rules if wallet-based participation becomes active.
-- Exchange listing does not automatically create wallet-based participation support.
-- Institutional custody may require custodian records, beneficial ownership records, KYB, agreement review, and private verification.
-- OTC transfers may affect historical eligibility, snapshot status, claim status, migration status, investor terms, contributor rights, and participation status.
-- Custody-unsupported status can apply where records or claim logic cannot be supported.
-- Platform Credits remain product usage credits.
-- Stablecoins remain payment, settlement, treasury, and compensation rails.
-- Wallet-based participation ability remains activation-gated.
-- Public reporting can explain custody categories while protecting private exchange, identity, legal, tax, and support records.
+A custody dispute can concern:
+
+- beneficial ownership;
+- eligible balance;
+- trade or transfer timing;
+- account authenticity;
+- omnibus allocation;
+- duplicate records;
+- supported jurisdiction;
+- completed distribution.
+
+The case should preserve original records, active method, new evidence, reviewer decision, corrected amount or status, approval, and downstream report effect.
+
+Corrections should update both customer-level and aggregate reconciliation where applicable.
+
+---
+
+## 18. Public Reporting
+
+Public custody reporting can include:
+
+- supported custody modes;
+- participating exchange or custodian where authorized;
+- snapshot and cutoff method;
+- aggregate self-custody and intermediary amounts;
+- eligible, pending, unsupported, disputed, and completed categories;
+- claim model;
+- reconciliation status;
+- incidents, pauses, and corrections at an appropriate level.
+
+Public wallet labels should identify exchange, custodian, treasury, contract, or program function without identifying individual customers.
+
+---
+
+## 19. Boundaries
+
+Exchange listing, trading support, token custody, snapshot support, and participation support are separate capabilities.
+
+FUZE can define its active rules and direct processes, but third-party custodians control their own accounts, systems, timing, customer records, and cooperation.
+
+Detailed custody and participation risks are maintained in [FUZE Token Risk Boundaries](29-FUZE_TOKEN_RISK_BOUNDARIES_PUBLIC.md).
+
+---
+
+## Conclusion
+
+Custody determines which wallet records FUZE can verify and which party can act.
+
+Direct self-custody, evidence-supported accounts, custodian-assisted claims, omnibus distribution, and unsupported custody each require explicit rules. Cutoff discipline, user-level evidence, aggregate reconciliation, privacy controls, incident handling, and accurate public status prevent exchange-held balances from being mistaken for direct wallet records.

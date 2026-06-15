@@ -2,866 +2,429 @@
 
 ## Executive Summary
 
-FUZE Legal and Compliance Messaging defines the approved public communication boundaries for FUZE products, FUZE token, Platform Credits, stablecoins, wallet-based participation ability, public vault systems, community participation, seed round communication, liquidity and listing, market price and demand, QTB, AIMM, ZAGA, AI outputs, data privacy, and public reporting.
+FUZE public messaging should describe products, token systems, fundraising, participation, markets, AI, games, partnerships, and reporting according to the evidence and current status available for each claim.
 
-FUZE is a transparency-first AI SaaS platform building practical products on shared infrastructure for identity, credits, payments, AI orchestration, reporting, and ecosystem participation.
+This paper defines the review process rather than repeating every approved phrase. A public statement should have an owner, claim class, evidence source, audience, jurisdiction context, approval route, publication date, and correction path.
 
-FUZE uses one ecosystem token only: **FUZE token**.
+Higher-risk claims include financial outcomes, token price or demand, listings, liquidity, participation, eligibility, fundraising terms, legal status, privacy, security, AI accuracy, customer results, and named partnerships. These claims require stronger substantiation and specialist review than ordinary descriptive copy.
 
-FUZE token is the single ecosystem token of FUZE. It supports product-connected utility, ecosystem participation, platform alignment, governance direction where applicable, community participation structures, and wallet-based participation ability where activated under required controls.
-
-Platform Credits are product usage credits and are separate from FUZE token.
-
-Stablecoins are payment, settlement, treasury, and operational compensation rails.
-
-Wallet-based participation ability is a possible activation-gated framework inside the FUZE token model. It may apply only where eligible FUZE-holding wallets, approved distributable value, activation gates, privacy controls, eligibility rules, reporting readiness, product revenue pool readiness, and jurisdiction controls are ready.
-
-Seed Round discussions are private strategic fundraising conversations. They are not public token sales, public investment offers, or public solicitations.
-
-QTB is AI trading intelligence and market interpretation support. It does not provide financial advice, trading instructions, autonomous trading execution, or guaranteed trading results.
-
-AIMM is AI market-making and liquidity-operations support. It does not provide price support, guaranteed liquidity, guaranteed listing, guaranteed market outcome, autonomous market action, or trading-profit assurance.
-
-ZAGA game values and game economies are game mechanics or controlled utility surfaces, not guaranteed financial earnings.
-
-FUZE uses wallet-level transparency without public identity exposure.
-
-FUZE does not guarantee payout, income, dividend, yield, profit, token price, token demand, listing, liquidity, market support, trading volume, exit, game earnings, business revenue, user growth, community growth, approved distributable value, wallet eligibility, claim availability, smart-contract security, AI accuracy, sponsored performance, trading profit, market-making result, acquisition, or investment return.
-
-This paper is the public messaging control layer for FUZE tokenomics, governance, compliance, and product-facing language.
+The [FUZE Public Language Dictionary](32-FUZE_PUBLIC_LANGUAGE_DICTIONARY_PUBLIC.md) owns preferred terminology and replacements. This paper governs how a message is cleared and maintained.
 
 ---
 
-## 1. Purpose of This Paper
+## 1. Messaging Objective
 
-This paper explains FUZE’s public legal and compliance messaging framework.
+The review framework should answer:
 
-It defines:
+1. What exactly is being claimed?
+2. Is it a fact, interpretation, plan, scenario, or promise?
+3. Which evidence supports it?
+4. Is the evidence current and representative?
+5. Which audience and jurisdictions will receive it?
+6. Which approvals are required?
+7. How will the statement be corrected or removed if it changes?
 
-- how FUZE describes the platform publicly
-- how FUZE explains FUZE token
-- how FUZE explains the one-token model
-- how FUZE explains Platform Credits
-- how FUZE explains stablecoins
-- how FUZE explains wallet-based participation ability
-- how FUZE explains approved distributable value
-- how FUZE explains Community Participation Round
-- how FUZE explains Public Vault Visibility and Public Vault Access Windows
-- how FUZE explains Seed Round and token-related exposure
-- how FUZE explains liquidity and listing
-- how FUZE explains market price and demand boundaries
-- how FUZE explains QTB, AIMM, ZAGA, ToolGrid AI, AIE, Botmad, and HerHelp product boundaries
-- how FUZE protects wallet privacy and avoids public identity exposure
-- how FUZE communicates with investors, community members, contributors, product users, and partners without creating unsafe expectations
-- what public wording FUZE uses
-- what public wording FUZE avoids
-
-This paper is not a legal opinion, tax opinion, securities analysis, accounting policy, investment recommendation, financial advice, trading advice, token sale document, exchange listing announcement, claim instruction, payout policy, private investor agreement, custody agreement, or guarantee of outcome.
-
-It is a public messaging and boundary paper.
+The objective is accurate, supportable communication that preserves FUZE's public position without turning every message into a disclaimer list.
 
 ---
 
-## 2. Reader Problem This Paper Solves
+## 2. Claim Record
 
-FUZE operates across AI SaaS, Web3 infrastructure, token utility, gaming, market intelligence, community tools, public reporting, Platform Credits, stablecoin payments, wallet records, and private strategic fundraising.
+Material public claims should have a lightweight review record.
 
-Without clear language, readers can confuse:
-
-- product usage with investment exposure
-- Platform Credits with FUZE token
-- stablecoin payments with token-holder payouts
-- product revenue with approved distributable value
-- wallet records with public identity exposure
-- vault visibility with vault access
-- Community Participation Round with Seed Round
-- smart-contract readiness with live claims
-- liquidity planning with guaranteed liquidity
-- exchange readiness with confirmed listing
-- QTB market interpretation with trading advice
-- AIMM market-operations support with price support
-- ZAGA game mechanics with financial earnings
-- public reporting with financial assurance
-
-This paper solves that problem by creating one public messaging framework.
-
-The key answer is:
-
-FUZE public communication explains the product or system role first, then states the correct boundary, readiness condition, and risk limitation where needed.
-
----
-
-## 3. FUZE Public Legal Messaging Position
-
-FUZE’s public legal messaging position is:
-
-**FUZE communicates in product-first, transparency-first, compliance-aware language that explains what FUZE builds, what FUZE token does, what Platform Credits do, what stablecoins do, what wallet-based participation ability may mean if activated, and what FUZE does not guarantee.**
-
-This position follows FUZE’s execution order:
-
-**Product usage first. Platform rails second. Broader ecosystem participation after that.**
-
-This position also follows FUZE’s tokenomics principle:
-
-**Purpose-specific allocation. Vault-based control. Controlled circulation. Product-first utility. Long-term ecosystem alignment.**
-
-| Rule | Meaning |
+| Field | Required content |
 |---|---|
-| Product-first language | FUZE explains practical products before token expectations |
-| One-token clarity | FUZE uses one ecosystem token only: FUZE token |
-| Credit separation | Platform Credits are product usage credits, not investment rights, payout rights, or FUZE token |
-| Stablecoin separation | Stablecoins are payment, settlement, treasury, and operational compensation rails |
-| Participation boundary | Wallet-based participation ability is activation-gated and depends on approved rules |
-| Vault boundary | Public Vault Visibility is transparency; Public Vault Access Windows are controlled access windows where final policy allows |
-| Seed boundary | Seed Round discussions are private strategic fundraising conversations |
-| Liquidity boundary | Liquidity and listing activity supports market-structure readiness, not guaranteed listing or liquidity |
-| Product boundary | Product progress may support trust, but it does not guarantee token demand or revenue outcome |
-| No-guarantee language | FUZE avoids payout, yield, profit, listing, liquidity, price, exit, and return guarantees |
+| Claim ID | Stable reference |
+| Exact wording | Headline, body, caption, chart, or interface text |
+| Claim class | Product, financial, token, market, legal, privacy, security, AI, partnership, or other class |
+| Evidence | Authoritative source and date |
+| Status | Current, conditional, planned, historical, superseded, or withdrawn |
+| Audience | Product user, community, investor, partner, public, or mixed |
+| Channels | Website, paper, deck, social, product UI, email, event, or community |
+| Jurisdiction | General or location-specific review |
+| Owner | Person responsible for accuracy |
+| Reviewers | Product, legal, compliance, finance, technical, privacy, security, or other roles |
+| Expiry or review date | When the claim must be rechecked |
 
-Legal and compliance messaging protects public understanding, investor trust, community communication, product credibility, and long-term ecosystem safety.
+Routine descriptive copy can use a simplified record. High-impact claims need explicit evidence and approval.
 
 ---
 
-## 4. Core Model
+## 3. Claim Classes
 
-### 4.1 FUZE Messaging Rule Model
+### Product capability
 
-Every public FUZE message follows a simple control model.
+Describes what a product does, who it serves, its availability, integrations, limits, or workflow.
 
-| Messaging Rule | Public Meaning |
+### Performance
+
+Describes measured speed, accuracy, conversion, revenue, cost, adoption, customer, sponsor, or operating results.
+
+### Token and participation
+
+Describes FUZE utility, allocation, supply, release, wallet eligibility, claims, approved value, or activation.
+
+### Market access
+
+Describes DEX or CEX status, liquidity, pricing, custody, trading, volume, demand, or market operations.
+
+### Fundraising and investment
+
+Describes the Private Strategic Seed Round, investor process, use of funds, token-related exposure, valuation, commitments, or closing.
+
+### Legal and regulatory
+
+Describes legal status, availability, compliance, licensing, qualification, restrictions, tax, or jurisdiction.
+
+### Privacy and security
+
+Describes data collection, identity protection, encryption, custody, audits, incidents, or technical safeguards.
+
+### AI and game outcomes
+
+Describes AI output quality, autonomy, market interpretation, moderation, game value, rewards, or player outcomes.
+
+### Partnership and customer
+
+Describes named relationships, deployments, customers, integrations, distribution, or endorsements.
+
+The claim class determines evidence and reviewer requirements.
+
+---
+
+## 4. Evidence Standards
+
+### Direct evidence
+
+Contracts, product records, transaction evidence, approved policies, signed agreements, deployment logs, audited statements, or authoritative third-party confirmation.
+
+### Measured evidence
+
+Analytics, tests, surveys, benchmarks, reports, or calculations with stated methodology, sample, period, and limitations.
+
+### Documentary evidence
+
+Approved minutes, notices, term records, data-room documents, legal or specialist review, and versioned public papers.
+
+### Third-party evidence
+
+Venue notices, partner announcements, custodian records, media reports, certifications, or external reviews whose scope and date are clear.
+
+Evidence should match the claim. A prototype cannot substantiate general availability. One customer example cannot substantiate universal results. A venue discussion cannot substantiate listing.
+
+---
+
+## 5. Status Language
+
+Plans and current facts should use distinct statuses.
+
+| Status | Meaning |
 |---|---|
-| State the product or policy role | Explain what the product, system, token, credit, vault, or framework does |
-| State the boundary | Explain what it does not do |
-| Avoid unsupported outcomes | Do not promise returns, revenue, growth, trading performance, listings, liquidity, payouts, or price outcomes |
-| Separate systems | Keep FUZE token, Platform Credits, stablecoins, product revenue, vault access, community participation, and wallet-based participation separate |
-| Use readiness language | Use readiness and activation-gate language where features depend on legal, compliance, product, technical, accounting, treasury, jurisdiction, or operational readiness |
-| Use product-first language | Explain practical usage before ecosystem participation |
-| Use public-safe reporting | Report categories, status, references, and boundaries where appropriate |
-| Protect private information | Do not expose private investor terms, legal materials, personal data, customer data, confidential partner terms, or security-sensitive details |
-| Avoid hype | Use accurate product and platform language |
-| Maintain consistency | Repeat approved risk language where needed without making every public paper read like a duplicate disclaimer sheet |
-
-This model keeps FUZE public communication aligned, public-safe, and easier to review.
-
-### 4.2 Master Approved Public Language
-
-FUZE public materials may use these phrases where relevant.
-
-| Topic | Approved Public Language |
-|---|---|
-| FUZE positioning | FUZE is a transparency-first AI SaaS platform building practical products on shared infrastructure for identity, credits, payments, AI orchestration, reporting, and ecosystem participation. |
-| Execution order | Product usage first. Platform rails second. Broader ecosystem participation after that. |
-| Tokenomics principle | Purpose-specific allocation. Vault-based control. Controlled circulation. Product-first utility. Long-term ecosystem alignment. |
-| FUZE token | FUZE token is the single ecosystem token of FUZE. It supports product-connected utility, ecosystem participation, platform alignment, governance direction where applicable, community participation structures, and wallet-based participation ability where activated under required controls. |
-| Platform Credits | Platform Credits are product usage credits and are separate from FUZE token. |
-| Stablecoins | Stablecoins are payment, settlement, treasury, and operational compensation rails. |
-| Compensation principle | Stablecoins pay for work. FUZE tokens align long-term participation. Platform Credits power product usage. |
-| Wallet-based participation ability | Wallet-based participation ability is a possible FUZE token-related framework where eligible FUZE-holding wallets may participate in approved distributable value from defined FUZE product revenue pools if the framework becomes active and all required gates are ready. |
-| Approved distributable value | Approved distributable value is reviewed value from defined FUZE product revenue pools after confirmation, reconciliation, deductions, reserves, approval, activation, eligibility, and reporting readiness. |
-| Seed Round | FUZE is preparing a Private Strategic Seed Round for strategic investors, operator-angels, and early-stage partners. Full details, structure, and terms are shared privately with qualified interested parties. This is not a public token sale. |
-| Public Vault Visibility | Public Vault Visibility is public-safe transparency into selected vaults, wallet labels, records, report hashes, audit references, release status, reserve status, and governance references. |
-| Public Vault Access Windows | Public Vault Access Windows are controlled access windows for selected vault-token access where final policy allows. |
-| Wallet privacy | FUZE uses wallet-level transparency without public identity exposure. |
-| Liquidity and listing | Liquidity and listing readiness are operational market-structure topics, not guaranteed listing, liquidity, trading volume, price, or exit. |
-| Development governance | FUZE uses AI to move faster while using structured standards to stay controlled. |
-| Growth and exit | FUZE is not relying on token speculation as the only exit path. FUZE builds real products, product usage, shared platform rails, public reporting, and strategic optionality. |
-
-Approved language is used where relevant. FUZE avoids forcing every paper, page, or post to repeat the same full paragraph when a shorter boundary is clearer.
-
-### 4.3 Restricted and Avoided Language
-
-FUZE public communication avoids phrases that create unsafe financial expectations.
-
-Restricted or avoided wording includes:
-
-- guaranteed ROI
-- guaranteed return
-- guaranteed payout
-- guaranteed income
-- guaranteed profit
-- guaranteed yield
-- fixed yield
-- passive income
-- dividend
-- risk-free
-- price target
-- token price prediction
-- listing soon
-- guaranteed listing
-- guaranteed liquidity
-- guaranteed trading volume
-- guaranteed market support
-- price support
-- price protection
-- guaranteed exit
-- guaranteed acquisition
-- buy before listing
-- TGE multiple
-- discount-to-TGE marketing
-- guaranteed game earnings
-- guaranteed AI accuracy
-- guaranteed community growth
-- guaranteed product revenue
-- guaranteed business revenue
-- FUZE token pays profit share
-- FUZE token pays dividends
-- every holder receives profit
-- holding FUZE guarantees payout
-- product revenue automatically goes to holders
-- gross revenue is shared with holders
-- market price drop does not matter because holders receive share
-- AIMM protects price
-- QTB guarantees trading profit
-- ZAGA guarantees earnings
-- Platform Credits create payout rights
-- stablecoin treasury balance goes to holders
-- Public Vault Access guarantees token access
-- smart-contract deployment means payout is active
-
-The safest public language explains utility, conditions, risks, readiness, and boundaries without promising outcomes.
-
-### 4.4 One-Token Messaging
-
-FUZE uses one ecosystem token only: FUZE token.
-
-Approved public wording:
-
-**FUZE token is the single ecosystem token of FUZE. It supports product-connected utility, ecosystem participation, platform alignment, governance direction where applicable, community participation structures, and wallet-based participation ability where activated under required controls.**
-
-Avoided wording:
-
-- FUZE has a second public participation token.
-- FUZE token is only a payout token.
-- FUZE token automatically shares product profit.
-- FUZE token guarantees participation distributions.
-- FUZE token guarantees investor return.
-- FUZE token gives company ownership.
-- FUZE token gives unrestricted treasury control.
-
-The wallet-based participation concept belongs inside the FUZE one-token model as activation-gated wallet-based participation ability.
-
-Boundary:
-
-One-token clarity reduces public confusion, but it does not guarantee token demand, token price, payout, liquidity, listing, or investment return.
-
-### 4.5 Wallet-Based Participation Messaging
-
-Wallet-based participation ability is sensitive and requires careful language.
-
-Approved public wording:
-
-**Wallet-based participation ability is a possible FUZE token-related framework where eligible FUZE-holding wallets may participate in approved distributable value from defined FUZE product revenue pools if the framework becomes active and all required gates are ready.**
-
-This ability is:
-
-- part of the one-token model
-- not a second token
-- not automatic for every wallet
-- eligibility-controlled
-- activation-gated
-- custody-aware
-- jurisdiction-aware
-- dependent on approved distributable value
-- dependent on legal, accounting, treasury, audit, reporting, smart-contract, privacy, eligibility, operator, product revenue pool, approved distributable value, and jurisdiction readiness
-
-Avoided wording:
-
-- every FUZE holder receives revenue
-- holders automatically receive payouts
-- wallet participation is active now
-- wallet participation is guaranteed
-- product revenue goes directly to wallets
-- holding FUZE removes market risk
-- token price no longer matters because wallets can receive product value
-- all wallets are eligible
-- exchange-held tokens always count
-- OTC buyers inherit all previous eligibility
-
-Boundary:
-
-Wallet-based participation ability may exist only if activated under approved rules and required gates.
-
-### 4.6 Approved Distributable Value Messaging
-
-Approved distributable value is a reviewed value category.
-
-Approved public wording:
-
-**Approved distributable value is the portion of defined FUZE product revenue that may be considered for eligible-wallet participation only if the participation framework becomes active and after required confirmation, reconciliation, deductions, reserves, review, reporting, approval, legal checks, accounting checks, treasury controls, audit process, eligibility rules, and jurisdiction checks.**
-
-Approved distributable value is narrower than gross revenue or visible treasury balance.
-
-It can exist only after:
-
-- product revenue pool definition
-- revenue confirmation
-- reconciliation
-- exclusions
-- deductions
-- reserves
-- legal review
-- accounting review
-- treasury review
-- audit or evidence review where required
-- approval
-- activation
-- eligibility
-- reporting readiness
-
-Avoided wording:
-
-- gross revenue is shared with token holders
-- every sale becomes distributable value
-- treasury balance is distributable value
-- token sale proceeds are distributable value
-- seed funds are distributable value
-- game rewards are distributable value
-- market value is distributable value
-- product revenue automatically creates payout
-
-Boundary:
-
-Approved distributable value is controlled, reviewed, and activation-gated.
-
-### 4.7 Platform Credit Messaging
-
-Platform Credits are product usage credits.
-
-Approved public wording:
-
-**Platform Credits are product usage credits and are separate from FUZE token.**
-
-Platform Credits can support:
-
-- AI workflows
-- product actions
-- reports
-- workspace usage
-- HerHelp modules
-- ShopOS AI usage
-- SheetLayer AI workflows
-- SpeakShop AI scripts
-- TrainLayer AI materials
-- CommunityLayer AI reports
-- QTB reports
-- AIMM reports
-- AIE event intelligence
-- ToolGrid AI sponsored visibility
-- Botmad work-assistance sessions
-- ZAGA utility surfaces where supported
-
-Avoided wording:
-
-- Platform Credits are tokens
-- Platform Credits are investment assets
-- Platform Credits create payout rights
-- Platform Credits create wallet-based participation eligibility
-- Platform Credits are equivalent to FUZE token
-- buying credits means buying FUZE token
-- spending credits creates investor exposure
-
-Boundary:
-
-Platform Credits support product usage. They do not create token ownership, investment rights, payout rights, or wallet-based participation eligibility by themselves.
-
-### 4.8 Stablecoin Messaging
-
-Stablecoins are payment, settlement, treasury, and compensation rails.
-
-Approved public wording:
-
-**Stablecoins pay for work. FUZE tokens align long-term participation. Platform Credits power product usage.**
-
-Stablecoins can support:
-
-- contributor compensation
-- contractor payments
-- advisor payments
-- partner settlement
-- vendor payments
-- product payments
-- Platform Credit purchases where supported
-- treasury operations
-- reserve management
-- pairing capital where approved
-- conversion proof records
-- public-safe payment category reporting
-
-Avoided wording:
-
-- stablecoin treasury balance belongs to holders
-- stablecoin payments create token-holder payout rights
-- stablecoin compensation creates wallet-based eligibility
-- stablecoin payments are guaranteed distributions
-- stablecoin reserves are public payout pools
-
-Boundary:
-
-Stablecoins are operational rails. They do not create automatic token-holder claims.
-
-### 4.9 Seed Round Messaging
-
-Seed Round discussions are private strategic fundraising conversations.
-
-Approved public sentence:
-
-**FUZE is preparing a Private Strategic Seed Round for strategic investors, operator-angels, and early-stage partners. Full details, structure, and terms are shared privately with qualified interested parties. This is not a public token sale.**
-
-Seed Round communication should stay:
-
-- private
-- qualified-party focused
-- product-first
-- legally reviewed
-- jurisdiction-aware
-- investor-readiness focused
-- free from public token-sale language
-- separate from Community Participation Round
-- separate from Platform Credits
-- separate from approved distributable value
-- separate from wallet-based participation activation
-
-Avoided wording:
-
-- public seed sale
-- public token sale
-- invest now
-- buy before listing
-- guaranteed allocation
-- guaranteed return
-- listing soon
-- guaranteed liquidity
-- seed buyers get guaranteed upside
-- token-related exposure guarantees profit
-
-Boundary:
-
-Seed Round details, structure, and terms are shared privately with qualified interested parties.
+| Concept | An idea or public model is defined |
+| Planned | FUZE intends work but has not completed it |
+| In development | Implementation is underway |
+| Testing | Controlled evaluation is underway |
+| Ready for review | FUZE-side preparation is complete for the next decision |
+| Approved | Required authority has approved the specific scope |
+| Active | The function or process is currently available |
+| Paused | Availability is temporarily suspended |
+| Closed | The process has ended |
+| Retired | The feature or record is no longer authoritative |
+
+Writers should identify the subject of the status. A contract can be deployed while claims remain inactive; a product can be live while one feature remains in testing.
 
 ---
 
-## 5. Token, Credits, Stablecoins, and Wallet Relationship
+## 6. Review Tiers
 
-Legal and compliance messaging must keep FUZE systems separate.
+### Tier 1: Editorial
 
-| System | Public Role | Messaging Boundary |
-|---|---|---|
-| FUZE token | Single ecosystem token | Utility, ecosystem participation, alignment, governance direction where applicable, and activation-gated wallet-based participation ability |
-| Platform Credits | Product usage credits | Product access and usage; not token ownership or investment rights |
-| Stablecoins | Payment, settlement, treasury, and compensation rails | Operational payment and settlement; not public payout promise |
-| Product revenue | Revenue from FUZE products and services | Product strength and operating input; not automatic approved distributable value |
-| Approved distributable value | Reviewed value from defined product revenue pools where active framework exists | Requires confirmation, review, approval, activation, eligibility, and reporting readiness |
-| Wallet-based participation ability | Possible activation-gated token-related framework | Not automatic and not guaranteed |
-| Public Vault Visibility | Public-safe transparency | Visibility only; not access, control, claim, or payout |
-| Public Vault Access Windows | Controlled access windows where final policy allows | Eligibility-controlled and not unrestricted public buying |
-| Community Participation Round | Eligible community participation framework | Separate from Seed Round and separate from wallet-based participation ability |
-| Seed Round | Private strategic fundraising | Terms shared privately with qualified interested parties |
+Ordinary descriptive copy supported by current product or policy documentation. Owner and editor review can be sufficient.
 
-This separation is the core of FUZE legal and compliance messaging.
+### Tier 2: Functional
 
----
+Claims about product capabilities, technical status, allocation, operations, partnerships, or measured results. Requires the accountable functional owner.
 
-## 6. Controls, Gates, and Governance
+### Tier 3: Specialist
 
-FUZE public messaging requires review controls.
+Claims involving legal status, fundraising, financial performance, token participation, eligibility, market access, security, privacy, AI advice boundaries, or regulated activity. Requires relevant specialist review.
 
-Important controls include:
+### Tier 4: Executive or governance
 
-- product claim review
-- token claim review
-- Platform Credit claim review
-- stablecoin claim review
-- Seed Round language review
-- public vault language review
-- wallet-based participation language review
-- approved distributable value language review
-- market price and demand language review
-- liquidity and listing language review
-- QTB and AIMM claim review
-- ZAGA game value language review
-- AI output boundary review
-- sponsored visibility disclosure review
-- privacy and data handling review
-- investor communication review
-- community communication review
-- exchange communication review
-- public FAQ consistency review
-- public paper consistency review
+Major public changes, incidents, financing closings, confirmed listings, token activation, material corrections, or commitments with broad impact. Requires the designated executive or governance authority.
 
-### 6.1 Product Boundary Messaging
-
-FUZE products should be described as practical tools and systems, not guaranteed result machines.
-
-| Product | Approved Boundary |
-|---|---|
-| HerHelp | Practical AI SaaS support; no guaranteed revenue, customer growth, business result, legal result, or perfect AI output |
-| SheetLayer AI | Spreadsheet and business data layer; no guaranteed data accuracy, business outcome, or operational result without review |
-| ShopOS AI | Shop operating system; no guaranteed shop revenue, customer growth, payment success, or staff performance |
-| SpeakShop AI | Voice script and announcement support; no guaranteed sales or conversion |
-| TrainLayer AI | Training and learning workflow support; no guaranteed learning outcome, job outcome, or certification value unless separately defined |
-| CommunityLayer AI | Community operations support; no guaranteed community growth, safety perfection, moderation result, or user behavior |
-| ZAGA | Game and token-utility ecosystem; no guaranteed token price, game earnings, or financial outcome |
-| ZAGA Arena | Battle arena game; USDT, Token Value, Net Worth, and rewards are game mechanics or controlled utility surfaces |
-| ZAGA Districts | Telegram-native cyberpunk MMORPG; city economies and treasuries are game/community mechanics |
-| QTB | Market interpretation and trading intelligence; no financial advice or trading instructions |
-| AIMM | Market-operations support; no guaranteed liquidity, price, listing, or market outcome |
-| AIE | Event intelligence; no guaranteed event result, sponsor result, funding, or partnership |
-| ToolGrid AI | Utility network and sponsored visibility; no guaranteed traffic, ranking, conversion, revenue, or customer acquisition |
-| Botmad | Supervised AI work assistance; no uncontrolled autonomous authority or guaranteed output accuracy |
-
-Product communication should explain practical value and appropriate human review.
-
-### 6.2 Token and Market Boundary Messaging
-
-FUZE token communication should avoid market-performance claims.
-
-Allowed framing:
-
-- FUZE token is the single ecosystem token.
-- FUZE token supports product-connected utility, ecosystem participation, platform alignment, and governance direction where applicable.
-- Wallet-based participation ability is possible only if activated under required controls.
-- Controlled circulation improves supply clarity.
-- Public Vault Visibility improves transparency.
-- Liquidity planning supports market-structure readiness.
-- DEX-first is a market access direction where ready.
-- CEX expansion may be explored later where product, legal, technical, custody, market, and venue readiness align.
-
-Avoided framing:
-
-- token price will increase
-- listing is guaranteed
-- liquidity is guaranteed
-- holders receive guaranteed payouts
-- market makers protect price
-- product revenue automatically supports token price
-- token ownership guarantees income
-- token exposure is risk-free
-- exchange access creates guaranteed exit
-
-### 6.3 AI Output Boundary Messaging
-
-FUZE uses AI to move faster while using structured standards to stay controlled.
-
-AI outputs may support:
-
-- drafting
-- analysis
-- summaries
-- workflows
-- reports
-- decision support
-- quality checks
-- product operations
-- customer support
-- market interpretation
-- event intelligence
-- community operations
-- shop operations
-- training materials
-- documentation
-- code assistance
-- work execution support through Botmad
-
-AI outputs require human review, permission controls, role controls, auditability, and safeguards where appropriate.
-
-FUZE avoids claiming:
-
-- guaranteed AI accuracy
-- autonomous legal advice
-- autonomous financial advice
-- autonomous trading instructions
-- autonomous treasury actions
-- perfect moderation
-- perfect fraud detection
-- perfect market interpretation
-- perfect business outcome
-- human review is never needed
-
-### 6.4 Wallet Privacy Messaging
-
-FUZE uses wallet-level transparency without public identity exposure.
-
-Approved framing:
-
-- Public-safe wallet records can support transparency.
-- Personal identity remains private or permissioned where required.
-- Wallet labels and report hashes can improve transparency.
-- Private verification can remain off-chain and access-controlled.
-- Self-custody and exchange custody may require different eligibility treatment.
-
-Avoided framing:
-
-- every wallet identity will be public
-- wallet visibility exposes personal identity
-- public vault visibility gives unrestricted public control
-- exchange custody automatically supports wallet participation
-- OTC transfers automatically transfer all eligibility
-
-### 6.5 Sponsored Visibility Messaging
-
-ToolGrid AI and similar sponsored visibility surfaces require clear public labeling.
-
-Approved framing:
-
-- sponsored placements are marked
-- visibility is subject to review
-- sponsor claims can be checked
-- categories and comparisons are structured
-- users remain responsible for decisions
-- no guaranteed traffic, ranking, conversion, sales, or revenue
-
-Avoided framing:
-
-- sponsored placement guarantees customers
-- sponsored ranking guarantees revenue
-- sponsors are endorsed without review
-- higher placement means guaranteed quality
-- visibility equals trust guarantee
-
-### 6.6 Legal Review and Public Update Controls
-
-FUZE may update public language as the platform evolves.
-
-Updates can be needed because of:
-
-- product changes
-- legal review
-- compliance review
-- jurisdiction review
-- tokenomics update
-- vault policy update
-- wallet participation update
-- public access window update
-- Seed Round language update
-- exchange communication boundary update
-- market conditions
-- product launch status
-- privacy controls
-- AI safety controls
-- public feedback
-- governance direction
-
-Public updates should explain the updated position clearly and avoid outdated language.
+One message can contain claims from multiple tiers. The highest applicable tier controls publication.
 
 ---
 
-## 7. Reporting and Transparency Direction
+## 7. Product Claims
 
-Legal and compliance messaging supports public-safe reporting.
+Product messaging should state:
 
-Reporting can include:
+- target user;
+- workflow or problem addressed;
+- current capability and availability;
+- user control and permissions;
+- relevant output or operational limits;
+- evidence for measured outcomes.
 
-- public paper updates
-- FAQ updates
-- risk boundary updates
-- product status updates
-- tokenomics status updates
-- vault visibility reports
-- access window reports
-- Seed Round public status
-- Platform Credit usage categories
-- stablecoin compensation categories
-- wallet privacy status
-- smart-contract readiness status
-- governance and multisig status
-- liquidity and listing readiness categories
-- QTB and AIMM boundary reminders
-- ZAGA game mechanic boundaries
-- AI output boundary reminders
-- sponsored visibility disclosures
+Claims such as “helps,” “supports,” or “can assist” still need a plausible product basis. Stronger claims such as “reduces cost by 30%” need a defined measurement.
 
-A useful report should explain:
+Product status should come before token or market language unless the product's purpose is specifically token-related.
 
-- what the system does
-- what changed
-- what status applies
-- what remains private
-- what is not guaranteed
-- what deeper paper explains the topic
-- what public boundary applies
-
-Reporting supports transparency.
-
-It does not create financial assurance.
+AI-assisted outputs should identify the need for user or professional review where the context requires it.
 
 ---
 
-## 8. Market, Legal, or Operational Context
+## 8. Token and Participation Claims
 
-### 8.1 Product-First Legal Messaging
+Token claims should use the controlling tokenomics source for:
 
-FUZE legal messaging starts with products.
+- fixed supply and allocation values;
+- utility and system role;
+- release and circulation state;
+- vault or custody status;
+- eligibility and activation;
+- claims and approved value.
 
-FUZE launch focus is HerHelp.com and ZAGA.io, supported by FUZE Core Platform rails and accelerated internally by Botmad.
+Writers should distinguish allocated, committed, vested, unlocked, released, claimable, deployed, and circulating.
 
-Product-first legal messaging helps FUZE avoid token-only public perception.
+Wallet-based participation language should reflect the actual framework status. Holding FUZE, appearing in a snapshot, or seeing a deployed contract is insufficient to claim current eligibility or value.
 
-It explains:
-
-- what customers use
-- what products solve
-- what Platform Credits buy
-- what stablecoins pay for
-- what FUZE token supports
-- what wallet records can show
-- what participation frameworks require
-- what is active
-- what is only planned, under review, or activation-gated
-
-### 8.2 Investor and Community Communication
-
-Investors and community members need different levels of information.
-
-Public community communication can include:
-
-- product status
-- public papers
-- tokenomics overview
-- Platform Credit explanation
-- wallet privacy explanation
-- risk boundaries
-- public vault visibility
-- community participation direction
-- market access boundaries
-
-Private investor communication can include:
-
-- private strategic Seed Round materials
-- terms
-- private data room materials
-- financial model where appropriate
-- private risk disclosures
-- private legal materials
-- private token-related exposure details where applicable
-- private investor identity and eligibility review
-
-The two channels should not be mixed.
-
-### 8.3 Exchange, Custody, and Market Communication
-
-Exchange, custody, liquidity, and market-access communication must be careful.
-
-Approved framing:
-
-- DEX-first is a market access direction where ready.
-- CEX expansion may be explored later where product, legal, technical, custody, market, and venue readiness align.
-- Listing readiness is not listing confirmation.
-- Liquidity planning is not liquidity assurance.
-- Exchange custody may affect wallet-based participation eligibility.
-- Market price and demand remain market-dependent.
-
-Avoided framing:
-
-- listing soon
-- exchange confirmed unless publicly confirmed
-- guaranteed liquidity
-- guaranteed volume
-- market maker protects price
-- holders can exit anytime
-- exchange custody automatically supports claims
-- market price is protected by treasury
-
-### 8.4 Jurisdiction and Availability
-
-Some FUZE features may vary by jurisdiction.
-
-This can affect:
-
-- Seed Round participation
-- Community Participation Round
-- Public Vault Access Windows
-- wallet-based participation ability
-- exchange access
-- claim support
-- migration support
-- stablecoin payments
-- KYC / KYB requirements
-- tax treatment
-- product availability
-- AI product features
-- sponsored visibility rules
-- custody handling
-- transfer restrictions
-
-Public communication should avoid universal eligibility statements when rules depend on jurisdiction.
-
-### 8.5 Market Boundary
-
-Legal and compliance messaging is a communication-control framework.
-
-It does not guarantee:
-
-- token demand
-- token price
-- exchange listing
-- liquidity
-- trading volume
-- market-making result
-- price support
-- resale availability
-- exit opportunity
-- acquisition
-- investment return
-
-Market access, custody, liquidity operations, exchange support, and public trading environments require careful boundary language and review.
+Detailed mechanisms should link to their dedicated papers rather than being re-explained in every message.
 
 ---
 
-## 9. Risk and Disclosure Reference
+## 9. Market and Listing Claims
 
-Important public boundaries include:
+Market communication should identify:
 
-- FUZE uses one ecosystem token: FUZE token.
-- Platform Credits are product usage credits and remain separate from FUZE token.
-- Stablecoins are payment, settlement, treasury, and compensation rails.
-- Wallet-based participation ability remains activation-gated.
-- Approved distributable value requires review, approval, activation, eligibility, and reporting readiness.
-- Community Participation Round is separate from Seed Round.
-- Seed Round discussions are private strategic fundraising conversations.
-- Public Vault Visibility is transparency, not access.
-- Public Vault Access Windows are controlled access windows where final policy allows.
-- Liquidity and listing readiness are market-structure topics and do not guarantee listing, liquidity, price, trading volume, exit, or return.
-- QTB supports market interpretation and does not provide financial advice or trading instructions.
-- AIMM supports market operations and does not guarantee liquidity, price, listing, or market outcome.
-- ZAGA game values are game mechanics or controlled utility surfaces, not guaranteed financial earnings.
-- AI outputs require human review and safeguards.
-- Sponsored visibility requires clear labeling and does not guarantee traffic, conversion, customers, or revenue.
-- Wallet-level transparency does not publish personal identity by default.
-- FUZE token does not guarantee payout, income, yield, profit, token price, token demand, listing, liquidity, market support, trading volume, exit, acquisition, game earnings, business revenue, user growth, community growth, approved distributable value, wallet eligibility, claim availability, smart-contract security, AI accuracy, sponsored performance, trading profit, market-making result, or investment return.
+- venue and pair;
+- verified status;
+- observation time;
+- methodology for price, volume, depth, or demand;
+- limitation and source.
 
-More detailed boundaries are handled in dedicated papers, including:
+DEX-first is a direction where readiness permits. Possible later CEX support remains subject to venue and project review.
 
-- `PUBLIC-INDEX/03-FUZE_PUBLIC_LANGUAGE_AND_BOUNDARY_INDEX.md`
-- `AI-SAAS-PRODUCT-PAPERS/16-FUZE_PRODUCT_RISK_BOUNDARIES_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/07-FUZE_WALLET_BASED_PARTICIPATION_MODEL_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/09-FUZE_APPROVED_DISTRIBUTABLE_VALUE_MODEL_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/21-FUZE_LIQUIDITY_AND_LISTING_POLICY_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/22-FUZE_MARKET_PRICE_AND_DEMAND_BOUNDARY_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/23-FUZE_SEED_ROUND_AND_TOKEN_RELATED_EXPOSURE_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/26-FUZE_WALLET_BASED_PRIVACY_AND_ELIGIBILITY_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/29-FUZE_TOKEN_RISK_BOUNDARIES_PUBLIC.md`
-- `INVESTOR-PARTNER-PAPERS/17-FUZE_INVESTOR_RISK_DISCLOSURE_PUBLIC.md`
-- `WEBSITE-SUMMARY-PAPERS/05-FUZE_RISK_AND_COMPLIANCE_ONE_PAGE_PUBLIC.md`
-- `WHITEPAPER-PAPERS/05-FUZE_RISK_AND_DISCLOSURE_APPENDIX_PUBLIC.md`
+Terms such as “in discussion,” “submitted,” “approved,” “scheduled,” and “live” should match evidence. Only public venue confirmation can support a confirmed listing claim.
 
-This paper focuses on public legal and compliance messaging while deeper product, token, investor, market, privacy, AI, and disclosure topics remain in dedicated papers.
+Price, demand, liquidity, resale, and market outcomes remain external and variable. The [FUZE Market Price and Demand Boundary](22-FUZE_MARKET_PRICE_AND_DEMAND_BOUNDARY_PUBLIC.md) governs causal and performance language.
 
 ---
 
-## 10. Key Takeaways
+## 10. Fundraising Claims
 
-- FUZE Legal and Compliance Messaging defines the approved public communication boundaries for FUZE products, FUZE token, Platform Credits, stablecoins, wallet-based participation ability, public vault systems, community participation, Seed Round communication, liquidity and listing, market price and demand, QTB, AIMM, ZAGA, AI outputs, data privacy, and public reporting.
-- FUZE communicates in product-first, transparency-first, compliance-aware language.
-- FUZE uses one ecosystem token: FUZE token.
-- Platform Credits are product usage credits and are separate from FUZE token.
-- Stablecoins are payment, settlement, treasury, and compensation rails.
-- Wallet-based participation ability is possible only if activated under required controls.
-- Approved distributable value is reviewed value from defined product revenue pools, not a simple revenue headline.
-- Seed Round discussions are private strategic fundraising conversations.
-- Public Vault Visibility means transparency, not access.
-- Public Vault Access Windows are controlled access windows where final policy allows.
-- QTB supports market interpretation without financial advice.
-- AIMM supports market-operations intelligence without market outcome guarantees.
-- ZAGA game values are game mechanics or controlled utility surfaces.
-- FUZE uses wallet-level transparency without public identity exposure.
-- FUZE public communication avoids price targets, return promises, listing promises, liquidity promises, payout promises, market-support claims, and unsupported outcome guarantees.
+Public fundraising messaging can identify the Private Strategic Seed Round, its strategic audience, execution purpose, and private-review route.
+
+Private terms, valuations, allocations, investor identity, commitments, token exposure, and closing information should remain permissioned until accurate and authorized for publication.
+
+The status should distinguish preparation, private discussions, diligence, commitments in process, completed closing, and closed.
+
+Fundraising receipts should never be described as product revenue, approved distributable value, or a public token-access route.
+
+---
+
+## 11. Partnership and Customer Claims
+
+A relationship claim should state what is actually confirmed:
+
+- discussion;
+- memorandum or non-binding exploration;
+- signed agreement;
+- integration in development;
+- live deployment;
+- distribution activity;
+- completed milestone;
+- measured result.
+
+Named parties, logos, quotes, results, and commercial details require authorization.
+
+A strategic relationship does not establish adoption, revenue, customer success, market access, or endorsement beyond its documented scope.
+
+---
+
+## 12. AI and Advice Boundaries
+
+QTB, AIMM, Botmad, and other AI products can support analysis, workflows, drafts, monitoring, and decision context.
+
+Messaging should identify:
+
+- user-directed versus automated behavior;
+- data source and freshness;
+- confidence and limitations;
+- human approval or operator control;
+- whether outputs are informational or operational.
+
+AI should not be presented as autonomous legal, financial, tax, investment, trading, treasury, or employment authority.
+
+Game values, simulations, rewards, and economies should be described according to their actual utility and withdrawal conditions rather than assumed financial earnings.
+
+---
+
+## 13. Privacy and Security Claims
+
+Privacy claims should state:
+
+- which data is public;
+- which data is permissioned;
+- purpose and access;
+- relevant retention or control;
+- exceptions and user choices.
+
+Wallet-level transparency must avoid publishing personal identity by default.
+
+Security claims should describe implemented controls and reviewed scope. Terms such as “secure,” “audited,” or “verified” should name the system, reviewer, date, and limitations where material.
+
+No security wording should imply immunity from bugs, compromise, user error, or third-party failure.
+
+---
+
+## 14. Channel Controls
+
+### Public papers
+
+Own detailed mechanisms and stable policy positions. Links and versioning should remain current.
+
+### Website and one-page summaries
+
+Use concise audience-specific language and link to detailed risk material.
+
+### Investor materials
+
+Separate public positioning from qualified private terms and diligence.
+
+### Product interface
+
+Place status, consent, risk, pricing, and user-action information close to the relevant action.
+
+### Social and community
+
+Use the same evidence standard as formal materials. Short format is no exemption from accuracy.
+
+### Partner and event materials
+
+Confirm logo, relationship, sponsorship, speaker, and result claims with the responsible party.
+
+Cross-channel reuse should preserve status, qualifications, and date.
+
+---
+
+## 15. Headline and Visual Review
+
+Review should cover more than body text.
+
+Check:
+
+- headline and subheading;
+- chart title, axes, scale, and cutoff;
+- image and screenshot status;
+- button and call-to-action;
+- footnote proximity;
+- quote attribution;
+- logo use;
+- metadata and social preview;
+- file name and download title.
+
+A qualification hidden far from the headline cannot cure a contradictory first impression.
+
+---
+
+## 16. Jurisdiction and Audience
+
+A message suitable for general product information can become higher risk when directed toward investors, token purchasers, restricted jurisdictions, or users taking a financial action.
+
+The reviewer should consider:
+
+- intended and likely audience;
+- distribution channel and targeting;
+- location restrictions;
+- language and translation;
+- call-to-action;
+- payment or wallet connection;
+- private versus public context.
+
+Universal availability should not be claimed where access depends on jurisdiction, custody, verification, or third-party support.
+
+---
+
+## 17. Approval and Publication
+
+Before publication, the owner should confirm:
+
+1. wording matches evidence;
+2. status and date are current;
+3. required reviewers approved;
+4. links and references resolve;
+5. private information is excluded;
+6. visual presentation preserves the boundary;
+7. expiration or review date is recorded.
+
+Approved copy should be versioned or otherwise traceable. Material edits after approval require renewed review.
+
+---
+
+## 18. Monitoring
+
+Published claims should be rechecked when:
+
+- product or feature status changes;
+- a round, window, claim, or migration stage changes;
+- allocation or supply reporting changes;
+- a venue or custody status changes;
+- an agreement ends;
+- a benchmark becomes stale;
+- law, policy, or jurisdiction treatment changes;
+- a correction or incident occurs.
+
+High-risk landing pages, FAQs, decks, and social campaigns should have named owners and review dates.
+
+---
+
+## 19. Corrections and Retractions
+
+A correction record should identify:
+
+- prior wording or data;
+- corrected wording or data;
+- cause;
+- affected channels;
+- effective time;
+- required notices;
+- reviewer and owner.
+
+Materially misleading content should be corrected promptly in every controlled channel. Archived versions can remain available when clearly marked.
+
+A retraction can be appropriate when the evidence is invalid, authorization is withdrawn, or the claim cannot be repaired with a qualification.
+
+---
+
+## 20. Escalation
+
+Escalate a message when:
+
+- evidence conflicts;
+- legal or regulatory treatment is unclear;
+- a named party disputes the claim;
+- private information may be exposed;
+- a financial, market, security, or AI result is unusually strong;
+- status cannot be verified;
+- the claim could reasonably drive a payment, investment, wallet, or custody decision.
+
+Publication should wait until the responsible authority resolves the issue.
+
+---
+
+## 21. Boundaries
+
+This framework organizes public-message review. It does not replace jurisdiction-specific professional advice, contractual disclosure, product terms, privacy notices, or investor documents.
+
+Detailed approved vocabulary belongs in the [FUZE Public Language Dictionary](32-FUZE_PUBLIC_LANGUAGE_DICTIONARY_PUBLIC.md). Consolidated public risks belong in the [FUZE Risk and Disclosure Appendix](../WHITEPAPER-PAPERS/05-FUZE_RISK_AND_DISCLOSURE_APPENDIX_PUBLIC.md).
+
+---
+
+## Conclusion
+
+FUZE legal and compliance messaging begins with an exact claim and evidence strong enough to support it.
+
+Claim classification, risk-tiered review, accurate status, channel controls, versioned approval, monitoring, and correction allow FUZE to communicate product progress and ecosystem plans clearly without copying the same disclaimer into every public document.

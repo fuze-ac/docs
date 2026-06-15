@@ -2,843 +2,407 @@
 
 ## Executive Summary
 
-FUZE Wallet-Based Privacy and Eligibility explains how FUZE can use wallet-level transparency without public identity exposure, how wallet-based eligibility can work, how private verification remains separated from public wallet records, and how custody, snapshots, transfers, activation gates, and jurisdiction rules can affect eligibility.
+FUZE can use wallet addresses and public blockchain evidence without publishing the personal identity behind each address. Public records can show functional labels, snapshot references, eligibility statuses, claim states, report hashes, and corrections while identity, account, jurisdiction, and verification evidence remain permissioned.
 
-FUZE uses one ecosystem token only: **FUZE token**.
+Eligibility is a decision for a defined process and period. It depends on the active rules, wallet or beneficial ownership evidence, snapshot method, custody type, wallet category, jurisdiction, required verification, duplicate controls, and current system status. A FUZE balance can be one input, but it is not a complete eligibility decision.
 
-FUZE token is the single ecosystem token of FUZE. It supports product-connected utility, ecosystem participation, platform alignment, governance direction where applicable, community participation structures, and wallet-based participation ability where activated under required controls.
+This paper defines the privacy and data controls around that decision: field classification, evidence collection, wallet-person separation, status reasons, access control, retention, disclosure, disputes, corrections, and incidents.
 
-Wallet-based privacy means FUZE can use wallet addresses, vault records, report hashes, audit references, token release records, snapshot records, eligibility status where applicable, claim status where applicable, and public vault visibility without publishing personal identity publicly.
-
-Wallet-based eligibility means a wallet may need to meet defined conditions before it can access a specific feature, status, claim process, governance direction, product utility surface, vault record, Public Vault Access Window, migration claim, or participation framework.
-
-Holding FUZE token may be one condition in some eligibility models, but token ownership alone does not make every wallet eligible for every future feature.
-
-Wallet-based participation ability is a possible FUZE token-related framework where eligible FUZE-holding wallets may participate in approved distributable value from defined FUZE product revenue pools if the framework becomes active.
-
-This ability remains activation-gated and separate from ordinary token holding.
-
-Eligibility may depend on FUZE token holding status, wallet ownership, custody type, snapshot timing, transfer status, lockup status, vesting status, exchange custody treatment, OTC transfer treatment, jurisdiction review, private verification where required, legal review, accounting review, treasury readiness, audit readiness, reporting readiness, smart-contract readiness, privacy readiness, operator readiness, approved distributable value approval, product revenue pool approval, and activation status.
-
-FUZE does not publish personal names, emails, phone numbers, ID documents, passports, home addresses, investor identities, contributor identities, customer identities, private agreements, private legal records, private tax records, private KYC records, private AML records, or private verification records publicly by default.
-
-Platform Credits are product usage credits and are separate from FUZE token.
-
-Stablecoins are payment, settlement, treasury, and operational compensation rails.
-
-FUZE does not guarantee payout, income, dividend, yield, profit, token price, listing, liquidity, market support, trading volume, exit, game earnings, business revenue, user growth, community growth, approved distributable value, wallet eligibility, claim availability, smart-contract security, AI accuracy, or investment return.
+The participation mechanism itself remains in the protected [FUZE Wallet-Based Participation Model](07-FUZE_WALLET_BASED_PARTICIPATION_MODEL_PUBLIC.md). Exchange and omnibus custody treatment is maintained in its dedicated custody paper.
 
 ---
 
-## 1. Purpose of This Paper
+## 1. Policy Objective
 
-This paper explains FUZE’s wallet-based privacy and eligibility model.
+The policy should let FUZE determine and report wallet status while answering:
 
-It defines:
+1. Which public evidence supports the wallet record?
+2. Which private evidence supports control or beneficial ownership?
+3. Which active eligibility rules were applied?
+4. Why did the wallet receive its current status?
+5. Who can inspect or change the record?
+6. How long is supporting data retained?
+7. How can an error or dispute be corrected?
 
-- what wallet-based privacy means
-- what wallet-level transparency means
-- what personal information FUZE avoids publishing publicly
-- how private verification can remain off-chain and permissioned
-- what wallet records may be public-safe
-- what wallet-based eligibility means
-- why token ownership alone does not make every wallet eligible for every feature
-- how eligibility may work if wallet-based participation ability becomes active
-- how exchange custody and self-custody differ
-- how OTC transfers can affect eligibility assumptions
-- how snapshots, transfer timing, custody, and claim status can affect eligibility
-- how wallet-based privacy relates to Platform Credits, stablecoins, FUZE token, public vault visibility, Public Vault Access Windows, migration claims, and approved distributable value
-- what public wording FUZE uses and avoids
-
-This paper is not a privacy policy, legal opinion, tax opinion, KYC policy, AML policy, securities opinion, claim instruction, token sale document, public investment offer, public solicitation, investment recommendation, payout policy, exchange policy, custody agreement, or financial-return promise.
-
-It is a public wallet privacy, eligibility, custody, and participation-boundary paper.
+The objective is verifiable status with minimum identity exposure.
 
 ---
 
-## 2. Reader Problem This Paper Solves
+## 2. Core Privacy Model
 
-Wallet-based systems can confuse readers when public wallet records, eligibility rules, identity verification, claim status, custody type, and participation ability are discussed together.
+FUZE separates three layers.
 
-Readers may ask:
+### Public wallet layer
 
-- Does public wallet visibility expose personal identity?
-- Does holding FUZE token automatically create eligibility?
-- Does an exchange-held balance count the same as self-custody?
-- Does a snapshot make every wallet eligible?
-- Does an OTC transfer keep the same eligibility status?
-- Does Public Vault Visibility create Public Vault Access?
-- Does Public Vault Access create wallet-based participation?
-- Does migration eligibility create wallet-based participation eligibility?
-- Does a claim status create payout rights?
-- Does private verification become public?
+Contains blockchain identifiers, public transactions, functional labels, public status fields, report references, and approved aggregate information.
 
-This paper solves that problem by separating wallet-level transparency, private verification, and eligibility.
+### Permissioned eligibility layer
 
-The key answer is:
+Contains wallet-control evidence, account or custody evidence, jurisdiction status, verification results, reason codes, reviewer actions, and dispute records.
 
-FUZE can use public-safe wallet records while keeping private identity records permissioned. Eligibility depends on defined rules, active frameworks, custody context, jurisdiction review, verification requirements, and activation gates.
+### Restricted identity layer
+
+Contains personal or entity identity, contact details, documents, source records, legal or compliance evidence, and sensitive ownership mappings where required.
+
+The layers can be linked through controlled identifiers. The public layer should not expose the private linkage.
 
 ---
 
-## 3. FUZE Public Position
+## 3. Field Classification
 
-FUZE’s public position is:
-
-**FUZE uses wallet-level transparency without public identity exposure. Wallet eligibility remains rule-based, activation-gated, custody-aware, jurisdiction-aware, and not automatic from token ownership alone.**
-
-The position follows FUZE’s tokenomics principle:
-
-**Purpose-specific allocation. Vault-based control. Controlled circulation. Product-first utility. Long-term ecosystem alignment.**
-
-This position has several parts.
-
-| Area | FUZE Public Position |
+| Field | Normal treatment |
 |---|---|
-| Wallet-level transparency | Public records may show wallet addresses, vault labels, report hashes, token release records, and status records where appropriate |
-| No public identity exposure | FUZE does not publish personal identity publicly by default |
-| Private verification separation | Verification, if required, remains off-chain, permissioned, access-controlled, and separated from public blockchain records |
-| Eligibility control | Wallet eligibility depends on defined rules and activation status |
-| Custody awareness | Self-custody and exchange custody can require different treatment |
-| Snapshot awareness | Snapshot inclusion depends on timing, custody type, active rules, and record method |
-| Transfer awareness | Transfers, OTC transactions, deposits, withdrawals, and vesting movement can affect eligibility where rules define it |
-| Participation boundary | Token ownership may matter in some models, but it does not create automatic claims |
-| Public boundary | Wallet privacy and eligibility design does not guarantee payout, income, yield, profit, liquidity, listing, price, or return |
+| Wallet address | Public where needed for transparency or direct status |
+| Functional wallet label | Public when approved |
+| Snapshot block or timestamp | Public |
+| Aggregate balance or category | Public or public summary |
+| Eligibility status | Public, pseudonymous, or aggregate according to the active process |
+| Status reason | Public category or permissioned detail |
+| Claim or release status | Public-safe where the process is active |
+| Wallet-control proof | Permissioned |
+| Exchange or custodian statement | Permissioned |
+| Personal or entity identity | Restricted |
+| Contact information | Restricted |
+| Identity and verification documents | Restricted |
+| Jurisdiction evidence | Restricted or permissioned result |
+| Legal, tax, or account records | Restricted |
+| Support and dispute evidence | Permissioned or restricted |
 
-This model respects the Web3 preference for wallet-based interaction while avoiding unnecessary public exposure of personal identity.
-
-It also protects public communication by separating token ownership from eligibility, eligibility from claim availability, and claim availability from financial guarantees.
+Classification should be set before collection and reviewed before publication.
 
 ---
 
-## 4. Core Model
+## 4. Wallet-Person Separation
 
-### 4.1 Wallet-Based Privacy Definition
+A wallet address identifies a blockchain account, not necessarily one natural person.
 
-Wallet-based privacy means FUZE can use wallet-level public records while keeping private identity records separated.
+A wallet can represent:
 
-| Area | Public Meaning |
+- one self-custody user;
+- a multisignature group;
+- a company or institution;
+- an exchange or custodian;
+- a smart contract;
+- a treasury, reserve, vesting, or program function;
+- multiple beneficial users through an omnibus structure.
+
+FUZE should avoid publishing a person's name beside an address unless the association is already authorized and necessary for the public purpose.
+
+Internally, a controlled mapping can connect an applicant or account reference to one or more wallets. Access to that mapping should be limited and logged.
+
+---
+
+## 5. Eligibility Record
+
+Each decision should use a versioned eligibility record.
+
+| Field | Required content |
 |---|---|
-| Wallet address | Public blockchain identifier or wallet record |
-| Vault label | Public-safe label for a wallet, vault, contract, or category |
-| Report hash | Public proof that a report existed in a specific form |
-| Token release record | Public-safe release, lock, unlock, claim, vesting, or movement reference |
-| Snapshot record | Public-safe record of wallet status at a defined time where applicable |
-| Eligibility status | Public-safe status only where active rules allow |
-| Claim status | Public-safe claim status only where claim logic exists and reporting is appropriate |
-| Private verification | Off-chain identity, KYC, AML, investor, jurisdiction, tax, legal, or account verification where required |
-| Public boundary | Wallet visibility does not equal public identity exposure, public claim rights, or payout approval |
+| Record ID | Stable internal identifier |
+| Process and period | Framework, program, snapshot, or claim scope |
+| Rule version | Eligibility method applied |
+| Wallet or custody reference | Address, account, contract, or custodian record |
+| Wallet category | Self-custody, exchange, contract, treasury, vesting, partner, or another approved category |
+| Holding evidence | Balance and timing under the active method |
+| Control or ownership result | Verified, pending, unsupported, disputed, or exempt under rules |
+| Jurisdiction result | Supported, restricted, pending, or unavailable |
+| Verification result | Required checks completed or outstanding |
+| Status | Eligible, in review, restricted, ineligible, expired, paused, or corrected |
+| Reason code | Standard explanation for the status |
+| Reviewer and time | Accountable decision evidence |
+| Public treatment | Public, pseudonymous, aggregate, or private |
 
-Wallet-based privacy supports transparency and user protection at the same time.
+The record should preserve the rule version because later policies can differ.
 
-### 4.2 What Wallet-Level Transparency Can Show
+---
 
-Wallet-level transparency may show public-safe records such as:
+## 6. Eligibility Criteria
 
-- wallet addresses
-- vault labels
-- vault activity
-- token release records
-- circulating supply records
-- locked supply records
-- reserve records
-- treasury movement summaries
-- multisig records where public-safe
-- timelock records where public-safe
-- report hashes
-- audit record references
-- conversion proof records
-- public vault visibility records
-- Public Vault Access Window status where implemented
-- product revenue record summaries where public-safe
-- Platform Credit usage summaries where public-safe
-- stablecoin payment summaries where public-safe
-- snapshot records where applicable
-- eligibility status where applicable
-- claim status where applicable
-- emergency pause status where applicable
-- distribution vault status only if the framework is active
+An active process can require:
 
-These records can help public readers understand system status without exposing personal identity.
+- a defined FUZE balance or holding condition;
+- inclusion at a stated snapshot;
+- proof of wallet control or beneficial ownership;
+- supported custody;
+- an eligible wallet category;
+- supported jurisdiction;
+- completion of required private verification;
+- compliance with lock, vesting, transfer, or program rules;
+- absence of duplicate or abusive claims;
+- an active framework and claim period.
 
-Boundary:
+Each criterion should have a source, test, result, and reason code.
 
-Wallet-level transparency is visibility, not public identity disclosure, public treasury control, payout approval, claim approval, or guaranteed eligibility.
+Token ownership alone cannot establish beneficial ownership behind an exchange wallet, supported jurisdiction, wallet category, duplicate status, or framework activation.
 
-### 4.3 Information FUZE Keeps Private or Permissioned
+---
 
-FUZE does not publish personal identity publicly by default.
+## 7. Proof Methods
 
-Private or permissioned records may include:
+### Wallet signature
 
-- personal names
-- emails
-- phone numbers
-- ID documents
-- passports
-- home addresses
-- investor identities
-- contributor identities
-- customer identities
-- team identities where not publicly disclosed
-- advisor identities where not publicly disclosed
-- partner identities where not publicly disclosed
-- private agreements
-- private investor terms
-- private compensation terms
-- private legal records
-- private tax records
-- private verification records
-- private KYC records
-- private AML records
-- private source-of-funds records
-- private exchange communications
-- confidential partner communications
-- confidential customer information
-- private payroll records
-- private contractor records
-- private treasury details
-- sensitive security procedures
+Demonstrates control of a supported self-custody address at the verification time. The signed message should include domain, purpose, nonce, network, and expiration.
 
-Private records may still exist where required for legal, treasury, accounting, tax, compliance, investor, partner, employment, contractor, custody, exchange, or jurisdiction reasons.
+### On-chain evidence
 
-Boundary:
+Can establish balance, transaction, contract position, lock, vesting, or snapshot state under a stated method.
 
-Private verification may exist without becoming public identity exposure.
+### Custodian or exchange evidence
 
-### 4.4 Private Verification Boundary
+Can support beneficial position, account history, deposit or withdrawal, and applicable timing. Authenticity and account linkage require review.
 
-Private verification may be required in some situations.
+### Contract evidence
 
-Private verification may relate to:
+Can support ownership or authority in a multisignature, smart-contract wallet, staking position, liquidity position, or vault.
 
-- legal review
-- investor eligibility
-- jurisdiction review
-- tax review
-- accounting review
-- treasury controls
-- payment rules
-- stablecoin payment review
-- compensation records
-- source-of-funds checks where required
-- sanctions or restricted-party screening where required
-- KYC or AML requirements where applicable
-- exchange requirements
-- custody requirements
-- claim eligibility where applicable
-- transfer restriction where applicable
-- private investor agreements
-- partner agreements
-- contributor agreements
-- advisor agreements
-- product account verification
-- fraud prevention
-- duplicate prevention
-- dispute resolution
+### Private identity or entity evidence
 
-If private verification is required, it remains:
+Can support jurisdiction, account ownership, qualification, or another required rule. FUZE should record the minimum necessary result rather than publishing the source documents.
 
-- off-chain
-- permissioned
-- access-controlled
-- separated from public wallet records
-- limited to required reviewers
-- handled under applicable privacy, legal, and operational requirements
-- excluded from public reports unless disclosure is required and approved
+One proof method can be insufficient for a particular process. The active rule should define acceptable combinations.
 
-Boundary:
+---
 
-Private verification does not mean FUZE publishes personal identity publicly.
+## 8. Snapshot Privacy
 
-### 4.5 Wallet-Level Transparency Without Doxxing
+A snapshot can contain wallet addresses and balances that are already observable on-chain. FUZE should still define why it creates, enriches, and publishes the snapshot.
 
-Wallet-level transparency without doxxing means public readers may see wallet or vault status without seeing the private person or organization behind every wallet.
+The snapshot method should state:
 
-| Public-Safe Record | Private Record Kept Separate |
+- contract and network;
+- block or timestamp;
+- included and excluded balance types;
+- wallet-category treatment;
+- custody treatment;
+- correction window;
+- public fields;
+- retention and archive.
+
+Adding eligibility, jurisdiction, identity, or claim information to a public address can increase privacy risk beyond the original blockchain data. Those enriched fields should be minimized and published only at the level needed for review.
+
+A Merkle root, report hash, aggregate count, or status endpoint can sometimes provide evidence without publishing the full enriched dataset.
+
+---
+
+## 9. Status and Reason Codes
+
+Standard statuses make decisions understandable.
+
+| Status | Meaning |
 |---|---|
-| Wallet address | Personal identity |
-| Vault label | Private owner details where not public |
-| Snapshot status | KYC / AML records |
-| Eligibility category | Private verification file |
-| Claim status where active | Private legal or tax file |
-| Report hash | Raw private report data |
-| Contract reference | Private agreement |
-| Public transaction reference | Private business context where confidential |
-| Custody status category | Private exchange account records |
-| Dispute status category | Private dispute materials |
+| Eligible | All required criteria pass for the defined process |
+| In review | Evidence or specialist review remains open |
+| Restricted | A rule currently prevents access but the record remains active |
+| Ineligible | One or more final criteria fail |
+| Unsupported custody | Required user-level records or interaction cannot be supported |
+| Duplicate | The same position or right appears in another record |
+| Expired | The applicable period or action window ended |
+| Paused | Processing is temporarily suspended |
+| Corrected | A prior decision has been superseded |
 
-This structure reduces unnecessary public exposure while keeping public records useful.
-
-Boundary:
-
-Wallet-level transparency does not remove legal, tax, accounting, custody, eligibility, or jurisdiction requirements.
-
-### 4.6 Wallet-Based Eligibility Definition
-
-Wallet-based eligibility means a wallet may need to meet defined conditions before it can access a specific feature, status, claim process, governance direction, product utility surface, vault record, Public Vault Access Window, migration process, or participation framework.
-
-Eligibility may depend on:
-
-- FUZE token holding status
-- wallet ownership or control
-- self-custody or exchange custody
-- snapshot timing
-- holding period where applicable
-- lockup status
-- vesting status
-- transfer history
-- claim history where applicable
-- product usage status where relevant
-- jurisdiction
-- private verification where required
-- legal review
-- sanctions or restricted-party screening where required
-- KYC or AML where applicable
-- investor category where relevant
-- contributor or partner category where documented
-- activation status
-- smart-contract readiness
-- reporting readiness
-- treasury readiness
-- audit readiness
-- accounting readiness
-- privacy readiness
-- operator readiness
-- product revenue pool approval where applicable
-- approved distributable value approval where applicable
-
-Eligibility is rule-based.
-
-It is not assumed only from token ownership.
-
-### 4.7 Holding FUZE Token vs Eligibility
-
-Holding FUZE token may be one condition in some future eligibility models, but it is not the only possible condition.
-
-A wallet may hold FUZE token and still be ineligible because of:
-
-- exchange custody limitations
-- jurisdiction restrictions
-- restricted-party screening
-- private verification requirement
-- snapshot timing
-- transfer timing
-- lockup status
-- vesting status
-- excluded wallet category
-- treasury wallet category
-- team or advisor wallet category
-- partner wallet category
-- claim period status
-- unsupported custody structure
-- duplicate claim issue
-- anti-abuse review
-- missing required account or wallet proof
-- inactive framework status
-- pause status
-- legal or compliance restriction
-- reporting readiness issue
-- smart-contract readiness issue
-
-Token holding can matter, but the relevant rules decide how it matters.
-
-### 4.8 Self-Custody, Exchange Custody, and Contract Custody
-
-Custody type can affect eligibility.
-
-| Custody Type | Public Meaning | Eligibility Consideration |
-|---|---|---|
-| Self-custody | User controls wallet and private key | May support direct wallet evidence where rules allow |
-| Exchange custody | Tokens are held inside an exchange account | May require exchange support, exchange records, or special handling |
-| Contract custody | Tokens are held in smart contracts, LP positions, vaults, vesting contracts, or claim contracts | May require contract-specific balance logic |
-| Treasury custody | Tokens are held by FUZE treasury, vault, or controlled account | Usually treated as category-controlled, not ordinary eligible holder supply |
-| Partner or advisor custody | Tokens held under partner, advisor, or contributor rules | May be subject to vesting, lockups, and role-based controls |
-| Migration custody | Tokens held for legacy migration or claim process | Depends on migration rules |
-| Public access window custody | Tokens acquired through access windows | May be subject to lockups, limits, and eligibility rules |
-
-Custody status should be reported clearly where it affects eligibility.
-
-### 4.9 Snapshot and Transfer Rules
-
-A snapshot is a record of wallet status at a specific point in time.
-
-A snapshot may record:
-
-- wallet address
-- token balance
-- holding category
-- block number
-- date and time
-- custody category
-- lockup category
-- vesting category
-- excluded wallet category
-- claim category where applicable
-- public report hash
-- eligibility status where applicable
-
-Snapshot records can support eligibility analysis.
-
-However, snapshot inclusion depends on the active rules.
-
-Transfers after a snapshot may affect eligibility depending on the framework.
-
-Transfer rules may need to handle:
-
-- self-custody transfer
-- exchange deposit
-- exchange withdrawal
-- OTC transfer
-- treasury transfer
-- vesting transfer
-- claim transfer
-- LP transfer
-- smart-contract custody
-- lost wallet access
-- hacked wallet issue
-- duplicate claim issue
-- restricted wallet category
-- jurisdiction change
-- claim-period timing
-
-The rules must be defined before eligibility can be interpreted.
-
-### 4.10 OTC Transfer Treatment
-
-OTC transfers can create eligibility confusion because token ownership moves privately or semi-privately outside public exchange trading.
-
-OTC transfer treatment may require rules for:
-
-- transfer timing
-- transfer evidence
-- buyer eligibility
-- seller eligibility
-- lockup transfer
-- claim transfer
-- restricted wallet transfer
-- jurisdiction treatment
-- private agreement review
-- reporting status
-- anti-abuse controls
-- duplicate claim prevention
-- original holder status
-- new holder status
-
-A private transfer does not automatically move every eligibility status to a new wallet.
-
-Eligibility follows the active policy.
-
-### 4.11 Migration Eligibility
-
-BOARD / Surfboard Migration can require separate eligibility rules.
-
-Migration eligibility may depend on:
-
-- legacy holder status
-- snapshot record
-- wallet match
-- exchange record
-- custody record
-- claim window
-- claim ratio where applicable
-- anti-abuse review
-- private verification where required
-- jurisdiction review
-- destination wallet status
-- paused or closed status
-- public migration report status
-
-Migration eligibility is separate from Community Participation Allocation.
-
-Migration eligibility is separate from wallet-based participation ability.
-
-Migration eligibility is separate from Public Vault Access Windows unless final policy expressly connects them.
-
-### 4.12 Wallet-Based Participation Eligibility
-
-Wallet-based participation ability is a possible future framework.
-
-Eligibility may require:
-
-- active framework
-- eligible FUZE-holding wallet
-- defined token holding rules
-- defined snapshot rules
-- self-custody or supported custody treatment
-- jurisdiction availability
-- privacy review
-- legal review
-- accounting review
-- treasury review
-- audit readiness
-- reporting readiness
-- approved distributable value
-- defined product revenue pool
-- smart-contract activation where applicable
-- claim logic where applicable
-- dispute process
-- emergency pause process
-
-Wallet-based participation eligibility is not the same as token holding.
-
-It requires the full activation context.
+Reason codes should explain the category without exposing sensitive facts. Detailed reviewer notes remain permissioned.
 
 ---
 
-## 5. Token, Credits, Stablecoins, and Wallet Relationship
+## 10. Wallet Categories
 
-Wallet-based privacy and eligibility sits across the FUZE token model, Platform Credits, stablecoin rails, product revenue, approved distributable value, and public vault records.
+Wallet categories can affect eligibility because balances have different purposes.
 
-| System | Public Role | Privacy and Eligibility Relationship |
-|---|---|---|
-| FUZE token | Single ecosystem token | Token holding can matter where rules define it, but eligibility is not automatic |
-| Platform Credits | Product usage credits | Credits are product usage records and do not create token-holder eligibility by themselves |
-| Stablecoins | Payment, settlement, treasury, and compensation rails | Stablecoin records may require private payment or compliance review |
-| Product revenue | Revenue from FUZE products and services | May support records and reports but requires review before approved value treatment |
-| Approved distributable value | Reviewed value from defined product revenue pools where an active framework exists | Requires activation, eligibility, and reporting controls |
-| Wallet-based participation ability | Possible activation-gated token-related framework | Requires eligible wallet status under active rules |
-| Public Vault Visibility | Public-safe visibility into selected vaults and records | Visibility without public identity exposure |
-| Public Vault Access Windows | Controlled access windows where final policy allows | Require eligibility, jurisdiction, pricing, lockup, and reporting rules |
-| Migration claims | Eligible legacy-holder continuity process where active | Require migration-specific eligibility and privacy controls |
-| Exchange custody | Exchange-controlled balance environment | May require separate support and eligibility treatment |
-| Self-custody | User-controlled wallet environment | May support direct wallet evidence where rules allow |
+Possible categories include:
 
-This relationship keeps public communication clear.
+- ordinary self-custody holder;
+- exchange or omnibus custody;
+- institutional custody;
+- contract wallet or multisignature;
+- treasury or reserve;
+- team, advisor, partner, or vesting;
+- liquidity or market operations;
+- migration;
+- claim or distribution contract;
+- bridge or represented supply;
+- disputed or recovery wallet.
 
-Wallets can support transparency.
-
-Private verification can stay private.
-
-Eligibility remains rule-based.
+Category assignment should be evidence-based and correctable. A label should never be used to identify a private person publicly.
 
 ---
 
-## 6. Controls, Gates, and Governance
+## 11. Transfers and Status
 
-Wallet-based privacy and eligibility require controls.
+Eligibility attaches to the active rules rather than permanently following tokens.
 
-Important controls include:
+A transfer can affect:
 
-- privacy review
-- private verification controls
-- public-safe reporting controls
-- wallet label controls
-- eligibility rule definition
-- snapshot rule definition
-- custody rule definition
-- exchange custody handling
-- OTC transfer handling
-- migration eligibility rules
-- Public Vault Access Window eligibility rules
-- wallet-based participation activation gates
-- jurisdiction review
-- legal review
-- sanctions or restricted-party screening where required
-- KYC or AML where applicable
-- accounting review where applicable
-- treasury review where applicable
-- audit readiness
-- reporting readiness
-- smart-contract readiness
-- emergency pause
-- dispute process
-- correction process
-- data retention controls
-- access controls for private files
+- snapshot balance;
+- holding-period condition;
+- beneficial ownership;
+- lock or vesting;
+- duplicate status;
+- jurisdiction;
+- custody support;
+- claim completion;
+- private contractual rights.
 
-### 6.1 Privacy Controls
+The policy should state whether status depends only on the snapshot, requires continued holding, can move to a replacement wallet, or expires after transfer.
 
-Privacy controls protect private data.
-
-They may include:
-
-| Control | Public Role |
-|---|---|
-| Data minimization | Collect only what is required |
-| Permissioned records | Keep private verification separate from public records |
-| Role-based access | Limit who can view private records |
-| Public-safe reporting | Publish summaries rather than private files |
-| Identity separation | Separate wallet address from personal identity unless disclosure is required and approved |
-| Redaction | Remove sensitive fields before reporting |
-| Legal review | Confirm what can be public |
-| Security review | Protect private data systems |
-| Data retention rules | Retain private records only as needed under policy |
-| Incident response | Handle privacy or data exposure incidents |
-
-Privacy controls allow FUZE to stay transparent without unnecessary exposure.
-
-### 6.2 Eligibility Controls
-
-Eligibility controls define who qualifies for a specific process.
-
-They may include:
-
-| Eligibility Control | Public Role |
-|---|---|
-| Rule definition | Defines who qualifies |
-| Snapshot method | Defines how wallet status is recorded |
-| Holding period | Defines whether token holding duration matters |
-| Custody treatment | Defines how self-custody, exchange custody, and contract custody are handled |
-| Transfer rule | Defines how transfers affect status |
-| Exclusion rule | Defines excluded wallets or restricted categories |
-| Claim window | Defines when claims can happen |
-| Jurisdiction rule | Defines allowed or restricted locations |
-| Private verification | Confirms identity, business, investor, or account status where required |
-| Anti-abuse review | Reduces duplicate, false, bot, or sybil claims |
-| Dispute process | Allows review of contested status |
-| Pause process | Allows the system to pause during risk or review |
-| Reporting | Explains status in public-safe categories |
-
-Eligibility controls keep public systems fairer and clearer.
-
-### 6.3 Public Reporting Controls
-
-Public reporting can show eligibility status in a limited and public-safe way.
-
-Reporting can include:
-
-- eligible category counts
-- claim status
-- vault status
-- snapshot record
-- report hash
-- public access window status
-- migration status
-- excluded category count where appropriate
-- paused status
-- dispute status category
-- privacy boundary
-- jurisdiction boundary
-- claim window status
-- remaining allocation
-- released allocation
-- locked allocation
-
-Public reports should not expose private identity or sensitive verification details.
-
-### 6.4 Dispute, Correction, and Pause Process
-
-Eligibility systems may need dispute, correction, or pause controls.
-
-Possible reasons include:
-
-- wrong wallet label
-- wrong custody category
-- duplicate claim
-- missing exchange record
-- snapshot mismatch
-- private verification mismatch
-- transfer dispute
-- jurisdiction review
-- lost wallet access
-- compromised wallet
-- smart-contract issue
-- reporting issue
-- legal review update
-- privacy concern
-- suspicious activity
-- emergency event
-
-A dispute or correction process helps keep eligibility records accurate.
-
-Pause controls protect users and the platform during serious issues.
+OTC receipt of FUZE does not automatically transfer a seller's historical snapshot, private agreement, migration status, or prior eligibility.
 
 ---
 
-## 7. Reporting and Transparency Direction
+## 12. Custody Boundary
 
-Wallet-based privacy and eligibility can support public-safe reporting.
+Self-custody can support direct signatures and address-level evidence. Exchange, institutional, or omnibus custody can require account records and intermediary cooperation.
 
-Reporting can include:
+The eligibility system should record:
 
-- wallet-level status categories
-- snapshot references
-- report hashes
-- migration claim status
-- Public Vault Access Window eligibility status
-- claim status where active
-- eligibility category summaries
-- excluded category summaries where appropriate
-- custody category summaries
-- self-custody vs exchange custody summaries
-- lockup and vesting summaries
-- dispute category summaries
-- pause status
-- privacy boundary notes
-- jurisdiction boundary notes
-- smart-contract readiness status
-- activation gate status
-- public risk boundary
+- who controls the on-chain wallet;
+- who is the claimed beneficial holder;
+- which evidence connects them;
+- whether the custody provider supports the process;
+- whether direct contract interaction is possible;
+- how deposits, withdrawals, and cutoffs are treated.
 
-A useful report should explain:
-
-- what wallet records are visible
-- what private records remain protected
-- what eligibility process is active
-- what framework is inactive
-- what custody assumptions apply
-- what snapshot method applies
-- what claim status means
-- what eligibility does not imply
-
-Reporting supports transparency.
-
-It does not create financial assurance.
+Detailed exchange and custodian scenarios belong in [FUZE Exchange Custody and Wallet Participation](27-FUZE_EXCHANGE_CUSTODY_AND_WALLET_PARTICIPATION_PUBLIC.md).
 
 ---
 
-## 8. Market, Legal, or Operational Context
+## 13. Data Minimization
 
-### 8.1 Relationship to Public Vault Visibility
+FUZE should collect only information required for the stated eligibility purpose.
 
-Public Vault Visibility can show selected wallet, vault, report, release, claim, and status records.
+Before adding a field, the owner should ask:
 
-Wallet-based privacy defines how those records can be public-safe.
+1. Which rule requires it?
+2. Can a yes/no result replace the source document?
+3. Can an aggregate or hash support public reporting?
+4. Who needs access?
+5. When can the data be deleted or de-identified?
+6. What happens if the field is wrong or exposed?
 
-Public Vault Visibility can show:
-
-- wallet address
-- vault label
-- report hash
-- release status
-- claim status where active
-- migration status
-- public access window status
-- governance reference
-- pause status
-
-It should not expose personal identity by default.
-
-### 8.2 Relationship to Public Vault Access Windows
-
-Public Vault Access Windows can require eligibility.
-
-Eligibility may depend on:
-
-- account status
-- wallet status
-- jurisdiction
-- community role
-- product usage
-- KYC or KYB where required
-- purchase or access limits
-- abuse controls
-- lockup agreement
-- policy acknowledgement
-
-Public Vault Access Windows remain controlled and selective.
-
-Visibility does not equal access.
-
-### 8.3 Relationship to Exchange Custody
-
-Exchange custody creates special eligibility questions.
-
-A wallet on-chain may be controlled by an exchange, not by the individual user.
-
-This can affect:
-
-- snapshots
-- claim logic
-- deposit and withdrawal timing
-- exchange support
-- migration claims
-- token-holder evidence
-- jurisdiction
-- KYC
-- user records
-- eligibility reporting
-- claim support
-
-Exchange custody treatment should be explained in dedicated custody materials where needed.
-
-### 8.4 Relationship to Product-First Execution
-
-Wallet-based privacy and eligibility supports FUZE’s product-first execution.
-
-It can help:
-
-- HerHelp serve users without exposing personal data publicly
-- ZAGA support wallet-aware utility without doxxing players or communities
-- ZAGA Arena support share cards, leaderboards, and utility surfaces without publishing private identity
-- ZAGA Districts support group and city systems without exposing private records unnecessarily
-- QTB and AIMM keep sensitive market and operator records controlled
-- AIE, ToolGrid AI, and Botmad use public-safe reports without exposing customer or contributor details
-- FUZE Core Platform separate identity, permissions, wallet records, Platform Credits, payments, reporting, and transparency
-
-Wallet-based privacy lets FUZE use Web3 transparency carefully while protecting users.
-
-### 8.5 Market Boundary
-
-Wallet-based privacy and eligibility is a record, privacy, and eligibility model.
-
-It does not guarantee:
-
-- token demand
-- token price
-- exchange listing
-- liquidity
-- trading volume
-- market-making result
-- price support
-- resale availability
-- exit opportunity
-- investment return
-
-Market access, custody, liquidity operations, exchange support, and public trading environments require separate boundary language and review.
+Documents should not be collected merely because they might become useful later.
 
 ---
 
-## 9. Risk and Disclosure Reference
+## 14. Access Control and Logging
 
-Important public boundaries include:
+Permissioned and restricted records should use role-based access.
 
-- FUZE uses wallet-level transparency without public identity exposure.
-- Wallet records can be public-safe while personal identity remains private or permissioned.
-- Private verification can exist without becoming public identity exposure.
-- Holding FUZE token may be one eligibility condition but does not automatically create eligibility for every feature.
-- Wallet-based eligibility depends on defined rules and activation status.
-- Self-custody and exchange custody may require different treatment.
-- Snapshots require final policy context before eligibility can be interpreted.
-- OTC transfers can affect eligibility where rules define it.
-- Migration eligibility is separate from Community Participation Allocation.
-- Migration eligibility is separate from wallet-based participation ability.
-- Public Vault Visibility is separate from Public Vault Access Windows.
-- Wallet-based participation ability remains activation-gated.
-- Platform Credits are product usage credits and remain separate from FUZE token.
-- Stablecoins are payment, settlement, treasury, and compensation rails.
-- FUZE token does not guarantee payout, income, yield, profit, token price, listing, liquidity, market support, trading volume, exit, game earnings, business revenue, user growth, community growth, approved distributable value, wallet eligibility, claim availability, smart-contract security, AI accuracy, or investment return.
+Roles can include:
 
-More detailed boundaries are handled in dedicated papers, including:
+- eligibility operator;
+- support reviewer;
+- legal or compliance reviewer;
+- treasury or accounting reviewer;
+- privacy or security administrator;
+- auditor or independent reviewer where required.
 
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/07-FUZE_WALLET_BASED_PARTICIPATION_MODEL_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/08-FUZE_PARTICIPATION_ACTIVATION_GATES_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/16-FUZE_PUBLIC_VAULT_VISIBILITY_SYSTEM_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/17-FUZE_PUBLIC_VAULT_ACCESS_WINDOWS_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/20-FUZE_BOARD_SURFBOARD_MIGRATION_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/25-FUZE_SMART_CONTRACT_READINESS_AND_ACTIVATION_GATES_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/27-FUZE_EXCHANGE_CUSTODY_AND_WALLET_PARTICIPATION_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/28-FUZE_LEGAL_AND_COMPLIANCE_MESSAGING_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/29-FUZE_TOKEN_RISK_BOUNDARIES_PUBLIC.md`
+Access logs should record user, record, action, time, and purpose. Export, bulk search, and identity-wallet mapping should receive stronger controls than ordinary status review.
 
-This paper focuses on wallet-based privacy and eligibility while deeper participation, custody, visibility, access-window, smart-contract, legal, and disclosure topics remain in dedicated papers.
+Access should be removed when a role ends or the purpose expires.
 
 ---
 
-## 10. Key Takeaways
+## 15. Retention
 
-- FUZE Wallet-Based Privacy and Eligibility explains how FUZE uses wallet-level transparency without public identity exposure.
-- FUZE uses one ecosystem token: FUZE token.
-- Wallet-level transparency can show public-safe wallet records, vault labels, report hashes, token release records, snapshot records, eligibility status where applicable, and claim status where applicable.
-- FUZE does not publish personal identity publicly by default.
-- Private verification can remain off-chain, permissioned, access-controlled, and separated from public wallet records.
-- Wallet-based eligibility is rule-based.
-- Holding FUZE token may be one condition in some models, but token ownership alone does not make every wallet eligible for every future feature.
-- Self-custody, exchange custody, contract custody, treasury custody, migration custody, and access-window custody may require different treatment.
-- Snapshots require final policy context before eligibility can be interpreted.
-- OTC transfers can affect eligibility where rules define it.
-- Migration eligibility, Community Participation, Public Vault Access Windows, and wallet-based participation ability are separate concepts.
-- Platform Credits remain product usage credits.
-- Stablecoins remain payment, settlement, treasury, and compensation rails.
-- Wallet-based privacy lets FUZE use Web3 transparency carefully while protecting users and sensitive records.
+Retention should reflect the process, legal requirements, dispute period, audit need, security exposure, and data class.
+
+The retention record should define:
+
+- source documents retained;
+- derived status retained;
+- public snapshot or hash retained;
+- start and end event;
+- archive or deletion method;
+- holds for disputes or investigations;
+- owner and review cadence.
+
+Where source evidence can be deleted, FUZE may retain a decision result, reason, method version, and audit reference. Public blockchain records themselves remain outside FUZE's deletion control.
+
+---
+
+## 16. User Notice and Consent
+
+Where FUZE collects private evidence, the user-facing notice should explain:
+
+- purpose of collection;
+- required and optional fields;
+- public and private treatment;
+- reviewers and service providers where applicable;
+- retention;
+- correction and dispute route;
+- effect of declining required evidence;
+- security and incident contact route.
+
+Consent should not be used as a substitute for another required legal basis, and public wallet activity should not be presented as consent to publish personal identity.
+
+---
+
+## 17. Disputes and Corrections
+
+A user can dispute wallet category, balance, custody, control, jurisdiction, duplicate status, or another eligibility result through the approved support route.
+
+The case record should contain:
+
+1. disputed decision and reason code;
+2. original evidence and rule version;
+3. new evidence;
+4. reviewer findings;
+5. revised status;
+6. approval and effective time;
+7. affected claim, allocation, or report;
+8. public correction reference where needed.
+
+Corrections should preserve the previous decision and explain the change without publishing the private evidence.
+
+---
+
+## 18. Privacy Incidents
+
+A privacy incident can involve unauthorized access, disclosure, incorrect wallet-person mapping, public identity exposure, document loss, or compromised verification data.
+
+The response should:
+
+- contain access and preserve evidence;
+- identify affected fields and people;
+- correct public labels or records;
+- revoke credentials or links;
+- assess notification and legal requirements;
+- monitor downstream misuse;
+- document remediation and prevention.
+
+Where on-chain publication cannot be removed, FUZE should avoid adding further identifying context and use correction or replacement records where appropriate.
+
+---
+
+## 19. Public Reporting
+
+Public eligibility reporting can include:
+
+- process and rule version;
+- snapshot block or cutoff;
+- wallet and custody categories;
+- aggregate eligible, restricted, ineligible, disputed, and corrected counts;
+- claim or participation status where active;
+- report hash and methodology;
+- pause and correction notices.
+
+Address-level status should be published only where the active process requires it and privacy review supports it.
+
+Reports must keep names, contact details, identity documents, exchange account records, jurisdiction evidence, private agreements, and wallet-person mappings private.
+
+---
+
+## 20. Boundaries
+
+This policy governs privacy and eligibility records. It does not activate participation, approve distributable value, open a claim, or guarantee that any custody type will be supported.
+
+Eligibility is specific to a process and period. It can change with rules, evidence, transfers, custody, jurisdiction, or system status.
+
+Detailed privacy, eligibility, custody, and participation risks are consolidated in [FUZE Token Risk Boundaries](29-FUZE_TOKEN_RISK_BOUNDARIES_PUBLIC.md).
+
+---
+
+## Conclusion
+
+FUZE wallet transparency can remain useful without turning addresses into public identity records.
+
+Layered data classification, minimum evidence, controlled wallet-person mappings, versioned eligibility decisions, reason codes, access logs, retention, dispute handling, and privacy incident response allow FUZE to publish reviewable status while keeping personal and account information permissioned.
