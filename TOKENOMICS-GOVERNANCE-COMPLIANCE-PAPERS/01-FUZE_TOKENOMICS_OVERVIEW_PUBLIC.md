@@ -2,431 +2,293 @@
 
 ## Executive Summary
 
-FUZE Tokenomics Overview explains the public tokenomics model for FUZE as a product-first AI SaaS and Web3 ecosystem with one ecosystem token, product-first utility, purpose-specific allocation, vault-based control, controlled circulation, and long-term ecosystem alignment.
+FUZE tokenomics organizes a fixed supply of **500,000,000 FUZE** around product utility, purpose-specific allocations, controlled release, accountable custody, public reporting, and staged ecosystem development.
 
-FUZE uses one ecosystem token: FUZE token.
+The ecosystem uses FUZE token for its approved token functions. It is distinct from Platform Credits used for product consumption and from stablecoins used in defined payment, settlement, treasury, and compensation workflows. Keeping these functions separate allows product activity, payment records, token movements, and participation records to be classified and reported according to their actual purpose.
 
-FUZE token supports ecosystem participation, product-connected utility, platform alignment, governance direction where applicable, community participation structures, and wallet-based participation ability where activated under required controls.
+The supply is divided across ten approved allocation categories. Allocation identifies purpose; it does not mean every token is circulating or available. Vault assignment, release conditions, approvals, transaction records, and reporting determine how an allocation moves from reserved supply toward an authorized use.
 
-FUZE tokenomics uses a fixed total supply of **500,000,000 FUZE** across ten purpose-specific allocation categories.
+The model begins with products. Utility should correspond to real product or ecosystem functions, while more complex participation, governance, contract, liquidity, and market mechanisms depend on additional readiness. The specialist papers in this collection define those mechanisms and their controls.
 
-The allocation model supports product execution, community participation, legacy-holder migration continuity, contributor alignment, treasury discipline, ecosystem growth, liquidity operations, transparency reserves, and long-term platform stewardship.
-
-FUZE separates three systems clearly:
-
-| System | Public Role |
-|---|---|
-| FUZE token | Ecosystem participation, alignment, governance direction where applicable, product-connected utility, and wallet-based participation ability where activated |
-| Platform Credits | Product usage credits for FUZE products and services |
-| Stablecoins | Payment, settlement, treasury, and compensation rails |
-
-FUZE execution order is:
-
-**Product usage first. Platform rails second. Broader ecosystem participation after that.**
-
-FUZE token does not guarantee payout, income, dividend, yield, profit, token price, listing, liquidity, market support, exit, game earnings, business revenue, user growth, community growth, or investment return.
-
-This paper gives the public overview of the FUZE tokenomics, governance, and compliance paper set.
+This overview gives readers the system map. It preserves the approved supply and allocation values, explains how the major components relate, and directs detailed questions to their primary papers.
 
 ---
 
-## 1. Purpose of This Paper
+## 1. Overview Objective
 
-This paper explains the high-level FUZE tokenomics model.
+Tokenomics is more than a supply table. A complete public model should help readers understand:
 
-It defines how FUZE organizes:
+- what the token represents within FUZE;
+- how the fixed supply is assigned by purpose;
+- what separates allocation, release, circulation, and use;
+- how product utility develops;
+- where credits and stablecoins fit;
+- which controls govern custody and execution;
+- how public records can support review;
+- which mechanisms remain conditional or require specialist treatment.
 
-- one-token model
-- fixed token supply
-- allocation categories
-- Community Participation Allocation
-- BOARD / Surfboard Migration allocation
-- Platform Credits relationship
-- stablecoin payment rails
-- token utility roadmap
-- wallet-based participation ability
-- approved distributable value boundaries
-- controlled circulation
-- vault and reserve policy
-- liquidity and market boundaries
-- seed round exposure boundaries
-- governance controls
-- smart contract readiness
-- legal and compliance messaging
-- public risk language
-
-This paper is a public overview.
-
-It is not a token sale document, investment recommendation, price forecast, legal opinion, tax opinion, accounting policy, payout policy, listing plan, liquidity assurance, or financial-return promise.
+This paper answers those questions at system level. It does not reproduce vault-by-vault rules, wallet eligibility, claim processing, pricing mechanisms, contract specifications, or the consolidated risk register.
 
 ---
 
-## 2. Reader Problem This Paper Solves
+## 2. System Principles
 
-Tokenomics can become confusing when supply, utility, product usage, payments, wallet records, community access, migration, liquidity, governance, and participation language are mixed together.
+FUZE tokenomics follows six principles.
 
-Public readers may ask:
+### 2.1 Product utility leads
 
-- How many FUZE tokens exist?
-- Is FUZE using one token or several token-like instruments?
-- How is supply allocated?
-- How does the token connect to real products?
-- How are Platform Credits different from FUZE token?
-- How are stablecoins used?
-- How does wallet-based participation ability fit into the model?
-- What is the Community Participation Round?
-- How is BOARD / Surfboard migration handled?
-- What controls token release and circulation?
-- What does token utility mean without making price or payout promises?
+The token model is intended to connect with useful products and ecosystem functions. Product status, user value, operational readiness, and reporting therefore matter before broader token mechanisms can be evaluated.
 
-This paper solves that problem by giving a single public overview.
+### 2.2 Supply has defined purposes
 
-The main answer is simple:
+The full token supply is assigned across approved categories. Each category has a stated role and should be governed according to that role rather than treated as interchangeable inventory.
 
-FUZE uses one ecosystem token, product-first utility, controlled circulation, and clear separation between product usage, payment rails, and ecosystem participation.
+### 2.3 Allocation and circulation are different states
 
----
+An allocation reserves supply for a purpose. Circulation requires an authorized movement or release. Readers should not infer circulating supply from the headline allocation table.
 
-## 3. FUZE Public Position
+### 2.4 Controls precede sensitive actions
 
-FUZE tokenomics follows a product-first, control-first, and transparency-first model.
+Custody, approvals, records, legal and accounting review, technical readiness, and public communication should match the action being taken. More consequential mechanisms require stronger controls.
 
-FUZE defines its tokenomics principle as:
+### 2.5 Records should explain movement
 
-**Purpose-specific allocation. Vault-based control. Controlled circulation. Product-first utility. Long-term ecosystem alignment.**
+Token reporting should identify the relevant allocation, custody location, authorization, transaction reference, status, and reporting period. Public reporting can remain address-based or aggregated without revealing personal identity.
 
-FUZE tokenomics supports:
+### 2.6 Market outcomes remain external
 
-| Area | FUZE Public Position |
-|---|---|
-| Token model | FUZE uses one ecosystem token only: FUZE token |
-| Total supply | FUZE uses a fixed total supply of 500,000,000 FUZE |
-| Allocation model | FUZE organizes the supply across ten purpose-specific allocation categories |
-| Product relationship | FUZE token connects to product utility and ecosystem participation where defined |
-| Platform Credits | Platform Credits are product usage credits and remain separate from FUZE token |
-| Stablecoins | Stablecoins support payment, settlement, treasury, and compensation rails |
-| Community participation | Community Participation Round is an eligibility-controlled public/community access model |
-| Wallet-based participation | Wallet-based participation ability is activation-gated, eligibility-controlled, and not a guaranteed public payout right |
-| Circulation | Token movement follows controlled circulation, vault policy, release rules, and public reporting direction |
-| Market boundary | FUZE does not guarantee price, demand, listing, liquidity, or market outcome |
-
-FUZE avoids treating tokenomics as a stand-alone speculative story.
-
-The token model follows product execution, platform rails, utility surfaces, allocation discipline, public reporting, and compliance-aware communication.
+Supply design and operational preparation cannot determine market demand, venue decisions, liquidity conditions, or token price. Market-facing papers use cautious DEX-first language and treat any later CEX path as conditional.
 
 ---
 
-## 4. Core Model
+## 3. Fixed Supply and Approved Allocation
 
-### 4.1 One-Token Model
+The approved FUZE token supply is:
 
-FUZE uses one ecosystem token only.
-
-This means:
-
-- FUZE token is the single ecosystem token.
-- FUZE does not create a second public token for wallet-based participation.
-- Wallet-based participation ability is part of the FUZE token framework, not a separate token.
-- Platform Credits are not FUZE tokens.
-- Stablecoins are payment and settlement rails, not FUZE ecosystem tokens.
-
-The one-token model reduces public confusion by separating token ownership, product usage credits, and payment rails.
-
-Boundary:
-
-FUZE token ownership does not guarantee token demand, token price, listing, liquidity, payout, income, yield, profit, exit, or investment return.
-
-### 4.2 Fixed Total Supply
-
-FUZE uses a fixed total supply of:
-
-| Item | Value |
+| Supply item | Approved value |
 |---|---:|
-| Total FUZE Token Supply | 500,000,000 FUZE |
-| Allocation Categories | 10 |
-| Allocation Principle | Purpose-specific allocation |
-| Control Principle | Vault-based control and controlled circulation |
-| Product Principle | Product-first utility |
-| Ecosystem Principle | Long-term ecosystem alignment |
+| Total supply | **500,000,000 FUZE** |
+| Allocation categories | **10** |
+| Total allocated percentage | **100.00%** |
 
-### 4.3 Final Allocation Summary
+The ten categories are:
 
-The final tokenomics allocation model is:
+| Allocation category | Approved amount and share | System-level role |
+|---|---:|---|
+| Community Participation Allocation | 110,000,000 FUZE; 22.00% | Eligible community and product-user access programs |
+| BOARD / Surfboard Migration | 25,000,000 FUZE; 5.00% | Continuity for eligible legacy holders |
+| Team Allocation | 45,000,000 FUZE; 9.00% | Long-term builder and operator alignment |
+| Foundation Reserve | 35,000,000 FUZE; 7.00% | Long-horizon foundation stewardship |
+| Treasury Reserve | 120,000,000 FUZE; 24.00% | Strategic treasury capacity |
+| Holder Incentives | 55,000,000 FUZE; 11.00% | Approved holder and community programs |
+| Ecosystem Growth & Partnerships | 40,000,000 FUZE; 8.00% | Ecosystem development and partnership activity |
+| Liquidity & Market Operations | 30,000,000 FUZE; 6.00% | Controlled market-structure preparation |
+| Advisors / Strategic Contributors | 15,000,000 FUZE; 3.00% | Approved advisor and contributor alignment |
+| Transparency / Stability Reserve | 25,000,000 FUZE; 5.00% | Transparency and stability-related capacity |
+| **Reconciled fixed supply** | **500,000,000 FUZE; 100.00%** | **All ten approved purposes** |
 
-| Allocation Category | Amount (FUZE) | % of Total Supply | Public Role |
-|---|---:|---:|---|
-| Community Participation Allocation | 110,000,000 | 22.00% | Public/community participation allocation |
-| BOARD / Surfboard Migration | 25,000,000 | 5.00% | Legacy-holder migration continuity allocation |
-| Team Allocation | 45,000,000 | 9.00% | Long-term team and builder alignment allocation |
-| Foundation Reserve | 35,000,000 | 7.00% | Long-horizon stewardship reserve |
-| Treasury Reserve | 120,000,000 | 24.00% | Strategic platform reserve |
-| Holder Incentives | 55,000,000 | 11.00% | Community and holder program allocation |
-| Ecosystem Growth & Partnerships | 40,000,000 | 8.00% | Strategic ecosystem and partnership allocation |
-| Liquidity & Market Operations | 30,000,000 | 6.00% | Market-structure support allocation |
-| Advisors / Strategic Contributors | 15,000,000 | 3.00% | Advisor and strategic contributor alignment allocation |
-| Transparency / Stability Reserve | 25,000,000 | 5.00% | Trust and stability reserve |
-| **Total** | **500,000,000** | **100.00%** | **Complete FUZE token supply** |
+These values describe the approved organization of supply. The [FUZE Token Allocation Table](02-FUZE_TOKEN_ALLOCATION_TABLE_PUBLIC.md) is the primary paper for category purposes, reconciliation, and allocation-level interpretation.
 
-The allocation table is not a price promise, liquidity promise, public sale offer, payout promise, or return promise.
+The supply can also be read through five broad functions:
 
-It explains how the full FUZE token supply is organized by purpose.
+| Function | Included allocations | Combined share |
+|---|---|---:|
+| Community entry and migration continuity | Community Participation Allocation; BOARD / Surfboard Migration | 27.00% |
+| Builders and strategic contributors | Team Allocation; Advisors / Strategic Contributors | 12.00% |
+| Long-term stewardship and reserves | Foundation Reserve; Treasury Reserve; Transparency / Stability Reserve | 36.00% |
+| Holder and ecosystem development | Holder Incentives; Ecosystem Growth & Partnerships | 19.00% |
+| Market-structure preparation | Liquidity & Market Operations | 6.00% |
 
-### 4.4 Strategic Allocation Grouping
-
-FUZE also groups the ten allocation categories into five public strategic groups.
-
-| Strategic Group | Included Categories | Amount (FUZE) | % of Total Supply | Purpose |
-|---|---|---:|---:|---|
-| Public / Community Entry and Migration | Community Participation Allocation; BOARD / Surfboard Migration | 135,000,000 | 27.00% | Public/community participation and legacy-holder migration continuity |
-| Core Team and Contributors | Team Allocation; Advisors / Strategic Contributors | 60,000,000 | 12.00% | Long-term builder, operator, advisor, and contributor alignment |
-| Long-Term Stewardship and Strategic Reserve | Foundation Reserve; Treasury Reserve; Transparency / Stability Reserve | 180,000,000 | 36.00% | Stewardship, strategic reserve, and trust-supporting reserve architecture |
-| Community / Ecosystem Activation | Holder Incentives; Ecosystem Growth & Partnerships | 95,000,000 | 19.00% | Community activation, product participation, partnerships, and ecosystem expansion |
-| Market Structure Support | Liquidity & Market Operations | 30,000,000 | 6.00% | Liquidity and market operations support |
-| **Total** | **All categories** | **500,000,000** | **100.00%** | **Full FUZE token supply** |
+This grouping is explanatory. The ten approved allocation categories remain the controlling supply breakdown.
 
 ---
 
-## 5. Token, Credits, Stablecoins, and Wallet Relationship
+## 4. Token, Credits, Stablecoins, and Records
 
-FUZE separates token, credits, stablecoins, and wallet records because each system has a different public role.
+Several FUZE systems can appear in the same product or ecosystem workflow, but they serve different functions.
 
-| Component | Public Meaning | Boundary |
+| Component | Primary role | Typical record |
 |---|---|---|
-| FUZE token | Single ecosystem token for utility, alignment, participation direction, governance direction where applicable, and wallet-based participation ability where activated | Does not guarantee payout, price, listing, liquidity, income, yield, profit, or exit |
-| Platform Credits | Product usage credits for supported FUZE products and services | Not FUZE token, not income rights, not participation rights, not governance rights, not investment rights |
-| Stablecoins | Payment, settlement, treasury, and compensation rails | Payment flows do not automatically become participation distributions |
-| Wallet-based records | Public-safe records, eligibility references, product-linked wallet access, and transparency surfaces where useful | Wallet transparency does not require public personal identity exposure |
+| FUZE token | Ecosystem utility, alignment, and approved token-based functions | Allocation, vault, release, transfer, utility, or eligibility record |
+| Platform Credits | Measured consumption of supported product services | Purchase, grant, consumption, adjustment, expiry, or balance record |
+| Stablecoins | Defined payment, settlement, treasury, refund, or compensation activity | Payment reference, classification, reconciliation, and counterparty record |
+| Wallet records | Address-based evidence for applicable token or platform activity | Address, network, transaction, snapshot, status, and public-safe report |
 
-This separation allows FUZE to support product usage, payment flows, token utility, and public-safe records without merging them into one confusing financial claim.
+A product may accept a payment that purchases Platform Credits, then consume those credits during AI or reporting work. That workflow does not require the payment asset, credit balance, and FUZE token to become the same instrument.
 
-Platform Credits belong to product usage.
+Similarly, a wallet can provide an address reference for a token transfer or eligibility check without making the wallet owner’s personal identity public. Internal or permissioned controls may use additional information where required, while public reporting remains privacy-preserving.
 
-Stablecoins belong to payment and settlement rails.
-
-FUZE token belongs to ecosystem participation and utility.
-
-Wallet-based participation ability, if activated, belongs to the FUZE token framework and required activation gates.
+The [FUZE Platform Credits Relationship](10-FUZE_PLATFORM_CREDITS_RELATIONSHIP_PUBLIC.md) provides the detailed accounting and product-use separation. Operational stablecoin treatment is covered in the [FUZE Stablecoin Compensation Policy](11-FUZE_STABLECOIN_COMPENSATION_POLICY_PUBLIC.md).
 
 ---
 
-## 6. Controls, Gates, and Governance
+## 5. Token Lifecycle
 
-FUZE tokenomics uses controls before circulation, participation, claims, reporting, or market-facing language becomes public-facing in a stronger way.
+The public tokenomics model can be understood as a sequence of states.
 
-Important control areas include:
+### 5.1 Allocation
 
-- vault-based token custody and reserve handling
-- purpose-specific allocation categories
-- release rules by allocation category
-- controlled circulation policy
-- public reporting direction
-- legal and compliance review
-- accounting and treasury review
-- smart contract readiness
-- multisig and timelock governance where applicable
-- wallet-based eligibility rules where applicable
-- public-safe reporting and transparency records
-- market, liquidity, and listing boundaries
-- privacy and identity separation
-- public language discipline
+Supply is assigned to one of the ten approved categories. The category establishes the permitted purpose and the policy context for later decisions.
 
-Wallet-based participation ability requires stronger gates because it can easily be misunderstood.
+### 5.2 Custody
 
-Required gates can include legal, accounting, treasury, audit, reporting, smart-contract, governance, and jurisdiction review.
+Allocated supply is associated with an approved vault, reserve, contract, or other controlled custody arrangement. Records should identify ownership or authority, network, address where public, and responsible operators.
 
-The purpose of these controls is not to make FUZE slower.
+### 5.3 Readiness
 
-The purpose is to make the tokenomics system more understandable, safer to explain, and easier to review.
+Before movement, the relevant prerequisites are reviewed. Depending on the allocation and action, these may include:
 
----
+- documented purpose and recipient class;
+- approved release condition or access window;
+- governance authorization;
+- legal, accounting, treasury, or compliance review;
+- technical and security readiness;
+- reporting and reconciliation capability.
 
-## 7. Reporting and Transparency Direction
+### 5.4 Authorization and release
 
-FUZE tokenomics includes public reporting direction so community members, product users, investors, partners, and reviewers can understand the system.
+An authorized instruction moves an approved amount for its permitted use. Release should identify the source allocation, amount, destination, approval basis, and effective status.
 
-Reporting can include:
+### 5.5 Circulation or restricted use
 
-- supply allocation summaries
-- vault and reserve reports
-- controlled circulation status
-- release-rule summaries
-- Community Participation Allocation summaries
-- BOARD / Surfboard Migration status where applicable
-- Platform Credit relationship explanations
-- product-to-token utility reporting
-- wallet-based public-safe records where applicable
-- governance and control summaries
-- liquidity and market boundary updates
-- product activity summaries where relevant
-- risk and disclosure references
+Released tokens may enter circulation, remain subject to vesting or transfer conditions, support a defined program, provide liquidity-related inventory, or move into another controlled state. “Released” and “freely circulating” are therefore not always equivalent.
 
-Reporting supports transparency and review.
+### 5.6 Utility or program activity
 
-Reporting does not guarantee token price, market demand, exchange listing, liquidity, payout, yield, profit, or investment return.
+Tokens can participate in utility surfaces, community programs, migration, incentives, governance direction where applicable, partner activity, or other approved functions. Each mechanism should define its user action, system response, records, and boundaries.
 
-Public reporting should explain what exists, what is controlled, what is active, what remains gated, and where deeper papers explain the details.
+### 5.7 Reporting and review
+
+Reports reconcile allocations, custody, releases, balances, transactions, exceptions, and corrections. Review can lead to continued operation, a revised rule, suspension, remediation, or closure of a program.
+
+The [Controlled Circulation Policy](12-FUZE_CONTROLLED_CIRCULATION_POLICY_PUBLIC.md), [Token Release and Circulation Clarity](13-FUZE_TOKEN_RELEASE_AND_CIRCULATION_CLARITY_PUBLIC.md), and [Vault and Reserve Policy](14-FUZE_VAULT_AND_RESERVE_POLICY_PUBLIC.md) are the primary lifecycle references.
 
 ---
 
-## 8. Market, Legal, or Operational Context
+## 6. Utility Development
 
-### 8.1 Product-First Tokenomics
+FUZE utility is expected to develop in stages rather than appear as a single universal feature.
 
-FUZE tokenomics begins with product usage.
+Early utility should connect to understandable product or ecosystem actions. Examples can include access, recognition, approved program participation, game or community functions, partner activity, and governance direction where a mechanism is defined.
 
-Product-first tokenomics means FUZE does not rely only on token marketing.
+Utility design should answer:
 
-FUZE builds practical products first, connects them through shared platform rails second, and expands broader ecosystem participation after that.
+1. Who is the intended user?
+2. What action uses or references FUZE token?
+3. What product or ecosystem value results?
+4. Which records prove the action occurred?
+5. Which permissions, limits, or eligibility conditions apply?
+6. How can the function be changed, suspended, or retired?
 
-FUZE token utility can connect to:
+Product-connected utility is stronger when it supports an existing workflow and can be measured independently from market activity. A feature should not be described as useful merely because it involves a token.
 
-- product-connected utility
-- ecosystem participation
-- ZAGA utility surfaces
-- wallet-aware access where policy allows
-- community participation
-- holder recognition where product rules allow
-- partner utility where approved
-- reporting and transparency participation
-- governance direction where applicable
-- wallet-based participation ability where activated
-
-Boundary:
-
-Product activity can support token utility, but product launch or product usage does not guarantee token price, token demand, listing, liquidity, payout, income, yield, profit, exit, game earnings, product revenue, user growth, community growth, or investment return.
-
-### 8.2 Token Utility Roadmap
-
-FUZE uses a staged Token Utility Roadmap to explain how utility grows through product-linked participation.
-
-| Stage | Public Focus | Utility Role |
-|---:|---|---|
-| 1 | Product foundation | HerHelp.com, ZAGA.io, product papers, public pages, early product workflows, and launch readiness |
-| 2 | Platform rails | Identity, Platform Credits, payments, AI orchestration, reporting, privacy, security, governance, and workspace systems |
-| 3 | ZAGA utility surfaces | Wallet-aware access, participation systems, utility modules, ZAGA Arena, and ZAGA Districts |
-| 4 | Community and game participation | CommunityLayer AI, ZAGA communities, Telegram groups, events, rooms, leaderboards, city systems, contribution, and recognition |
-| 5 | Intelligence and sponsored utility | QTB, AIMM, AIE, ToolGrid AI, partner campaigns, sponsored visibility, utility reports, and ecosystem opportunity workflows |
-| 6 | Transparency and governance readiness | Vault reports, controlled circulation status, public dashboards, governance references, public utility reporting, and future review areas |
-
-The Token Utility Roadmap is not a token price roadmap, listing roadmap, payout roadmap, liquidity assurance, profit promise, market-performance plan, or public token sale schedule.
-
-### 8.3 Community Participation Round
-
-FUZE uses the Community Participation Round as the public-facing name for its eligible community access model.
-
-The Community Participation Round moves FUZE away from price-tier, discount-driven, token-first messaging and toward a product-aligned, compliance-aware, transparent participation system for eligible community members, real users, contributors, and long-term ecosystem supporters.
-
-The Community Participation Allocation is:
-
-| Item | Value |
-|---|---:|
-| Allocation Name | Community Participation Allocation |
-| Public Access Model | Community Participation Round |
-| Allocation Amount | 110,000,000 FUZE |
-| Total FUZE Supply | 500,000,000 FUZE |
-| % of Total Supply | 22.00% |
-| Allocation Type | Public/community participation allocation |
-| Public Role | Eligible community participation, product-user participation, contributor recognition, and future community programs |
-| Control Model | Eligibility-controlled, compliance-aware, controlled circulation model |
-
-The Community Participation Allocation is separate from BOARD / Surfboard Migration.
-
-Public explanation:
-
-**The Community Participation Allocation is the 110,000,000 FUZE allocation for eligible community participation. The BOARD / Surfboard Migration allocation is a separate 25,000,000 FUZE allocation reserved for eligible legacy-holder continuity. Both are already included in the fixed 500,000,000 FUZE total supply.**
-
-FUZE does not present the Community Participation Round through price multiple framing, upside framing, discount messaging, pre-listing purchase language, liquidity assurance, listing assurance, or market-performance claims.
-
-### 8.4 BOARD / Surfboard Migration
-
-The BOARD / Surfboard Migration allocation is 25,000,000 FUZE, equal to 5.00% of the total supply.
-
-This allocation supports eligible legacy-holder migration from the earlier BOARD / Surfboard context into the FUZE ecosystem.
-
-It is separate from:
-
-- Community Participation Allocation
-- Team Allocation
-- Treasury Reserve
-- Liquidity & Market Operations
-- Holder Incentives
-- public sale inventory
-
-The migration allocation exists for legacy-holder continuity.
-
-It does not create a public sale, guaranteed token access for all users, guaranteed exchange value, or market-outcome promise.
-
-### 8.5 Liquidity and Market Operations
-
-FUZE includes a Liquidity & Market Operations allocation of 30,000,000 FUZE, equal to 6.00% of total supply.
-
-This allocation supports market-structure readiness, liquidity operations support, exchange-access preparation where appropriate, and controlled market operations context.
-
-It does not guarantee:
-
-- liquidity
-- listing
-- exchange access
-- token price
-- trading volume
-- price support
-- market-maker result
-- exit availability
-- market performance
-
-AIMM can support market-making and liquidity operations workflows as a product, but AIMM does not guarantee liquidity, price support, listing performance, market outcome, autonomous market action, or trading profit.
+The [FUZE Token Utility Model](04-FUZE_TOKEN_UTILITY_MODEL_PUBLIC.md) defines utility surfaces. The [FUZE Token Utility Roadmap](05-FUZE_TOKEN_UTILITY_ROADMAP_PUBLIC.md) explains sequencing and evidence expected at each stage.
 
 ---
 
-## 9. Risk and Disclosure Reference
+## 7. Participation and Community Access
 
-FUZE tokenomics uses public risk language because token systems can be misunderstood.
+The tokenomics system includes distinct community and wallet-related subjects that should not be merged.
 
-Important public boundaries include:
+The **Community Participation Allocation** reserves 110,000,000 FUZE, or 22.00% of total supply, for the approved community participation purpose. The related round paper explains potential access for eligible community members, product users, contributors, and other approved participants.
 
-- FUZE token does not guarantee profit, payout, income, dividend, yield, price appreciation, listing, liquidity, exit, or investment return.
-- Platform Credits are product usage credits and are separate from FUZE token.
-- Stablecoins are payment, settlement, treasury, and compensation rails.
-- Wallet-based participation ability is not a second token, not automatic for every wallet, and not active as a guaranteed public payout right.
-- Product revenue does not automatically become approved distributable value.
-- Gross revenue, token sale proceeds, seed-round funds, game rewards, general treasury balance, and unreconciled payments are not approved distributable value.
-- Product usage can support utility context but does not guarantee token outcome.
-- Community participation is eligibility-controlled and compliance-aware.
-- Token allocation tables are supply organization tools, not investment return promises.
-- Liquidity and market operations allocations support readiness, not market guarantees.
-- Public reporting supports transparency, not financial assurance.
+The **BOARD / Surfboard Migration** allocation separately reserves 25,000,000 FUZE, or 5.00%, for eligible legacy-holder continuity. It is not part of the Community Participation Allocation.
 
-More detailed boundaries are handled in dedicated papers, including:
+Wallet-based participation is another distinct mechanism. Its dedicated model addresses eligibility, activation, approved distributable value, snapshots, custody treatment, claims, corrections, and public-safe records. The presence of an allocation or a wallet balance does not by itself activate that framework.
 
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/02-FUZE_TOKEN_ALLOCATION_TABLE_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/03-FUZE_ONE_TOKEN_MODEL_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/04-FUZE_TOKEN_UTILITY_MODEL_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/07-FUZE_WALLET_BASED_PARTICIPATION_MODEL_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/09-FUZE_APPROVED_DISTRIBUTABLE_VALUE_MODEL_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/12-FUZE_CONTROLLED_CIRCULATION_POLICY_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/14-FUZE_VAULT_AND_RESERVE_POLICY_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/21-FUZE_LIQUIDITY_AND_LISTING_POLICY_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/28-FUZE_LEGAL_AND_COMPLIANCE_MESSAGING_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/29-FUZE_TOKEN_RISK_BOUNDARIES_PUBLIC.md`
-- `WHITEPAPER-PAPERS/05-FUZE_RISK_AND_DISCLOSURE_APPENDIX_PUBLIC.md`
+Primary references are:
 
-This overview keeps the tokenomics model readable while detailed risk review remains in dedicated papers.
+- [FUZE Community Participation Round](06-FUZE_COMMUNITY_PARTICIPATION_ROUND_PUBLIC.md);
+- [FUZE Wallet-Based Participation Model](07-FUZE_WALLET_BASED_PARTICIPATION_MODEL_PUBLIC.md);
+- [FUZE Participation Activation Gates](08-FUZE_PARTICIPATION_ACTIVATION_GATES_PUBLIC.md);
+- [FUZE Approved Distributable Value Model](09-FUZE_APPROVED_DISTRIBUTABLE_VALUE_MODEL_PUBLIC.md);
+- [FUZE BOARD Surfboard Migration](20-FUZE_BOARD_SURFBOARD_MIGRATION_PUBLIC.md).
+
+This separation prevents community access, legacy migration, and conditional wallet participation from being presented as one program.
 
 ---
 
-## 10. Key Takeaways
+## 8. Governance and Control Architecture
 
-- FUZE Tokenomics Overview explains the public tokenomics model for FUZE.
-- FUZE uses one ecosystem token: FUZE token.
-- FUZE tokenomics uses a fixed total supply of 500,000,000 FUZE.
-- FUZE supply is organized across ten purpose-specific allocation categories.
-- The tokenomics principle is purpose-specific allocation, vault-based control, controlled circulation, product-first utility, and long-term ecosystem alignment.
-- Platform Credits are product usage credits and are separate from FUZE token.
-- Stablecoins support payment, settlement, treasury, and compensation rails.
-- Wallet-based participation ability is part of the FUZE token framework where activated under required controls; it is not a second token and not an automatic public payout right.
-- Community Participation Allocation is 110,000,000 FUZE, equal to 22.00% of total supply.
-- BOARD / Surfboard Migration allocation is 25,000,000 FUZE, equal to 5.00% of total supply.
-- Product usage comes first, platform rails come second, and broader ecosystem participation comes after that.
-- FUZE token utility connects to product-connected utility, ecosystem participation, ZAGA utility surfaces, community participation, reporting, and governance direction where applicable.
-- FUZE token does not guarantee payout, income, yield, profit, token price, listing, liquidity, market support, exit, business revenue, game earnings, user growth, community growth, or investment return.
-- Detailed token allocation, one-token, utility, wallet, vault, circulation, liquidity, legal, and risk topics belong in dedicated tokenomics, governance, compliance, investor, and whitepaper papers.
+Token operations require clear authority and evidence.
+
+| Control area | Core question |
+|---|---|
+| Allocation authority | Which approved purpose permits the action? |
+| Custody | Where is the supply held, and who can act? |
+| Approval | Which role or governance process authorizes execution? |
+| Timing | Is a release rule, vesting condition, or access window satisfied? |
+| Technical readiness | Are contracts, networks, interfaces, and monitoring prepared? |
+| Legal and accounting review | Has the action received proportionate specialist review? |
+| Privacy | Can the record be reported without exposing personal identity? |
+| Reconciliation | Do balances and transactions agree with the approved instruction? |
+| Reporting | What can public and permissioned readers verify? |
+| Exception handling | How are errors, disputes, incidents, and corrections resolved? |
+
+Multisig and timelock controls can support separation of duties and review time where appropriate. They do not replace policy, operator accountability, monitoring, or incident response.
+
+Smart-contract readiness also differs from live activation. Code may be designed, tested, audited, or deployed while a mechanism remains disabled pending other gates. The relevant standards are described in the [Governance Multisig Timelock Model](24-FUZE_GOVERNANCE_MULTISIG_TIMELOCK_MODEL_PUBLIC.md) and [Smart Contract Readiness and Activation Gates](25-FUZE_SMART_CONTRACT_READINESS_AND_ACTIVATION_GATES_PUBLIC.md).
+
+---
+
+## 9. Transparency Framework
+
+FUZE can make tokenomics easier to review through consistent public records. Depending on the mechanism and current status, reporting may cover:
+
+- fixed supply and approved allocations;
+- vault labels and address references;
+- opening and closing balances;
+- authorized releases and transaction references;
+- circulation classifications;
+- vesting or access status;
+- migration or community-program progress;
+- governance decisions and material rule changes;
+- market-operation status using cautious language;
+- corrections, incidents, and superseded reports.
+
+Reports should state their period, scope, source, status, and limitations. A wallet address or transaction hash can support verification, but it does not explain the business purpose by itself.
+
+Privacy remains part of transparency design. Public evidence can show balances, transfers, aggregate eligibility, or program status without linking an address to a person. Sensitive ownership, customer, contributor, or counterparty information belongs in permissioned records when required.
+
+The [FUZE Public Vault Visibility System](16-FUZE_PUBLIC_VAULT_VISIBILITY_SYSTEM_PUBLIC.md) is the primary paper for vault reporting. Wallet privacy and eligibility are addressed in [FUZE Wallet-Based Privacy and Eligibility](26-FUZE_WALLET_BASED_PRIVACY_AND_ELIGIBILITY_PUBLIC.md).
+
+---
+
+## 10. Market and Risk Boundary
+
+FUZE distinguishes operational preparation from market outcome.
+
+The Liquidity & Market Operations allocation contains 30,000,000 FUZE, representing 6.00% of supply. Its presence establishes an approved purpose for market-structure work; it does not establish current liquidity, venue access, trading volume, or price support.
+
+Public market planning follows a cautious DEX-first direction. Any later CEX consideration depends on readiness, third-party decisions, jurisdiction, custody, technical integration, commercial review, and market conditions.
+
+Token ownership and product activity do not create guaranteed financial outcomes. Detailed token-specific treatment belongs in the [FUZE Token Risk Boundaries](29-FUZE_TOKEN_RISK_BOUNDARIES_PUBLIC.md), while the consolidated public source is the [FUZE Risk and Disclosure Appendix](../WHITEPAPER-PAPERS/05-FUZE_RISK_AND_DISCLOSURE_APPENDIX_PUBLIC.md).
+
+---
+
+## 11. Reading the Tokenomics Collection
+
+Readers can use the collection by question:
+
+| Question | Primary paper |
+|---|---|
+| What is the approved supply breakdown? | [FUZE Token Allocation Table](02-FUZE_TOKEN_ALLOCATION_TABLE_PUBLIC.md) |
+| Why does FUZE use one token? | [FUZE One Token Model](03-FUZE_ONE_TOKEN_MODEL_PUBLIC.md) |
+| What can token utility support? | [FUZE Token Utility Model](04-FUZE_TOKEN_UTILITY_MODEL_PUBLIC.md) |
+| How is utility staged? | [FUZE Token Utility Roadmap](05-FUZE_TOKEN_UTILITY_ROADMAP_PUBLIC.md) |
+| How does community access work? | [FUZE Community Participation Round](06-FUZE_COMMUNITY_PARTICIPATION_ROUND_PUBLIC.md) |
+| How does conditional wallet participation work? | [FUZE Wallet-Based Participation Model](07-FUZE_WALLET_BASED_PARTICIPATION_MODEL_PUBLIC.md) |
+| How are supply movements controlled? | [FUZE Controlled Circulation Policy](12-FUZE_CONTROLLED_CIRCULATION_POLICY_PUBLIC.md) |
+| How do vaults and reserves operate? | [FUZE Vault and Reserve Policy](14-FUZE_VAULT_AND_RESERVE_POLICY_PUBLIC.md) |
+| What is the market-access policy? | [FUZE Liquidity and Listing Policy](21-FUZE_LIQUIDITY_AND_LISTING_POLICY_PUBLIC.md) |
+| Which public wording is approved? | [FUZE Legal and Compliance Messaging](28-FUZE_LEGAL_AND_COMPLIANCE_MESSAGING_PUBLIC.md) |
+
+---
+
+## Conclusion
+
+FUZE tokenomics combines a fixed 500,000,000-token supply with ten purpose-specific allocations, staged utility, controlled custody and release, mechanism-level governance, and public-safe reporting.
+
+The overview is best understood as a map of responsibilities. Allocation papers govern supply purpose, utility papers govern token functions, vault and circulation papers govern movement, participation papers govern eligibility and records, and risk papers govern public boundaries.
+
+This structure keeps product use, credits, stablecoin activity, token operations, wallet evidence, and market access distinct while allowing them to work within one documented ecosystem.

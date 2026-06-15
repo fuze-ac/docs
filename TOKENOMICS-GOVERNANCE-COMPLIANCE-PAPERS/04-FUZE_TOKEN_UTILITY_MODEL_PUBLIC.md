@@ -2,648 +2,386 @@
 
 ## Executive Summary
 
-FUZE Token Utility Model explains the public utility role of FUZE token across the FUZE ecosystem.
+FUZE token utility consists of approved functions that connect FUZE token to a specific product, community, game, partner, governance, access, or reporting action.
 
-FUZE uses one ecosystem token only: **FUZE token**.
+Utility is defined by user behavior and system response, not by broad statements that a token “powers” an ecosystem. Each utility surface should identify who can use it, what token condition applies, what action occurs, which product or platform result follows, and what evidence confirms the function is available.
 
-FUZE token supports product-connected utility, ecosystem participation, platform alignment, governance direction where applicable, wallet-aware access where defined, community participation structures, ZAGA utility surfaces, reporting surfaces, and wallet-based participation ability where activated under required controls.
+FUZE develops utility from product and ecosystem needs. Ordinary SaaS consumption can continue through Platform Credits, while payments and settlements can use their approved rails. Token involvement is appropriate where it adds meaningful access, coordination, recognition, participation, interoperability, or governance value.
 
-FUZE token utility is product-first.
+This paper establishes the portfolio-level utility taxonomy and registry. It also defines lifecycle status, control requirements, measurement, and retirement. It does not declare every candidate utility active, and it does not repeat the implementation workflow owned by the product-to-token bridge paper.
 
-Utility grows from practical product usage, shared platform rails, ZAGA utility systems, community participation, game surfaces, intelligence products, sponsored visibility, public reporting, and long-term ecosystem alignment.
+---
 
-FUZE separates:
+## 1. Utility Objective
 
-| System | Public Role |
+The purpose of the utility model is to make every FUZE token function:
+
+- understandable to its intended user;
+- connected to a real product or ecosystem action;
+- technically and operationally supportable;
+- distinct from product credits and payment activity;
+- measurable through appropriate records;
+- governed through a visible lifecycle;
+- described according to current status.
+
+The model applies across FUZE products and shared platform functions. A product may have no token utility, one focused utility surface, or several approved surfaces. Product usefulness does not depend on maximizing token interactions.
+
+---
+
+## 2. What Qualifies as Utility
+
+A proposed function qualifies as token utility when it satisfies four conditions.
+
+### Specific token role
+
+The function explains why FUZE token is relevant. Holding, transferring, locking, presenting, signing with, or otherwise referencing the token should have a defined purpose.
+
+### Observable user action
+
+The eligible user can perform or receive a recognizable action, such as entering an approved area, registering for a program, receiving status, contributing input, using a game function, or participating in governance direction.
+
+### Defined system response
+
+The product or platform produces a predictable response. The response can be tested, supported, monitored, and corrected.
+
+### Governed status
+
+The function has an owner, current lifecycle state, applicable controls, and an activation or withdrawal decision.
+
+The following do not establish utility by themselves:
+
+- a product mentioning FUZE token;
+- a wallet being connected without a product purpose;
+- speculative attention or trading activity;
+- an allocation category;
+- a payment made in another asset;
+- a roadmap idea without a defined user action;
+- public use of words such as “ecosystem,” “reward,” or “governance.”
+
+---
+
+## 3. Utility Classes
+
+FUZE uses utility classes to organize proposals and reporting.
+
+### 3.1 Access
+
+Access utility evaluates an approved token condition before a user enters a product module, event, community area, game experience, partner program, or other defined surface.
+
+The specification should state the condition, duration, supported custody types, status-change behavior, and support route.
+
+### 3.2 Participation
+
+Participation utility enables an eligible user to join an approved ecosystem, community, product, event, or contribution process.
+
+This class should define what participation means and what authority it carries. Attendance, discussion, contribution, proposal submission, and formal decision rights are different actions.
+
+### 3.3 Recognition and identity
+
+Recognition utility connects a wallet or token-related condition to an approved badge, profile, role, contribution record, loyalty status, or other ecosystem identity.
+
+Public records can use addresses or aggregate status while personal identity and private account data remain protected.
+
+### 3.4 Game and digital experience
+
+Game utility supports a defined ZAGA or other approved experience, such as access, profile linkage, event participation, digital-asset interaction, community coordination, or another game function.
+
+Game currencies, scores, resources, rewards, and FUZE token should use distinct labels. A game value should not be presented as FUZE token merely because both appear in one product.
+
+### 3.5 Partner and campaign
+
+Partner utility connects FUZE token to an approved integration, campaign, distribution program, event, or co-created ecosystem function.
+
+The partner’s role, commercial responsibility, data access, duration, user support, and termination treatment should be documented.
+
+### 3.6 Governance direction
+
+Governance utility can support proposals, signaling, voting, delegation, or another structured input process where approved.
+
+The design must state whether an action is advisory or binding, which decisions are in scope, how voting power is determined, and which legal or operational authorities remain outside the mechanism.
+
+### 3.7 Reporting and verification
+
+Reporting utility uses token or wallet records to support public-safe verification, program status, contribution evidence, or another approved transparency function.
+
+On-chain visibility provides transaction evidence, but the report must still explain business purpose, period, classification, and limitations.
+
+### 3.8 Conditional wallet participation
+
+Wallet-based participation is a specialist utility class that applies only if its separate activation, eligibility, value, custody, privacy, claims, and reporting requirements are satisfied.
+
+Its detailed operation remains in the [FUZE Wallet-Based Participation Model](07-FUZE_WALLET_BASED_PARTICIPATION_MODEL_PUBLIC.md).
+
+---
+
+## 4. Utility Registry
+
+FUZE should maintain a utility registry as the controlling inventory of token functions.
+
+Each entry can contain:
+
+| Field | Required content |
 |---|---|
-| FUZE token | Ecosystem participation, product-connected utility, platform alignment, governance direction where applicable, and wallet-based participation ability where activated |
-| Platform Credits | Product usage credits for supported FUZE products and services |
-| Stablecoins | Payment, settlement, treasury, and operational compensation rails |
+| Utility identifier | Stable internal and public reference |
+| Name | Approved user-facing name |
+| Class | Access, participation, recognition, game, partner, governance, reporting, or specialist class |
+| Product or platform owner | Team responsible for operation |
+| Intended user | Eligible user, role, community, or organization |
+| Token condition | Holding, transfer, lock, signature, registration, or other approved interaction |
+| System response | Result delivered by the product or platform |
+| Network and contract | Applicable technical identity |
+| Custody treatment | Supported self-custody, contract, or exchange-custody behavior |
+| Permissions and data | Required account, wallet, role, and data boundaries |
+| Status | Candidate through retired |
+| Effective scope | Product, geography, audience, period, or pilot boundary |
+| Evidence | Test, activation, usage, support, incident, and reporting references |
+| Dependencies | Technical, legal, operational, partner, market, or governance prerequisites |
+| Review date | Latest and next scheduled review |
 
-FUZE token utility does not guarantee payout, income, dividend, yield, profit, token price, listing, liquidity, market support, game earnings, product revenue, business revenue, user growth, community growth, exit, or investment return.
-
-The FUZE Token Utility Model explains how utility connects to real platform surfaces without turning token utility into unsafe financial claims.
-
----
-
-## 1. Purpose of This Paper
-
-This paper explains the FUZE token utility model.
-
-It explains:
-
-- what FUZE token utility means
-- how FUZE token connects to products
-- how utility grows through product usage and platform rails
-- how ZAGA functions as the main game and token-utility ecosystem
-- how community and game participation can support utility
-- how QTB, AIMM, AIE, ToolGrid AI, and Botmad connect to utility surfaces
-- how token utility remains separate from Platform Credits
-- how token utility remains separate from stablecoin payment rails
-- how wallet-based participation ability fits into token utility
-- how FUZE avoids financial-return, payout, listing, liquidity, and price-promise language
-
-This paper is not a token sale document, investment recommendation, financial advice, legal opinion, tax opinion, accounting policy, payout policy, listing plan, liquidity plan, or price forecast.
-
-It is a public explanation of FUZE token utility.
+The registry prevents the same utility name from acquiring different meanings across product pages, token papers, dashboards, and partner announcements.
 
 ---
 
-## 2. Reader Problem This Paper Solves
+## 5. Lifecycle Status
 
-Token utility can become confusing when a project describes many products, credits, payments, wallet records, games, governance direction, participation structures, and revenue direction without a clear model.
+Utility status should follow a controlled vocabulary.
 
-Readers may ask:
-
-- What does FUZE token do?
-- How does FUZE token connect to products?
-- How is FUZE token different from Platform Credits?
-- How is FUZE token different from stablecoins?
-- Does product usage create token rights?
-- Does token utility mean payout?
-- Does token utility mean price support?
-- Does ZAGA utility mean game earnings?
-- Does QTB or AIMM utility mean financial advice or market outcome?
-- Does ToolGrid AI sponsored visibility create token entitlement?
-- Does wallet-based participation ability mean every wallet receives approved value?
-
-This paper solves that problem by making FUZE token utility product-first and boundary-aware.
-
-The core answer is:
-
-FUZE token supports ecosystem utility and participation surfaces where defined. It does not guarantee financial outcomes.
-
----
-
-## 3. FUZE Public Position
-
-FUZE presents token utility as product-linked ecosystem participation.
-
-FUZE token is the single ecosystem token of FUZE.
-
-FUZE token utility may support:
-
-- product-connected utility
-- ecosystem participation
-- platform alignment
-- governance direction where applicable
-- wallet-aware access where defined
-- holder recognition where product rules allow
-- community participation structures
-- ZAGA utility surfaces
-- game-related utility surfaces
-- reporting and transparency surfaces
-- partner utility where approved
-- wallet-based participation ability where activated under required controls
-
-FUZE token utility follows the FUZE execution order:
-
-**Product usage first. Platform rails second. Broader ecosystem participation after that.**
-
-FUZE token utility also follows the FUZE tokenomics principle:
-
-**Purpose-specific allocation. Vault-based control. Controlled circulation. Product-first utility. Long-term ecosystem alignment.**
-
-Token utility is not a financial guarantee.
-
-FUZE token utility does not mean:
-
-- guaranteed payout
-- guaranteed income
-- guaranteed dividend
-- guaranteed yield
-- guaranteed profit
-- guaranteed token demand
-- guaranteed token price
-- guaranteed listing
-- guaranteed liquidity
-- guaranteed market support
-- guaranteed game earnings
-- guaranteed business revenue
-- guaranteed user growth
-- guaranteed community growth
-- guaranteed exit
-- guaranteed investment return
-
-FUZE token utility supports ecosystem use and participation.
-
-It does not guarantee market outcome.
-
----
-
-## 4. Core Model
-
-### 4.1 Utility Model Layers
-
-FUZE token utility can be understood through several public layers.
-
-| Utility Layer | Purpose |
+| Status | Meaning |
 |---|---|
-| Product Utility Layer | Connects FUZE token to product-specific ecosystem surfaces where defined |
-| Platform Alignment Layer | Supports long-term alignment with FUZE platform growth and product execution |
-| Ecosystem Participation Layer | Supports participation in community, product, game, reporting, and ecosystem activity |
-| Wallet-Aware Access Layer | Supports access, eligibility, recognition, or role logic connected to wallet status where legally and technically ready |
-| Governance Direction Layer | Supports structured feedback, signaling, or governance direction where applicable |
-| Wallet-Based Participation Layer | Possible activation-gated participation ability for eligible FUZE-holding wallets |
-| Reporting Layer | Supports public-safe transparency, activity records, utility records, and status reporting where appropriate |
+| Candidate | An idea being assessed; no implementation or availability implied |
+| Defined | User action, token condition, system response, and owner documented |
+| Planned | Accepted for future work with dependencies identified |
+| In development | Implementation work has begun |
+| In testing | Technical and product behavior is being evaluated in a controlled scope |
+| Under review | Required product, security, legal, compliance, or operational review is incomplete |
+| Approved for activation | Required decision obtained, with release conditions satisfied or scheduled |
+| Pilot | Available to a limited audience, product, period, or jurisdiction |
+| Available | Active within the published scope |
+| Paused | Temporarily unavailable while the record and user obligations remain managed |
+| Retired | Closed to new use with migration, support, and record treatment completed |
 
-A product does not need to use every utility layer.
+A contract deployment, completed code path, or public announcement does not substitute for the activation status.
 
-A utility layer does not create automatic financial rights.
-
-### 4.2 Product-Connected Utility
-
-Product-connected utility means FUZE token can connect to real FUZE products where defined.
-
-Product-connected utility may include:
-
-- product-related access where defined
-- ecosystem status where defined
-- product participation where defined
-- community participation where defined
-- game utility where defined
-- wallet-aware product records where appropriate
-- reporting participation where appropriate
-- governance direction around products where applicable
-- long-term ecosystem alignment
-
-FUZE products create the practical context for token utility.
-
-Product-connected utility follows product readiness. FUZE avoids running token utility ahead of product readiness, legal controls, accounting controls, technical readiness, reporting readiness, and public-risk boundaries.
-
-Boundary:
-
-Product-connected utility does not guarantee product adoption, product revenue, token demand, token price, wallet-based participation eligibility, payout, liquidity, listing, or investment return.
-
-### 4.3 Token Utility Roadmap Relationship
-
-FUZE uses a Token Utility Roadmap to explain how token utility grows through product-linked participation.
-
-| Stage | Public Focus | Utility Role |
-|---:|---|---|
-| 1 | Product foundation | HerHelp.com, ZAGA.io, product papers, public pages, early product workflows, and launch readiness |
-| 2 | Platform rails | Identity, Platform Credits, payments, AI orchestration, reporting, privacy, security, governance, and workspace systems |
-| 3 | ZAGA utility surfaces | Wallet-aware access, participation systems, utility modules, ZAGA Arena, and ZAGA Districts |
-| 4 | Community and game participation | CommunityLayer AI, ZAGA communities, Telegram groups, events, rooms, leaderboards, city systems, contribution, and recognition |
-| 5 | Intelligence and sponsored utility | QTB, AIMM, AIE, ToolGrid AI, partner campaigns, sponsored visibility, utility reports, and ecosystem opportunity workflows |
-| 6 | Transparency and governance readiness | Vault reports, controlled circulation status, public dashboards, governance references, public utility reporting, and future review areas |
-
-The Token Utility Roadmap is not a token price roadmap, listing roadmap, payout roadmap, liquidity promise, profit promise, market-performance plan, or public token sale schedule.
-
-### 4.4 Platform Credits and Token Utility Separation
-
-Platform Credits are product usage credits.
-
-Platform Credits help users access supported FUZE products and services, including AI workflows, reports, spreadsheet mapping, shop operations, training materials, community summaries, game-related utility surfaces where supported, QTB reports, AIMM reports, AIE reports, ToolGrid AI sponsored visibility workflows, and Botmad work-assistance sessions.
-
-FUZE token supports broader ecosystem utility.
-
-The difference is important:
-
-| Item | Function | Boundary |
-|---|---|---|
-| Platform Credits | Product usage credits | Not FUZE token, not investment rights, not participation rights |
-| FUZE token | Single ecosystem token | Does not guarantee payout, price, listing, liquidity, or return |
-| Stablecoins | Payment, settlement, treasury, and compensation rails | Not FUZE token and not automatic participation distribution |
-
-Platform Credits make product usage easier to price, record, manage, and report without confusing every product action with token ownership.
-
-Boundary:
-
-Buying Platform Credits, using Platform Credits, receiving bonus credits, or consuming credits inside a product does not create FUZE token ownership, wallet-based participation eligibility, payout rights, governance rights, investment rights, or claim rights.
-
-### 4.5 Stablecoins and Token Utility Separation
-
-Stablecoins are payment, settlement, treasury, and operational compensation rails.
-
-Stablecoins may support:
-
-- product payments
-- service payments
-- user payments
-- contributor compensation
-- vendor payments
-- partner settlement
-- treasury operations
-- reserve tracking where applicable
-- conversion proof where relevant
-- payment reconciliation where relevant
-
-Stablecoins are not FUZE token.
-
-Stablecoin flows do not automatically create token utility, wallet-based participation ability, approved distributable value, payout rights, governance rights, or investment exposure.
-
-Stablecoin payments may require product purpose records, invoices, usage records, payment reconciliation, fee handling, refund handling, tax review, treasury controls, accounting review, legal review, and jurisdiction review where relevant.
-
-Boundary:
-
-Stablecoins are operational rails, not FUZE token utility and not guaranteed distribution promises.
-
-### 4.6 Wallet-Based Participation Ability as Utility
-
-Wallet-based participation ability is part of the FUZE token utility model, but it is sensitive and activation-gated.
-
-The public explanation is:
-
-**Wallet-based participation ability is a possible FUZE token-related framework where eligible FUZE-holding wallets may participate in approved distributable value from defined FUZE product revenue pools if the framework becomes active.**
-
-This ability is:
-
-- connected to FUZE token
-- wallet-based
-- eligibility-controlled
-- activation-gated
-- dependent on approved distributable value
-- dependent on legal review
-- dependent on accounting review
-- dependent on treasury controls
-- dependent on audit or review process
-- dependent on reporting readiness
-- dependent on smart-contract readiness where applicable
-- dependent on privacy and eligibility rules
-- dependent on jurisdiction review
-
-It is not:
-
-- a second token
-- automatic for every wallet
-- active as a guaranteed public payout right
-- created by buying Platform Credits
-- created by using Platform Credits
-- created by using products
-- created by joining the community
-- based on gross revenue
-- based on token sale proceeds
-- based on seed-round funds
-- based on game rewards
-- based on general treasury balance
-
-Boundary:
-
-Wallet-based participation ability is a possible utility surface, not a guaranteed payout right.
+The [FUZE Token Utility Roadmap](05-FUZE_TOKEN_UTILITY_ROADMAP_PUBLIC.md) organizes portfolio sequencing. Product teams use the [FUZE Product to Token Utility Bridge](../AI-SAAS-PRODUCT-PAPERS/19-FUZE_PRODUCT_TO_TOKEN_UTILITY_BRIDGE_PUBLIC.md) to move a specific feature through design and implementation.
 
 ---
 
-## 5. Token, Credits, Stablecoins, and Wallet Relationship
+## 6. Separation from Credits and Payments
 
-FUZE token utility connects to products through defined utility surfaces.
+Utility design should preserve the roles of other FUZE systems.
 
-| Product / System | Token Utility Direction |
+| Mechanism | Core question |
 |---|---|
-| HerHelp | Practical AI SaaS product usage creates product proof and future product-linked ecosystem participation where applicable |
-| SheetLayer AI | Business data workflows can support role-safe product access, workspace reporting, and Platform Credit usage |
-| ShopOS AI | Shop operating activity can support loyalty, customer programs, partner campaigns, and product-linked utility where product rules allow |
-| SpeakShop AI | Voice campaign usage can connect to shop engagement, campaigns, and Platform Credit activity |
-| TrainLayer AI | Learning, training, validation, and deployment can support capability-based recognition and product access |
-| CommunityLayer AI | Community trust, verification, moderation support, access, contribution, and reporting can support community utility |
-| ZAGA | Main game and token-utility ecosystem for wallet-aware access, participation systems, and utility surfaces |
-| ZAGA Arena | Game utility surface for events, leaderboards, recognition, rooms, and community play |
-| ZAGA Districts | Community MMORPG utility surface for cities, identity, contribution, digital-asset utility, and Telegram-native participation |
-| QTB | Market intelligence access and reports under financial-advice and outcome boundaries |
-| AIMM | Market-operations intelligence and operator workflows under no-liquidity and no-market-outcome boundaries |
-| AIE | Event intelligence and opportunity discovery for ecosystem participation workflows |
-| ToolGrid AI | Utility-led sponsored visibility and partner campaigns under public trust controls |
-| Botmad | Documentation, delivery artifacts, execution evidence, and supervised work supporting ecosystem growth |
-| FUZE Core Platform | Shared rails for identity, credits, payments, AI orchestration, reporting, security, privacy, and governance |
+| Platform Credits | How much supported product service can a user consume? |
+| Payment rail | How is a purchase, invoice, settlement, refund, or compensation event completed? |
+| FUZE token utility | Which approved ecosystem action uses or references FUZE token? |
 
-Each product can create a different token utility surface.
+A single workflow can use more than one mechanism. For example:
 
-The public rule is:
+1. a user pays for a product package through an approved payment rail;
+2. the package creates a Platform Credit balance;
+3. the user consumes credits during product work;
+4. an optional ecosystem program evaluates a separate FUZE token condition.
 
-Product utility supports ecosystem participation where defined. Product utility does not guarantee financial outcome.
+The interface and ledger should identify each event separately. Buying credits should not silently create token status, and a token condition should not conceal a product charge.
+
+Detailed credit treatment belongs in [FUZE Platform Credits Relationship](10-FUZE_PLATFORM_CREDITS_RELATIONSHIP_PUBLIC.md).
 
 ---
 
-## 6. Controls, Gates, and Governance
+## 7. Utility Design Standard
 
-FUZE token utility should follow controls and gates before stronger public activation.
+Every utility surface should answer the following.
 
-Important control areas include:
+### User value
 
-- product readiness
-- identity and access readiness
-- Platform Credit separation
-- wallet-aware record readiness
-- public reporting readiness
-- privacy controls
-- eligibility rules where applicable
-- legal and compliance review
-- accounting and treasury review
-- audit and review controls
-- smart-contract readiness where applicable
-- jurisdiction review
-- product-specific risk boundaries
-- community communication rules
-- market, listing, and liquidity boundaries
-- governance direction where applicable
+What becomes possible, easier, more interoperable, or more trustworthy for the user?
 
-Token utility is strongest when users can understand what is active, what is supported, what remains directional, and what requires additional review.
+### Token necessity
 
-FUZE does not present token utility as already activating every possible future feature.
+Why is FUZE token preferable to an account permission, ordinary payment, Platform Credit charge, database field, or non-transferable record?
 
-Sensitive utility surfaces require review.
+### Experience
 
-Examples include:
+What does the user connect, sign, hold, transfer, register, or verify? What fees, delays, failures, and support steps can occur?
 
-| Utility Surface | Review Need |
+### Scope
+
+Which product, audience, network, custody type, jurisdiction, and period are supported?
+
+### Authority
+
+Who approves activation and who can pause, modify, or retire the function?
+
+### Evidence
+
+Which records establish successful use, failed attempts, exceptions, corrections, and current availability?
+
+### Communication
+
+Can the function be described accurately without implying market demand, price effects, broad rights, or availability outside its approved scope?
+
+A weak answer to token necessity is a reason to keep the feature outside the token layer.
+
+---
+
+## 8. Wallet, Custody, and Privacy
+
+Utility can require a wallet address, signature, token check, transaction, or snapshot. The design should use the minimum wallet interaction necessary.
+
+The user experience should disclose:
+
+- supported networks and wallet types;
+- what information is read;
+- what action is requested;
+- expected network fees;
+- custody limitations;
+- how status changes are detected;
+- support and correction routes.
+
+Self-custody can allow direct signing or address verification. Exchange custody may obscure the underlying user address or combine holdings in omnibus wallets, so some utilities may need separate evidence or may not support that custody model.
+
+Public utility reporting must not expose the person behind a wallet. Identity verification, customer records, credentials, and other sensitive material remain permissioned and separated from public address records.
+
+---
+
+## 9. Controls Before Activation
+
+Review should be proportionate to the function.
+
+| Control area | Review focus |
 |---|---|
-| Wallet-based participation ability | Legal, accounting, treasury, audit, reporting, eligibility, smart-contract, privacy, and jurisdiction review |
-| Market and liquidity utility | Market, exchange, legal, treasury, and public communication review |
-| Sponsored visibility utility | Trust, safety, moderation, disclosure, billing, and campaign reporting review |
-| Game utility | Game economy, anti-abuse, reporting, community, and reward-language review |
-| Botmad work utility | Permission, file access, workspace, audit, and human approval review |
-| Platform Credit utility | Billing, usage, entitlement, refund, correction, and metering review |
+| Product | User need, workflow clarity, supportability, and status |
+| Technical | Contract, network, indexer, wallet, fallback, and data behavior |
+| Security | Signatures, permissions, administrative powers, abuse, and incident response |
+| Privacy | Separation of public addresses from identity and product data |
+| Legal and compliance | User, jurisdiction, rights, public wording, and operating structure |
+| Accounting and treasury | Token movement, fees, custody, classification, and reconciliation |
+| Partner | Responsibilities, dependencies, service levels, data, and termination |
+| Governance | Approval authority, change control, pause, and retirement |
+| Reporting | Evidence, metric definitions, public scope, and correction process |
 
-Controls help token utility grow without turning the token into a vague or unsafe public promise.
-
----
-
-## 7. Reporting and Transparency Direction
-
-FUZE token utility can support reporting and transparency through public-safe records.
-
-Reporting can include:
-
-- token allocation summaries
-- controlled circulation status
-- vault and reserve reports
-- product-to-token utility reports
-- Platform Credit usage relationship explanations
-- public-safe wallet references where useful
-- product activity summaries
-- ZAGA activity summaries
-- community participation summaries
-- QTB and AIMM usage summaries where public-safe
-- AIE event intelligence summaries
-- ToolGrid AI sponsored visibility reports
-- Botmad work-assistance summaries
-- governance references where applicable
-- activation-gate status where appropriate
-
-Reporting supports public understanding.
-
-Reporting does not create financial assurance.
-
-A product activity report does not guarantee token demand.
-
-A wallet record does not guarantee payout.
-
-A vault report does not guarantee liquidity.
-
-A game activity summary does not guarantee game earnings.
-
-A sponsored visibility report does not guarantee acquisition.
-
-A market intelligence report does not guarantee profit.
-
-Public reporting should explain product activity and utility context while protecting private records and avoiding outcome promises.
+A low-risk recognition badge may require fewer controls than a utility involving token transfer, governance authority, market infrastructure, or approved value.
 
 ---
 
-## 8. Market, Legal, or Operational Context
+## 10. Utility Evidence
 
-### 8.1 HerHelp Utility Surface
+Evidence should match lifecycle status.
 
-HerHelp is the practical AI SaaS suite under FUZE.
+### Definition evidence
 
-HerHelp may support FUZE token utility by creating practical AI SaaS product usage across business, shops, spreadsheets, training, communities, documents, reports, and operations.
+- approved specification;
+- user flow;
+- token-condition logic;
+- ownership and dependency record.
 
-Possible HerHelp utility surfaces include:
+### Build and test evidence
 
-- product-connected ecosystem status where defined
-- AI SaaS workspace participation where defined
-- product module access direction where defined
-- product feedback participation
-- reporting and usage records where appropriate
-- Platform Credit usage records
-- community education around FUZE products
-- product-to-token utility education
-- wallet-aware records where appropriate
+- implementation reference;
+- test results;
+- supported wallet and network matrix;
+- security or privacy review;
+- failure and fallback behavior.
 
-Boundary:
+### Activation evidence
 
-HerHelp utility does not guarantee business revenue, user growth, token demand, token price, payout, or investment return.
+- approval record;
+- effective scope and date;
+- release communication;
+- user instructions and support route.
 
-### 8.2 ZAGA Utility Surface
+### Operating evidence
 
-ZAGA is the FUZE game and token-utility ecosystem.
+- eligible and active users;
+- successful utility actions;
+- failure, correction, and support volume;
+- repeat use and completion;
+- incidents, downtime, and abuse;
+- product or community outcomes relevant to the function.
 
-ZAGA includes ZAGA Arena and ZAGA Districts as separate products.
+### Closure evidence
 
-ZAGA can support token utility through:
+- pause or retirement decision;
+- user and partner notice;
+- remaining obligations;
+- migration or withdrawal handling;
+- retained records and final report.
 
-- game access where defined
-- wallet-aware player records where supported
-- game profile recognition
-- event participation
-- community participation
-- badges and leaderboards
-- ZAGA Arena run summaries
-- ZAGA Districts city identity and community participation
-- tournament utility surfaces
-- token/NFT utility where defined
-- public-safe reporting
-
-ZAGA Arena is the fast battle arena game where players survive, fight bosses, collect USDT and Token Value, build Net Worth, and compete in Telegram-ready multiplayer arenas.
-
-ZAGA Districts is the Telegram-native cyberpunk MMORPG where real communities build cities, manage economies, hire NPCs, and compete for power.
-
-ZAGA Districts is separate from ZAGA Arena.
-
-ZAGA Districts is not a mode inside ZAGA Arena.
-
-Boundary:
-
-ZAGA utility does not guarantee game earnings, player income, token price, resale value, liquidity, listing, payout, or investment return.
-
-### 8.3 QTB Utility Surface
-
-QTB — Quant AI Trade Brain is the AI trading intelligence and market interpretation support product under FUZE.
-
-QTB may support token utility by showing that FUZE has serious crypto-native AI SaaS products beyond token infrastructure.
-
-QTB can support:
-
-- market intelligence reports
-- watchlist workflows
-- market summaries
-- research notes
-- trading journal summaries
-- risk observations
-- public-safe market education
-- Platform Credit usage records
-- product usage evidence
-
-Boundary:
-
-QTB utility does not mean financial advice, trading instructions, guaranteed alpha, trading profit, prediction accuracy, token price, market outcome, or autonomous execution.
-
-### 8.4 AIMM Utility Surface
-
-AIMM — AI Market Maker is the AI-powered market-operations and liquidity operations support product under FUZE.
-
-AIMM may support token utility by creating market-operations product depth and liquidity workflow support.
-
-AIMM can support:
-
-- liquidity operation summaries
-- order-book observation notes
-- venue comparison notes
-- exchange communication summaries
-- market maker communication support
-- public-safe liquidity updates
-- workspace-based operations
-- Platform Credit usage records
-- AI-assisted operations reports
-
-Boundary:
-
-AIMM utility does not guarantee liquidity, price support, listing, trading volume, market-making result, token price, market outcome, or trading profit.
-
-### 8.5 AIE Utility Surface
-
-AIE — Event Intelligence is the AI-powered event intelligence, opportunity discovery, and awareness product under FUZE.
-
-AIE may support token utility by creating event, discovery, and ecosystem awareness surfaces.
-
-AIE can support:
-
-- event discovery
-- opportunity filtering
-- relevance-ranked briefings
-- watchlists and alerts
-- event planning
-- sponsor summaries
-- post-event recaps
-- community reports
-- investor event follow-up
-- public-safe reports
-- Platform Credit usage records
-
-Boundary:
-
-AIE utility does not guarantee event success, attendance, sponsorship revenue, ticket sales, user growth, customer acquisition, campaign result, or opportunity outcome.
-
-### 8.6 ToolGrid AI Utility Surface
-
-ToolGrid AI is the AI utility network, sponsored grid marketplace, and utility-led distribution layer under FUZE.
-
-ToolGrid AI may support token utility by creating discovery, sponsored visibility, and distribution surfaces.
-
-ToolGrid AI can support:
-
-- tool discovery
-- free utility tools
-- sponsored grid visibility
-- tool listings
-- campaign reports
-- trust review
-- Telegram/Web3 utility surfaces
-- partner campaigns
-- Platform Credit usage records
-- public-safe visibility reports
-
-Boundary:
-
-ToolGrid AI utility does not guarantee traffic, clicks, users, customers, ranking, sales, conversion, campaign success, business revenue, or token entitlement.
-
-Sponsored visibility should be clearly marked.
-
-### 8.7 Botmad Utility Surface
-
-Botmad is the AI Desktop Employee and AI work-execution product under FUZE.
-
-Botmad may support token utility by giving FUZE a practical work-execution product surface.
-
-Botmad can support:
-
-- task requests
-- document preparation
-- workflow summaries
-- file organization direction
-- customer support drafts
-- operational checklists
-- workspace workflows
-- permission-controlled AI work assistance
-- reviewed work outputs
-- Platform Credit usage records
-- public-safe reports where appropriate
-
-Boundary:
-
-Botmad utility does not mean uncontrolled autonomous authority, access to all files, guaranteed productivity, guaranteed business outcome, automated approval, or sensitive action without permission.
-
-### 8.8 Governance Direction Utility
-
-FUZE token may support governance direction where applicable.
-
-Governance direction may include:
-
-- structured community feedback
-- product direction signaling
-- public proposal discussion where supported
-- ecosystem sentiment collection
-- non-binding preference signals where applicable
-- future governance mechanisms where legally and technically ready
-
-Governance direction does not mean every token holder controls company operations, treasury, legal decisions, product execution, hiring, investor agreements, exchange discussions, or private records.
+Evidence of trading activity is not evidence that a product utility works.
 
 ---
 
-## 9. Risk and Disclosure Reference
+## 11. Measurement
 
-Important public boundaries include:
+Utility measures should test usefulness and operational quality.
 
-- FUZE uses one ecosystem token: FUZE token.
-- Token utility is product-first.
-- Product utility does not guarantee market outcome.
-- Platform Credits are product usage credits and are separate from FUZE token.
-- Stablecoins are payment, settlement, treasury, and compensation rails.
-- Wallet-based participation ability is not a second token and not automatic.
-- Wallet-based participation ability is not active as a guaranteed public payout right.
-- Product revenue does not automatically become approved distributable value.
-- Product usage does not create wallet-based participation eligibility.
-- Platform Credit usage does not create wallet-based participation eligibility.
-- Token utility does not guarantee token demand, token price, listing, liquidity, payout, income, yield, profit, game earnings, product revenue, user growth, community growth, exit, or investment return.
-- QTB does not provide financial advice or guaranteed trading outcomes.
-- AIMM does not guarantee liquidity, price support, listing, market outcome, or profit.
-- ZAGA game mechanics are game mechanics and do not guarantee financial earnings.
-- ToolGrid AI sponsored visibility does not guarantee acquisition or revenue.
-- Botmad work assistance remains permission-controlled and human-reviewed for sensitive use.
+| Measure group | Examples |
+|---|---|
+| Reach | Eligible users, supported wallets, product exposure |
+| Completion | Successful checks, signatures, transactions, or product actions |
+| Quality | Failure rate, latency, support volume, correction rate |
+| Repeat behavior | Returning users, recurring participation, continued use |
+| Product effect | Access completion, event participation, contribution, game activity, or another defined result |
+| Safety | Abuse attempts, unauthorized actions, incidents, privacy exceptions |
+| Sustainability | Operating cost, support effort, partner dependency, maintenance burden |
 
-More detailed boundaries are handled in dedicated papers, including:
-
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/03-FUZE_ONE_TOKEN_MODEL_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/05-FUZE_TOKEN_UTILITY_ROADMAP_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/07-FUZE_WALLET_BASED_PARTICIPATION_MODEL_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/08-FUZE_PARTICIPATION_ACTIVATION_GATES_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/09-FUZE_APPROVED_DISTRIBUTABLE_VALUE_MODEL_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/10-FUZE_PLATFORM_CREDITS_RELATIONSHIP_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/21-FUZE_LIQUIDITY_AND_LISTING_POLICY_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/28-FUZE_LEGAL_AND_COMPLIANCE_MESSAGING_PUBLIC.md`
-- `TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/29-FUZE_TOKEN_RISK_BOUNDARIES_PUBLIC.md`
-- `WHITEPAPER-PAPERS/04-FUZE_TOKEN_AND_WALLET_PARTICIPATION_ARCHITECTURE_PUBLIC.md`
-- `WHITEPAPER-PAPERS/05-FUZE_RISK_AND_DISCLOSURE_APPENDIX_PUBLIC.md`
-
-This paper focuses on token utility while deeper wallet, participation, market, legal, liquidity, and disclosure topics remain in dedicated papers.
+Each report should state the period, scope, denominator, source, and known limitations. Token price, market capitalization, and trading volume belong to market analysis and should not replace utility measures.
 
 ---
 
-## 10. Key Takeaways
+## 12. Change, Pause, and Retirement
 
-- FUZE Token Utility Model explains the public utility role of FUZE token.
-- FUZE uses one ecosystem token only: FUZE token.
-- FUZE token utility is product-first.
-- Utility grows from practical product usage, shared platform rails, ZAGA utility systems, community participation, intelligence products, sponsored visibility, public reporting, and long-term ecosystem alignment.
-- Platform Credits are product usage credits and remain separate from FUZE token.
-- Stablecoins are payment, settlement, treasury, and operational compensation rails.
-- Wallet-based participation ability is a possible token utility surface, but it is activation-gated and not a guaranteed public payout right.
-- HerHelp gives FUZE practical AI SaaS utility.
-- ZAGA gives FUZE game and community utility surfaces.
-- QTB gives FUZE market-intelligence product utility.
-- AIMM gives FUZE liquidity-operations product utility.
-- AIE gives FUZE event and opportunity intelligence utility.
-- ToolGrid AI gives FUZE utility discovery and sponsored visibility utility.
-- Botmad gives FUZE AI work-execution utility.
-- FUZE token utility does not guarantee payout, income, yield, profit, token price, listing, liquidity, market support, game earnings, product revenue, business revenue, user growth, community growth, exit, or investment return.
-- Detailed token utility roadmap, wallet-based participation, activation gates, Platform Credits, liquidity, legal, and risk topics belong in dedicated tokenomics, governance, compliance, investor, and whitepaper papers.
+Utility is not permanent merely because it has been activated.
+
+A material change can include:
+
+- a new token condition;
+- expanded user or jurisdiction scope;
+- a different network or contract;
+- changed custody support;
+- increased authority or rights;
+- new partner dependence;
+- movement from a free function to a paid or transferred action;
+- altered data collection or public reporting.
+
+Material changes should return to the relevant review stage.
+
+A pause process should protect users, preserve evidence, stop unsafe actions, communicate current status, and define remediation. Retirement should address remaining access, contracts, balances, records, partner duties, and public documentation.
+
+---
+
+## 13. Public Reporting
+
+The utility registry can support a public view that shows:
+
+- approved utility name and class;
+- related product or platform surface;
+- current lifecycle status;
+- supported audience, wallet, and network scope;
+- activation or last-review date;
+- aggregate use and reliability measures where available;
+- incidents, pauses, material changes, and retirement;
+- links to instructions and primary policy papers.
+
+Public reports should avoid private identity, customer records, confidential partner terms, credentials, and security-sensitive implementation detail.
+
+Planned and candidate functions should remain visibly distinct from available utility.
+
+---
+
+## 14. Public Boundary
+
+This model defines how FUZE evaluates and governs token utility. It does not announce that every class or candidate function is active.
+
+Token utility can support product and ecosystem actions, but the existence or use of a function does not determine token price, exchange access, liquidity, adoption, revenue, or another market outcome.
+
+The consolidated token boundary is maintained in [FUZE Token Risk Boundaries](29-FUZE_TOKEN_RISK_BOUNDARIES_PUBLIC.md). Detailed participation mechanics remain in their dedicated papers.
+
+---
+
+## Conclusion
+
+FUZE token utility is credible when a specific token condition improves a real user or ecosystem action and the resulting function can be operated, measured, governed, and reported.
+
+The utility registry turns broad ideas into accountable surfaces with defined classes and lifecycle status. It also gives FUZE a disciplined way to expand, pause, change, or retire utility as products and requirements develop.
