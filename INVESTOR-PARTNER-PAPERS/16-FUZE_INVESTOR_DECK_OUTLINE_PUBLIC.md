@@ -2,1114 +2,488 @@
 
 ## Executive Summary
 
-FUZE Investor Deck Outline explains the investor deck structure, slide-by-slide content boundaries, product evidence placement, revenue model placement, token model placement, risk disclosure placement, data-room connection, public/private investor boundary, and no-guarantee investor presentation language.
+The FUZE investor deck should tell one evidence-led story: identifiable users have practical problems; selected FUZE products address those problems; shared services can improve delivery across products; commercial models connect use to paid service; and strategic capital can fund observable milestones.
 
-FUZE is a transparency-first AI SaaS platform building practical products on shared infrastructure for identity, credits, payments, AI orchestration, wallet-based records, reporting, and ecosystem participation.
+The main deck should remain concise. Product status and evidence appear before token or market material. Detailed mechanics, legal treatment, risk schedules, financial models, and transaction terms belong in the appendix or qualified data room.
 
-FUZE follows product-first execution. Product usage comes first, platform rails come second, and broader ecosystem participation comes after that.
+This outline defines a 15-slide core narrative. Each slide has a decision purpose, central claim, evidence requirement, visual direction, and boundary. The deck should be built from current source records, not by copying executive summaries from the public-paper corpus.
 
-FUZE uses one token only: **FUZE token**.
-
-FUZE token is the single ecosystem token of FUZE. It supports product-connected utility, ecosystem participation, platform alignment, governance direction where applicable, and wallet-based participation ability.
-
-The FUZE investor deck presents FUZE as a product-first AI SaaS platform with practical products, shared platform rails, structured revenue paths, Platform Credit usage, stablecoin payment rails, one-token clarity, wallet-based transparency, and clear risk boundaries.
-
-The investor deck does not present FUZE as a token-only opportunity.
-
-The investor deck does not present product revenue, Platform Credits, stablecoin balances, treasury balances, token launch, wallet-based participation ability, liquidity preparation, listing discussions, or long-term optionality as guaranteed payout, guaranteed token price, guaranteed liquidity, guaranteed acquisition, guaranteed exit, or guaranteed investment return.
-
-Platform Credits are product usage credits and are separate from FUZE token.
-
-Stablecoins are payment, settlement, treasury, and compensation rails.
-
-Wallet-based participation ability is a separate activation-gated framework inside the FUZE token model.
-
-Seed Round discussions are private strategic fundraising conversations. They are not a public token sale, public investment offer, public solicitation, or guaranteed-return opportunity.
-
-FUZE does not guarantee investment, product adoption, product revenue, business revenue, customer growth, user growth, community growth, AI accuracy, token demand, token price, listing, liquidity, market support, trading volume, payout, income, yield, profit, acquisition, exit, smart-contract security, game earnings, or investment return.
+The final deck can vary by investor and round stage, but changes should preserve claim accuracy, audience controls, source traceability, and consistency with FUZE’s approved public position.
 
 ---
 
-## 1. Investor Purpose
+## 1. Deck Objective
 
-This paper gives FUZE a structured investor deck outline for private investor conversations, strategic partner review, and data-room alignment.
+The deck should help an investor decide whether to begin or deepen diligence.
 
-It answers:
+By the final slide, the investor should understand:
 
-- What the FUZE investor deck includes
-- How the deck explains FUZE in a product-first way
-- Where product evidence appears
-- Where the revenue model appears
-- Where the one-token model appears
-- Where Platform Credits and stablecoins appear
-- Where wallet-based participation boundaries appear
-- Where risk disclosure appears
-- What the deck avoids saying
-- How the deck connects to the investor data room
+1. the user and market problems FUZE is choosing to solve;
+2. the products and workflows FUZE is prioritizing;
+3. the current evidence and remaining gaps;
+4. the intended value of shared platform services;
+5. the commercial and distribution logic;
+6. the role of FUZE token, Platform Credits, and payment rails;
+7. the milestone use of strategic capital;
+8. the principal risks and next review route.
 
-This paper is not an investor deck file, fundraising offer, public investment offer, public solicitation, securities disclosure, private placement memorandum, token sale document, legal opinion, tax opinion, accounting policy, financial advice, investment advice, listing announcement, payout policy, or guaranteed-return statement.
-
-It is a public investor deck outline and boundary paper.
+The deck is not expected to answer every diligence question. It should make those questions easier to identify and route.
 
 ---
 
-## 2. FUZE Investor Deck Position
+## 2. Narrative Order
 
-FUZE’s public investor deck position is:
+The core sequence is:
 
-**The FUZE investor deck presents a clear, product-first, evidence-based, risk-aware investor story that connects practical AI SaaS products, shared platform rails, revenue readiness, one-token model clarity, Platform Credit separation, stablecoin rails, wallet transparency, and private fundraising boundaries.**
+```text
+problem -> product -> evidence -> platform leverage
+-> commercial model -> distribution -> execution plan
+-> controls -> ecosystem role -> capital -> risk -> diligence
+```
 
-This position has eight parts.
-
-| Area | FUZE Position |
-|---|---|
-| Product-first narrative | The deck leads with product usage, not token speculation |
-| Evidence placement | Product status, demos, workflows, usage records, and revenue evidence stay clearly separated |
-| Revenue clarity | Revenue paths are explained without promising revenue or payout |
-| Token clarity | FUZE uses one token only: FUZE token |
-| Credit separation | Platform Credits are product usage credits and not token or investment rights |
-| Stablecoin separation | Stablecoins are payment, settlement, treasury, and compensation rails |
-| Participation boundary | Wallet-based participation ability is activation-gated and not guaranteed |
-| Risk disclosure | The deck includes direct risk boundaries and no-guarantee language |
-
-The deck helps investors evaluate FUZE.
-
-It does not create unsupported financial expectations.
+This order keeps the investment case anchored in products and operating evidence. Token, wallet, and market context enter after the product, commercial, and control foundations are clear.
 
 ---
 
-## 3. Investor Deck Structure
+## 3. Core Deck
 
-A FUZE investor deck can use the following structure.
+### Slide 1: Cover
 
-| Slide | Title | Purpose |
-|---|---|---|
-| 1 | Cover | Introduce FUZE clearly |
-| 2 | One-Line Summary | Explain FUZE in one clear sentence |
-| 3 | Problem | Show the market and user problems FUZE addresses |
-| 4 | FUZE Solution | Present FUZE as a product-first AI SaaS platform |
-| 5 | Product Ecosystem | Show the full FUZE product map |
-| 6 | Product-First Execution Model | Explain product usage first, platform rails second, ecosystem participation after that |
-| 7 | Core Platform Rails | Explain shared infrastructure |
-| 8 | Product Evidence Matrix | Show product status and evidence categories |
-| 9 | Go-To-Market | Explain product-led distribution and target segments |
-| 10 | Revenue Model | Explain product revenue paths and exclusions |
-| 11 | Platform Credits | Explain product usage credits |
-| 12 | Stablecoin Rails | Explain payment, settlement, treasury, and compensation rails |
-| 13 | FUZE Token Model | Explain one-token model and utility |
-| 14 | Wallet-Based Participation Boundary | Explain activation-gated participation ability |
-| 15 | Token Launch and Circulation | Explain controlled circulation and launch boundaries |
-| 16 | Public Metrics and Transparency | Explain reporting, vault visibility, and report hashes |
-| 17 | AI Safety and Data Privacy | Explain safeguards and permission controls |
-| 18 | Strategic Partners and Expansion | Explain SME, enterprise, Web3, and partner channels |
-| 19 | Use of Funds | Explain private round use-of-funds categories |
-| 20 | Risk Boundaries | Present direct investor risk disclosure |
-| 21 | Data Room and Next Review | Show supporting documents and diligence materials |
-| 22 | Closing | Restate FUZE’s product-first investment context and boundaries |
+**Decision purpose:** identify the company, presentation, audience, and version.
 
-This structure can be shortened or expanded depending on investor audience.
+**Include:**
 
-Boundary:
+- FUZE name and approved positioning line;
+- “Private Investor Presentation” or other reviewed audience label;
+- date, version, and confidentiality notice where applicable;
+- presentation owner or contact route.
 
-Deck structure supports investor communication, but it does not guarantee investment, valuation, liquidity, exit, or return.
+**Visual:** clean brand cover with one product-oriented image or restrained product mosaic.
+
+**Boundary:** no token-price, exchange, return, or transaction claim belongs on the cover.
 
 ---
 
-## 4. Slide 1: Cover
+### Slide 2: The Investor Thesis
 
-### Slide Purpose
+**Decision purpose:** explain why FUZE may become valuable.
 
-Introduce FUZE clearly and professionally.
+**Central claim:** focused products can enter distinct user environments while reusing common capabilities for accounts, permissions, credits, payments, AI operations, data controls, wallet records, and reporting.
 
-### Content
+**Evidence required:** current priority products, shared-service adoption status, commercial paths, and the next proof milestones.
 
-- FUZE name
-- Short positioning line
-- “Transparency-first AI SaaS platform”
-- Private investor deck label where appropriate
-- Date or version
-- Confidentiality label where required
+**Visual:** three connected blocks labeled Product, Platform, and Ecosystem, with evidence under each.
 
-### Slide Message
-
-FUZE is a transparency-first AI SaaS platform building practical products on shared infrastructure for identity, credits, payments, AI orchestration, wallet-based records, reporting, and ecosystem participation.
-
-### Boundary Note
-
-The cover avoids token price, listing, payout, and guaranteed-return language.
+**Source:** [FUZE Investor Overview](01-FUZE_INVESTOR_OVERVIEW_PUBLIC.md).
 
 ---
 
-## 5. Slide 2: One-Line Summary
+### Slide 3: User Problems
 
-### Slide Purpose
+**Decision purpose:** show the recurring work that creates demand.
 
-Give investors a simple one-line understanding of FUZE.
+**Use three to five problem clusters**, such as:
 
-### Content
+- fragmented operations for shops and small teams;
+- slow spreadsheet, content, training, and community workflows;
+- difficult event coordination and reporting;
+- specialized market and liquidity-operation information;
+- repetitive work that requires bounded AI assistance.
 
-- One sentence describing FUZE
-- Product-first execution statement
-- One-token model reference where appropriate
+**Evidence required:** interviews, workflow observations, support requests, pilot notes, or other approved demand signals. Market-size figures require dated sources and methodology.
 
-### Slide Message
+**Visual:** problem-to-user matrix rather than a generic market collage.
 
-FUZE builds practical AI SaaS products on shared platform rails, using one ecosystem token, Platform Credits for product usage, stablecoin rails for payment and settlement, and wallet-level transparency for long-term ecosystem alignment.
-
-### Boundary Note
-
-The one-line summary does not describe FUZE as a token-only project.
+**Boundary:** problem evidence should not imply that FUZE has already won the market.
 
 ---
 
-## 6. Slide 3: Problem
+### Slide 4: Product Entry Points
 
-### Slide Purpose
+**Decision purpose:** show how FUZE addresses the selected problems.
 
-Explain the problems FUZE addresses.
+Group the portfolio:
 
-### Content
-
-Investor-facing problem areas may include:
-
-- Businesses need practical AI tools but struggle with workflow integration
-- Shops need affordable operating systems and simple automation
-- Communities need moderation, safety, verification, summaries, and support
-- Web3 teams need clearer reporting, market context, liquidity-operation education, and public communication boundaries
-- AI tools often lack shared credits, reporting, permission controls, and evidence systems
-- Token projects often lack product-first execution, public documentation, and risk discipline
-- Investors need better separation between product revenue, token utility, treasury, credits, and risk claims
-
-### Boundary Note
-
-Problem framing does not imply FUZE has already solved every problem.
-
----
-
-## 7. Slide 4: FUZE Solution
-
-### Slide Purpose
-
-Present FUZE as the solution.
-
-### Content
-
-- Product-first AI SaaS platform
-- Shared platform rails
-- Practical product ecosystem
-- Public documentation system
-- One-token model
-- Platform Credit usage layer
-- Stablecoin payment and settlement rails
-- Wallet-level transparency without public identity exposure
-- Risk-aware public language
-
-### Slide Message
-
-FUZE combines practical AI SaaS products with shared platform infrastructure, public transparency, and a single ecosystem token model.
-
-### Boundary Note
-
-Solution framing describes the model without guaranteeing adoption, revenue, token demand, or return.
-
----
-
-## 8. Slide 5: Product Ecosystem
-
-### Slide Purpose
-
-Show the FUZE product portfolio.
-
-### Content
-
-Products can be grouped as:
-
-| Category | Products |
+| Entry area | Products |
 |---|---|
 | Practical AI SaaS | HerHelp, SheetLayer AI, ShopOS AI, SpeakShop AI, TrainLayer AI, CommunityLayer AI |
-| Game and Community Utility | ZAGA, ZAGA Arena, ZAGA Districts |
-| Market and Liquidity Intelligence | QTB, AIMM |
-| Event and Utility Network | AIE, ToolGrid AI |
-| AI Work Assistance | Botmad |
+| Games and communities | ZAGA, ZAGA Arena, ZAGA Districts |
+| Market-aware operations | QTB, AIMM |
+| Events and discovery | AIE, ToolGrid AI |
+| Work assistance | Botmad |
 
-### Boundary Note
+**Evidence required:** target user, core workflow, current status, and next evidence for each priority product. Secondary products can remain in the appendix.
 
-The product ecosystem slide separates active products, product papers, demos, prototypes, and planned products through status labels.
+**Visual:** product-family map with priority products visually distinguished.
 
----
-
-## 9. Slide 6: Product-First Execution Model
-
-### Slide Purpose
-
-Explain FUZE’s execution order.
-
-### Content
-
-FUZE execution order:
-
-1. Product usage first.
-2. Platform rails second.
-3. Broader ecosystem participation after that.
-
-### Slide Message
-
-FUZE does not rely on token speculation as the only story. FUZE builds product usage first, then connects shared rails and ecosystem participation over time.
-
-### Boundary Note
-
-Product-first execution does not guarantee product-market fit, revenue, token demand, liquidity, or return.
+**Source:** [FUZE AI SaaS Product Index](../AI-SAAS-PRODUCT-PAPERS/01-FUZE_AI_SAAS_PRODUCT_INDEX_PUBLIC.md).
 
 ---
 
-## 10. Slide 7: Core Platform Rails
+### Slide 5: Current Product Evidence
 
-### Slide Purpose
+**Decision purpose:** establish what exists now.
 
-Show the infrastructure layer supporting multiple products.
+Use a compact matrix:
 
-### Content
+| Product or workflow | Current status | Evidence available | Next proof |
+|---|---|---|---|
+| Priority workflow A | Exact approved status | Demo, test, release, usage, or commercial record | Named milestone |
+| Priority workflow B | Exact approved status | Demo, test, release, usage, or commercial record | Named milestone |
+| Priority workflow C | Exact approved status | Demo, test, release, usage, or commercial record | Named milestone |
 
-Core rails may include:
+**Evidence required:** current demonstrations, test results, release records, usage metrics, support records, and commercial evidence appropriate to the claim.
 
-- identity and account rails
-- workspace permissions
-- Platform Credits
-- payments
-- stablecoins
-- AI orchestration
-- product usage records
-- wallet-based records
-- public reporting
-- report hashes
-- public vault visibility
-- partner access controls
-- data privacy controls
-- smart-contract readiness where applicable
+**Visual:** status matrix with links or appendix references; avoid a feature checklist.
 
-### Boundary Note
+**Source:** [FUZE Product Status and Evidence Matrix](14-FUZE_PRODUCT_STATUS_AND_EVIDENCE_MATRIX_PUBLIC.md).
 
-Shared rails support platform coherence, but they do not guarantee scale, uptime, adoption, or revenue.
+**Boundary:** documented, demonstrable, operating, and reconciled evidence remain distinct.
 
 ---
 
-## 11. Slide 8: Product Evidence Matrix
+### Slide 6: Product Experience
 
-### Slide Purpose
+**Decision purpose:** make one priority workflow tangible.
 
-Give investors a structured view of product status and evidence.
+Show:
 
-### Content
+```text
+user need -> onboarding -> input -> FUZE workflow
+-> review or approval -> output -> record -> next action
+```
 
-The slide may include a shortened matrix:
+**Evidence required:** real or clearly labeled representative screens, output samples, permission states, and completion evidence.
 
-| Product | Status | Evidence | Revenue Path | Boundary |
-|---|---|---|---|---|
-| ShopOS AI | Status label | Demo, report, workflow | Packages, credits, add-ons | No guaranteed shop revenue |
-| CommunityLayer AI | Status label | Group workflow, report | Community packages, credits | No guaranteed community growth |
-| ZAGA Arena | Status label | Gameplay, demo | Game utility where defined | Game mechanics, not earnings |
-| QTB | Status label | Report samples | Reports, credits | Not financial advice |
-| AIMM | Status label | Operation report samples | Reports, credits | Not price support |
-| Botmad | Status label | Session, workflow examples | Sessions, credits | No perfect output guarantee |
+**Visual:** six-to-eight-step annotated workflow. A short live demonstration can replace dense slide content.
 
-### Boundary Note
-
-A product paper or demo is not the same as confirmed revenue or live product adoption.
+**Boundary:** synthetic or staged examples must be labeled and must not be presented as customer traction.
 
 ---
 
-## 12. Slide 9: Go-To-Market
+### Slide 7: Shared Platform Leverage
 
-### Slide Purpose
+**Decision purpose:** explain why the portfolio can be more than unrelated products.
 
-Explain how FUZE can reach users.
+Show only capabilities relevant to current product work:
 
-### Content
+- accounts and workspaces;
+- roles and permissions;
+- Platform Credit handling;
+- payments and reconciliation;
+- AI routing and usage records;
+- data controls;
+- wallet-aware records where needed;
+- reporting and evidence.
 
-Go-to-market channels may include:
+**Evidence required:** which products use each capability, implementation status, service owner, and measurable delivery or control benefit.
 
-- product-led demos
-- SME and shop adoption
-- Telegram and Web3 communities
-- ZAGA game engagement
-- partner-led implementation
-- event channels
-- ToolGrid visibility
-- founder-led content
-- public documentation
-- investor and partner channels
+**Visual:** product-to-service matrix. Mark designed and implemented connections differently.
 
-### Segment Examples
+**Source:** [FUZE Core Platform Rails](../CORE-PLATFORM-PAPERS/04-FUZE_CORE_PLATFORM_RAILS_PUBLIC.md).
 
-| Segment | FUZE Entry Product |
+---
+
+### Slide 8: Commercial Model
+
+**Decision purpose:** show how product value can become paid delivery.
+
+Present the commercial chain:
+
+```text
+customer -> offer -> price or usage basis -> payment
+-> fulfillment -> adjustment -> reconciliation -> report
+```
+
+Commercial formats can include subscriptions, metered actions, Platform Credit packages, services, reports, sponsored placements, events, and partner deployments.
+
+**Evidence required:** current offers, pricing basis, paid tests where available, delivery cost, refunds or disputes, repeated use, and reconciliation status.
+
+**Visual:** commercial flow plus a small evidence table; avoid unsupported revenue forecasts in the public version.
+
+**Source:** [FUZE Product Revenue Model](02-FUZE_PRODUCT_REVENUE_MODEL_PUBLIC.md).
+
+---
+
+### Slide 9: Go-to-Market
+
+**Decision purpose:** show how qualified users will be reached and supported.
+
+For each priority motion, identify:
+
+| Element | Deck content |
 |---|---|
-| Shops and SMEs | ShopOS AI, SpeakShop AI, SheetLayer AI |
-| Communities | CommunityLayer AI, Botmad |
-| Web3 Teams | QTB, AIMM, AIE, ToolGrid AI |
-| Game Communities | ZAGA Arena, ZAGA Districts |
-| Operators and Teams | HerHelp, Botmad, TrainLayer AI |
+| Audience | Specific buyer or user |
+| Entry offer | Demonstration, trial, package, pilot, report, event, or game session |
+| Channel | Direct, content, community, partner, event, or enterprise |
+| Activation | Observable first value |
+| Owner | Person or team accountable |
+| Scale evidence | Conversion, completion, retention, economics, or renewal |
 
-### Boundary Note
+**Visual:** two or three funnel cards rather than one funnel for the whole ecosystem.
 
-Go-to-market plans do not guarantee user growth, community growth, customer growth, revenue, or token demand.
-
----
-
-## 13. Slide 10: Revenue Model
-
-### Slide Purpose
-
-Explain possible revenue paths.
-
-### Content
-
-Revenue paths may include:
-
-- Platform Credit purchases
-- AI SaaS subscriptions
-- usage-based product fees
-- product module fees
-- shop packages
-- training packages
-- community operation packages
-- event intelligence packages
-- sponsored visibility packages
-- QTB reports
-- AIMM reports
-- Botmad sessions
-- ZAGA utility services where defined and compliant
-- partner service fees
-- enterprise and SME packages
-
-### Required Distinction
-
-Product revenue does not automatically become approved distributable value.
-
-### Boundary Note
-
-Revenue paths are not revenue guarantees.
+**Source:** [FUZE Go-To-Market](03-FUZE_GO_TO_MARKET_PUBLIC.md).
 
 ---
 
-## 14. Slide 11: Platform Credits
+### Slide 10: Execution Plan and Milestones
 
-### Slide Purpose
+**Decision purpose:** show what happens next and how progress will be judged.
 
-Explain Platform Credits clearly.
+Use three planning horizons:
 
-### Content
+1. immediate product and evidence milestone;
+2. limited release, paid delivery, or platform-reuse milestone;
+3. expansion milestone conditional on earlier results.
 
-- Platform Credits are product usage credits.
-- They can support usage across supported FUZE products.
-- They may simplify product billing and product activity tracking.
-- They are separate from FUZE token.
+Each milestone should state the owner, dependency, evidence, and decision after completion.
 
-### Credit Use Examples
+**Visual:** milestone sequence with gates, not a calendar of unsupported delivery dates.
 
-- AI tasks
-- reports
-- shop workflows
-- training materials
-- community summaries
-- QTB reports
-- AIMM reports
-- AIE reports
-- ToolGrid visibility
-- Botmad sessions
-- ZAGA utility surfaces where supported
-
-### Boundary Note
-
-Platform Credits are not FUZE token, equity, debt, investment contracts, income rights, participation rights, governance rights, or claim rights.
+**Source:** [FUZE Product Launch Sequence](../AI-SAAS-PRODUCT-PAPERS/20-FUZE_PRODUCT_LAUNCH_SEQUENCE_PUBLIC.md).
 
 ---
 
-## 15. Slide 12: Stablecoin Rails
+### Slide 11: Operating Controls
 
-### Slide Purpose
+**Decision purpose:** show that execution includes protection and accountability.
 
-Explain stablecoin use without creating distribution expectations.
+Cover:
 
-### Content
+- AI evaluation and human authority;
+- data purpose, roles, permissions, and retention;
+- security, monitoring, incident, and recovery ownership;
+- payment and Platform Credit reconciliation;
+- partner and provider responsibilities;
+- public metrics, versions, and corrections.
 
-Stablecoins are payment, settlement, treasury, and compensation rails.
+**Evidence required:** implemented or tested controls should be distinguished from policy design.
 
-Stablecoins may support:
+**Visual:** control lifecycle around a product workflow.
 
-- product payments
-- Platform Credit purchases
-- subscriptions
-- report purchases
-- partner settlement
-- vendor payments
-- contributor compensation
-- treasury operations
-- reserve management
-- conversion proof
-
-### Required Distinction
-
-Stablecoin inflows must be classified.
-
-A stablecoin balance is not automatically product revenue or approved distributable value.
-
-### Boundary Note
-
-Stablecoin balances are not automatic public claim value or token-holder distributions.
+**Sources:** [FUZE AI Safety and Reliability](07-FUZE_AI_SAFETY_AND_RELIABILITY_PUBLIC.md), [FUZE Data Privacy and Permission Model](08-FUZE_DATA_PRIVACY_AND_PERMISSION_MODEL_PUBLIC.md), and [FUZE Public Metrics and Transparency](09-FUZE_PUBLIC_METRICS_AND_TRANSPARENCY_PUBLIC.md).
 
 ---
 
-## 16. Slide 13: FUZE Token Model
+### Slide 12: Ecosystem and Token Role
 
-### Slide Purpose
+**Decision purpose:** explain Web3 functions without displacing the product thesis.
 
-Explain the one-token model.
+Keep four records separate:
 
-### Content
-
-- FUZE uses one token only: FUZE token.
-- FUZE token is the single ecosystem token.
-- FUZE token supports product-connected utility, ecosystem participation, platform alignment, governance direction where applicable, and wallet-based participation ability.
-- FUZE does not use a second public participation token.
-
-### Boundary Note
-
-FUZE token does not guarantee payout, income, dividend, yield, profit, token price, listing, liquidity, exit, or investment return.
-
----
-
-## 17. Slide 14: Wallet-Based Participation Boundary
-
-### Slide Purpose
-
-Explain wallet-based participation ability safely.
-
-### Content
-
-Wallet-based participation ability is a possible FUZE token-related framework where eligible FUZE-holding wallets may participate in approved distributable value from defined FUZE product revenue pools if the framework becomes active.
-
-It requires activation gates:
-
-- legal gate
-- accounting gate
-- treasury gate
-- audit gate
-- reporting gate
-- smart-contract gate
-- privacy gate
-- eligibility gate
-- operator gate
-- jurisdiction gate
-- approved distributable value gate
-- product revenue pool gate
-
-### Boundary Note
-
-Wallet-based participation ability is not a second token, not automatic for every wallet, and not active as a guaranteed public payout right.
-
----
-
-## 18. Slide 15: Token Launch and Circulation
-
-### Slide Purpose
-
-Explain token launch mechanics without hype.
-
-### Content
-
-- one-token clarity
-- token contract readiness
-- allocation categories
-- controlled circulation
-- token release reporting
-- vault labels
-- vesting and lockup categories
-- custody education
-- liquidity boundary
-- listing boundary
-- public communication controls
-
-### Boundary Note
-
-Token launch is not a guaranteed price event, liquidity event, listing event, payout event, or exit event.
-
----
-
-## 19. Slide 16: Public Metrics and Transparency
-
-### Slide Purpose
-
-Show how FUZE builds public trust.
-
-### Content
-
-Public transparency tools may include:
-
-- public papers
-- public FAQ
-- product status matrix
-- public documentation map
-- product usage categories
-- Platform Credit usage categories
-- stablecoin payment categories
-- token release records
-- public vault labels
-- report hashes
-- public-safe metrics
-- risk boundary papers
-
-### Boundary Note
-
-Public metrics support evaluation, but they do not guarantee growth, revenue, token demand, payout, liquidity, listing, exit, or investment return.
-
----
-
-## 20. Slide 17: AI Safety and Data Privacy
-
-### Slide Purpose
-
-Explain AI and data controls.
-
-### Content
-
-AI safety topics include:
-
-- human review
-- permission controls
-- product-specific safeguards
-- source-grounded outputs where appropriate
-- incident handling
-- QTB non-advice boundary
-- AIMM no-price-support boundary
-- Botmad permission controls
-
-Data privacy topics include:
-
-- workspace permissions
-- product data access
-- AI data boundaries
-- partner access controls
-- wallet-level transparency without public identity exposure
-- private verification separation
-- public-safe reporting
-
-### Boundary Note
-
-AI safety and data privacy controls reduce risk, but they do not guarantee AI accuracy, perfect privacy, zero data incident, or business outcome.
-
----
-
-## 21. Slide 18: Strategic Partners and Expansion
-
-### Slide Purpose
-
-Explain expansion channels.
-
-### Content
-
-Expansion areas may include:
-
-- SME and shop adoption
-- enterprise workflows
-- Web3 community expansion
-- Telegram-native communities
-- event partners
-- AI infrastructure partners
-- payment and wallet partners
-- implementation partners
-- game community partners
-- investor-aligned partners
-
-### Boundary Note
-
-Partner and expansion activity does not guarantee signed deals, customer growth, revenue, token demand, listing, liquidity, acquisition, exit, or investment return.
-
----
-
-## 22. Slide 19: Use of Funds
-
-### Slide Purpose
-
-Explain use-of-funds categories for private investor review.
-
-### Content
-
-Use-of-funds categories may include:
-
-- product development
-- platform rails
-- engineering
-- AI infrastructure
-- cloud operations
-- product design
-- security
-- legal and compliance
-- accounting and treasury
-- documentation
-- go-to-market
-- partner development
-- customer support
-- community operations
-- working capital
-
-### Required Distinction
-
-Investor funds are not product revenue.
-
-Seed Round funds are not approved distributable value.
-
-### Boundary Note
-
-Use-of-funds categories are not guaranteed spending commitments unless defined in private investor documents.
-
----
-
-## 23. Slide 20: Risk Boundaries
-
-### Slide Purpose
-
-Show direct risk disclosure.
-
-### Content
-
-Investor risks include:
-
-- product execution risk
-- product adoption risk
-- revenue risk
-- AI accuracy risk
-- data privacy risk
-- payment risk
-- Platform Credit confusion risk
-- stablecoin classification risk
-- token market risk
-- token demand risk
-- liquidity risk
-- listing risk
-- custody risk
-- OTC transfer risk
-- wallet eligibility risk
-- smart-contract risk
-- legal and regulatory risk
-- tax and accounting risk
-- governance risk
-- partner risk
-- enterprise procurement risk
-- Web3 community risk
-- game economy risk
-- QTB interpretation risk
-- AIMM operation risk
-- public communication risk
-- exit expectation risk
-
-### Boundary Note
-
-Risk disclosure improves transparency, but it does not remove risk.
-
----
-
-## 24. Slide 21: Data Room and Next Review
-
-### Slide Purpose
-
-Connect the deck to deeper diligence.
-
-### Content
-
-The data room may include:
-
-- platform overview
-- product papers
-- product status matrix
-- product roadmap
-- product demos
-- product evidence
-- revenue model
-- Platform Credit model
-- payment and stablecoin records where available
-- one-token model
-- token utility model
-- controlled circulation policy
-- public metrics model
-- AI safety model
-- data privacy model
-- legal and compliance messaging
-- investor risk disclosure
-- smart-contract readiness plan
-- wallet participation private structure papers
-- investor FAQ
-- round structure and use-of-funds paper
-
-### Boundary Note
-
-Data-room readiness supports diligence, but it does not guarantee investment, valuation, acquisition, liquidity, payout, exit, or return.
-
----
-
-## 25. Slide 22: Closing
-
-### Slide Purpose
-
-End with a clear investor message.
-
-### Content
-
-Closing message may include:
-
-- FUZE is product-first.
-- FUZE builds practical AI SaaS products on shared platform rails.
-- FUZE uses one token only.
-- Platform Credits are product usage credits.
-- Stablecoins are payment and settlement rails.
-- Public transparency supports investor and community trust.
-- Investor review continues through private diligence and data-room materials.
-
-### Required Boundary
-
-The closing slide includes no-guarantee language.
-
-Boundary:
-
-FUZE does not guarantee investment, product adoption, revenue, token demand, token price, listing, liquidity, payout, acquisition, exit, or investment return.
-
----
-
-## 26. Optional Appendix Slides
-
-The deck may include appendix slides when investors need more detail.
-
-Possible appendix slides include:
-
-- full product ecosystem matrix
-- product status and evidence matrix
-- product revenue model detail
-- Platform Credit usage examples
-- stablecoin classification examples
-- token allocation and controlled circulation summary
-- token launch mechanics summary
-- wallet-based participation gates
-- public vault access model
-- report hash model
-- AI safety model
-- data privacy model
-- strategic partner model
-- enterprise and SME expansion model
-- Web3 community expansion model
-- QTB boundary
-- AIMM boundary
-- ZAGA product separation
-- investor FAQ
-- risk disclosure
-- public communication standards
-
-Appendix slides support diligence without overloading the main deck.
-
-Boundary:
-
-Appendix detail does not create rights, claims, or guarantees.
-
----
-
-## 27. Product Evidence Placement
-
-Product evidence appears in the deck before token discussion.
-
-Order:
-
-1. Product ecosystem.
-2. Product evidence matrix.
-3. Product-first execution.
-4. Revenue model.
-5. Platform Credits.
-6. Stablecoin rails.
-7. FUZE token model.
-8. Wallet-based participation boundary.
-
-This order matters because FUZE is understood as a product-first AI SaaS platform, not as a token-first project.
-
-Boundary:
-
-Product evidence placement does not guarantee product adoption or revenue.
-
----
-
-## 28. Revenue Model Placement
-
-Revenue model appears after product evidence and before token model.
-
-The deck separates:
-
-- possible revenue paths
-- revenue readiness
-- revenue evidence
-- product revenue
-- excluded value
-- approved distributable value
-- wallet-based participation gates
-
-Required wording:
-
-**Product revenue does not automatically become approved distributable value.**
-
-Boundary:
-
-Revenue explanation does not guarantee product revenue, approved distributable value, payout, token demand, or return.
-
----
-
-## 29. Token Model Placement
-
-Token model appears after product, revenue, Platform Credit, and stablecoin explanation.
-
-This placement helps prevent token-first misunderstanding.
-
-Token slides explain:
-
-- one-token model
-- FUZE token utility
-- Platform Credit separation
-- stablecoin separation
-- wallet-based participation ability
-- activation gates
-- token launch boundaries
-- liquidity and listing boundaries
-
-Boundary:
-
-Token model explanation does not guarantee token demand, token price, liquidity, listing, payout, or return.
-
----
-
-## 30. Risk Disclosure Placement
-
-Risk disclosure appears throughout the deck and in a consolidated risk slide.
-
-Risk reminders appear in key slides:
-
-- Product evidence slide includes no adoption guarantee.
-- Revenue slide includes no revenue or payout guarantee.
-- Platform Credit slide includes no investment-rights language.
-- Stablecoin slide includes no automatic distribution language.
-- Token model slide includes no price or payout guarantee.
-- Wallet participation slide includes activation-gated boundary.
-- Token launch slide includes no listing or liquidity guarantee.
-- AI safety slide includes no AI accuracy guarantee.
-- Data privacy slide includes no zero-incident guarantee.
-- Expansion slide includes no customer-growth guarantee.
-- Closing slide includes no investment-return guarantee.
-
-Boundary:
-
-Risk disclosure supports transparency, but it does not remove risk.
-
----
-
-## 31. Investor Deck Language Standards
-
-Approved investor deck wording includes:
-
-- product-first AI SaaS platform
-- transparency-first platform
-- shared platform rails
-- one-token model
-- FUZE token is the single ecosystem token
-- Platform Credits are product usage credits
-- stablecoins are payment, settlement, treasury, and compensation rails
-- wallet-level transparency without public identity exposure
-- wallet-based participation ability if activated
-- activation-gated
-- private strategic fundraising conversations
-- product revenue does not automatically become approved distributable value
-- listing is not guaranteed
-- liquidity is not guaranteed
-- payout is not guaranteed
-- exit is not guaranteed
-- investment return is not guaranteed
-
-Avoided investor deck wording includes:
-
-- guaranteed ROI
-- guaranteed return
-- guaranteed payout
-- guaranteed income
-- fixed yield
-- passive income
-- dividend
-- guaranteed listing
-- guaranteed liquidity
-- price target
-- token price prediction
-- buy before listing
-- TGE multiple
-- product revenue goes directly to holders
-- stablecoin treasury goes to holders
-- every holder earns
-- QTB guarantees profit
-- AIMM protects price
-- ZAGA guarantees earnings
-- acquisition is guaranteed
-- exit is guaranteed
-
-Deck language is investor-readable, direct, and boundary-aware.
-
----
-
-## 32. Investor Deck Review Checklist
-
-Before use, the deck is reviewed through the following checklist.
-
-| Review Area | Question |
+| System | Deck treatment |
 |---|---|
-| Platform clarity | Does the deck explain FUZE in one clear sentence? |
-| Product-first order | Does product evidence appear before token discussion? |
-| Product status | Are concept, demo, prototype, live, and revenue states separated? |
-| Revenue clarity | Does the deck separate revenue paths from confirmed revenue? |
-| Credit separation | Are Platform Credits clearly separate from FUZE token? |
-| Stablecoin separation | Are stablecoins clearly classified? |
-| One-token model | Does the deck state FUZE uses one token only? |
-| Participation boundary | Is wallet-based participation activation-gated? |
-| Token launch boundary | Are listing, liquidity, and price guarantees avoided? |
-| Risk disclosure | Are risks included throughout the deck? |
-| Data privacy | Does the deck avoid exposing private identity or records? |
-| AI safety | Does the deck avoid AI accuracy guarantees? |
-| Round boundary | Does the deck explain private fundraising without public solicitation? |
-| Use of funds | Are use-of-funds categories clear and bounded? |
-| Data room | Does the deck connect to deeper diligence materials? |
-| Final language | Are guaranteed-return, payout, price, listing, and liquidity claims removed? |
+| Platform Credits | Eligible product consumption and usage records |
+| Payments and stablecoin rails | Approved payment, settlement, treasury, or compensation operations |
+| FUZE token | Ecosystem utility and participation functions |
+| Wallet records | Address-linked evidence or status for approved use cases |
 
-Boundary:
+Wallet-based participation is described only as the current approved and gated framework. Market-access language should identify the verified stage and preserve the DEX-first, possible-CEX-later boundary.
 
-A reviewed deck supports professional communication, but it does not guarantee investment.
+**Visual:** four-column separation diagram.
+
+**Boundary:** do not include price targets, listing predictions, payout illustrations, or implied holder economics.
 
 ---
 
-## 33. Public and Private Deck Boundary
+### Slide 13: Capital Plan
 
-FUZE may use different materials for public education and private investor review.
+**Decision purpose:** connect strategic capital to milestones and operating capacity.
 
-### 33.1 Public Materials
+Group use into a small number of deck-level themes:
 
-Public materials may include:
+- priority product delivery;
+- shared capabilities required by those products;
+- AI, cloud, security, privacy, and operations;
+- distribution, partners, onboarding, and support;
+- finance, legal, reporting, and working capital.
 
-- public papers
-- public FAQ
-- website summaries
-- public product pages
-- public risk boundaries
-- public product status summaries
-- public token model explanation
-- public Platform Credit explanation
-- public stablecoin rail explanation
+**Evidence required:** milestone, budget owner, timing, dependency, and completion record for each material theme.
 
-### 33.2 Private Investor Deck
+**Visual:** milestone-to-capital map. Percentages or amounts appear only when approved for the audience.
 
-Private investor deck may include:
-
-- private round structure
-- use-of-funds detail
-- investor-specific discussion
-- private product evidence
-- private revenue records where available
-- private customer evidence where available
-- private legal review status
-- private accounting summaries where available
-- private partner discussions
-- private data-room references
-
-Boundary:
-
-Public materials do not expose private investor terms, private customer records, private agreements, private verification records, confidential financial data, or private legal documents.
+**Source:** [FUZE Round Structure and Use of Funds](12-FUZE_ROUND_STRUCTURE_AND_USE_OF_FUNDS_PUBLIC.md).
 
 ---
 
-## 34. Investor Deck Risk Boundary Matrix
+### Slide 14: Principal Risks and Mitigations
 
-| Deck Area | Boundary |
-|---|---|
-| Platform overview | Explains FUZE, not guaranteed outcome |
-| Product ecosystem | Broad product set, not guaranteed adoption |
-| Product evidence | Supports review, not revenue guarantee |
-| Go-to-market | Strategy, not guaranteed growth |
-| Revenue model | Revenue paths, not guaranteed revenue |
-| Platform Credits | Product usage credits, not investment rights |
-| Stablecoins | Payment rails, not automatic distributions |
-| FUZE token | Single ecosystem token, not guaranteed-return instrument |
-| Wallet participation | Activation-gated and not automatic |
-| Token launch | Not guaranteed price, listing, liquidity, or payout |
-| Public metrics | Evidence inputs, not outcome guarantees |
-| AI safety | Controls reduce risk, not accuracy guarantee |
-| Data privacy | Controls reduce risk, not zero-incident guarantee |
-| Partners | Channels, not guaranteed deals |
-| Use of funds | Categories, not guaranteed results |
-| Data room | Diligence support, not investment guarantee |
-| Exit optionality | Optionality, not guaranteed exit |
+**Decision purpose:** show the uncertainties that could change the thesis.
+
+Use a short matrix:
+
+| Risk | Current treatment | Evidence or open gap |
+|---|---|---|
+| Product focus and adoption | Priority workflows, controlled tests | Current user evidence |
+| Commercial sustainability | Offer and cost review | Paid and reconciled delivery |
+| AI, data, and security | Controls and incident ownership | Test and operating evidence |
+| Platform complexity | Product-driven rail sequencing | Cross-product adoption |
+| Token and market conditions | Specialist gates and cautious status | Current verified mechanism status |
+| Capital and team capacity | Milestone budgets and ownership | Runway and hiring assumptions |
+
+**Visual:** six-row risk table, not a long disclaimer slide.
+
+**Sources:** [FUZE Investor Risk Disclosure](17-FUZE_INVESTOR_RISK_DISCLOSURE_PUBLIC.md) and the [FUZE Risk and Disclosure Appendix](../WHITEPAPER-PAPERS/05-FUZE_RISK_AND_DISCLOSURE_APPENDIX_PUBLIC.md).
 
 ---
 
-## 35. Development Direction
+### Slide 15: Diligence and Next Step
 
-FUZE investor deck readiness can develop through phases.
+**Decision purpose:** convert interest into a controlled review.
 
-### Phase 1: Narrative Alignment
+Include:
 
-Align the investor deck with FUZE public papers, product-first execution, one-token model, Platform Credit separation, stablecoin rails, and risk boundaries.
+- current round or discussion status suitable for the audience;
+- the evidence areas available for review;
+- key open diligence questions;
+- data-room and contact process;
+- the next meeting, demonstration, or document review requested.
 
-### Phase 2: Slide Drafting
+**Visual:** diligence route from overview to evidence packs and specialist review.
 
-Prepare the main deck slides covering platform, problem, solution, products, rails, evidence, go-to-market, revenue, credits, stablecoins, token model, participation boundary, transparency, risks, use of funds, and data room.
+**Sources:** [FUZE Investor Readiness Summary](11-FUZE_INVESTOR_READINESS_SUMMARY_PUBLIC.md) and [FUZE Investor Data Room Index](18-FUZE_INVESTOR_DATA_ROOM_INDEX_PUBLIC.md).
 
-### Phase 3: Evidence Insertion
-
-Add product evidence, demos, screenshots, product status, usage categories, revenue readiness, public metrics, and data-room references where available.
-
-### Phase 4: Boundary Review
-
-Review every slide for banned claims, token-price language, listing promises, liquidity promises, payout promises, AI accuracy claims, and exit guarantees.
-
-### Phase 5: Public and Private Separation
-
-Separate public-safe deck content from private investor deck content and confidential data-room materials.
-
-### Phase 6: Legal and Compliance Review
-
-Review private fundraising language, token-related exposure language where applicable, public communication boundaries, and investor risk disclosure.
-
-### Phase 7: Design and Delivery
-
-Create a clean investor deck design with clear slide hierarchy, concise wording, evidence placement, and risk notes.
-
-### Phase 8: Data-Room Connection
-
-Connect each major deck claim to supporting data-room documents, public papers, product evidence, or private investor records where applicable.
-
-### Phase 9: Ongoing Updates
-
-Update the deck as product evidence, revenue evidence, legal review, public metrics, token readiness, partner channels, and investor feedback evolve.
-
-These phases are development directions, not guaranteed launch dates.
+**Boundary:** public or shared deck material does not establish private terms, allocation, rights, or closing.
 
 ---
 
-## 36. Key Takeaways
+## 4. Appendix Structure
 
-- FUZE Investor Deck Outline explains the investor deck structure, slide-by-slide content boundaries, product evidence placement, revenue model placement, token model placement, risk disclosure placement, and no-guarantee investor presentation language.
-- FUZE is product-first.
-- FUZE is a transparency-first AI SaaS platform.
-- FUZE uses one token only: FUZE token.
-- FUZE token is the single ecosystem token of FUZE.
-- The investor deck presents FUZE as a practical AI SaaS platform with shared platform rails, product evidence, revenue readiness, Platform Credits, stablecoin payment rails, one-token clarity, wallet-level transparency, and clear risk boundaries.
-- The investor deck does not present FUZE as a token-only project.
-- Product evidence appears before token discussion.
-- Revenue model appears after product evidence and before token model.
-- Token model explains FUZE token as the single ecosystem token without price, listing, liquidity, payout, or return promises.
-- Platform Credits are product usage credits and are separate from FUZE token.
-- Stablecoins are payment, settlement, treasury, and compensation rails.
-- Wallet-based participation ability is not a second token, not automatic for every wallet, and not active as a guaranteed public payout right.
-- Product revenue does not automatically become approved distributable value.
-- Seed Round discussions are private strategic fundraising conversations, not a public token sale, public investment offer, or public solicitation.
-- Use-of-funds categories support private investor review, but they do not guarantee execution results.
-- Data-room readiness supports diligence, but it does not guarantee investment, valuation, acquisition, liquidity, payout, exit, or return.
-- Risk boundaries appear throughout the deck and in one consolidated risk slide.
-- FUZE uses wallet-level transparency without public identity exposure.
-- Private investor deck materials remain separated from public materials where they include private investor terms, private customer records, private agreements, private verification records, confidential financial data, or private legal documents.
-- FUZE does not guarantee investment, product adoption, product revenue, business revenue, customer growth, user growth, community growth, AI accuracy, token demand, token price, listing, liquidity, market support, trading volume, payout, income, yield, profit, acquisition, exit, smart-contract security, game earnings, or investment return.
+Appendix slides should answer predictable diligence questions without interrupting the main narrative.
+
+Recommended modules:
+
+1. full product portfolio and status;
+2. product demonstrations and sample outputs;
+3. platform architecture and service ownership;
+4. commercial classification and unit-economics method;
+5. channel experiments and partner evidence;
+6. detailed milestone plan;
+7. team and operating responsibilities;
+8. AI, data, security, and incident controls;
+9. Platform Credits and payment treatment;
+10. token supply, allocation, utility, release, wallet, and market status;
+11. public metric definitions and evidence levels;
+12. use-of-funds detail;
+13. risk factors and open gaps;
+14. data-room index and diligence request log.
+
+The appendix should use current source records and identify restricted material rather than reproduce it in a broadly shared file.
+
+---
+
+## 5. Evidence Rules
+
+Every quantitative or status claim should identify:
+
+- definition;
+- source;
+- period;
+- cohort or scope;
+- owner;
+- review status;
+- limitations;
+- latest update or correction.
+
+Customer, partner, investor, or provider logos require authorization and a clear description of the relationship. A discussion, referral, pilot, customer, integration, and strategic partner are different claims.
+
+Screenshots should show the current product version and remove or mask protected data. Mockups, prototypes, and production interfaces need distinct labels.
+
+Forecasts should state assumptions, preparation date, scenario, and owner. Historical records should remain visually separate from forecasts and targets.
+
+---
+
+## 6. Design Rules
+
+The main deck should:
+
+- use one message per slide;
+- prefer product screens, workflows, evidence charts, and simple diagrams;
+- keep detailed tables in the appendix;
+- label status and source dates;
+- use readable footnotes for material definitions;
+- preserve visual separation between products, platform services, and ecosystem mechanisms;
+- avoid decorative token or market imagery before product evidence;
+- avoid dense disclaimer blocks repeated on every slide.
+
+A short boundary can appear where the slide could otherwise create a specific misunderstanding. Consolidated legal and risk material belongs in the appropriate slide and appendix.
+
+---
+
+## 7. Audience Variants
+
+The same approved facts can be assembled differently for:
+
+### Early investor orientation
+
+Emphasize thesis, priority products, current evidence, near-term milestones, capital purpose, and principal risks.
+
+### Product or strategic investor
+
+Add architecture, product roadmap, integrations, service ownership, partner opportunities, and operational dependencies.
+
+### Financial diligence
+
+Add commercial records, budgets, forecasts, assumptions, treasury classifications, liabilities, use of funds, and reconciliation.
+
+### Web3 or token specialist
+
+Add approved tokenomics, contract, vault, release, utility, custody, market, governance, and participation status without changing the product-first main narrative.
+
+Audience variants should not create conflicting statuses or economics.
+
+---
+
+## 8. Review Workflow
+
+Before distribution:
+
+1. freeze the deck version and audience;
+2. verify each status, metric, number, logo, and external reference;
+3. confirm product and platform owners approve their claims;
+4. complete finance review for commercial and capital material;
+5. complete privacy and security review for screenshots and records;
+6. complete legal or specialist review where required;
+7. compare deck statements with public papers and current data-room records;
+8. record approved distribution and confidentiality treatment;
+9. preserve the superseded version and change log.
+
+Material changes after approval require a new version rather than silent editing.
+
+---
+
+## 9. Preflight Checklist
+
+- Does the thesis fit in one sentence?
+- Are priority products clear?
+- Does current evidence appear before future opportunity?
+- Are statuses precise and dated?
+- Are product, platform, and ecosystem claims separated?
+- Are commercial paths distinguished from commercial results?
+- Do charts identify definitions, sources, periods, and cohorts?
+- Are customer and partner relationships described accurately?
+- Does capital map to milestones and owners?
+- Are Platform Credits, payments, FUZE token, and wallet records distinct?
+- Is market-access status factual and current?
+- Are principal risks and open gaps visible?
+- Is protected information removed or permissioned?
+- Does each appendix claim link to supporting evidence?
+- Is the next investor action explicit?
+
+---
+
+## 10. Public Boundary
+
+This outline is a presentation specification, not an investor deck, offer document, term sheet, financial model, valuation, exchange announcement, or statement that a financing or strategic outcome will occur.
+
+Private terms, investor rights, financial records, customer evidence, professional advice, and sensitive technical or treasury material should be included only in the appropriate qualified process.
+
+Deck claims must remain consistent with the most current approved status and evidence even when a shorter or more persuasive presentation would be easier.
+
+---
+
+## Conclusion
+
+The FUZE investor deck should lead with the problem, priority products, and current evidence; then explain platform leverage, commercial logic, distribution, controls, ecosystem role, capital needs, and risk.
+
+A concise main deck supported by traceable appendix evidence gives investors a clearer basis for diligence than a long presentation that repeats the public-paper library.

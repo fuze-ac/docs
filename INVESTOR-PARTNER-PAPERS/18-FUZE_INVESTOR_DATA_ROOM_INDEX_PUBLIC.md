@@ -2,1249 +2,533 @@
 
 ## Executive Summary
 
-FUZE Investor Data Room Index explains the recommended investor data-room folder structure, public and private document separation, product evidence files, revenue records, Platform Credit records, stablecoin records, token model files, wallet-based participation boundary files, risk disclosures, legal and accounting review folders, smart-contract readiness folders, and data-room access boundaries.
+The FUZE investor data room is a controlled diligence system, not a document dump. It should route each investor question to current evidence, an accountable owner, an access class, known limitations, and a visible update or correction history.
 
-FUZE is a transparency-first AI SaaS platform building practical products on shared infrastructure for identity, credits, payments, AI orchestration, wallet-based records, reporting, and ecosystem participation.
+This public index defines the recommended taxonomy and operating rules. It does not claim that every listed evidence category currently exists or is complete. Actual room contents should reflect FUZE’s current products, transaction stage, legal entities, investment structure, and approved disclosure scope.
 
-FUZE follows product-first execution. Product usage comes first, platform rails come second, and broader ecosystem participation after that.
+Public papers can orient investors, while qualified and restricted materials can support product, commercial, financial, technical, legal, governance, token, and risk review. Personal data, customer records, credentials, security details, private professional advice, and sensitive treasury information remain limited to their authorized purpose.
 
-FUZE uses one token only: **FUZE token**.
-
-FUZE token is the single ecosystem token of FUZE. It supports product-connected utility, ecosystem participation, platform alignment, governance direction where applicable, and wallet-based participation ability.
-
-An investor data room helps investors, strategic partners, legal reviewers, accounting reviewers, and diligence participants review FUZE in a structured way.
-
-The data room separates public documents from private documents, product evidence from revenue records, Platform Credit data from FUZE token records, stablecoin payment records from approved distributable value, public wallet transparency from private identity records, and readiness materials from active claims.
-
-Platform Credits are product usage credits and are separate from FUZE token.
-
-Stablecoins are payment, settlement, treasury, and compensation rails.
-
-Wallet-based participation ability is a separate activation-gated framework inside the FUZE token model.
-
-Seed Round discussions are private strategic fundraising conversations. They are not a public token sale, public investment offer, public solicitation, or guaranteed-return opportunity.
-
-Data-room readiness supports professional diligence, but it does not guarantee investment, valuation, acquisition, liquidity, listing, payout, exit, or investment return.
-
-FUZE does not guarantee investment, product adoption, product revenue, business revenue, customer growth, user growth, community growth, AI accuracy, token demand, token price, listing, liquidity, market support, trading volume, payout, income, yield, profit, acquisition, exit, smart-contract security, game earnings, or investment return.
+The data room should preserve distinctions between documentation and operation, revenue paths and reconciled revenue, Platform Credits and FUZE token, public blockchain evidence and private identity, technical readiness and mechanism activation, and market preparation and live access.
 
 ---
 
-## 1. Investor Purpose
+## 1. Purpose
 
-This paper gives investors and FUZE reviewers a clear index for organizing and reviewing the FUZE investor data room.
+This index answers:
 
-It answers:
+1. How should FUZE diligence material be grouped?
+2. Which metadata should every file carry?
+3. How are public, qualified, restricted, and transaction records separated?
+4. How does an investor request and review evidence?
+5. How are gaps, updates, supersession, and corrections tracked?
+6. Which records should never be inferred from a folder name alone?
 
-- What folders exist in the FUZE investor data room
-- Which documents are public
-- Which documents are private
-- Which product evidence files are included
-- Which revenue and payment records are included where available
-- How Platform Credit records are separated from FUZE token records
-- How stablecoin records are classified
-- How token model, token launch, circulation, wallet, and participation files are organized
-- How risk disclosures, legal review, accounting review, and smart-contract readiness are organized
-- What access and privacy boundaries apply
-
-This paper is not a fundraising offer, public investment offer, public solicitation, securities disclosure, private placement memorandum, token sale document, legal opinion, tax opinion, accounting policy, audit report, financial advice, investment advice, listing announcement, payout policy, or guaranteed-return statement.
-
-It is a public investor data-room organization and boundary paper.
+The structure can be implemented in a secure data-room platform, controlled drive, or another approved repository. The access and evidence principles remain the same.
 
 ---
 
-## 2. FUZE Data Room Position
+## 2. Core Principles
 
-FUZE’s public data-room position is:
+### Question-led organization
 
-**FUZE organizes investor diligence materials through a structured data room that separates public documents, private investor documents, product evidence, revenue records, token model records, risk disclosures, legal and accounting review materials, privacy-sensitive records, and access-controlled materials.**
+Folders and indexes should help investors answer diligence questions. A file belongs because it supports a current claim or review requirement, not because a long template expects it.
 
-This position has eight parts.
+### Current source of truth
 
-| Area | FUZE Position |
+Each subject should identify the active record and archive superseded versions. Duplicate files with unclear authority increase diligence risk.
+
+### Evidence proportionality
+
+A concept requires different evidence from a live product, reconciled financial period, deployed contract, or executed financing.
+
+### Least-privilege access
+
+Readers receive only the material required for their approved purpose and review stage.
+
+### Traceable change
+
+Material additions, replacements, corrections, status changes, and access changes should leave a reviewable record.
+
+### Privacy by design
+
+Public transparency does not require exposure of personal identity, customer content, private wallet associations, confidential agreements, or security-sensitive records.
+
+---
+
+## 3. Recommended Top-Level Structure
+
+| Folder | Primary diligence question |
 |---|---|
-| Public/private separation | Public papers and private diligence materials stay clearly separated |
-| Product evidence organization | Each product has a folder or record set for papers, demos, screenshots, workflows, evidence, and status |
-| Revenue record separation | Revenue paths, revenue readiness, and confirmed revenue records stay separated |
-| Credit separation | Platform Credit records are product usage records, not FUZE token records |
-| Stablecoin classification | Stablecoin records are classified as product payment, settlement, treasury, compensation, reserve, investor funds, or non-revenue transfer |
-| Token model clarity | FUZE token files explain one-token model, utility, circulation, launch mechanics, custody, and participation boundaries |
-| Risk disclosure | Risk materials are direct, specific, and easy to locate |
-| Access control | Private, sensitive, legal, accounting, tax, customer, investor, and verification records require controlled access |
+| `00-ROOM-GUIDE` | How is the room used and which material is current? |
+| `01-CORPORATE-AND-GOVERNANCE` | Which entities, owners, authorities, and decisions govern FUZE? |
+| `02-PRODUCTS-AND-EVIDENCE` | What products exist, what is their status, and what proves it? |
+| `03-TECHNOLOGY-SECURITY-AND-DATA` | How are products built, operated, protected, and supported? |
+| `04-COMMERCIAL-CUSTOMERS-AND-PARTNERS` | How does FUZE reach, contract with, deliver to, and retain users or partners? |
+| `05-FINANCE-REVENUE-AND-TREASURY` | What are the financial records, classifications, controls, and assumptions? |
+| `06-MARKET-DISTRIBUTION-AND-GROWTH` | What evidence supports market entry and expansion? |
+| `07-TOKEN-WALLET-AND-ECOSYSTEM` | What is approved, implemented, active, gated, or under review? |
+| `08-LEGAL-COMPLIANCE-TAX-AND-ACCOUNTING` | Which specialist matters and open questions affect the review? |
+| `09-ROUND-AND-INVESTOR-MATERIALS` | What private financing material applies to this investor and stage? |
+| `10-RISK-METRICS-AND-REPORTING` | How are risks, metrics, incidents, and corrections recorded? |
+| `11-ARCHIVE-AND-SUPERSESSION` | Which material is historical and what replaced it? |
 
-The data room exists to support diligence.
-
-It does not guarantee investment or outcome.
-
----
-
-## 3. Why a Data Room Matters
-
-A data room matters because FUZE combines practical AI SaaS products, Web3 infrastructure, token utility, Platform Credits, stablecoin rails, wallet-level records, public vault visibility, product revenue categories, AI safety, data privacy, and investor materials.
-
-Without a structured data room, investors may confuse:
-
-- public papers with private agreements
-- product descriptions with live product evidence
-- revenue paths with confirmed revenue
-- product revenue with approved distributable value
-- Platform Credits with FUZE token
-- stablecoin balances with token-holder distributions
-- token launch readiness with listing or liquidity guarantees
-- smart-contract readiness with live claim activation
-- wallet transparency with public identity exposure
-- long-term optionality with guaranteed exit
-
-The data room helps organize evidence, boundaries, and review status.
-
-Boundary:
-
-A data room improves diligence structure, but it does not guarantee investment, valuation, liquidity, payout, acquisition, exit, or return.
+The taxonomy is intentionally broader than a filename list. Subfolders and files should be created only when there is real material and an owner.
 
 ---
 
-## 4. Recommended Data Room Folder Structure
+## 4. `00-ROOM-GUIDE`
 
-The FUZE investor data room may use the following top-level folder structure.
+This folder controls orientation and room integrity.
 
-| Folder | Purpose |
+It should contain or link to:
+
+- room purpose and scope;
+- current folder map;
+- access and confidentiality rules;
+- document and evidence status definitions;
+- data-room owner and subject contacts;
+- index of active evidence packs;
+- open diligence request tracker;
+- material gap register;
+- change and correction log;
+- distribution and download rules;
+- investor question-and-answer log where approved.
+
+The guide should state the room’s evidence cutoff date. Investors need to know whether a document reflects the latest operating period or an earlier snapshot.
+
+---
+
+## 5. `01-CORPORATE-AND-GOVERNANCE`
+
+Corporate diligence in this folder can cover:
+
+- relevant legal entities and organizational structure;
+- ownership and capitalization records appropriate to the transaction;
+- directors, officers, authorized signers, and delegated roles;
+- constitutional and governance documents;
+- board, member, or other approval records;
+- material policies and decision authorities;
+- intellectual-property ownership and contributor assignment;
+- employment, contractor, advisor, and conflict matters;
+- insurance and material corporate obligations where applicable.
+
+Public organization summaries should remain separate from official or private legal records. Investors should not infer legal ownership, authority, or capitalization from brand or public-paper descriptions.
+
+---
+
+## 6. `02-PRODUCTS-AND-EVIDENCE`
+
+Product evidence should be grouped by product and priority workflow.
+
+Each active product pack can include:
+
+| Record | Review purpose |
 |---|---|
-| 00-README-AND-ACCESS-RULES | Explains data-room rules, confidentiality, access levels, and review boundaries |
-| 01-PUBLIC-DOCUMENTS | Stores public papers, public FAQ, public status matrix, and public documentation map |
-| 02-PLATFORM-OVERVIEW | Stores FUZE platform, ecosystem, rails, roadmap, transparency, and reporting papers |
-| 03-PRODUCT-EVIDENCE | Stores product papers, demos, screenshots, workflows, product status, and evidence files |
-| 04-REVENUE-AND-CREDITS | Stores revenue model, Platform Credit records, pricing, billing, and revenue-readiness files |
-| 05-PAYMENTS-STABLECOINS-TREASURY | Stores payment rails, stablecoin records, treasury categories, reserves, and reconciliation materials |
-| 06-TOKEN-MODEL-AND-CIRCULATION | Stores one-token model, token utility, launch mechanics, circulation, vault, custody, and release files |
-| 07-WALLET-PARTICIPATION-BOUNDARY | Stores wallet-based participation ability papers, activation gates, eligibility boundaries, and claim-readiness materials |
-| 08-AI-SAFETY-AND-DATA-PRIVACY | Stores AI safety, data privacy, permission controls, incident handling, and product-specific AI risk files |
-| 09-GO-TO-MARKET-AND-PARTNERS | Stores GTM, strategic partners, enterprise and SME expansion, Web3 expansion, and partner files |
-| 10-RISK-DISCLOSURES | Stores investor risk disclosure, product risk, token risk, liquidity risk, legal risk, and public language rules |
-| 11-ROUND-STRUCTURE-AND-USE-OF-FUNDS | Stores private round structure, use-of-funds categories, investor communication boundaries, and budget materials |
-| 12-LEGAL-COMPLIANCE-TAX-ACCOUNTING | Stores legal, compliance, tax, accounting, jurisdiction, agreement, and review materials where available |
-| 13-SMART-CONTRACT-AND-TECHNICAL | Stores smart-contract readiness, architecture, security review, technical notes, and deployment records where available |
-| 14-METRICS-REPORTING-AND-HASHES | Stores public metrics, report hashes, reporting records, dashboard references, and transparency reports |
-| 15-INVESTOR-MATERIALS | Stores investor overview, FAQ, deck outline, private deck, investor update templates, and diligence summaries |
-| 16-ARCHIVE-AND-DEPRECATED | Stores replaced, deprecated, outdated, superseded, or archived materials |
+| Product brief | User, problem, workflow, output, and boundary |
+| Current status | Exact scope, environment, date, owner, and evidence |
+| Demonstration | Working behavior with inputs, controls, output, and limitations |
+| Test evidence | Test plan, results, defects, correction, and retest |
+| Release evidence | Cohort, access, terms, onboarding, monitoring, and support |
+| Usage evidence | Metric definition, period, cohort, source, and exclusions |
+| Commercial evidence | Offer, payment, fulfillment, adjustments, and reconciliation |
+| Control evidence | Data, AI, security, reliability, and incident treatment |
+| Gap record | Missing evidence and next decision milestone |
 
-Folder naming should be consistent and easy to review.
+The current public baseline and claim-to-proof rules are maintained in [FUZE Product Status and Evidence Matrix](14-FUZE_PRODUCT_STATUS_AND_EVIDENCE_MATRIX_PUBLIC.md).
 
-Boundary:
-
-Folder structure does not mean every file already exists or every item is complete.
+Customer names, content, contracts, credentials, and detailed usage records require appropriate permission and redaction.
 
 ---
 
-## 5. 00-README-AND-ACCESS-RULES
+## 7. `03-TECHNOLOGY-SECURITY-AND-DATA`
 
-This folder explains how the data room is used.
+This folder can include evidence for:
 
-Recommended files include:
+- system and product architecture;
+- implemented shared platform services;
+- environments, deployments, and change control;
+- dependency and provider inventory;
+- service ownership, monitoring, and incident response;
+- security design, testing, findings, and remediation;
+- backup, recovery, and continuity;
+- data inventory, classification, flow, retention, and deletion;
+- accounts, roles, permissions, privileged access, and logs;
+- AI models, sources, tools, evaluations, safeguards, and human authority;
+- technical debt and known limitations.
 
-| File | Purpose |
+Public architecture papers can orient reviewers. Detailed diagrams, credentials, exploit information, keys, sensitive configurations, and unresolved security findings should use restricted access.
+
+Configured, tested, and operating controls should not be combined under one generic “implemented” label.
+
+---
+
+## 8. `04-COMMERCIAL-CUSTOMERS-AND-PARTNERS`
+
+Commercial packs can address:
+
+- target segments and buyer profiles;
+- product offers, pricing, terms, and service scope;
+- pipeline definitions and source;
+- demonstrations, trials, pilots, and conversions;
+- contracts, orders, invoices, and fulfillment;
+- onboarding, support, renewal, churn, and offboarding;
+- refunds, disputes, service credits, and corrections;
+- customer concentration;
+- partner qualification, responsibilities, integration, and economics;
+- channel attribution and delivery evidence.
+
+A lead, conversation, memorandum, signed agreement, pilot, active customer, and renewed relationship are different statuses.
+
+Customer and partner identities or logos should be shared only with authority and accurate relationship language. Public announcement value should remain separate from operating evidence.
+
+---
+
+## 9. `05-FINANCE-REVENUE-AND-TREASURY`
+
+Technology diligence can examine:
+
+- historical financial statements or management accounts where available;
+- accounting policies and chart of accounts;
+- revenue classifications and period reconciliation;
+- cash, bank, payment-provider, and approved treasury records;
+- Platform Credit purchase, grant, consumption, reversal, and balance treatment;
+- stablecoin transaction classification and valuation;
+- budgets, forecasts, assumptions, and variance;
+- liabilities, commitments, reserves, taxes, refunds, and disputes;
+- payroll, contractor, vendor, and partner payments;
+- financial controls, approval thresholds, and signer access.
+
+Fundraising receipts, product payments, Platform Credit activity, stablecoin transfers, treasury movements, token records, and reserves should remain distinguishable.
+
+Forecasts need assumptions, preparation date, scenario, and owner. They should not be presented as historical evidence.
+
+---
+
+## 10. `06-MARKET-DISTRIBUTION-AND-GROWTH`
+
+This folder can contain:
+
+- customer and market research;
+- dated market-size sources and methods;
+- competitive analysis;
+- go-to-market experiments;
+- channel plans and owners;
+- campaign, content, event, and community evidence;
+- enterprise, SME, Web3, and regional entry work;
+- activation, conversion, retention, and acquisition metrics;
+- partner-led distribution results;
+- scale, pause, or closure decisions.
+
+Market opportunity should be connected to the segment FUZE can actually reach and support. A large external market number does not establish FUZE demand or market share.
+
+The public distribution model appears in [FUZE Go-To-Market](03-FUZE_GO_TO_MARKET_PUBLIC.md).
+
+---
+
+## 11. `07-TOKEN-WALLET-AND-ECOSYSTEM`
+
+This folder should organize token and wallet evidence by mechanism rather than combine it into one “token” narrative.
+
+Relevant packs can include:
+
+- approved supply and allocation values;
+- contract design, reviewed build, deployment, and verification;
+- governance, roles, multisignature, and timelock;
+- vault addresses, labels, balances, and release rules;
+- allocation funding, lockup, vesting, release, and circulation records;
+- defined product or ecosystem utility;
+- token launch event status;
+- wallet integration and custody treatment;
+- decentralized market-access status;
+- any centralized venue process at its exact confirmed stage;
+- wallet-based participation readiness, activation, eligibility, approved value, snapshots, claims, corrections, and reporting where applicable.
+
+Platform Credits remain in the product and finance records because they measure eligible consumption. Stablecoin transactions remain classified by their actual payment, settlement, treasury, compensation, or other business purpose.
+
+Public-chain records can support verification while private identity, investor terms, signer details, custody-account records, and sensitive treasury context remain permissioned.
+
+---
+
+## 12. `08-LEGAL-COMPLIANCE-TAX-AND-ACCOUNTING`
+
+This restricted area can route:
+
+- corporate and financing review;
+- product terms, privacy terms, and commercial agreements;
+- intellectual-property and contributor matters;
+- token, wallet, stablecoin, payment, custody, and market analysis;
+- data, AI, consumer, advertising, gaming, and jurisdiction questions;
+- sanctions, restricted-party, KYC, or AML processes where applicable;
+- tax treatment and reporting;
+- accounting classifications and revenue recognition;
+- professional advice, opinions, open questions, and reliance limitations.
+
+Access should reflect privilege, confidentiality, professional scope, and the investor’s diligence need. A folder containing a legal or accounting record does not establish a favorable conclusion.
+
+---
+
+## 13. `09-ROUND-AND-INVESTOR-MATERIALS`
+
+This folder is transaction-specific.
+
+It can include:
+
+- private investor presentation;
+- round summary and applicable term materials;
+- investor qualification and confidentiality records;
+- capitalization and dilution analysis;
+- use-of-funds budget and milestones;
+- forecasts and assumptions;
+- transaction-specific disclosures;
+- subscription, investment, shareholder, or other applicable agreements;
+- token-related exposure records where included and reviewed;
+- approval, closing, payment, and post-close records;
+- investor reporting obligations;
+- meeting, question, and response logs.
+
+Public papers do not create private terms or investor rights. The executed documents govern the actual transaction.
+
+The [FUZE Round Structure and Use of Funds](12-FUZE_ROUND_STRUCTURE_AND_USE_OF_FUNDS_PUBLIC.md) provides the public capital-use framework.
+
+---
+
+## 14. `10-RISK-METRICS-AND-REPORTING`
+
+This folder connects claims to monitoring and risk.
+
+It can contain:
+
+- enterprise risk register;
+- product and mechanism risk assessments;
+- incidents and material corrective actions;
+- public and investor metric registry;
+- period reports and dashboards;
+- revenue and treasury reconciliation reports;
+- product status and release reports;
+- token, vault, wallet, and market reports where applicable;
+- report hashes or signatures;
+- restatement and correction history;
+- investor updates;
+- material gap register.
+
+Metrics need definitions, periods, cohorts, sources, owners, limitations, and version history. Risk and metric evidence should identify whether controls are designed, configured, tested, or operating.
+
+Public metric governance appears in [FUZE Public Metrics and Transparency](09-FUZE_PUBLIC_METRICS_AND_TRANSPARENCY_PUBLIC.md); the consolidated investor risk model appears in [FUZE Investor Risk Disclosure](17-FUZE_INVESTOR_RISK_DISCLOSURE_PUBLIC.md).
+
+---
+
+## 15. `11-ARCHIVE-AND-SUPERSESSION`
+
+The archive preserves history without allowing obsolete material to appear current.
+
+Each archived item should identify:
+
+- original title and version;
+- owner;
+- prior access class;
+- archive or supersession date;
+- reason;
+- replacement record, if any;
+- whether the item can still be cited for historical context.
+
+Deprecated terminology, old product status, superseded forecasts, draft agreements, prior token designs, and corrected reports should not remain in active folders without clear labels.
+
+Deletion and retention must also follow legal, privacy, security, contract, and investigation requirements.
+
+---
+
+## 16. Evidence Register
+
+The room should maintain a central register rather than rely only on folder browsing.
+
+| Field | Purpose |
 |---|---|
-| 00-DATA_ROOM_README.md | Explains folder structure, review process, and document status terms |
-| 01-CONFIDENTIALITY_NOTICE.md | Explains confidentiality expectations and private information boundaries |
-| 02-ACCESS_LEVELS.md | Defines public, investor-view, legal-view, accounting-view, technical-view, and restricted access |
-| 03-DOCUMENT_STATUS_TERMS.md | Defines public-ready, private review, under review, evidence available, evidence pending, reconciled, unreconciled, activation-gated, not active, confidential, deprecated, and replaced |
-| 04-DATA_ROOM_CHANGELOG.md | Tracks meaningful updates, corrections, replacements, and archived files |
-| 05-NO_GUARANTEE_BOUNDARY.md | States that data-room access does not guarantee investment, listing, liquidity, payout, acquisition, exit, or return |
+| Evidence ID | Stable reference used in requests and responses |
+| Title | Human-readable record name |
+| Domain | Product, finance, technical, legal, token, risk, or another area |
+| Claim supported | The statement or question the record addresses |
+| Owner | Person or function responsible |
+| Evidence date | Period or effective date |
+| Version | Current release identifier |
+| Status | Draft, current, under review, superseded, corrected, or archived |
+| Access class | Public, qualified, restricted, or transaction-specific |
+| Source location | Controlled link or folder reference |
+| Limitations | Missing scope, narrow cohort, assumptions, or known issues |
+| Related gap | Open work or unresolved question |
+| Next review | Date or triggering event |
 
-Access rules are clear before any private material is reviewed.
-
-Boundary:
-
-Data-room access does not create investor rights, token rights, claim rights, confidentiality waiver, or investment entitlement.
+An investor should be able to cite an evidence ID in a request instead of circulating uncontrolled copies.
 
 ---
 
-## 6. 01-PUBLIC-DOCUMENTS
+## 17. Status Vocabulary
 
-This folder stores public-facing FUZE documents.
+Use concise room statuses:
 
-Recommended file categories include:
-
-| File Category | Example Files |
+| Status | Meaning |
 |---|---|
-| Public Index | Public paper index, documentation map, language and boundary index |
-| Public FAQ | Public FAQ, investor FAQ, community FAQ where available |
-| Public Status | Public status and roadmap matrix, product status and evidence matrix |
-| Public Language | Public language dictionary, public communication standards, avoided claims list |
-| Public Risk Papers | Token risk, product risk, AI risk, public investor risk disclosure |
+| Draft | Work in progress and unsuitable for reliance |
+| Under review | Submitted for approval or specialist assessment |
+| Current | Active record for its named scope and period |
+| Evidence pending | Claim or question lacks the required support |
+| Restricted | Available only to an approved role or purpose |
+| Corrected | Reissued because a prior record contained an error |
+| Superseded | Replaced by a newer or more authoritative record |
+| Archived | Historical and outside the active review set |
 
-This folder contains only public-safe materials.
-
-Boundary:
-
-Public documents explain FUZE’s model and boundaries, but they are not investment offers, token sale documents, or guaranteed-return statements.
+Product and mechanism operating status should use the separate public status vocabulary. A “current” data-room file can describe a product that remains in design.
 
 ---
 
-## 7. 02-PLATFORM-OVERVIEW
+## 18. Access Classes
 
-This folder stores platform-level materials.
+### Public
 
-Recommended files include:
+Approved for unrestricted access.
 
-| File | Purpose |
+### Qualified
+
+Available to an approved investor or partner after qualification and any required confidentiality process.
+
+### Restricted
+
+Limited to named legal, finance, security, technical, governance, or internal reviewers because of privacy, privilege, credentials, vulnerability, identity, customer, or treasury sensitivity.
+
+### Transaction-specific
+
+Available only in connection with the applicable financing or transaction and subject to its process and documents.
+
+Access should be time-bounded where practical, logged, periodically reviewed, and removed when the purpose ends.
+
+---
+
+## 19. Privacy and Redaction
+
+Before sharing, reviewers should assess:
+
+- personal and investor identity;
+- customer, employee, contributor, or partner records;
+- private wallet associations and custody accounts;
+- contracts, pricing, bank and treasury details;
+- prompts, files, outputs, support records, and small cohorts;
+- credentials, keys, security configurations, and vulnerabilities;
+- privileged or professional material;
+- combined fields that enable re-identification.
+
+Available treatments include redaction, aggregation, anonymization, pseudonymous reference, delayed release, summary evidence, supervised review, or withholding.
+
+Redaction should preserve enough context for the reviewer to understand what the record establishes and what it does not.
+
+---
+
+## 20. Diligence Request Workflow
+
+A request can move through:
+
+1. investor question and purpose;
+2. domain and owner assignment;
+3. existing evidence search;
+4. access and privacy review;
+5. response, controlled link, or explanation of the gap;
+6. specialist escalation where needed;
+7. investor follow-up;
+8. closure, open action, or accepted limitation;
+9. evidence-register and question-log update.
+
+The response should identify whether it is factual evidence, management explanation, forecast, legal or professional view, or an unresolved matter.
+
+Repeated requests can indicate that the room taxonomy, current evidence pack, or public explanation needs improvement.
+
+---
+
+## 21. Gap Register
+
+Missing evidence should be visible.
+
+| Field | Required detail |
 |---|---|
-| FUZE_PLATFORM_OVERVIEW_PUBLIC.md | Explains FUZE as a transparency-first AI SaaS platform |
-| FUZE_ECOSYSTEM_MAP_PUBLIC.md | Explains product and platform ecosystem structure |
-| FUZE_PRODUCT_FIRST_EXECUTION_MODEL_PUBLIC.md | Explains product usage first, rails second, ecosystem participation after that |
-| FUZE_CORE_PLATFORM_RAILS_PUBLIC.md | Explains identity, credits, payments, AI orchestration, wallet records, and reporting rails |
-| FUZE_PUBLIC_ROADMAP_AND_PRIORITY_PUBLIC.md | Explains public roadmap and priority direction |
-| FUZE_PLATFORM_CREDITS_USAGE_EXAMPLES_PUBLIC.md | Explains Platform Credit usage examples |
-| FUZE_DATA_PRIVACY_AND_AI_DATA_HANDLING_PUBLIC.md | Explains platform data and AI handling |
-| FUZE_WALLET_BASED_PLATFORM_MODEL_PUBLIC.md | Explains wallet-based model and public identity boundaries |
-| FUZE_TRANSPARENCY_AND_REPORTING_RAILS_PUBLIC.md | Explains reporting rails, hashes, and public-safe transparency |
+| Gap ID | Stable reference |
+| Question | What cannot yet be answered fully? |
+| Domain and owner | Who is accountable? |
+| Materiality | Why does the gap matter? |
+| Current workaround | What limited evidence or explanation exists? |
+| Required action | What would close or narrow the gap? |
+| Dependency | Which event or third party matters? |
+| Target review | Date or milestone |
+| Status | Open, in progress, awaiting third party, accepted, or resolved |
 
-Platform overview materials are the foundation for investor understanding.
-
-Boundary:
-
-Platform overview materials do not guarantee platform completion, adoption, revenue, token demand, liquidity, listing, exit, or return.
+A gap marked “accepted” should identify the approving role and the condition that would trigger reconsideration.
 
 ---
 
-## 8. 03-PRODUCT-EVIDENCE
+## 22. Versioning and Corrections
 
-This folder stores product-specific evidence.
+A material update should record:
 
-Recommended subfolders include:
+- evidence ID and prior version;
+- what changed;
+- why it changed;
+- affected claims, periods, or investors;
+- approving owner;
+- whether the prior record was corrected, superseded, withdrawn, or archived;
+- required notification;
+- new source location.
 
-| Subfolder | Product |
-|---|---|
-| 01-HERHELP | HerHelp product materials |
-| 02-SHEETLAYER-AI | SheetLayer AI materials |
-| 03-SHOPOS-AI | ShopOS AI materials |
-| 04-SPEAKSHOP-AI | SpeakShop AI materials |
-| 05-TRAINLAYER-AI | TrainLayer AI materials |
-| 06-COMMUNITYLAYER-AI | CommunityLayer AI materials |
-| 07-ZAGA | ZAGA ecosystem materials |
-| 08-ZAGA-ARENA | ZAGA Arena materials |
-| 09-ZAGA-DISTRICTS | ZAGA Districts materials |
-| 10-QTB | QTB materials |
-| 11-AIMM | AIMM materials |
-| 12-AIE | AIE materials |
-| 13-TOOLGRID-AI | ToolGrid AI materials |
-| 14-BOTMAD | Botmad materials |
-
-Each product folder may include:
-
-- product paper
-- product one-page summary
-- target user description
-- user problem statement
-- product workflow
-- product screenshots
-- demo link where available
-- prototype notes where available
-- sample reports
-- product roadmap
-- product status label
-- evidence maturity record
-- revenue-readiness notes
-- Platform Credit relationship
-- data sensitivity notes
-- AI risk notes
-- product boundary statement
-- next evidence needed
-
-Boundary:
-
-Product evidence does not guarantee product launch, adoption, revenue, retention, or investment return.
+Silent replacement can cause investors to rely on conflicting copies. Downloaded files should carry version and status information wherever practical.
 
 ---
 
-## 9. Product Evidence File Template
+## 23. Quality Review
 
-Each product folder may use a consistent file set.
+The data-room owner should periodically check:
 
-| File | Purpose |
-|---|---|
-| 00-PRODUCT_README.md | Product overview and folder guide |
-| 01-PRODUCT_PUBLIC_PAPER.md | Public product paper |
-| 02-PRODUCT_ONE_PAGE.md | Short investor-readable product summary |
-| 03-PRODUCT_STATUS.md | Product status label and evidence maturity level |
-| 04-PRODUCT_WORKFLOW.md | User workflow and customer journey |
-| 05-DEMO_AND_SCREENSHOTS.md | Demo links, screenshots, video links, and sample outputs where available |
-| 06-REVENUE_READINESS.md | Pricing, package, credit, subscription, or report revenue model |
-| 07-USAGE_EVIDENCE.md | Usage evidence where available |
-| 08-PAYMENT_EVIDENCE.md | Payment evidence where available and access-controlled |
-| 09-RISK_BOUNDARY.md | Product-specific risk and public language boundary |
-| 10-NEXT_EVIDENCE_NEEDED.md | Evidence gaps and next diligence items |
+- active links and file access;
+- owner and review dates;
+- duplicate or conflicting records;
+- public/private consistency;
+- evidence cutoff and freshness;
+- unsupported claims;
+- unresolved requests and gaps;
+- missing approvals;
+- privacy and security exposure;
+- archived or deprecated files in active folders;
+- metric, financial, token, and status reconciliation;
+- correction and notification completeness.
 
-Private records stay separated from public summaries.
-
-Boundary:
-
-A completed template supports review, but it does not guarantee product success.
+The room should become narrower and clearer over time, not continuously accumulate every draft.
 
 ---
 
-## 10. 04-REVENUE-AND-CREDITS
+## 24. Investor Review Route
 
-This folder stores revenue model, revenue readiness, Platform Credit, pricing, billing, and revenue evidence files.
+A typical sequence is:
 
-Recommended files include:
+1. public investor overview and current status;
+2. priority product and evidence packs;
+3. commercial and distribution evidence;
+4. platform, AI, data, and security review;
+5. finance, revenue, treasury, and capital plan;
+6. token, wallet, and ecosystem evidence where material;
+7. legal, tax, accounting, and transaction review;
+8. risk register and open gaps;
+9. final questions, updates, and transaction documents.
 
-| File | Purpose |
-|---|---|
-| 00-REVENUE_AND_CREDITS_README.md | Explains folder scope and classification rules |
-| 01-FUZE_PRODUCT_REVENUE_MODEL_PUBLIC.md | Public revenue model |
-| 02-REVENUE_CATEGORY_MAP.md | Maps product revenue categories |
-| 03-REVENUE_READINESS_MATRIX.md | Shows revenue-readiness status by product |
-| 04-PRICING_AND_PACKAGES.md | Shows pricing, package, credit, subscription, and usage-fee structures where available |
-| 05-PLATFORM_CREDIT_MODEL.md | Explains Platform Credit purchase, usage, balance, and adjustment records |
-| 06-PLATFORM_CREDIT_USAGE_RECORDS.md | Stores credit usage summaries where available |
-| 07-REVENUE_EVIDENCE_INDEX.md | Lists confirmed revenue evidence where available and permissioned |
-| 08-REFUNDS_CHARGEBACKS_ADJUSTMENTS.md | Tracks refunds, chargebacks, failed payments, disputes, and adjustments where available |
-| 09-APPROVED_DISTRIBUTABLE_VALUE_BOUNDARY.md | Explains that product revenue does not automatically become approved distributable value |
-| 10-REVENUE_RECONCILIATION_NOTES.md | Explains reconciliation process where available |
-
-This folder clearly separates revenue paths from confirmed revenue.
-
-Boundary:
-
-Revenue readiness and revenue evidence do not guarantee future revenue, approved distributable value, payout, token demand, liquidity, exit, or return.
+The route can change based on investor specialization and the proposed transaction. It should not grant broad access merely because a later diligence stage may eventually require it.
 
 ---
 
-## 11. 05-PAYMENTS-STABLECOINS-TREASURY
+## 25. Public Boundary
 
-This folder organizes payment, stablecoin, treasury, settlement, reserve, and compensation records.
+This public index is a recommended information architecture. It does not confirm the existence, completeness, accuracy, approval, or favorable content of every evidence category.
 
-Recommended files include:
+Data-room access does not create an investment right, token allocation, wallet eligibility, claim, valuation, financing commitment, legal conclusion, market access, acquisition, or exit.
 
-| File | Purpose |
-|---|---|
-| 00-PAYMENTS_STABLECOINS_TREASURY_README.md | Explains payment and treasury classification rules |
-| 01-STABLECOIN_RAILS_MODEL.md | Explains stablecoins as payment, settlement, treasury, and compensation rails |
-| 02-PAYMENT_METHODS_INDEX.md | Lists supported payment categories where available |
-| 03-STABLECOIN_TRANSACTION_CATEGORIES.md | Classifies stablecoin records by purpose |
-| 04-TREASURY_WALLET_INDEX.md | Lists treasury wallet categories and public-safe labels where available |
-| 05-RESERVE_CATEGORIES.md | Explains operating, refund, tax, legal, audit, security, and other reserves |
-| 06-CONVERSION_PROOF_RECORDS.md | Stores conversion proof references where available |
-| 07-CONTRIBUTOR_COMPENSATION_RECORDS.md | Stores compensation category records where access-controlled |
-| 08-PARTNER_SETTLEMENT_RECORDS.md | Stores partner settlement records where access-controlled |
-| 09-NON_REVENUE_TRANSFER_RECORDS.md | Stores treasury movements and non-revenue transfers where available |
-| 10-TREASURY_RECONCILIATION_NOTES.md | Explains reconciliation approach |
-
-Stablecoin and treasury records may be highly sensitive and require access controls.
-
-Boundary:
-
-Stablecoin balances and treasury balances are not automatic product revenue, approved distributable value, public claim value, payout supply, or token price support.
+Investors should rely on current controlled records and the executed private documents applicable to their review.
 
 ---
 
-## 12. 06-TOKEN-MODEL-AND-CIRCULATION
+## Conclusion
 
-This folder stores FUZE token model, token utility, launch mechanics, circulation, vault, custody, and release materials.
+The FUZE investor data room should make evidence easier to find, interpret, protect, update, and correct. Its quality depends on current source records, accountable owners, visible gaps, precise access, and disciplined supersession.
 
-Recommended files include:
-
-| File | Purpose |
-|---|---|
-| 00-TOKEN_MODEL_README.md | Explains token folder scope |
-| 01-FUZE_ONE_TOKEN_MODEL_PUBLIC.md | Explains that FUZE uses one token only |
-| 02-FUZE_TOKEN_UTILITY_MODEL_PUBLIC.md | Explains product-connected utility and ecosystem participation |
-| 03-FUZE_TOKEN_LAUNCH_MECHANICS_PUBLIC.md | Explains launch mechanics and boundaries |
-| 04-FUZE_CONTROLLED_CIRCULATION_POLICY_PUBLIC.md | Explains controlled circulation principles |
-| 05-FUZE_TOKEN_RELEASE_AND_CIRCULATION_CLARITY_PUBLIC.md | Explains release and circulation clarity |
-| 06-FUZE_VAULT_AND_RESERVE_POLICY_PUBLIC.md | Explains vault and reserve categories |
-| 07-FUZE_PUBLIC_VAULT_ACCESS_SYSTEM_PUBLIC.md | Explains public vault access |
-| 08-FUZE_EXCHANGE_CUSTODY_AND_WALLET_PARTICIPATION_PUBLIC.md | Explains exchange custody and participation boundaries |
-| 09-TOKEN_ALLOCATION_TABLE.md | Stores allocation table where available |
-| 10-TOKEN_RELEASE_RECORDS.md | Stores release records where available |
-| 11-VESTING_AND_LOCKUP_RECORDS.md | Stores vesting and lockup records where available |
-| 12-OTC_TRANSFER_BOUNDARY.md | Explains OTC transfer limits and eligibility boundary |
-
-This folder avoids public price and liquidity promises.
-
-Boundary:
-
-FUZE token materials do not guarantee token demand, token price, listing, liquidity, payout, income, yield, profit, exit, or investment return.
-
----
-
-## 13. 07-WALLET-PARTICIPATION-BOUNDARY
-
-This folder stores wallet-based participation ability materials.
-
-Recommended files include:
-
-| File | Purpose |
-|---|---|
-| 00-WALLET_PARTICIPATION_README.md | Explains participation folder scope and activation-gated status |
-| 01-WALLET_BASED_PARTICIPATION_MODEL.md | Explains wallet-based participation ability under one-token model |
-| 02-ACTIVATION_GATES.md | Lists legal, accounting, treasury, audit, reporting, smart-contract, privacy, eligibility, operator, jurisdiction, approved distributable value, and product revenue pool gates |
-| 03-ELIGIBILITY_BOUNDARY.md | Explains that eligibility is not automatic |
-| 04-SNAPSHOT_BOUNDARY.md | Explains snapshot status where applicable |
-| 05-CLAIM_READINESS_BOUNDARY.md | Explains claim readiness and not-active status |
-| 06-EXCHANGE_CUSTODY_TREATMENT.md | Explains exchange-held token limitations |
-| 07-SELF_CUSTODY_TREATMENT.md | Explains direct wallet records and user responsibility |
-| 08-OTC_TRANSFER_TREATMENT.md | Explains OTC transfer limitations |
-| 09-PRIVATE_VERIFICATION_BOUNDARY.md | Explains off-chain, permissioned private verification |
-| 10-NO_GUARANTEED_PAYOUT.md | States no guaranteed payout, income, yield, profit, or return |
-
-This folder uses especially careful language.
-
-Boundary:
-
-Wallet-based participation ability is not active as a guaranteed public payout right and does not guarantee eligibility, claim rights, payout, income, yield, profit, or return.
-
----
-
-## 14. 08-AI-SAFETY-AND-DATA-PRIVACY
-
-This folder stores AI safety, reliability, data privacy, permission, incident, and product-specific risk materials.
-
-Recommended files include:
-
-| File | Purpose |
-|---|---|
-| 00-AI_DATA_PRIVACY_README.md | Explains AI and privacy folder scope |
-| 01-FUZE_AI_SAFETY_AND_RELIABILITY_PUBLIC.md | Public AI safety and reliability paper |
-| 02-FUZE_DATA_PRIVACY_AND_PERMISSION_MODEL_PUBLIC.md | Public data privacy and permission model |
-| 03-AI_PRODUCT_RISK_MATRIX.md | Product-by-product AI risk matrix |
-| 04-DATA_CATEGORY_MAP.md | Maps account, product, business, community, AI, payment, credit, stablecoin, wallet, verification, partner, and security data |
-| 05-PERMISSION_MODEL.md | Explains workspace and role-based access |
-| 06-BOTMAD_PERMISSION_BOUNDARY.md | Explains Botmad access and action limits |
-| 07-QTB_AI_BOUNDARY.md | Explains QTB non-advice AI boundary |
-| 08-AIMM_AI_BOUNDARY.md | Explains AIMM no-price-support boundary |
-| 09-INCIDENT_HANDLING.md | Explains AI, data, permission, and privacy incident handling |
-| 10-PUBLIC_REPORTING_PRIVACY.md | Explains public-safe reporting and private data exclusions |
-
-This folder supports both investor diligence and product risk review.
-
-Boundary:
-
-AI safety and data privacy materials reduce risk, but they do not guarantee AI accuracy, perfect privacy, zero incident, or business outcome.
-
----
-
-## 15. 09-GO-TO-MARKET-AND-PARTNERS
-
-This folder stores go-to-market, partner, enterprise, SME, Web3, and expansion materials.
-
-Recommended files include:
-
-| File | Purpose |
-|---|---|
-| 00-GTM_PARTNERS_README.md | Explains folder scope |
-| 01-FUZE_GO_TO_MARKET_PUBLIC.md | Public GTM model |
-| 02-FUZE_STRATEGIC_PARTNER_MODEL_PUBLIC.md | Public strategic partner model |
-| 03-FUZE_ENTERPRISE_AND_SME_EXPANSION_PUBLIC.md | Enterprise and SME expansion model |
-| 04-FUZE_WEB3_COMMUNITY_EXPANSION_PUBLIC.md | Web3 community expansion model |
-| 05-PARTNER_CATEGORIES.md | Lists partner types and product relationships |
-| 06-PARTNER_PIPELINE.md | Stores partner pipeline where private and permissioned |
-| 07-PARTNER_AGREEMENT_INDEX.md | Stores partner agreement references where available |
-| 08-SME_SHOP_ADOPTION_PLAN.md | Stores shop and SME channel details |
-| 09-WEB3_COMMUNITY_CHANNELS.md | Stores Web3 community channel details |
-| 10-ENTERPRISE_REVIEW_NOTES.md | Stores enterprise review and procurement notes where available |
-
-Private partner records remain access-controlled.
-
-Boundary:
-
-GTM and partner materials do not guarantee signed deals, customer growth, user growth, community growth, revenue, token demand, listing, liquidity, acquisition, exit, or return.
-
----
-
-## 16. 10-RISK-DISCLOSURES
-
-This folder stores investor, product, token, liquidity, custody, AI, data, legal, and communication risk materials.
-
-Recommended files include:
-
-| File | Purpose |
-|---|---|
-| 00-RISK_DISCLOSURES_README.md | Explains risk folder scope |
-| 01-FUZE_INVESTOR_RISK_DISCLOSURE_PUBLIC.md | Public investor risk disclosure |
-| 02-PRODUCT_RISK_BOUNDARIES.md | Product-specific risk boundaries |
-| 03-TOKEN_RISK_BOUNDARIES.md | Token-specific risk boundaries |
-| 04-LIQUIDITY_AND_LISTING_RISK.md | Liquidity and listing risk explanation |
-| 05-CUSTODY_AND_OTC_RISK.md | Exchange custody, self-custody, and OTC risk |
-| 06-AI_AND_DATA_RISK.md | AI accuracy, data privacy, and permission risk |
-| 07-LEGAL_REGULATORY_TAX_ACCOUNTING_RISK.md | Legal, regulatory, tax, and accounting risk |
-| 08-GAME_AND_COMMUNITY_RISK.md | ZAGA, community, Web3, and game economy risks |
-| 09-PUBLIC_COMMUNICATION_RISK.md | Unsafe claims, avoided language, and community risk |
-| 10-NO_GUARANTEE_STATEMENT.md | Consolidated no-guarantee statement |
-
-Risk files are easy to find.
-
-Boundary:
-
-Risk disclosure supports informed review, but it does not remove risk.
-
----
-
-## 17. 11-ROUND-STRUCTURE-AND-USE-OF-FUNDS
-
-This folder stores private round, use-of-funds, investor communication, and budget materials.
-
-Recommended files include:
-
-| File | Purpose |
-|---|---|
-| 00-ROUND_STRUCTURE_README.md | Explains folder scope and public/private boundary |
-| 01-FUZE_ROUND_STRUCTURE_AND_USE_OF_FUNDS_PUBLIC.md | Public round structure and use-of-funds paper |
-| 02-PRIVATE_ROUND_SUMMARY.md | Private round summary where legally reviewed |
-| 03-USE_OF_FUNDS_CATEGORIES.md | Spending categories and operating priorities |
-| 04-BUDGET_MODEL.md | Budget model where available and access-controlled |
-| 05-RUNWAY_MODEL.md | Runway model where available and access-controlled |
-| 06-INVESTOR_COMMUNICATION_LIMITS.md | Approved and avoided investor language |
-| 07-TOKEN_RELATED_EXPOSURE_BOUNDARY.md | Private token-related exposure boundaries where applicable |
-| 08-TREASURY_USE_BOUNDARY.md | Investor funds, treasury, product revenue, and reserves separation |
-| 09-INVESTOR_REPORTING_MODEL.md | Private investor update categories where applicable |
-| 10-ROUND_RISK_NOTES.md | Round-specific risk notes |
-
-This folder avoids public solicitation language.
-
-Boundary:
-
-Seed Round discussions are private strategic fundraising conversations, not a public token sale, public investment offer, public solicitation, or guaranteed-return opportunity.
-
----
-
-## 18. 12-LEGAL-COMPLIANCE-TAX-ACCOUNTING
-
-This folder stores sensitive legal, compliance, tax, and accounting review materials.
-
-Recommended subfolders include:
-
-| Subfolder | Purpose |
-|---|---|
-| 01-LEGAL-REVIEW | Legal review notes, agreements, public language review, jurisdiction review |
-| 02-COMPLIANCE-REVIEW | Compliance, KYC/AML where applicable, restricted-party review where required |
-| 03-TAX-REVIEW | Tax treatment notes where available |
-| 04-ACCOUNTING-REVIEW | Accounting classification, revenue recognition, credit treatment, stablecoin treatment |
-| 05-INVESTOR-AGREEMENTS | Private investor agreement references where applicable |
-| 06-PARTNER-AGREEMENTS | Private partner agreement references where applicable |
-| 07-CUSTOMER-TERMS | Customer terms, privacy policy, product terms where available |
-| 08-JURISDICTION-REVIEW | Jurisdiction-specific notes and restrictions where available |
-| 09-PRIVATE-VERIFICATION | Private verification process notes where required |
-| 10-ARCHIVE | Deprecated or replaced legal and accounting materials |
-
-This folder requires strong access control.
-
-Boundary:
-
-Legal, compliance, tax, and accounting materials do not guarantee legal approval, regulatory approval, tax treatment, accounting treatment, listing, liquidity, payout, exit, or return.
-
----
-
-## 19. 13-SMART-CONTRACT-AND-TECHNICAL
-
-This folder stores smart-contract readiness, technical architecture, security review, and deployment materials.
-
-Recommended files include:
-
-| File | Purpose |
-|---|---|
-| 00-TECHNICAL_README.md | Explains technical folder scope |
-| 01-TECHNICAL_ARCHITECTURE.md | Explains platform architecture where available |
-| 02-SMART_CONTRACT_READINESS.md | Explains token, registry, vault, report hash, and activation-readiness contracts |
-| 03-TOKEN_CONTRACT_NOTES.md | Token contract design and deployment notes where available |
-| 04-REPORT_HASH_REGISTRY.md | Report hash registry design where available |
-| 05-PUBLIC_VAULT_DIRECTORY.md | Public vault directory design where available |
-| 06-MULTISIG_TIMELOCK_MODEL.md | Multisig and timelock controls where applicable |
-| 07-SECURITY_REVIEW_NOTES.md | Security review notes where available |
-| 08-INCIDENT_RESPONSE.md | Technical incident response process |
-| 09-DEPLOYMENT_RECORDS.md | Deployment records where available and access-controlled |
-| 10-AUDIT_REFERENCES.md | Audit references where available |
-
-Technical files may be public, private, or restricted depending on sensitivity.
-
-Boundary:
-
-Technical readiness, smart-contract deployment, or audit reference does not guarantee zero bug, zero exploit, legal approval, payout, liquidity, listing, or return.
-
----
-
-## 20. 14-METRICS-REPORTING-AND-HASHES
-
-This folder stores public metrics, reporting records, report hashes, dashboards, correction notes, and transparency files.
-
-Recommended files include:
-
-| File | Purpose |
-|---|---|
-| 00-METRICS_REPORTING_README.md | Explains reporting folder scope |
-| 01-FUZE_PUBLIC_METRICS_AND_TRANSPARENCY_PUBLIC.md | Public metrics and transparency model |
-| 02-METRIC_DEFINITIONS.md | Defines each public-safe metric |
-| 03-PRODUCT_STATUS_REPORTS.md | Product status records |
-| 04-PLATFORM_CREDIT_REPORTS.md | Credit usage category reports |
-| 05-STABLECOIN_PAYMENT_REPORTS.md | Stablecoin payment category reports |
-| 06-REVENUE_CATEGORY_REPORTS.md | Revenue category reports where available |
-| 07-TOKEN_RELEASE_REPORTS.md | Token release and circulation reports |
-| 08-VAULT_REPORTS.md | Vault label and activity summaries |
-| 09-REPORT_HASH_INDEX.md | Report hash index |
-| 10-CORRECTIONS_AND_RESTATEMENTS.md | Corrections, reclassifications, and replaced report notes |
-
-Reporting is public-safe unless marked private.
-
-Boundary:
-
-Metrics and reports support transparency, but they do not guarantee growth, revenue, token demand, payout, liquidity, listing, exit, or return.
-
----
-
-## 21. 15-INVESTOR-MATERIALS
-
-This folder stores investor-facing materials.
-
-Recommended files include:
-
-| File | Purpose |
-|---|---|
-| 00-INVESTOR_MATERIALS_README.md | Explains investor materials folder scope |
-| 01-FUZE_INVESTOR_OVERVIEW_PUBLIC.md | Public investor overview |
-| 02-FUZE_INVESTOR_READINESS_SUMMARY_PUBLIC.md | Public investor readiness summary |
-| 03-FUZE_INVESTOR_FAQ_PUBLIC.md | Public investor FAQ |
-| 04-FUZE_INVESTOR_DECK_OUTLINE_PUBLIC.md | Public investor deck outline |
-| 05-PRIVATE_INVESTOR_DECK.pdf | Private investor deck where available and access-controlled |
-| 06-INVESTOR_UPDATE_TEMPLATE.md | Investor update template |
-| 07-INVESTOR_QA_LOG.md | Investor question and answer log where available |
-| 08-DILIGENCE_REQUEST_TRACKER.md | Tracks investor diligence requests |
-| 09-INVESTOR_MEETING_NOTES.md | Private investor meeting notes where available |
-| 10-INVESTOR_RISK_ACKNOWLEDGEMENT.md | Risk acknowledgement where appropriate and legally reviewed |
-
-This folder separates public investor materials from private round materials.
-
-Boundary:
-
-Investor materials support diligence and communication, but they do not guarantee investment, valuation, liquidity, payout, acquisition, exit, or return.
-
----
-
-## 22. 16-ARCHIVE-AND-DEPRECATED
-
-This folder stores replaced, outdated, deprecated, superseded, or archived materials.
-
-Recommended files include:
-
-| File | Purpose |
-|---|---|
-| 00-ARCHIVE_README.md | Explains archive scope and use |
-| 01-DEPRECATED_LANGUAGE_LOG.md | Tracks removed or replaced terms |
-| 02-REPLACED_DOCUMENT_INDEX.md | Lists documents replaced by newer versions |
-| 03-OLD_ROADMAPS.md | Stores old roadmap files |
-| 04-OLD_TOKEN_MODEL_NOTES.md | Stores superseded token model notes |
-| 05-OLD_PRODUCT_NOTES.md | Stores superseded product notes |
-| 06-OLD_RISK_NOTES.md | Stores replaced risk notes |
-| 07-OLD_INVESTOR_MATERIALS.md | Stores outdated investor materials |
-| 08-CORRECTION_HISTORY.md | Stores major corrections and rationale |
-
-Archived files are not treated as current source of truth.
-
-Boundary:
-
-Archived materials may be outdated and should not be relied on unless specifically marked as active.
-
----
-
-## 23. Public and Private Document Separation
-
-FUZE clearly separates public and private documents.
-
-### 23.1 Public Documents
-
-Public documents may include:
-
-- public platform papers
-- product public papers
-- public FAQ
-- public status matrix
-- public risk boundaries
-- public metrics model
-- token model public papers
-- public wallet model
-- public vault access model
-- public investor overview
-- public investor FAQ
-- public data-room index
-
-### 23.2 Private Documents
-
-Private documents may include:
-
-- private investor agreements
-- private round terms
-- private valuation discussions
-- private investor identities
-- private financial records
-- private revenue evidence
-- private customer records
-- private product usage records
-- private legal review
-- private accounting review
-- private tax review
-- private verification records
-- private partner agreements
-- private technical security records
-- private data-room access logs
-- private meeting notes
-
-Boundary:
-
-Public transparency does not require exposing private investor, customer, partner, legal, accounting, tax, verification, or confidential business records.
-
----
-
-## 24. Data Room Access Levels
-
-FUZE may use access levels to protect sensitive information.
-
-| Access Level | Typical Access |
-|---|---|
-| Public | Public papers, public FAQ, public status summaries, public risk boundaries |
-| Investor View | Investor overview, product evidence summaries, private deck, private FAQ, high-level financial materials where approved |
-| Legal View | Agreements, legal review, jurisdiction review, restricted-party review where applicable |
-| Accounting View | Revenue records, credit records, stablecoin records, reconciliation, tax and accounting materials where applicable |
-| Technical View | Architecture, smart-contract readiness, security review, technical notes |
-| Restricted View | Private verification, investor identity, customer records, confidential agreements, sensitive security records |
-| Admin View | Folder management, access logs, change logs, permission changes, full data-room administration |
-
-Access levels follow least-privilege principles.
-
-Boundary:
-
-Access level assignment reduces exposure risk, but it does not guarantee zero data incident or zero misuse.
-
----
-
-## 25. Document Status Terms
-
-The data room uses clear document status terms.
-
-| Status Term | Meaning |
-|---|---|
-| Public-ready | Suitable for public review |
-| Private review | Available only under private diligence access |
-| Under review | Not final or not ready for reliance |
-| Evidence available | Supporting evidence exists |
-| Evidence pending | Supporting evidence is missing or being prepared |
-| Reconciled | Matched against relevant records |
-| Unreconciled | Not fully matched or reviewed |
-| Activation-gated | Not active until required gates are ready |
-| Not active | Framework or feature is not live |
-| Public-safe summary | Shareable without unnecessary private data exposure |
-| Confidential | Not for public release |
-| Deprecated | Replaced or no longer used |
-| Replaced | Superseded by a newer version |
-| Archived | Kept for history, not current source of truth |
-
-Consistent status terms prevent misunderstanding.
-
-Boundary:
-
-Document status terms explain review status and do not create rights, claims, eligibility, payout, or guarantees.
-
----
-
-## 26. Evidence Classification
-
-Data-room evidence is classified clearly.
-
-| Evidence Type | Meaning |
-|---|---|
-| Source Paper | Public or private document explaining the model |
-| Product Evidence | Demo, screenshot, workflow, sample output, product status, usage evidence |
-| Revenue Evidence | Payment record, invoice, receipt, subscription, Platform Credit purchase, reconciled revenue record |
-| Payment Evidence | Fiat, stablecoin, refund, chargeback, settlement, or treasury movement record |
-| Token Evidence | Allocation, release, vesting, lockup, vault, custody, or token contract record |
-| Risk Evidence | Risk paper, legal review note, AI safety note, privacy note, incident note |
-| Technical Evidence | Architecture, contract, security review, deployment, or audit reference |
-| Partner Evidence | Partner agreement, pilot note, implementation record, channel evidence |
-| Public Metric Evidence | Product status report, usage category, report hash, public-safe summary |
-
-Evidence is labeled as public or private.
-
-Boundary:
-
-Evidence supports review, but it does not guarantee future outcome.
-
----
-
-## 27. Revenue Record Boundaries
-
-Revenue records require special care.
-
-Revenue files distinguish:
-
-- revenue path
-- revenue readiness
-- confirmed payment
-- unreconciled payment
-- reconciled payment
-- refunded payment
-- chargeback
-- disputed payment
-- Platform Credit purchase
-- Platform Credit usage
-- product revenue
-- excluded value
-- reserve treatment
-- non-revenue transfer
-- investor funds
-- treasury transfer
-- approved distributable value where applicable and only if activated
-
-Boundary:
-
-Revenue records do not automatically create approved distributable value, payout, token demand, liquidity, exit, or return.
-
----
-
-## 28. Platform Credit Record Boundaries
-
-Platform Credit records are treated as product usage records.
-
-Credit records may include:
-
-- credit purchase
-- credit balance
-- workspace credit balance
-- credit package
-- credit usage
-- product module usage
-- failed-task adjustment
-- refund adjustment
-- bonus credit
-- promotional credit
-- credit expiration where applicable
-- credit report
-
-Credit records are not stored or described as FUZE token records.
-
-Boundary:
-
-Platform Credits are product usage credits, not FUZE token, equity, debt, investment contracts, income rights, participation rights, governance rights, or claim rights.
-
----
-
-## 29. Stablecoin Record Boundaries
-
-Stablecoin records are classified by purpose.
-
-Possible classifications include:
-
-- product payment
-- Platform Credit purchase
-- subscription payment
-- report purchase
-- partner settlement
-- vendor payment
-- contributor compensation
-- treasury transfer
-- reserve transfer
-- investor fund
-- conversion proof
-- liquidity-related settlement where applicable
-- refund
-- non-revenue transfer
-
-The same asset type can have different business meaning depending on context.
-
-Boundary:
-
-Stablecoin transaction visibility does not mean all related private context is public or distributable.
-
----
-
-## 30. Token and Wallet Record Boundaries
-
-Token and wallet records separate public blockchain facts from private context.
-
-Public-safe token and wallet records may include:
-
-- wallet address
-- vault label
-- token release category
-- vesting category
-- lockup category
-- transaction reference
-- public report hash
-- public vault activity
-- circulating supply category
-- snapshot category where applicable
-- eligibility category where applicable
-- claim status where applicable
-
-Private token and wallet context may include:
-
-- investor identity
-- private agreement
-- private verification
-- jurisdiction status
-- tax record
-- private custody record
-- exchange user account record
-- OTC agreement
-- dispute record
-- legal review note
-
-Boundary:
-
-Wallet-level transparency does not mean public identity exposure, eligibility guarantee, claim rights, payout, liquidity, or return.
-
----
-
-## 31. Private Verification Records
-
-Private verification records require restricted access.
-
-They may include:
-
-- investor verification
-- jurisdiction review
-- KYC or AML records where applicable
-- sanctions or restricted-party screening where required
-- exchange custody review
-- OTC transfer review
-- eligibility review
-- claim review if a framework becomes active
-- tax review where applicable
-- legal agreement review
-- identity documents where required
-- private approval status
-
-Private verification stays off-chain, permissioned, access-controlled, and separated from public blockchain records.
-
-Boundary:
-
-Private verification does not guarantee eligibility, payout, claim rights, public identity exposure, or investment return.
-
----
-
-## 32. Data Room Changelog and Correction Process
-
-The data room tracks material changes.
-
-A changelog may record:
-
-- file added
-- file updated
-- file replaced
-- file deprecated
-- file archived
-- file corrected
-- evidence added
-- evidence removed
-- status changed
-- access level changed
-- report hash added
-- revenue classification changed
-- token release record added
-- risk disclosure updated
-- legal review updated
-- accounting review updated
-
-Corrections explain what changed and why.
-
-Boundary:
-
-Changelog discipline improves transparency, but it does not guarantee perfect records or zero error.
-
----
-
-## 33. Data Room Review Workflow
-
-A standard data-room review workflow may include:
-
-1. Investor receives access under appropriate confidentiality and permission rules.
-2. Investor reviews README and access rules.
-3. Investor reviews public documents.
-4. Investor reviews platform overview.
-5. Investor reviews product evidence.
-6. Investor reviews revenue and credit records.
-7. Investor reviews payment, stablecoin, and treasury classification.
-8. Investor reviews token model and circulation materials.
-9. Investor reviews wallet-based participation boundaries.
-10. Investor reviews AI safety and data privacy materials.
-11. Investor reviews GTM and partner materials.
-12. Investor reviews risk disclosures.
-13. Investor reviews round structure and use of funds.
-14. Investor reviews legal, compliance, tax, and accounting materials where access is granted.
-15. Investor reviews smart-contract and technical materials where access is granted.
-16. Investor submits diligence questions.
-17. FUZE answers questions and updates records where appropriate.
-18. Investor continues private diligence with professional reviewers where needed.
-
-Boundary:
-
-Review workflow supports diligence, but it does not guarantee investment, valuation, liquidity, payout, exit, or return.
-
----
-
-## 34. Data Room Quality Controls
-
-Data room quality controls may include:
-
-- file naming rules
-- folder naming rules
-- document status terms
-- access levels
-- public/private labels
-- version tracking
-- changelog
-- owner assignment
-- review dates
-- evidence source notes
-- public-language review
-- privacy review
-- legal review where required
-- accounting review where required
-- risk boundary review
-- archive process
-- correction process
-- restricted-folder controls
-
-Quality controls help investors trust the review process.
-
-Boundary:
-
-Quality controls reduce confusion, but they do not guarantee perfect accuracy, complete evidence, legal approval, investment, or return.
-
----
-
-## 35. Data Room Risk
-
-Data-room risk includes:
-
-- incomplete materials
-- outdated files
-- unsupported claims
-- private data exposure
-- incorrect access permissions
-- investor misunderstanding
-- version mismatch
-- missing risk boundaries
-- missing revenue records
-- missing product evidence
-- missing legal review
-- missing accounting review
-- missing technical review
-- overreliance on public papers
-- private information leakage
-- confidentiality breach
-- unreviewed token language
-- public/private boundary confusion
-
-Boundary:
-
-A data room supports diligence, but it does not remove investment, product, legal, data, token, liquidity, or execution risk.
-
----
-
-## 36. Investor View of the Data Room
-
-Investors can evaluate the FUZE data room by asking:
-
-- Are public and private documents separated?
-- Are access levels clear?
-- Are product status labels clear?
-- Is product evidence separated from product papers?
-- Is revenue readiness separated from revenue evidence?
-- Are Platform Credits separated from FUZE token?
-- Are stablecoins classified correctly?
-- Is product revenue separated from approved distributable value?
-- Is FUZE token clearly presented as one token only?
-- Are token launch mechanics separated from listing and liquidity guarantees?
-- Is wallet-based participation clearly activation-gated?
-- Are legal, tax, accounting, and compliance materials available where appropriate?
-- Are AI safety and data privacy materials clear?
-- Are risk disclosures complete and easy to find?
-- Are report hashes and public metrics used where appropriate?
-- Are private verification records protected?
-- Are outdated materials archived?
-
-Investors treat the data room as a diligence system, not a guarantee.
-
-Boundary:
-
-Data-room review does not guarantee investment, valuation, liquidity, payout, acquisition, exit, or return.
-
----
-
-## 37. Community View of the Data Room
-
-The FUZE community can understand the data room in simple terms.
-
-Community members can say:
-
-- FUZE uses a data room to organize investor review materials.
-- Public papers explain FUZE’s model and boundaries.
-- Private investor materials are not all public.
-- Product evidence is reviewed separately from product papers.
-- Revenue readiness is not the same as revenue evidence.
-- Platform Credits are product usage credits.
-- Stablecoins are payment and settlement rails.
-- FUZE uses one token only.
-- Wallet-based participation is activation-gated and not automatic.
-- Risk disclosures are part of responsible investor readiness.
-- Data-room readiness does not guarantee investment or exit.
-
-Community members do not say:
-
-- data room means investment is guaranteed
-- data room means acquisition is guaranteed
-- private materials prove payout
-- all private documents are public
-- all revenue goes to holders
-- Platform Credits are token rights
-- stablecoin treasury goes to holders
-- every holder will be paid
-- listing is guaranteed
-- liquidity is guaranteed
-- exit is guaranteed
-
-This keeps public communication accurate.
-
----
-
-## 38. Data Room Risk Boundary Matrix
-
-| Area | Boundary |
-|---|---|
-| Data room access | Does not create investor rights or token rights |
-| Public documents | Informational, not investment offers |
-| Private documents | Access-controlled and not public by default |
-| Product evidence | Supports review, not adoption guarantee |
-| Revenue evidence | Supports review, not future revenue guarantee |
-| Platform Credits | Product usage records, not token records |
-| Stablecoin records | Payment and settlement records, not automatic distributions |
-| Token records | Supply and utility records, not price guarantees |
-| Wallet records | Transparency without public identity exposure |
-| Participation files | Activation-gated and not automatic |
-| Legal materials | Do not guarantee legal approval |
-| Accounting materials | Do not guarantee payout or final treatment |
-| Technical materials | Do not guarantee zero exploit or zero bug |
-| Risk disclosures | Explain risk, do not remove risk |
-| Investor deck | Communication tool, not funding guarantee |
-| Data room readiness | Diligence support, not investment guarantee |
-| Archive | Historical record, not current source of truth |
-
----
-
-## 39. Public Communication Standards
-
-Approved data-room wording includes:
-
-- investor data room
-- diligence materials
-- public/private document separation
-- product evidence
-- revenue readiness
-- revenue evidence where available
-- Platform Credit records
-- stablecoin classification
-- one-token model
-- wallet-based participation ability if activated
-- activation-gated
-- access-controlled private records
-- public-safe summaries
-- report hashes
-- risk disclosure
-- legal review where applicable
-- accounting review where applicable
-- no guaranteed investment
-- no guaranteed liquidity
-- no guaranteed exit
-- no guaranteed return
-
-Avoided data-room wording includes:
-
-- data room guarantees investment
-- data room guarantees valuation
-- data room guarantees acquisition
-- data room guarantees exit
-- private documents guarantee payout
-- revenue records guarantee holder distribution
-- Platform Credit records are token records
-- stablecoin treasury goes to holders
-- wallet records guarantee eligibility
-- report hashes prove full audit
-- smart-contract readiness means live claim
-- investor deck guarantees funding
-- listing is guaranteed
-- liquidity is guaranteed
-- return is guaranteed
-
-Data-room language is professional, precise, and boundary-aware.
-
----
-
-## 40. Development Direction
-
-FUZE investor data-room readiness can develop through phases.
-
-### Phase 1: Folder Structure Setup
-
-Create the top-level folder structure with README, access rules, public/private separation, status terms, and changelog.
-
-### Phase 2: Public Document Upload
-
-Add public platform papers, product papers, token model papers, investor papers, risk papers, FAQ, documentation map, and public status matrix.
-
-### Phase 3: Product Evidence Organization
-
-Create product folders and add product papers, workflows, demos, screenshots, sample reports, status labels, evidence maturity records, and next-evidence-needed files.
-
-### Phase 4: Revenue and Credit Records
-
-Organize revenue model, Platform Credit records, pricing, packages, revenue readiness, revenue evidence where available, refunds, chargebacks, and reconciliation notes.
-
-### Phase 5: Treasury and Stablecoin Classification
-
-Organize stablecoin payments, treasury categories, reserve records, conversion proof, partner settlement, contributor compensation, and non-revenue transfers.
-
-### Phase 6: Token and Wallet Materials
-
-Add one-token model, token utility, launch mechanics, controlled circulation, vault policy, custody boundary, OTC boundary, and wallet-based participation activation-gate materials.
-
-### Phase 7: Risk, Legal, Accounting, and Technical Materials
-
-Add investor risk disclosure, legal review materials where available, accounting review materials where available, technical architecture, smart-contract readiness, and audit references where available.
-
-### Phase 8: Investor Materials and Diligence Tracker
-
-Add investor overview, investor FAQ, investor deck, deck outline, round structure, use of funds, diligence request tracker, Q&A log, and investor update template.
-
-### Phase 9: Ongoing Maintenance
-
-Maintain changelog, version control, access controls, correction notes, archive rules, evidence updates, risk updates, and public/private boundary review.
-
-These phases are development directions, not guaranteed launch dates.
-
----
-
-## 41. Key Takeaways
-
-- FUZE Investor Data Room Index explains the recommended investor data-room folder structure, public/private document separation, product evidence files, revenue records, token model files, risk disclosures, legal/accounting review folders, and data-room access boundaries.
-- FUZE is product-first.
-- FUZE is a transparency-first AI SaaS platform.
-- FUZE uses one token only: FUZE token.
-- FUZE token is the single ecosystem token of FUZE.
-- An investor data room supports structured diligence.
-- A data room does not guarantee investment, valuation, acquisition, liquidity, payout, exit, or return.
-- The data room separates public documents from private documents.
-- The data room separates product evidence from product descriptions.
-- The data room separates revenue readiness from confirmed revenue evidence.
-- The data room separates Platform Credit records from FUZE token records.
-- Platform Credits are product usage credits and are separate from FUZE token.
-- The data room classifies stablecoin records by purpose.
-- Stablecoins are payment, settlement, treasury, and compensation rails.
-- Stablecoin balances are not automatic product revenue, approved distributable value, token-holder distribution, payout supply, or public claim value.
-- The data room separates FUZE token materials, circulation records, vault records, custody records, launch mechanics, and wallet-based participation boundaries.
-- Wallet-based participation ability is not a second token, not automatic for every wallet, and not active as a guaranteed public payout right.
-- The data room protects private investor records, customer records, private agreements, private verification records, legal records, accounting records, tax records, confidential technical records, and sensitive security records.
-- FUZE uses wallet-level transparency without public identity exposure.
-- Private verification, if required, stays off-chain, permissioned, access-controlled, and separated from public blockchain records.
-- Risk disclosures are easy to find and direct.
-- Archived materials are not treated as current source of truth.
-- Seed Round discussions are private strategic fundraising conversations, not a public token sale, public investment offer, or public solicitation.
-- Data-room readiness supports investor review, but it does not guarantee investment, product adoption, product revenue, business revenue, token demand, token price, listing, liquidity, market support, trading volume, payout, income, yield, profit, acquisition, exit, smart-contract security, game earnings, or investment return.
-- FUZE does not guarantee investment, valuation, product adoption, product revenue, business revenue, customer growth, user growth, community growth, AI accuracy, token demand, token price, listing, liquidity, market support, trading volume, payout, income, yield, profit, acquisition, exit, smart-contract security, game earnings, or investment return.
+A smaller room built around real diligence questions is more useful than a large speculative directory that implies evidence or completeness where neither has been established.
