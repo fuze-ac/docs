@@ -109,7 +109,7 @@ Reported volume can include arbitrage, bots, repeated transactions, or other act
 
 ---
 
-## 6. CEX-Later Direction
+## 7. CEX-Later Direction
 
 Possible CEX consideration can follow product, token, legal, technical, custody, reporting, operational, and market readiness.
 
@@ -125,13 +125,13 @@ A centralized venue can independently require:
 - security and incident contacts;
 - ongoing reporting and communication.
 
-FUZE cannot control the venue’s timing, decision, jurisdiction coverage, account rules, continued support, or delisting policy.
+FUZE cannot control the venue's timing, decision, jurisdiction coverage, account rules, continued support, or delisting policy.
 
-“CEX later” should not be converted into “listing soon” or a named-venue claim without factual, authorized evidence.
+“CEX later” is a policy direction only. It should not be converted into “listing soon,” “approved,” “confirmed,” or a named-venue claim without factual, authorized, current evidence.
 
----
+----
 
-## 7. CEX Status and Evidence
+## 8. CEX Status and Evidence
 
 Investors should distinguish:
 
@@ -334,7 +334,7 @@ Public notices should distinguish FUZE-controlled actions from third-party marke
 
 ## 17. Reporting
 
-A public-safe market report can state:
+A public-safe market report can state only current, verified, appropriately sourced information such as:
 
 - verified market-access status;
 - network, contract, pair, pool, or venue reference;
@@ -393,18 +393,34 @@ Language to avoid includes:
 
 ---
 
-## 20. Public Boundary
+## 21. Public Boundary
 
-This paper does not announce a DEX route, exchange application, approval, listing, market pair, liquidity amount, market maker, price, buyback, resale route, or investor exit.
+This paper does not announce:
 
-DEX and CEX access can be absent, delayed, restricted, suspended, changed, or discontinued. Users can lose value and may be unable to buy, sell, deposit, withdraw, or recover assets when expected.
+- a DEX route or pool;
+- exchange application, approval, integration, or listing;
+- deposit, withdrawal, or trading support;
+- liquidity amount, depth, volume, spread, or continuity;
+- market maker or liquidity provider;
+- buyback or market-support program;
+- token price or appreciation;
+- resale route or investor exit.
 
-Market access does not establish product adoption, token demand, wallet eligibility, approved distributable value, payout, acquisition, or investment performance.
+DEX and CEX access can be absent, delayed, restricted, suspended, changed, fragmented, or discontinued. Users and investors can lose value and may be unable to buy, sell, deposit, withdraw, transfer, or recover assets when expected.
 
----
+Market access does not establish product adoption, revenue, token demand, wallet eligibility, governance rights, approved distributable value, payout, acquisition, financing completion, or investment performance.
 
-## Conclusion
+Public blockchain balances, pool balances, treasury balances, stablecoin balances, and venue balances do not by themselves establish private ownership, holder entitlement, liquidity obligation, or availability for distribution.
 
-FUZE’s DEX-first and possible CEX-later language is a cautious access sequence. Every stronger claim requires current evidence for the exact route, venue, custody function, and market status.
+----
 
-Investors should separate availability from liquidity, liquidity from price, market access from utility, and token holding from wallet-based participation. That separation is essential to accurate diligence and public communication.
+## Key Takeaways
+
+- FUZE's public market-access direction is DEX-first, with possible CEX consideration later.
+- Direction, preparation, funding, live access, deposits, trading, withdrawals, pauses, and delistings are different statuses.
+- Contract deployment, utility, distribution, custody, market access, and wallet-based participation are independently gated events.
+- A pool or listing does not establish reliable liquidity, price stability, continuous access, or investor exit.
+- DEX and CEX evidence should identify the exact network, contract, route, pair, venue, function, timestamp, source, and limitation.
+- Liquidity operations require approved scope, asset separation, records, monitoring, reconciliation, conflict controls, and stop conditions.
+- Platform Credits, stablecoin rails, FUZE token activity, treasury balances, market balances, and investor rights remain separate categories.
+- Public communication should state only current verified status and should never promise listing, buyers, liquidity, price support, resale, or return.

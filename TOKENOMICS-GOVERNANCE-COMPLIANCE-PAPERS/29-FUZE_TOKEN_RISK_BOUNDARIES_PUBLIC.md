@@ -2,350 +2,531 @@
 
 ## Executive Summary
 
-This paper defines how FUZE identifies, assesses, controls, and communicates risks connected with FUZE token. Its focus is the token operating model: utility, allocations, circulation, markets, custody, technical dependencies, wallet eligibility, governance, treasury interfaces, and public reporting.
+FUZE token is intended to support defined ecosystem utility and participation functions within FUZE's product-first AI SaaS and Web3 direction. Its usefulness depends on product relevance, technical readiness, lawful availability, clear user understanding, secure operations, and evidence that the specific function has been approved and activated.
 
-Risk management does not remove uncertainty. It provides a disciplined way to record material events, assign responsibility, monitor indicators, apply controls, and escalate decisions. Each risk record should distinguish the underlying event, potential exposure, current safeguards, residual risk, accountable owner, and review status.
+This paper defines the public risk boundaries for FUZE token. It covers utility, allocation, release, circulation, custody, smart contracts, market access, liquidity, wallet-based participation, treasury interfaces, governance, privacy, legal change, communication, fraud, and incident response.
 
-FUZE token has a different role from Platform Credits and stablecoin rails. Credits support product consumption, while stablecoins may support approved payment or settlement activity. Keeping those functions distinct reduces accounting and communication confusion without eliminating operational or market risk.
+Risk controls reduce avoidable exposure but cannot remove market uncertainty, technical failure, user error, third-party dependency, legal change, or operational risk. FUZE therefore separates design from implementation, deployment from activation, allocation from circulation, wallet balance from eligibility, and eligibility from any completed participation action.
 
-Token holding does not by itself establish a claim on product revenue, treasury assets, company ownership, or an activated distribution. Any wallet-based participation process depends on separately approved eligibility, value, technical, privacy, reporting, and jurisdiction controls.
+Platform Credits remain product-usage credits and are separate from FUZE token. Stablecoins may support approved payment, settlement, treasury, refund, or compensation workflows. Neither Platform Credits nor stablecoin use creates an automatic token right, return, distribution, or market outcome.
 
-This is a public risk-management framework, not an offer, trading recommendation, legal opinion, or prediction of token performance. Broader product, company, AI, and ecosystem disclosures belong in the [FUZE Risk and Disclosure Appendix](../WHITEPAPER-PAPERS/05-FUZE_RISK_AND_DISCLOSURE_APPENDIX_PUBLIC.md).
+This is a public risk-management framework. It is not an offer, trading recommendation, legal opinion, guarantee of utility, promise of liquidity, or forecast of token performance. Broader product, company, AI, and ecosystem disclosures are maintained in the [FUZE Risk and Disclosure Appendix](../WHITEPAPER-PAPERS/05-FUZE_RISK_AND_DISCLOSURE_APPENDIX_PUBLIC.md).
 
----
+## 1. Purpose and Primary Readers
 
-## 1. Purpose and Scope
+This paper is written primarily for FUZE token participants, product users, investors, partners, operators, reviewers, and community members who need a clear view of token-specific risk.
 
-The purpose of this paper is to make token-specific risk decisions easier to understand and review.
+It is designed to explain:
 
-It covers:
+1. which risks arise from the FUZE token model;
+2. which distinctions prevent misleading conclusions;
+3. which controls may reduce exposure;
+4. which evidence is required before a status can change;
+5. which matters remain outside FUZE's direct control;
+6. how incidents, corrections, and public reporting should be handled.
 
-- token utility and adoption
-- allocation, release, and circulation
-- market price, demand, and venue access
-- liquidity and execution conditions
-- custody, keys, and wallet operations
-- smart contracts and external protocols
-- wallet eligibility and participation records
-- approved distributable value where activated
-- governance and administrative authority
-- treasury and reserve interfaces
-- legal and jurisdiction change
-- data, privacy, and public reporting
-- communications, impersonation, and fraud
-- operational dependencies and incident response
+This paper does not reproduce every product risk. Product-specific risk belongs in the relevant product paper and in [FUZE Product Risk Boundaries](../AI-SAAS-PRODUCT-PAPERS/16-FUZE_PRODUCT_RISK_BOUNDARIES_PUBLIC.md). A product risk belongs here only when it can materially affect token utility, token operations, wallet participation, market communication, or token-related records.
 
-It does not reproduce the full risk profile of every FUZE product. A product risk becomes relevant here only when it can materially affect token utility, an approved token process, or the accuracy of token-related communication.
+## 2. Current Public Position
 
-## 2. Risk Assessment Method
+FUZE begins with useful products and shared platform capabilities. FUZE token is the ecosystem token for defined utility and participation functions where those functions are relevant, approved, technically ready, and activated.
 
-FUZE can maintain a token risk register using qualitative assessments rather than presenting speculative financial forecasts.
+At the public-documentation level, token papers describe policies, architecture, controls, and intended mechanisms. Documentation alone does not prove:
 
-### 2.1 Required Risk Record
+- deployment of a verified token contract;
+- release or circulation of an allocation;
+- active product-connected utility;
+- an open wallet-participation process;
+- approved distributable value;
+- live DEX or CEX access;
+- available liquidity;
+- adoption, revenue, payout, or market demand.
 
-Each material record should contain:
+Any current status must come from a dated controlling record and matching evidence.
 
-| Field | Purpose |
+## 3. Core Risk Principles
+
+FUZE token risk management follows six principles.
+
+### 3.1 Product value comes first
+
+Token utility should connect to a real product or ecosystem action. Token language should not substitute for product evidence or user value.
+
+### 3.2 Status must match evidence
+
+Concept, design, prototype, implementation, testing, deployment, activation, public access, usage, and commercial evidence are different states.
+
+### 3.3 Separate records must remain separate
+
+Allocation, custody, release, circulation, eligibility, approved value, claims, and completed actions should not be collapsed into one label.
+
+### 3.4 Control does not eliminate uncertainty
+
+Governance, multisignature, monitoring, audits, and procedures can reduce risk but cannot guarantee technical, legal, operational, or market outcomes.
+
+### 3.5 Public transparency must protect identity and security
+
+Wallet-level or aggregate reporting can support review without exposing wallet-to-person mappings, private records, signer identities, credentials, or exploitable procedures.
+
+### 3.6 External decisions remain external
+
+Venues, custodians, networks, regulators, counterparties, stablecoin issuers, and users control decisions and events that FUZE cannot guarantee.
+
+## 4. Token Risk Register
+
+FUZE may maintain a controlled token risk register for material risks.
+
+| Field | Required treatment |
 |---|---|
-| Risk ID | Provides a stable reference for review and follow-up |
-| Category | Groups related events without hiding the specific cause |
-| Event | States what could happen in concrete terms |
-| Exposure | Describes the affected process, users, records, or assets |
-| Indicators | Identifies observable signs that conditions are changing |
-| Controls | Lists preventive, detective, and corrective safeguards |
-| Owner | Assigns responsibility for monitoring and response |
-| Residual assessment | Records the exposure remaining after controls |
-| Status | Shows whether the item is open, monitored, escalated, or closed |
-| Review date | Establishes when the assessment must be reconsidered |
+| Risk reference | Stable identifier for review and follow-up |
+| Category | Utility, allocation, market, custody, technical, participation, treasury, legal, privacy, governance, or communication |
+| Event | Concrete description of what may happen |
+| Exposure | Affected users, assets, records, processes, products, or obligations |
+| Evidence and indicators | Current facts and observable warning signs |
+| Preventive controls | Measures intended to reduce likelihood |
+| Detective controls | Monitoring, reconciliation, alerts, or review |
+| Corrective controls | Pause, recovery, correction, replacement, or communication actions |
+| Owner | Accountable function or approved role |
+| Likelihood and impact | Supported qualitative assessment |
+| Residual risk | Exposure remaining after current controls |
+| Status | Open, monitored, escalated, accepted, paused, mitigated, or closed |
+| Review trigger and date | Scheduled or event-driven reassessment |
+| Information class | Public summary, permissioned, confidential, or restricted |
 
-Risk owners may include product, technical, treasury, operations, compliance, communications, or governance functions. Assignment identifies accountability; it does not imply that one team can control external market or regulatory events.
+A risk rating should explain its basis. A low, medium, or high label without evidence, scope, and review context is insufficient.
 
-### 2.2 Likelihood and Impact
+## 5. Utility and Product-Connection Risk
 
-Likelihood may be assessed as low, medium, or high based on current evidence and operating conditions. Impact may use the same scale across user access, financial operations, legal exposure, technical continuity, privacy, and reputation.
+FUZE token utility may depend on product availability, user demand, technical integration, jurisdiction, custody, permissions, and practical usability.
 
-The assessment should explain the reason for a rating. A label without evidence or review context is not sufficient.
+Material risks include:
 
-Residual risk is the exposure that remains after current controls. It should be reconsidered when:
+- a planned utility being delayed, narrowed, redesigned, or discontinued;
+- a product not reaching the status required for token connection;
+- token use adding friction without improving the user workflow;
+- users preferring ordinary product-payment methods;
+- inconsistent terminology causing confusion between token utility and Platform Credits;
+- a custody or jurisdiction model preventing access;
+- a technical dependency making a utility unreliable;
+- product adoption differing from expectations.
 
-- a token mechanism changes
-- a new venue, custodian, protocol, or jurisdiction becomes relevant
-- allocation or release conditions change
-- a material incident occurs
-- monitoring signals move outside an approved range
-- public wording no longer matches operational reality
+Useful evidence can include implemented integrations, successful token-enabled actions, error rates, support issues, repeat use, user feedback, and jurisdiction availability. These records support operating assessment; they do not predict token demand or market price.
 
-## 3. Token Utility and Adoption
+Controls may include staged activation, product-level testing, permission checks, user notices, fallback workflows, rollback capability, and periodic utility review.
 
-FUZE token is intended to serve ecosystem-level functions. The usefulness of any function depends on product relevance, technical readiness, user understanding, lawful availability, and practical integration.
+## 6. Platform Credits and Stablecoin Separation
 
-Utility risk includes:
+Platform Credits are product-usage credits. They may support consumption of approved FUZE products and services where implemented. They are not interchangeable with FUZE token and should not be presented as freely tradable investment assets.
 
-- a planned use being delayed, narrowed, or discontinued
-- users preferring ordinary product payment methods
-- poor integration creating unnecessary friction
-- inconsistent terminology causing users to misunderstand a feature
-- a dependency making utility unavailable in a region or custody model
-- product adoption developing differently from expectations
+Stablecoins may support approved payment, settlement, treasury, refund, or compensation workflows. Stablecoin-related risks can include:
 
-Useful indicators include active integrations, successful token-enabled actions, support requests, failed transactions, feature retention, and jurisdiction availability. These indicators should be interpreted as operating evidence, not as forecasts of market demand.
+- issuer or reserve risk;
+- loss of price stability;
+- network and bridge risk;
+- custody or counterparty failure;
+- liquidity limitations;
+- sanctions or account restrictions;
+- transaction errors;
+- accounting and tax treatment;
+- operational reconciliation failure.
 
-Controls may include staged activation, product-level testing, clear user notices, feature-specific permissions, rollback procedures, and periodic utility review. A proposed use should not be described as active before its required controls are ready.
+A stablecoin balance is not proof of product revenue, distributable value, token utility, or participant entitlement.
 
-## 4. Allocation, Release, and Circulation
+## 7. Allocation, Release, and Circulation Risk
 
-Allocation records establish purpose, control, and accountability for defined token pools. The main risks are unauthorized movement, release outside approved conditions, inaccurate classification, concentration, and public reporting that does not match authoritative records.
+Allocation records establish approved purposes and quantities. They do not by themselves prove that tokens are released, transferred, circulating, sold, or available to users.
 
-Relevant controls include:
+Risks include:
 
-- approved allocation definitions
-- role-based authorization
-- transaction review thresholds
-- vault and wallet reconciliation
-- release schedules or decision records
-- separation of preparation, approval, and execution duties
-- exception logs
-- periodic public-safe reporting
+- movement outside the approved mandate;
+- release before required conditions are satisfied;
+- incorrect allocation classification;
+- concentration in a small number of controlled or external wallets;
+- unreconciled differences between policy records and on-chain balances;
+- public reporting that mistakes internal transfers for circulation;
+- failure to record returned, recovered, locked, or reclassified tokens.
 
-Circulation data must be read with care. A transfer can reflect custody, operational setup, internal control, liquidity preparation, or another approved purpose. It should not automatically be interpreted as a sale, user distribution, or change in beneficial ownership.
+Controls may include:
 
-Material discrepancies should pause affected releases until the authoritative record and on-chain evidence are reconciled.
+- controlling allocation records;
+- vault-specific mandates;
+- role-based authorization;
+- transaction limits and destination verification;
+- separation of proposal, approval, signing, and reconciliation;
+- vesting and release records;
+- exception logs;
+- periodic on-chain and ledger reconciliation;
+- public-safe reporting with explicit dates and methods.
 
-## 5. Market and Liquidity Exposure
+A transfer may represent custody setup, internal control, liquidity preparation, vesting, migration, or another approved purpose. It should not be described as a sale, distribution, or change in beneficial ownership without supporting evidence.
 
-Token markets are influenced by participant behavior, available venues, trading depth, spreads, volatility, external events, custody support, and regulation. FUZE cannot control all of these conditions.
+## 8. Treasury, Vault, and Reserve Risk
 
-### 5.1 Price and Demand
+Token allocations, treasury assets, stablecoin balances, operating reserves, and approved distributable value are separate records.
 
-Product progress, community activity, or new utility may be relevant to public understanding, but none determines a particular market outcome. Demand may change rapidly and may not correspond to operating milestones.
+Risks include:
 
-Monitoring can include volatility, concentration, abnormal transfers, spreads, depth, execution failures, public misinformation, and changes in venue support. Monitoring is for risk awareness and operational response; it is not a commitment to defend a price.
+- assets being used outside their approved purpose;
+- inaccurate or stale balance reporting;
+- insufficient operating reserves;
+- incompatible custody or network treatment;
+- unauthorized access or transfer;
+- incorrect accounting classification;
+- treasury assets being presented publicly as available for distribution;
+- concentration with a single custodian, signer set, protocol, or stablecoin.
 
-### 5.2 Liquidity and Execution
+Controls should define purpose, authority, custody, limits, reconciliation, reporting, emergency action, and asset return. Public visibility of a wallet or vault balance does not establish that the balance is released, circulating, liquid, or available to participants.
 
-Available liquidity may be insufficient for a desired trade size or timing. Slippage, failed transactions, network congestion, pool imbalance, venue interruption, and withdrawal restrictions can affect execution.
+## 9. Market Price and Demand Risk
 
-Where FUZE supports an approved liquidity operation, records should identify:
+FUZE token price and demand may be influenced by product progress, participant behavior, market sentiment, available venues, liquidity, concentration, macroeconomic events, regulation, third-party commentary, and events unrelated to FUZE operations.
 
-- the approved purpose
-- authorized assets and limits
-- venue or protocol
-- execution authority
-- custody arrangement
-- monitoring requirements
-- reconciliation method
-- incident and suspension conditions
+Product progress, community activity, documentation, partnerships, or new utility may be relevant context, but none determines a particular market outcome.
 
-Liquidity activity must remain separate from claims of assured exit or continuous market access.
+Risks include:
 
-### 5.3 Venue Access
+- material volatility;
+- limited or changing demand;
+- concentrated holdings or activity;
+- misinformation or speculation;
+- price differences across venues;
+- low-quality or manipulated volume;
+- external market shocks;
+- market expectations moving ahead of product evidence.
 
-Market access may begin through decentralized venues where technically and legally appropriate. Any later centralized venue access would depend on independent review, acceptance, integration, compliance, custody, and operational readiness.
+Monitoring may include volatility, concentration, abnormal transfers, venue conditions, spread, depth, execution failures, and public misinformation. Monitoring is for operational awareness and risk response; it is not a commitment to defend or support a market price.
 
-No public statement should imply that an application, discussion, technical preparation, or third-party reference constitutes an approved listing.
+The [FUZE Market Price and Demand Boundary](22-FUZE_MARKET_PRICE_AND_DEMAND_BOUNDARY_PUBLIC.md) controls detailed market-language boundaries.
 
-## 6. Custody and Wallet Operations
+## 10. Liquidity and Execution Risk
 
-Self-custody, exchange custody, institutional custody, and smart-contract custody expose users to different risks.
+Liquidity describes available execution capacity for a defined venue, time, size, spread, and price impact. It can change quickly.
 
-Self-custody risks include lost credentials, compromised devices, malicious approvals, address errors, and irreversible transfers. Custodial risks include account restrictions, insolvency, service outages, withdrawal delays, record mismatch, and limited visibility into beneficial ownership.
+Risks include:
 
-FUZE controls should match the custody model. They may include:
+- insufficient depth for a desired trade;
+- high slippage or spread;
+- failed or delayed transactions;
+- pool imbalance or concentrated-liquidity range failure;
+- network congestion and gas costs;
+- venue interruption;
+- deposit or withdrawal suspension;
+- smart-contract or router failure;
+- liquidity-provider withdrawal;
+- impermanent-loss exposure;
+- inaccurate or misleading liquidity metrics.
 
-- wallet allowlists for controlled operations
-- multi-party authorization
-- hardware-backed key storage
-- transaction simulation and address verification
-- withdrawal delays for sensitive actions
-- access reviews and key rotation
-- custody-provider diligence
-- reconciliation between internal and on-chain records
-- incident recovery procedures
+Where FUZE supports an approved liquidity operation, the record should identify the approved purpose, token inventory, pairing capital, venue, custody, authority, limits, monitoring, reconciliation, incident conditions, and withdrawal route.
 
-FUZE cannot recover a user's private key or reverse a completed blockchain transaction merely because the result was unintended.
+Liquidity operations do not guarantee continuous access, resale, depth, price stability, or exit. The [FUZE Liquidity and Listing Policy](21-FUZE_LIQUIDITY_AND_LISTING_POLICY_PUBLIC.md) controls market-structure readiness and reporting.
 
-## 7. Smart Contracts and Protocol Dependencies
+## 11. Market-Access and Venue Risk
 
-Smart contracts can improve consistency and auditability, but code can fail or behave unexpectedly. Risks include implementation defects, incorrect permissions, upgrade misuse, oracle failure, dependency changes, network congestion, bridge exposure, and user interaction with a false contract.
+FUZE's public direction is DEX-first where technical, legal, treasury, security, liquidity, and operational readiness support an approved deployment. Possible later CEX access remains subject to separate venue evaluation and acceptance.
 
-Before a material token mechanism is activated, review should address:
+Risks include:
 
-- contract scope and supported actions
-- privileged roles and administrative limits
-- testing and independent review where appropriate
-- deployment and verification records
-- pause or containment capability
-- upgrade process
-- dependency and oracle assumptions
-- monitoring and alerting
-- user-facing contract identification
-- incident communication
+- a planned venue not being approved or activated;
+- a pool existing without useful depth or routing;
+- venue, interface, or aggregator delisting;
+- unsupported deposits or withdrawals;
+- custody or network incompatibility;
+- jurisdiction restrictions;
+- venue insolvency, outage, compromise, or policy change;
+- public statements overstating the current stage.
 
-Technical deployment alone does not activate a legal, treasury, eligibility, or distribution decision. The operating record must show that all required gates have been approved.
+Planning, preparation, discussion, application, review, approval, scheduling, and live access are different states. No discussion, application, integration step, third-party reference, or technical preparation should be described as a confirmed listing.
 
-## 8. Wallet Eligibility and Participation
+## 12. Custody and Wallet-Operation Risk
 
-Wallet-based participation is a conditional mechanism, not a general attribute of token ownership. A process may require a defined eligibility population, snapshot method, exclusions, approval record, privacy controls, technical readiness, and claim or correction workflow.
+Self-custody, exchange custody, institutional custody, multisignature custody, and smart-contract custody create different risks.
 
-Risk events include:
+Self-custody risks include lost credentials, compromised devices, malicious approvals, phishing, address errors, unsupported networks, and irreversible transfers.
 
-- an ineligible wallet being included
-- an eligible wallet being omitted
-- duplicate or manipulated claims
-- custody records failing to identify beneficial holders
-- snapshot timing producing disputed results
-- restricted information appearing in public reporting
-- approved value being calculated or communicated incorrectly
-- activation occurring before all gates are complete
+Custodial risks include account restriction, insolvency, outage, withdrawal delay, internal-ledger error, beneficial-ownership ambiguity, privacy exposure, and dependence on third-party cooperation.
 
-Controls should preserve a distinction between:
+Controlled-operation safeguards may include:
 
-1. a wallet balance
-2. an eligibility record
-3. an approved participation amount
-4. an activated claim
-5. a completed distribution record
+- multisignature authorization;
+- hardware-backed key storage;
+- role separation;
+- destination verification;
+- transaction simulation;
+- transfer limits or delays;
+- access reviews and key rotation;
+- custody-provider diligence;
+- internal and on-chain reconciliation;
+- tested incident and authority-replacement procedures.
 
-These states should not be collapsed into one public label.
+FUZE cannot recover a user's private key or reverse a completed blockchain transaction merely because the result was unintended. Exchange listing, custody, trading, withdrawal, snapshot, and wallet-participation support remain separate capabilities.
 
-For detailed mechanics, see the [FUZE Wallet-Based Participation Model](07-FUZE_WALLET_BASED_PARTICIPATION_MODEL_PUBLIC.md) and [Wallet-Based Privacy and Eligibility](26-FUZE_WALLET_BASED_PRIVACY_AND_ELIGIBILITY_PUBLIC.md).
+Detailed custody treatment is maintained in [FUZE Exchange Custody and Wallet Participation](27-FUZE_EXCHANGE_CUSTODY_AND_WALLET_PARTICIPATION_PUBLIC.md).
 
-## 9. Approved Value and Treasury Interfaces
+## 13. Smart-Contract and Protocol Risk
 
-Product revenue, treasury balances, stablecoin holdings, and approved distributable value are separate records. A balance visible in a treasury or vault does not establish that it is available for distribution.
+Smart contracts can improve consistency and public inspectability, but code and dependencies can fail.
 
-Where a distributable value is considered, the decision record should identify:
+Risks include:
 
-- the source period and authoritative accounts
-- operating costs, obligations, reserves, and exclusions
-- responsible reviewers
-- approval authority
-- eligible population
-- timing and claim conditions
-- accounting and tax treatment where applicable
-- reporting and correction procedures
+- implementation defects;
+- incorrect roles or permissions;
+- upgrade or administrative misuse;
+- oracle or pricing failure;
+- network congestion or reorganization;
+- bridge or wrapped-asset exposure;
+- external protocol changes;
+- incompatible wallets or interfaces;
+- false contract addresses and phishing;
+- incomplete monitoring or incident response.
 
-The process should stop if source data is incomplete, approvals conflict, or technical and legal conditions are not ready.
+Before a material mechanism is activated, review should address scope, tests, independent review where appropriate, deployment verification, privileged roles, pause capability, upgrade rules, dependencies, monitoring, user-facing identifiers, and recovery procedures.
 
-Stablecoins may be used for an approved payment, settlement, treasury, or compensation process. Their use introduces issuer, custody, depegging, network, liquidity, sanctions, and operational risks. Stablecoin use does not change the eligibility or approval requirements of an underlying process.
+A deployed or verified contract may remain inactive. Technical readiness does not satisfy legal, treasury, eligibility, accounting, privacy, governance, or reporting gates.
 
-## 10. Governance and Administrative Authority
+## 14. Wallet Eligibility and Participation Risk
 
-Token-related governance must define who can propose, review, approve, execute, pause, and report a decision. Ambiguous authority increases the risk of unauthorized action and weak accountability.
+Wallet-based participation ability is an activation-gated framework for eligible FUZE-holding wallets where supported and approved. It is not a universal property of token ownership.
 
-Controls should address:
+Risks include:
 
-- role definitions
-- approval thresholds
-- conflicts of interest
-- emergency authority
-- time-limited permissions
-- decision evidence
-- independent review for sensitive actions
-- public and restricted reporting layers
-- periodic access recertification
+- an ineligible wallet being included;
+- an eligible wallet being omitted;
+- duplicate or manipulated records;
+- exchange custody failing to identify beneficial holders;
+- disputed snapshot timing;
+- incorrect wallet categorization;
+- restricted identity or account data being exposed;
+- approved value being calculated or communicated incorrectly;
+- a claim route being activated before required gates are complete;
+- corrections not reaching downstream records.
 
-Community input may inform ecosystem direction where a process is activated. It does not replace company, legal, technical, treasury, or operational responsibilities.
+The operating model must preserve these separate states:
 
-## 11. Legal and Jurisdiction Change
+1. FUZE token balance;
+2. process-specific snapshot record;
+3. control or beneficial-ownership evidence;
+4. eligibility decision;
+5. approved participation amount where applicable;
+6. activated claim or action;
+7. completed and reconciled record.
 
-Token availability, communications, custody, venue support, eligibility, and distribution processes may be affected by changing laws, rules, guidance, or third-party compliance requirements.
+A wallet balance alone does not establish eligibility, approved value, claimability, payment, or completion.
 
-Relevant monitoring includes:
+Detailed mechanics are maintained in [FUZE Wallet-Based Participation Model](07-FUZE_WALLET_BASED_PARTICIPATION_MODEL_PUBLIC.md), [FUZE Participation Activation Gates](08-FUZE_PARTICIPATION_ACTIVATION_GATES_PUBLIC.md), and [FUZE Wallet-Based Privacy and Eligibility](26-FUZE_WALLET_BASED_PRIVACY_AND_ELIGIBILITY_PUBLIC.md).
 
-- jurisdiction-specific restrictions
-- changes to venue or custodian requirements
-- financial promotion and consumer communication rules
-- tax and accounting treatment
-- sanctions and screening obligations
-- privacy and record-retention duties
-- classification or licensing developments
+## 15. Approved Distributable Value Risk
 
-A material change may require geographic restriction, revised wording, added verification, delayed activation, suspension, or redesign. Public documents should describe current approved operation and avoid presenting legal treatment as universal or permanent.
+Approved distributable value may be used only for a specifically approved amount under an activated process after applicable accounting, reserve, governance, legal, technical, privacy, and operating review.
 
-## 12. Data, Privacy, and Reporting
+It must remain separate from:
 
-On-chain transparency does not require publication of personal identity. Public reporting should use wallet-level or aggregated information where that is sufficient for verification.
+- gross product revenue;
+- token-sale or fundraising receipts;
+- treasury or vault balances;
+- forecasts;
+- unreconciled payments;
+- stablecoin holdings;
+- unapproved calculations;
+- general token ownership.
 
-Restricted records may include identity evidence, contact details, custody statements, tax information, support cases, security logs, and internal approvals. Access should be purpose-limited, logged, and retained only as required by the applicable process.
+Risks include incorrect source records, omitted costs or obligations, reserve shortfalls, duplicate eligibility, tax or accounting error, premature communication, technical failure, and inconsistent corrections.
 
-Reporting risk arises when:
+A process should stop or remain inactive when source data is incomplete, required approvals conflict, reserves are unresolved, eligible records cannot be reconciled, or legal and technical conditions are not ready.
 
-- public figures use inconsistent source dates
-- wallet labels reveal more than intended
-- internal and on-chain records diverge
-- preliminary values are presented as final
-- corrections are not linked to the affected report
-- confidential evidence is exposed during a dispute
+## 16. Governance and Administrative Risk
 
-Each report should identify its scope, source period, status, and material limitations. Corrections should preserve an auditable history without retaining unnecessary personal data in public.
+Token governance must identify who can propose, review, approve, execute, pause, upgrade, reconcile, and report each action.
 
-## 13. Communications, Fraud, and Impersonation
+Risks include:
 
-Token communications can create risk even when the underlying operation is sound. Headline language, visual emphasis, social posts, partner references, and third-party summaries may overstate what has been approved.
+- unclear or overlapping authority;
+- compromised or unavailable signers;
+- excessive administrative power;
+- conflicts of interest;
+- emergency authority without review;
+- stale permissions;
+- incomplete decision evidence;
+- governance language implying powers that are not active;
+- community input being mistaken for final company or legal authority.
 
-Public communications should distinguish:
+Controls may include role definitions, approval thresholds, multisignature, timelocks, limited permissions, conflict disclosure, independent review, decision records, access recertification, and public-safe reporting.
 
-- planned from active
-- technically available from operationally approved
-- submitted from accepted
-- monitored from supported
-- eligible from claimable
-- indicative from final
+Multisignature and timelock controls reduce certain execution risks but do not resolve legal, operational, economic, or security risk by themselves.
 
-FUZE should maintain verified communication channels and publish contract or wallet identifiers only through controlled sources. Reports of impersonation, false support accounts, fraudulent addresses, or fabricated venue announcements should be triaged promptly.
+## 17. Legal, Regulatory, and Jurisdiction Risk
 
-Marketing review cannot prevent all third-party misrepresentation. It can reduce ambiguity in FUZE-controlled material and provide a reliable correction source.
+Token utility, communication, custody, market access, participation, payments, and reporting may be affected by changing laws, rules, guidance, regulator interpretation, or third-party compliance requirements.
 
-## 14. Monitoring, Incidents, and Escalation
+Relevant risk areas include:
+
+- token classification;
+- financial promotion and advertising;
+- consumer protection;
+- securities, payment, custody, exchange, or virtual-asset regulation;
+- sanctions and screening;
+- tax and accounting;
+- privacy and record retention;
+- gaming or reward mechanics;
+- jurisdiction-specific product availability;
+- age, identity, or qualification requirements.
+
+A material change may require narrower communication, geographic restriction, added verification, delayed activation, suspension, redesign, or termination of a process.
+
+FUZE public papers should describe the current approved position and should not present legal treatment as universal, permanent, or guaranteed.
+
+## 18. Privacy and Data Risk
+
+Blockchain transparency does not require public personal identity.
+
+Permissioned or restricted records may include identity evidence, contact information, custody statements, jurisdiction results, tax records, support cases, security logs, private agreements, signer information, and wallet-to-person mappings.
+
+Risks include:
+
+- publishing identity beside a wallet without authorization;
+- collecting more data than the process requires;
+- unauthorized access or export;
+- inaccurate wallet-person linkage;
+- excessive retention;
+- public dispute handling exposing private evidence;
+- a correction leaving sensitive information visible;
+- a third party re-identifying an individual from combined data.
+
+Controls should include purpose limitation, minimum-field collection, role-based access, logging, secure transfer, retention rules, correction processes, incident response, and aggregate or hashed public reporting where appropriate.
+
+## 19. Reporting and Evidence Risk
+
+Public reporting can become misleading when source dates, status, calculation methods, wallet labels, or evidence classes are inconsistent.
+
+Risks include:
+
+- preliminary data being presented as final;
+- allocation being reported as circulation;
+- deployment being reported as activation;
+- a screenshot or demonstration being reported as live operation;
+- internal and on-chain records diverging;
+- stale market or status information remaining public;
+- corrections not updating all affected channels;
+- confidential records being exposed as evidence.
+
+Each material report should identify its scope, period, source, method, status, owner, limitations, and correction history. Public reporting should provide enough evidence to understand the claim without exposing restricted data or security procedures.
+
+## 20. Communication, Fraud, and Impersonation Risk
+
+Token-related communication can create risk even when the underlying system is correctly designed.
+
+Public wording must distinguish:
+
+- planned from active;
+- design from implementation;
+- deployed from activated;
+- allocated from circulating;
+- monitored from supported;
+- submitted from approved;
+- approved from live;
+- eligible from claimable;
+- indicative from final.
+
+FUZE should maintain verified publication channels and release contract, wallet, venue, and claim identifiers only through controlled sources.
+
+Relevant threats include false support accounts, fabricated listings, fraudulent contract addresses, impersonated team members, phishing links, counterfeit claim pages, altered screenshots, fake partnerships, and messages promising guaranteed returns or access.
+
+FUZE-controlled communication cannot prevent all third-party deception, but accurate official records, rapid correction, and clear verification routes can reduce ambiguity.
+
+## 21. Operational Dependency Risk
+
+Token operations may rely on networks, wallets, custodians, exchanges, decentralized protocols, stablecoins, analytics providers, identity services, cloud infrastructure, or communication platforms.
+
+Risks include outage, policy change, data error, service termination, compromise, incompatible upgrade, jurisdiction restriction, cost increase, and loss of required support.
+
+For material dependencies, FUZE should record:
+
+- purpose and owner;
+- service and network scope;
+- data and asset exposure;
+- failure mode;
+- monitoring and support route;
+- alternative or recovery path;
+- contractual and jurisdiction treatment;
+- effect on public status.
+
+A third-party failure can require a pause or status change even when FUZE-controlled components remain operational.
+
+## 22. Monitoring and Escalation
 
 Token risk monitoring should combine scheduled review with event-driven escalation.
 
-Examples of escalation triggers include:
+Escalation triggers may include:
 
-- unauthorized or unexplained token movement
-- material reconciliation variance
-- suspected key compromise
-- smart-contract anomaly
-- prolonged venue or network interruption
-- abnormal claim activity
-- privacy exposure
-- significant regulatory change
-- misleading public statement from an official channel
-- failure of an approval or reporting control
+- unauthorized or unexplained token movement;
+- material reconciliation variance;
+- suspected key or account compromise;
+- smart-contract anomaly;
+- prolonged network, venue, custody, or withdrawal interruption;
+- abnormal claim or eligibility activity;
+- liquidity or execution conditions outside approved limits;
+- privacy or restricted-data exposure;
+- significant legal or jurisdiction change;
+- misleading communication from an official channel;
+- failure of an approval, reporting, or segregation control.
 
-The initial response should protect evidence, contain affected operations where possible, identify accountable decision-makers, and establish a communication path. Depending on the event, actions may include pausing a contract, restricting an administrative role, suspending a claim process, correcting a report, notifying affected parties, or commissioning independent review.
+The initial response should preserve evidence, contain affected operations where possible, identify accountable decision-makers, and establish a communication route.
 
-Closure requires more than restoration of service. The record should document root cause, impact, completed corrections, residual exposure, and any control change assigned for follow-up.
+Possible responses include pausing a function, restricting an administrative role, stopping a transfer or release, suspending a claim process, correcting a report, rotating authority, notifying affected parties, or commissioning specialist review.
 
-## 15. Public Risk Register Summary
+## 23. Incident Closure and Correction
 
-A public summary may present material token risks without exposing security procedures, personal records, commercial negotiations, or privileged analysis.
+Restoring service does not by itself close a risk incident.
 
-| Category | Example Public Indicator | Typical Control Direction |
+The closure record should identify:
+
+- event and timeline;
+- affected assets, users, records, and processes;
+- immediate containment;
+- root cause;
+- verified impact;
+- completed recovery and reconciliation;
+- public and private notices;
+- residual exposure;
+- control improvements;
+- accountable owner and approval;
+- follow-up review date.
+
+Corrections should preserve audit history while avoiding republication of private evidence, personal identity, signer information, or security-sensitive detail.
+
+## 24. Public Risk Reporting
+
+A public token-risk summary may include:
+
+| Category | Public evidence or indicator | Control direction |
 |---|---|---|
-| Utility | integration status and usage evidence | staged activation and product review |
-| Allocation | reconciled balances and release status | authorization and vault controls |
-| Market | venue availability and operating incidents | monitoring and careful communications |
-| Custody | supported custody modes and incident notices | key, provider, and reconciliation controls |
-| Technical | verified deployments and material disruptions | testing, monitoring, and containment |
-| Participation | process status and eligibility scope | approval gates and correction workflow |
-| Treasury | approved process status | accounting, reserves, and authorization |
-| Privacy | reporting scope and disclosed incidents | minimization and access control |
-| Governance | decision status and authority | role separation and evidence |
+| Utility | product connection and activation status | staged implementation and product review |
+| Allocation | reconciled balances and release classification | authorization and vault controls |
+| Market | verified venue status and material incidents | monitoring and controlled communication |
+| Liquidity | dated depth, spread, slippage, or pool context where approved | limits, reconciliation, and withdrawal controls |
+| Custody | supported custody modes and public-safe incidents | key, provider, and reconciliation controls |
+| Technical | verified deployments and material disruptions | testing, monitoring, pause, and recovery |
+| Participation | framework and process status | activation gates, privacy, and correction workflow |
+| Treasury | approved process and asset classification | accounting, reserve, custody, and authority controls |
+| Privacy | reporting scope and disclosed incidents | minimization, access control, and aggregation |
+| Governance | decision and authority status | role separation, evidence, multisignature, and timelock where applicable |
 
-The level of detail should reflect materiality and public usefulness. Publishing sensitive control information can create additional risk and is not required for meaningful transparency.
+Public reporting should be proportionate to materiality and usefulness. FUZE should not publish credentials, private keys, signer identities, exploitable procedures, restricted risk-register detail, private counterparties, customer identity, or confidential negotiations.
 
-## 16. Reader Boundary
+## 25. Reader Boundary
 
-Readers should evaluate token activity in light of their own circumstances, custody arrangements, jurisdiction, and risk tolerance. Historical activity, technical readiness, product adoption, allocation records, or community interest should not be treated as a forecast of future market conditions.
+Readers should evaluate FUZE token activity according to their own circumstances, jurisdiction, custody method, technical understanding, and risk tolerance.
 
-FUZE may revise a mechanism when operating evidence, law, security, or ecosystem needs change. A public paper records the approved position at publication; the authoritative status of a live process depends on its current notices and operating records.
+Historical activity, product progress, documentation, allocation records, technical readiness, community interest, partnerships, or market observations should not be treated as a forecast of future utility, liquidity, price, adoption, income, return, or availability.
 
-## 17. Conclusion
+FUZE may revise, delay, pause, narrow, replace, or retire a mechanism when evidence, law, security, product priorities, treasury conditions, or ecosystem needs change. A public paper records an approved position; the authoritative state of a live process depends on its latest dated operating notice and evidence.
 
-FUZE token risk management is an ongoing control process. It requires specific records, accountable owners, observable indicators, proportionate safeguards, clear activation states, and disciplined public language.
+## Key Takeaways
 
-The strongest boundary is operational clarity: product use is not market performance, custody is not beneficial ownership, a wallet balance is not eligibility, eligibility is not an activated claim, and a treasury balance is not approved distributable value.
-
-By maintaining these distinctions, FUZE can develop token utility and ecosystem infrastructure while giving public readers a more accurate account of uncertainty, control, and responsibility.
+- FUZE token utility depends on real product relevance, readiness, approval, and activation.
+- Platform Credits, FUZE token, stablecoins, treasury assets, and approved distributable value are separate records.
+- Allocation is not release, release is not circulation, deployment is not activation, and a wallet balance is not eligibility.
+- Market price, demand, liquidity, listing, and resale remain uncertain and cannot be guaranteed.
+- Self-custody, exchange custody, institutional custody, and smart-contract custody create different evidence and operational risks.
+- Wallet-based participation requires process-specific eligibility, privacy, governance, technical, accounting, legal, and reporting controls.
+- Public transparency should provide useful evidence without exposing personal identity, private records, signer information, or security-sensitive procedures.
+- Risk management is an ongoing process of ownership, monitoring, escalation, correction, and review; it does not remove uncertainty.

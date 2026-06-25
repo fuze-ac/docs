@@ -1,4 +1,4 @@
-# FUZE Risk and Disclosure Appendix Public
+# FUZE Risk and Disclosure Appendix
 
 ## Executive Summary
 
@@ -8,7 +8,7 @@ This appendix consolidates the principal public risk domains across the FUZE eco
 
 The appendix is designed to prevent long disclaimer lists from being repeated across ordinary product, partner, investor, website, and technical papers. Those papers should explain their main purpose and refer here for the broader treatment.
 
-This is public explanatory material. It is not an offer, recommendation, professional opinion, assurance, audit, certification, or prediction of outcomes.
+This is public explanatory material. It is not an offer, solicitation, recommendation, professional opinion, assurance, audit, certification, legal conclusion, investment analysis, or prediction of outcomes. Publication of this appendix does not establish that any product, control, contract, token function, wallet process, custody route, market route, financing, partnership, or reporting mechanism is implemented, active, approved, or independently reviewed.
 
 ---
 
@@ -29,19 +29,26 @@ Risk assessments should therefore identify accountable owners and dependencies r
 
 FUZE papers describe several evidence states:
 
-- direction or intended design
+- direction or documented intent
 - planned work
 - active development
-- review or preparation
-- technical readiness
-- approved operation
-- activated mechanism
-- available product or service
-- paused or retired operation
+- configured or prepared
+- tested or demonstrated
+- pilot or limited external use
+- reviewed or technically ready
+- approved for a defined scope
+- released or activated
+- operating
+- completed paid delivery
+- reconciled period result
+- renewed or expanded
+- paused, restricted, corrected, retired, or closed
 
 Readers should use the narrowest stated status. A roadmap is not proof of delivery. A prototype is not production availability. A signed agreement is not necessarily completed integration. A contract deployment is not activation of every process that could use it.
 
 Public claims can become outdated as products, providers, laws, markets, or operating decisions change. Current notices and authoritative records control live status.
+
+Evidence states are not interchangeable. A demo is not a production release. A pilot is not recurring adoption. A payment is not completed delivery. Completed delivery is not reconciled revenue. One successful period is not renewal or durable scale. Technical readiness does not establish legal, treasury, custody, reporting, or market readiness.
 
 ## 3. Company and Execution Risk
 
@@ -168,6 +175,15 @@ Product use may not convert into recurring revenue or sustainable margins. Reven
 
 Forecasts and pipeline figures depend on assumptions. They should be distinguished from contracted, collected, and recognized amounts.
 
+Commercial records should preserve the sequence:
+
+```text
+offer -> order -> payment -> fulfillment -> adjustment
+-> completed paid delivery -> repeat use -> period reconciliation
+```
+
+Each stage supports a different claim. Payment alone does not establish fulfillment, completed paid delivery, recognized revenue, profitability, or recurring demand.
+
 Controls include:
 
 - product-level unit economics
@@ -191,6 +207,8 @@ Stablecoins introduce additional issuer, depegging, custody, network, liquidity,
 Controls should match the payment route and may include idempotency, confirmation rules, transaction limits, classification, reconciliation, refunds, provider diligence, custody controls, and accounting review.
 
 Platform Credit balances, customer payments, stablecoin holdings, product revenue, treasury funds, and token allocations remain separate records.
+
+Platform Credits are product-consumption units. They are not FUZE token, equity, investment rights, revenue sharing, or a promise of future value. Stablecoins are operational payment and settlement rails where supported; the underlying business purpose controls classification.
 
 ## 12. Token Risk
 
@@ -217,7 +235,7 @@ Key risks include:
 
 Controls include versioned rules, authoritative snapshots, duplicate detection, independent review, approval gates, privacy separation, claim-state controls, reconciliation, and correction procedures.
 
-Token holding alone does not establish an active claim. Product revenue and treasury balances also remain outside a participation process until a defined value is approved and the mechanism is activated.
+Token holding alone does not establish eligibility, an approved amount, an active claim, or a completed distribution. Product revenue, stablecoin balances, treasury balances, reserves, and token allocations remain outside a participation process until the relevant period is reconciled, approved distributable value exists, the complete activation gates are satisfied, and the claim or settlement process is active.
 
 ## 14. Smart-Contract and Blockchain Risk
 
@@ -256,6 +274,8 @@ Market conditions can produce:
 - regional unavailability
 
 FUZE’s DEX-first direction and possible later CEX consideration describe sequence, not a commitment to an outcome.
+
+DEX preparation, pool creation, funding, live routing, trading, deposit support, withdrawal support, and continuing liquidity are separate states. CEX discussion, application, review, approval, technical integration, deposits, trading, withdrawals, restriction, suspension, and delisting are also separate states.
 
 ## 17. Treasury and Governance Risk
 
@@ -363,20 +383,48 @@ Readers should:
 
 Historical results, scenarios, targets, roadmaps, and technical readiness should not be treated as forecasts.
 
-## 25. Consolidated Public Boundary
+## 25. Current Public Position
+
+The public FUZE corpus establishes intended product definitions, platform direction, commercial logic, tokenomics policies, wallet-participation design, technical architecture, governance expectations, evidence standards, and public risk boundaries.
+
+It does not by itself establish:
+
+- completed products or production availability;
+- external-user adoption or recurring usage;
+- completed paid delivery or reconciled revenue;
+- profitability or implemented shared-platform leverage;
+- completed financing or investor rights;
+- deployed or active token utility;
+- token transfer activation, wallet support, or custody support;
+- approved distributable value;
+- active wallet-based participation, open claims, or completed distributions;
+- DEX or CEX access;
+- liquidity, price, resale, acquisition, exit, or investment return;
+- legal, regulatory, tax, accounting, audit, or security approval for every jurisdiction or use case.
+
+Current conclusions should rely on dated, scoped evidence for the exact product, mechanism, environment, cohort, contract, wallet, custody route, market, and reporting period being discussed.
+
+## 26. Consolidated Public Boundary
 
 FUZE public papers do not by themselves create:
 
-- access to a product, token sale, round, or market venue
-- company ownership or investor rights
-- wallet eligibility or a claim
-- rights to product revenue or treasury assets
-- a legal, tax, accounting, or regulatory conclusion
+- access to a product, token sale, financing round, claim process, custody route, or market venue;
+- company ownership, investor rights, governance rights, or contractual entitlement;
+- wallet eligibility, an approved amount, a claim, or a distribution;
+- rights to product revenue, stablecoin balances, treasury assets, reserves, or future value;
+- a legal, tax, accounting, securities, regulatory, audit, security, or compliance conclusion;
+- a guarantee of product delivery, adoption, revenue, profitability, financing, token utility, market access, liquidity, price, resale, acquisition, exit, or investment return.
 
-Any binding right or active process requires its own authorized terms, records, approvals, and current status.
+Any binding right or active process requires its own authorized terms, approvals, records, evidence, and current status.
 
-## 26. Conclusion
+Products, providers, jurisdictions, mechanisms, laws, technical conditions, and markets can change. FUZE may delay, narrow, pause, restrict, correct, cancel, or discontinue a product, feature, token function, wallet process, custody route, market route, or reporting mechanism where evidence, law, security, privacy, accounting, treasury, governance, or operational conditions require it.
+
+Readers should not rely on unofficial accounts, addresses, screenshots, rumors, third-party summaries, or historical statements as current authority.
+
+## 27. Conclusion
 
 FUZE risk management depends on clear ownership, evidence, proportionate controls, monitoring, and correction. Residual uncertainty remains across products, AI, data, providers, payments, token systems, wallets, markets, governance, and law.
 
-The most useful public boundary is precision. Readers should identify the product or mechanism, its current status, the authoritative record, the applicable controls, and the dependencies that remain outside FUZE’s control.
+The most useful public boundary is precision. Readers should identify the exact product or mechanism, its current evidence state, the authoritative record, the applicable period, the controls that are operating, the controls that are only designed or planned, and the dependencies that remain outside FUZE's control.
+
+Risk management supports informed decisions. It does not guarantee safety, legality, availability, liquidity, profitability, or investment performance.

@@ -2,386 +2,1471 @@
 
 ## Executive Summary
 
-FUZE token utility consists of approved functions that connect FUZE token to a specific product, community, game, partner, governance, access, or reporting action.
+FUZE token utility consists of approved and activated functions that connect FUZE token to a specific product, community, game, partner, participation, governance, access, contribution, verification, or reporting action.
 
-Utility is defined by user behavior and system response, not by broad statements that a token “powers” an ecosystem. Each utility surface should identify who can use it, what token condition applies, what action occurs, which product or platform result follows, and what evidence confirms the function is available.
+Utility is established by a defined relationship among:
 
-FUZE develops utility from product and ecosystem needs. Ordinary SaaS consumption can continue through Platform Credits, while payments and settlements can use their approved rails. Token involvement is appropriate where it adds meaningful access, coordination, recognition, participation, interoperability, or governance value.
+```text
+eligible user or wallet
+-> exact FUZE-token condition or action
+-> supported product or ecosystem response
+-> operating evidence
+-> review, correction, pause, or retirement
+```
 
-This paper establishes the portfolio-level utility taxonomy and registry. It also defines lifecycle status, control requirements, measurement, and retirement. It does not declare every candidate utility active, and it does not repeat the implementation workflow owned by the product-to-token bridge paper.
+Broad statements that FUZE token “powers,” “supports,” or “connects” the ecosystem do not independently establish utility.
 
----
+Each utility surface should identify:
 
-## 1. Utility Objective
+- the intended user;
+- the user or ecosystem problem;
+- why FUZE token is relevant;
+- the non-token alternative considered;
+- the exact token condition or action;
+- the supported network and canonical contract;
+- the wallet and custody flow;
+- the resulting product or ecosystem action;
+- fees, permissions, and data boundaries;
+- failure, support, and correction behavior;
+- lifecycle status;
+- activation authority;
+- operating evidence;
+- pause and retirement controls; and
+- current public scope.
 
-The purpose of the utility model is to make every FUZE token function:
+FUZE develops utility from product and ecosystem needs.
 
-- understandable to its intended user;
-- connected to a real product or ecosystem action;
-- technically and operationally supportable;
-- distinct from product credits and payment activity;
-- measurable through appropriate records;
-- governed through a visible lifecycle;
-- described according to current status.
+Ordinary product consumption may continue through Platform Credits. Payments and settlements may use approved payment rails, including stablecoins where supported. Product accounts, permissions, game values, points, badges, eligibility records, claims, and payouts remain separate mechanisms.
 
-The model applies across FUZE products and shared platform functions. A product may have no token utility, one focused utility surface, or several approved surfaces. Product usefulness does not depend on maximizing token interactions.
+A token step is appropriate only when it creates practical value that cannot be achieved more clearly or safely through:
 
----
+- an account permission;
+- a product plan;
+- Platform Credits;
+- an ordinary payment;
+- a database record;
+- a non-transferable credential;
+- a game-state value;
+- or another simpler mechanism.
 
-## 2. What Qualifies as Utility
+The utility model does not require every FUZE product to use FUZE token.
 
-A proposed function qualifies as token utility when it satisfies four conditions.
+It does not require every product user to connect a wallet.
 
-### Specific token role
+It does not declare every candidate utility active.
 
-The function explains why FUZE token is relevant. Holding, transferring, locking, presenting, signing with, or otherwise referencing the token should have a defined purpose.
+It does not make token holding equivalent to product access, participation, governance power, claim eligibility, payout eligibility, market access, liquidity, token demand, revenue, or financial return.
 
-### Observable user action
+This paper is the controlling public reference for utility classes, utility-registry fields, lifecycle status, utility evidence, measurement, change control, and retirement.
 
-The eligible user can perform or receive a recognizable action, such as entering an approved area, registering for a program, receiving status, contributing input, using a game function, or participating in governance direction.
+The implementation path for a specific product feature appears in [FUZE Product to Token Utility Bridge](../AI-SAAS-PRODUCT-PAPERS/19-FUZE_PRODUCT_TO_TOKEN_UTILITY_BRIDGE_PUBLIC.md).
 
-### Defined system response
+## Purpose of This Paper
 
-The product or platform produces a predictable response. The response can be tested, supported, monitored, and corrected.
+This paper explains:
 
-### Governed status
+- what qualifies as FUZE-token utility;
+- what does not qualify as utility;
+- the utility-class taxonomy;
+- the utility registry;
+- lifecycle states;
+- token-condition and wallet-flow requirements;
+- user, product, technical, security, privacy, legal, operational, and reporting controls;
+- activation and scope expansion;
+- utility evidence;
+- measurement;
+- partner and governance boundaries;
+- change, pause, withdrawal, and retirement;
+- incident and correction handling;
+- public reporting;
+- status and evidence requirements; and
+- public limitations.
 
-The function has an owner, current lifecycle state, applicable controls, and an activation or withdrawal decision.
+This paper does not replace:
 
-The following do not establish utility by themselves:
+- the fixed-supply and allocation model;
+- the one-token identity model;
+- the utility roadmap;
+- product-specific implementation specifications;
+- wallet-participation rules;
+- approved distributable value rules;
+- claim or payout procedures;
+- smart-contract specifications;
+- legal or tax advice;
+- accounting treatment;
+- market-access policy; or
+- the token risk register.
 
-- a product mentioning FUZE token;
-- a wallet being connected without a product purpose;
-- speculative attention or trading activity;
-- an allocation category;
-- a payment made in another asset;
-- a roadmap idea without a defined user action;
-- public use of words such as “ecosystem,” “reward,” or “governance.”
+The token identity architecture appears in [FUZE One Token Model](03-FUZE_ONE_TOKEN_MODEL_PUBLIC.md).
 
----
+The utility sequencing model appears in [FUZE Token Utility Roadmap](05-FUZE_TOKEN_UTILITY_ROADMAP_PUBLIC.md).
 
-## 3. Utility Classes
+## Utility Principles
 
-FUZE uses utility classes to organize proposals and reporting.
+### Product and Ecosystem Value Before Token Interaction
 
-### 3.1 Access
+A utility should begin with a real user or ecosystem need.
 
-Access utility evaluates an approved token condition before a user enters a product module, event, community area, game experience, partner program, or other defined surface.
+The token should not be introduced merely to:
 
-The specification should state the condition, duration, supported custody types, status-change behavior, and support route.
+- create apparent demand;
+- increase transaction count;
+- make a product appear Web3-native;
+- force wallet connection;
+- replace a simpler payment method;
+- obscure a product charge;
+- create investment-like language;
+- or link ordinary product use to market activity.
 
-### 3.2 Participation
+### Specificity Before General Claims
 
-Participation utility enables an eligible user to join an approved ecosystem, community, product, event, or contribution process.
+A credible utility states:
 
-This class should define what participation means and what authority it carries. Attendance, discussion, contribution, proposal submission, and formal decision rights are different actions.
+- who acts;
+- what token condition applies;
+- what action occurs;
+- what the system returns;
+- when the result begins and ends;
+- which limitations apply;
+- and how the result is verified.
 
-### 3.3 Recognition and identity
+“FUZE powers the ecosystem” is positioning.
 
-Recognition utility connects a wallet or token-related condition to an approved badge, profile, role, contribution record, loyalty status, or other ecosystem identity.
+“An eligible wallet holding the defined amount under the stated snapshot can enter the named event during the published period” is a utility specification.
 
-Public records can use addresses or aggregate status while personal identity and private account data remain protected.
+### Minimum Necessary Token Interaction
 
-### 3.4 Game and digital experience
+The utility should use the least consequential token interaction that satisfies the purpose.
 
-Game utility supports a defined ZAGA or other approved experience, such as access, profile linkage, event participation, digital-asset interaction, community coordination, or another game function.
+Possible interaction levels include:
 
-Game currencies, scores, resources, rewards, and FUZE token should use distinct labels. A game value should not be presented as FUZE token merely because both appear in one product.
+1. no wallet interaction;
+2. wallet address entry;
+3. read-only balance or history check;
+4. wallet-control signature;
+5. token-condition verification;
+6. registration or eligibility action;
+7. contract approval;
+8. token transfer;
+9. token lock;
+10. claim or payout transaction;
+11. governance or other consequential action.
 
-### 3.5 Partner and campaign
+A stronger interaction should not be used when a weaker one is sufficient.
 
-Partner utility connects FUZE token to an approved integration, campaign, distribution program, event, or co-created ecosystem function.
+### Scope Before General Availability
 
-The partner’s role, commercial responsibility, data access, duration, user support, and termination treatment should be documented.
+Utility status belongs to the exact:
 
-### 3.6 Governance direction
+- product;
+- module;
+- audience;
+- wallet type;
+- network;
+- contract;
+- geography;
+- partner;
+- event;
+- campaign;
+- game mode;
+- period;
+- custody model;
+- and release level.
 
-Governance utility can support proposals, signaling, voting, delegation, or another structured input process where approved.
+One working pilot should not upgrade the whole ecosystem to “active token utility.”
 
-The design must state whether an action is advisory or binding, which decisions are in scope, how voting power is determined, and which legal or operational authorities remain outside the mechanism.
+### Evidence Before Expansion
 
-### 3.7 Reporting and verification
+A utility should widen only after current evidence supports wider scope.
 
-Reporting utility uses token or wallet records to support public-safe verification, program status, contribution evidence, or another approved transparency function.
+Evidence may include:
 
-On-chain visibility provides transaction evidence, but the report must still explain business purpose, period, classification, and limitations.
+- successful checks;
+- successful signatures;
+- completed token actions;
+- completed product actions;
+- repeat use;
+- reliability;
+- support demand;
+- correction rate;
+- wallet compatibility;
+- privacy findings;
+- security findings;
+- user understanding;
+- abuse attempts;
+- partner performance;
+- operating cost;
+- and product or ecosystem outcomes.
 
-### 3.8 Conditional wallet participation
+### Reversibility and Correction
 
-Wallet-based participation is a specialist utility class that applies only if its separate activation, eligibility, value, custody, privacy, claims, and reporting requirements are satisfied.
+Utility should be capable of being:
 
-Its detailed operation remains in the [FUZE Wallet-Based Participation Model](07-FUZE_WALLET_BASED_PARTICIPATION_MODEL_PUBLIC.md).
+- paused;
+- narrowed;
+- corrected;
+- migrated;
+- withdrawn;
+- replaced;
+- or retired
 
----
+without misrepresenting its current status or abandoning unresolved user obligations.
 
-## 4. Utility Registry
+### Market Outcomes Remain Separate
 
-FUZE should maintain a utility registry as the controlling inventory of token functions.
+Utility can create a product or ecosystem function.
 
-Each entry can contain:
+It cannot guarantee:
 
-| Field | Required content |
+- token demand;
+- exchange listing;
+- market access;
+- liquidity;
+- depth;
+- spread;
+- trading volume;
+- price stability;
+- price appreciation;
+- revenue;
+- payout;
+- or financial return.
+
+## What Qualifies as Utility
+
+A proposed function qualifies as candidate FUZE-token utility when it satisfies all of the following tests.
+
+### 1. Defined User or Ecosystem Need
+
+The proposal identifies:
+
+- intended user or participant;
+- current problem;
+- current process;
+- desired product or ecosystem result;
+- and evidence that the need exists.
+
+### 2. Specific Token Role
+
+The proposal explains exactly why FUZE token is relevant.
+
+Possible token roles may include:
+
+- current holding condition;
+- historical holding condition;
+- time-bounded snapshot condition;
+- average balance over a defined period;
+- approved token action;
+- wallet-control signature linked to a token condition;
+- token lock under an approved contract;
+- transfer for an approved purpose;
+- token-connected registration;
+- governance signaling or voting;
+- contribution or participation record tied to an approved token rule;
+- or another separately approved interaction.
+
+The condition should specify:
+
+- canonical token;
+- network;
+- contract;
+- unit and decimals;
+- threshold or amount;
+- time or block basis;
+- data source;
+- confirmation or finality;
+- exclusions;
+- multi-wallet treatment;
+- custody treatment;
+- transfer effect;
+- correction; and
+- current status.
+
+### 3. Observable User Action
+
+The eligible user can perform or receive a recognizable action.
+
+Examples include:
+
+- entering a named product area;
+- registering for an approved program;
+- receiving a defined role;
+- accessing a game mode;
+- submitting a proposal;
+- signaling or voting under a defined process;
+- linking an approved profile;
+- completing a token-connected product action;
+- participating in an approved partner program;
+- or verifying a public-safe record.
+
+### 4. Defined System Response
+
+The product or platform returns a defined result.
+
+The response should be:
+
+- testable;
+- observable;
+- supportable;
+- reversible where appropriate;
+- monitored;
+- and correctable.
+
+### 5. Token Relevance Over Simpler Alternatives
+
+The proposal evaluates whether the function could instead use:
+
+- an account role;
+- product permission;
+- subscription plan;
+- Platform Credits;
+- payment confirmation;
+- database record;
+- non-transferable badge;
+- event registration;
+- game-state record;
+- or another simpler mechanism.
+
+A weak answer to token relevance is a reason to keep the function outside the token layer.
+
+### 6. Governed Status
+
+The function has:
+
+- an owner;
+- lifecycle state;
+- required reviewers;
+- activation authority;
+- effective scope;
+- support route;
+- incident route;
+- reporting method;
+- pause authority;
+- and retirement process.
+
+## What Does Not Establish Utility
+
+The following do not independently establish FUZE-token utility:
+
+- a token mention on a product page;
+- a wallet-connect button;
+- a displayed balance;
+- a token icon;
+- a token allocation category;
+- a roadmap item;
+- a candidate table;
+- a mockup;
+- code;
+- a repository;
+- a contract deployment;
+- an internal test;
+- a community poll;
+- a partner discussion;
+- an exchange discussion;
+- a payment in another asset;
+- Platform Credit consumption;
+- game activity;
+- token holding without a defined system response;
+- trading activity;
+- token price movement;
+- or public use of words such as “utility,” “ecosystem,” “reward,” “governance,” or “participation.”
+
+## Utility Classes
+
+FUZE uses utility classes to organize specifications, review, activation, and reporting.
+
+### Access and Entitlement
+
+Access utility evaluates an approved FUZE-token condition before a user receives access to a named:
+
+- product module;
+- workspace;
+- event;
+- community area;
+- game mode;
+- partner program;
+- content area;
+- support level;
+- or other bounded surface.
+
+The specification should define:
+
+- exact condition;
+- start and end time;
+- supported wallets and custody types;
+- status-change behavior;
+- access-removal behavior;
+- grace period where applicable;
+- fallback;
+- support;
+- and correction.
+
+Holding FUZE token should not be presented as universal access to every FUZE product.
+
+### Participation
+
+Participation utility enables an eligible user to join an approved:
+
+- ecosystem program;
+- community process;
+- contribution process;
+- event;
+- campaign;
+- partner program;
+- product trial;
+- game activity;
+- or other structured process.
+
+The utility should define what participation means.
+
+The following remain different:
+
+- registration;
+- attendance;
+- access;
+- discussion;
+- contribution;
+- proposal submission;
+- signaling;
+- voting;
+- decision authority;
+- claim;
+- and payout.
+
+### Recognition, Profile, and Identity
+
+Recognition utility connects an approved wallet or token condition to a:
+
+- profile status;
+- badge;
+- role;
+- contribution record;
+- loyalty status;
+- participation history;
+- reputation marker;
+- or other ecosystem record.
+
+A wallet and token condition should not be presented as proof of:
+
+- legal identity;
+- unique personhood;
+- age;
+- residency;
+- employment;
+- expertise;
+- beneficial ownership;
+- investor status;
+- or broad authority.
+
+Public reporting should preserve private identity and wallet-person mapping boundaries.
+
+### Contribution and Recognition Programs
+
+A contribution utility may recognize approved:
+
+- content;
+- development work;
+- research;
+- moderation;
+- community support;
+- product feedback;
+- event support;
+- referrals;
+- integrations;
+- or other contributions.
+
+The program should define:
+
+- contribution standard;
+- evidence;
+- reviewer;
+- token role;
+- recognition or entitlement;
+- duplicate treatment;
+- conflict controls;
+- abuse controls;
+- correction;
+- and expiry or closure.
+
+Contribution recognition is not automatically compensation, revenue share, claim eligibility, or payout eligibility.
+
+### Game and Digital Experience
+
+Game utility supports a defined ZAGA or other approved experience.
+
+Possible functions may include:
+
+- access;
+- profile linkage;
+- event registration;
+- community coordination;
+- digital-asset interaction;
+- tournament or mode eligibility;
+- approved token-connected quests;
+- or another defined game function.
+
+Game currencies, scores, simulated USDT, Token Value, Net Worth, resources, property, rewards, and FUZE token should use distinct names and ledgers.
+
+Game activity does not automatically create token income, payout, market value, legal ownership, or financial return.
+
+### Partner and Campaign
+
+Partner utility connects FUZE token to an approved:
+
+- integration;
+- campaign;
+- event;
+- distribution program;
+- co-created product function;
+- merchant or service flow;
+- or other partner surface.
+
+The specification should define:
+
+- partner role;
+- FUZE role;
+- user journey;
+- token condition;
+- commercial responsibility;
+- custody;
+- data access;
+- fees;
+- settlement where applicable;
+- support;
+- duration;
+- termination;
+- incident escalation;
+- and public communication.
+
+A partner discussion, memorandum, logo, listing, technical test, or announcement does not establish an active partner utility.
+
+### Governance Direction
+
+Governance utility may support:
+
+- proposal submission;
+- community signaling;
+- voting;
+- delegation;
+- prioritization;
+- or another structured input process.
+
+The design should state:
+
+- whether the process is advisory or binding;
+- which decisions are in scope;
+- eligible participants;
+- token condition;
+- voting or signaling power;
+- snapshot method;
+- quorum or threshold where applicable;
+- delegation;
+- conflict controls;
+- result calculation;
+- correction;
+- execution authority;
+- legal authority;
+- reporting;
+- and current status.
+
+Discussion access, polling, signaling, binding voting, multisig approval, timelock execution, corporate authority, and legal authority are different mechanisms.
+
+### Reporting and Verification
+
+Reporting utility uses FUZE-token or wallet records to support:
+
+- public-safe verification;
+- program status;
+- contribution evidence;
+- eligibility evidence;
+- historical participation;
+- or another approved transparency function.
+
+Onchain visibility may prove that a transaction occurred.
+
+The report should still identify:
+
+- business purpose;
+- period;
+- network;
+- contract;
+- classification;
+- methodology;
+- exclusions;
+- correction state;
+- and limitations.
+
+### Wallet-Based Participation
+
+Wallet-based participation is a specialist utility class that applies only when its separate:
+
+- activation;
+- eligibility;
+- approved distributable value;
+- custody;
+- privacy;
+- claim;
+- payout;
+- reconciliation;
+- reporting;
+- pause;
+- and closure requirements
+
+are satisfied.
+
+Its detailed operation remains in:
+
+- [FUZE Wallet-Based Participation Model](07-FUZE_WALLET_BASED_PARTICIPATION_MODEL_PUBLIC.md);
+- [FUZE Participation Activation Gates](08-FUZE_PARTICIPATION_ACTIVATION_GATES_PUBLIC.md); and
+- [FUZE Approved Distributable Value Model](09-FUZE_APPROVED_DISTRIBUTABLE_VALUE_MODEL_PUBLIC.md).
+
+## Utility Registry
+
+FUZE should maintain a utility registry as the controlling inventory of approved, candidate, paused, and retired token functions.
+
+Each registry entry should include, where applicable:
+
+| Field | Required definition |
 |---|---|
 | Utility identifier | Stable internal and public reference |
-| Name | Approved user-facing name |
-| Class | Access, participation, recognition, game, partner, governance, reporting, or specialist class |
-| Product or platform owner | Team responsible for operation |
-| Intended user | Eligible user, role, community, or organization |
-| Token condition | Holding, transfer, lock, signature, registration, or other approved interaction |
-| System response | Result delivered by the product or platform |
-| Network and contract | Applicable technical identity |
-| Custody treatment | Supported self-custody, contract, or exchange-custody behavior |
-| Permissions and data | Required account, wallet, role, and data boundaries |
-| Status | Candidate through retired |
-| Effective scope | Product, geography, audience, period, or pilot boundary |
-| Evidence | Test, activation, usage, support, incident, and reporting references |
-| Dependencies | Technical, legal, operational, partner, market, or governance prerequisites |
-| Review date | Latest and next scheduled review |
+| Utility name | Approved user-facing name |
+| Utility class | Access, participation, recognition, contribution, game, partner, governance, reporting, wallet participation, or another approved class |
+| Product or platform surface | Exact product, module, program, event, campaign, or ecosystem function |
+| Product or platform owner | Role responsible for user value and product behavior |
+| Utility owner | Role responsible for token-specific operation and status |
+| Intended user | Eligible user, role, wallet class, community, organization, or partner |
+| User or ecosystem problem | Need addressed by the utility |
+| Non-token alternative | Simpler account, permission, credit, payment, badge, database, or product alternative considered |
+| Token role | Why FUZE token is relevant |
+| Token condition or action | Exact holding, snapshot, signature, transfer, lock, registration, vote, or other approved action |
+| Network and contract | Supported canonical token identity |
+| Wallet and custody support | Self-custody, smart account, exchange custody, institutional custody, or unsupported models |
+| Product or ecosystem response | Result delivered after the condition or action |
+| Duration and status-change behavior | Start, expiry, reassessment, grace period, transfer effect, and removal behavior |
+| Permissions and data | Account, role, wallet, identity, source, destination, and public/private boundaries |
+| Fees and cost | Network fee, product cost, Platform Credit treatment, provider fee, or no-charge state |
+| Lifecycle status | Candidate through retired |
+| Effective scope | Product, module, geography, audience, network, partner, period, pilot, or other limit |
+| Activation record | Approval, date, version, scope, reviewers, and conditions |
+| Dependencies | Product, technical, contract, security, privacy, legal, operational, partner, market, or reporting prerequisites |
+| Evidence | Specification, test, activation, usage, support, incident, and reporting references |
+| Support and correction | User route, owner, service handling, and correction process |
+| Pause and retirement | Authority, triggers, user treatment, migration, and closure |
+| Review dates | Latest review and next scheduled review |
+| Current-as-of date | Time to which the status applies |
 
-The registry prevents the same utility name from acquiring different meanings across product pages, token papers, dashboards, and partner announcements.
+The registry prevents the same utility name from acquiring different meanings across:
 
----
+- product pages;
+- token papers;
+- dashboards;
+- support material;
+- partner announcements;
+- wallet interfaces;
+- governance records;
+- and public reports.
 
-## 5. Lifecycle Status
+## Lifecycle Status
 
 Utility status should follow a controlled vocabulary.
 
-| Status | Meaning |
-|---|---|
-| Candidate | An idea being assessed; no implementation or availability implied |
-| Defined | User action, token condition, system response, and owner documented |
-| Planned | Accepted for future work with dependencies identified |
-| In development | Implementation work has begun |
-| In testing | Technical and product behavior is being evaluated in a controlled scope |
-| Under review | Required product, security, legal, compliance, or operational review is incomplete |
-| Approved for activation | Required decision obtained, with release conditions satisfied or scheduled |
-| Pilot | Available to a limited audience, product, period, or jurisdiction |
-| Available | Active within the published scope |
-| Paused | Temporarily unavailable while the record and user obligations remain managed |
-| Retired | Closed to new use with migration, support, and record treatment completed |
+| Status | Evidence-backed meaning | What it does not establish |
+|---|---|---|
+| Candidate | A possible utility is being assessed. | Approval, implementation, or availability |
+| Qualified | Token relevance and product or ecosystem value pass the initial qualification review. | Complete specification or build approval |
+| Specified | User, token condition, wallet flow, system response, scope, controls, and evidence are documented. | Implementation |
+| Planned | Accepted for future work with owners and dependencies identified. | Development or activation |
+| In development | Implementation work has begun. | Completed behavior or availability |
+| Internally testable | Authorized testers can exercise the defined flow. | External validation or public access |
+| Under review | One or more required product, technical, security, privacy, legal, operational, treasury, accounting, partner, or reporting reviews remain open. | Approval |
+| Approved for activation | The applicable authority has approved the stated scope and activation conditions. | Execution or availability |
+| Limited pilot | Available to a controlled audience, product, period, network, partner, or jurisdiction. | Public availability or broad adoption |
+| Public beta | Public access exists under published beta scope, limitations, support, and monitoring. | Final quality, permanence, or scale |
+| Active for stated scope | The utility is operating in the published scope with support and monitoring. | Universal availability, adoption, token demand, or market effect |
+| Paused | New or continuing use is temporarily stopped while obligations remain managed. | Retirement |
+| Narrowed | Scope has been reduced. | Failure of the entire token model |
+| Withdrawn | The utility has been removed from use pending redesign, replacement, or closure. | Erasure of historical obligations |
+| Retired | New use has ended and migration, support, records, and closure treatment are complete. | Removal of historical records |
+| Archived | Historical information is retained but not current. | Active status |
 
-A contract deployment, completed code path, or public announcement does not substitute for the activation status.
+A contract deployment, completed code path, wallet screen, internal test, partner announcement, or public statement does not substitute for activation status.
 
-The [FUZE Token Utility Roadmap](05-FUZE_TOKEN_UTILITY_ROADMAP_PUBLIC.md) organizes portfolio sequencing. Product teams use the [FUZE Product to Token Utility Bridge](../AI-SAAS-PRODUCT-PAPERS/19-FUZE_PRODUCT_TO_TOKEN_UTILITY_BRIDGE_PUBLIC.md) to move a specific feature through design and implementation.
+## Utility Specification
 
----
+Before implementation or activation, the utility specification should define the complete user and system behavior.
 
-## 6. Separation from Credits and Payments
+### User and Product Definition
+
+- product or ecosystem surface;
+- intended user;
+- user problem;
+- user value;
+- product owner;
+- utility owner;
+- product status;
+- and current limitations.
+
+### Token Definition
+
+- canonical token identity;
+- network;
+- contract;
+- decimals;
+- token condition or action;
+- amount or threshold;
+- time, block, snapshot, or period basis;
+- data source;
+- finality;
+- multi-wallet treatment;
+- custody treatment;
+- transfer effect;
+- expiry;
+- reassessment;
+- and correction.
+
+### User Journey
+
+- wallet discovery;
+- connection;
+- chain selection;
+- address confirmation;
+- read-only check;
+- signature;
+- approval;
+- transaction;
+- waiting state;
+- product or ecosystem response;
+- confirmation;
+- error;
+- retry;
+- support;
+- and disconnection.
+
+### Product or Ecosystem Response
+
+- access;
+- role;
+- registration;
+- content;
+- game action;
+- participation state;
+- contribution record;
+- partner action;
+- governance action;
+- verification result;
+- claim-related status;
+- or another defined result.
+
+### Authority and Controls
+
+- activation authority;
+- contract authority;
+- product authority;
+- pause authority;
+- correction authority;
+- retirement authority;
+- legal authority;
+- partner authority;
+- and support responsibility.
+
+### Data and Privacy
+
+- public wallet data;
+- private account data;
+- identity data;
+- product data;
+- partner data;
+- source data;
+- retention;
+- deletion;
+- export;
+- public reporting;
+- and wallet-person mapping boundaries.
+
+### Cost and Commercial Treatment
+
+- product charge;
+- Platform Credit treatment;
+- payment treatment;
+- stablecoin treatment;
+- network fee;
+- provider fee;
+- refund or correction;
+- and user disclosure.
+
+### Failure and Correction
+
+- unsupported network;
+- unsupported contract;
+- stale data;
+- incomplete indexing;
+- provider outage;
+- rejected signature;
+- failed transaction;
+- reorg;
+- duplicate action;
+- incorrect eligibility;
+- delayed product response;
+- revoked access;
+- and manual review.
+
+### Status and Evidence
+
+- lifecycle status;
+- release scope;
+- test evidence;
+- review evidence;
+- activation record;
+- operating metrics;
+- support evidence;
+- incident history;
+- public reporting;
+- and current-as-of date.
+
+## Wallet and Custody Model
+
+A utility may require a wallet address, signature, token check, transaction, or snapshot.
+
+The design should use the minimum interaction required.
+
+### Wallet Experience
+
+The interface should explain:
+
+- why a wallet is needed;
+- supported network;
+- canonical contract source;
+- whether the action is read-only;
+- whether a signature is requested;
+- whether a transaction is requested;
+- expected network fee;
+- requested amount or allowance;
+- destination or contract;
+- duration;
+- transfer or disconnection effect;
+- privacy implications;
+- failure states;
+- support;
+- and correction.
+
+FUZE products should never request:
+
+- seed phrases;
+- private keys;
+- recovery codes;
+- passwords;
+- unrestricted signatures;
+- withdrawal credentials;
+- or unrelated wallet data.
+
+### Self-Custody
+
+Self-custody may allow direct proof of control, signatures, and transactions.
+
+It also creates user responsibility for:
+
+- key security;
+- network selection;
+- transaction review;
+- fees;
+- irreversible actions;
+- phishing risk;
+- and recovery limitations.
+
+### Exchange and Omnibus Custody
+
+Exchange custody may combine holdings in omnibus wallets and may not expose an end-user address.
+
+A utility should state whether exchange custody is:
+
+- supported;
+- supported through separate evidence;
+- unsupported;
+- or under review.
+
+An exchange account screenshot should not be treated as equivalent to independently verifiable wallet control without an approved method.
+
+### Smart Accounts and Institutional Custody
+
+Smart accounts, multisig wallets, institutional custody, and delegated signing may require separate:
+
+- control-proof methods;
+- signer rules;
+- role checks;
+- recovery handling;
+- and support.
+
+### Custody Does Not Establish Identity
+
+Wallet control does not automatically prove:
+
+- legal identity;
+- beneficial ownership;
+- unique personhood;
+- age;
+- residency;
+- employment;
+- investor status;
+- customer status;
+- or broad authority.
+
+## Separation from Platform Credits and Payments
 
 Utility design should preserve the roles of other FUZE systems.
 
-| Mechanism | Core question |
+| Mechanism | Core question | Typical evidence |
+|---|---|---|
+| Platform Credits | How much supported product service can a user consume? | Purchase, allowance, grant, reservation, consumption, refund, adjustment, expiry, and balance |
+| Payment rail | How is a purchase, invoice, settlement, refund, vendor, sponsor, partner, or compensation event completed? | Quote, authorization, confirmation, settlement, reconciliation, refund, and correction |
+| FUZE-token utility | Which approved product or ecosystem action uses or references FUZE token? | Token condition, wallet action, system response, activation, usage, support, and status |
+
+A workflow may use more than one mechanism.
+
+Example:
+
+```text
+user purchases a product package through an approved payment rail
+-> the package creates a Platform Credit allowance
+-> the user consumes credits during product work
+-> an optional ecosystem program evaluates a separate FUZE-token condition
+```
+
+The interface and ledger should identify each event separately.
+
+Buying Platform Credits should not silently create token status.
+
+Holding FUZE token should not conceal a product charge.
+
+Stablecoin payment should not be described as FUZE-token utility.
+
+The primary credit paper is [FUZE Platform Credits Relationship](10-FUZE_PLATFORM_CREDITS_RELATIONSHIP_PUBLIC.md).
+
+## Product-Family Utility Boundaries
+
+The following examples identify possible utility areas and the main boundary for each product family.
+
+They do not declare any utility active.
+
+| Product or family | Possible candidate utility area | Main boundary |
+|---|---|---|
+| HerHelp AI SaaS | Approved ecosystem access, contributor recognition, product-user program, or partner benefit | Ordinary SaaS use and metering remain available through accounts, plans, payments, and Platform Credits |
+| SheetLayer AI | Contributor program, verified template participation, or approved ecosystem access | Sheet access, customer data, and normal processing must not require token exposure unnecessarily |
+| ShopOS AI | Approved merchant or community program, event participation, or ecosystem recognition | Shop payments, customer data, staff permissions, and POS operation remain separate |
+| SpeakShop AI | Approved campaign, event, or contribution program | Content generation, approval, and playback do not require token interaction by default |
+| TrainLayer AI | Approved contribution, credential, or ecosystem-learning program | Training completion and credentials remain separate records unless an approved token function exists |
+| CommunityLayer AI | Approved participation, recognition, proposal, signaling, or governance-support function | Moderation authority, member privacy, appeals, and legal authority remain separate |
+| ZAGA Arena | Approved access, event, profile, quest, or game-community function | Scores, resources, simulated values, rewards, and game balance remain distinct from FUZE token |
+| ZAGA Districts | Approved community, role, event, governance-support, or district-participation function | Game governance, product permissions, simulated economy, legal authority, and token governance remain separate |
+| QTB | Approved research-community, contribution, access, or verification function | Research output must remain separate from guaranteed signals, execution, token demand, and financial outcomes |
+| AIMM | Approved operational access, reporting, contribution, or governance-support function | Treasury, custody, market operations, liquidity, execution, and price support remain separately controlled |
+| AIE | Approved event access, contribution, recognition, or partner program | Registration, attendance, verified attendance, sponsor delivery, and token utility remain separate |
+| ToolGrid AI | Approved contributor, partner, campaign, or ecosystem-access function | Listing, sponsorship, ranking, endorsement, and token utility remain separately labeled |
+| Botmad | Approved access, entitlement, contribution, or ecosystem-assistance function | Desktop permissions, credentials, external actions, payments, deployment, and wallet signing require independent authority |
+
+Product usefulness does not depend on maximizing token interactions.
+
+## Controls Before Activation
+
+Review should be proportionate to the utility.
+
+| Control area | Required review focus |
 |---|---|
-| Platform Credits | How much supported product service can a user consume? |
-| Payment rail | How is a purchase, invoice, settlement, refund, or compensation event completed? |
-| FUZE token utility | Which approved ecosystem action uses or references FUZE token? |
+| Product | User need, workflow, output, alternatives, supportability, and product status |
+| Token | Exact token role, condition, threshold, timing, transfer effect, and current status |
+| Technical | Canonical contract, network, indexer, node, wallet, signature, transaction, reorg, finality, fallback, and migration behavior |
+| Security | Phishing, replay, approvals, signatures, admin powers, contract risk, wallet compromise, abuse, and incident response |
+| Privacy | Public address data, identity separation, wallet-person mapping, product data, retention, and public reporting |
+| Legal and compliance | Users, jurisdiction, rights, public wording, consumer treatment, financial promotion, sanctions, gaming, payment, and other relevant obligations |
+| Accounting and treasury | Token movement, custody, network fees, classification, reconciliation, and financial records |
+| Operations | Owner, monitoring, support, correction, pause, provider escalation, and recovery |
+| Partner | Responsibilities, custody, data, service level, incident, duration, termination, and communication |
+| Governance | Activation authority, proposal scope, signaling or voting effect, conflict controls, execution, change, and retirement |
+| Reporting | Status, evidence, metrics, methodology, public scope, correction, and current-as-of date |
 
-A single workflow can use more than one mechanism. For example:
+A low-risk recognition function may require fewer controls than a utility involving:
 
-1. a user pays for a product package through an approved payment rail;
-2. the package creates a Platform Credit balance;
-3. the user consumes credits during product work;
-4. an optional ecosystem program evaluates a separate FUZE token condition.
+- token transfer;
+- token lock;
+- governance authority;
+- claims;
+- payouts;
+- market infrastructure;
+- treasury access;
+- or approved distributable value.
 
-The interface and ledger should identify each event separately. Buying credits should not silently create token status, and a token condition should not conceal a product charge.
+## Activation Record
 
-Detailed credit treatment belongs in [FUZE Platform Credits Relationship](10-FUZE_PLATFORM_CREDITS_RELATIONSHIP_PUBLIC.md).
+Before a utility becomes active, the activation record should identify:
 
----
+- utility identifier and version;
+- product or ecosystem surface;
+- lifecycle status;
+- exact audience;
+- geography or jurisdiction where applicable;
+- supported network and contract;
+- token condition or action;
+- supported wallets and custody types;
+- start time;
+- duration or review date;
+- product or ecosystem response;
+- permissions;
+- public and private data boundaries;
+- fees and cost treatment;
+- monitoring;
+- support;
+- incident route;
+- correction route;
+- pause and withdrawal authority;
+- public communication;
+- required reviewers;
+- approving authority;
+- completed evidence;
+- open limitations;
+- and current-as-of date.
 
-## 7. Utility Design Standard
+Approval for activation is not the same as execution.
 
-Every utility surface should answer the following.
+Deployment is not the same as activation.
 
-### User value
+Activation is not the same as adoption.
 
-What becomes possible, easier, more interoperable, or more trustworthy for the user?
-
-### Token necessity
-
-Why is FUZE token preferable to an account permission, ordinary payment, Platform Credit charge, database field, or non-transferable record?
-
-### Experience
-
-What does the user connect, sign, hold, transfer, register, or verify? What fees, delays, failures, and support steps can occur?
-
-### Scope
-
-Which product, audience, network, custody type, jurisdiction, and period are supported?
-
-### Authority
-
-Who approves activation and who can pause, modify, or retire the function?
-
-### Evidence
-
-Which records establish successful use, failed attempts, exceptions, corrections, and current availability?
-
-### Communication
-
-Can the function be described accurately without implying market demand, price effects, broad rights, or availability outside its approved scope?
-
-A weak answer to token necessity is a reason to keep the feature outside the token layer.
-
----
-
-## 8. Wallet, Custody, and Privacy
-
-Utility can require a wallet address, signature, token check, transaction, or snapshot. The design should use the minimum wallet interaction necessary.
-
-The user experience should disclose:
-
-- supported networks and wallet types;
-- what information is read;
-- what action is requested;
-- expected network fees;
-- custody limitations;
-- how status changes are detected;
-- support and correction routes.
-
-Self-custody can allow direct signing or address verification. Exchange custody may obscure the underlying user address or combine holdings in omnibus wallets, so some utilities may need separate evidence or may not support that custody model.
-
-Public utility reporting must not expose the person behind a wallet. Identity verification, customer records, credentials, and other sensitive material remain permissioned and separated from public address records.
-
----
-
-## 9. Controls Before Activation
-
-Review should be proportionate to the function.
-
-| Control area | Review focus |
-|---|---|
-| Product | User need, workflow clarity, supportability, and status |
-| Technical | Contract, network, indexer, wallet, fallback, and data behavior |
-| Security | Signatures, permissions, administrative powers, abuse, and incident response |
-| Privacy | Separation of public addresses from identity and product data |
-| Legal and compliance | User, jurisdiction, rights, public wording, and operating structure |
-| Accounting and treasury | Token movement, fees, custody, classification, and reconciliation |
-| Partner | Responsibilities, dependencies, service levels, data, and termination |
-| Governance | Approval authority, change control, pause, and retirement |
-| Reporting | Evidence, metric definitions, public scope, and correction process |
-
-A low-risk recognition badge may require fewer controls than a utility involving token transfer, governance authority, market infrastructure, or approved value.
-
----
-
-## 10. Utility Evidence
+## Utility Evidence
 
 Evidence should match lifecycle status.
 
-### Definition evidence
+### Qualification Evidence
 
-- approved specification;
+- user or ecosystem need;
+- non-token alternatives;
+- token relevance;
+- proposed class;
+- owner;
+- initial risk and dependency review.
+
+### Specification Evidence
+
+- approved utility specification;
 - user flow;
 - token-condition logic;
-- ownership and dependency record.
+- network and contract scope;
+- wallet and custody matrix;
+- product response;
+- authority;
+- privacy and data treatment;
+- support;
+- pause and retirement design.
 
-### Build and test evidence
+### Build and Test Evidence
 
 - implementation reference;
-- test results;
-- supported wallet and network matrix;
-- security or privacy review;
-- failure and fallback behavior.
+- environment;
+- test scenarios;
+- wallet and network results;
+- contract behavior;
+- indexer or data behavior;
+- signature and replay tests;
+- failure and fallback behavior;
+- security and privacy review;
+- defect record;
+- and correction evidence.
 
-### Activation evidence
+### Activation Evidence
 
 - approval record;
-- effective scope and date;
+- effective scope;
+- activation time;
 - release communication;
-- user instructions and support route.
+- user instructions;
+- support route;
+- monitoring;
+- known limitations;
+- and rollback or pause readiness.
 
-### Operating evidence
+### Operating Evidence
 
-- eligible and active users;
-- successful utility actions;
-- failure, correction, and support volume;
-- repeat use and completion;
-- incidents, downtime, and abuse;
-- product or community outcomes relevant to the function.
+- eligible users or wallets;
+- utility exposure;
+- wallet connections;
+- successful checks;
+- successful signatures;
+- completed token actions;
+- completed product or ecosystem actions;
+- failed attempts;
+- repeat use;
+- support demand;
+- correction volume;
+- incidents;
+- downtime;
+- abuse attempts;
+- provider performance;
+- and product or ecosystem outcomes.
 
-### Closure evidence
+### Closure Evidence
 
-- pause or retirement decision;
-- user and partner notice;
+- pause, withdrawal, or retirement decision;
+- affected users and partners;
+- access and token treatment;
 - remaining obligations;
-- migration or withdrawal handling;
-- retained records and final report.
+- migration or replacement;
+- support;
+- final reconciliation;
+- public notice;
+- retained records;
+- and final status.
 
-Evidence of trading activity is not evidence that a product utility works.
+Trading activity is not evidence that a product utility works.
 
----
+## Measurement
 
-## 11. Measurement
+Utility measures should test usefulness, reliability, safety, and operating quality.
 
-Utility measures should test usefulness and operational quality.
-
-| Measure group | Examples |
+| Measure group | Example measures |
 |---|---|
-| Reach | Eligible users, supported wallets, product exposure |
-| Completion | Successful checks, signatures, transactions, or product actions |
-| Quality | Failure rate, latency, support volume, correction rate |
-| Repeat behavior | Returning users, recurring participation, continued use |
-| Product effect | Access completion, event participation, contribution, game activity, or another defined result |
-| Safety | Abuse attempts, unauthorized actions, incidents, privacy exceptions |
-| Sustainability | Operating cost, support effort, partner dependency, maintenance burden |
+| Eligibility and reach | Eligible wallets, supported wallet types, supported networks, exposed users, and product scope |
+| Wallet journey | Connection completion, chain-switch success, signature completion, transaction completion, and abandonment |
+| Utility completion | Successful checks, registrations, access events, votes, contributions, product actions, or other defined results |
+| Product effect | Access completion, participation, event activity, contribution, game activity, verification, or another named result |
+| Reliability | Failure rate, stale-data rate, provider outage, latency, reorg handling, and duplicate prevention |
+| Support and correction | Support volume, correction rate, appeal rate, resolution time, and unresolved exceptions |
+| Repeat behavior | Returning wallets, recurring participation, continued product use, and cohort activity |
+| Safety and privacy | Abuse attempts, unauthorized actions, phishing reports, privacy exceptions, and incidents |
+| Sustainability | Network cost, provider cost, support effort, maintenance burden, partner dependency, and review overhead |
 
-Each report should state the period, scope, denominator, source, and known limitations. Token price, market capitalization, and trading volume belong to market analysis and should not replace utility measures.
+Each report should identify:
 
----
+- product and utility;
+- lifecycle status;
+- period;
+- timezone;
+- scope;
+- source;
+- metric;
+- denominator;
+- unique-wallet or unique-user method;
+- multi-wallet treatment;
+- test and bot treatment;
+- custody treatment;
+- failures;
+- exclusions;
+- correction state;
+- and limitations.
 
-## 12. Change, Pause, and Retirement
+The following should remain separate:
 
-Utility is not permanent merely because it has been activated.
+- eligible wallet;
+- connected wallet;
+- verified wallet control;
+- token-condition success;
+- completed signature;
+- submitted transaction;
+- confirmed transaction;
+- completed product action;
+- repeat use;
+- unique person;
+- product user;
+- customer;
+- claimant;
+- and payout recipient.
 
-A material change can include:
+Token price, market capitalization, trading volume, liquidity, and holder count belong to market or token analysis and should not replace utility measures.
+
+## Change and Scope Expansion
+
+A material utility change may include:
 
 - a new token condition;
-- expanded user or jurisdiction scope;
+- a changed threshold;
+- a changed snapshot or period;
+- a new user class;
+- expanded geography;
 - a different network or contract;
-- changed custody support;
-- increased authority or rights;
-- new partner dependence;
-- movement from a free function to a paid or transferred action;
-- altered data collection or public reporting.
+- changed wallet or custody support;
+- a token transfer or lock added to a read-only flow;
+- increased governance or decision authority;
+- new claim or payout effects;
+- new partner dependency;
+- new data collection;
+- changed public reporting;
+- changed fee or product-charge treatment;
+- or a broader product or ecosystem result.
 
-Material changes should return to the relevant review stage.
+Material changes should return to the applicable:
 
-A pause process should protect users, preserve evidence, stop unsafe actions, communicate current status, and define remediation. Retirement should address remaining access, contracts, balances, records, partner duties, and public documentation.
+- qualification;
+- specification;
+- technical review;
+- security review;
+- privacy review;
+- legal or compliance review;
+- treasury or accounting review;
+- partner review;
+- governance review;
+- testing;
+- and activation decision.
 
----
+A successful pilot does not automatically authorize a different network, contract, product, partner, geography, or token condition.
 
-## 13. Public Reporting
+## Pause, Withdrawal, and Retirement
 
-The utility registry can support a public view that shows:
+A utility may need to pause, narrow, withdraw, or retire because of:
 
-- approved utility name and class;
-- related product or platform surface;
-- current lifecycle status;
-- supported audience, wallet, and network scope;
-- activation or last-review date;
-- aggregate use and reliability measures where available;
-- incidents, pauses, material changes, and retirement;
-- links to instructions and primary policy papers.
+- product defect;
+- contract defect;
+- security issue;
+- wallet or provider compromise;
+- incorrect token condition;
+- privacy issue;
+- stale or unreliable data;
+- provider outage;
+- user harm;
+- abuse;
+- high support burden;
+- legal or compliance concern;
+- partner failure;
+- market-infrastructure risk;
+- unclear user value;
+- unnecessary complexity;
+- misleading public interpretation;
+- or replacement by a simpler mechanism.
 
-Public reports should avoid private identity, customer records, confidential partner terms, credentials, and security-sensitive implementation detail.
+The record should identify:
 
-Planned and candidate functions should remain visibly distinct from available utility.
+- utility identifier;
+- affected scope;
+- effective time;
+- reason category;
+- affected users and partners;
+- wallet and token treatment;
+- product access treatment;
+- pending transactions;
+- claim or payout treatment where applicable;
+- data and record treatment;
+- migration or replacement;
+- support;
+- incident route;
+- public communication;
+- reactivation conditions;
+- reviewer;
+- and final status.
 
----
+A paused, withdrawn, or retired utility should not remain represented as active.
 
-## 14. Public Boundary
+## Error, Incident, and Correction Model
 
-This model defines how FUZE evaluates and governs token utility. It does not announce that every class or candidate function is active.
+A utility incident may include:
 
-Token utility can support product and ecosystem actions, but the existence or use of a function does not determine token price, exchange access, liquidity, adoption, revenue, or another market outcome.
+- wrong network;
+- wrong contract;
+- wrong threshold;
+- wrong snapshot;
+- stale balance;
+- incorrect eligibility;
+- incorrect access;
+- duplicate action;
+- replayed signature;
+- unauthorized approval;
+- malicious token or contract;
+- failed transaction;
+- reorg;
+- product response failure;
+- provider outage;
+- wallet compromise;
+- contract compromise;
+- privacy exposure;
+- incorrect public report;
+- partner misrepresentation;
+- or another material issue.
 
-The consolidated token boundary is maintained in [FUZE Token Risk Boundaries](29-FUZE_TOKEN_RISK_BOUNDARIES_PUBLIC.md). Detailed participation mechanics remain in their dedicated papers.
+An incident or correction record should identify:
 
----
+- identifier;
+- utility and version;
+- product or ecosystem surface;
+- affected network, contract, wallet class, partner, or provider;
+- detection time;
+- original state;
+- impact;
+- affected users or wallets;
+- containment;
+- pause, revocation, or block action;
+- token, product, claim, or payout effect;
+- user communication;
+- support;
+- correction;
+- reconciliation;
+- public-reporting effect;
+- root-cause review;
+- follow-up;
+- and closure.
 
-## Conclusion
+Corrections should preserve the original record and the reason for change.
 
-FUZE token utility is credible when a specific token condition improves a real user or ecosystem action and the resulting function can be operated, measured, governed, and reported.
+## Public Reporting
 
-The utility registry turns broad ideas into accountable surfaces with defined classes and lifecycle status. It also gives FUZE a disciplined way to expand, pause, change, or retire utility as products and requirements develop.
+The utility registry can support a public view showing:
+
+- approved utility name;
+- class;
+- related product or ecosystem surface;
+- lifecycle status;
+- supported audience;
+- supported wallet and custody scope;
+- supported network and contract;
+- effective scope;
+- activation or latest-review date;
+- current-as-of date;
+- aggregate usage and reliability measures where available;
+- known limitations;
+- incidents;
+- pauses;
+- material changes;
+- withdrawal or retirement;
+- support route;
+- and links to instructions and primary policy papers.
+
+Public reports should avoid:
+
+- private identity;
+- private wallet-person mappings;
+- customer records;
+- private product data;
+- credentials;
+- recovery material;
+- exploitable security detail;
+- private partner terms;
+- legal work product;
+- tax records;
+- and accounting workpapers.
+
+Candidate, qualified, planned, in-development, test, pilot, beta, active, paused, withdrawn, and retired functions should remain visibly distinct.
+
+## Status and Evidence
+
+This paper defines the portfolio-level utility model.
+
+It does not independently prove that any candidate, product integration, contract, partner program, governance mechanism, participation process, claim, payout, or market function is active.
+
+| Status claim | Evidence direction |
+|---|---|
+| Utility candidate recorded | Registry entry, intended user, proposed token role, owner, and initial dependencies |
+| Utility qualified | User value, token relevance, non-token alternatives, initial risk review, and decision |
+| Utility specified | Complete user, token, wallet, product response, scope, control, evidence, and retirement specification |
+| Utility in development | Current implementation reference, owner, environment, and status |
+| Utility internally testable | Authorized environment, supported wallets, scenarios, defects, and test evidence |
+| Utility approved for activation | Approval record, exact scope, reviewers, conditions, support, monitoring, and pause readiness |
+| Utility pilot active | Current limited audience, network, contract, product flow, support, monitoring, and period |
+| Utility public beta active | Public access, beta scope, instructions, limitations, feedback, support, and monitoring |
+| Utility active for stated scope | Current activation record, product flow, network, contract, wallet scope, support, monitoring, and public status |
+| Utility changed | Approved change record, updated specification, testing, activation, communication, and version |
+| Utility paused | Pause decision, affected scope, user and token treatment, support, and communication |
+| Utility withdrawn | Withdrawal decision, user obligations, migration or replacement, support, and public status |
+| Utility retired | Closure decision, final reconciliation, user and partner treatment, archive, and final reporting |
+| Incident corrected | Original issue, authority, correction, reconciliation, user treatment, public update, and final status |
+
+The following do not independently prove active utility:
+
+- this paper;
+- a token mention;
+- a utility class;
+- a registry candidate;
+- a roadmap item;
+- a mockup;
+- code;
+- a repository;
+- a deployed contract;
+- a wallet-connect screen;
+- an internal test;
+- a partner discussion;
+- a governance discussion;
+- a public announcement without operating evidence;
+- a token balance;
+- trading activity;
+- or a token price.
+
+## Utility, Product, Payment, Market, and Outcome Separation
+
+The following remain separate:
+
+- product capability;
+- product access;
+- product permission;
+- Platform Credit balance;
+- Platform Credit consumption;
+- payment;
+- stablecoin settlement;
+- wallet connection;
+- wallet-control proof;
+- FUZE-token holding;
+- token condition;
+- token action;
+- token utility;
+- participation;
+- recognition;
+- governance input;
+- claim eligibility;
+- claim submission;
+- claim approval;
+- payout;
+- product adoption;
+- product revenue;
+- approved distributable value;
+- DEX access;
+- CEX access;
+- liquidity;
+- market price;
+- and financial return.
+
+Active utility does not automatically establish:
+
+- broad product use;
+- product-market fit;
+- customer demand;
+- revenue;
+- token demand;
+- market access;
+- liquidity;
+- price support;
+- claim eligibility;
+- payout eligibility;
+- or financial return.
+
+## Public Boundary
+
+This paper publishes the utility taxonomy, registry model, lifecycle, specification standard, control model, evidence requirements, measurement model, and public-reporting boundaries.
+
+It does not publish or establish current:
+
+- active utility surfaces;
+- token thresholds;
+- wallet eligibility;
+- supported networks;
+- canonical contract address;
+- smart-contract activation;
+- product access rights;
+- governance authority;
+- partner programs;
+- claim rules;
+- payout rules;
+- approved distributable value;
+- DEX activation;
+- CEX approval;
+- active liquidity;
+- token demand;
+- token price;
+- revenue;
+- profitability;
+- or financial return
+
+unless those details are separately approved and supported by current evidence in the applicable registry entry, product surface, specialist paper, or public report.
+
+## Key Takeaways
+
+- FUZE-token utility is a defined relationship among an eligible user or wallet, an exact token condition or action, a supported product or ecosystem response, and operating evidence.
+- A token mention, wallet connection, balance display, roadmap item, contract deployment, trading activity, or token price does not independently establish utility.
+- Every utility should explain why FUZE token is preferable to a simpler account, permission, payment, Platform Credit, badge, game-state, or database mechanism.
+- Utility classes include access, participation, recognition, contribution, game, partner, governance, reporting, and specialist wallet-based participation.
+- The utility registry should control names, classes, product surfaces, token conditions, network and contract scope, wallet support, lifecycle status, evidence, and review dates.
+- Candidate, qualified, specified, planned, in development, test, pilot, beta, active, paused, withdrawn, and retired are different states.
+- Product use, Platform Credits, payments, token holding, token utility, participation, governance, claims, payouts, market access, liquidity, price, revenue, and financial return remain separate.
+- Utility should use the minimum wallet and token interaction necessary to deliver the approved function.
+- Material changes should return to review and activation rather than inherit approval automatically.
+- Active utility should be measurable, supportable, correctable, pausable, and capable of retirement.

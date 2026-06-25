@@ -2,429 +2,445 @@
 
 ## Executive Summary
 
-FUZE public messaging should describe products, token systems, fundraising, participation, markets, AI, games, partnerships, and reporting according to the evidence and current status available for each claim.
+FUZE public communication must match the evidence, status, audience, channel, and jurisdiction relevant to each claim. A product description, roadmap statement, token explanation, market-access update, fundraising message, AI claim, customer reference, or security statement can create very different expectations even when the wording appears simple.
 
-This paper defines the review process rather than repeating every approved phrase. A public statement should have an owner, claim class, evidence source, audience, jurisdiction context, approval route, publication date, and correction path.
+This paper defines the public review and maintenance framework for FUZE messaging. It explains how material claims should be classified, supported, approved, dated, published, monitored, corrected, or withdrawn. Its purpose is to keep communication clear and useful without turning every product page, paper, social post, interface, or partner message into a repeated legal disclaimer.
 
-Higher-risk claims include financial outcomes, token price or demand, listings, liquidity, participation, eligibility, fundraising terms, legal status, privacy, security, AI accuracy, customer results, and named partnerships. These claims require stronger substantiation and specialist review than ordinary descriptive copy.
+Higher-risk subjects require stronger evidence and specialist review. These include financial outcomes, token supply and utility, wallet participation, fundraising, market access, liquidity, legal status, privacy, security, AI accuracy, customer results, game value, and named partnerships.
 
-The [FUZE Public Language Dictionary](32-FUZE_PUBLIC_LANGUAGE_DICTIONARY_PUBLIC.md) owns preferred terminology and replacements. This paper governs how a message is cleared and maintained.
+The [FUZE Public Language Dictionary](32-FUZE_PUBLIC_LANGUAGE_DICTIONARY_PUBLIC.md) controls tokenomics, governance, wallet, treasury, market-access, and compliance terminology. This paper controls the process used to review and maintain public claims.
 
----
+## 1. Purpose and Primary Readers
 
-## 1. Messaging Objective
+This paper is written primarily for FUZE team members, reviewers, partners, and authorized contributors who prepare or approve public communication.
 
-The review framework should answer:
+It is designed to answer:
 
 1. What exactly is being claimed?
-2. Is it a fact, interpretation, plan, scenario, or promise?
-3. Which evidence supports it?
-4. Is the evidence current and representative?
-5. Which audience and jurisdictions will receive it?
-6. Which approvals are required?
-7. How will the statement be corrected or removed if it changes?
+2. Is the statement a current fact, measured result, design, plan, interpretation, scenario, or commitment?
+3. Which current evidence supports it?
+4. Which audience and jurisdictions may receive it?
+5. Which review tier applies?
+6. What private information must remain excluded?
+7. How will the statement be monitored and corrected if its status changes?
 
-The objective is accurate, supportable communication that preserves FUZE's public position without turning every message into a disclaimer list.
+The objective is accurate, practical communication that preserves FUZE's product-first public position and prevents roadmap language, documentation, or private discussions from being presented as completed execution.
 
----
+## 2. Current Public Position
 
-## 2. Claim Record
+FUZE is a product-first AI SaaS and Web3 ecosystem. Public communication should begin with the product, user problem, workflow, current status, and evidence appropriate to the subject.
 
-Material public claims should have a lightweight review record.
+Token, wallet, stablecoin, market, fundraising, and participation language should be included only where relevant and should preserve these distinctions:
 
-| Field | Required content |
+- Platform Credits support product usage and remain separate from FUZE token.
+- FUZE token supports defined ecosystem utility and participation functions where approved and activated.
+- Stablecoins may support approved payment, settlement, treasury, refund, or compensation workflows.
+- Wallet-level records can support public-safe transparency without exposing personal identity.
+- Documentation can define a model but does not prove implementation, testing, release, adoption, revenue, contract activation, liquidity, or market access.
+
+Public communication must use the latest controlling source and current status record rather than relying on an earlier paper, historical announcement, private conversation, or draft.
+
+## 3. Claim Classification
+
+Every material claim should be classified before publication.
+
+| Claim class | Typical subjects |
 |---|---|
-| Claim ID | Stable reference |
-| Exact wording | Headline, body, caption, chart, or interface text |
-| Claim class | Product, financial, token, market, legal, privacy, security, AI, partnership, or other class |
-| Evidence | Authoritative source and date |
-| Status | Current, conditional, planned, historical, superseded, or withdrawn |
-| Audience | Product user, community, investor, partner, public, or mixed |
-| Channels | Website, paper, deck, social, product UI, email, event, or community |
-| Jurisdiction | General or location-specific review |
-| Owner | Person responsible for accuracy |
-| Reviewers | Product, legal, compliance, finance, technical, privacy, security, or other roles |
-| Expiry or review date | When the claim must be rechecked |
+| Product capability | User, problem, workflow, feature, integration, availability, output, or limitation |
+| Product status | Concept, design, prototype, implementation, testing, release, beta, live service, or pause |
+| Performance | Speed, accuracy, conversion, usage, retention, cost, reliability, customer result, or revenue |
+| Token and participation | Supply, allocation, utility, release, circulation, wallet eligibility, claim, or activation |
+| Market access | DEX, CEX, custody, trading, pair, liquidity, price, volume, depth, or venue status |
+| Fundraising and investment | Round status, strategic audience, use of funds, commitment, closing, or token-related exposure |
+| Legal and regulatory | Availability, qualification, restriction, licensing, compliance, tax, or jurisdiction |
+| Privacy and security | Data handling, identity protection, encryption, audit, verification, incident, or safeguard |
+| AI and game outcomes | AI quality, autonomy, advice boundary, moderation, game value, reward, or player outcome |
+| Partnership and customer | Discussion, agreement, integration, deployment, distribution, endorsement, or result |
+| Governance and reporting | Approval, authority, vote, multisignature, timelock, report, correction, or public record |
 
-Routine descriptive copy can use a simplified record. High-impact claims need explicit evidence and approval.
+A single message can contain several claim classes. Each material claim should be supported independently.
 
----
+## 4. Claim-to-Evidence Record
 
-## 3. Claim Classes
+Material public claims should have a proportionate review record.
 
-### Product capability
-
-Describes what a product does, who it serves, its availability, integrations, limits, or workflow.
-
-### Performance
-
-Describes measured speed, accuracy, conversion, revenue, cost, adoption, customer, sponsor, or operating results.
-
-### Token and participation
-
-Describes FUZE utility, allocation, supply, release, wallet eligibility, claims, approved value, or activation.
-
-### Market access
-
-Describes DEX or CEX status, liquidity, pricing, custody, trading, volume, demand, or market operations.
-
-### Fundraising and investment
-
-Describes the Private Strategic Seed Round, investor process, use of funds, token-related exposure, valuation, commitments, or closing.
-
-### Legal and regulatory
-
-Describes legal status, availability, compliance, licensing, qualification, restrictions, tax, or jurisdiction.
-
-### Privacy and security
-
-Describes data collection, identity protection, encryption, custody, audits, incidents, or technical safeguards.
-
-### AI and game outcomes
-
-Describes AI output quality, autonomy, market interpretation, moderation, game value, rewards, or player outcomes.
-
-### Partnership and customer
-
-Describes named relationships, deployments, customers, integrations, distribution, or endorsements.
-
-The claim class determines evidence and reviewer requirements.
-
----
-
-## 4. Evidence Standards
-
-### Direct evidence
-
-Contracts, product records, transaction evidence, approved policies, signed agreements, deployment logs, audited statements, or authoritative third-party confirmation.
-
-### Measured evidence
-
-Analytics, tests, surveys, benchmarks, reports, or calculations with stated methodology, sample, period, and limitations.
-
-### Documentary evidence
-
-Approved minutes, notices, term records, data-room documents, legal or specialist review, and versioned public papers.
-
-### Third-party evidence
-
-Venue notices, partner announcements, custodian records, media reports, certifications, or external reviews whose scope and date are clear.
-
-Evidence should match the claim. A prototype cannot substantiate general availability. One customer example cannot substantiate universal results. A venue discussion cannot substantiate listing.
-
----
-
-## 5. Status Language
-
-Plans and current facts should use distinct statuses.
-
-| Status | Meaning |
+| Field | Required treatment |
 |---|---|
-| Concept | An idea or public model is defined |
-| Planned | FUZE intends work but has not completed it |
-| In development | Implementation is underway |
-| Testing | Controlled evaluation is underway |
-| Ready for review | FUZE-side preparation is complete for the next decision |
-| Approved | Required authority has approved the specific scope |
-| Active | The function or process is currently available |
-| Paused | Availability is temporarily suspended |
-| Closed | The process has ended |
-| Retired | The feature or record is no longer authoritative |
+| Claim reference | Stable identifier or traceable source location |
+| Exact wording | Headline, paragraph, caption, chart, interface text, or call-to-action |
+| Claim class | Applicable category or categories |
+| Subject and scope | Exact product, feature, token mechanism, venue, partner, period, or audience |
+| Evidence source | Current authoritative record and date |
+| Evidence class | Position, design, implementation, test, release, usage, commercial, legal, or third-party evidence |
+| Status | Current approved status of the exact subject |
+| Audience and channel | Intended reader and publication route |
+| Jurisdiction context | General, restricted, or location-specific treatment |
+| Information class | Public, approved public-safe summary, confidential, or restricted |
+| Owner | Person or function accountable for accuracy |
+| Reviewers | Functional, specialist, executive, or governance reviewers |
+| Effective and review dates | Publication date and next mandatory review |
+| Correction route | Owner and process for amendment, withdrawal, or retraction |
 
-Writers should identify the subject of the status. A contract can be deployed while claims remain inactive; a product can be live while one feature remains in testing.
+Routine descriptive copy can use a simplified record. High-impact claims require explicit evidence, named ownership, and documented approval.
 
----
+## 5. Evidence Standards
 
-## 6. Review Tiers
+Evidence must match the exact claim, scope, period, and status.
 
-### Tier 1: Editorial
+### 5.1 Approved public position
 
-Ordinary descriptive copy supported by current product or policy documentation. Owner and editor review can be sufficient.
+An approved current paper or policy can support what FUZE intends, defines, or publicly commits to as a position. It does not prove execution.
 
-### Tier 2: Functional
+### 5.2 Design evidence
 
-Claims about product capabilities, technical status, allocation, operations, partnerships, or measured results. Requires the accountable functional owner.
+A specification, workflow, architecture, interface, or acceptance model can support designed behavior. It does not prove implementation or availability.
 
-### Tier 3: Specialist
+### 5.3 Implementation and test evidence
 
-Claims involving legal status, fundraising, financial performance, token participation, eligibility, market access, security, privacy, AI advice boundaries, or regulated activity. Requires relevant specialist review.
+A working build, demonstration, test record, deployment log, or acceptance result can support bounded implemented or tested behavior. The statement must identify the tested scope and environment.
 
-### Tier 4: Executive or governance
+### 5.4 Release and operating evidence
 
-Major public changes, incidents, financing closings, confirmed listings, token activation, material corrections, or commitments with broad impact. Requires the designated executive or governance authority.
+A release record, access route, terms, monitoring, support process, and operating history can support limited release, public beta, or live status according to the evidence available.
 
-One message can contain claims from multiple tiers. The highest applicable tier controls publication.
+### 5.5 Usage and commercial evidence
 
----
+Usage records must identify event definitions, cohort, period, and exclusions. Paid delivery must connect payment to the promised product or service. Revenue claims require confirmed classification and reconciliation.
 
-## 7. Product Claims
+### 5.6 Legal and third-party evidence
 
-Product messaging should state:
+Signed agreements, legal review, official venue notices, regulator materials, custodian records, certifications, and authorized partner confirmations can support claims only within their stated scope and date.
 
-- target user;
-- workflow or problem addressed;
-- current capability and availability;
-- user control and permissions;
-- relevant output or operational limits;
-- evidence for measured outcomes.
+A prototype cannot support general availability. A payment cannot support revenue unless delivery and accounting treatment are confirmed. A venue discussion cannot support a listing claim.
 
-Claims such as “helps,” “supports,” or “can assist” still need a plausible product basis. Stronger claims such as “reduces cost by 30%” need a defined measurement.
+## 6. Controlled Status Language
 
-Product status should come before token or market language unless the product's purpose is specifically token-related.
+Status wording must identify the exact subject and avoid silent upgrades.
 
-AI-assisted outputs should identify the need for user or professional review where the context requires it.
+| Status | Public meaning |
+|---|---|
+| Concept | The idea or public model is defined |
+| Research | Investigation or validation is underway |
+| Design | The intended workflow, system, or control is documented |
+| Prototype | A bounded implementation demonstrates named behavior |
+| Internal testing | Authorized testing is underway with recorded results |
+| Controlled pilot | A limited approved cohort is using the defined scope |
+| Public beta | Public access exists with documented limitations and support |
+| Live | Production access, current terms, support, monitoring, and operating evidence exist |
+| Activation-gated | Defined approvals or controls remain before operation can begin |
+| Under review | Evidence, authority, or treatment is being reassessed |
+| Paused | The identified function is temporarily unavailable |
+| Retired or replaced | The record or feature is no longer authoritative |
 
----
+The status must attach to the relevant scope. A contract can be deployed while utility remains inactive. A product can have a working module while the wider service remains in design. A round can be under discussion without being closed.
 
-## 8. Token and Participation Claims
+## 7. Review Tiers
 
-Token claims should use the controlling tokenomics source for:
+### Tier 1 — Editorial review
 
-- fixed supply and allocation values;
-- utility and system role;
-- release and circulation state;
-- vault or custody status;
-- eligibility and activation;
-- claims and approved value.
+Applies to ordinary descriptive copy supported by current approved documentation. The content owner and editor can normally review it.
 
-Writers should distinguish allocated, committed, vested, unlocked, released, claimable, deployed, and circulating.
+### Tier 2 — Functional review
 
-Wallet-based participation language should reflect the actual framework status. Holding FUZE, appearing in a snapshot, or seeing a deployed contract is insufficient to claim current eligibility or value.
+Applies to product capability, technical status, operations, allocation, partnership scope, measured results, or implementation detail. The accountable product, technical, finance, operating, or partnership owner must review it.
 
-Detailed mechanisms should link to their dedicated papers rather than being re-explained in every message.
+### Tier 3 — Specialist review
 
----
+Applies to legal status, fundraising, token participation, eligibility, market access, custody, security, privacy, regulated activity, AI advice boundaries, or financial performance. The appropriate specialist must review it.
 
-## 9. Market and Listing Claims
+### Tier 4 — Executive or governance review
+
+Applies to major public changes, token or contract activation, financing closings, confirmed market-access events, material incidents, broad commitments, or significant corrections. The designated executive or governance authority must approve it.
+
+Where one message contains several tiers, the highest applicable tier controls publication.
+
+## 8. Product and Product-Status Claims
+
+Product communication should identify:
+
+- primary user;
+- problem or workflow addressed;
+- current public status;
+- implemented versus intended capability;
+- user permissions and approval points;
+- relevant data, AI, security, and operational limits;
+- evidence for measured outcomes;
+- next evidence milestone where useful.
+
+Words such as “supports,” “helps,” or “can assist” still require a plausible product basis. Quantified claims require a defined method, period, sample, and comparison.
+
+Normal product communication should lead with practical value rather than token participation, market access, or legal disclaimers. Necessary product-specific boundaries should appear close to the relevant claim.
+
+## 9. Token, Platform Credit, Stablecoin, and Wallet Claims
+
+Token-related communication must use the controlling source for supply, allocation, release, circulation, utility, custody, eligibility, and activation.
+
+Writers must distinguish:
+
+- allocation from release;
+- unlock from circulation;
+- deployment from activation;
+- token holding from process-specific eligibility;
+- a wallet snapshot from a completed claim;
+- Platform Credits from FUZE token;
+- stablecoin settlement from product revenue or participant entitlement.
+
+FUZE token must not be presented as an automatic payout, guaranteed return, fixed yield, guaranteed income, guaranteed listing, or unconditional profit-share instrument.
+
+Wallet-based participation ability should be described only where relevant and according to its current activation status. Holding FUZE, appearing in a snapshot, or observing a deployed contract is not sufficient to claim an active right or approved value.
+
+## 10. Market-Access and Liquidity Claims
+
+FUZE's public market-access direction is DEX-first, subject to readiness, approval, deployment, liquidity, legal, operational, and disclosure requirements. Possible later CEX access remains a separate path.
 
 Market communication should identify:
 
-- venue and pair;
-- verified status;
-- observation time;
-- methodology for price, volume, depth, or demand;
-- limitation and source.
+- venue type and exact venue where approved;
+- token contract and network where verified;
+- pair or route;
+- current stage;
+- observation date and time;
+- source and methodology for price, volume, depth, spread, or liquidity;
+- applicable custody and jurisdiction limitations.
 
-DEX-first is a direction where readiness permits. Possible later CEX support remains subject to venue and project review.
+Use the stages precisely:
 
-Terms such as “in discussion,” “submitted,” “approved,” “scheduled,” and “live” should match evidence. Only public venue confirmation can support a confirmed listing claim.
+1. planning;
+2. preparation;
+3. application;
+4. review;
+5. approval;
+6. live access.
 
-Price, demand, liquidity, resale, and market outcomes remain external and variable. The [FUZE Market Price and Demand Boundary](22-FUZE_MARKET_PRICE_AND_DEMAND_BOUNDARY_PUBLIC.md) governs causal and performance language.
+Discussion, technical preparation, application, approval, and live access are not interchangeable. A third-party mention is not venue approval. Pool assets are not a complete measure of liquidity. No message should imply guaranteed resale, depth, listing, market support, or price behavior.
 
----
+The [FUZE Market Price and Demand Boundary](22-FUZE_MARKET_PRICE_AND_DEMAND_BOUNDARY_PUBLIC.md) governs price and demand language. The [FUZE Liquidity and Listing Policy](21-FUZE_LIQUIDITY_AND_LISTING_POLICY_PUBLIC.md) governs market-access policy.
 
-## 10. Fundraising Claims
+## 11. Fundraising and Investor Communication
 
-Public fundraising messaging can identify the Private Strategic Seed Round, its strategic audience, execution purpose, and private-review route.
+Public fundraising communication may describe the approved public round name, strategic purpose, intended audience, use-of-funds direction, and qualified private-review route.
 
-Private terms, valuations, allocations, investor identity, commitments, token exposure, and closing information should remain permissioned until accurate and authorized for publication.
+Private terms, valuations, negotiated rights, investor identity, contact details, commitments, wallet mappings, signed agreements, and closing records must remain permissioned unless specifically approved for public disclosure.
 
-The status should distinguish preparation, private discussions, diligence, commitments in process, completed closing, and closed.
+Round status should distinguish:
 
-Fundraising receipts should never be described as product revenue, approved distributable value, or a public token-access route.
+- preparation;
+- outreach or private discussion;
+- diligence;
+- commitment in process;
+- executed closing;
+- closed round.
 
----
+Investor interest is not completed financing. A signed document is not necessarily funded. Fundraising receipts are not product revenue, approved distributable value, or evidence of customer adoption.
 
-## 11. Partnership and Customer Claims
+Public communication must not function as an unsupported public offer or imply guaranteed token access, market access, return, liquidity, or exit.
 
-A relationship claim should state what is actually confirmed:
+## 12. Partnership and Customer Claims
 
-- discussion;
-- memorandum or non-binding exploration;
+A relationship claim should state the narrowest verified stage:
+
+- initial discussion;
+- non-binding exploration;
+- memorandum or framework;
 - signed agreement;
 - integration in development;
+- controlled deployment;
 - live deployment;
 - distribution activity;
 - completed milestone;
 - measured result.
 
-Named parties, logos, quotes, results, and commercial details require authorization.
+Named parties, logos, quotations, results, endorsements, and commercial details require authorization.
 
-A strategic relationship does not establish adoption, revenue, customer success, market access, or endorsement beyond its documented scope.
+A partnership does not automatically establish product adoption, revenue, customer success, exchange access, distribution scale, endorsement, or exclusivity beyond its documented scope.
 
----
+## 13. AI, Automation, and Game Claims
 
-## 12. AI and Advice Boundaries
+AI and automation messaging should identify:
 
-QTB, AIMM, Botmad, and other AI products can support analysis, workflows, drafts, monitoring, and decision context.
+- user-directed, assisted, or automated behavior;
+- source and freshness of relevant data;
+- permissions and tool access;
+- confidence, evaluation, and known limitations;
+- required human approval or operator authority;
+- whether the output is informational, creative, analytical, or operational;
+- correction, escalation, and incident routes.
 
-Messaging should identify:
+QTB should be described as AI-assisted market research, interpretation, structured intelligence, and decision support. AIMM should be described as authorized liquidity-operations analysis, monitoring, decision support, controls, and reporting. Neither should imply unauthorized autonomous trading, price protection, or guaranteed market outcomes.
 
-- user-directed versus automated behavior;
-- data source and freshness;
-- confidence and limitations;
-- human approval or operator control;
-- whether outputs are informational or operational.
+Botmad should remain permission-controlled. The marketing label “AI Desktop Employee” requires a clear explanation of permissions, approvals, human authority, and task boundaries.
 
-AI should not be presented as autonomous legal, financial, tax, investment, trading, treasury, or employment authority.
+Game values, simulations, points, rewards, or economies should be described according to their actual status and utility. ZAGA messaging must not imply active real-value rewards, token withdrawals, or earnings without current evidence and approved activation controls.
 
-Game values, simulations, rewards, and economies should be described according to their actual utility and withdrawal conditions rather than assumed financial earnings.
+## 14. Privacy, Identity, and Security Claims
 
----
-
-## 13. Privacy and Security Claims
-
-Privacy claims should state:
+Privacy communication should identify:
 
 - which data is public;
-- which data is permissioned;
-- purpose and access;
-- relevant retention or control;
-- exceptions and user choices.
+- which data is permissioned or restricted;
+- why data is collected;
+- who can access it;
+- retention and deletion treatment;
+- user choices and correction routes;
+- relevant third-party processing;
+- incident responsibilities.
 
-Wallet-level transparency must avoid publishing personal identity by default.
+Wallet-level transparency must not expose personal identity by default. Public wallet labels should describe approved functions without publishing wallet-to-person mappings.
 
-Security claims should describe implemented controls and reviewed scope. Terms such as “secure,” “audited,” or “verified” should name the system, reviewer, date, and limitations where material.
+Security claims must match implemented and reviewed controls. Terms such as “secure,” “audited,” “verified,” “encrypted,” or “protected” should identify the system, reviewer, date, scope, and limitations where material.
 
-No security wording should imply immunity from bugs, compromise, user error, or third-party failure.
+No security message should imply immunity from software defects, compromised credentials, user error, smart-contract risk, infrastructure failure, or third-party incidents.
 
----
+## 15. Legal and Jurisdiction Claims
 
-## 14. Channel Controls
+Legal and regulatory communication should be based on current, jurisdiction-relevant specialist review.
+
+Avoid universal statements such as “fully compliant,” “legal everywhere,” “approved globally,” or “not a security” unless an authorized current source supports the exact scope and wording.
+
+The review should consider:
+
+- intended and likely audience;
+- user or investor location;
+- product, token, payment, custody, and market-access function;
+- targeting and call-to-action;
+- public versus qualified private distribution;
+- age, identity, verification, or account restrictions;
+- tax, consumer, financial, data, gaming, advertising, or employment context;
+- language and translation accuracy.
+
+Where treatment is unresolved or jurisdiction-specific, use a narrower factual statement and route the issue for specialist review rather than guessing.
+
+## 16. Channel and Interface Controls
 
 ### Public papers
 
-Own detailed mechanisms and stable policy positions. Links and versioning should remain current.
+Own detailed mechanisms, stable policies, status records, and evidence boundaries. Links, titles, and versions must remain current.
 
 ### Website and one-page summaries
 
-Use concise audience-specific language and link to detailed risk material.
+Use concise product-first language, state current status, and route readers to deeper policy, evidence, and risk papers.
 
-### Investor materials
+### Investor and partner materials
 
-Separate public positioning from qualified private terms and diligence.
+Separate public positioning from qualified private diligence, terms, and confidential records.
 
-### Product interface
+### Product interfaces
 
-Place status, consent, risk, pricing, and user-action information close to the relevant action.
+Place pricing, consent, permissions, status, risks, and user-action consequences close to the relevant action. A distant footer should not carry the full burden of an important qualification.
 
-### Social and community
+### Social, community, and event communication
 
-Use the same evidence standard as formal materials. Short format is no exemption from accuracy.
+Use the same evidence standard as formal papers. Short format, reposting, live discussion, translation, or visual design does not remove the need for accuracy.
 
-### Partner and event materials
+### Email and direct messages
 
-Confirm logo, relationship, sponsorship, speaker, and result claims with the responsible party.
+A private channel does not authorize disclosure of confidential or restricted information. Statements likely to be forwarded should be written with the same status and evidence discipline as other external communication.
 
-Cross-channel reuse should preserve status, qualifications, and date.
+Cross-channel reuse must preserve the claim's scope, status, date, and necessary qualification.
 
----
+## 17. Headline, Visual, and Call-to-Action Review
 
-## 15. Headline and Visual Review
-
-Review should cover more than body text.
+Review must include the full reader impression, not only the body text.
 
 Check:
 
 - headline and subheading;
-- chart title, axes, scale, and cutoff;
-- image and screenshot status;
-- button and call-to-action;
-- footnote proximity;
+- summary cards and highlighted numbers;
+- chart title, axes, scale, period, and source;
+- screenshots and product-status labels;
+- image captions;
+- token, wallet, payment, or purchase buttons;
+- calls to action;
+- footnote placement;
 - quote attribution;
-- logo use;
-- metadata and social preview;
-- file name and download title.
+- partner logo use;
+- metadata and social previews;
+- file name and download title;
+- translated versions.
 
-A qualification hidden far from the headline cannot cure a contradictory first impression.
+A qualification hidden below a contradictory headline, image, button, or chart does not correct the overall message.
 
----
-
-## 16. Jurisdiction and Audience
-
-A message suitable for general product information can become higher risk when directed toward investors, token purchasers, restricted jurisdictions, or users taking a financial action.
-
-The reviewer should consider:
-
-- intended and likely audience;
-- distribution channel and targeting;
-- location restrictions;
-- language and translation;
-- call-to-action;
-- payment or wallet connection;
-- private versus public context.
-
-Universal availability should not be claimed where access depends on jurisdiction, custody, verification, or third-party support.
-
----
-
-## 17. Approval and Publication
+## 18. Publication Approval
 
 Before publication, the owner should confirm:
 
-1. wording matches evidence;
-2. status and date are current;
-3. required reviewers approved;
-4. links and references resolve;
-5. private information is excluded;
-6. visual presentation preserves the boundary;
-7. expiration or review date is recorded.
+1. the wording matches the controlling evidence;
+2. the subject and status are specific;
+3. all numbers, dates, names, links, and venues are current;
+4. required functional and specialist reviewers approved;
+5. private, confidential, and restricted information is excluded;
+6. Platform Credits, FUZE token, stablecoins, and wallet records remain correctly separated;
+7. the visual presentation preserves necessary boundaries;
+8. the effective date and next review date are recorded;
+9. a correction owner and route exist.
 
-Approved copy should be versioned or otherwise traceable. Material edits after approval require renewed review.
+Approved copy should remain versioned or otherwise traceable. Material edits after approval require renewed review.
 
----
+## 19. Monitoring and Expiry
 
-## 18. Monitoring
+Published claims should be reviewed when:
 
-Published claims should be rechecked when:
+- a product or feature status changes;
+- a new build, test, pilot, beta, or release changes the evidence;
+- token supply, allocation, release, circulation, utility, or activation changes;
+- a round, claim, migration, or participation window changes;
+- a market venue, pool, custody route, or withdrawal status changes;
+- a partnership, authorization, or agreement changes;
+- a metric or benchmark becomes stale;
+- a legal, regulatory, privacy, tax, or jurisdiction position changes;
+- an incident, dispute, or correction occurs;
+- the scheduled review date arrives.
 
-- product or feature status changes;
-- a round, window, claim, or migration stage changes;
-- allocation or supply reporting changes;
-- a venue or custody status changes;
-- an agreement ends;
-- a benchmark becomes stale;
-- law, policy, or jurisdiction treatment changes;
-- a correction or incident occurs.
+Time-sensitive pages, FAQs, decks, campaigns, and interface notices should have a named owner and explicit review date.
 
-High-risk landing pages, FAQs, decks, and social campaigns should have named owners and review dates.
-
----
-
-## 19. Corrections and Retractions
+## 20. Corrections, Retractions, and Archive Treatment
 
 A correction record should identify:
 
-- prior wording or data;
-- corrected wording or data;
-- cause;
-- affected channels;
+- the previous wording or data;
+- the corrected wording or data;
+- the cause;
+- affected channels and audiences;
 - effective time;
 - required notices;
-- reviewer and owner.
+- owner and reviewers;
+- downstream papers, interfaces, or reports affected.
 
-Materially misleading content should be corrected promptly in every controlled channel. Archived versions can remain available when clearly marked.
+Materially misleading content should be corrected across every controlled channel where it remains active. Archived versions may remain available when clearly dated and marked as superseded.
 
-A retraction can be appropriate when the evidence is invalid, authorization is withdrawn, or the claim cannot be repaired with a qualification.
+Retraction is appropriate where evidence is invalid, authorization is withdrawn, private information was exposed, the claim is materially misleading, or qualification cannot repair the message.
 
----
+Corrections should preserve accountability without republishing confidential evidence or protected identity.
 
-## 20. Escalation
+## 21. Escalation and Publication Hold
 
-Escalate a message when:
+Publication should be held and escalated when:
 
-- evidence conflicts;
-- legal or regulatory treatment is unclear;
-- a named party disputes the claim;
-- private information may be exposed;
-- a financial, market, security, or AI result is unusually strong;
-- status cannot be verified;
-- the claim could reasonably drive a payment, investment, wallet, or custody decision.
+- controlling sources conflict;
+- current status cannot be verified;
+- legal or jurisdiction treatment is unclear;
+- a named party disputes the wording;
+- private or restricted information may be exposed;
+- a financial, market, security, AI, or customer-result claim appears unusually strong;
+- evidence is stale, incomplete, or not representative;
+- the message could reasonably drive a payment, investment, wallet, custody, exchange, or token decision;
+- the wording may create a promise beyond FUZE's authority or current capability.
 
-Publication should wait until the responsible authority resolves the issue.
+The responsible authority should resolve the issue through narrower wording, updated evidence, additional review, delayed publication, or withdrawal. Uncertainty should never be resolved by selecting the more promotional interpretation.
 
----
+## 22. Public Boundary
 
-## 21. Boundaries
+This framework governs public-message review and maintenance. It does not replace jurisdiction-specific professional advice, product terms, privacy notices, contractual disclosure, investor documentation, exchange rules, custody terms, or regulatory obligations.
 
-This framework organizes public-message review. It does not replace jurisdiction-specific professional advice, contractual disclosure, product terms, privacy notices, or investor documents.
+Detailed token and ecosystem risk treatment is maintained in [FUZE Token Risk Boundaries](29-FUZE_TOKEN_RISK_BOUNDARIES_PUBLIC.md). Consolidated public risk treatment is maintained in the [FUZE Risk and Disclosure Appendix](../WHITEPAPER-PAPERS/05-FUZE_RISK_AND_DISCLOSURE_APPENDIX_PUBLIC.md).
 
-Detailed approved vocabulary belongs in the [FUZE Public Language Dictionary](32-FUZE_PUBLIC_LANGUAGE_DICTIONARY_PUBLIC.md). Consolidated public risks belong in the [FUZE Risk and Disclosure Appendix](../WHITEPAPER-PAPERS/05-FUZE_RISK_AND_DISCLOSURE_APPENDIX_PUBLIC.md).
+## Key Takeaways
 
----
-
-## Conclusion
-
-FUZE legal and compliance messaging begins with an exact claim and evidence strong enough to support it.
-
-Claim classification, risk-tiered review, accurate status, channel controls, versioned approval, monitoring, and correction allow FUZE to communicate product progress and ecosystem plans clearly without copying the same disclaimer into every public document.
+- Every material public claim should match current evidence, status, audience, channel, and jurisdiction.
+- Product communication should lead with practical value and distinguish designed, implemented, tested, released, and live behavior.
+- Token allocation, release, circulation, utility, wallet eligibility, and market access must remain separate concepts.
+- Platform Credits, FUZE token, stablecoins, and wallet records require distinct language.
+- Fundraising discussions, investor interest, signed documents, funded closings, product revenue, and customer adoption are different evidence states.
+- Named partnerships, AI performance, security, legal status, and market-access claims require proportionate specialist review.
+- Public communication must protect identity, confidential terms, restricted records, and security-sensitive information.
+- Monitoring, expiry, correction, retraction, and archive controls are part of responsible publication.

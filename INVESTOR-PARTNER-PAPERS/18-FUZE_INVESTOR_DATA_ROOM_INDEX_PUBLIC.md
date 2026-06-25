@@ -4,30 +4,54 @@
 
 The FUZE investor data room is a controlled diligence system, not a document dump. It should route each investor question to current evidence, an accountable owner, an access class, known limitations, and a visible update or correction history.
 
-This public index defines the recommended taxonomy and operating rules. It does not claim that every listed evidence category currently exists or is complete. Actual room contents should reflect FUZE’s current products, transaction stage, legal entities, investment structure, and approved disclosure scope.
+This public index defines the recommended taxonomy and operating rules. It does not claim that every listed evidence category currently exists or is complete. Actual room contents should reflect FUZE's current products, transaction stage, legal entities, investment structure, evidence cutoff date, and approved disclosure scope.
 
-Public papers can orient investors, while qualified and restricted materials can support product, commercial, financial, technical, legal, governance, token, and risk review. Personal data, customer records, credentials, security details, private professional advice, and sensitive treasury information remain limited to their authorized purpose.
+Public papers can orient investors, while qualified, restricted, and transaction-specific materials can support product, commercial, financial, technical, legal, governance, token, and risk review. Personal data, customer records, credentials, security details, private professional advice, private wallet associations, and sensitive treasury information remain limited to their authorized purpose.
 
-The data room should preserve distinctions between documentation and operation, revenue paths and reconciled revenue, Platform Credits and FUZE token, public blockchain evidence and private identity, technical readiness and mechanism activation, and market preparation and live access.
+The data room should preserve distinctions between documentation and operation, design and deployment, revenue paths and reconciled revenue, Platform Credits and FUZE token, stablecoin rails and business classification, public blockchain evidence and private identity, technical readiness and mechanism activation, and market preparation and live access.
 
----
+## 1. Purpose, Scope, and Primary Readers
 
-## 1. Purpose
+This index is written for prospective investors, strategic partners, directors, governance reviewers, data-room administrators, product and technical owners, finance and treasury owners, legal and compliance reviewers, and professional advisers.
 
-This index answers:
+It answers:
 
 1. How should FUZE diligence material be grouped?
-2. Which metadata should every file carry?
-3. How are public, qualified, restricted, and transaction records separated?
+2. Which metadata should every file and evidence pack carry?
+3. How are public, qualified, restricted, and transaction-specific records separated?
 4. How does an investor request and review evidence?
-5. How are gaps, updates, supersession, and corrections tracked?
-6. Which records should never be inferred from a folder name alone?
+5. How are owners, gaps, updates, supersession, corrections, and review dates tracked?
+6. Which conclusions must never be inferred from a folder name, filename, screenshot, or public paper alone?
+7. How should protected information be redacted, summarized, supervised, or withheld?
 
-The structure can be implemented in a secure data-room platform, controlled drive, or another approved repository. The access and evidence principles remain the same.
+The structure may be implemented in a secure data-room platform, controlled drive, or another approved repository. The same access, evidence, privacy, versioning, and audit principles apply.
 
----
+This public index is an information architecture. It does not claim that every listed folder, evidence pack, or record currently exists or is complete.
 
-## 2. Core Principles
+## 2. Current Public Position
+
+The current public-paper corpus can orient investors to FUZE's products, commercial models, architecture direction, tokenomics policies, status language, controls, and public boundaries.
+
+It does not by itself establish:
+
+- completed product implementation;
+- production availability;
+- customer adoption;
+- completed paid delivery;
+- reconciled revenue;
+- audited financial results;
+- executed financing;
+- final investor rights;
+- deployed or secure token contracts;
+- active utility, distribution, custody, market access, or wallet participation;
+- favorable legal, tax, accounting, or regulatory conclusions;
+- acquisition, exit, liquidity, or investment return.
+
+The active data room should therefore reflect FUZE's current products, legal entities, transaction stage, investment structure, evidence cutoff date, and approved disclosure scope.
+
+Stronger claims require proportionate current evidence, accountable ownership, review status, visible limitations, and version history.
+
+## 3. Core Principles
 
 ### Question-led organization
 
@@ -53,9 +77,19 @@ Material additions, replacements, corrections, status changes, and access change
 
 Public transparency does not require exposure of personal identity, customer content, private wallet associations, confidential agreements, or security-sensitive records.
 
----
+### Claim-to-evidence separation
 
-## 3. Recommended Top-Level Structure
+The room should preserve distinctions between design, demonstration, test, release, operation, paid delivery, repeated delivery, and reconciled reporting.
+
+### Business-classification separation
+
+Product revenue, fundraising proceeds, Platform Credit activity, stablecoin transactions, FUZE token activity, reserves, compensation, refunds, and treasury movements should retain separate classifications and source records.
+
+### Mechanism-stage separation
+
+Contract deployment, token initialization, allocation funding, transfer activation, utility, distribution, wallet support, custody support, DEX access, centralized venue process, and wallet-based participation are separate statuses.
+
+## 4. Recommended Top-Level Structure
 
 | Folder | Primary diligence question |
 |---|---|
@@ -74,9 +108,7 @@ Public transparency does not require exposure of personal identity, customer con
 
 The taxonomy is intentionally broader than a filename list. Subfolders and files should be created only when there is real material and an owner.
 
----
-
-## 4. `00-ROOM-GUIDE`
+## 5. `00-ROOM-GUIDE`
 
 This folder controls orientation and room integrity.
 
@@ -86,19 +118,19 @@ It should contain or link to:
 - current folder map;
 - access and confidentiality rules;
 - document and evidence status definitions;
+- evidence cutoff date;
 - data-room owner and subject contacts;
 - index of active evidence packs;
 - open diligence request tracker;
 - material gap register;
 - change and correction log;
+- access log;
 - distribution and download rules;
 - investor question-and-answer log where approved.
 
-The guide should state the room’s evidence cutoff date. Investors need to know whether a document reflects the latest operating period or an earlier snapshot.
+Investors need to know whether a document reflects the latest operating period or an earlier snapshot.
 
----
-
-## 5. `01-CORPORATE-AND-GOVERNANCE`
+## 6. `01-CORPORATE-AND-GOVERNANCE`
 
 Corporate diligence in this folder can cover:
 
@@ -114,9 +146,7 @@ Corporate diligence in this folder can cover:
 
 Public organization summaries should remain separate from official or private legal records. Investors should not infer legal ownership, authority, or capitalization from brand or public-paper descriptions.
 
----
-
-## 6. `02-PRODUCTS-AND-EVIDENCE`
+## 7. `02-PRODUCTS-AND-EVIDENCE`
 
 Product evidence should be grouped by product and priority workflow.
 
@@ -134,13 +164,11 @@ Each active product pack can include:
 | Control evidence | Data, AI, security, reliability, and incident treatment |
 | Gap record | Missing evidence and next decision milestone |
 
-The current public baseline and claim-to-proof rules are maintained in [FUZE Product Status and Evidence Matrix](14-FUZE_PRODUCT_STATUS_AND_EVIDENCE_MATRIX_PUBLIC.md).
+The current public baseline and claim-to-evidence rules are maintained in [FUZE Product Status and Evidence Matrix](14-FUZE_PRODUCT_STATUS_AND_EVIDENCE_MATRIX_PUBLIC.md).
 
 Customer names, content, contracts, credentials, and detailed usage records require appropriate permission and redaction.
 
----
-
-## 7. `03-TECHNOLOGY-SECURITY-AND-DATA`
+## 8. `03-TECHNOLOGY-SECURITY-AND-DATA`
 
 This folder can include evidence for:
 
@@ -158,11 +186,9 @@ This folder can include evidence for:
 
 Public architecture papers can orient reviewers. Detailed diagrams, credentials, exploit information, keys, sensitive configurations, and unresolved security findings should use restricted access.
 
-Configured, tested, and operating controls should not be combined under one generic “implemented” label.
+Configured, tested, operating, and independently reviewed controls should not be combined under one generic “implemented” label.
 
----
-
-## 8. `04-COMMERCIAL-CUSTOMERS-AND-PARTNERS`
+## 9. `04-COMMERCIAL-CUSTOMERS-AND-PARTNERS`
 
 Commercial packs can address:
 
@@ -177,34 +203,32 @@ Commercial packs can address:
 - partner qualification, responsibilities, integration, and economics;
 - channel attribution and delivery evidence.
 
-A lead, conversation, memorandum, signed agreement, pilot, active customer, and renewed relationship are different statuses.
+A lead, conversation, memorandum, signed agreement, pilot, active customer, paid delivery, and renewed relationship are different statuses.
 
 Customer and partner identities or logos should be shared only with authority and accurate relationship language. Public announcement value should remain separate from operating evidence.
 
----
+## 10. `05-FINANCE-REVENUE-AND-TREASURY`
 
-## 9. `05-FINANCE-REVENUE-AND-TREASURY`
-
-Technology diligence can examine:
+Financial and treasury diligence can examine:
 
 - historical financial statements or management accounts where available;
 - accounting policies and chart of accounts;
 - revenue classifications and period reconciliation;
 - cash, bank, payment-provider, and approved treasury records;
-- Platform Credit purchase, grant, consumption, reversal, and balance treatment;
+- Platform Credit purchase, grant, reservation, consumption, reversal, expiry, and balance treatment;
 - stablecoin transaction classification and valuation;
 - budgets, forecasts, assumptions, and variance;
 - liabilities, commitments, reserves, taxes, refunds, and disputes;
 - payroll, contractor, vendor, and partner payments;
 - financial controls, approval thresholds, and signer access.
 
-Fundraising receipts, product payments, Platform Credit activity, stablecoin transfers, treasury movements, token records, and reserves should remain distinguishable.
+Fundraising receipts, customer payments, completed fulfillment, reconciled revenue, Platform Credit activity, stablecoin transfers, FUZE token transactions, reserves, compensation, refunds, and treasury movements should remain distinguishable.
 
-Forecasts need assumptions, preparation date, scenario, and owner. They should not be presented as historical evidence.
+Payment receipt does not by itself establish fulfilled delivery or revenue. Stablecoin settlement remains an operational rail and does not change the underlying business classification.
 
----
+Forecasts need assumptions, preparation date, scenario, owner, and sensitivity. They should not be presented as historical evidence.
 
-## 10. `06-MARKET-DISTRIBUTION-AND-GROWTH`
+## 11. `06-MARKET-DISTRIBUTION-AND-GROWTH`
 
 This folder can contain:
 
@@ -215,17 +239,15 @@ This folder can contain:
 - channel plans and owners;
 - campaign, content, event, and community evidence;
 - enterprise, SME, Web3, and regional entry work;
-- activation, conversion, retention, and acquisition metrics;
+- activation, conversion, repeat-use, retention, and acquisition metrics;
 - partner-led distribution results;
 - scale, pause, or closure decisions.
 
-Market opportunity should be connected to the segment FUZE can actually reach and support. A large external market number does not establish FUZE demand or market share.
+Market opportunity should be connected to the segment FUZE can actually reach and support. A large external market number does not establish FUZE demand, adoption, or market share.
 
 The public distribution model appears in [FUZE Go-To-Market](03-FUZE_GO_TO_MARKET_PUBLIC.md).
 
----
-
-## 11. `07-TOKEN-WALLET-AND-ECOSYSTEM`
+## 12. `07-TOKEN-WALLET-AND-ECOSYSTEM`
 
 This folder should organize token and wallet evidence by mechanism rather than combine it into one “token” narrative.
 
@@ -243,13 +265,13 @@ Relevant packs can include:
 - any centralized venue process at its exact confirmed stage;
 - wallet-based participation readiness, activation, eligibility, approved value, snapshots, claims, corrections, and reporting where applicable.
 
-Platform Credits remain in the product and finance records because they measure eligible consumption. Stablecoin transactions remain classified by their actual payment, settlement, treasury, compensation, or other business purpose.
+Platform Credits remain in product and finance records because they measure eligible product consumption. They should not be treated as equity, FUZE token, a claim on revenue, or a promise of future value.
+
+Stablecoin transactions remain classified by their actual payment, settlement, treasury, refund, reserve, compensation, or other business purpose.
 
 Public-chain records can support verification while private identity, investor terms, signer details, custody-account records, and sensitive treasury context remain permissioned.
 
----
-
-## 12. `08-LEGAL-COMPLIANCE-TAX-AND-ACCOUNTING`
+## 13. `08-LEGAL-COMPLIANCE-TAX-AND-ACCOUNTING`
 
 This restricted area can route:
 
@@ -263,11 +285,9 @@ This restricted area can route:
 - accounting classifications and revenue recognition;
 - professional advice, opinions, open questions, and reliance limitations.
 
-Access should reflect privilege, confidentiality, professional scope, and the investor’s diligence need. A folder containing a legal or accounting record does not establish a favorable conclusion.
+Access should reflect privilege, confidentiality, professional scope, and the investor's diligence need. A folder containing a legal or accounting record does not establish a favorable conclusion.
 
----
-
-## 13. `09-ROUND-AND-INVESTOR-MATERIALS`
+## 14. `09-ROUND-AND-INVESTOR-MATERIALS`
 
 This folder is transaction-specific.
 
@@ -286,13 +306,11 @@ It can include:
 - investor reporting obligations;
 - meeting, question, and response logs.
 
-Public papers do not create private terms or investor rights. The executed documents govern the actual transaction.
+Public papers do not create private terms, token allocation, investor rights, valuation, acceptance, or closing. The approved and executed private documents govern the actual transaction.
 
 The [FUZE Round Structure and Use of Funds](12-FUZE_ROUND_STRUCTURE_AND_USE_OF_FUNDS_PUBLIC.md) provides the public capital-use framework.
 
----
-
-## 14. `10-RISK-METRICS-AND-REPORTING`
+## 15. `10-RISK-METRICS-AND-REPORTING`
 
 This folder connects claims to monitoring and risk.
 
@@ -311,13 +329,11 @@ It can contain:
 - investor updates;
 - material gap register.
 
-Metrics need definitions, periods, cohorts, sources, owners, limitations, and version history. Risk and metric evidence should identify whether controls are designed, configured, tested, or operating.
+Metrics need definitions, periods, cohorts, sources, owners, limitations, and version history. Risk and metric evidence should identify whether controls are designed, configured, tested, operating, or independently reviewed.
 
 Public metric governance appears in [FUZE Public Metrics and Transparency](09-FUZE_PUBLIC_METRICS_AND_TRANSPARENCY_PUBLIC.md); the consolidated investor risk model appears in [FUZE Investor Risk Disclosure](17-FUZE_INVESTOR_RISK_DISCLOSURE_PUBLIC.md).
 
----
-
-## 15. `11-ARCHIVE-AND-SUPERSESSION`
+## 16. `11-ARCHIVE-AND-SUPERSESSION`
 
 The archive preserves history without allowing obsolete material to appear current.
 
@@ -335,9 +351,7 @@ Deprecated terminology, old product status, superseded forecasts, draft agreemen
 
 Deletion and retention must also follow legal, privacy, security, contract, and investigation requirements.
 
----
-
-## 16. Evidence Register
+## 17. Evidence Register
 
 The room should maintain a central register rather than rely only on folder browsing.
 
@@ -346,22 +360,24 @@ The room should maintain a central register rather than rely only on folder brow
 | Evidence ID | Stable reference used in requests and responses |
 | Title | Human-readable record name |
 | Domain | Product, finance, technical, legal, token, risk, or another area |
-| Claim supported | The statement or question the record addresses |
+| Claim supported | Exact statement or diligence question addressed |
+| Product or mechanism scope | Product, module, contract, vault, wallet, market, entity, or transaction covered |
+| Environment and cohort | Production, test, internal, pilot, customer, partner, or another scope |
 | Owner | Person or function responsible |
-| Evidence date | Period or effective date |
+| Reviewer | Person or function that reviewed the record |
+| Evidence date | Period, effective date, or observation window |
 | Version | Current release identifier |
 | Status | Draft, current, under review, superseded, corrected, or archived |
 | Access class | Public, qualified, restricted, or transaction-specific |
 | Source location | Controlled link or folder reference |
-| Limitations | Missing scope, narrow cohort, assumptions, or known issues |
+| Limitations | Missing scope, narrow cohort, assumptions, defects, or known issues |
 | Related gap | Open work or unresolved question |
 | Next review | Date or triggering event |
+| Supersession link | Record that replaces or corrects the item |
 
 An investor should be able to cite an evidence ID in a request instead of circulating uncontrolled copies.
 
----
-
-## 17. Status Vocabulary
+## 18. Status Vocabulary
 
 Use concise room statuses:
 
@@ -374,13 +390,12 @@ Use concise room statuses:
 | Restricted | Available only to an approved role or purpose |
 | Corrected | Reissued because a prior record contained an error |
 | Superseded | Replaced by a newer or more authoritative record |
+| Withdrawn | Removed from reliance because it is no longer supportable |
 | Archived | Historical and outside the active review set |
 
 Product and mechanism operating status should use the separate public status vocabulary. A “current” data-room file can describe a product that remains in design.
 
----
-
-## 18. Access Classes
+## 19. Access Classes
 
 ### Public
 
@@ -400,9 +415,11 @@ Available only in connection with the applicable financing or transaction and su
 
 Access should be time-bounded where practical, logged, periodically reviewed, and removed when the purpose ends.
 
----
+Access approval should record the investor or reviewer, purpose, folders or evidence IDs granted, approving owner, start date, expiry or review date, and any download or onward-sharing restrictions.
 
-## 19. Privacy and Redaction
+Access to one evidence pack should not imply access to customer identity, private wallet associations, credentials, privileged advice, transaction terms, or unrelated restricted material.
+
+## 20. Privacy and Redaction
 
 Before sharing, reviewers should assess:
 
@@ -419,29 +436,26 @@ Available treatments include redaction, aggregation, anonymization, pseudonymous
 
 Redaction should preserve enough context for the reviewer to understand what the record establishes and what it does not.
 
----
-
-## 20. Diligence Request Workflow
+## 21. Diligence Request Workflow
 
 A request can move through:
 
-1. investor question and purpose;
-2. domain and owner assignment;
-3. existing evidence search;
-4. access and privacy review;
-5. response, controlled link, or explanation of the gap;
-6. specialist escalation where needed;
-7. investor follow-up;
-8. closure, open action, or accepted limitation;
-9. evidence-register and question-log update.
+1. investor question and stated purpose;
+2. investor stage and access-class check;
+3. domain and owner assignment;
+4. existing evidence and gap search;
+5. privacy, privilege, security, and transaction-scope review;
+6. response, controlled link, supervised review, summary, or explanation of the gap;
+7. specialist escalation where required;
+8. investor follow-up and clarification;
+9. closure, open action, accepted limitation, or refusal with reason;
+10. evidence-register, access-log, question-log, and gap-register update.
 
 The response should identify whether it is factual evidence, management explanation, forecast, legal or professional view, or an unresolved matter.
 
 Repeated requests can indicate that the room taxonomy, current evidence pack, or public explanation needs improvement.
 
----
-
-## 21. Gap Register
+## 22. Gap Register
 
 Missing evidence should be visible.
 
@@ -451,34 +465,32 @@ Missing evidence should be visible.
 | Question | What cannot yet be answered fully? |
 | Domain and owner | Who is accountable? |
 | Materiality | Why does the gap matter? |
-| Current workaround | What limited evidence or explanation exists? |
+| Current evidence | What limited support currently exists? |
+| Current limitation | What the available evidence does not establish |
 | Required action | What would close or narrow the gap? |
-| Dependency | Which event or third party matters? |
+| Dependency | Which event, owner, provider, adviser, or third party matters? |
 | Target review | Date or milestone |
-| Status | Open, in progress, awaiting third party, accepted, or resolved |
+| Status | Open, in progress, awaiting third party, accepted, resolved, or closed without action |
+| Decision record | Approval, rationale, and trigger for reconsideration |
 
 A gap marked “accepted” should identify the approving role and the condition that would trigger reconsideration.
 
----
-
-## 22. Versioning and Corrections
+## 23. Versioning and Corrections
 
 A material update should record:
 
 - evidence ID and prior version;
 - what changed;
 - why it changed;
-- affected claims, periods, or investors;
-- approving owner;
+- affected claims, periods, products, mechanisms, or investors;
+- approving owner and reviewer;
 - whether the prior record was corrected, superseded, withdrawn, or archived;
 - required notification;
 - new source location.
 
 Silent replacement can cause investors to rely on conflicting copies. Downloaded files should carry version and status information wherever practical.
 
----
-
-## 23. Quality Review
+## 24. Quality Review
 
 The data-room owner should periodically check:
 
@@ -487,9 +499,11 @@ The data-room owner should periodically check:
 - duplicate or conflicting records;
 - public/private consistency;
 - evidence cutoff and freshness;
+- expired or overly broad access grants;
 - unsupported claims;
 - unresolved requests and gaps;
 - missing approvals;
+- missing owner, reviewer, limitation, or supersession metadata;
 - privacy and security exposure;
 - archived or deprecated files in active folders;
 - metric, financial, token, and status reconciliation;
@@ -497,9 +511,7 @@ The data-room owner should periodically check:
 
 The room should become narrower and clearer over time, not continuously accumulate every draft.
 
----
-
-## 24. Investor Review Route
+## 25. Investor Review Route
 
 A typical sequence is:
 
@@ -515,20 +527,21 @@ A typical sequence is:
 
 The route can change based on investor specialization and the proposed transaction. It should not grant broad access merely because a later diligence stage may eventually require it.
 
----
-
-## 25. Public Boundary
+## 26. Public Boundary
 
 This public index is a recommended information architecture. It does not confirm the existence, completeness, accuracy, approval, or favorable content of every evidence category.
 
 Data-room access does not create an investment right, token allocation, wallet eligibility, claim, valuation, financing commitment, legal conclusion, market access, acquisition, or exit.
 
-Investors should rely on current controlled records and the executed private documents applicable to their review.
+Investors should rely on current controlled records and the approved and executed private documents applicable to their review.
 
----
+## Key Takeaways
 
-## Conclusion
-
-The FUZE investor data room should make evidence easier to find, interpret, protect, update, and correct. Its quality depends on current source records, accountable owners, visible gaps, precise access, and disciplined supersession.
-
-A smaller room built around real diligence questions is more useful than a large speculative directory that implies evidence or completeness where neither has been established.
+- The FUZE investor data room should operate as a controlled diligence system rather than a document dump.
+- Every material claim should route to current evidence, an owner, reviewer, access class, limitations, and next review trigger.
+- Public papers orient investors but do not establish completed products, revenue, financing, token activation, market access, or favorable specialist conclusions.
+- Product status, evidence maturity, commercial status, and investor readiness are different dimensions.
+- Product revenue, fundraising proceeds, Platform Credits, stablecoins, FUZE token activity, reserves, compensation, refunds, and treasury movements retain separate classifications.
+- Token deployment, utility, distribution, custody, market access, and wallet-based participation require separate evidence packs and statuses.
+- Least-privilege access, privacy, redaction, privilege, security, versioning, supersession, and access logging are core room controls.
+- Visible gaps and accurate limitations are more credible than speculative folders that imply evidence or completeness.

@@ -1,398 +1,1754 @@
+
 # FUZE Participation Activation Gates
 
 ## Executive Summary
 
-FUZE participation activation gates are the documented conditions that must be satisfied before wallet-based participation can move from design or readiness into an active operating state.
+FUZE Participation Activation Gates are the controlling readiness and authorization system that must be completed before wallet-based participation can move from design, preparation, testing, or technical deployment into active operation for a defined scope.
 
-The gates cover legal, accounting, treasury, audit, reporting, technical, eligibility, privacy, operating, product-revenue, approved-value, and jurisdiction readiness. Each gate requires an owner, evidence, status, dependencies, decision, review date, and conditions for continued approval.
+The gate system exists because no single component is sufficient by itself.
 
-Readiness is not activation. Policies, calculations, contracts, vaults, snapshots, reports, and support processes can be prepared or tested while the mechanism remains unavailable. Activation requires a separate authorized decision that identifies the exact scope, effective time, eligible population, value period, contracts or systems, and public notice.
+The following do not independently activate participation:
 
-This paper owns the gate register and decision process. It does not repeat the detailed wallet workflow, approved distributable value calculation, smart-contract design, or privacy model maintained in their primary papers.
+- a policy paper;
+- a token balance;
+- a product revenue figure;
+- an approved-value calculation draft;
+- a treasury balance;
+- a deployed contract;
+- a configured vault;
+- a snapshot;
+- a dashboard;
+- an audit activity;
+- a legal review;
+- an internal test;
+- a public announcement;
+- or a target date.
 
----
+Activation requires coordinated readiness across the applicable:
 
-## 1. Gate Objective
+- legal and jurisdiction gate;
+- accounting gate;
+- product-revenue gate;
+- approved-distributable-value gate;
+- treasury and custody gate;
+- governance and authority gate;
+- audit and assurance gate;
+- smart-contract and technical gate;
+- eligibility gate;
+- privacy and data gate;
+- operator and support gate;
+- reporting and public-communication gate; and
+- incident, pause, correction, and continuity gate.
 
-The gate system exists to prevent a sensitive mechanism from becoming active because one technical component is ready while other required controls remain unresolved.
+Each gate must have:
 
-It provides:
+- a stable identifier;
+- a defined scope;
+- an accountable owner;
+- required evidence;
+- pass criteria;
+- a reviewer;
+- a current status;
+- dependencies;
+- blocking issues;
+- limitations;
+- an effective date;
+- an expiry or reassessment trigger;
+- and a decision record.
 
-- a complete inventory of activation conditions;
-- accountable owners and reviewers;
-- consistent status terminology;
-- evidence requirements for each decision;
-- dependency and exception tracking;
-- a formal activation record;
-- pause, remediation, and reactivation procedures;
-- public-safe status reporting.
+Readiness is not activation.
 
-No single contract deployment, treasury balance, product-revenue report, wallet snapshot, audit activity, or policy document constitutes activation.
+A gate can be ready for one limited configuration and unresolved for another.
 
----
+For example, a self-custody pilot on one supported network may be ready while exchange custody, institutional custody, another jurisdiction, another product revenue pool, or another payout route remains unsupported.
 
-## 2. Scope of Activation
+The overall mechanism remains inactive until:
 
-An activation decision must define its scope precisely.
+1. every required gate is `Ready` or `Conditionally ready` for the exact proposed scope;
+2. all pre-activation conditions are completed;
+3. the evidence pack is current;
+4. cross-gate inconsistencies are resolved;
+5. an authorized activation decision is recorded;
+6. the public notice and operating systems match the approved scope; and
+7. the effective activation event occurs.
 
-| Scope element | Required definition |
+The gate system also governs:
+
+- narrowing;
+- pause;
+- suspension;
+- remediation;
+- reactivation;
+- expansion;
+- material change;
+- closure; and
+- retirement.
+
+This paper owns the gate register, gate status vocabulary, evidence package, activation review, conditional-readiness rules, pre-activation checklist, pause triggers, remediation, reactivation, expiry, and public gate reporting.
+
+The operating participation model appears in [FUZE Wallet-Based Participation Model](07-FUZE_WALLET_BASED_PARTICIPATION_MODEL_PUBLIC.md).
+
+The approved-value calculation and approval model appears in [FUZE Approved Distributable Value Model](09-FUZE_APPROVED_DISTRIBUTABLE_VALUE_MODEL_PUBLIC.md).
+
+## Purpose of This Paper
+
+This paper explains:
+
+- why a gate system is required;
+- how activation scope is defined;
+- how the gate register is maintained;
+- the status vocabulary;
+- all required gates;
+- ownership, review, and separation of duties;
+- evidence standards;
+- gate dependencies;
+- conditional readiness and exceptions;
+- the activation evidence pack;
+- the activation review and decision;
+- the pre-activation checklist;
+- material-change review;
+- pause and suspension triggers;
+- remediation and reactivation;
+- gate expiry and ongoing review;
+- closure and retirement;
+- public gate reporting;
+- status and evidence requirements; and
+- public limitations.
+
+This paper does not replace:
+
+- legal advice;
+- tax advice;
+- accounting policy;
+- treasury policy;
+- custody agreements;
+- smart-contract specifications;
+- product-revenue-pool definitions;
+- approved distributable value records;
+- wallet eligibility rules;
+- snapshot specifications;
+- participant terms;
+- claim instructions;
+- payout instructions;
+- incident runbooks;
+- audit workpapers;
+- or the token risk register.
+
+## Gate Principles
+
+### Scope Before Readiness
+
+No gate should be marked ready without a precise scope.
+
+Readiness should identify the exact:
+
+- mechanism;
+- framework version;
+- product revenue pool;
+- accounting period;
+- approved-value period;
+- payout asset;
+- payout network;
+- FUZE token network and contract;
+- wallet categories;
+- custody classes;
+- participant classes;
+- jurisdictions;
+- snapshot or eligibility method;
+- claim or participation method;
+- contracts and systems;
+- operators;
+- support route;
+- reporting method;
+- and review period.
+
+### Evidence Before Status
+
+Gate status should be based on current, reviewable evidence.
+
+A meeting, intention, plan, draft, or verbal assurance is not sufficient when the gate requires documented proof.
+
+### Independent Gates, Integrated Decision
+
+Gates remain separate because each controls a different risk.
+
+They are integrated because the final mechanism must be internally consistent.
+
+For example:
+
+- legal wording must match eligibility behavior;
+- accounting treatment must match the approved-value calculation;
+- treasury custody must match the payout flow;
+- privacy treatment must match public reporting;
+- operator procedures must match the deployed technical system;
+- and the public notice must match the activated scope.
+
+### Readiness Before Activation
+
+A gate may be ready while the mechanism remains inactive.
+
+Activation requires a separate decision and effective event.
+
+### Least-Broad Scope
+
+Where evidence supports only a limited scope, activation should be limited to that scope.
+
+FUZE should prefer:
+
+- one product pool over an undefined portfolio pool;
+- one reviewed period over an open-ended period;
+- one supported wallet class over unsupported custody assumptions;
+- one supported jurisdiction set over global language;
+- one tested claim route over multiple untested routes;
+- and one controlled payout method over broad optionality.
+
+### No Silent Inheritance
+
+Readiness should not be inherited automatically by:
+
+- another period;
+- another product;
+- another product revenue pool;
+- another network;
+- another contract;
+- another wallet or custody class;
+- another jurisdiction;
+- another payout asset;
+- another provider;
+- another operator;
+- or another framework version.
+
+### Reversibility
+
+Activation should not occur unless the mechanism can be:
+
+- paused;
+- narrowed;
+- corrected;
+- reconciled;
+- rolled back where technically possible;
+- migrated;
+- closed;
+- or retired.
+
+### Public Status Must Match Evidence
+
+`Ready`, `approved for activation`, `active`, `paused`, and `retired` are different states.
+
+A technical deployment should not be described as activation.
+
+### Market Outcomes Remain Separate
+
+Gate readiness or activation does not establish:
+
+- DEX access;
+- CEX application;
+- CEX approval;
+- listing;
+- liquidity;
+- depth;
+- spread;
+- volume;
+- token demand;
+- price support;
+- price appreciation;
+- revenue growth;
+- income;
+- or financial return.
+
+## Activation Scope Record
+
+Every proposed activation should have a versioned scope record.
+
+| Scope field | Required definition |
 |---|---|
-| Mechanism | The participation function being activated |
-| Product-revenue pool | The defined source period and product scope, where applicable |
-| Approved value | The reviewed amount and approval reference |
-| Eligible population | Supported wallet, custody, participant, and jurisdiction classes |
-| Record date | Snapshot or qualification period |
-| Claim or participation period | Opening, closing, and relevant cutoff times |
-| Technical systems | Contracts, networks, vaults, registries, and interfaces |
-| Operator | Responsible operating and support roles |
-| Public notice | Approved status, instructions, and boundaries |
-| Review period | Date or event that triggers reassessment |
+| Activation identifier | Stable reference for the proposed or approved activation |
+| Framework version | Exact participation-model version |
+| Mechanism | Wallet-based participation function being activated |
+| Product revenue pool | Included products, transaction types, and accounting period |
+| Approved-value record | Approved amount, asset denomination, period, and approval reference |
+| FUZE token identity | Network, canonical contract, decimals, and status |
+| Token condition | Balance, holding period, snapshot, average, continued holding, or other approved rule |
+| Snapshot or eligibility period | Block, time, method, source, finality, and correction window |
+| Wallet categories | Included, excluded, restricted, and separately treated categories |
+| Custody classes | Self-custody, smart account, multisig, exchange, institutional, omnibus, contract, or other supported classes |
+| Participant scope | Eligible participant types and verification requirements |
+| Jurisdiction scope | Supported and restricted locations or participant categories |
+| Claim or participation process | Portal, contract, custody, manual, or other approved route |
+| Payout or settlement | Asset, network, custody, batch, timing, fees, and failure treatment |
+| Technical systems | Contracts, vaults, registries, indexers, portals, APIs, providers, and monitoring |
+| Operators | Product, treasury, eligibility, claim, payout, support, security, privacy, reporting, and incident roles |
+| Public notice | Approved notice version and authoritative publication source |
+| Effective event | Date, time, block, governance action, deployment event, or other controlling activation event |
+| Review trigger | Date, period close, incident, material change, or other reassessment trigger |
+| Limitations | Known exclusions, unsupported cases, and open conditions |
+| Current status | Proposed, under review, approved for activation, active, paused, closed, or retired |
+| Current-as-of date | Time to which the status applies |
 
-A gate can be ready for one limited scope and unresolved for another. For example, a self-custody pilot in one supported context does not establish readiness for exchange custody or every jurisdiction.
+A gate can be ready only for the scope stated in this record.
 
----
-
-## 3. Gate Register
+## Gate Register
 
 FUZE should maintain a controlled gate register.
 
-Each entry includes:
+Each gate entry should include:
 
-1. gate identifier and name;
-2. accountable owner;
-3. required evidence;
-4. pass criteria;
-5. current status;
-6. dependencies and blocking issues;
-7. reviewer and decision;
-8. effective and expiry or review dates;
-9. conditions or limitations;
-10. linked remediation and change records.
+1. gate identifier;
+2. gate name;
+3. activation identifier;
+4. framework version;
+5. scope summary;
+6. accountable owner;
+7. contributing owners;
+8. required evidence;
+9. evidence references;
+10. evidence date;
+11. pass criteria;
+12. current status;
+13. reviewer;
+14. reviewer decision;
+15. decision date;
+16. effective date;
+17. expiry or reassessment trigger;
+18. upstream dependencies;
+19. downstream dependencies;
+20. blocking issues;
+21. conditions;
+22. limitations;
+23. remediation actions;
+24. exception references;
+25. material-change references;
+26. pause or suspension effect;
+27. public-reporting status;
+28. correction history;
+29. latest review date;
+30. next review date or event;
+31. current-as-of date; and
+32. archival state.
 
-The register should preserve prior decisions. A changed status should identify what changed, who approved it, and whether the activation scope is affected.
+The register should preserve prior versions and decisions.
 
----
+A changed status should identify:
 
-## 4. Status Vocabulary
+- what changed;
+- why it changed;
+- who approved the change;
+- which evidence changed;
+- whether activation scope is affected;
+- whether public communication must change;
+- and whether reactivation or renewed approval is required.
 
-| Status | Meaning |
-|---|---|
-| Not started | No accepted evidence package exists |
-| In preparation | Owner is developing policy, process, system, or records |
-| Under review | Evidence has been submitted to the responsible reviewer |
-| Remediation required | Review found issues that must be resolved |
-| Conditionally ready | Pass criteria are met subject to stated limits or pre-activation actions |
-| Ready | Evidence satisfies the gate for the defined scope |
-| Expired | Prior readiness requires renewal or updated evidence |
-| Suspended | A material issue temporarily invalidates readiness |
-| Not applicable | The gate does not apply to the stated scope, with documented rationale |
+## Gate Status Vocabulary
 
-“Not applicable” requires approval. It should not be used merely because evidence is difficult to obtain.
+| Status | Evidence-backed meaning | What it does not establish |
+|---|---|---|
+| Not started | No accepted evidence package exists. | Preparation or readiness |
+| In preparation | The owner is developing policy, process, system, records, or controls. | Review or pass |
+| Evidence submitted | The owner has submitted a defined package for review. | Reviewer acceptance |
+| Under review | The responsible reviewer is evaluating the evidence. | Readiness |
+| Remediation required | Material issues must be corrected before readiness. | Conditional approval |
+| Conditionally ready | Pass criteria are satisfied subject to documented limits or pre-activation conditions. | Activation while conditions remain incomplete |
+| Ready | Current evidence satisfies the gate for the exact defined scope. | Overall mechanism activation |
+| Expiring | The gate remains usable temporarily but renewal or updated evidence is required by the stated trigger. | Indefinite readiness |
+| Expired | Prior readiness is no longer current. | Continued use without review |
+| Suspended | A material issue temporarily invalidates readiness. | Closure or retirement |
+| Failed | The gate does not satisfy the pass criteria for the proposed scope. | Permanent rejection of every narrower scope |
+| Not applicable | The gate does not apply to the exact scope, with approved rationale and no hidden dependency. | Permission to ignore difficult evidence |
+| Closed | The gate is no longer active because the activation scope has ended. | Historical erasure |
+| Archived | Historical evidence and decisions are retained but not current. | Readiness or active status |
 
-The overall mechanism remains pre-activation until every required gate is `Ready` or `Conditionally ready` with all pre-activation conditions completed.
+`Not applicable` requires reviewer approval.
 
----
+The overall mechanism remains pre-activation until every required gate is `Ready` or `Conditionally ready` and every pre-activation condition is complete.
 
-## 5. Required Gates
+## Ownership and Separation of Duties
 
-### 5.1 Legal gate
+The gate system should assign accountable roles without concentrating incompatible authority in one undocumented individual.
 
-**Objective:** Confirm that the proposed operating structure, rights, communication, eligibility, restrictions, and user process have received appropriate legal review for the defined scope.
+Possible roles include:
 
-Evidence can include a current issue list, approved public language, participant terms, jurisdiction treatment, rights analysis, transfer and claim treatment, dispute provisions, and required private advice.
+- framework owner;
+- product revenue owner;
+- accounting owner;
+- treasury owner;
+- custody owner;
+- governance owner;
+- legal and compliance reviewer;
+- tax reviewer;
+- audit or assurance reviewer;
+- smart-contract owner;
+- security reviewer;
+- eligibility owner;
+- privacy owner;
+- operations owner;
+- support owner;
+- reporting owner;
+- incident commander;
+- activation approver;
+- pause authority;
+- and reactivation approver.
 
-**Pass condition:** Material legal questions have an approved treatment, required restrictions are implementable, and public materials match the reviewed structure.
+### Minimum Separation Expectations
 
-### 5.2 Accounting gate
+Where proportionate to scope:
 
-**Objective:** Establish consistent recognition, classification, deduction, reserve, period, and reconciliation methods for the product-revenue pool and approved value.
+- the person calculating approved value should not unilaterally approve it;
+- the person approving eligibility logic should not unilaterally change production data;
+- the person preparing a payout batch should not unilaterally execute and reconcile it;
+- the person operating a contract should not unilaterally approve its security status;
+- the person publishing a public report should not silently alter source records;
+- and the person requesting an exception should not be the only approver of the exception.
 
-Evidence can include accounting memos, source-system mappings, revenue and cost definitions, Platform Credit treatment, stablecoin and fiat treatment, refund and chargeback handling, period-close procedures, and reviewer signoff.
+When staffing limits require combined roles, the evidence pack should document:
 
-**Pass condition:** The source records and calculation can be reproduced, reconciled, reviewed, corrected, and reported.
+- combined responsibilities;
+- compensating controls;
+- independent review points;
+- limits;
+- and approval authority.
 
-### 5.3 Treasury gate
+## Required Gates
 
-**Objective:** Confirm that custody, reserves, approvals, settlement assets, transaction execution, and reconciliation are controlled.
+### Gate 1: Legal and Jurisdiction
 
-Evidence can include vault mapping, signer and authority records, multisig or equivalent controls, transaction limits, emergency procedures, settlement workflow, balance reconciliation, and segregation from operating funds.
+**Objective:** Confirm that the proposed mechanism, participant rights, restrictions, claims, payouts, custody, data treatment, communication, and dispute process have an approved treatment for the defined scope.
 
-**Pass condition:** An authorized movement can be executed and reconciled without relying on one person or mixing unrelated balances.
+#### Required Evidence
 
-### 5.4 Audit and assurance gate
+Evidence may include:
 
-**Objective:** Provide independent or appropriately separated review of the records, calculations, controls, and exceptions relevant to activation.
+- issue list;
+- structure summary;
+- participant terms;
+- public wording review;
+- supported and restricted jurisdiction analysis;
+- eligibility and verification requirements;
+- claim and payout characterization;
+- custody and beneficial-ownership treatment;
+- consumer and financial-promotion treatment;
+- gaming, payment, sanctions, securities, privacy, and other relevant analysis;
+- dispute and governing-law treatment;
+- tax communication boundaries;
+- escalation requirements;
+- and current advice references.
 
-Evidence can include review procedures, test samples, findings, correction logs, contract-review references, report hashes, and an open-issues register.
+#### Pass Criteria
 
-**Pass condition:** Material findings are resolved or formally accepted within the defined scope, and evidence remains available for later review.
+- material legal and jurisdiction questions have approved treatment;
+- required restrictions can be enforced operationally and technically;
+- participant terms match the mechanism;
+- public language matches the reviewed structure;
+- unsupported jurisdictions and participant classes are identifiable;
+- claim and payout processes do not exceed the reviewed rights;
+- and unresolved limitations are documented in the activation scope.
 
-### 5.5 Reporting gate
+#### Blocking Conditions
 
-**Objective:** Ensure that participants and public readers can understand current status, scope, calculation period, eligibility, activity, corrections, and limitations.
+- unclear operating authority;
+- unenforceable restrictions;
+- inconsistent public language;
+- unresolved material participant-rights issues;
+- unsupported jurisdictional scope;
+- or inability to implement required controls.
 
-Evidence can include report templates, data mappings, metric definitions, publication workflow, correction history, and privacy review.
+### Gate 2: Accounting
 
-**Pass condition:** FUZE can publish accurate, timely, public-safe reports that distinguish readiness, activation, approval, claim, and completion states.
+**Objective:** Establish reproducible recognition, classification, period, deduction, reserve, currency, correction, and reconciliation methods.
 
-### 5.6 Smart-contract and technical gate
+#### Required Evidence
 
-**Objective:** Confirm that the required contracts, applications, data sources, wallet flows, monitoring, pause controls, and support systems behave as approved.
+Evidence may include:
 
-Evidence can include specifications, deployment status, tests, security review, role configuration, network and wallet support, failure handling, monitoring, incident exercises, and verified interfaces.
+- accounting policy or memo;
+- source-system mapping;
+- product revenue definitions;
+- Platform Credit treatment;
+- fiat, stablecoin, and other payment-asset treatment;
+- revenue-recognition timing;
+- refunds and chargebacks;
+- payment, network, and provider fees;
+- taxes and liabilities;
+- partner shares;
+- operating and support costs;
+- reserves;
+- currency conversion;
+- period-close procedure;
+- correction and restatement method;
+- account mapping;
+- reconciliation examples;
+- and reviewer signoff.
 
-**Pass condition:** The active configuration matches the reviewed specification, critical findings are addressed, privileged actions are controlled, and the system can be paused or corrected where designed.
+#### Pass Criteria
 
-Detailed contract readiness belongs in [FUZE Smart Contract Readiness and Activation Gates](25-FUZE_SMART_CONTRACT_READINESS_AND_ACTIVATION_GATES_PUBLIC.md).
+- included and excluded records are defined;
+- calculations can be reproduced from source records;
+- period treatment is consistent;
+- Platform Credit activity is not confused with recognized revenue;
+- deductions and reserves are classified;
+- source, treasury, claim, payout, and reporting records reconcile;
+- corrections preserve history;
+- and the method supports period close and review.
 
-### 5.7 Eligibility gate
+#### Blocking Conditions
 
-**Objective:** Define who qualifies and how the decision is evidenced.
+- unreconciled source systems;
+- unclear revenue-recognition basis;
+- undefined Platform Credit treatment;
+- material unclassified balances;
+- or inability to reproduce the approved-value calculation.
 
-Evidence can include wallet requirements, holding or record rules, supported custody, snapshot logic, exclusions, transfer treatment, duplicate controls, verification needs, dispute routes, and test cases.
+### Gate 3: Product Revenue
 
-**Pass condition:** The same facts produce consistent eligibility results, unsupported cases are identified, and corrections can be processed without arbitrary decisions.
+**Objective:** Confirm that the product revenue pool is defined, settled, attributable, complete for the period, and separated from excluded receipts.
 
-### 5.8 Privacy gate
+#### Required Evidence
 
-**Objective:** Preserve public wallet transparency without exposing personal identity or unnecessary private records.
+Evidence may include:
 
-Evidence can include data inventory, purpose and retention rules, access roles, identity-wallet separation, public report fields, deletion and correction procedures, security controls, and vendor treatment.
+- pool identifier;
+- included products;
+- included transaction types;
+- excluded products and receipts;
+- invoice records;
+- payment and settlement records;
+- delivery or consumption evidence where relevant;
+- Platform Credit mappings;
+- refunds and chargebacks;
+- taxes;
+- fees;
+- partner shares;
+- period cutoff;
+- source ownership;
+- unresolved-item register;
+- and product-owner confirmation.
 
-**Pass condition:** Public outputs reveal only approved address-level or aggregate information, while permissioned identity and support records remain protected.
+#### Pass Criteria
 
-### 5.9 Operator and governance gate
+- included revenue can be traced to defined products and transactions;
+- excluded receipts remain separate;
+- settlement and timing are known;
+- refunds, chargebacks, and partner shares are reflected;
+- the period is closed or controlled under documented open-item treatment;
+- material uncertainty is resolved or reflected in reserves;
+- and the pool can support approved-value review.
 
-**Objective:** Confirm that FUZE has the people, authority, procedures, support capacity, and change controls required to run the mechanism.
+#### Blocking Conditions
 
-Evidence can include role assignments, approval matrix, operating runbook, training, support procedures, escalation paths, incident response, change control, pause authority, and succession coverage.
+- undefined pool scope;
+- unsupported revenue estimates;
+- material unsettled receipts without treatment;
+- mixed operating, fundraising, customer, or treasury inflows;
+- or missing product-owner confirmation.
 
-**Pass condition:** Named operators can execute the full workflow, reviewers remain separated from sensitive execution where required, and no critical action depends on an undocumented individual.
+### Gate 4: Approved Distributable Value
 
-### 5.10 Product-revenue gate
+**Objective:** Confirm that candidate value has passed all required deductions, reserves, reconciliations, reviews, and approvals.
 
-**Objective:** Confirm that the defined product-revenue pool is supported by settled, classified, and reconcilable product records.
+#### Required Evidence
 
-Evidence can include invoices, payment and settlement records, Platform Credit mappings, refunds, chargebacks, taxes, fees, product costs, partner shares, period cutoffs, and source ownership.
+Evidence may include:
 
-**Pass condition:** Included revenue can be traced to the defined products and period, excluded receipts remain separated, and material uncertainty is resolved or reflected in the calculation.
+- approved-value calculation;
+- source pool references;
+- gross amount;
+- deductions;
+- reserves;
+- currency conversion;
+- accounting review;
+- legal and compliance review;
+- treasury availability;
+- audit or assurance review;
+- governance approval;
+- version history;
+- correction state;
+- payout-asset treatment;
+- custody reference;
+- and public-reporting record.
 
-### 5.11 Approved-distributable-value gate
+#### Pass Criteria
 
-**Objective:** Confirm that value proposed for the activated mechanism has passed the required deductions, reserves, reviews, and approvals.
+- the amount is final or explicitly controlled for the stated period;
+- source and deductions reconcile;
+- reserves are approved;
+- treasury availability is confirmed;
+- the amount is authorized for the mechanism;
+- claim and payout availability states are defined separately;
+- and the public and permissioned records are ready.
 
-Evidence can include the approved-value calculation, reserve rationale, treasury availability, legal and accounting reviews, governance approval, version history, and public reporting record.
+#### Blocking Conditions
 
-**Pass condition:** The amount is final for the stated period and scope, authorized for the mechanism, and reconciled to the relevant treasury records.
+- candidate value treated as approved value;
+- unresolved reconciliation differences;
+- unavailable treasury balance;
+- missing governance approval;
+- or unsupported payout-asset assumptions.
 
-The detailed calculation model is maintained in [FUZE Approved Distributable Value Model](09-FUZE_APPROVED_DISTRIBUTABLE_VALUE_MODEL_PUBLIC.md).
+The detailed model appears in [FUZE Approved Distributable Value Model](09-FUZE_APPROVED_DISTRIBUTABLE_VALUE_MODEL_PUBLIC.md).
 
-### 5.12 Jurisdiction gate
+### Gate 5: Treasury and Custody
 
-**Objective:** Define where and for whom the mechanism can operate under the approved legal, tax, payment, custody, data, and communication treatment.
+**Objective:** Confirm that value custody, movement authority, payout assets, reserves, settlement, and reconciliation are controlled.
 
-Evidence can include supported and restricted scope, participant representations, screening requirements, local advice, custody limitations, tax communication, and change-monitoring procedures.
+#### Required Evidence
 
-**Pass condition:** The system and user process can enforce the approved scope, and changes can trigger timely restriction, pause, or review.
+Evidence may include:
 
----
+- custody and vault map;
+- account and subledger map;
+- source and destination controls;
+- signer and authority registry;
+- multisig or equivalent policy;
+- timelock treatment where applicable;
+- transaction limits;
+- payout-asset inventory;
+- network and destination controls;
+- batch process;
+- simulation and approval process;
+- fee treatment;
+- emergency pause;
+- key-compromise procedure;
+- provider-failure procedure;
+- segregation from operating funds;
+- reconciliation runbook;
+- and test evidence.
 
-## 6. Gate Dependencies
+#### Pass Criteria
+
+- value is identifiable and available under approved custody;
+- unrelated balances are segregated or reliably subledgered;
+- no critical movement depends on one undocumented individual;
+- payout preparation, approval, execution, confirmation, and reconciliation are distinguishable;
+- limits and emergency controls are active;
+- failed or returned payouts can be handled;
+- and balances reconcile to accounting and approved-value records.
+
+#### Blocking Conditions
+
+- unclear source custody;
+- unrestricted single-person movement;
+- mixed balances without reliable reconciliation;
+- missing payout-asset availability;
+- or untested emergency controls.
+
+### Gate 6: Governance and Authority
+
+**Objective:** Confirm that every material decision and emergency action has a defined, reviewable authority.
+
+#### Required Evidence
+
+Evidence may include:
+
+- authority matrix;
+- activation authority;
+- value-approval authority;
+- snapshot and eligibility authority;
+- claim and payout authority;
+- contract-admin authority;
+- pause and reactivation authority;
+- material-change authority;
+- exception authority;
+- conflict-of-interest controls;
+- quorum or threshold where applicable;
+- multisig and timelock configuration;
+- succession and backup coverage;
+- decision-record format;
+- and governance calendar or trigger list.
+
+#### Pass Criteria
+
+- each material action has an accountable authority;
+- decision scope and limits are documented;
+- conflicts and recusals are controlled;
+- emergency powers are bounded;
+- authority survives ordinary staff absence;
+- governance records are retained;
+- and technical roles match approved authority.
+
+#### Blocking Conditions
+
+- ambiguous activation authority;
+- undocumented emergency power;
+- signer configuration inconsistent with policy;
+- unresolved conflicts;
+- or inability to record and verify decisions.
+
+### Gate 7: Audit and Assurance
+
+**Objective:** Provide independent or appropriately separated review of source records, calculations, controls, technical evidence, exceptions, and reporting.
+
+#### Required Evidence
+
+Evidence may include:
+
+- review scope;
+- reviewer qualifications or independence;
+- source samples;
+- calculation reperformance;
+- custody and treasury testing;
+- eligibility testing;
+- contract and configuration review references;
+- control walkthroughs;
+- exception and finding register;
+- remediation evidence;
+- report hashes;
+- management representations where appropriate;
+- and conclusion record.
+
+#### Pass Criteria
+
+- review scope matches the activation scope;
+- material calculations and records can be reproduced;
+- key controls have been tested;
+- material findings are resolved or formally accepted within a bounded scope;
+- open findings are visible to the activation authority;
+- evidence remains retained;
+- and public statements do not overstate the review performed.
+
+#### Blocking Conditions
+
+- unresolved critical finding;
+- inability to reproduce material calculations;
+- unavailable source evidence;
+- review scope narrower than public claims;
+- or claimed independence that does not exist.
+
+### Gate 8: Smart Contract and Technical
+
+**Objective:** Confirm that contracts, applications, data sources, wallets, registries, claim flows, payout systems, monitoring, pause controls, and recovery procedures behave as approved.
+
+#### Required Evidence
+
+Evidence may include:
+
+- technical specification;
+- architecture;
+- threat model;
+- contract source and deployment records;
+- network and canonical contract references;
+- role configuration;
+- upgrade and admin-power treatment;
+- tests;
+- security review;
+- wallet and custody compatibility;
+- snapshot and eligibility implementation;
+- indexer and node behavior;
+- claim and payout implementation;
+- replay protection;
+- finality and reorg treatment;
+- provider-failure handling;
+- monitoring;
+- alerting;
+- incident exercises;
+- pause, correction, migration, and rollback tests;
+- and verified interfaces.
+
+#### Pass Criteria
+
+- active configuration matches the reviewed specification;
+- canonical addresses and networks are verified;
+- privileged actions are controlled;
+- critical findings are resolved;
+- wallet, custody, snapshot, eligibility, claim, and payout flows work within scope;
+- failures are observable and supportable;
+- monitoring and alerts are active;
+- and the mechanism can be paused or corrected where designed.
+
+#### Blocking Conditions
+
+- critical security finding;
+- unverified contract or configuration;
+- uncontrolled admin power;
+- unsupported wallet or custody behavior;
+- untested claim or payout path;
+- or missing pause capability.
+
+Detailed contract treatment appears in [FUZE Smart Contract Readiness and Activation Gates](25-FUZE_SMART_CONTRACT_READINESS_AND_ACTIVATION_GATES_PUBLIC.md).
+
+### Gate 9: Eligibility
+
+**Objective:** Define who qualifies, which facts determine status, how custody is handled, and how consistent decisions and corrections are produced.
+
+#### Required Evidence
+
+Evidence may include:
+
+- framework and period identifier;
+- FUZE token rule;
+- balance or holding-period method;
+- snapshot specification;
+- included and excluded wallet categories;
+- self-custody proof method;
+- smart-account and multisig treatment;
+- exchange and omnibus custody treatment;
+- institutional custody treatment;
+- beneficial-ownership evidence;
+- multiple-wallet treatment;
+- continued-holding rule;
+- transfer treatment;
+- jurisdiction and verification requirements;
+- duplicate and abuse controls;
+- reason codes;
+- dispute and appeal process;
+- correction process;
+- and test cases.
+
+#### Pass Criteria
+
+- the same facts produce consistent results;
+- unsupported cases are identified;
+- wallet categories are controlled;
+- custody-specific evidence is defined;
+- duplicate and abuse rules are testable;
+- reason codes support review;
+- corrections preserve history;
+- and eligibility can be reproduced for the stated period.
+
+#### Blocking Conditions
+
+- ambiguous token rule;
+- undefined custody treatment;
+- inconsistent snapshot method;
+- unsupported beneficial-ownership assumptions;
+- arbitrary decisions;
+- or no correction route.
+
+### Gate 10: Privacy and Data
+
+**Objective:** Preserve public wallet transparency while protecting private identity, account, custody, tax, support, and wallet-person mapping records.
+
+#### Required Evidence
+
+Evidence may include:
+
+- data inventory;
+- data-flow map;
+- purpose and lawful-basis treatment where applicable;
+- collection minimization;
+- consent or notice;
+- public and permissioned field classification;
+- wallet-person mapping controls;
+- access roles;
+- retention and deletion rules;
+- correction and export processes;
+- vendor and cross-border treatment;
+- logging;
+- security controls;
+- public-report template;
+- privacy impact review;
+- and incident response.
+
+#### Pass Criteria
+
+- only necessary data is collected;
+- public outputs expose only approved wallet-level or aggregate information;
+- private identity and account evidence remains permissioned;
+- wallet-person mappings are restricted;
+- access is logged and reviewable;
+- retention and deletion are enforceable;
+- vendors meet the required controls;
+- and privacy incidents can be contained and reported appropriately.
+
+#### Blocking Conditions
+
+- unnecessary identity collection;
+- public exposure of private participant data;
+- uncontrolled wallet-person mapping;
+- missing retention or deletion treatment;
+- or unsupported vendor data handling.
+
+### Gate 11: Operator and Support
+
+**Objective:** Confirm that named operators can run the complete mechanism safely, consistently, and continuously.
+
+#### Required Evidence
+
+Evidence may include:
+
+- operating model;
+- role assignments;
+- runbook;
+- period calendar;
+- training records;
+- service expectations;
+- eligibility-review process;
+- claim and payout support;
+- provider escalation;
+- correction and dispute handling;
+- incident response;
+- pause procedure;
+- change control;
+- business continuity;
+- backup and succession coverage;
+- workload and capacity assessment;
+- and test exercises.
+
+#### Pass Criteria
+
+- named operators understand their roles;
+- the full workflow can be executed from source records through closure;
+- support channels are active;
+- escalation routes are current;
+- sensitive actions use appropriate separation;
+- staff absence does not create uncontrolled failure;
+- incidents and corrections can be managed;
+- and operating capacity matches the proposed scope.
+
+#### Blocking Conditions
+
+- no accountable operator;
+- unsupported workload;
+- undocumented manual steps;
+- missing support route;
+- single-person dependency without compensating control;
+- or untested incident and continuity procedures.
+
+### Gate 12: Reporting and Public Communication
+
+**Objective:** Ensure that participants and public readers can understand current status, scope, method, approved value, eligibility, claims, payouts, corrections, limitations, and closure without exposing private records.
+
+#### Required Evidence
+
+Evidence may include:
+
+- public notice;
+- report templates;
+- metric definitions;
+- source mappings;
+- methodology;
+- period and timezone definitions;
+- status vocabulary;
+- public and permissioned field classification;
+- publication workflow;
+- review and approval workflow;
+- report hashes or references;
+- correction and restatement process;
+- archive process;
+- support links;
+- and privacy review.
+
+#### Pass Criteria
+
+- the public notice matches the activated mechanism;
+- reports distinguish readiness, activation, snapshot, eligibility, claim, payout, settlement, correction, and closure;
+- counts and amounts use defined denominators;
+- current-as-of dates are visible;
+- corrections preserve prior versions;
+- private identity is not exposed;
+- and FUZE can publish accurate, timely, public-safe status updates.
+
+#### Blocking Conditions
+
+- public wording inconsistent with the mechanism;
+- undefined metrics;
+- inability to correct reports;
+- privacy conflict;
+- or use of stronger status language than the evidence supports.
+
+### Gate 13: Incident, Pause, Correction, and Continuity
+
+**Objective:** Confirm that material errors, attacks, failures, provider outages, discrepancies, and legal or privacy issues can be contained without losing evidence or abandoning valid obligations.
+
+#### Required Evidence
+
+Evidence may include:
+
+- incident taxonomy;
+- severity levels;
+- incident commander;
+- detection and alerting;
+- pause authority;
+- contract and operational pause methods;
+- affected-scope controls;
+- communication plan;
+- participant support plan;
+- evidence preservation;
+- correction and restatement process;
+- payout hold and recovery procedures;
+- provider-failure procedures;
+- compromised-wallet treatment;
+- treasury discrepancy treatment;
+- reactivation checklist;
+- business continuity plan;
+- and exercise results.
+
+#### Pass Criteria
+
+- material failures can be detected;
+- the affected scope can be paused or isolated;
+- evidence is preserved;
+- claims and payouts can be held or corrected safely;
+- participant and public communication routes are ready;
+- valid obligations remain tracked;
+- continuity and recovery are tested;
+- and reactivation requires renewed authority.
+
+#### Blocking Conditions
+
+- no pause authority;
+- no way to isolate affected processing;
+- no correction or restatement method;
+- missing evidence preservation;
+- or untested continuity for critical providers or operators.
+
+## Gate Dependencies
 
 Gates are related but not interchangeable.
 
 | Dependency | Why it matters |
 |---|---|
 | Product revenue before approved value | Value cannot be approved from an undefined or unreconciled source pool |
-| Legal treatment before public notice | User rights and restrictions must match the reviewed structure |
-| Eligibility before snapshot finalization | The record method must reflect the rules it is meant to test |
-| Privacy before public reporting | Report fields must be designed before sensitive data is published |
-| Treasury before technical activation | Contracts and interfaces need an approved source and execution authority |
-| Technical readiness before operator signoff | Operators must train against the actual system |
-| Reporting before activation | Status and corrections need a usable publication route |
-| Audit after source records and calculation | Review requires stable evidence and a reproducible method |
+| Accounting before approved-value approval | Deductions, reserves, period treatment, and corrections require a reproducible method |
+| Legal and jurisdiction before public notice | Participant rights, restrictions, and wording must match the reviewed structure |
+| Eligibility before final snapshot execution | The snapshot method must reflect the rule it is intended to test |
+| Privacy before public reporting | Public fields must be designed before wallet and participant data are published |
+| Governance before treasury and technical operation | Signers, admins, operators, and emergency roles need approved authority |
+| Treasury before payout activation | Claims cannot settle safely without approved custody, asset, movement, and reconciliation controls |
+| Technical readiness before operator signoff | Operators must train against the actual configuration and failure states |
+| Audit after stable source records and calculations | Assurance requires reproducible evidence and a defined method |
+| Reporting before activation | Status, corrections, incidents, and closure require an operational publication route |
+| Incident readiness before activation | A mechanism should not go active before it can be paused, corrected, and recovered |
 
-A gate owner should record upstream dependencies and avoid issuing final readiness based on assumed completion elsewhere.
+A gate owner should record upstream and downstream dependencies.
 
----
+A reviewer should not issue final readiness based on assumed completion elsewhere.
 
-## 7. Evidence Pack
+## Evidence Standards
 
-The activation evidence pack consolidates the current gate records.
+### Evidence Quality
+
+Evidence should be:
+
+- current;
+- attributable;
+- complete for the stated scope;
+- reproducible where applicable;
+- reviewable;
+- versioned;
+- protected according to sensitivity;
+- and linked to the gate decision.
+
+### Evidence Classes
+
+Evidence may be:
+
+- public;
+- permissioned;
+- restricted;
+- confidential professional advice;
+- security-sensitive;
+- or operationally sensitive.
+
+A public report may state that a review occurred without publishing protected workpapers.
+
+It should not imply independent assurance beyond the review actually performed.
+
+### Evidence Freshness
+
+Each gate should define whether evidence expires because of:
+
+- time;
+- a new participation period;
+- a new product revenue pool;
+- a new approved-value calculation;
+- a network or contract change;
+- a custody-provider change;
+- a jurisdiction change;
+- a key operator or signer change;
+- a material incident;
+- a legal, accounting, tax, or audit update;
+- or prolonged inactivity before activation.
+
+### Evidence Gaps
+
+An evidence gap should be recorded as:
+
+- blocking;
+- remediable before activation;
+- conditionally acceptable for a limited scope;
+- not applicable with approved rationale;
+- or requiring redesign.
+
+Unknown should not be converted into `Ready`.
+
+## Conditional Readiness
+
+A gate may be `Conditionally ready` only when:
+
+- the remaining action is specific;
+- the risk is bounded for the exact scope;
+- the interim control is documented;
+- the owner and deadline or trigger are defined;
+- the activation authority understands the limitation;
+- the public notice can state the limitation accurately;
+- and failure to complete the condition has a defined consequence.
+
+A conditional-readiness record should identify:
+
+1. gate;
+2. scope;
+3. outstanding action;
+4. risk;
+5. interim control;
+6. owner;
+7. deadline or trigger;
+8. evidence required for closure;
+9. effect on activation;
+10. effect on participants;
+11. effect on public reporting;
+12. pause or expiry condition;
+13. reviewer;
+14. approver; and
+15. current status.
+
+### Conditions That Must Be Complete Before Activation
+
+A gate may be conditionally ready while a pre-activation action remains open, but the mechanism cannot activate until that action is complete.
+
+Examples may include:
+
+- publishing the approved notice;
+- loading the final allowed-wallet category list;
+- confirming final treasury balance;
+- completing final role transfer;
+- setting final transaction limits;
+- recording the snapshot block;
+- or completing a final operational exercise.
+
+### Conditions That May Continue During Limited Operation
+
+A condition may continue during a limited pilot only when:
+
+- the pilot scope is narrow;
+- the condition does not remove a fundamental control;
+- participants are not misled;
+- the interim control is effective;
+- monitoring is active;
+- and pause criteria are defined.
+
+## Exceptions
+
+An exception is a documented, time-bounded deviation from a normal gate requirement.
+
+An exception record should identify:
+
+- requirement;
+- reason;
+- proposed deviation;
+- affected scope;
+- risk;
+- compensating control;
+- owner;
+- reviewer;
+- approver;
+- effective period;
+- expiry;
+- monitoring;
+- participant effect;
+- public-reporting effect;
+- and closure.
+
+An exception cannot override the fundamental absence of:
+
+- legal authority;
+- defined participant rights;
+- source-value reconciliation;
+- approved distributable value;
+- treasury control;
+- governance authority;
+- eligibility definition;
+- privacy protection;
+- safe technical operation;
+- pause capability;
+- or public status accuracy.
+
+Repeated exceptions should trigger redesign rather than becoming the default operating model.
+
+## Activation Evidence Pack
+
+The activation evidence pack consolidates the current decision basis.
 
 It should contain:
 
-- activation scope statement;
-- gate register and status summary;
-- evidence index with owners and dates;
-- unresolved issue and remediation log;
-- approved-value and treasury references;
+- activation scope record;
+- framework version;
+- gate register;
+- gate-status summary;
+- evidence index;
+- owner and reviewer list;
+- unresolved issue register;
+- remediation register;
+- conditional-readiness register;
+- exception register;
+- product revenue pool reference;
+- approved distributable value reference;
+- accounting and treasury references;
+- custody and payout references;
+- governance and authority references;
 - technical deployment and configuration references;
-- eligibility and privacy specifications;
-- operating runbook and support route;
-- public notice draft;
-- activation, pause, and rollback checklist;
-- decision record.
+- security-review references;
+- snapshot and eligibility specifications;
+- privacy and data references;
+- operating runbook;
+- support and incident routes;
+- public notice;
+- report templates;
+- activation checklist;
+- pause and rollback checklist;
+- closure and retirement checklist;
+- activation decision template;
+- and current-as-of date.
 
-Evidence can be public, permissioned, or restricted according to sensitivity. A public paper or dashboard should not imply that restricted evidence has been independently verified unless that review occurred.
+The pack should identify which evidence is:
 
----
+- public;
+- permissioned;
+- restricted;
+- confidential;
+- or security-sensitive.
 
-## 8. Activation Review
+## Activation Review
 
-The activation review should occur after gate owners submit their final status.
+The activation review should occur only after gate owners submit their final statuses for the proposed scope.
 
-The reviewer or authorized body should:
+The authorized reviewer or decision body should:
 
-1. confirm the exact activation scope;
-2. verify all required gates and conditions;
-3. examine unresolved issues and accepted limitations;
-4. test consistency between legal, accounting, treasury, eligibility, technical, privacy, and public materials;
-5. confirm operator and support readiness;
-6. approve, reject, defer, or narrow the proposed scope;
-7. set the effective time and next review trigger;
-8. authorize the public notice and activation checklist.
+1. confirm the activation identifier and framework version;
+2. confirm the exact scope;
+3. verify every required gate;
+4. inspect all conditional-readiness items;
+5. inspect all exceptions;
+6. confirm all pre-activation actions;
+7. examine unresolved issues;
+8. test consistency across legal, accounting, product revenue, approved value, treasury, governance, technical, eligibility, privacy, operations, incident, and public materials;
+9. confirm operator and support capacity;
+10. confirm approved-value and treasury reconciliation;
+11. confirm contracts, networks, wallet categories, claim routes, payout assets, and systems;
+12. confirm the public notice;
+13. confirm monitoring and pause readiness;
+14. decide whether to approve, reject, defer, narrow, or return the proposal for remediation;
+15. set the effective event;
+16. set the review and expiry triggers;
+17. authorize the public status; and
+18. record the decision before operation begins.
 
-The decision should be recorded before live operation begins.
+## Activation Decision Record
 
----
+The decision record should include:
 
-## 9. Conditional Readiness and Exceptions
+- activation identifier;
+- framework version;
+- decision status;
+- approved scope;
+- excluded scope;
+- gate summary;
+- conditional items;
+- exceptions;
+- accepted limitations;
+- effective event;
+- effective time;
+- activation authority;
+- decision participants;
+- recusals or conflicts;
+- approved public notice;
+- monitoring requirements;
+- pause authority;
+- review triggers;
+- expiry;
+- closure conditions;
+- and current-as-of date.
 
-A gate can be conditionally ready when the remaining action is specific, low enough risk for the proposed scope, and capable of completion before activation or within an approved operating condition.
+Possible decisions are:
 
-The condition record should identify:
+- approved for activation;
+- approved for a narrower scope;
+- deferred;
+- remediation required;
+- rejected;
+- withdrawn;
+- or cancelled.
 
-- outstanding action;
-- responsible owner;
-- deadline or trigger;
-- affected scope;
-- interim control;
-- consequence if incomplete.
+`Approved for activation` is not the same as `Active`.
 
-An exception cannot override a fundamental absence of legal authority, source-value reconciliation, treasury control, eligibility definition, privacy protection, or safe technical operation.
+## Pre-Activation Checklist
 
-Repeated exceptions should trigger redesign rather than becoming the normal operating model.
+Immediately before the effective activation event, FUZE should confirm:
 
----
-
-## 10. Activation Checklist
-
-Immediately before activation, FUZE should confirm:
-
+- the activation decision remains valid;
 - gate statuses remain current;
-- approved value and treasury balances remain reconciled;
-- contract addresses, network, roles, and limits match the decision;
-- snapshot or eligibility records are finalized as approved;
+- no gate has expired or been suspended;
+- all pre-activation conditions are complete;
+- the product revenue pool is unchanged or approved;
+- approved distributable value remains valid;
+- treasury and custody balances reconcile;
+- payout assets and networks are available;
+- contract addresses and network settings match the approved record;
+- contract roles, signers, limits, and pause controls match the decision;
+- snapshot or eligibility parameters are finalized;
+- wallet and custody category rules are loaded correctly;
+- claim or participation routes are active only for the approved scope;
 - public notice and user instructions are published;
-- support, monitoring, and incident channels are staffed;
-- pause authority is available;
-- reporting and correction processes are operational;
-- the effective time is recorded consistently across systems.
+- support and escalation channels are staffed;
+- monitoring and alerts are active;
+- incident and pause authority are available;
+- reporting and correction routes are operational;
+- the effective event is recorded consistently across systems;
+- and a final preflight receipt is retained.
 
 If a material item differs from the approved evidence pack, activation should return to review.
 
----
+## Activation States
 
-## 11. Pause Triggers
+| State | Meaning |
+|---|---|
+| Pre-design | No approved framework or scope exists |
+| Design | Framework and scope are being developed |
+| Gate preparation | Owners are preparing required evidence |
+| Gate review | Evidence is under review |
+| Remediation | One or more gates require correction |
+| Gate-ready | Every required gate is ready or conditionally ready for the proposed scope |
+| Approved for activation | Authorized decision exists, but the effective event has not occurred |
+| Active for stated scope | The effective event occurred and the approved mechanism is operating |
+| Narrowed | Active scope has been reduced |
+| Paused | Some or all operation is temporarily stopped |
+| Suspended | Readiness or operation is invalidated pending material review |
+| Closing | No new participation is accepted while obligations are being completed |
+| Closed | The defined activation period is complete |
+| Retired | No new activation periods are intended under the framework version |
+| Archived | Historical evidence and decisions remain retained but are not current |
+
+`Gate-ready` should never be described as `Active`.
+
+## Material Change Review
+
+A material change should return the affected gates to review.
+
+Material changes may include:
+
+- a new product revenue pool;
+- a new accounting period;
+- a changed revenue-recognition method;
+- a changed approved-value formula;
+- a changed reserve policy;
+- a changed payout asset;
+- a new payout network;
+- a new custody provider;
+- a new wallet category;
+- exchange or institutional custody support;
+- a changed token condition;
+- a changed snapshot method;
+- a new contract;
+- a contract upgrade;
+- a network migration;
+- a new jurisdiction;
+- changed participant rights;
+- changed claim or payout method;
+- changed privacy or identity collection;
+- changed operators or signers;
+- changed audit or reporting method;
+- a material incident;
+- or a stronger public claim.
+
+The change record should identify:
+
+- previous scope;
+- proposed scope;
+- affected gates;
+- new evidence;
+- user and participant impact;
+- claim and payout impact;
+- public-reporting impact;
+- required remediation;
+- decision;
+- effective time;
+- and current status.
+
+A prior activation decision should not be treated as blanket approval for materially different operation.
+
+## Pause and Suspension Triggers
 
 An active mechanism should pause or enter urgent review when a material issue affects:
 
 - legal or jurisdiction support;
-- source revenue or approved-value accuracy;
+- participant rights or public terms;
+- source revenue accuracy;
+- approved distributable value;
+- accounting or period-close integrity;
 - treasury custody or reconciliation;
-- contract security, availability, or privileged roles;
-- eligibility or snapshot integrity;
+- payout-asset availability;
+- contract security;
+- privileged roles;
+- network or provider reliability;
+- snapshot integrity;
+- eligibility logic;
+- wallet or custody evidence;
+- duplicate or abusive claims;
 - privacy or identity protection;
 - operator authority or support capacity;
-- public reporting accuracy;
-- sanctions, fraud, abuse, or duplicate claims;
-- third-party custody, network, oracle, or infrastructure reliability.
+- public-report accuracy;
+- audit findings;
+- sanctions or restricted-party controls;
+- fraud;
+- compromised wallets;
+- payout failure;
+- or continuity.
 
-The pause record should state the affected scope, effective time, known impact, temporary controls, investigation owner, communication plan, and conditions for resumption.
+### Pause Scope
 
-A pause should preserve evidence and avoid exposing private participant details.
+A pause record should identify whether it affects:
 
----
+- new participation periods;
+- snapshot execution;
+- eligibility decisions;
+- wallet verification;
+- claim submission;
+- claim review;
+- payout authorization;
+- payout execution;
+- one product revenue pool;
+- one wallet or custody class;
+- one jurisdiction;
+- one provider;
+- one contract;
+- one payout asset;
+- the whole period;
+- or the whole framework.
 
-## 12. Remediation and Reactivation
+### Pause Record
 
-Reactivation is a new decision, not an automatic consequence of fixing one issue.
+The record should include:
+
+- identifier;
+- affected activation and framework version;
+- trigger;
+- effective time;
+- affected scope;
+- known impact;
+- affected participants or wallets;
+- affected value;
+- temporary controls;
+- evidence-preservation actions;
+- claim and payout treatment;
+- treasury and custody treatment;
+- public communication;
+- support route;
+- investigation owner;
+- remediation owner;
+- reactivation conditions;
+- reviewer;
+- and current status.
+
+A pause should preserve valid obligations and historical evidence.
+
+## Remediation
+
+Remediation should identify:
+
+- root cause;
+- affected gates;
+- affected records;
+- participant and treasury impact;
+- corrective actions;
+- preventive actions;
+- responsible owners;
+- deadlines or triggers;
+- testing;
+- reviewer;
+- public correction;
+- and closure evidence.
+
+Possible remediation may include:
+
+- recalculation;
+- source-record correction;
+- reserve adjustment;
+- payout hold;
+- transaction reversal where possible;
+- corrected claim or eligibility status;
+- contract patch or migration;
+- role change;
+- provider replacement;
+- notice correction;
+- participant outreach;
+- support escalation;
+- report restatement;
+- or scope reduction.
+
+A corrected component does not automatically reactivate the mechanism.
+
+## Reactivation
+
+Reactivation is a new authorized decision.
 
 FUZE should:
 
-1. identify root cause and affected records;
-2. correct systems, calculations, eligibility, communications, or controls;
-3. assess participant and treasury impact;
-4. retest the relevant workflow;
-5. obtain renewed gate decisions where evidence changed;
-6. update reports and correction history;
-7. authorize a revised scope and effective time.
+1. identify the cause and affected scope;
+2. complete remediation;
+3. reconcile affected product revenue, approved value, treasury, eligibility, claims, payouts, and reports;
+4. retest the affected workflow;
+5. renew the affected gate decisions;
+6. confirm unaffected gates remain current;
+7. update the evidence pack;
+8. update public status and correction history;
+9. confirm operator and support readiness;
+10. confirm pause and continuity controls;
+11. authorize the revised scope;
+12. set the effective event; and
+13. retain the reactivation decision.
 
-Material changes to rights, eligibility, value, custody, contracts, jurisdictions, or public language may require the full gate review.
+Material changes to rights, value, custody, contracts, jurisdictions, eligibility, claims, payouts, or public wording may require full gate review.
 
----
+## Ongoing Gate Review and Expiry
 
-## 13. Ongoing Gate Review
+Readiness can expire as products, laws, accounting treatment, contracts, operators, data, custody models, providers, jurisdictions, and market infrastructure change.
 
-Readiness can expire as products, laws, contracts, operators, data, custody models, or market infrastructure change.
+Review triggers may include:
 
-Gate owners should define review triggers such as:
+- a new product revenue pool;
+- a new accounting period;
+- a new approved-value period;
+- a new participation period;
+- a contract upgrade;
+- a network migration;
+- a new custody class;
+- a new provider;
+- a new jurisdiction;
+- a new participant type;
+- a changed identity or tax process;
+- a changed payout asset;
+- a changed reserve policy;
+- an operator or signer change;
+- a material incident;
+- a correction or report restatement;
+- changed legal, accounting, tax, audit, privacy, or security advice;
+- prolonged inactivity before activation;
+- or the scheduled review date.
 
-- a new product-revenue pool or calculation period;
-- material change in approved-value policy;
-- contract upgrade or network migration;
-- expanded custody or jurisdiction scope;
-- new data collection or identity process;
-- operator or signer change;
-- material incident or correction;
-- changed legal, accounting, tax, or audit advice;
-- prolonged inactivity before activation.
+Every ready gate should show:
 
-The register should show the next review date or event for every ready gate.
+- effective date;
+- next review date or trigger;
+- expiry treatment;
+- owner;
+- and status if the review is not completed.
 
----
+An expired gate should not remain represented as ready.
 
-## 14. Public Status Reporting
+## Closure and Retirement
 
-FUZE can publish a concise activation status without exposing private advice, personal identity, security-sensitive details, or confidential workpapers.
+A participation period may close while some obligations remain under controlled treatment.
+
+Closure review should confirm:
+
+- no new eligible claims are accepted beyond the approved rules;
+- product revenue and approved value are finalized or controlled;
+- eligibility records are closed;
+- claims are resolved or documented;
+- payouts are completed or reserved;
+- failed, returned, disputed, or unclaimed value has approved treatment;
+- treasury and accounting records reconcile;
+- corrections and appeals are resolved or controlled;
+- final public reporting is published;
+- records are retained appropriately;
+- support for remaining obligations exists;
+- and final gate statuses are closed or archived.
+
+Framework retirement should additionally confirm:
+
+- no new activation scope will use the retired version;
+- contracts, portals, and providers are deprecated safely;
+- custody and treasury treatment is complete;
+- outstanding claims and payouts remain controlled;
+- data retention and deletion are addressed;
+- public communication is updated;
+- historical evidence remains traceable;
+- and the retirement decision is recorded.
+
+## Public Gate Reporting
+
+FUZE may publish a concise gate-status view without exposing private advice, personal identity, confidential workpapers, credentials, or exploitable security details.
 
 | Public field | Example treatment |
 |---|---|
-| Mechanism status | Design, preparation, under review, gate-ready, active, paused, or retired |
-| Scope | Supported product pool, custody class, network, period, or jurisdiction summary |
-| Gate summary | Ready, conditional, under review, or blocked counts with definitions |
-| Effective record | Activation, pause, or retirement date and version |
-| Approved value | Status and period where publication is appropriate |
-| Reports | Links to public-safe calculation, activity, correction, or audit references |
-| Changes | Material scope, rule, contract, or status updates |
+| Activation identifier | Stable public-safe reference |
+| Framework version | Current reviewed version |
+| Mechanism status | Design, preparation, gate review, gate-ready, approved for activation, active, paused, closed, or retired |
+| Scope | Product pool, period, wallet classes, network, claim route, payout route, and jurisdiction summary |
+| Gate summary | Counts by ready, conditional, under review, remediation, suspended, expired, or not applicable |
+| Blocking areas | Public-safe description of unresolved gates |
+| Conditional areas | Public-safe limitations and deadlines or triggers |
+| Approved-value status | Pending, approved, deferred, unavailable, or closed for the stated period |
+| Effective record | Activation, pause, reactivation, closure, or retirement date and version |
+| Reports | Links to public-safe value, eligibility, claim, payout, correction, or audit references |
+| Changes | Material scope, rule, provider, contract, or status changes |
+| Current-as-of date | Time to which the status applies |
 
-Gate-ready should not be described as active. A public dashboard should identify the authoritative decision record and latest update.
+Public reporting should distinguish:
 
----
+- gate-ready;
+- approved for activation;
+- active;
+- paused;
+- closed;
+- and retired.
 
-## 15. Relationship to the Participation Model
+A dashboard should identify the authoritative decision record and latest update.
 
-The [FUZE Wallet-Based Participation Model](07-FUZE_WALLET_BASED_PARTICIPATION_MODEL_PUBLIC.md) explains eligible FUZE-holding wallets, custody treatment, snapshots, approved value, claims, privacy, and corrections where activated.
+### Gate Summary Limitations
 
-This paper answers a narrower question: **what evidence and approvals must exist before that workflow can operate?**
+A gate summary should not imply that:
 
-Community Participation Round access, product use, Platform Credit activity, stablecoin payments, token holding, or appearance in a draft snapshot do not satisfy the activation gates.
+- all underlying evidence is public;
+- every review was independent;
+- readiness applies beyond the named scope;
+- approved value is claimable;
+- a claim is payable;
+- a payout is settled;
+- or market access exists.
 
----
+## Status and Evidence
 
-## 16. Public Boundary
+This paper defines the activation-gate system.
 
-This gate framework is a readiness and governance model. It does not announce activation, create eligibility, approve value, open a claim period, or publish transaction instructions.
+It does not independently prove that any gate is ready or that participation is approved, active, claimable, payable, or settled.
 
-Future activation depends on the evidence and decision for a defined scope. A gate can be delayed, restricted, suspended, or closed when requirements change.
+| Status claim | Evidence direction |
+|---|---|
+| Gate register created | Versioned register, activation identifier, owners, scope, fields, and current entries |
+| Gate in preparation | Assigned owner, evidence plan, dependencies, and current work record |
+| Gate under review | Submitted evidence package, reviewer, review scope, and current status |
+| Gate remediation required | Finding, affected scope, required action, owner, deadline or trigger, and review state |
+| Gate conditionally ready | Pass criteria, outstanding condition, interim control, limitation, owner, deadline or trigger, and approval |
+| Gate ready | Current evidence, exact scope, reviewer, decision, effective date, limitations, and expiry trigger |
+| Gate expired | Prior decision, expiry trigger, affected scope, and renewal requirement |
+| Gate suspended | Material issue, affected scope, temporary controls, remediation, and current status |
+| Gate-ready mechanism | Every required gate ready or conditionally ready and every pre-activation condition complete |
+| Approved for activation | Authorized decision, exact scope, effective event, notice, monitoring, pause, and review conditions |
+| Active for stated scope | Effective event occurred, operating systems and notice match the decision, support and monitoring active, and public status current |
+| Mechanism paused | Approved pause, affected scope, participant and value treatment, support, remediation, and communication |
+| Mechanism reactivated | Completed remediation, renewed gates, updated evidence pack, authorized decision, and effective event |
+| Activation closed | Final value, eligibility, claim, payout, correction, reporting, support, and archive treatment |
+| Framework retired | No new activation, outstanding obligations controlled, systems deprecated, final governance decision, and public status |
 
-For consolidated risk treatment, use [FUZE Token Risk Boundaries](29-FUZE_TOKEN_RISK_BOUNDARIES_PUBLIC.md) and the [FUZE Risk and Disclosure Appendix](../WHITEPAPER-PAPERS/05-FUZE_RISK_AND_DISCLOSURE_APPENDIX_PUBLIC.md).
+The following do not independently establish gate readiness or activation:
 
----
+- this paper;
+- a gate name;
+- a checklist;
+- a policy draft;
+- a legal discussion;
+- an accounting spreadsheet;
+- a treasury balance;
+- an audit activity;
+- a contract deployment;
+- a snapshot;
+- a dashboard;
+- code;
+- a repository;
+- an internal test;
+- a public announcement;
+- a token balance;
+- product use;
+- Platform Credit activity;
+- stablecoin payment;
+- or token price activity.
 
-## Conclusion
+## Readiness, Activation, Claim, Payout, Market, and Outcome Separation
 
-FUZE participation activation requires coordinated readiness across twelve gates and a separate authorized decision.
+The following remain separate:
 
-The gate register turns broad readiness statements into accountable evidence, pass criteria, dependencies, conditions, and review dates. The activation, pause, and reactivation processes then ensure that live status follows the approved scope rather than technical preparation alone.
+- design;
+- preparation;
+- evidence submission;
+- gate review;
+- remediation;
+- conditional readiness;
+- readiness;
+- gate-ready status;
+- approval for activation;
+- effective activation;
+- active operation;
+- product revenue;
+- candidate distributable value;
+- approved distributable value;
+- snapshot completion;
+- wallet control;
+- eligibility;
+- claim availability;
+- claim submission;
+- claim approval;
+- payout authorization;
+- payout submission;
+- payout confirmation;
+- payout settlement;
+- product adoption;
+- product revenue growth;
+- DEX access;
+- CEX access;
+- liquidity;
+- market price;
+- and financial return.
+
+Ready gates do not guarantee:
+
+- activation;
+- approved distributable value;
+- wallet eligibility;
+- an open claim;
+- a payout;
+- continued operation;
+- exchange access;
+- liquidity;
+- price support;
+- income;
+- revenue share;
+- or financial return.
+
+## Public Boundary
+
+This paper publishes the gate taxonomy, register model, status vocabulary, evidence standards, decision process, pre-activation controls, pause triggers, remediation, reactivation, expiry, closure, and public-reporting boundaries.
+
+It does not publish or establish current:
+
+- gate readiness;
+- gate-ready status;
+- activation approval;
+- framework activation;
+- product revenue pools;
+- approved distributable value;
+- wallet eligibility;
+- snapshot block or time;
+- supported jurisdictions;
+- supported custody providers;
+- claim availability;
+- claim amount;
+- payout asset;
+- payout date;
+- contract address;
+- vault address;
+- DEX activation;
+- CEX application;
+- CEX approval;
+- liquidity;
+- token demand;
+- token price;
+- income;
+- revenue share;
+- profitability;
+- or financial return
+
+unless those details are separately approved and supported by current evidence in the gate register, activation decision, activated notice, approved-value record, snapshot report, claim process, payout report, specialist paper, or public status record.
+
+A gate can be narrowed, remediated, expired, suspended, closed, or retired as requirements and evidence change.
+
+## Key Takeaways
+
+- Participation activation requires a coordinated gate system and a separate authorized activation decision.
+- Readiness is specific to the exact framework version, product pool, period, token rule, wallet and custody scope, jurisdiction, claim route, payout route, systems, operators, and public notice.
+- A policy, calculation, treasury balance, deployed contract, vault, snapshot, audit activity, dashboard, announcement, or target date does not independently activate participation.
+- Required gates cover legal and jurisdiction, accounting, product revenue, approved distributable value, treasury and custody, governance, audit, technical, eligibility, privacy, operations, reporting, and incident readiness.
+- Each gate requires an owner, evidence, pass criteria, reviewer, status, dependencies, limitations, effective date, and expiry or reassessment trigger.
+- `Gate-ready`, `approved for activation`, and `active for stated scope` are different states.
+- Conditional readiness is allowed only with bounded risk, explicit controls, named ownership, deadlines or triggers, and clear consequences.
+- Exceptions cannot replace fundamental legal authority, value reconciliation, treasury control, eligibility definition, privacy protection, safe technical operation, pause capability, or accurate public status.
+- Material changes should return the affected gates to review rather than inherit approval automatically.
+- Pause, remediation, reactivation, closure, and retirement require new records and accountable decisions while preserving valid obligations and historical evidence.

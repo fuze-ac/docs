@@ -2,190 +2,296 @@
 
 ## Executive Summary
 
-FUZE treats AI safety and reliability as a product operating discipline. Each AI-assisted workflow should have a defined purpose, permitted sources and tools, a risk level, evaluation criteria, human authority, monitoring, and a response process for errors or incidents.
+FUZE treats AI safety and reliability as a product operating discipline. Every AI-assisted workflow should have a defined purpose, permitted sources and tools, a risk level, evaluation criteria, human authority, monitoring, and a response process for errors or incidents.
 
-Controls vary with impact. Drafting an internal outline requires less oversight than interpreting business data, moderating a community, preparing market material, operating across desktop files, or supporting a customer-facing decision. Higher-impact workflows receive stronger source checks, permission limits, review requirements, testing, and release evidence.
+Controls should increase with consequence. Drafting an internal outline requires less oversight than interpreting business data, moderating a community, preparing market material, operating across desktop files, publishing externally, or supporting a customer-facing decision. Higher-impact workflows require stronger source checks, permission limits, human review, testing, logging, fallback behavior, and release evidence.
 
-Reliability means that FUZE can explain what the system is expected to do, measure how often it completes that task, identify common failure modes, and correct the product when evidence changes. It does not mean that generated output is inherently true or suitable for every downstream decision.
+Reliability means that FUZE can explain what a workflow is expected to do, test representative and difficult cases, measure completion and failure, identify known limitations, monitor provider and product behavior, and correct or retire the workflow when evidence changes. It does not mean that AI output is inherently true, unbiased, complete, current, or suitable for every downstream decision.
 
-This paper gives investors, partners, and customers a public view of the AI control lifecycle and the evidence that should support stronger product status. Detailed privacy treatment is maintained in the dedicated data and permission papers.
+This paper gives investors, partners, and customers a public view of FUZE's AI control lifecycle and the evidence that should support stronger product status. It is not an AI certification, audit, guarantee, or substitute for qualified professional judgment.
 
----
+## 1. Purpose and Primary Readers
 
-## 1. Safety Objective
+This paper is written for investors, strategic partners, enterprise reviewers, product owners, operators, security and privacy reviewers, and customers evaluating FUZE's AI operating discipline.
 
-The objective is to help users gain practical value from AI while keeping authority, data, and consequences proportionate to the workflow.
+It explains:
 
-Every AI feature should answer:
+1. how FUZE classifies AI workflow risk;
+2. how sources, data, permissions, tools, and human authority are controlled;
+3. how workflows are evaluated before wider release;
+4. how model and provider changes are governed;
+5. how reliability, incidents, corrections, and retirement are handled;
+6. which evidence supports stronger product status;
+7. which public claims remain outside this framework.
 
-1. What task does the model perform?
-2. Which user and product context apply?
-3. Which sources can it use?
-4. Which tools or actions can it access?
-5. What output is expected?
-6. What can go wrong?
-7. Who reviews or approves the result?
-8. How is quality measured?
-9. How can the workflow be stopped or corrected?
-10. Which evidence supports its release status?
+The [FUZE Data Privacy and Permission Model](08-FUZE_DATA_PRIVACY_AND_PERMISSION_MODEL_PUBLIC.md) governs the deeper privacy and access-control treatment. Product-specific boundaries remain in the relevant product papers.
 
-These answers should exist before broad availability, not be reconstructed only after an incident.
+## 2. Current Public Position
 
----
+FUZE's public papers define intended AI products, safety controls, permission models, evaluation concepts, human-review requirements, and incident processes.
 
-## 2. AI Risk Classification
+They do not by themselves prove:
 
-FUZE can classify workflows according to impact, reversibility, data sensitivity, and user reliance.
+- that a specific AI workflow is available;
+- that a control is configured, tested, or operating;
+- that an evaluation threshold has been met;
+- that a provider, model, prompt, retrieval system, or tool configuration is production-ready;
+- that a workflow is accurate, fair, secure, or reliable for every case;
+- that an enterprise, customer, or partner has approved the workflow;
+- that an audit, certification, assurance opinion, or regulatory approval exists;
+- that no harmful, incorrect, biased, stale, or unauthorized output will occur.
 
-| Level | Typical use | Control emphasis |
+Stronger status requires current evidence for the named product, workflow, version, audience, risk class, test set, reviewer, release decision, and operating period.
+
+The [FUZE Public Status and Roadmap Matrix](../PUBLIC-INDEX/02-FUZE_PUBLIC_STATUS_AND_ROADMAP_MATRIX.md) controls public status vocabulary.
+
+## 3. Safety Objective
+
+The objective is to help users gain practical value from AI while keeping authority, data access, and consequences proportionate to the workflow.
+
+Every AI-assisted feature should answer:
+
+1. What task does the system perform?
+2. Which user, product, and operating context apply?
+3. Which sources may it use?
+4. Which data is excluded?
+5. Which tools or actions may it access?
+6. What output or state change is expected?
+7. What can go wrong?
+8. Who reviews, approves, overrides, or escalates the result?
+9. How is quality measured?
+10. How can the workflow be paused, corrected, reversed, or retired?
+11. Which evidence supports its current release status?
+
+These answers should exist before broad availability rather than being reconstructed only after an incident.
+
+## 4. AI Risk Classification
+
+FUZE may classify workflows according to impact, reversibility, data sensitivity, user reliance, scale, and external effect.
+
+| Level | Typical use | Primary controls |
 |---|---|---|
-| Assisted drafting | Internal outlines, formatting, simple content drafts | Clear labeling, user review, ordinary workspace permissions |
-| Operational support | Checklists, summaries, task organization, routine reports | Source scope, review, versioning, error handling |
-| Customer-facing output | Announcements, support drafts, training content, sponsored descriptions | Factual review, approval, rights, tone, current terms |
-| Sensitive interpretation | Business data, moderation, verification support, market or liquidity context | Source evidence, specialist review, restricted access, logging |
-| Tool-using or state-changing workflow | File operations, external systems, publishing, financial or administrative actions | Least privilege, explicit authorization, limits, confirmation, recovery |
+| Assisted drafting | Internal outlines, formatting, basic drafts | Clear labeling, ordinary workspace permissions, user review |
+| Operational support | Checklists, summaries, task organization, routine reports | Approved sources, versioning, review, error handling |
+| Customer-facing output | Announcements, support drafts, training material, listings | Factual review, rights checks, approval, current terms |
+| Sensitive interpretation | Business data, moderation, verification support, market or liquidity context | Restricted access, source evidence, specialist review, logging |
+| Tool-using workflow | File, message, application, API, or external-system actions | Least privilege, explicit authorization, limits, preview, logging, recovery |
+| High-consequence state change | Publishing, payments, access changes, destructive actions, member sanctions | Named authority, strong confirmation, segregation, audit trail, reversal or containment |
 
-Risk can increase when a low-impact output is reused in a higher-impact context. A draft becomes more consequential when published, used to remove a community member, relied on for a payment, or presented as professional guidance.
+Risk may increase when:
 
-The responsible product owner records the classification and reviews it when scope, users, data, models, or tools change.
+- a draft is published;
+- an internal summary is used for a customer or investor decision;
+- an AI suggestion affects access, employment, moderation, payment, or security;
+- the workflow gains external tools or broader permissions;
+- a small pilot becomes available to a wider audience;
+- sensitive or cross-customer data is introduced;
+- users are likely to treat the output as professional advice or current fact.
 
----
+The responsible owner should record the classification and review it when scope, audience, data, model, provider, tools, geography, or downstream use changes.
 
-## 3. AI Control Lifecycle
+## 5. AI Control Lifecycle
 
-### 3.1 Define
+### 5.1 Define
 
-Specify the user, purpose, inputs, output, non-goals, authority, and product boundary.
+Specify:
 
-### 3.2 Design
+- user and purpose;
+- inputs and outputs;
+- non-goals;
+- allowed and prohibited uses;
+- human authority;
+- product boundary;
+- risk classification;
+- evidence required for release.
 
-Select the model or provider, source strategy, prompt or workflow structure, permissions, review points, fallback behavior, and records.
+### 5.2 Design
 
-### 3.3 Evaluate
+Select:
 
-Test representative and difficult cases. Measure task completion, factual support, unsafe behavior, privacy exposure, refusal quality, consistency, and human-review burden as relevant.
+- model or provider;
+- source and retrieval strategy;
+- prompt or workflow structure;
+- data permissions;
+- tool access;
+- review and approval points;
+- logging;
+- fallback and recovery behavior.
 
-### 3.4 Release
+### 5.3 Evaluate
 
-Approve a named product scope and audience. Provide current instructions, limitations, support, monitoring, and rollback or pause controls.
+Test representative, edge, adversarial, ambiguous, stale, incomplete, and conflicting cases where relevant.
 
-### 3.5 Monitor
+Evaluation may cover:
 
-Review failures, user feedback, incidents, model changes, data drift, cost, latency, and emerging misuse.
+- task completion;
+- factual support;
+- instruction following;
+- unsafe behavior;
+- privacy exposure;
+- refusal quality;
+- consistency;
+- bias or performance differences;
+- tool authorization;
+- recovery;
+- human-review burden;
+- latency and cost.
 
-### 3.6 Improve or retire
+### 5.4 Release
 
-Adjust sources, prompts, tools, review, access, models, or product scope. Retire a workflow when the risk or operating burden outweighs demonstrated value.
+Approve a named product scope, version, audience, and status. Provide current instructions, known limitations, support, monitoring, and pause or rollback procedures.
 
-This lifecycle connects safety work to product status rather than treating a policy document as proof of safe operation.
+### 5.5 Monitor
 
----
+Review:
 
-## 4. Source and Grounding Controls
+- failures and corrections;
+- user and operator feedback;
+- incidents;
+- provider and model changes;
+- source or data drift;
+- cost and latency;
+- permission denials;
+- abuse and emerging misuse.
 
-AI output quality depends heavily on the information available to the workflow.
+### 5.6 Improve, narrow, pause, or retire
+
+Adjust sources, prompts, tools, review, permissions, models, or scope. Narrow, pause, or retire a workflow when risk, failure, operating burden, or provider dependency outweighs demonstrated value.
+
+A policy document is not proof that this lifecycle has been completed for a specific product.
+
+## 6. Source and Grounding Controls
+
+AI output quality depends on the information available to the workflow.
 
 Useful controls include:
 
 - using approved source collections;
-- identifying source periods for time-sensitive work;
-- separating user input from system instructions;
-- preserving references for review where appropriate;
+- identifying source ownership and authority;
+- recording source periods for time-sensitive work;
+- separating user-provided content from system instructions;
+- preserving references where review requires them;
 - limiting retrieval to authorized workspaces;
-- warning when evidence is incomplete or conflicting;
-- requiring current external verification for changing facts;
-- preventing one customer’s data from appearing in another workspace;
-- recording material source and instruction versions.
+- warning when evidence is incomplete, stale, or conflicting;
+- requiring current verification for changing facts;
+- preventing one customer's data from appearing in another workspace;
+- recording material source, prompt, retrieval, and instruction versions;
+- avoiding unsupported inference when the source does not establish the claim.
 
-Grounding can reduce unsupported output but cannot make poor, incomplete, or outdated source material reliable. The product should make source responsibility clear to users and reviewers.
+Grounding can reduce unsupported output but cannot make poor, incomplete, biased, or outdated source material reliable.
 
-QTB market context, AIMM operational reporting, SheetLayer AI analysis, public token communication, event reports, and customer-facing claims have particularly strong source and freshness requirements.
+QTB market context, AIMM operations reporting, SheetLayer AI analysis, public token communication, event reporting, customer-facing content, and investor material have particularly strong source and freshness requirements.
 
----
+## 7. Data and Permission Controls
 
-## 5. Data and Permission Controls
+AI access should follow the user's role, workspace, product purpose, and approved task.
 
-AI access should follow the user’s role, product purpose, workspace, and approved task.
+Controls may include:
 
-Controls can include:
+- customer and workspace separation;
+- least-privilege file and data access;
+- restricted fields and sensitivity classifications;
+- purpose limitation;
+- time-bounded connections;
+- tool-specific authorization;
+- export and publication approval;
+- retention and deletion rules;
+- credential isolation;
+- access logs and review;
+- revocation when staff, scope, or systems change.
 
-- customer and workspace separation
-- least-privilege file and data access
-- restricted fields and sensitive classifications
-- time-bounded connections
-- tool-specific authorization
-- export and publication approval
-- retention and deletion rules
-- credential isolation
-- access logs and review
-- revocation when staff or scope changes
+The presence of data in a workspace does not make it appropriate for every AI task. Support, training, market research, investor reporting, public summaries, and moderation may require different subsets of the same underlying records.
 
-The presence of data in a workspace does not make it appropriate for every AI task. A customer-support workflow, training workflow, market report, and public summary can require different subsets of the same underlying records.
+Identity documents, credentials, private agreements, investor records, customer data, payment details, personal information, and security evidence remain permissioned.
 
-Identity documents, credentials, private agreements, investor records, customer data, payment details, and security evidence remain permissioned. Wallet-level public records should stay separate from personal identity.
+Wallet-level public records should remain separate from personal identity unless an authorized process establishes and permits the connection.
 
-The [FUZE Data Privacy and Permission Model](08-FUZE_DATA_PRIVACY_AND_PERMISSION_MODEL_PUBLIC.md) provides the deeper investor-facing treatment.
+## 8. Human Authority
 
----
+Human control should match the consequence.
 
-## 6. Human Authority
+### 8.1 Review
 
-Human review should match the decision and consequence.
+A person checks source fit, factual support, tone, completeness, product rules, and limitations before use.
 
-### Review
+### 8.2 Approval
 
-A person checks factual support, source fit, tone, completeness, and product rules before use.
+An authorized role decides whether an output may be published, sent, acted upon, or entered into an operating record.
 
-### Approval
+### 8.3 Override
 
-An authorized role decides whether an output can be published, sent, acted upon, or entered into an operating record.
+An operator can stop, correct, replace, reverse, or contain an AI-assisted step.
 
-### Override
-
-An operator can stop, correct, replace, or reverse an AI-assisted step.
-
-### Escalation
+### 8.4 Escalation
 
 A sensitive or uncertain case moves to the product owner, moderator, security team, finance role, professional adviser, or another qualified reviewer.
 
-Human involvement is meaningful only when the reviewer has sufficient context, time, authority, and a usable interface. A nominal approval click after a complex automated process is weak control.
+Human involvement is meaningful only when the reviewer has sufficient context, time, authority, and a usable interface. A nominal approval click after a complex process is weak control.
 
-Examples requiring stronger authority include member sanctions, customer or employee decisions, public investor communication, payment classification, market operations, external publishing, credential use, and destructive file actions.
+Stronger authority is required for:
 
----
+- member sanctions or access removal;
+- customer or employee decisions;
+- investor and public communication;
+- payment or revenue classification;
+- market and liquidity operations;
+- legal, tax, medical, or financial guidance;
+- credential use;
+- publishing;
+- destructive or difficult-to-reverse actions.
 
-## 7. Tool and Automation Safety
+## 9. Tool and Automation Safety
 
 Tool-using AI requires controls beyond text generation.
 
 Before an action, the system should determine:
 
-- authenticated user and workspace
-- permitted tool
-- allowed resources
-- requested action
-- amount, file, destination, or other scope
-- required approval
-- maximum authority
-- expected result
-- recovery behavior
+- authenticated user and workspace;
+- permitted tool;
+- allowed resource;
+- requested action;
+- amount, file, account, destination, or scope;
+- required approval;
+- maximum authority;
+- expected result;
+- failure and recovery behavior.
 
-Useful patterns include read-only access by default, previews, confirmation for state changes, limits, allowlists, idempotency, sandboxing where suitable, and separate credentials for each integration.
+Useful patterns include:
 
-Botmad tasks need particular attention because desktop work can cross files, applications, messages, and external services. The task record should show the authorized scope, sources used, proposed or completed actions, outputs, and reviewer state.
+- read-only access by default;
+- previews and dry runs;
+- confirmation for state changes;
+- action and spending limits;
+- allowlists;
+- idempotency;
+- sandboxing where suitable;
+- separate credentials per integration;
+- short-lived tokens;
+- audit logs;
+- pause and revoke controls.
 
-Automation should stop safely when permission is missing, data is ambiguous, a dependency fails, or the requested action exceeds the approved scope.
+Botmad tasks need particular attention because desktop work can cross files, applications, messages, browsers, and external services.
 
----
+A Botmad task record should identify:
 
-## 8. Evaluation Framework
+- authorized scope;
+- permitted sources and tools;
+- proposed and completed actions;
+- files, accounts, and destinations affected;
+- outputs;
+- reviewer or approval state;
+- failures, corrections, and recovery.
 
-Evaluation should reflect the workflow rather than rely on one generic accuracy score.
+Automation should stop safely when permission is missing, data is ambiguous, a dependency fails, an instruction conflicts, or the requested action exceeds the approved scope.
+
+## 10. Evaluation Framework
+
+Evaluation should reflect the workflow rather than rely on one generic score.
 
 | Evaluation area | Example question |
 |---|---|
-| Task completion | Did the system produce the requested type of output? |
-| Factual support | Are material statements supported by the permitted sources? |
+| Task completion | Did the system produce the requested output or action? |
+| Factual support | Are material statements supported by permitted sources? |
 | Instruction following | Did it respect scope, format, and product rules? |
 | Privacy | Did it avoid unauthorized or unnecessary data? |
 | Safety | Did it avoid harmful, misleading, or prohibited behavior? |
@@ -193,174 +299,298 @@ Evaluation should reflect the workflow rather than rely on one generic accuracy 
 | Human usability | Can a reviewer understand and correct the result? |
 | Tool behavior | Were actions authorized, bounded, recorded, and recoverable? |
 | Fairness | Are material differences across language, group, or context identified? |
-| Operations | Are latency, cost, fallback, and support acceptable? |
+| Operations | Are latency, availability, cost, fallback, and support acceptable? |
 
-Evaluation sets should include normal, edge, adversarial, ambiguous, stale, incomplete, and conflicting inputs where relevant. Product teams should record the model, workflow version, test set, result, reviewer, known gaps, and release decision.
+Evaluation records should identify:
 
-Scores need context. A strong average can conceal a severe failure on a small but important class.
+- product and workflow;
+- version;
+- model and provider configuration;
+- test set and coverage;
+- result and threshold;
+- reviewer;
+- known gaps;
+- release decision;
+- date and expiry or retest condition where applicable.
 
----
+A strong average can conceal a severe failure in a small but important class. Critical failures should be reviewed separately from aggregate scores.
 
-## 9. Product-Specific Control Profiles
+## 11. Product-Specific Control Profiles
 
 | Product area | Higher-impact concern | Key controls |
 |---|---|---|
-| HerHelp modules | Business data or public content used beyond intended context | Workspace scope, source review, output approval |
-| SheetLayer AI | Incorrect mapping, formulas, or business interpretation | Source validation, traceability, reviewer checks |
+| HerHelp AI SaaS | Business data or public content used beyond intended context | Workspace scope, source review, output approval |
+| SheetLayer AI | Incorrect mapping, formulas, transformation, or interpretation | Source validation, traceability, reviewer checks |
 | ShopOS AI | Operational or payment-adjacent errors affecting a shop | Role controls, transaction separation, correction path |
 | SpeakShop AI | Inaccurate or unsuitable public announcements | Content approval, language review, current offer data |
 | TrainLayer AI | Outdated or incorrect learning material | Approved sources, subject review, version control |
-| CommunityLayer AI | False positives, missed harm, unfair moderation | Moderator authority, evidence, escalation, appeal |
-| ZAGA | Generated content or support affecting game rules and expectations | Rule authority, anti-abuse review, game-value labels |
+| CommunityLayer AI | False positives, missed harm, or unfair moderation | Moderator authority, evidence, escalation, appeal |
+| ZAGA | Generated content or support affecting rules and expectations | Rule authority, anti-abuse review, game-value labels |
 | QTB | Market output treated as instruction or current fact | Source period, uncertainty, reviewer, bounded purpose |
 | AIMM | Sensitive operational output or implied market assurance | Restricted workspace, specialist review, public-safe reporting |
 | AIE | Incorrect event, participant, sponsor, or recap information | Organizer approval, consent, source and period checks |
-| ToolGrid AI | Misleading listings, comparisons, or sponsored content | Destination review, labeling, moderation, change monitoring |
-| Botmad | Unauthorized file, message, system, or external action | Least privilege, confirmations, logs, stop and recovery |
+| ToolGrid AI | Misleading listings, comparisons, or sponsored content | Destination review, sponsor labels, moderation, monitoring |
+| Botmad | Unauthorized file, message, system, or external action | Least privilege, previews, confirmation, logs, recovery |
 
 Individual product papers define the user workflow and concise public boundary. This table identifies the safety emphasis for cross-product review.
 
----
+## 12. Model and Provider Governance
 
-## 10. Model and Provider Governance
+FUZE may use different models or providers according to product requirements.
 
-FUZE can use different models or providers according to product requirements. Selection should consider:
+Selection should consider:
 
-- task quality
-- privacy and data terms
-- supported regions and languages
-- latency and availability
-- cost and rate limits
-- safety behavior
-- tool-use capability
-- version stability
-- monitoring and incident history
-- exit or fallback options
+- task quality;
+- privacy and data terms;
+- supported regions and languages;
+- latency and availability;
+- cost and rate limits;
+- safety behavior;
+- tool-use capability;
+- version stability;
+- monitoring and incident history;
+- legal and contractual dependencies;
+- exit and fallback options.
 
-A provider update can change output behavior without a FUZE product-code change. Material model, prompt, retrieval, or tool updates should therefore trigger proportionate regression testing.
+A provider update can change output behavior without a FUZE product-code change. Material changes to model, prompt, retrieval, tool configuration, context policy, or provider should trigger proportionate regression testing.
 
-The product owner should know which model and configuration served a material workflow. Public disclosure can remain at an appropriate level without exposing security-sensitive implementation details or confidential provider terms.
+The responsible product owner should know which configuration served a material workflow. Public disclosure may remain appropriately high level without exposing security-sensitive details or confidential provider terms.
 
-Provider dependency is an operating risk. Fallback can include another model, reduced functionality, queued processing, or temporary suspension rather than silently delivering a lower-quality result.
+Provider dependency is an operating risk. Fallback may include another model, reduced functionality, queued processing, manual review, or temporary suspension rather than silently delivering a lower-quality result.
 
----
+## 13. Reliability Operations
 
-## 11. Reliability Operations
-
-Operational reliability covers more than generated text quality.
+Operational reliability covers more than generated-text quality.
 
 Teams should monitor:
 
-- availability and latency
-- task completion and timeout
-- model or provider errors
-- retrieval and source failures
-- permission denials
-- tool-call success and reversal
-- abnormal usage and abuse
-- cost spikes
-- user corrections
-- support issues
-- incident patterns
+- availability and latency;
+- task completion and timeout;
+- provider and model errors;
+- retrieval and source failures;
+- permission denials;
+- tool-call success, duplication, and reversal;
+- abnormal usage and abuse;
+- cost spikes;
+- user corrections and rejection;
+- support issues;
+- incident patterns;
+- fallback activation;
+- data or source drift.
 
-The product should display an accurate state when work is queued, incomplete, awaiting review, failed, or corrected. Retrying a state-changing task requires controls against duplicate actions.
+The product should display an accurate state when work is:
 
-Known limitations should reach users through product instructions, status notices, or contextual messages rather than only through a distant policy paper.
+- queued;
+- processing;
+- awaiting approval;
+- incomplete;
+- failed;
+- corrected;
+- paused;
+- unavailable.
 
----
+Retrying a state-changing task requires controls against duplicate actions.
 
-## 12. Incident Response
+Known limitations should reach users through product instructions, status notices, contextual warnings, or support messages rather than only through a distant policy paper.
 
-An AI incident can involve incorrect output, unauthorized data, unsafe content, harmful automation, misleading public material, repeated reliability failure, or an unexpected provider behavior.
+## 14. AI Incident Response
 
-The response process can include:
+An AI incident may involve:
+
+- incorrect or harmful output;
+- unauthorized data exposure;
+- unsafe content;
+- misleading public material;
+- improper refusal or failure to refuse;
+- harmful automation;
+- unauthorized state change;
+- repeated reliability failure;
+- cross-customer data leakage;
+- unexpected provider behavior;
+- inability to stop or recover an action.
+
+The response process may include:
 
 1. receive and preserve the report;
-2. contain the affected workflow or access;
+2. contain the affected workflow, account, integration, or access;
 3. assess product, user, data, and downstream impact;
 4. correct records or outputs where possible;
-5. notify affected users or partners as appropriate;
-6. identify model, data, prompt, tool, permission, or process causes;
+5. notify affected users, customers, or partners as appropriate;
+6. identify model, data, prompt, retrieval, tool, permission, or process causes;
 7. test the remediation;
-8. restore, narrow, or retire the workflow;
-9. record follow-up and reporting decisions.
+8. restore, narrow, pause, or retire the workflow;
+9. record corrective actions and reporting decisions;
+10. update tests, controls, training, or documentation.
 
-The level of public detail should balance transparency with privacy, security, legal, and investigation needs. Aggregate incident categories can support investor review without publishing sensitive prompts or personal records.
+Public detail should balance transparency with privacy, security, legal, contractual, and investigation needs.
 
----
+Aggregate incident categories may support investor review without exposing private prompts, credentials, personal records, or exploitable technical information.
 
-## 13. Safety Metrics and Evidence
+## 15. Safety Metrics and Evidence
 
-Relevant evidence can include:
+Relevant evidence may include:
 
-- evaluation coverage and results by workflow
-- completion and failure rates
-- human correction or rejection rates
-- source-support findings
-- privacy and permission test results
-- tool authorization and reversal tests
-- incident volume and severity
-- time to contain and resolve
-- provider outages or material changes
-- user-reported quality themes
-- safety-related release or pause decisions
+- evaluation coverage and results by workflow;
+- completion and failure rates;
+- human correction, rejection, and override rates;
+- source-support findings;
+- privacy and permission test results;
+- tool authorization and reversal tests;
+- critical failure count;
+- incident volume and severity;
+- time to contain and resolve;
+- provider outages or material changes;
+- user-reported quality themes;
+- release, pause, rollback, or retirement decisions;
+- retraining, prompt, retrieval, or workflow changes.
 
-Metrics should name the product, version, period, audience, and methodology. A single aggregate score across unrelated products has limited value.
+Metrics should name the product, workflow, version, audience, period, methodology, and known exclusions.
 
-Investors should distinguish designed controls from configured controls, tested controls, and controls proven through operation.
+A single aggregate score across unrelated products has limited value.
 
----
+Investors should distinguish:
 
-## 14. Release Gate
+1. designed controls;
+2. configured controls;
+3. tested controls;
+4. controls proven through operation;
+5. corrected controls after incident evidence.
+
+## 16. Release Gate
 
 Before widening an AI-assisted workflow, confirm:
 
-- purpose, user, and non-goals are documented
-- risk level and owner are assigned
-- sources and data permissions are tested
-- representative evaluation meets the approved threshold
-- human review and approval are usable
-- tool access is bounded and recoverable
-- monitoring and support are active
-- incident, pause, and rollback procedures exist
-- model and workflow versions are recorded
-- public claims match the release evidence
+- purpose, user, and non-goals are documented;
+- risk level and owner are assigned;
+- sources and data permissions are approved and tested;
+- representative evaluation meets the approved threshold;
+- critical failures are resolved or explicitly bounded;
+- human review and approval are usable;
+- tool access is limited and recoverable;
+- monitoring and support are active;
+- incident, pause, and rollback procedures exist;
+- model, provider, source, and workflow versions are recorded;
+- public claims match the release evidence;
+- data, privacy, legal, and customer conditions are satisfied where required.
 
-An unmet gate can lead to a narrower pilot, additional review, feature limitation, or delay.
+An unmet gate may lead to:
 
----
+- a narrower pilot;
+- stronger human review;
+- fewer tools or permissions;
+- feature limitation;
+- further testing;
+- release delay;
+- temporary suspension.
 
-## 15. Investor Review Questions
+## 17. Change and Regression Control
 
-Investors and partners can ask:
+A released workflow should be reviewed when there is a material change to:
 
-- Which workflows carry the highest impact?
+- model or provider;
+- prompt or system instruction;
+- retrieval source;
+- data schema;
+- tool or permission;
+- user group;
+- geography or language;
+- product integration;
+- output destination;
+- downstream decision or consequence.
+
+Change review should determine whether previous evaluations remain valid.
+
+High-impact workflows should not rely on silent provider or configuration changes without proportionate regression testing and updated release evidence.
+
+## 18. Enterprise and Partner Review
+
+Enterprise customers and partners may require evidence such as:
+
+- workflow and risk description;
+- data-flow and permission summary;
+- provider and subprocessors where disclosure is approved;
+- evaluation method;
+- human-review design;
+- incident and support process;
+- logging and retention behavior;
+- fallback and service-degradation treatment;
+- known limitations;
+- current product status.
+
+The level of detail should match the review need while protecting security-sensitive implementation, personal information, private contracts, and provider-confidential material.
+
+A questionnaire response, policy document, or architecture summary is not by itself proof that a control operates in the tested environment.
+
+## 19. Investor Review Questions
+
+Investors and partners should ask:
+
+- Which workflows carry the highest consequence?
 - Who owns risk acceptance and release?
 - Which evaluation sets and thresholds are used?
-- How are current sources and model versions controlled?
+- How are source freshness and model versions controlled?
 - Which actions require human approval?
-- Can a tool-using workflow be stopped and reversed?
+- Can a tool-using workflow be stopped, reversed, or contained?
 - How are customer and workspace boundaries tested?
+- Which controls are merely designed and which are operating?
 - What incident evidence exists?
 - How often do users correct or reject outputs?
 - Which provider dependencies could interrupt service?
-- What product status is supported by tested operating evidence?
-- How do safety costs affect product delivery and economics?
+- How do safety and review costs affect product economics?
+- Which workflows were narrowed, paused, or retired after evidence changed?
 
-These questions connect AI safety to product quality, enterprise readiness, and commercial sustainability.
+These questions connect AI safety to product quality, enterprise readiness, supportability, and commercial sustainability.
 
----
+## 20. Public Reporting
 
-## 16. Public Boundary
+Public AI-safety reporting may include:
 
-This paper describes FUZE’s AI safety and reliability framework. It is not an AI certification, security audit, professional opinion, or assurance that every output or action will be correct.
+- product and workflow category;
+- risk class;
+- evaluation period;
+- test coverage summary;
+- release or operating status;
+- aggregate completion, failure, correction, or incident categories;
+- material limitations;
+- significant pause, rollback, or corrective action;
+- methodology and correction notes.
 
-Users and operators remain responsible for the reviews and decisions assigned to them. High-impact legal, financial, tax, medical, employment, security, market, and other professional contexts require the appropriate qualified judgment.
+Public reporting should not expose:
 
----
+- private prompts or system instructions where disclosure creates security risk;
+- customer data;
+- personal identity;
+- credentials or secrets;
+- exploit details;
+- private provider terms;
+- privileged advice;
+- unreconciled or misleading aggregate claims.
 
-## Conclusion
+## 21. Public Boundary
 
-FUZE AI safety is strongest when each workflow has a bounded purpose, controlled sources and tools, meaningful human authority, product-specific evaluations, reliable operations, and a visible correction path.
+This paper describes FUZE's AI safety and reliability framework.
 
-The investor standard is evidence: designed controls should become tested controls, release decisions should match results, and operating incidents should improve the product. That discipline allows FUZE to use AI across varied products without treating automation as unconditional authority.
+It is not:
+
+- an AI certification;
+- a security audit;
+- a legal, regulatory, or professional opinion;
+- a guarantee that every output or action will be correct;
+- proof that every control is implemented or effective;
+- assurance that incidents, bias, failure, misuse, or provider outages will not occur.
+
+Users and operators remain responsible for the reviews and decisions assigned to them.
+
+High-impact legal, financial, tax, medical, employment, security, market, moderation, and other professional contexts require appropriate qualified judgment and current review.
+
+## Key Takeaways
+
+- FUZE treats AI safety and reliability as a product lifecycle, not a policy statement alone.
+- Controls increase with consequence, data sensitivity, scale, and tool authority.
+- Approved sources and grounding reduce risk but do not make incomplete or outdated evidence reliable.
+- Human review is meaningful only when the reviewer has context, authority, and the ability to stop or correct the workflow.
+- Tool-using AI requires least privilege, previews, confirmation, logging, limits, and recovery.
+- Evaluation should be product-specific and should include difficult and high-risk cases.
+- Provider and configuration changes can require regression testing even when product code does not change.
+- Investors should distinguish designed, configured, tested, operating, and corrected controls.
+- Public papers do not constitute certification, audit, or a guarantee of correctness.

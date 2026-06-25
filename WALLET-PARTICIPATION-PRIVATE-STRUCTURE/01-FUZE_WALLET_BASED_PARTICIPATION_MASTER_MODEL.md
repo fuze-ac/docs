@@ -18,13 +18,15 @@ Wallet-based participation ability is not active as a guaranteed public payout r
 
 This paper avoids legacy participation-unit terminology to prevent public and internal confusion. The correct model language is wallet-based participation, wallet-based participation ability, wallet-based participation framework, eligible FUZE-holding wallet, approved participation distribution, eligible-wallet claim, participation claim module, and distribution module.
 
-This paper is private/internal/legal/investor data-room structure material. It is not a public marketing paper, not a token sale document, not a public investment offer, not a public solicitation, not a payout policy, not a financial projection, and not legal, tax, accounting, financial, trading, or investment advice.
+This paper is private/internal/legal/investor data-room structure material. It is not a public marketing paper, token sale document, public investment offer, solicitation, payout policy, financial projection, legal conclusion, accounting policy, tax opinion, securities analysis, audit, assurance report, or legal, tax, accounting, financial, trading, or investment advice. This paper records a proposed control framework and does not establish that any participation process, contract, vault, snapshot, eligibility rule, claim module, distribution module, custody route, or approved distributable value process is implemented, approved, active, or independently reviewed.
 
 Wallet-based participation ability may apply only if the participation framework becomes active and all required gates are ready.
 
 Required gates may include legal, accounting, treasury, audit, reporting, smart-contract, privacy, eligibility, operator, jurisdiction, product revenue pool, and approved distributable value gates.
 
 Eligible FUZE-holding wallets may participate in approved distributable value from defined FUZE product revenue pools only if all required gates are complete and the framework is activated.
+
+Participation must be scoped to an exact process identifier, rule version, reporting period, network, FUZE token contract, approved product revenue pool set, supported custody routes, approved settlement asset, and activation decision. Approval or completion for one period does not automatically carry into another period.
 
 Approved distributable value is separate from gross revenue, token sale proceeds, seed-round funds, treasury balances, vault balances, stablecoin balances, Platform Credits, and token allocation categories.
 
@@ -62,6 +64,11 @@ This paper gives FUZE a controlled internal reference for:
 - risk register structure
 - investor private annex alignment
 - future data-room review
+- lifecycle and evidence-state vocabulary
+- source-of-truth and reconciliation hierarchy
+- claim, correction, pause, restriction, and closure states
+- responsibility and separation-of-duties model
+- current-position and non-activation record
 
 This paper applies to private/internal/legal/investor data-room planning.
 
@@ -164,6 +171,47 @@ This model does not mean:
 
 The model is product-first, controlled, activation-gated, privacy-aware, and compliance-aware.
 
+### 3.1 Process Identity and Version Control
+
+Every proposed participation period should have a unique process record containing:
+
+- process identifier
+- rule version
+- reporting period
+- included product revenue pools
+- excluded revenue and wallet categories
+- network and FUZE token contract
+- snapshot method and cut-off
+- supported custody routes
+- approved settlement asset and method
+- gate owners and decisions
+- activation, pause, correction, and closure status
+- report version and supersession history
+
+No wallet, value, snapshot, claim, or distribution record should be interpreted outside its process identifier and version.
+
+### 3.2 Lifecycle and Evidence States
+
+The private operating vocabulary should distinguish:
+
+```text
+Documented -> Designed -> Configured -> Tested -> Reviewed
+           -> Approved -> Activated -> Operating
+           -> Paused / Restricted / Corrected / Closed
+```
+
+These states are not interchangeable.
+
+- documented does not mean designed
+- designed does not mean configured
+- configured does not mean tested
+- tested does not mean legally or financially approved
+- deployed does not mean activated
+- eligible does not mean claimable
+- an approved amount does not mean settled
+- a transaction hash does not mean reconciled completion
+- one completed period does not guarantee another period
+
 ## 4. Wallet-Based Eligibility Model
 
 Eligibility is the private ruleset that determines whether a FUZE-holding wallet may qualify for participation if the framework becomes active.
@@ -200,7 +248,7 @@ Possible eligibility status terms include:
 |---|---|
 | Not Reviewed | Wallet has not been reviewed. |
 | In Review | Wallet is under eligibility review. |
-| Eligible | Wallet meets current eligibility criteria. |
+| Eligible | Wallet meets the approved eligibility criteria for the exact process, version, period, and custody route. |
 | Ineligible | Wallet does not meet current eligibility criteria. |
 | Restricted | Wallet is restricted due to jurisdiction, legal, compliance, abuse, custody, or other rule. |
 | Pending Verification | Wallet requires off-chain verification where required. |
@@ -209,6 +257,10 @@ Possible eligibility status terms include:
 | Claim Available | Wallet may claim under active rules if the claim module is active. |
 | Claim Completed | Wallet completed claim under active rules. |
 | Claim Expired | Claim window ended where applicable. |
+| Disputed | Wallet or claim record is subject to an unresolved dispute. |
+| Corrected | A prior wallet, snapshot, eligibility, amount, or claim record has been corrected. |
+| Suspended | Processing is temporarily stopped for the wallet or process. |
+| Settled | Approved claim has completed settlement and reconciliation. |
 
 Eligibility does not guarantee payout.
 
@@ -232,12 +284,22 @@ Stablecoin inflow is not approved distributable value by default.
 
 Treasury balance is not approved distributable value by default.
 
+Commercial evidence should preserve the sequence:
+
+```text
+offer -> order -> payment -> fulfillment -> adjustment
+-> completed paid delivery -> repeat use -> period reconciliation
+```
+
+A pricing model is not an order. An order is not payment. Payment is not fulfillment. Fulfillment is not automatically completed paid delivery. Completed paid delivery is not automatically recognized or reconciled revenue. Reconciled revenue is not automatically approved distributable value.
+
 A revenue reconciliation model may include:
 
 | Step | Purpose |
 |---|---|
 | Product Revenue Identification | Identify revenue source by product, service, report, credit package, subscription, campaign, event, or partner arrangement. |
 | Payment Confirmation | Confirm payment status and settlement status. |
+| Fulfillment and Acceptance Review | Confirm the promised product or service was delivered, accepted, adjusted, refunded, disputed, or cancelled. |
 | Stablecoin Classification | Classify stablecoin inflow where applicable. |
 | Platform Credit Classification | Separate Platform Credit purchase and Platform Credit usage. |
 | Refund Review | Exclude or reserve refunded value. |
@@ -252,6 +314,7 @@ A revenue reconciliation model may include:
 | Jurisdiction Review | Exclude or restrict value where required by jurisdiction. |
 | Approved Pool Assignment | Assign value only to a defined product revenue pool if approved. |
 | Approved Distributable Value Calculation | Calculate final approved value after required adjustments and approvals. |
+| Period Reconciliation | Reconcile source records, approved value, reserves, exceptions, and closing balances for the exact period. |
 | Reporting Preparation | Prepare public-safe reporting and report hashes where applicable. |
 
 Revenue reconciliation should be conservative.
@@ -322,6 +385,8 @@ Approved distributable value may be zero.
 
 Approved distributable value may vary by period.
 
+Approved distributable value belongs only to the exact process and period for which it was approved. It does not create a standing entitlement, recurring obligation, future expectation, company ownership right, creditor right, or automatic claim for later periods.
+
 Approved distributable value may be withheld, reserved, delayed, restricted, or not activated due to legal, accounting, treasury, audit, reporting, technical, privacy, eligibility, operator, jurisdiction, product revenue pool, or approved value review.
 
 ## 7. Smart Contract, Vault, and Treasury Architecture
@@ -378,9 +443,13 @@ Claim module readiness does not guarantee claim availability.
 
 Distribution module readiness does not guarantee approved distributable value.
 
+A transaction hash establishes an on-chain event only. Complete settlement requires linkage to the approved process, eligible-wallet record, approved amount, treasury instruction, accounting record, confirmation state, and reconciliation result.
+
 ## 8. Multisig, Timelock, and Approval Controls
 
 Wallet-based participation requires approval controls to reduce operational risk.
+
+Sensitive actions should preserve separation between preparation, review, approval, execution, reconciliation, and public reporting. Where the same person performs more than one role, the exception should be documented and independently reviewed where appropriate.
 
 Possible controls include:
 
@@ -439,6 +508,19 @@ Required gates may include:
 | Approved Distributable Value Gate | Final approved value after reconciliation, reserves, review, and approvals. |
 
 No single gate is enough.
+
+Each gate record should identify:
+
+- owner and reviewer
+- exact process and version
+- evidence reviewed
+- decision and date
+- scope limitations
+- blocking issues
+- expiry or re-review trigger
+- correction or withdrawal route
+
+A gate marked ready for one process, jurisdiction, product pool, custody route, or period does not automatically remain ready after material change.
 
 All required gates must be ready before any participation framework is activated.
 
@@ -513,11 +595,39 @@ Wallet-level transparency is not public identity exposure.
 
 A wallet address may be public while the person or organization behind it remains private.
 
+Public status should use the minimum information needed for verification. A public eligibility or claim status should not expose the reason where that reason would reveal identity, sanctions review, legal advice, tax status, account history, custody evidence, support records, fraud review, or security information.
+
 Exchange custody may require separate treatment because public blockchain records may show the exchange wallet rather than the individual user.
 
 Self-custody may support direct wallet-level records, but it creates private key, seed phrase, phishing, approval, wrong-address, wrong-network, and wallet security risks.
 
-## 11. Risk Register
+
+## 11. Source-of-Truth and Reconciliation Hierarchy
+
+Each material decision should identify its authoritative source.
+
+| Decision or Record | Primary Source of Truth |
+|---|---|
+| Product delivery status | Product fulfillment and acceptance records |
+| Product revenue | Approved accounting records |
+| Stablecoin transfer | Network or provider record plus business classification |
+| Platform Credit balance | Platform Credit ledger |
+| FUZE token balance | Verified blockchain state for the applicable network and contract |
+| Allocation category | Approved token allocation and vault records |
+| Wallet control | Approved signature or custody evidence |
+| Beneficial ownership | Permissioned legal or custody evidence where required |
+| Eligibility | Versioned eligibility decision for the exact process |
+| Snapshot inclusion | Approved snapshot artifact and methodology |
+| Approved distributable value | Signed approved-value record for the exact period |
+| Claim status | Claim system record linked to the active process |
+| Settlement | Network or custodial event plus treasury and accounting reconciliation |
+| Public status | Approved versioned report or notice |
+
+Similar records should be reconciled but not treated as interchangeable.
+
+A blockchain event does not establish accounting classification. A payment record does not establish fulfillment. A wallet balance does not establish beneficial ownership or eligibility. A public report does not replace its underlying source records.
+
+## 12. Risk Register
 
 The wallet-based participation master model carries legal, accounting, technical, market, privacy, communication, and operational risk.
 
@@ -545,7 +655,7 @@ The wallet-based participation master model carries legal, accounting, technical
 
 FUZE does not guarantee payout, income, dividend, yield, profit, token price, listing, liquidity, market support, exit, game earnings, business revenue, AI accuracy, user acquisition, community growth, or investment return.
 
-## 12. Public Language Boundary
+## 13. Public Language Boundary
 
 Public language must remain careful, product-first, and no-guarantee.
 
@@ -599,7 +709,7 @@ Avoided public language:
 
 All future public and private papers should use wallet-based participation language to prevent confusion.
 
-## 13. Open Review Items
+## 14. Open Review Items
 
 Before wallet-based participation can move from private model to active implementation, FUZE should review and complete the following open items.
 
@@ -629,7 +739,31 @@ Open review items do not mean the framework is active.
 
 Open review items are controls that prevent premature public claims.
 
-## 14. Conclusion
+
+## 15. Current Private Position
+
+This master model establishes the intended private control structure, terminology, review domains, evidence hierarchy, eligibility states, approved-value boundaries, privacy model, and public-language limits.
+
+It does not establish:
+
+- deployed or verified smart contracts
+- funded participation or settlement vaults
+- an approved participation period
+- finalized eligibility rules
+- supported exchange or institutional custody routes
+- an approved snapshot
+- eligible wallets
+- approved distributable value
+- an active claim process
+- completed distributions
+- final legal, tax, accounting, audit, security, or jurisdiction approval
+- recurring participation for future periods
+
+Until a dated activation record states otherwise, the framework should be treated as documented private design and review material only.
+
+Any future activation record should identify the exact process, version, period, network, FUZE token contract, approved product revenue pools, custody routes, approved value, claim route, settlement asset, gate decisions, operator responsibilities, and public reporting package.
+
+## 16. Conclusion
 
 FUZE Wallet-Based Participation Master Model defines the private source-of-truth structure for wallet-based participation ability under the FUZE one-token model.
 
@@ -639,7 +773,7 @@ FUZE token is the single ecosystem token of FUZE.
 
 Wallet-based participation ability is part of the one-token model, but it is not a second token, not automatic for every wallet, and not active as a guaranteed public payout right.
 
-Eligible FUZE-holding wallets may participate in approved distributable value from defined FUZE product revenue pools only if the participation framework becomes active and all required gates are ready.
+Eligible FUZE-holding wallets may participate in approved distributable value from defined FUZE product revenue pools only for an exact approved process, version, period, network, custody route, and claim method after all required gates are ready and the framework is formally activated.
 
 Approved distributable value is separate from gross revenue, token sale proceeds, seed-round funds, treasury balances, vault balances, stablecoin balances, Platform Credits, and token allocation categories.
 
@@ -664,3 +798,5 @@ DEX-first access does not guarantee liquidity, market depth, trading volume, tok
 FUZE does not guarantee payout, income, dividend, yield, profit, token price, listing, liquidity, market support, exit, game earnings, business revenue, AI accuracy, user acquisition, community growth, or investment return.
 
 This master model keeps FUZE aligned with product-first utility, one-token clarity, wallet-level transparency, private identity protection, activation-gated participation, and strict public risk boundaries.
+
+Until those conditions are evidenced in a dated activation record, this document remains private design, governance, legal, accounting, treasury, technical, privacy, and diligence structure—not an operating participation program or promise of future activation.

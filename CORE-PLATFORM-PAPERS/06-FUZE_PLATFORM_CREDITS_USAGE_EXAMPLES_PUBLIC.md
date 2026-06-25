@@ -2,218 +2,503 @@
 
 ## Executive Summary
 
-Platform Credits give supported FUZE products a consistent way to measure and present product consumption. A user should see what action uses credits, the amount or pricing rule that applies, whether the action completed, and where to review the resulting balance and history.
+Platform Credits give supported FUZE products a consistent way to meter, authorize, record, and explain product consumption.
 
-This paper illustrates that experience through individual, team, shop, community, event, game, market-research, sponsored-visibility, and AI-assistance scenarios. It also shows how reservations, retries, reversals, subscriptions, and granted balances can be handled without confusing product usage with FUZE token utility.
+A user should be able to understand:
 
-The examples are design patterns rather than published prices. Each product defines its supported actions, amounts, limits, and commercial terms through its approved product and pricing process.
+- which action may consume credits;
+- the amount, unit, estimate, range, or maximum authorization;
+- whether credits are reserved before execution;
+- when consumption becomes final;
+- what happens if the action fails, is cancelled, or is corrected;
+- the remaining balance; and
+- where the usage history can be reviewed.
 
----
+This paper illustrates those expectations across individual, team, shop, training, community, event, game, market-research, liquidity-operations, sponsored-visibility, and AI-assistance workflows.
 
-## 1. The Basic Usage Pattern
+The examples are design patterns. They do not establish current prices, packages, balances, expiry periods, refund rights, transfer rules, product availability, or commercial terms.
 
-A clear credit experience follows five steps:
+Platform Credits remain product usage credits. They are separate from FUZE token, stablecoin balances, wallet-based participation, token utility, and investment rights.
 
-1. The product identifies the action.
-2. The user sees the applicable credit amount or pricing basis.
-3. The system confirms authority and available balance.
-4. Credits are consumed when the defined completion condition occurs.
-5. The user receives the output and a readable usage record.
+## Purpose of This Paper
+
+This paper explains:
+
+- the standard Platform Credit usage lifecycle;
+- what users and workspace owners should see;
+- how reservations, completion, reversals, and corrections should work;
+- how usage may differ by product;
+- how team budgets and approval controls may be applied;
+- how subscriptions, grants, packages, and payments relate to balances;
+- how usage and payment records are reconciled; and
+- which public claims these examples do not support.
+
+The [FUZE Core Platform Rails](./04-FUZE_CORE_PLATFORM_RAILS_PUBLIC.md) defines the shared service model. The [FUZE Product to Platform Credits](../AI-SAAS-PRODUCT-PAPERS/18-FUZE_PRODUCT_TO_PLATFORM_CREDITS_PUBLIC.md) maps product categories to possible usage units. The [FUZE Platform Credits Relationship](../TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/10-FUZE_PLATFORM_CREDITS_RELATIONSHIP_PUBLIC.md) provides the deeper policy boundary.
+
+## Core Usage Lifecycle
+
+A clear credit experience follows this sequence:
 
 ```text
-Select action -> review cost -> confirm -> complete action -> receive output and record
+Identify action -> show usage basis -> authorize -> reserve if needed
+-> perform action -> confirm or release -> show result and record
 ```
 
-For longer or externally dependent work, credits can be reserved before execution and finalized afterward. A failed or cancelled task should follow the product's reversal or correction rule.
+### 1. Identify the Action
 
----
+The product names the service in user language.
 
-## 2. What a User Should See
+Examples include:
 
-The interface should answer practical questions without requiring the user to understand the underlying ledger.
+- generate a business brief;
+- inspect a spreadsheet;
+- draft a menu description;
+- build a quiz;
+- summarize a community period;
+- prepare an event brief;
+- generate a game share card;
+- produce a QTB research report;
+- create an AIMM monitoring summary;
+- run a ToolGrid AI sponsored-placement service; or
+- complete a bounded Botmad work session.
+
+The product should not meter an action through an unclear internal event name.
+
+### 2. Show the Usage Basis
+
+Before confirmation, the product should show one or more of:
+
+- fixed credit amount;
+- unit basis;
+- estimated range;
+- maximum authorization;
+- included subscription allowance;
+- remaining free or granted allowance; or
+- additional-use rule.
+
+Variable-cost tasks should explain what can change the final amount.
+
+### 3. Confirm Authority and Balance
+
+The system checks:
+
+- the authorized user, role, or service account;
+- the correct workspace or organization;
+- the applicable product and task rule;
+- remaining balance or allowance;
+- approval thresholds; and
+- any product, period, or task limit.
+
+A valid balance does not override a denied permission.
+
+### 4. Reserve When Necessary
+
+Long-running, externally dependent, variable-cost, or multi-step work may reserve credits before execution.
+
+A reservation should identify:
+
+- product and action;
+- actor or workspace;
+- amount or maximum;
+- pricing-rule version;
+- expiry or release condition;
+- idempotency reference; and
+- related task reference.
+
+Reserved credits are not final consumption.
+
+### 5. Confirm Completion or Release
+
+Consumption becomes final only when the product's defined completion condition occurs.
+
+Depending on the product, completion may mean:
+
+- a report was produced;
+- a requested generation completed;
+- a processing job reached its approved output state;
+- a campaign service was delivered;
+- a work session completed; or
+- another stated service condition was met.
+
+If completion does not occur, the system should release, reverse, adjust, or route the usage record for review according to the product rule.
+
+### 6. Show the Result and Record
+
+The user should receive:
+
+- the output or service status;
+- credits consumed, released, returned, or adjusted;
+- remaining balance;
+- task or result reference;
+- time and workspace; and
+- a recovery or support route where needed.
+
+## What Users Should See
+
+The interface should answer practical questions without requiring the user to understand an internal ledger.
 
 | Moment | Useful information |
 |---|---|
-| Before action | What will happen, expected credit use, balance, and any important limit |
-| During action | Processing, queued, awaiting review, or another accurate state |
-| After success | Output, credits consumed, remaining balance, and history reference |
-| After failure | Failure state, whether credits were released or reversed, and recovery path |
-| After correction | Updated balance or record plus a reason suitable for the user |
+| Before action | Product action, expected use, basis or estimate, available balance, limits, and confirmation requirement |
+| During action | Queued, processing, awaiting input, awaiting review, delayed, or another accurate state |
+| After success | Output, actual credits consumed, remaining balance, and history reference |
+| After partial completion | What completed, what did not, whether use is final, and what remains pending |
+| After failure | Failure state, reservation treatment, recovery path, and support reference |
+| After cancellation | Whether the reservation was released or any completed portion remains chargeable |
+| After correction | Original record, adjustment, reason, resulting balance, and correction reference |
 
-For variable-cost tasks, the product can show a range, unit basis, maximum authorization, or estimate. The final record should explain the actual consumption.
+A product should avoid vague messages such as “credits updated” when the user needs to know whether credits were reserved, consumed, released, or returned.
 
----
+## Usage Record Pattern
 
-## 3. Usage Record Pattern
-
-A product-facing history may include:
+A product-facing usage history may include:
 
 - date and time;
-- product and workspace;
-- action name;
-- quantity or task class;
-- credits consumed, reserved, released, or returned;
+- product;
+- workspace or organization;
+- user-visible action name;
+- task class or quantity;
+- credits quoted;
+- credits reserved;
+- credits consumed;
+- credits released or returned;
 - result status;
 - output or report reference where appropriate;
-- pricing-rule or correction reference;
+- pricing-rule version;
+- correction or support reference; and
 - actor or role visible to the authorized workspace.
 
-The display should use product language. “Generated weekly moderation summary” is more useful than an internal event code.
+The record should use product language.
 
-Usage histories remain permissioned according to the account or workspace. Public reporting may use aggregate activity where approved, but personal tasks, prompts, customer records, and detailed billing histories are not public by default.
+“Generated weekly moderation summary” is clearer than an internal event code.
 
----
+Usage histories remain permissioned according to the account, workspace, and role. Public reporting may use approved aggregate activity, but personal tasks, prompts, customer records, private outputs, and detailed billing histories are not public by default.
 
-## 4. Individual AI Task
+## Example: Individual AI Task
 
 A HerHelp user wants a structured business brief from approved notes.
 
 ### Flow
 
-1. The user chooses the brief format and attaches the permitted source material.
-2. HerHelp shows the credit requirement or estimate.
-3. The user confirms the action.
-4. The AI task runs under the applicable data and model policy.
-5. The user reviews the draft.
-6. The completed action and credit use appear in history.
+1. The user chooses the brief format.
+2. The user selects permitted source material.
+3. The product shows the credit amount, estimate, or maximum.
+4. The user confirms.
+5. The system reserves credits where required.
+6. The AI task runs under the applicable permission, data, model, and review policy.
+7. The user receives and reviews the draft.
+8. The system confirms final consumption when the defined output condition is met.
+9. The output and usage record appear in history.
 
-If the task fails before producing the defined output, the reservation can be released. If the user asks for a materially new task or additional generation, the product can quote another action.
+If the task fails before producing the defined output, the reservation may be released.
 
-The credit record measures product service. It does not certify the accuracy or business effect of the generated brief.
+If the user requests a materially new task, additional output, or separate regeneration, the product may quote another action.
 
----
+The credit record measures the product service. It does not certify the accuracy, completeness, professional suitability, or business effect of the generated brief.
 
-## 5. Spreadsheet Workflow
+## Example: SheetLayer AI
 
-A SheetLayer AI workspace needs to map columns and prepare a dashboard draft.
-
-The product can separate the workflow into understandable units:
+A SheetLayer AI workspace needs to inspect a spreadsheet, map fields, generate formulas, and prepare a dashboard draft.
 
 | Action | Possible usage basis |
 |---|---|
-| Inspect sheet structure | Sheet, row range, or analysis task |
-| Map fields | Mapping operation |
+| Inspect sheet structure | Sheet, row range, data volume, or analysis task |
+| Map fields | Mapping operation or field group |
 | Generate formulas | Formula set or generation task |
+| Validate mapping | Validation task or processed range |
 | Draft dashboard | Dashboard or report action |
-| Refresh analysis | Data volume or refresh task |
+| Refresh analysis | Data volume, refresh event, or analysis task |
 
-Before processing, the workspace owner sees which source is selected and the maximum authorized usage. If the data changes during execution, the system can require a new confirmation instead of charging against an obsolete estimate.
+Before processing, the workspace owner should see:
 
-Team permissions determine who can launch paid actions and who can only view outputs.
+- selected data source;
+- permitted range or scope;
+- expected use;
+- maximum authorization; and
+- who is allowed to launch the action.
 
----
+If the source changes materially before execution, the system may require a new quotation or confirmation rather than consuming against an obsolete estimate.
 
-## 6. Shop Operations
+Viewers may be allowed to review outputs while editors or owners retain authority to launch metered actions.
 
-A ShopOS AI operator uses credits for selected AI and reporting functions while ordinary shop actions continue under the product's operating model.
+Credit use does not validate the accuracy of the spreadsheet source or generated formula.
 
-Example credit-supported actions can include:
+## Example: ShopOS AI
+
+ShopOS AI may use Platform Credits for selected AI and reporting functions while ordinary shop operations remain governed by the product's main operating model.
+
+Possible credit-supported actions include:
 
 - drafting menu descriptions;
-- preparing a promotional message;
+- preparing promotional messages;
+- creating staff checklists;
+- generating customer-service response templates;
 - summarizing a reporting period;
-- producing a staff checklist;
-- organizing customer-service response templates.
+- preparing stock or operations observations; and
+- producing approved business content.
 
-The product should avoid charging a credit for every ordinary click merely because the action occurs in FUZE. Credit use belongs to defined services whose consumption can be explained.
+The product should not consume credits for every ordinary click merely because the action occurs inside FUZE.
 
-### Failure example
+Credit use is appropriate when the service has:
 
-The operator requests a daily summary, but the source data is incomplete. The product can stop before generation, show the missing records, and retain or release the reservation according to the stated rule. Once the source is corrected, the operator can restart with a new or preserved authorization.
+- identifiable user value;
+- measurable consumption;
+- an understandable completion condition; and
+- a supportable correction rule.
 
----
+### Incomplete-Data Example
 
-## 7. Training and Community Workspaces
+The operator requests a daily summary, but required source records are missing.
 
-### Training
+The product may:
 
-A TrainLayer AI administrator allocates a workspace balance for course creation. Editors may spend credits on converting approved material into guides, quizzes, or onboarding modules. Learners consume the finished material without necessarily having authority to create new paid content.
+1. stop before generation;
+2. identify the missing source category;
+3. retain or release the reservation according to the stated rule;
+4. allow the operator to correct the source; and
+5. restart under a new or preserved authorization.
 
-A monthly workspace report can show usage by course, task type, and authorized editor without exposing private learner responses.
+The product should not quietly consume full credits for an output that did not reach the defined completion state.
 
-### Community Operations
+## Example: SpeakShop AI
 
-A CommunityLayer AI workspace uses credits for a weekly summary, a moderation-assistance batch, or a support-response draft set. Moderator review remains part of the workflow where decisions affect members.
+A shop operator uses SpeakShop AI to prepare a promotional script and voice output.
 
-The usage record should distinguish generation from final moderator action. Credits measure the requested service; they do not convert an AI suggestion into an approved moderation decision.
+Possible usage units include:
 
----
+- script generation;
+- script revision;
+- voice-generation task;
+- sound-pack application;
+- language version;
+- duration band; or
+- approved export.
 
-## 8. Event Intelligence
+Before confirmation, the product may show:
 
-An event team uses AIE to prepare a sponsor brief and post-event recap.
+- selected language;
+- voice or style;
+- estimated duration;
+- output format;
+- expected credit use; and
+- maximum authorization.
 
-The workspace owner can:
+A failed voice render may release the reservation where no usable output was produced.
 
-1. assign an event-specific credit budget;
-2. authorize selected team roles to use it;
-3. see a quote for each briefing or analysis task;
-4. review usage by event and output;
-5. close or archive the event workspace after reconciliation.
+A completed voice output does not guarantee campaign reach, customer response, conversion, or revenue.
 
-Partner-provided credits can be restricted to the agreed event, product action, or period. Sponsorship does not require publishing the partner's private terms or participant data.
+## Example: TrainLayer AI
 
----
+A TrainLayer AI administrator allocates a workspace balance for course creation.
 
-## 9. Utility Discovery and Sponsored Visibility
+Editors may be authorized to spend credits on:
 
-ToolGrid AI can use credits for premium discovery tools or for an approved sponsored-placement workflow.
+- converting approved material into a guide;
+- generating quiz drafts;
+- preparing onboarding modules;
+- producing summaries;
+- creating alternate-language versions; or
+- generating trainer support material.
 
-For sponsored visibility, the record can identify:
+Learners may consume the finished content without necessarily having authority to create new metered content.
+
+A workspace report may show:
+
+- course;
+- task type;
+- authorized editor;
+- credits consumed;
+- result status; and
+- period totals.
+
+Private learner responses, assessments, and personal progress data should remain permissioned.
+
+Credit consumption does not prove learning outcomes or program effectiveness.
+
+## Example: CommunityLayer AI
+
+A CommunityLayer AI workspace may use credits for:
+
+- weekly summaries;
+- moderation-assistance batches;
+- support-response draft sets;
+- verification-support tasks;
+- incident summaries; or
+- approved reporting tasks.
+
+Moderator or administrator review remains part of workflows that affect members.
+
+The usage record should distinguish:
+
+- AI generation;
+- human review;
+- final moderator action; and
+- correction or appeal where applicable.
+
+Credits measure the requested service. They do not convert an AI suggestion into an approved moderation, verification, safety, or enforcement decision.
+
+## Example: AIE Event Workspace
+
+An event team uses AIE to prepare a sponsor brief, event intelligence report, or post-event recap.
+
+The workspace owner may:
+
+1. assign an event-specific balance;
+2. restrict the balance to AIE;
+3. authorize selected roles;
+4. set a task or period limit;
+5. review a quote for each analysis or briefing task;
+6. review usage by event and output; and
+7. archive the workspace after reconciliation.
+
+Partner-provided credits may be restricted by:
+
+- event;
+- product;
+- task;
+- campaign;
+- role; or
+- period.
+
+The partner's private commercial terms, participant data, and internal event records should not be published through the credit history.
+
+Credit consumption does not prove sponsorship value, event attendance, partner conversion, or business outcome.
+
+## Example: ToolGrid AI
+
+ToolGrid AI may use Platform Credits for:
+
+- premium discovery tools;
+- structured comparisons;
+- destination review workflows;
+- reporting services; or
+- approved sponsored-placement services.
+
+For sponsored visibility, the usage record may identify:
 
 - sponsor workspace;
-- selected placement or campaign service;
-- approved content and destination;
-- credit amount or package;
+- selected service or package;
+- approved content;
+- approved destination;
 - campaign period;
-- delivery and reporting status.
+- credits consumed;
+- delivery status; and
+- reporting reference.
 
-The interface should label sponsorship to users. Credit consumption records the purchased service and does not promise impressions, clicks, ranking, customers, conversion, or revenue.
+Sponsored placement should be clearly labeled to users.
 
----
+Credit consumption records the purchased service. It does not promise impressions, ranking, clicks, customers, conversion, or revenue.
 
-## 10. Game and Community Services
+## Example: ZAGA Products
 
-ZAGA-related products may use Platform Credits for defined services around a game experience, such as an approved content-generation tool, event administration function, report, or share-card service.
+ZAGA Arena and ZAGA Districts may use Platform Credits for defined product services around the game experience.
 
-Gameplay balances, in-game mechanics, Platform Credits, and FUZE token utility should retain their own labels and records. A player should know whether an action uses a game resource, consumes a product credit, or interacts with an ecosystem token function.
+Possible examples include:
 
-Credits should not be inserted into every game action. Their use is appropriate when a product service has a clear cost and user value.
+- approved content-generation tools;
+- event-administration functions;
+- reporting;
+- share-card generation;
+- community-management services; or
+- optional creator tools.
 
----
+The products should keep these records separate from:
 
-## 11. Market Research and Operations Support
+- gameplay resources;
+- game economy balances;
+- progression;
+- Platform Credits;
+- FUZE token utility;
+- wallet activity; and
+- any future activated participation mechanism.
 
-### QTB
+A player should know which system applies to the action.
 
-A QTB user requests a research summary from approved sources. Credits can apply to the report task, monitored topic set, or another defined product unit. The completed record links to the research output and its source period.
+Credits should not be inserted into every game action. They are appropriate only where the product service has a clear cost, unit, and user value.
 
-The product should present the result as interpretation support rather than an assured trading instruction.
+Credit usage does not establish live token rewards, stablecoin rewards, earnings, withdrawals, or market access.
 
-### AIMM
+## Example: QTB
 
-An authorized AIMM workspace requests an operational monitoring summary. Credits can meter a report, data-processing task, or approved analysis workflow. Access controls limit who can use venue or operational information.
+A QTB user requests a research summary using approved sources.
 
-Consumption describes the service performed. It does not establish market depth, price behavior, venue acceptance, or a trading result.
+Possible usage units include:
 
----
+- report task;
+- monitored topic set;
+- source-processing task;
+- scenario comparison;
+- watchlist report; or
+- another defined research unit.
 
-## 12. Botmad Work Sessions
+The completed usage record may link to:
 
-A team assigns Botmad a bounded task: prepare a document set from an approved workspace.
+- report output;
+- source period;
+- source references;
+- review status; and
+- credits consumed.
 
-Credits can be handled in several ways:
+The product should present the output as research and interpretation support.
 
-- one amount for a defined task package;
+Credit consumption does not establish autonomous trading, financial advice, prediction accuracy, investment performance, or trading results.
+
+## Example: AIMM
+
+An authorized AIMM workspace requests an operational monitoring summary.
+
+Credits may meter:
+
+- report generation;
+- approved data-processing work;
+- monitoring analysis;
+- venue-comparison work;
+- incident review; or
+- another authorized operational task.
+
+Access controls should limit who can use venue, treasury, liquidity, or other operational information.
+
+The usage record may identify:
+
+- authorized workspace;
+- task class;
+- data period;
+- report reference;
+- review status; and
+- consumption.
+
+Credit use describes the service performed. It does not establish price support, spread, depth, liquidity, venue acceptance, order execution, or trading results.
+
+## Example: Botmad
+
+A team assigns Botmad a bounded task such as preparing a document set from an approved workspace.
+
+Possible usage models include:
+
+- fixed credits for a defined task package;
 - metered AI or processing actions within a maximum;
 - a session budget approved by the workspace owner;
-- a subscription allowance with additional usage quoted separately.
+- a subscription allowance;
+- additional use quoted separately; or
+- a combination of task and session limits.
 
-Botmad should show the scope, permitted sources, usage authorization, output, and review status. Credentials and sensitive work records remain controlled. The authorized person retains responsibility for approving the final work.
+Before execution, Botmad should show:
 
----
+- task scope;
+- permitted sources;
+- permitted tools;
+- usage authorization;
+- maximum budget;
+- expected output; and
+- required review.
 
-## 13. Team Budgets and Controls
+Credentials and sensitive work records remain controlled.
+
+The authorized person retains responsibility for approving the final work and any consequential action.
+
+Credit consumption does not give Botmad unrestricted authority.
+
+## Team Budgets and Controls
 
 Workspace balances can support shared use without giving every member unrestricted spending authority.
 
@@ -221,75 +506,293 @@ Workspace balances can support shared use without giving every member unrestrict
 |---|---|
 | Role limit | Editors can spend; viewers cannot |
 | Product limit | Balance applies only to TrainLayer AI |
-| Task limit | Maximum credits per generation |
-| Period limit | Weekly or monthly workspace allowance |
+| Workspace limit | A balance may be isolated to one shop, event, team, or project |
+| Task limit | Maximum credits per generation or work session |
+| Period limit | Daily, weekly, monthly, or campaign allowance |
 | Approval threshold | Manager confirmation above a defined amount |
+| Source limit | Only approved data or content may be used |
 | Alert | Notify the owner at a selected remaining balance |
-| Pause | Stop new consumption while existing records are reviewed |
+| Pause | Stop new consumption while records are reviewed |
+| Expiry rule | Unused granted credits expire at the stated time where applicable |
 
-The owner should be able to review pending reservations, completed use, reversals, grants, and adjustments.
+Workspace owners should be able to review:
 
----
+- available balance;
+- pending reservations;
+- completed use;
+- reversals;
+- corrections;
+- grants;
+- expiry;
+- approval events; and
+- adjustments.
 
-## 14. Subscriptions, Packages, and Granted Credits
+The interface should not expose private work content to a workspace owner unless that role is authorized to see it.
 
-Products can combine credits with commercial models such as:
+## Balance Sources
 
-- credits included in a recurring plan;
-- add-on packages;
-- enterprise or partner allocations;
-- trial balances;
-- support adjustments;
-- promotional grants.
+A workspace balance may come from different sources.
 
-The interface should identify the source and rules of a balance when expiry, product scope, refund treatment, or transferability differs. Granted credits should remain distinguishable from purchased credits for support and accounting records.
+| Source | Example treatment |
+|---|---|
+| Purchased credits | Linked to a payment and credit-grant record |
+| Subscription allowance | Included for a stated period and scope |
+| Add-on package | Additional balance under stated product terms |
+| Trial balance | Limited by product, task, period, or expiry |
+| Enterprise allocation | Assigned by contract or workspace policy |
+| Partner allocation | Restricted to an agreed use, product, campaign, or period |
+| Promotional grant | Governed by stated eligibility, scope, and expiry |
+| Support adjustment | Issued to correct or compensate for a service issue |
+| Reversal or refund adjustment | Linked to a prior usage or payment record |
 
-No example in this paper sets an approved package, price, expiry period, or transfer policy.
+The interface should identify the source and rules of a balance where treatment differs.
 
----
+Granted credits should remain distinguishable from purchased credits for support, finance, and accounting purposes.
 
-## 15. Payments and Reconciliation
+No example in this paper establishes an approved package, price, expiry period, refund rule, or transfer policy.
 
-A user may acquire credits through a supported payment route. The payment record and credit-balance record remain separate but linked for reconciliation.
+## Reservations, Retries, and Idempotency
+
+A credit system should avoid duplicate consumption when a task is retried.
+
+A task may use:
+
+- one request reference;
+- one idempotency key;
+- one reservation;
+- one completion record; and
+- linked retry attempts.
+
+A retry should not create a second final charge unless the product defines and discloses a separate new service.
+
+Possible states include:
+
+- quoted;
+- authorized;
+- reserved;
+- processing;
+- awaiting review;
+- completed;
+- partially completed;
+- failed;
+- cancelled;
+- released;
+- reversed;
+- corrected; and
+- expired.
+
+The product should preserve state transitions for support and reconciliation.
+
+## Partial Completion
+
+Some workflows may contain several separately valuable steps.
+
+Example:
 
 ```text
-Payment confirmed -> credit grant recorded -> product action consumed -> usage reconciled
+Inspect source -> map fields -> generate formulas -> draft dashboard
 ```
 
-Stablecoins can be one supported payment or settlement route where the product and operating controls allow. Using a stablecoin to purchase credits does not change the credits into FUZE token or give the balance token-related rights.
+The product may:
 
-Refunds, disputes, failed payments, duplicate grants, and charge reversals need a defined relationship to unused and consumed credits.
+- quote one all-inclusive action;
+- quote separate actions;
+- reserve a maximum and finalize actual use; or
+- use a subscription allowance.
 
----
+The product should define in advance whether partial completion creates partial consumption.
 
-## 16. Corrections and Support
+A user should not discover the rule only after a failure.
+
+## Payments and Reconciliation
+
+A user may acquire Platform Credits through a supported payment route.
+
+The payment record and credit-balance record remain separate but linked.
+
+```text
+Payment intent -> payment confirmed -> credit grant recorded
+-> product action consumed -> usage reconciled
+```
+
+The system should be able to reconcile:
+
+- payment amount;
+- payment route;
+- currency or stablecoin used;
+- payment status;
+- credit package or grant;
+- credited balance;
+- later consumption;
+- refunds;
+- reversals; and
+- corrections.
+
+Stablecoins may be used as approved payment or settlement rails where the product and operating controls allow.
+
+Using a stablecoin to acquire credits does not:
+
+- turn the credits into FUZE token;
+- give the credit balance token utility;
+- create wallet-based participation;
+- create investment rights; or
+- prove revenue.
+
+A payment event does not independently establish revenue. Revenue requires the relevant fulfillment and reconciled commercial or accounting evidence.
+
+## Refunds, Disputes, and Charge Reversals
+
+Products should define how external payment events affect unused and consumed credits.
+
+Possible cases include:
+
+- failed payment before grant;
+- duplicate payment;
+- duplicate credit grant;
+- refund before use;
+- partial use before refund;
+- dispute or chargeback;
+- stablecoin transfer mismatch;
+- payment correction; and
+- account or workspace restriction.
+
+The product should not silently create a negative or inconsistent balance without a visible support and correction path.
+
+Treatment may differ by product, payment route, jurisdiction, and approved terms.
+
+## Corrections and Support
 
 Credit support should handle:
 
-- a duplicate charge caused by retry;
-- an action that failed before completion;
-- a delayed external dependency;
-- an incorrect pricing-rule version;
-- an unauthorized workspace action;
-- a balance display mismatch;
-- a refund or service adjustment.
+- duplicate consumption caused by retry;
+- failed action before completion;
+- partial completion;
+- delayed dependency;
+- incorrect pricing-rule version;
+- unauthorized workspace action;
+- reservation that did not release;
+- balance display mismatch;
+- missing usage record;
+- duplicate grant;
+- refund or service adjustment; and
+- account or workspace reconciliation.
 
-Corrections preserve the original record, the adjustment, the reason, and the authorized reviewer. User-facing explanations should be concise and avoid exposing internal security or private account details.
+A correction should preserve:
 
----
+- original record;
+- adjustment record;
+- reason;
+- reviewer or approving role;
+- time;
+- resulting balance; and
+- linked support reference.
 
-## 17. Public Boundary
+The correction should not erase the original history.
 
-These examples show possible usage patterns, not current prices or availability. Product pages and approved terms control actual actions, amounts, packages, expiry, refunds, and access.
+User-facing explanations should remain concise and should not expose internal security controls, private account data, or another user's information.
 
-Platform Credits remain within product usage and accounting workflows. Detailed token, wallet, revenue, tax, legal, and financial treatment belongs in the relevant specialist papers.
+## Public Reporting
 
-The [FUZE Product to Platform Credits](../AI-SAAS-PRODUCT-PAPERS/18-FUZE_PRODUCT_TO_PLATFORM_CREDITS_PUBLIC.md) maps products to usage categories. The [FUZE Platform Credits Relationship](../TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/10-FUZE_PLATFORM_CREDITS_RELATIONSHIP_PUBLIC.md) provides the deeper policy model.
+Public reporting may use approved aggregate Platform Credit information, such as:
 
----
+- total supported actions;
+- product category distribution;
+- report period;
+- granted versus purchased usage where public-safe;
+- correction rate;
+- failed-task treatment; or
+- another reviewed aggregate metric.
 
-## Conclusion
+Public reporting should not expose:
 
-A useful credit system makes consumption predictable and reviewable. Users see the action, authorization, result, and balance effect; workspace owners receive controls and histories; operators can reconcile failures and corrections.
+- personal prompts;
+- private outputs;
+- customer records;
+- detailed user billing history;
+- private partner allocations;
+- private pricing;
+- internal support cases; or
+- wallet-to-person mappings.
 
-By attaching credits to clearly defined product services, FUZE can support varied usage patterns without turning the credit experience into a tokenomics explanation.
+Public credit activity does not prove product adoption, customer count, paid delivery, revenue, token demand, or financial performance unless the claim is separately supported by the relevant evidence.
+
+## Status and Evidence
+
+This paper defines usage patterns rather than current product availability.
+
+A product may describe a Platform Credit action as:
+
+- designed;
+- prototyped;
+- internally tested;
+- available in a limited release;
+- available in public beta; or
+- live
+
+only when evidence supports that status.
+
+Stronger evidence may include:
+
+- implemented quotation and balance display;
+- reservation and completion behavior;
+- failure and reversal tests;
+- role and approval tests;
+- product integration;
+- support process;
+- reconciliation; and
+- current user terms.
+
+A pricing table, package description, UI mockup, test ledger, or paper does not independently prove a live credit system.
+
+Current status should be checked in the [FUZE Public Status and Roadmap Matrix](../PUBLIC-INDEX/02-FUZE_PUBLIC_STATUS_AND_ROADMAP_MATRIX.md).
+
+## Public Boundary
+
+These examples show possible usage patterns. They do not establish:
+
+- current prices;
+- approved packages;
+- product availability;
+- user balances;
+- expiry;
+- transferability;
+- refund rights;
+- tax treatment;
+- paid delivery;
+- revenue;
+- token utility;
+- wallet eligibility;
+- approved distributable value;
+- market access; or
+- financial returns.
+
+Product pages and approved terms control actual actions, amounts, packages, limits, expiry, refunds, access, and support.
+
+Platform Credits remain within product usage and accounting workflows.
+
+They are separate from:
+
+- FUZE token;
+- stablecoin balances;
+- wallets;
+- token allocations;
+- token circulation;
+- wallet-based participation;
+- claims;
+- payouts; and
+- investments.
+
+Detailed token, wallet, finance, revenue, tax, legal, and market treatment belongs in the relevant specialist papers.
+
+## Key Takeaways
+
+- Platform Credits make supported product consumption visible and reviewable.
+- Users should see the action, usage basis, authorization, result, and balance effect.
+- Reservations are not final consumption.
+- Failed, cancelled, duplicated, or corrected actions require explicit handling.
+- Products may use different units, packages, subscriptions, grants, and workspace controls.
+- Platform Credits should apply to defined services rather than every ordinary product interaction.
+- Payment records and credit-balance records remain separate but linked for reconciliation.
+- Stablecoin payment does not turn Platform Credits into FUZE token or token rights.
+- Credit usage does not prove adoption, revenue, market performance, or professional outcomes.
+- Actual prices, availability, and terms require current product-specific evidence.

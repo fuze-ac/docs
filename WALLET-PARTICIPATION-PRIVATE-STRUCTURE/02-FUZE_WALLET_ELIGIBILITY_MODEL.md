@@ -190,7 +190,28 @@ Eligibility should not expose private identity publicly.
 
 Eligibility should not create public payout promises.
 
-## 5. Revenue Reconciliation Model
+## 5. Eligibility Decision Record
+
+Each wallet-level decision should record:
+
+- process identifier and rule version
+- wallet or custody identifier
+- network and FUZE token contract
+- snapshot reference
+- custody type and evidence reference
+- beneficial-ownership treatment where required
+- included and failed criteria
+- exclusion or restriction reason code
+- duplicate-detection result
+- jurisdiction and verification status where applicable
+- reviewer or automated-rule reference
+- decision timestamp
+- expiry or re-review trigger
+- dispute, correction, suspension, and closure status
+
+Public reporting may expose an approved status and limited reason category. Detailed identity, sanctions, legal, tax, custody, fraud, abuse, support, and security evidence should remain permissioned.
+
+## 6. Revenue Reconciliation Model
 
 Wallet eligibility is separate from revenue reconciliation.
 
@@ -230,7 +251,7 @@ Revenue reconciliation does not replace eligibility.
 
 Both must be ready before any approved participation distribution can occur.
 
-## 6. Approved Distributable Value Policy
+## 7. Approved Distributable Value Policy
 
 Approved distributable value is separate from eligibility.
 
@@ -280,7 +301,7 @@ Approved distributable value may be withheld, reserved, delayed, restricted, or 
 
 Eligible wallet status does not guarantee approved distributable value.
 
-## 7. Smart Contract, Vault, and Treasury Architecture
+## 8. Smart Contract, Vault, and Treasury Architecture
 
 Wallet eligibility may require smart-contract, vault, and reporting architecture before activation.
 
@@ -333,7 +354,7 @@ Distribution module readiness does not guarantee payout.
 
 Vault visibility does not create claim rights.
 
-## 8. Multisig, Timelock, and Approval Controls
+## 9. Multisig, Timelock, and Approval Controls
 
 Wallet eligibility requires approval controls to reduce operational and public communication risk.
 
@@ -371,7 +392,7 @@ Controls reduce risk.
 
 Controls do not guarantee zero error, zero exploit, zero dispute, zero legal risk, zero accounting issue, zero privacy incident, or investment return.
 
-## 9. Legal, Accounting, Tax, Audit, and Jurisdiction Gates
+## 10. Legal, Accounting, Tax, Audit, and Jurisdiction Gates
 
 Wallet eligibility must remain inactive unless required gates are ready.
 
@@ -413,7 +434,7 @@ A gate may require technical redesign.
 
 This private model should be reviewed before any public claim language is used.
 
-## 10. Privacy, Wallet Records, and Off-Chain Verification
+## 11. Privacy, Wallet Records, and Off-Chain Verification
 
 FUZE uses wallet-based transparency by default.
 
@@ -472,7 +493,7 @@ Exchange custody may require separate treatment because public blockchain record
 
 Self-custody may support direct wallet-level records, but it creates private key, seed phrase, phishing, approval, wrong-address, wrong-network, and wallet security risks.
 
-## 11. Risk Register
+## 12. Risk Register
 
 The wallet eligibility model carries legal, accounting, technical, market, privacy, communication, and operational risk.
 
@@ -500,7 +521,7 @@ The wallet eligibility model carries legal, accounting, technical, market, priva
 
 FUZE does not guarantee eligibility, payout, income, dividend, yield, profit, token price, listing, liquidity, market support, exit, game earnings, business revenue, AI accuracy, user acquisition, community growth, or investment return.
 
-## 12. Public Language Boundary
+## 13. Public Language Boundary
 
 Public eligibility language must remain careful, product-first, and no-guarantee.
 
@@ -554,7 +575,7 @@ Avoided public language:
 
 All future public and private papers should use wallet-based participation language to prevent confusion.
 
-## 13. Open Review Items
+## 14. Open Review Items
 
 Before the wallet eligibility model can support an active participation process, FUZE should review and complete the following open items.
 
@@ -587,7 +608,14 @@ Open review items do not mean eligibility is active.
 
 Open review items are controls that prevent premature public claims.
 
-## 14. Conclusion
+## 16. Conclusion
+## 15. Current Private Position
+
+This document establishes the intended private eligibility structure, terminology, evidence hierarchy, criteria model, custody boundaries, decision records, approval controls, privacy model, risk register, and public-language limits.
+
+It does not establish finalized eligibility criteria, an approved participation period, an approved snapshot, eligible wallets, supported exchange or institutional custody routes, deployed eligibility or claim contracts, approved distributable value, an active claim process, completed settlement or distribution, final legal or accounting approval, or recurring eligibility for future periods.
+
+Until a dated activation record states otherwise, this model should be treated as private design and review material only.
 
 FUZE Wallet Eligibility Model defines the private eligibility structure for wallet-based participation under the FUZE one-token model.
 
@@ -634,3 +662,5 @@ DEX-first access does not guarantee liquidity, market depth, trading volume, tok
 FUZE does not guarantee eligibility, payout, income, dividend, yield, profit, token price, listing, liquidity, market support, exit, game earnings, business revenue, AI accuracy, user acquisition, community growth, or investment return.
 
 This eligibility model keeps FUZE aligned with one-token clarity, wallet-level transparency, private identity protection, activation-gated participation, and strict public risk boundaries.
+
+Until those conditions are evidenced in a dated activation record, this document remains private eligibility, governance, legal, accounting, treasury, technical, privacy, and diligence structure—not an active eligibility program, claim right, distribution promise, or assurance of future activation.

@@ -2,276 +2,1019 @@
 
 ## Executive Summary
 
-SheetLayer AI helps people understand and operate the spreadsheets they already use for business. It can map workbook structure, explain formulas and fields, prepare clearer views, turn selected records into follow-up work, support controlled updates, and identify information that needs restricted handling.
+SheetLayer AI helps people understand, review, transform, and act on spreadsheet-based business information without hiding the original source or silently treating AI output as authoritative.
 
-The product is organized into five focused layers. SheetMap interprets workbook structure and business meaning. SheetView prepares readable summaries and dashboards. SheetFlow converts reviewed records into actions. SheetSync supports controlled imports, exports, and change review. SheetGuard applies permission and sensitive-field checks.
+The product is organized into five focused capabilities:
 
-SheetLayer AI assists with spreadsheet work; it does not make the underlying records authoritative or automatically correct. Users remain responsible for source quality, access rights, review, and decisions based on the outputs.
+- **SheetMap** — interprets workbook structure, fields, formulas, and relationships;
+- **SheetView** — prepares readable views, summaries, and dashboard drafts;
+- **SheetFlow** — converts reviewed rows and exceptions into controlled follow-up work;
+- **SheetSync** — supports visible, reviewable imports, exports, comparisons, and updates; and
+- **SheetGuard** — applies permission, sensitive-field, destination, and public-output checks.
 
----
+SheetLayer AI is designed for spreadsheet users, shop operators, small businesses, trainers, communities, project teams, and reviewers who already depend on workbooks for practical operations.
 
-## 1. Product Purpose
+The spreadsheet, connected system, or approved record owner remains responsible for source quality and authority. SheetLayer AI may explain or transform records, but it does not automatically make those records complete, current, lawful, reconciled, or correct.
 
-Spreadsheets are often the working system behind a shop, project, community, training program, or small business. They are familiar and flexible, but that flexibility can leave important logic scattered across tabs, formulas, notes, and naming conventions.
+Human review remains required before material formulas, financial figures, personnel decisions, customer actions, operational updates, exports, or public reports are relied upon.
+
+## Purpose of This Paper
+
+This paper explains:
+
+- the product purpose and intended users;
+- the five SheetLayer capabilities;
+- the standard source-to-output workflow;
+- workbook and source-of-record boundaries;
+- formula, field, and data-quality review;
+- controlled row-level actions;
+- safe synchronization and change approval;
+- sensitive-data and permission controls;
+- cross-product handoffs;
+- Platform Credit usage;
+- reporting, correction, and support;
+- product status and evidence; and
+- public limitations.
+
+SheetLayer AI is a specialist product inside [HerHelp AI SaaS](02-HERHELP_AI_SAAS_PUBLIC.md). The wider portfolio appears in the [FUZE AI SaaS Product Index](01-FUZE_AI_SAAS_PRODUCT_INDEX_PUBLIC.md).
+
+## Product Purpose
+
+Spreadsheets are often the working system behind:
+
+- shops;
+- small businesses;
+- projects;
+- training programs;
+- communities;
+- campaigns;
+- budgets;
+- product operations;
+- customer follow-up;
+- evidence registers; and
+- reporting.
+
+They are familiar and flexible, but important logic can become scattered across:
+
+- tabs;
+- formulas;
+- hidden columns;
+- comments;
+- colors;
+- manual conventions;
+- copied values;
+- inconsistent headings;
+- duplicate files; and
+- undocumented business rules.
 
 SheetLayer AI gives users a structured way to answer questions such as:
 
 - What does this workbook contain?
 - Which tabs and fields are related?
-- Where are records missing, inconsistent, or duplicated?
+- Which fields appear to be keys, categories, dates, values, or statuses?
 - What does a formula appear to calculate?
-- Which rows require action?
-- Which information can be summarized for another audience?
-- Which columns contain personal, financial, or confidential data?
-- What changed between two reviewed versions?
+- Where are records missing, inconsistent, duplicated, stale, or conflicting?
+- Which rows require review or follow-up?
+- Which fields may contain personal, financial, confidential, or security-sensitive information?
+- Which version is newer, and what changed?
+- Which output can be shared with another audience?
+- Which changes should be approved before they reach another system?
 
-The product is intended to improve comprehension and workflow around a spreadsheet, not force a business to replace its existing records with a new operating system.
+The product is intended to improve comprehension, control, and workflow around existing spreadsheet records.
 
----
+It is not intended to force every user to replace their existing workbook with a new operating system.
 
-## 2. Intended Users
-
-SheetLayer AI may support:
+## Intended Users
 
 | User | Typical need |
 |---|---|
-| Shop owner | Review product, stock, sales, staff, or expense records |
-| Small-business operator | Turn manual trackers into clearer summaries and follow-up lists |
-| Founder or project lead | Organize roadmap, evidence, budget, or contact workbooks |
-| Community manager | Separate member records from shareable activity reporting |
-| Trainer | Review progress, quiz, attendance, and onboarding data |
-| Product team | Map issue, test, feedback, and release records |
-| Analyst or reviewer | Understand a supplied workbook without changing its source structure |
+| Shop owner | Review product, stock, sales, expense, staff, or supplier records |
+| Small-business operator | Turn manual trackers into summaries, exceptions, and action lists |
+| Founder or project lead | Organize roadmap, budget, evidence, contact, or delivery workbooks |
+| Community manager | Separate private member data from public-safe activity reporting |
+| Trainer or HR operator | Review attendance, progress, onboarding, quiz, and assignment records |
+| Product team | Map issue, test, feedback, release, and readiness data |
+| Finance or operations reviewer | Inspect selected calculations, classifications, and reconciliation gaps |
+| Analyst or service partner | Understand a supplied workbook without changing its source structure |
 
-Users can work with one workbook or a selected portion of it. Access should be limited to the tabs, ranges, and fields required for the task.
+A user may work with:
 
----
+- one workbook;
+- one file;
+- one tab;
+- one named range;
+- selected columns;
+- selected rows;
+- an exported data set; or
+- an approved connected source.
 
-## 3. The Five SheetLayer Functions
+Access should be limited to the smallest source scope required for the task.
 
-### 3.1 SheetMap
+## The Five SheetLayer Capabilities
 
-SheetMap interprets the structure of a workbook. It can identify tabs, headings, likely field types, relationships, formulas, and repeated patterns. The resulting map helps a user understand how the file is organized before requesting changes or reports.
+### SheetMap
+
+SheetMap interprets the structure and likely business meaning of a workbook before users request changes or reports.
 
 Possible outputs include:
 
-- a workbook inventory;
-- field and tab descriptions;
-- a formula explanation;
-- likely key-field identification;
-- a list of incomplete or inconsistent columns;
-- duplicate-record candidates; and
-- a proposed data dictionary.
+- workbook inventory;
+- sheet and tab descriptions;
+- field dictionary;
+- likely field types;
+- key-field candidates;
+- relationship candidates;
+- formula inventory;
+- formula explanation;
+- named-range inventory;
+- hidden-tab and hidden-column notice;
+- duplicate-record candidates;
+- missing-field or inconsistent-field findings;
+- source-version summary; and
+- unresolved business questions.
 
-The map is an interpretation of the supplied file. Ambiguous business meaning should be confirmed by someone who understands the source process.
+SheetMap should distinguish:
 
-### 3.2 SheetView
+- directly observed structure;
+- AI interpretation;
+- user-supplied meaning;
+- confirmed business rules; and
+- unresolved assumptions.
 
-SheetView prepares selected records for easier reading. It can organize filtered tables, summary cards, management views, and dashboard drafts without changing the meaning of the source data.
+A field named `amount`, `status`, `balance`, or `customer` can have different meanings in different workbooks.
 
-A user might request:
+Ambiguous business meaning should be confirmed by someone who understands the source process.
 
-- a low-stock view for a shop;
-- a weekly sales and expense summary;
-- an onboarding completion view;
-- a campaign status table;
-- a roadmap progress summary; or
-- a mobile-friendly view of selected fields.
+### SheetView
 
-Each view should identify its source range, filters, reporting period, and known limitations. A presentation layer does not become the source of record merely because it is easier to read.
+SheetView prepares selected records for easier reading without changing the source-of-record status.
 
-### 3.3 SheetFlow
+Possible views include:
 
-SheetFlow turns reviewed rows into defined follow-up work. It can group records by status, prepare checklists, identify exceptions, and route selected items into supported HerHelp workflows.
+- filtered tables;
+- summary cards;
+- management views;
+- exception views;
+- trend drafts;
+- progress summaries;
+- mobile-friendly views;
+- printable reports;
+- public-safe summaries; and
+- dashboard drafts.
+
+A view should identify:
+
+- source workbook or file;
+- source tab, range, or data set;
+- filters;
+- calculation rules;
+- reporting period;
+- timezone where relevant;
+- excluded records;
+- refresh time;
+- current version; and
+- known limitations.
+
+A clearer presentation does not become authoritative merely because it is easier to read.
+
+The source workbook or designated source system remains authoritative unless governance explicitly assigns a different source.
+
+### SheetFlow
+
+SheetFlow turns reviewed rows, exceptions, or statuses into controlled follow-up work.
 
 Examples include:
 
-- converting overdue rows into an action list;
-- grouping stock exceptions for review;
-- preparing follow-up tasks from approved customer records;
-- identifying incomplete training modules;
-- organizing product issues by owner or priority; and
-- creating a review queue from flagged entries.
+- overdue-item review;
+- low-stock follow-up;
+- missing-price review;
+- customer follow-up preparation;
+- incomplete training-item review;
+- issue triage;
+- release-readiness queue;
+- approval queue;
+- duplicate-record resolution;
+- exception assignment; and
+- correction checklist.
 
-The user determines whether an identified item becomes a task and who is permitted to receive it.
+A SheetFlow action should identify:
 
-### 3.4 SheetSync
+- source row or record;
+- source version;
+- task purpose;
+- responsible role;
+- due state where applicable;
+- permitted destination;
+- review requirement;
+- completion state; and
+- correction history.
 
-SheetSync supports controlled movement between a workbook and another approved system or file. Its role is to make changes visible and reviewable rather than silently treating every source as interchangeable.
+An identified row does not become an external action automatically.
 
-Depending on available connections, the process may include:
+The authorized user decides whether a row becomes a task, who may receive it, and whether an external system or person may be contacted.
 
-- selecting the source and destination;
-- matching fields;
-- comparing versions;
-- previewing additions, edits, and conflicts;
-- approving an import or export;
-- recording rejected rows; and
-- preparing an exception summary.
+### SheetSync
 
-Integration availability depends on the product configuration. Where a live connection is unavailable, SheetLayer AI can still help prepare a mapping or reviewed export for manual use.
+SheetSync supports controlled movement between a workbook and another approved file or system.
 
-### 3.5 SheetGuard
+Its purpose is to make proposed changes visible, reviewable, reversible where possible, and attributable.
 
-SheetGuard helps users inspect permissions and sensitive fields before data is processed, shared, or exported. It can flag likely personal details, payment information, private notes, credentials, or other fields that warrant additional care.
+A synchronization workflow may include:
 
-SheetGuard may support:
+1. identify source and destination;
+2. confirm authority;
+3. map fields;
+4. validate data types and keys;
+5. detect additions, changes, deletions, duplicates, and conflicts;
+6. preview the proposed change set;
+7. classify exceptions;
+8. obtain approval;
+9. execute the approved import or export where supported;
+10. reconcile the result;
+11. record rejected or failed rows; and
+12. preserve a change and correction record.
 
-- role-based view planning;
+Possible sync states include:
+
+- draft mapping;
+- preview ready;
+- awaiting approval;
+- partially approved;
+- executed;
+- partially completed;
+- failed;
+- rolled back where supported;
+- corrected;
+- superseded; and
+- manually completed.
+
+A live connection should not silently overwrite source data.
+
+Where a live integration is unavailable, SheetLayer AI may still prepare:
+
+- field mapping;
+- reviewed import file;
+- reviewed export file;
+- change comparison;
+- exception report; or
+- manual update checklist.
+
+### SheetGuard
+
+SheetGuard helps users inspect data sensitivity, permissions, destinations, and public-output suitability before processing or sharing.
+
+It may support:
+
+- likely personal-data detection;
+- payment or financial-field detection;
+- private-note detection;
+- credential or secret detection;
+- wallet-address detection;
 - hidden-tab review;
+- role-based view planning;
+- field-level exclusion;
 - redaction suggestions;
-- public-summary preparation;
+- minimum-necessary source selection;
 - destination checks;
-- field-level exclusion; and
-- confirmation that a proposed output contains only the necessary records.
+- public-summary preparation;
+- small-group re-identification review; and
+- confirmation that an output contains only required records.
 
-Automated detection can miss context. A user with appropriate authority should review sensitive-data decisions.
+Automated detection may miss context or produce false positives.
 
----
+A user with appropriate authority should review sensitive-field decisions before processing, export, handoff, or publication.
 
-## 4. Standard Workflow
+## Source-of-Record Model
 
-### Step 1: Select the source
+SheetLayer AI should identify the role of each source.
 
-The user chooses a workbook, file, tab, range, or export that they are authorized to use. The task description should state the intended outcome and audience.
+| Source type | Typical role |
+|---|---|
+| Primary workbook | Current operational or user-designated source |
+| Exported copy | Point-in-time snapshot, not automatically current |
+| Imported supplier or partner file | External source requiring validation and mapping |
+| Connected system | External authoritative or supporting source, depending on governance |
+| SheetView output | Presentation layer derived from a source |
+| SheetFlow task list | Follow-up layer derived from reviewed rows |
+| Sync preview | Proposed change set, not executed truth |
+| Public report | Reviewed public-safe summary, not the full source |
 
-### Step 2: Inspect before acting
+The product should avoid silently combining incompatible sources.
 
-SheetMap prepares an initial structure and quality review. The user confirms headings, relationships, and any business terms that cannot be inferred reliably.
+When two sources disagree, the workflow should identify:
 
-### Step 3: Choose an output
+- each source;
+- source version;
+- timestamp;
+- field or row conflict;
+- current authority;
+- reviewer; and
+- resolution state.
 
-The user requests a view, action list, transformation, sync plan, or permission review. The selected operation determines which records are needed.
+AI interpretation does not replace source governance.
 
-### Step 4: Preview the result
+## Formula and Calculation Review
 
-SheetLayer AI presents a draft with relevant assumptions, filters, or exceptions. Changes to data should be distinguishable from explanatory notes and presentation choices.
+SheetLayer AI may explain, compare, or propose formulas.
 
-### Step 5: Review and approve
+It should distinguish:
 
-An authorized user checks the result. Material errors, outdated records, or unsuitable fields can be corrected or removed before the output is used.
+- existing formula;
+- proposed formula;
+- copied formula;
+- hard-coded value;
+- named-range reference;
+- external reference;
+- broken reference;
+- circular reference;
+- volatile function;
+- hidden dependency;
+- unit or currency assumption; and
+- unresolved calculation rule.
 
-### Step 6: Export or hand off
+A formula explanation should identify:
 
-Approved results can be downloaded, returned to a workbook, or passed to another supported workflow. A handoff should preserve the purpose and permission limits established for the task.
+- source cells or range;
+- apparent purpose;
+- assumptions;
+- dependencies;
+- output type;
+- edge cases;
+- potential error conditions; and
+- whether a subject-matter review is required.
 
-### Step 7: Retain an operational record
+Important formulas affecting:
 
-Where configured, SheetLayer AI can retain task status, usage, approval, and exception information. Retention settings should reflect the sensitivity and continuing value of the record.
+- payments;
+- taxes;
+- accounting;
+- payroll;
+- pricing;
+- commissions;
+- inventory;
+- employment;
+- eligibility;
+- public reporting; or
+- regulated decisions
 
----
+should receive appropriate human and specialist review before reliance.
 
-## 5. Practical Workflows
+A formula that calculates successfully can still be conceptually wrong.
 
-### Shop stock review
+## Data-Quality Review
 
-A shop owner selects current product and inventory tabs. SheetMap confirms the product identifier and stock fields. SheetView prepares low-stock and missing-price views, while SheetFlow creates a review list for the owner. After approval, selected records may support a [ShopOS AI](./04-HERHELP_SHOPOS_AI_PUBLIC.md) workflow.
+SheetLayer AI may identify potential quality issues such as:
 
-### Staff onboarding tracker
+- missing required fields;
+- duplicate records;
+- inconsistent categories;
+- invalid dates;
+- impossible values;
+- mixed units;
+- mixed currencies;
+- text stored as numbers;
+- numbers stored as text;
+- stale records;
+- broken references;
+- inconsistent identifiers;
+- unsupported status values;
+- unexpected blanks;
+- unmatched joins;
+- hidden records;
+- copied formulas that do not match neighboring rows; and
+- conflicting versions.
 
-A manager provides a training workbook containing staff roles, assigned modules, and completion status. SheetGuard excludes unnecessary personal fields. SheetView summarizes progress, and SheetFlow prepares follow-up items. Approved source material can then support [TrainLayer AI](./06-HERHELP_TRAINLAYER_AI_PUBLIC.md).
+A quality finding should identify:
 
-### Community activity report
+- rule or reason;
+- affected range or record;
+- severity or review priority;
+- whether the issue is observed or inferred;
+- proposed next action; and
+- reviewer status.
 
-A community team uses a workbook for event attendance, moderator actions, and campaign tasks. SheetGuard separates member details from reporting fields. SheetView creates an aggregated activity summary, while [CommunityLayer AI](./07-HERHELP_COMMUNITYLAYER_AI_PUBLIC.md) can use authorized items for the related operating workflow.
+A flagged issue is not automatically an error.
 
-### Product readiness review
+The user or appropriate record owner should confirm the business rule.
 
-A product lead selects issue, test, and release tabs. SheetMap documents status fields and dependencies. SheetFlow groups unresolved items by owner, and SheetView prepares a readiness summary that clearly distinguishes completed evidence from planned work.
+## Standard Workflow
 
-### Version comparison
+### 1. Select the Source
 
-An operator receives a revised supplier or catalog file. SheetSync maps identifiers and previews added, removed, and changed rows. The operator resolves conflicts before approving an updated export.
+The user chooses a workbook, file, tab, range, export, or approved connection they are authorized to use.
 
----
+The request should identify:
 
-## 6. Product Connections
+- task purpose;
+- intended audience;
+- source scope;
+- expected output;
+- whether updates are permitted;
+- destination; and
+- review requirement.
 
-SheetLayer AI is a specialist module within [HerHelp AI SaaS](./02-HERHELP_AI_SAAS_PUBLIC.md). It can provide structured, reviewed information to another HerHelp module when the user authorizes the transfer.
+### 2. Inspect Before Acting
+
+SheetMap prepares an initial structure, formula, relationship, quality, and sensitivity review.
+
+The user confirms:
+
+- headings;
+- key fields;
+- business meaning;
+- source authority;
+- unresolved assumptions; and
+- sensitive-field treatment.
+
+### 3. Define the Operation
+
+The user selects:
+
+- map;
+- explanation;
+- view;
+- dashboard draft;
+- quality review;
+- action queue;
+- transformation;
+- version comparison;
+- sync preview;
+- sensitive-data review;
+- export; or
+- cross-product handoff.
+
+The operation determines which records and tools are required.
+
+### 4. Review Usage and Limits
+
+Before a metered or consequential task begins, the user may review:
+
+- task unit;
+- source size;
+- estimate, range, fixed amount, or maximum Platform Credit use;
+- permitted tools;
+- output type;
+- write or sync permissions;
+- review requirement;
+- destination; and
+- failure or reversal treatment.
+
+### 5. Process and Prepare a Draft
+
+SheetLayer AI performs the approved task and produces a draft, proposed mapping, view, action queue, sync plan, or report.
+
+The output should show relevant:
+
+- assumptions;
+- filters;
+- transformations;
+- formulas;
+- exclusions;
+- conflicts;
+- unresolved records; and
+- confidence or review notices where appropriate.
+
+### 6. Preview Material Changes
+
+Any proposed update should remain distinguishable from:
+
+- explanatory notes;
+- presentation changes;
+- AI suggestions;
+- source values;
+- user-entered corrections; and
+- destination-system changes.
+
+The user should be able to inspect the change set before approval.
+
+### 7. Review and Approve
+
+An authorized user reviews the result.
+
+Possible outcomes include:
+
+- approve as drafted;
+- edit;
+- reject;
+- request another version;
+- approve selected rows only;
+- approve export;
+- approve sync;
+- escalate for specialist review; or
+- mark the source as unsuitable.
+
+### 8. Export, Sync, or Handoff
+
+Approved results may be:
+
+- downloaded;
+- returned to a workbook;
+- exported;
+- synchronized to an approved destination;
+- converted into a SheetFlow queue; or
+- passed to another HerHelp product.
+
+The handoff should preserve:
+
+- source;
+- purpose;
+- selected fields;
+- current version;
+- permission;
+- review status;
+- destination; and
+- correction route.
+
+### 9. Reconcile and Record
+
+Where changes or exports occur, SheetLayer AI should record, where supported:
+
+- executed rows;
+- rejected rows;
+- partial completion;
+- destination result;
+- unresolved conflicts;
+- reviewer;
+- usage;
+- correction; and
+- support state.
+
+## Practical Workflows
+
+### Shop Stock Review
+
+A shop owner selects approved product and inventory tabs.
+
+SheetMap confirms product identifiers, stock fields, units, and status values.
+
+SheetGuard excludes unnecessary staff, supplier, customer, payment, or private-note fields.
+
+SheetView prepares:
+
+- low-stock view;
+- missing-price view;
+- duplicate-product view; and
+- stale-record notice.
+
+SheetFlow creates a review queue for the owner.
+
+After approval, selected fields may support a [ShopOS AI](04-HERHELP_SHOPOS_AI_PUBLIC.md) workflow.
+
+### Staff Onboarding Tracker
+
+A manager provides a training workbook containing roles, assigned modules, due dates, and completion status.
+
+SheetGuard excludes unnecessary personal details.
+
+SheetView summarizes progress.
+
+SheetFlow prepares follow-up items.
+
+Approved source material may support [TrainLayer AI](06-HERHELP_TRAINLAYER_AI_PUBLIC.md).
+
+Learner or employee records remain permissioned and should not be included in a public report.
+
+### Community Activity Report
+
+A community team uses a workbook for attendance, campaigns, support, moderation, and event activity.
+
+SheetGuard separates:
+
+- member identity;
+- private messages;
+- verification records;
+- moderation notes;
+- safety records; and
+- public-safe reporting fields.
+
+SheetView creates an aggregated activity summary.
+
+Authorized items may support [CommunityLayer AI](07-HERHELP_COMMUNITYLAYER_AI_PUBLIC.md).
+
+### Product Readiness Review
+
+A product lead selects issue, test, release, dependency, and evidence tabs.
+
+SheetMap documents status definitions and relationships.
+
+SheetFlow groups unresolved items by owner and priority.
+
+SheetView prepares a readiness summary that distinguishes:
+
+- planned;
+- in progress;
+- implemented;
+- tested;
+- approved;
+- released; and
+- live evidence.
+
+A workbook status alone does not prove production readiness.
+
+### Supplier or Catalog Version Comparison
+
+An operator receives a revised supplier or catalog file.
+
+SheetSync maps identifiers and previews:
+
+- additions;
+- removals;
+- changed values;
+- duplicates;
+- conflicting identifiers;
+- unit changes;
+- price changes; and
+- missing records.
+
+The operator resolves conflicts before approving an updated export or destination update.
+
+### Financial or Expense Review
+
+An operator selects approved expense, payment, or budget records.
+
+SheetMap identifies likely categories, dates, amounts, currencies, and formulas.
+
+SheetView prepares a review summary.
+
+SheetGuard limits access to sensitive fields.
+
+Any accounting, tax, payroll, legal, or revenue conclusion requires qualified human review and the appropriate source records.
+
+### Public-Safe Report Preparation
+
+A team selects internal source data and defines a public reporting purpose.
+
+SheetGuard reviews identifiers, small groups, timestamps, wallet-to-person links, private pricing, partner terms, and sensitive operational details.
+
+SheetView prepares an aggregated, redacted, or range-based draft.
+
+The final report follows the [FUZE Transparency and Reporting Rails](../CORE-PLATFORM-PAPERS/09-FUZE_TRANSPARENCY_AND_REPORTING_RAILS_PUBLIC.md).
+
+## Product Connections
+
+SheetLayer AI may provide selected, reviewed information to another HerHelp product when the user or workspace authorizes the transfer.
 
 Useful connections may include:
 
-- ShopOS AI for catalog and operating records;
-- TrainLayer AI for approved learning and progress data;
-- CommunityLayer AI for permissioned activity workflows;
-- SpeakShop AI for selected campaign or product fields; and
-- FUZE reporting rails for suitable operational summaries.
+- [ShopOS AI](04-HERHELP_SHOPOS_AI_PUBLIC.md) for catalog, stock, operational, or reporting fields;
+- [SpeakShop AI](05-HERHELP_SPEAKSHOP_AI_PUBLIC.md) for approved campaign, product, event, or announcement fields;
+- [TrainLayer AI](06-HERHELP_TRAINLAYER_AI_PUBLIC.md) for approved learning sources and progress summaries;
+- [CommunityLayer AI](07-HERHELP_COMMUNITYLAYER_AI_PUBLIC.md) for permissioned member-service, event, or community-operation fields; and
+- FUZE reporting rails for reviewed operational summaries.
 
-A connection should move the minimum information required for the destination task. It should not make the full workbook visible to every connected product.
+A connection should move only the minimum information required for the destination task.
 
----
+It should not:
 
-## 7. Platform Credit Use
+- expose the full workbook;
+- grant access to hidden tabs automatically;
+- copy private comments unnecessarily;
+- transfer credentials;
+- reveal wallet-to-person mappings;
+- send unrelated customer or staff data; or
+- create continuous synchronization without explicit authority.
 
-SheetLayer tasks may consume Platform Credits when they use metered processing. Examples can include:
+A handoff should identify:
+
+- source product;
+- destination product;
+- source range or records;
+- purpose;
+- review status;
+- version;
+- destination permission; and
+- correction path.
+
+## Platform Credit Use
+
+SheetLayer tasks may consume Platform Credits when they use metered processing.
+
+Examples include:
 
 - mapping a workbook or selected range;
-- explaining a set of formulas;
+- explaining formulas;
+- generating a field dictionary;
+- performing a quality review;
 - checking records for inconsistencies;
-- generating a dashboard draft;
+- creating a dashboard draft;
 - preparing a workflow queue;
-- comparing file versions;
-- reviewing likely sensitive fields; or
-- producing an approved summary or export.
+- comparing versions;
+- preparing a sync preview;
+- reviewing likely sensitive fields;
+- preparing a public-safe summary; or
+- producing an approved export.
 
-The applicable amount can vary with the size and complexity of the task. Users should receive the relevant usage information before confirming a chargeable operation.
+The product should show, where applicable:
 
-Credits meter product activity inside SheetLayer AI. They remain separate from the FUZE token and do not provide ownership or market rights.
+- task type;
+- source size or complexity basis;
+- fixed amount, estimate, range, or maximum;
+- available balance;
+- authorization;
+- reservation state;
+- completion condition;
+- partial-completion treatment;
+- failure or cancellation treatment; and
+- final usage record.
 
----
+A usage lifecycle may be:
 
-## 8. Data and Permission Controls
+```text
+quote -> authorize -> reserve if needed -> process
+-> complete, partially complete, fail, or cancel
+-> consume, release, reverse, or correct -> record
+```
 
-Spreadsheets can combine ordinary operating records with highly sensitive material. A single workbook may contain customer contact details, staff schedules, commercial terms, payment notes, wallet addresses, or internal comments.
+Reserved credits are not final consumption.
 
-SheetLayer AI should therefore apply controls appropriate to the selected data and task, including:
+Platform Credits are product usage credits.
 
-- authorization to connect or upload the source;
-- selection of only the required workbook area;
-- workspace and role separation;
-- review of hidden tabs and columns;
-- output and export permissions;
-- redaction or exclusion of unnecessary fields;
+They remain separate from:
+
+- FUZE token;
+- stablecoins;
+- wallets;
+- token allocation;
+- wallet-based participation;
+- claims;
+- payouts;
+- market access; and
+- investment rights.
+
+## Data and Permission Controls
+
+Spreadsheets can combine ordinary operating records with highly sensitive information.
+
+A single workbook may contain:
+
+- customer contacts;
+- staff schedules;
+- payroll or compensation;
+- supplier terms;
+- payment notes;
+- bank details;
+- tax records;
+- private agreements;
+- identity data;
+- learner assessments;
+- moderation records;
+- wallet addresses;
+- wallet-to-person mappings;
+- credentials;
+- private keys or secrets entered incorrectly; and
+- internal comments.
+
+SheetLayer AI should apply controls such as:
+
+- authority to connect or upload the source;
+- minimum-necessary source selection;
+- workspace separation;
+- product and role permissions;
+- hidden-tab and hidden-column review;
+- sensitive-field detection;
+- field-level exclusion;
+- row-level filtering;
+- output visibility;
+- export and sync approval;
+- destination restriction;
+- provider-routing restriction;
 - retention and deletion settings;
-- connection revocation; and
-- activity records for significant changes.
+- connection revocation;
+- activity records;
+- correction history; and
+- incident or support handling.
 
-Public or partner-facing summaries should use aggregated or non-identifying information unless there is a valid reason and authority to disclose more. Wallet-level records, where present in a source, should not be used to reveal a person's private identity.
+Users should not place seed phrases, private keys, passwords, unrestricted API secrets, or other credentials into spreadsheets intended for AI processing.
 
-Further data-handling principles are described in [FUZE Data, Privacy and AI Data Handling](../CORE-PLATFORM-PAPERS/07-FUZE_DATA_PRIVACY_AND_AI_DATA_HANDLING_PUBLIC.md).
+Public or partner-facing outputs should use aggregated, redacted, pseudonymous, delayed, range-based, or otherwise public-safe information where appropriate.
 
----
+Wallet addresses in a source should not be used to expose private identity or create unsupported financial conclusions.
 
-## 9. Reporting
+The [FUZE Data Privacy and AI Data Handling](../CORE-PLATFORM-PAPERS/07-FUZE_DATA_PRIVACY_AND_AI_DATA_HANDLING_PUBLIC.md) provides the wider model.
 
-SheetLayer reporting can help a user understand both the source workbook and the processing performed around it. Depending on the task and configuration, reports may show:
+## AI and Provider Boundaries
 
-- source and reporting period;
-- tabs, ranges, or files reviewed;
-- records processed or excluded;
-- quality and exception findings;
-- views or workflow items generated;
-- approved imports and exports;
-- unresolved sync conflicts;
-- Platform Credit usage; and
-- reviewer or approval status.
+Where SheetLayer AI uses an external model, API, connector, or storage service, the product should evaluate:
 
-Reports should distinguish observed source data from AI interpretation and user-supplied assumptions. Corrections should be traceable to the relevant task or source version.
+- selected fields sent;
+- purpose;
+- provider retention;
+- model-training or service-improvement settings;
+- authentication;
+- processing location where relevant;
+- subcontractors;
+- deletion capability;
+- output logging;
+- service availability;
+- incident handling; and
+- contractual and security terms.
 
----
+The product should avoid sending an entire workbook where a limited range, summary, or locally prepared structure is sufficient.
 
-## 10. Product Boundary
+AI-generated formulas, mappings, classifications, summaries, and data-quality findings remain proposals until reviewed.
 
-SheetLayer AI can explain, organize, transform, and route spreadsheet information. It cannot establish that supplied records are complete, current, lawful, or suitable for a particular accounting, tax, financial, employment, or regulatory purpose.
+A fallback provider should not silently weaken privacy, retention, quality, or user expectations.
 
-Users are responsible for validating important formulas, figures, classifications, and outputs with appropriate subject-matter review. Automated suggestions should be treated as working assistance, especially when a workbook influences payments, legal obligations, personnel decisions, or public reporting.
+## Reporting
 
-The product does not require wallet participation to perform its spreadsheet role. Detailed ecosystem participation and token mechanisms are covered in their dedicated FUZE papers rather than this product guide.
+SheetLayer reporting may include:
 
----
+- source file or workbook;
+- source version;
+- reporting period;
+- tabs, ranges, and fields reviewed;
+- records processed;
+- records excluded;
+- formulas reviewed;
+- quality findings;
+- sensitive-field findings;
+- views generated;
+- action items generated;
+- sync previews;
+- approved imports or exports;
+- rejected rows;
+- unresolved conflicts;
+- partial completion;
+- Platform Credit usage;
+- reviewer;
+- approval status;
+- correction state; and
+- support status.
 
-## 11. Conclusion
+Reports should distinguish:
 
-SheetLayer AI adds structure around the spreadsheet rather than obscuring it. SheetMap explains the file, SheetView makes selected records easier to read, SheetFlow prepares follow-up work, SheetSync exposes proposed changes, and SheetGuard helps control sensitive information.
+- observed source values;
+- user-provided business rules;
+- AI interpretation;
+- proposed changes;
+- approved changes;
+- executed changes;
+- unresolved exceptions; and
+- corrected records.
 
-Together, these functions give spreadsheet-based users a clearer route from raw records to reviewed business action while preserving human approval and source-level accountability.
+A processing report does not prove source accuracy, product adoption, paid delivery, revenue, or public readiness.
+
+Public reporting should follow the [FUZE Transparency and Reporting Rails](../CORE-PLATFORM-PAPERS/09-FUZE_TRANSPARENCY_AND_REPORTING_RAILS_PUBLIC.md).
+
+## Error, Correction, and Support Model
+
+SheetLayer AI should provide clear treatment for:
+
+- unsupported file type;
+- unreadable workbook;
+- password-protected or inaccessible source;
+- missing headers;
+- duplicate keys;
+- invalid formulas;
+- broken references;
+- circular references;
+- inconsistent units or currencies;
+- failed transformation;
+- partial processing;
+- stale source version;
+- sync conflict;
+- rejected rows;
+- destination failure;
+- unauthorized export;
+- sensitive-data exposure;
+- incorrect AI interpretation;
+- duplicate Platform Credit event; and
+- missing task history.
+
+A correction record should identify:
+
+- original source and version;
+- affected range or rows;
+- original output or change;
+- correction reason;
+- reviewer;
+- corrected version;
+- downstream effect;
+- sync or export impact; and
+- updated usage or support record.
+
+A corrected view or report should not silently overwrite an earlier approved or published version without history.
+
+## Product Status and Evidence
+
+This paper defines the approved public product model.
+
+It does not independently prove that SheetLayer AI currently has:
+
+- live spreadsheet connections;
+- production formula analysis;
+- automated write-back;
+- live synchronization;
+- dashboard publishing;
+- field-level permissions;
+- sensitive-data detection;
+- external integrations;
+- paid processing;
+- active customers; or
+- confirmed revenue.
+
+Possible evidence includes:
+
+| Status claim | Evidence direction |
+|---|---|
+| Product designed | Defined users, five capabilities, workflow, data, permissions, outputs, and boundary |
+| Prototype exists | Reviewable mapping, view, flow, sync-preview, or guard workflow |
+| Internally tested | Tests for formulas, duplicates, hidden fields, permissions, conflicts, partial failures, and corrections |
+| Limited release | Controlled users, supported file types, terms, support, monitoring, and known limitations |
+| Public beta | Public access route, beta terms, supported scope, support, and release notes |
+| Live | Production access, current capabilities, support, monitoring, and operating evidence |
+| Paid delivery | Pricing, payment, completed processing, support, and customer evidence |
+| Revenue confirmed | Reconciled payment, completed service, accounting treatment, period, and review |
+
+The following do not independently prove a live product:
+
+- a public paper;
+- a mockup;
+- a screenshot;
+- a sample workbook;
+- a generated dashboard;
+- code;
+- a repository;
+- a demonstration;
+- a pricing concept; or
+- a roadmap date.
+
+Current status should be checked in the [FUZE Public Status and Roadmap Matrix](../PUBLIC-INDEX/02-FUZE_PUBLIC_STATUS_AND_ROADMAP_MATRIX.md).
+
+## Product and Token Separation
+
+SheetLayer AI performs a spreadsheet and business-data role.
+
+It does not require wallet or token participation to explain its product purpose.
+
+Product access, Platform Credits, payments, stablecoins, wallets, and FUZE token utility remain separate layers.
+
+A workbook containing a wallet address, token balance, transaction, payment, or Platform Credit record does not automatically establish:
+
+- personal identity;
+- beneficial ownership;
+- wallet eligibility;
+- active token utility;
+- approved distributable value;
+- a claim;
+- payment completion;
+- token circulation;
+- DEX liquidity;
+- CEX access;
+- price support; or
+- financial return.
+
+Any product-to-token utility must be separately defined, implemented, authorized, activated, and reported under the relevant specialist papers.
+
+## Public Boundary
+
+SheetLayer AI can assist with explaining, organizing, validating, transforming, comparing, viewing, and routing spreadsheet information.
+
+It cannot independently establish that supplied records are:
+
+- complete;
+- current;
+- accurate;
+- lawful;
+- authorized;
+- reconciled;
+- audited;
+- suitable for accounting;
+- suitable for tax;
+- suitable for payroll;
+- suitable for legal reliance;
+- suitable for employment decisions;
+- suitable for financial decisions;
+- suitable for regulated reporting; or
+- appropriate for public disclosure.
+
+Users remain responsible for:
+
+- source authority;
+- data quality;
+- formula validation;
+- business-rule confirmation;
+- sensitive-data treatment;
+- subject-matter review;
+- approval of changes;
+- destination permissions;
+- reconciliation;
+- public disclosure; and
+- consequences of use.
+
+Automated findings and suggestions should be treated as working assistance, especially when records affect money, legal obligations, personnel, safety, eligibility, public reporting, or regulated activity.
+
+Detailed product risks appear in [FUZE Product Risk Boundaries](16-FUZE_PRODUCT_RISK_BOUNDARIES_PUBLIC.md). Consolidated limitations appear in the [FUZE Risk and Disclosure Appendix](../WHITEPAPER-PAPERS/05-FUZE_RISK_AND_DISCLOSURE_APPENDIX_PUBLIC.md).
+
+## Key Takeaways
+
+- SheetLayer AI helps users understand and operate spreadsheet-based business information without hiding the source.
+- SheetMap, SheetView, SheetFlow, SheetSync, and SheetGuard have distinct responsibilities.
+- The designated workbook or source system remains authoritative unless governance explicitly changes that role.
+- AI explanations, formulas, mappings, classifications, and quality findings remain proposals until reviewed.
+- Material changes should be previewed, approved, reconciled, and recorded.
+- Cross-product handoffs should transfer only the minimum reviewed information required.
+- Platform Credits meter defined product activity and remain separate from FUZE token, stablecoins, wallets, and participation.
+- Public reports should distinguish source values, AI interpretation, assumptions, proposed changes, approved changes, and corrections.
+- This paper does not prove that SheetLayer AI is implemented, released, live, adopted, or revenue-generating.
+- Human approval and source-level accountability remain central to the product.

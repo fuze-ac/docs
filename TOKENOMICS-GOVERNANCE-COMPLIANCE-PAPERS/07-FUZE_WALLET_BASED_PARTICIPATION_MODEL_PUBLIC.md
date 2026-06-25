@@ -2,327 +2,1564 @@
 
 ## Executive Summary
 
-The FUZE Wallet-Based Participation Model explains how a future participation framework could connect eligible FUZE-holding wallets to approved distributable value under active, reviewed rules.
+The FUZE Wallet-Based Participation Model defines how an activated participation framework may connect eligible FUZE-holding wallets to approved distributable value from defined FUZE product revenue pools.
 
-This paper is for token holders, product users, community members, investors, partners, custody providers, and reviewers who need a clear answer to a difficult question: what would make a wallet eligible if FUZE activates this framework?
+The model is activation-gated.
 
-FUZE uses one ecosystem token: FUZE token. Holding it can be a starting condition, but holding alone is insufficient. Eligibility also depends on the active framework, wallet and custody treatment, snapshot rules, jurisdiction, required verification, approved distributable value, reporting readiness, and completed activation gates.
+Holding FUZE token is one possible eligibility condition, but holding alone does not create:
 
-The model uses wallets because they can provide verifiable records without requiring personal identity to appear publicly. A public record can show a wallet address, snapshot status, eligibility status, claim status, report hash, or correction status. Personal and account records remain permissioned.
+- automatic eligibility;
+- permanent eligibility;
+- a claim;
+- a payout;
+- a revenue share;
+- governance authority;
+- product access;
+- exchange access;
+- liquidity;
+- price support;
+- income;
+- or financial return.
 
-The framework is designed around five linked controls:
+An eligible wallet must satisfy every active rule for the relevant participation period, including the applicable:
 
-1. define active eligibility rules;
-2. identify eligible FUZE-holding wallets;
-3. complete the required activation gates;
-4. approve value from defined and reconciled product revenue pools; and
-5. operate snapshots, claims, reporting, audit, pause, and correction processes under governance controls.
+- framework status;
+- token condition;
+- snapshot method;
+- wallet-control or beneficial-ownership method;
+- wallet-category treatment;
+- custody treatment;
+- jurisdiction and participant restrictions;
+- identity, account, tax, or compliance checks where required;
+- duplicate and abuse controls;
+- claim or participation process;
+- approved distributable value record;
+- treasury and custody controls;
+- reporting requirements;
+- and correction or dispute procedures.
 
-This is an activation-gated ability inside the FUZE token framework. It does not create automatic eligibility or financial assurance. Detailed risk language is maintained in the [FUZE Risk and Disclosure Appendix](../WHITEPAPER-PAPERS/05-FUZE_RISK_AND_DISCLOSURE_APPENDIX_PUBLIC.md).
+The operating sequence is:
 
----
+```text
+framework approved for stated scope
+-> defined product revenue pool reviewed
+-> approved distributable value recorded
+-> snapshot or eligibility period completed
+-> wallet and custody records evaluated
+-> eligibility status assigned
+-> claim or participation process activated
+-> claim or participation action completed
+-> payout or other approved settlement processed
+-> public-safe reporting and reconciliation completed
+-> correction, pause, closure, or retirement handled where required
+```
 
-## 1. Purpose and Audience
+Each step is separate.
 
-This paper defines the public operating model for wallet-based participation ability.
+A snapshot does not create eligibility by itself.
 
-It explains:
+Eligibility does not create approved distributable value.
 
-- why FUZE uses wallet records;
-- how a FUZE-holding wallet can become eligible;
-- why token holding is only one condition;
-- which readiness areas must be complete before activation;
-- how approved distributable value connects to the model;
-- how custody changes wallet treatment;
-- how snapshots, claims, reports, disputes, and corrections can work;
-- which records can be public;
-- which identity and account records remain permissioned; and
-- how this model stays separate from product usage, payments, revenue, and community access.
+Approved distributable value does not create a claim until the applicable claim or participation process is active.
 
-The paper describes a controlled public framework, not a current claim instruction. Detailed gate requirements belong in [FUZE Participation Activation Gates](./08-FUZE_PARTICIPATION_ACTIVATION_GATES_PUBLIC.md), while deeper architecture belongs in [FUZE Token and Wallet Participation Architecture](../WHITEPAPER-PAPERS/04-FUZE_TOKEN_AND_WALLET_PARTICIPATION_ARCHITECTURE_PUBLIC.md).
+A claim does not create a confirmed payout until authorization, submission, confirmation, settlement, and reconciliation are complete.
 
----
+The model uses wallet records because blockchain data can support public verification without requiring personal identity to be published. Public records may show a wallet address, wallet category, snapshot status, eligibility status, claim status, transaction reference, report hash, correction status, or aggregate result. Personal identity, account evidence, beneficial-ownership evidence, exchange records, tax records, legal records, and support records remain permissioned.
 
-## 2. The Reader Problem
+The model remains separate from:
 
-A blockchain can show that an address holds FUZE token. That fact alone cannot answer every participation question.
+- the Community Participation Round;
+- BOARD / Surfboard Migration;
+- Team Allocation;
+- Holder Incentives;
+- Platform Credits;
+- product payments;
+- stablecoin settlement;
+- product revenue before review;
+- product access;
+- token utility outside the activated framework;
+- DEX or CEX access;
+- liquidity;
+- market price;
+- and financial return.
 
-Readers still need to know:
+This paper is the controlling public reference for wallet-based participation eligibility, wallet and custody treatment, snapshot design, claims, reporting, privacy, corrections, disputes, pauses, and closure.
 
-- who controls the wallet;
-- whether the balance was present at the relevant snapshot;
-- whether the custody method supports wallet-level evidence;
-- whether the wallet belongs to an excluded category;
-- whether the jurisdiction is supported;
-- whether private verification is required;
-- whether approved distributable value exists for the period;
-- whether the framework and claim process are active; and
-- how an error can be reviewed and corrected.
+The detailed activation checklist appears in [FUZE Participation Activation Gates](08-FUZE_PARTICIPATION_ACTIVATION_GATES_PUBLIC.md).
 
-Without those rules, a token balance can be mistaken for an active right. The FUZE model solves this by treating eligibility as a reviewed status supported by records, rather than an assumption attached to every balance.
+The value-calculation model appears in [FUZE Approved Distributable Value Model](09-FUZE_APPROVED_DISTRIBUTABLE_VALUE_MODEL_PUBLIC.md).
 
----
+## Purpose of This Paper
 
-## 3. FUZE Public Position
+This paper explains:
 
-Wallet-based participation ability is an activation-gated ability under the FUZE token framework. Where activated, it can allow an eligible FUZE-holding wallet to participate in approved distributable value from defined FUZE product revenue pools under the rules for that period.
+- the public participation position;
+- the relationship among FUZE token, wallets, approved distributable value, claims, and payouts;
+- framework activation and status;
+- wallet eligibility;
+- wallet and custody classes;
+- snapshot and eligibility-period methods;
+- token-balance treatment;
+- wallet-control and beneficial-ownership evidence;
+- product-revenue-pool treatment;
+- approved distributable value;
+- claim and participation workflows;
+- payout and settlement states;
+- data, privacy, and identity boundaries;
+- public reporting and auditability;
+- corrections, disputes, appeals, abuse, and incidents;
+- pause, closure, and retirement;
+- status and evidence requirements; and
+- public limitations.
 
-The public position has four parts:
+This paper does not replace:
+
+- an activation decision;
+- an activated participation notice;
+- a product-revenue-pool definition;
+- an approved distributable value record;
+- a snapshot specification;
+- wallet eligibility rules for a specific period;
+- jurisdiction-specific terms;
+- identity or tax procedures;
+- claim instructions;
+- payout instructions;
+- custody agreements;
+- smart-contract specifications;
+- legal or tax advice;
+- accounting treatment;
+- sanctions or restricted-party procedures;
+- or the token risk register.
+
+The broader technical architecture appears in [FUZE Token and Wallet Participation Architecture](../WHITEPAPER-PAPERS/04-FUZE_TOKEN_AND_WALLET_PARTICIPATION_ARCHITECTURE_PUBLIC.md).
+
+## Public Position
+
+Wallet-based participation is a conditional ability inside the FUZE token framework.
+
+Where activated, an eligible FUZE-holding wallet may participate in approved distributable value from defined FUZE product revenue pools under the rules for the applicable period.
+
+The public position has six parts.
 
 | Principle | Meaning |
 |---|---|
-| Token holding is a condition, not the whole decision | A wallet must satisfy all active eligibility requirements |
-| Activation comes before operation | Claims or participation records operate only after required gates and approvals are complete |
-| Value is reviewed before it enters the framework | Product revenue must pass reconciliation, deductions, reserves, review, and approval |
-| Transparency protects identity | Public wallet status can be visible while personal and account records remain permissioned |
+| Holding is necessary only where the active rules require it | FUZE holding may be one eligibility condition, but not the complete decision |
+| Activation precedes operation | No claim or payout process exists until the required gates and approvals are complete |
+| Revenue is reviewed before participation | Product revenue must pass definition, reconciliation, deductions, reserves, review, and approval |
+| Eligibility is period- and scope-specific | A wallet eligible for one period or mechanism may be ineligible for another |
+| Public wallet evidence remains separate from private identity | Wallet status may be public while identity and account records remain permissioned |
+| Claims and payouts are separate states | Eligibility, claim, approval, payout, settlement, and reconciliation must not be merged |
 
-Wallet eligibility can change when rules, custody, transfers, jurisdiction, verification, snapshot timing, or framework status change. A status for one period or feature does not establish permanent eligibility.
+The model should never be described as a guaranteed dividend, automatic revenue share, passive-income promise, staking return, yield program, or assured payout.
 
----
+## Core Definitions
 
-## 4. Core Participation Model
+### FUZE-Holding Wallet
 
-The model moves through a controlled sequence.
+A FUZE-holding wallet is an address or supported custody record associated with FUZE token under the applicable token and network definitions.
 
-| Stage | Main Question | Record or Decision |
+A holding record alone does not establish:
+
+- wallet control;
+- beneficial ownership;
+- unique personhood;
+- eligibility;
+- supported custody;
+- supported jurisdiction;
+- claim availability;
+- or payout entitlement.
+
+### Eligible FUZE-Holding Wallet
+
+An eligible FUZE-holding wallet is a wallet or supported custody record that satisfies every active condition for a defined participation scope and period.
+
+Eligibility may depend on:
+
+- token balance;
+- holding period;
+- average balance;
+- snapshot inclusion;
+- continued holding;
+- wallet-control proof;
+- beneficial-ownership proof;
+- wallet category;
+- custody class;
+- jurisdiction;
+- verification;
+- conduct and abuse review;
+- duplicate treatment;
+- active framework status;
+- and other approved rules.
+
+### Participation Period
+
+A participation period is the approved time scope for:
+
+- product revenue review;
+- snapshot or balance measurement;
+- eligibility;
+- claim;
+- payout;
+- reporting;
+- correction;
+- and closure.
+
+These time periods may differ and should be stated separately.
+
+### Product Revenue Pool
+
+A product revenue pool is a defined set of commercial records from an approved FUZE product or product group for a stated period.
+
+A pool should identify:
+
+- included products and transactions;
+- excluded products and transactions;
+- revenue-recognition method;
+- payment assets and networks;
+- refunds and chargebacks;
+- partner shares;
+- taxes;
+- fees;
+- costs;
+- reserves;
+- currency-conversion method;
+- reporting period;
+- and current status.
+
+### Approved Distributable Value
+
+Approved distributable value is the amount that remains after the defined revenue pool has completed the applicable:
+
+- reconciliation;
+- deductions;
+- fees;
+- taxes;
+- partner shares;
+- operating costs;
+- support costs;
+- treasury treatment;
+- continuity and risk reserves;
+- accounting review;
+- legal and compliance review;
+- governance approval;
+- and reporting preparation.
+
+Product revenue is an input.
+
+It is not automatically approved distributable value.
+
+### Claim
+
+A claim is an approved request or action made by an eligible wallet under an activated process.
+
+A claim record is not a second FUZE token and should not become a transferable claim asset without full classification and governance review.
+
+### Payout
+
+A payout is the authorized transfer or settlement of approved value under the activated process.
+
+A payout may use an approved asset and network defined for the period.
+
+It should not be assumed that payouts use FUZE token.
+
+### Public Status Record
+
+A public status record is a public-safe representation of framework, wallet, claim, payout, report, correction, or pause state.
+
+It should not expose private identity or permissioned account evidence.
+
+## Operating Model
+
+The framework operates through the following controlled stages.
+
+| Stage | Main question | Required record or decision |
 |---|---|---|
-| Framework status | Is participation activated for the relevant scope? | Public status and governance approval |
-| Revenue-pool scope | Which product revenue pools are included? | Approved pool definition |
-| Value review | What value remains after reconciliation and controls? | Approved distributable value record |
-| Snapshot | Which wallets and balances are recorded under the active method? | Timestamped or block-based snapshot |
-| Eligibility | Which recorded wallets satisfy the active rules? | Eligible, in review, restricted, or ineligible status |
-| Claim or participation | Is an eligible wallet able to complete the active process? | Claim or participation record |
-| Reporting | What public-safe evidence can be published? | Status report, report hash, audit reference |
-| Correction | How are verified errors handled? | Correction, restatement, or dispute record |
+| Framework design | What is the proposed mechanism and scope? | Versioned framework specification |
+| Gate review | Are all applicable readiness areas complete? | Gate matrix and reviewer decisions |
+| Activation | Is the framework active for the stated scope? | Activation record and public notice |
+| Product revenue pool | Which product revenue records are included? | Approved pool definition |
+| Value review | What amount is approved after controls? | Approved distributable value record |
+| Snapshot or eligibility period | Which wallet and balance records are measured? | Snapshot specification and result |
+| Wallet classification | How are wallet and custody categories treated? | Wallet-category registry |
+| Eligibility | Which wallets satisfy all active rules? | Eligible, restricted, in-review, or ineligible record |
+| Claim or participation | Can the eligible wallet complete the active process? | Claim or participation record |
+| Payout or settlement | Has approved value been transferred and settled? | Authorization, transaction, confirmation, and reconciliation records |
+| Reporting | What public-safe evidence is published? | Period report, hashes, references, and methodology |
+| Correction and dispute | How are verified errors handled? | Correction, appeal, dispute, or restatement record |
+| Closure | Are all period obligations completed or controlled? | Final reconciliation and closure record |
 
-Each stage depends on the earlier stages. A snapshot without active rules is only a record. Eligibility without approved value does not create a claim. Technical deployment without governance approval does not activate participation.
+Each stage depends on the required earlier stages.
 
----
+Technical deployment alone does not activate the framework.
 
-## 5. Eligible FUZE-Holding Wallet
+## Activation Model
 
-An **eligible FUZE-holding wallet** is a wallet that holds FUZE token under the applicable rules and satisfies every active eligibility requirement for a defined participation period or process.
+The framework should remain inactive until every applicable gate has a documented outcome.
 
-Eligibility criteria can include:
+### Legal and Jurisdiction Gate
 
-| Area | What the active rules can require |
+- legal structure reviewed;
+- supported and restricted jurisdictions defined;
+- participant terms prepared;
+- public wording reviewed;
+- eligibility and verification requirements defined;
+- sanctions or prohibited-person treatment defined where applicable;
+- tax and reporting considerations reviewed;
+- and unresolved limitations documented.
+
+### Product Revenue and Accounting Gate
+
+- included product revenue pools defined;
+- revenue-recognition rules documented;
+- payment, refund, chargeback, and timing records reconcilable;
+- costs, fees, taxes, partner shares, and reserves defined;
+- accounting review completed;
+- and period-close process ready.
+
+### Treasury and Custody Gate
+
+- approved-value custody defined;
+- source and destination accounts or vaults identified;
+- segregation or subledger controls ready;
+- movement authority defined;
+- multisig or equivalent controls ready where applicable;
+- payout asset and network approved;
+- reconciliation process ready;
+- and pause authority assigned.
+
+### Governance Gate
+
+- activation authority defined;
+- material-change authority defined;
+- value-approval authority defined;
+- snapshot and eligibility authority defined;
+- claim and payout authority defined;
+- conflict controls defined;
+- emergency authority defined;
+- and public decision records prepared.
+
+### Technology and Security Gate
+
+- canonical FUZE token and network references defined;
+- snapshot or balance method implemented and tested;
+- wallet-control methods tested;
+- custody-specific methods tested;
+- eligibility logic tested;
+- claim or participation process tested;
+- payout or settlement process tested;
+- duplicate and abuse controls tested;
+- monitoring active;
+- incident response ready;
+- and pause, rollback, correction, and migration procedures tested.
+
+### Eligibility and Custody Gate
+
+- wallet categories defined;
+- self-custody treatment defined;
+- exchange and omnibus custody treatment defined;
+- institutional and contract-wallet treatment defined;
+- excluded and restricted categories defined;
+- beneficial-ownership evidence defined where needed;
+- address-change and compromised-wallet procedures defined;
+- and dispute treatment ready.
+
+### Privacy and Data Gate
+
+- data inventory completed;
+- collection minimized;
+- public and permissioned records separated;
+- wallet-person mapping access restricted;
+- identity and account evidence protected;
+- retention and deletion rules defined;
+- reporting aggregation defined;
+- and privacy incident response ready.
+
+### Operations and Support Gate
+
+- operating owner assigned;
+- eligibility-review roles assigned;
+- claim and payout support assigned;
+- correction and dispute process active;
+- service expectations defined;
+- provider escalation defined;
+- period-close responsibilities assigned;
+- and continuity plan ready.
+
+### Audit and Reporting Gate
+
+- source records reviewable;
+- methodology documented;
+- calculation and snapshot evidence retained;
+- public report format approved;
+- report hashes or references supported where used;
+- correction and restatement process ready;
+- and reviewer independence or qualification defined where required.
+
+Passing one gate does not satisfy another.
+
+The detailed gate register belongs in [FUZE Participation Activation Gates](08-FUZE_PARTICIPATION_ACTIVATION_GATES_PUBLIC.md).
+
+## Eligibility Model
+
+Eligibility is a rule-based status for one defined process.
+
+### Eligibility Record
+
+An eligibility record may include:
+
+1. participation-period identifier;
+2. framework version;
+3. wallet or custody identifier;
+4. network;
+5. canonical FUZE contract reference;
+6. wallet category;
+7. custody class;
+8. balance or holding-period result;
+9. snapshot or measurement reference;
+10. wallet-control or beneficial-ownership result;
+11. jurisdiction result;
+12. verification result where applicable;
+13. duplicate and abuse result;
+14. restriction or exclusion result;
+15. status;
+16. reason category;
+17. review state;
+18. correction state;
+19. claim eligibility state;
+20. expiry or reassessment time;
+21. public-safe status reference; and
+22. current-as-of date.
+
+### Possible Eligibility Statuses
+
+| Status | Meaning |
 |---|---|
-| FUZE holding | Defined balance, holding status, or holding period |
-| Wallet control | Evidence that the participant controls or beneficially owns the relevant wallet or account |
-| Snapshot | Inclusion under the defined block, time, balance, and category method |
-| Custody | Supported self-custody, exchange custody, institutional custody, or contract-wallet treatment |
-| Wallet category | Exclusion or separate treatment for treasury, reserve, team, advisor, partner, vesting, liquidity, or contract wallets |
-| Jurisdiction | Availability under applicable location and legal restrictions |
-| Verification | Permissioned identity, ownership, account, tax, or eligibility evidence where required |
-| Conduct and integrity | Anti-abuse, duplicate-claim, restricted-party, or manipulation review where required |
-| Framework status | Active participation scope, claim period, and reporting status |
+| Not evaluated | No eligibility decision has been made |
+| Pending data | Required wallet, custody, identity, account, or jurisdiction data remains incomplete |
+| Under review | Required evidence is being evaluated |
+| Eligible | All active requirements are satisfied for the stated scope and period |
+| Eligible subject to conditions | Eligibility exists but one or more stated conditions remain before claim or participation |
+| Restricted | The wallet is recorded but cannot participate under the current rules |
+| Ineligible | One or more active requirements are not satisfied |
+| Suspended | Eligibility is temporarily paused pending review or incident handling |
+| Expired | Eligibility no longer applies after the stated period or condition |
+| Corrected | A prior eligibility result was changed through the approved process |
+| Closed | The period or process is complete and no new action is available |
 
-### Why Holding Alone Is Insufficient
+Eligibility should not be described as permanent unless the approved rules expressly create a continuing status and the continuing conditions are monitored.
 
-A balance cannot establish custody support, jurisdiction, beneficial ownership, snapshot timing, private verification, wallet category, or activation status. Those facts require separate rules and evidence.
+## Token-Balance and Holding Rules
 
-Practical cases show the difference:
+The active framework should define the exact token condition.
 
-- A verified self-custody wallet can prove control and appear directly in an eligible snapshot, subject to the remaining rules.
-- A wallet can meet the holding requirement but remain restricted because its participant is in an unsupported jurisdiction.
-- A wallet that acquired FUZE after the eligibility snapshot can be outside that period even when its current balance is sufficient.
-- A treasury or vesting wallet can hold FUZE while belonging to a controlled category rather than the eligible-holder population.
+Possible methods include:
 
-Eligibility criteria, privacy controls, and exclusions are covered in more depth in [FUZE Wallet-Based Privacy and Eligibility](./26-FUZE_WALLET_BASED_PRIVACY_AND_ELIGIBILITY_PUBLIC.md).
+- balance at a specified block;
+- balance at a specified time;
+- minimum balance over a period;
+- time-weighted average balance;
+- continuous holding for a defined period;
+- balance excluding specified wallet categories;
+- beneficially owned balance under approved custody evidence;
+- or another approved method.
 
----
+The specification should identify:
 
-## 6. Activation Gates
+- network;
+- canonical contract;
+- decimals;
+- balance source;
+- block or timestamp;
+- confirmation or finality;
+- minimum balance or formula;
+- rounding;
+- multiple-wallet treatment;
+- bridged or wrapped-form treatment;
+- locked or vesting treatment;
+- delegated or staked treatment where applicable;
+- transfer effect;
+- continued-holding requirement;
+- correction method;
+- and current status.
 
-The framework can operate only after every required readiness area for the intended scope is complete.
+### Multiple Wallets
 
-| Gate | Required Outcome |
-|---|---|
-| Legal and jurisdiction | Supported structure, public wording, eligibility rules, restrictions, and location treatment |
-| Accounting and product revenue | Defined revenue pools, recognition, reconciliation, costs, deductions, reserves, and period rules |
-| Treasury and governance | Segregated records, approval path, multisig or equivalent controls, pause authority, and controlled movement |
-| Audit and evidence | Reviewable source records, calculation evidence, snapshot evidence, and correction procedures |
-| Reporting | Public-safe status terms, report format, hashes or references, and disclosure readiness |
-| Technology and security | Reviewed snapshot, eligibility, claim, registry, vault, and pause components where used |
-| Eligibility and custody | Wallet categories, proof methods, exchange treatment, contract-wallet treatment, exclusions, and disputes |
-| Privacy and operations | Permissioned identity records, access controls, support process, incident response, and responsible operators |
+The active rules should state whether a participant may:
 
-Readiness can be built before activation. A contract, dashboard, vault, or snapshot tool can be prepared while the participation framework remains inactive.
+- use one wallet only;
+- combine balances across verified wallets;
+- use a designated primary wallet;
+- transfer status between wallets;
+- or participate through a supported custody account.
 
-The gate owners, readiness states, and blocking conditions are defined in the dedicated [activation-gates paper](./08-FUZE_PARTICIPATION_ACTIVATION_GATES_PUBLIC.md).
+Multiple-wallet treatment should include duplicate prevention and privacy controls.
 
----
+### Transfers Around the Snapshot
 
-## 7. Approved Distributable Value
+The rules should address:
 
-Approved distributable value is the reviewed and approved value from defined product revenue pools that can enter the participation framework where activated.
+- transfers before the snapshot;
+- transfers after the snapshot;
+- continued-holding requirements;
+- circular transfers;
+- temporary borrowing;
+- internal custody movements;
+- bridge movements;
+- exchange deposits and withdrawals;
+- and correction of delayed or reorganized records.
 
-The review path can include:
+### Excluded or Separately Treated Wallet Categories
 
-1. identify revenue from an approved product pool;
-2. confirm payment and product records;
-3. reconcile refunds, chargebacks, failed payments, and timing;
-4. apply fees, taxes, operating costs, partner shares, and other approved deductions;
-5. apply treasury, support, risk, and continuity reserves;
-6. complete accounting, legal, treasury, audit, and governance review; and
-7. approve the resulting value and reporting status for the relevant period.
+Possible categories include:
 
-Product revenue is therefore an input to review. The approved amount can be reduced, deferred, or unavailable for a period after the controls are applied.
+- treasury;
+- foundation reserve;
+- transparency or stability reserve;
+- team;
+- advisor;
+- partner;
+- vesting;
+- migration;
+- incentive-program custody;
+- liquidity and market-operations wallets;
+- bridge contracts;
+- exchange hot and cold wallets;
+- custodial omnibus wallets;
+- protocol contracts;
+- burn or inaccessible addresses;
+- disputed wallets;
+- sanctioned or prohibited wallets where applicable;
+- and test wallets.
 
-The calculation and exclusion rules belong in [FUZE Approved Distributable Value Model](./09-FUZE_APPROVED_DISTRIBUTABLE_VALUE_MODEL_PUBLIC.md). This paper focuses on how an approved value record connects to eligible wallets.
+Exclusion or separate treatment should be rule-based and reported at an appropriate aggregate level.
 
----
+## Wallet Control and Beneficial Ownership
 
-## 8. Wallet Types and Custody Treatment
+A blockchain address does not identify the person or organization controlling the economic interest.
 
-Custody determines which records FUZE can verify and how a participant can interact with an activated process.
+The framework may use different proof methods depending on custody.
 
-| Wallet or custody type | Likely treatment under active rules |
-|---|---|
-| Self-custody wallet | Direct balance and signature evidence can support wallet-control review |
-| Exchange custody | User balance can depend on the exchange's internal records, cooperation, and claim support |
-| Institutional or omnibus custody | Beneficial ownership and account-level evidence can be required |
-| Contract wallet or multisig | Contract logic, signer authority, and technical compatibility require review |
-| Vesting or locked contract | Balance and release status can require category-specific treatment |
-| Treasury, reserve, or liquidity wallet | Usually identified as a controlled category rather than an ordinary holder wallet |
+### Self-Custody Proof
 
-### Custody Examples
+Possible evidence includes:
 
-**Verified self-custody wallet:** A holder controls the address, signs the required message, appears in the applicable snapshot, and completes any permissioned checks. The wallet can then receive an eligibility status under the active rules.
+- message signature;
+- transaction from the wallet;
+- approved challenge-response process;
+- smart-account control proof;
+- multisig signer authorization under defined rules;
+- or another reviewed method.
 
-**Exchange-held balance:** The exchange's omnibus address can represent many users. The holder may need exchange-provided evidence, an exchange-supported process, or withdrawal to self-custody before a defined cutoff. Some exchanges may be unsupported.
+The challenge should define:
 
-**Contract wallet:** A multisig or programmable wallet can hold FUZE but require technical review to confirm signing, snapshot, and claim compatibility.
+- domain or service;
+- purpose;
+- wallet;
+- chain;
+- nonce;
+- issue time;
+- expiry;
+- requested action;
+- and replay protection.
 
-Custody-specific design and OTC transfer treatment are covered in [FUZE Exchange Custody and Wallet Participation](./27-FUZE_EXCHANGE_CUSTODY_AND_WALLET_PARTICIPATION_PUBLIC.md).
+FUZE should never request:
 
----
+- seed phrases;
+- private keys;
+- recovery codes;
+- passwords;
+- unrestricted signatures;
+- or withdrawal credentials.
 
-## 9. Snapshot and Record Model
+### Exchange and Omnibus Custody Proof
 
-A snapshot records wallet state under a published method. Depending on the active framework, it can contain:
+Possible evidence may include:
+
+- exchange-supported participation process;
+- account statement;
+- API or provider attestation;
+- signed custody attestation;
+- beneficial-owner register;
+- withdrawal to self-custody before a defined cutoff;
+- or another approved method.
+
+An exchange screenshot alone may be insufficient.
+
+### Institutional Custody Proof
+
+Institutional or qualified custody may require:
+
+- custodian attestation;
+- account-level balance evidence;
+- beneficial-ownership evidence;
+- authorized-signatory evidence;
+- legal-entity verification;
+- and period-specific custody confirmation.
+
+### Contract Wallet and Multisig Proof
+
+The framework should define:
+
+- supported contract types;
+- signer threshold;
+- authorized participant role;
+- beneficial-owner treatment;
+- delegation treatment;
+- claim compatibility;
+- payout destination;
+- and correction or recovery.
+
+### Proof Does Not Establish Every Other Fact
+
+Wallet-control proof does not automatically establish:
+
+- legal identity;
+- beneficial ownership;
+- unique personhood;
+- age;
+- residency;
+- employment;
+- tax status;
+- investor status;
+- customer status;
+- or unrestricted authority.
+
+## Wallet and Custody Classes
+
+| Wallet or custody class | Primary evidence | Main limitation |
+|---|---|---|
+| Self-custody externally owned account | Onchain balance and signature or transaction proof | Key compromise, unsupported recovery, and identity separation |
+| Smart account | Contract-specific control proof and supported signature method | Implementation and compatibility differences |
+| Multisig wallet | Signer and threshold evidence plus authority rules | Multiple controllers and beneficial-owner ambiguity |
+| Exchange custody | Exchange or account-level records | Omnibus address and provider dependency |
+| Institutional custody | Custodian and beneficial-owner evidence | Private account records and provider process |
+| Omnibus or application custody | Operator subledger and custody reconciliation | User balance may not appear directly onchain |
+| Vesting or locked contract | Contract state and beneficiary records | Balance may be restricted and not freely controlled |
+| Bridge or wrapped representation | Backing, bridge, custody, and representation records | Cross-network and operator risk |
+| Treasury, reserve, liquidity, or controlled program wallet | Category and governance records | Normally not an ordinary eligible-holder wallet |
+| Disputed or compromised wallet | Incident and review evidence | Eligibility and payout may require suspension |
+
+Custody-specific rules appear in [FUZE Exchange Custody and Wallet Participation](27-FUZE_EXCHANGE_CUSTODY_AND_WALLET_PARTICIPATION_PUBLIC.md).
+
+## Snapshot and Eligibility-Period Model
+
+A snapshot or measurement process records wallet state under an approved method.
+
+### Snapshot Specification
+
+The specification should identify:
+
+- participation period;
+- snapshot identifier;
+- network;
+- canonical contract;
+- block number or timestamp;
+- block hash where applicable;
+- data source;
+- confirmation depth or finality;
+- balance formula;
+- included and excluded categories;
+- wrapped or bridged treatment;
+- custody treatment;
+- multiple-wallet treatment;
+- transfer treatment;
+- correction window;
+- responsible operator;
+- reviewer;
+- report hash or reference;
+- and current status.
+
+### Snapshot Record
+
+A public-safe snapshot record may include:
 
 - wallet address;
-- chain and verified FUZE contract reference;
-- block number or timestamp;
-- recorded balance;
-- custody or wallet category;
-- lock, vesting, or restriction category;
+- wallet-category code;
+- balance or eligibility band where appropriate;
+- snapshot result;
 - eligibility status;
-- report hash or audit reference; and
-- correction status.
+- claim status;
+- correction status;
+- report reference;
+- and current-as-of date.
 
-The snapshot rules must explain timing, included balances, excluded wallet categories, exchange and contract treatment, transfers, duplicate records, and correction windows.
+Publishing exact balances should be limited to the approved public purpose.
 
-A wallet that receives FUZE after the cutoff belongs to the next applicable review, if any. A transfer after the snapshot can also affect status when active rules require continued holding or prohibit status transfer.
+### Snapshot Does Not Establish Eligibility Alone
 
-Snapshot publication should use public-safe records. Supporting identity, account, legal, and ownership evidence remains permissioned.
+A wallet can appear in a snapshot but remain:
 
----
+- under review;
+- unsupported by custody type;
+- excluded by wallet category;
+- restricted by jurisdiction;
+- missing required verification;
+- associated with a duplicate or abuse concern;
+- or outside the active claim scope.
 
-## 10. Participation Workflow Where Activated
+### Indexing and Chain Events
 
-An activated process can use the following user journey:
+The snapshot method should address:
 
-1. FUZE publishes the framework status, eligible scope, snapshot method, custody treatment, supported jurisdictions, and claim window.
-2. The participant connects or identifies the relevant wallet through the approved channel.
-3. The system verifies the snapshot record, wallet category, balance conditions, and custody evidence.
-4. Permissioned checks are completed where required.
-5. The wallet receives an eligibility status with a reason or review path.
-6. An eligible wallet completes the claim or participation action through the approved contract or operational process.
-7. FUZE records completion, rejection, expiry, pause, or review status.
-8. Public-safe reporting and audit evidence are published according to the reporting policy.
+- stale indexers;
+- provider outages;
+- chain reorganizations;
+- delayed finality;
+- bridge delays;
+- contract upgrades;
+- token migrations;
+- and data mismatches.
 
-An eligibility or claim discrepancy should enter a support and review process rather than being corrected through an undocumented manual change.
+A verified indexing or classification error should enter the correction process.
 
-For example, if a verified self-custody wallet is omitted because of a snapshot indexing error, the participant can submit evidence through a permissioned channel. Reviewers can compare the block record, correct the status, publish a correction reference, and preserve the audit trail.
+## Product Revenue Pools
 
----
+A wallet-based participation period may include one or more approved product revenue pools.
 
-## 11. Public Transparency and Private Identity
+Each pool definition should identify:
+
+- pool identifier;
+- product or product group;
+- included transaction types;
+- excluded transaction types;
+- revenue-recognition basis;
+- payment assets and networks;
+- Platform Credit treatment;
+- refunds;
+- chargebacks;
+- taxes;
+- payment fees;
+- provider fees;
+- partner shares;
+- support costs;
+- operating costs;
+- treasury treatment;
+- reserves;
+- currency conversion;
+- accounting period;
+- close process;
+- reviewer;
+- and current status.
+
+### Platform Credits
+
+Platform Credit purchase is not automatically revenue available for participation.
+
+The product and accounting model should define whether revenue is recognized at:
+
+- purchase;
+- allocation;
+- consumption;
+- service delivery;
+- expiry;
+- or another approved point.
+
+Platform Credit balances remain separate from FUZE token holdings and wallet eligibility.
+
+### Stablecoins and Other Payment Assets
+
+Stablecoins or other approved payment assets may support product payments and payouts.
+
+They remain external assets with separate issuer, network, custody, settlement, and market risks.
+
+Payment activity does not automatically establish wallet eligibility.
+
+## Approved Distributable Value
+
+The approved distributable value process should reconcile:
+
+```text
+defined product revenue pool
+- refunds and chargebacks
+- payment and provider fees
+- taxes and required liabilities
+- partner and third-party shares
+- approved operating and support costs
+- treasury and continuity reserves
+- risk, incident, and other approved reserves
++ or - approved period corrections
+= candidate distributable value
+-> accounting, legal, treasury, audit, and governance review
+= approved distributable value or deferred value
+```
+
+Possible outcomes include:
+
+- approved in full;
+- approved in part;
+- deferred;
+- held in reserve;
+- under review;
+- corrected;
+- unavailable for the period;
+- or rejected.
+
+An approved value record should identify:
+
+1. period;
+2. pool identifiers;
+3. source records;
+4. gross amount;
+5. deductions;
+6. reserves;
+7. currency and conversion method;
+8. approved amount;
+9. payout asset and network where applicable;
+10. custody;
+11. approval authority;
+12. report version;
+13. correction state;
+14. claim or payout availability state;
+15. current-as-of date; and
+16. public and permissioned evidence references.
+
+The detailed methodology belongs in [FUZE Approved Distributable Value Model](09-FUZE_APPROVED_DISTRIBUTABLE_VALUE_MODEL_PUBLIC.md).
+
+## Participation Notice
+
+Before activating a period, FUZE should publish or otherwise provide an approved notice containing the operative public terms.
+
+| Notice field | Required information |
+|---|---|
+| Framework and period identifier | Stable name and controlling version |
+| Status | Preparing, announced, active, snapshot complete, eligibility under review, claim open, payout processing, closed, paused, cancelled, or archived |
+| Product revenue pools | Included products and period |
+| Token condition | Balance, holding period, snapshot, average, continued holding, or other approved rule |
+| Snapshot or measurement | Block, time, method, data source, and correction window |
+| Wallet categories | Included, excluded, restricted, and separately treated categories |
+| Custody support | Self-custody, smart account, exchange, institutional, omnibus, contract, and unsupported treatment |
+| Jurisdiction and participant scope | Supported and restricted participants or locations |
+| Verification | Wallet control, beneficial ownership, identity, account, tax, or other required checks |
+| Approved-value status | Approved, pending, deferred, unavailable, or other current state |
+| Claim or participation window | Start, end, timezone, and expiry |
+| Claim method | Contract, portal, custody, or other approved process |
+| Payout or settlement | Asset, network, fees, timing, and status where applicable |
+| Continued conditions | Continued holding, wallet status, conduct, or other post-snapshot requirements |
+| Data and privacy | Collection, use, retention, public reporting, correction, and sharing |
+| Support and disputes | Eligibility, custody, claim, payout, correction, and appeal routes |
+| Abuse and restrictions | Duplicate, manipulation, prohibited conduct, and restricted-party treatment |
+| Pause and closure | Emergency treatment, outstanding obligations, and archive |
+
+The notice should not describe a claim as open before the claim route is active.
+
+## Participant Workflow Where Activated
+
+### 1. Public Notice
+
+FUZE publishes the active framework and period scope, including:
+
+- product revenue pools;
+- token condition;
+- snapshot or measurement method;
+- wallet and custody treatment;
+- jurisdiction and verification requirements;
+- approved-value status;
+- claim or participation window;
+- payout or settlement treatment;
+- support;
+- corrections;
+- and current status.
+
+### 2. Wallet Identification
+
+The participant identifies or connects the relevant wallet or custody account through the approved channel.
+
+The interface should state:
+
+- why the wallet is required;
+- which data is read;
+- whether a signature or transaction is required;
+- which network and contract apply;
+- fees where applicable;
+- privacy implications;
+- and support.
+
+### 3. Wallet-Control or Custody Evidence
+
+The participant completes the approved proof method for the custody class.
+
+### 4. Snapshot and Token-Condition Review
+
+The system evaluates:
+
+- snapshot inclusion;
+- balance or holding rule;
+- wallet category;
+- custody class;
+- continued conditions;
+- and relevant corrections.
+
+### 5. Permissioned Verification
+
+Where required, authorized reviewers evaluate:
+
+- identity;
+- beneficial ownership;
+- account status;
+- jurisdiction;
+- tax or reporting information;
+- duplicate participation;
+- restricted-party status;
+- or other approved conditions.
+
+### 6. Eligibility Decision
+
+The wallet receives an eligibility status with a public-safe reason category or review route.
+
+### 7. Claim or Participation Action
+
+An eligible wallet completes the activated process.
+
+Possible states include:
+
+- not started;
+- available;
+- submitted;
+- pending review;
+- approved;
+- rejected;
+- expired;
+- duplicate;
+- paused;
+- failed;
+- corrected;
+- or completed.
+
+### 8. Payout or Settlement
+
+Where payout applies, the process records:
+
+- authorization;
+- payout asset;
+- network;
+- destination;
+- amount;
+- fees;
+- submission;
+- confirmation;
+- finality;
+- settlement;
+- failure;
+- retry;
+- correction;
+- and reconciliation.
+
+### 9. Reporting
+
+FUZE publishes public-safe period results and status.
+
+### 10. Closure
+
+FUZE closes the period by resolving or documenting:
+
+- eligibility decisions;
+- claims;
+- payouts;
+- failed transactions;
+- corrections;
+- disputes;
+- unclaimed value;
+- reserves;
+- final reconciliation;
+- reporting;
+- retention;
+- and archive.
+
+## Claim Model
+
+A claim should be available only when:
+
+- the framework is active;
+- the participation period is active;
+- the wallet is eligible;
+- approved distributable value exists;
+- the claim method is active;
+- the participant satisfies any remaining conditions;
+- and the claim window is open.
+
+### Claim Record
+
+A claim record may include:
+
+1. period identifier;
+2. claim identifier;
+3. wallet or custody reference;
+4. eligibility reference;
+5. approved amount or formula result;
+6. payout asset and network where applicable;
+7. destination;
+8. submission time;
+9. claim status;
+10. verification state;
+11. approval state;
+12. payout authorization state;
+13. transaction or settlement reference;
+14. failure or correction state;
+15. dispute state;
+16. public-safe reference;
+17. current-as-of date; and
+18. closure state.
+
+### Claim States
+
+| State | Meaning |
+|---|---|
+| Not available | Claim conditions are not active or satisfied |
+| Available | Eligible wallet may submit during the active window |
+| Submitted | Claim record has been received |
+| Under review | Additional checks are in progress |
+| Approved | Claim is approved but payout may remain pending |
+| Rejected | Claim does not satisfy the active rules |
+| Duplicate | A conflicting or repeated claim requires treatment |
+| Expired | Claim window or completion deadline has passed |
+| Paused | Processing is temporarily stopped |
+| Payout authorized | Transfer or settlement is approved |
+| Payout submitted | Transfer or settlement instruction has been sent |
+| Payout confirmed | Network or provider confirmation exists |
+| Settled | Final settlement and participant treatment are recorded |
+| Failed | Transaction or settlement failed |
+| Corrected | Claim or payout record was corrected |
+| Closed | No further action remains under the normal process |
+
+Claim approval and payout settlement are different states.
+
+## Payout and Settlement Model
+
+The payout model should identify:
+
+- approved-value source;
+- payout asset;
+- network;
+- custody;
+- destination method;
+- conversion method where applicable;
+- participant amount;
+- fees;
+- minimum or dust treatment;
+- batch method;
+- authorization;
+- confirmation and finality;
+- failed-transfer treatment;
+- retry;
+- refund or return;
+- correction;
+- accounting classification;
+- tax or reporting treatment;
+- and current status.
+
+### Payout Asset
+
+The payout asset should be stated explicitly.
+
+Possible treatment may include:
+
+- an approved stablecoin;
+- another approved settlement asset;
+- FUZE token where separately approved and appropriate;
+- or no payout for the period.
+
+The existence of approved distributable value does not determine the payout asset automatically.
+
+### Payout Batch Reconciliation
+
+Each payout batch should reconcile:
+
+```text
+authorized batch amount
+-> submitted transactions or provider instructions
+-> confirmed transactions or settlements
+-> failed, pending, reversed, or returned items
+-> corrected items
+-> participant settlement state
+-> remaining batch balance
+```
+
+### Unclaimed or Failed Value
+
+The active rules should define treatment of:
+
+- unclaimed value;
+- expired claims;
+- failed payouts;
+- unsupported destinations;
+- dust or minimum amounts;
+- returned assets;
+- disputed claims;
+- and unresolved cases.
+
+Unclaimed or failed value should not be silently reassigned.
+
+## Data, Privacy, and Identity Separation
 
 FUZE separates public wallet evidence from private identity and account evidence.
 
-| Public-safe records | Permissioned records |
+| Public-safe record | Permissioned record |
 |---|---|
-| Wallet address | Personal name |
-| Snapshot and eligibility status | Email address or phone number |
-| Claim status where activated | Identification documents |
-| Report hash and audit reference | Tax information |
-| Token-release or contract reference | Exchange account evidence |
-| Correction or pause status | Private wallet-ownership evidence |
-| Public transaction reference | Legal records and private agreements |
-| Aggregate custody category | Accounting workpapers and sensitive support records |
+| Wallet address where appropriate | Personal name and contact information |
+| Wallet category | Identity and beneficial-ownership evidence |
+| Snapshot status | Exchange or custody account records |
+| Eligibility status | Jurisdiction, tax, and compliance information |
+| Claim status | Private claim evidence and support records |
+| Payout transaction reference | Payment and settlement workpapers |
+| Report hash or audit reference | Accounting and audit workpapers |
+| Correction or pause status | Legal analysis and private agreements |
+| Aggregate custody category | Credentials, recovery material, and security evidence |
 
-Public status should reveal only what readers need to verify the framework. Review teams can access additional evidence according to role, legal need, retention policy, and security controls.
+### Public Reporting Boundary
 
-Wallet-level transparency must never be used as a reason to expose personal identity publicly.
+Public reporting should reveal only what is necessary to verify:
 
----
+- framework status;
+- method;
+- wallet-category treatment;
+- aggregate eligibility;
+- approved distributable value status;
+- aggregate claims;
+- aggregate payouts;
+- public transactions;
+- corrections;
+- pauses;
+- and period closure.
 
-## 12. Governance, Audit, Pause, and Correction
+Public reporting should not identify the person behind a wallet unless a separate lawful, necessary, and approved disclosure basis exists.
 
-The participation model requires accountable operations after activation as well as before it.
+### Access Control
 
-Governance controls can include:
+Permissioned records should use:
 
-- defined approvers for framework activation and material changes;
-- role separation for calculations, treasury movement, technical operation, and review;
-- multisig and timelock controls where appropriate;
-- documented snapshot and claim parameters;
-- independent or qualified review where required;
-- public status changes for activation, pause, correction, and retirement;
-- support and dispute windows;
-- versioned reports and report hashes; and
-- incident response for technical, legal, privacy, treasury, or data issues.
+- role-based access;
+- purpose limitation;
+- least privilege;
+- logging;
+- retention controls;
+- secure transfer;
+- incident handling;
+- and correction procedures.
 
-A pause can protect participants while a discrepancy is investigated. Corrections should preserve the original record, explain the updated status, identify the authority for the change, and create a reviewable trail.
+### Wallet-Person Mapping
 
-Material changes to eligibility, value calculation, custody treatment, or claim logic require the same disciplined approval and reporting approach as initial activation.
+A wallet-person mapping is sensitive even when the wallet address is public.
 
----
+It should not be published merely because participation reporting is public.
 
-## 13. Separation From Adjacent FUZE Systems
+Detailed privacy treatment appears in [FUZE Wallet-Based Privacy and Eligibility](26-FUZE_WALLET_BASED_PRIVACY_AND_ELIGIBILITY_PUBLIC.md).
 
-The wallet-based participation model has a specific role and does not replace FUZE's product or payment systems.
+## Public Reporting
 
-| Concept | Role and separation |
+A period report may include:
+
+- framework and period identifier;
+- framework version;
+- current status;
+- product revenue pool scope;
+- approved distributable value status and amount where approved for publication;
+- snapshot method;
+- snapshot block or time;
+- wallet categories;
+- custody treatment;
+- wallets evaluated;
+- eligible, conditional, restricted, ineligible, and under-review counts;
+- claim availability;
+- submitted, approved, rejected, expired, failed, corrected, and settled claim counts;
+- payout asset and network where approved for publication;
+- authorized, submitted, confirmed, failed, returned, corrected, and settled amounts;
+- fees and reserves where approved for publication;
+- unclaimed and unresolved treatment;
+- corrections;
+- disputes;
+- incidents;
+- pauses;
+- report hash or public evidence reference;
+- reviewer;
+- current-as-of date;
+- and closure state.
+
+The report should identify:
+
+- source;
+- method;
+- period;
+- timezone;
+- network;
+- contract;
+- custody scope;
+- definitions;
+- denominator;
+- exclusions;
+- multi-wallet method;
+- test and controlled-wallet treatment;
+- correction state;
+- privacy treatment;
+- and limitations.
+
+### Distinct Metrics
+
+The following should remain separate:
+
+- wallets holding FUZE;
+- wallets in the snapshot;
+- wallets evaluated;
+- wallets with verified control;
+- eligible wallets;
+- eligible participants;
+- claimable wallets;
+- claims submitted;
+- claims approved;
+- payouts authorized;
+- payouts submitted;
+- payouts confirmed;
+- payouts settled;
+- unique persons;
+- product users;
+- customers;
+- and revenue-generating customers.
+
+Wallet counts should not be presented as unique-person counts without an approved methodology.
+
+## Corrections, Disputes, Appeals, and Abuse
+
+### Corrections
+
+A correction may address:
+
+- snapshot omission;
+- incorrect balance;
+- wrong wallet category;
+- wrong custody classification;
+- wallet-control error;
+- beneficial-ownership error;
+- jurisdiction or verification error;
+- duplicate classification;
+- eligibility error;
+- claim error;
+- payout error;
+- transaction or provider error;
+- public-report error;
+- or another material record issue.
+
+The correction record should identify:
+
+- original record;
+- affected period;
+- affected wallet or custody reference;
+- requested correction;
+- evidence;
+- reviewer;
+- decision;
+- eligibility effect;
+- claim effect;
+- payout effect;
+- accounting and reporting effect;
+- public correction reference;
+- and closure.
+
+### Disputes and Appeals
+
+The active notice should define:
+
+- eligible grounds;
+- submission window;
+- required evidence;
+- reviewer;
+- escalation or independence where applicable;
+- treatment of disputed claims or payouts;
+- effect on reserves;
+- finality;
+- and reporting.
+
+An appeal should not create an automatic claim or payout.
+
+### Duplicate and Abuse Controls
+
+The framework may restrict or investigate:
+
+- duplicate claims;
+- multiple wallets controlled by one participant where aggregation is prohibited;
+- circular transfers;
+- temporary borrowing around snapshots;
+- fabricated custody evidence;
+- impersonation;
+- compromised wallets;
+- sanctions or restricted-party concerns;
+- automated abuse;
+- collusion;
+- market manipulation;
+- unauthorized access;
+- or another prohibited practice.
+
+Controls should be proportionate and should preserve a review route for legitimate errors.
+
+## Incident and Pause Model
+
+A participation incident may include:
+
+- incorrect snapshot;
+- wrong contract or network;
+- stale or incomplete indexer data;
+- chain reorganization;
+- eligibility-logic defect;
+- duplicate or abusive claims;
+- contract vulnerability;
+- wallet compromise;
+- custody-provider failure;
+- payout-provider failure;
+- treasury discrepancy;
+- value-calculation error;
+- privacy exposure;
+- unauthorized data access;
+- incorrect public report;
+- partner or exchange misrepresentation;
+- or another material issue.
+
+The incident record should identify:
+
+- identifier;
+- affected framework version and period;
+- affected product pool;
+- affected wallets or custody classes;
+- detection time;
+- original state;
+- impact;
+- affected value;
+- containment;
+- pause, revocation, or block action;
+- claim and payout treatment;
+- user communication;
+- provider and partner communication;
+- correction;
+- reconciliation;
+- public-reporting effect;
+- root-cause review;
+- follow-up;
+- and closure.
+
+### Pause
+
+A pause should state whether it affects:
+
+- new eligibility decisions;
+- wallet verification;
+- claim submission;
+- claim review;
+- payout authorization;
+- payout submission;
+- specific wallet or custody classes;
+- specific product pools;
+- the entire period;
+- or the entire framework.
+
+A pause does not automatically cancel valid obligations.
+
+### Reactivation
+
+Reactivation should require:
+
+- cause identified;
+- correction completed;
+- evidence reviewed;
+- affected records reconciled;
+- user treatment defined;
+- support ready;
+- public status updated;
+- and activation authority approval.
+
+## Closure and Retirement
+
+A participation period may close while some obligations remain under controlled treatment.
+
+Closure should address:
+
+- final revenue-pool close;
+- approved distributable value;
+- final snapshot and eligibility records;
+- claim expiry;
+- payout completion;
+- failed or returned payouts;
+- unclaimed value;
+- disputes and appeals;
+- corrections;
+- reserves;
+- final reconciliation;
+- public reporting;
+- record retention;
+- support;
+- and archive.
+
+Framework retirement should additionally address:
+
+- no new periods;
+- contract or portal deprecation;
+- custody and treasury treatment;
+- outstanding claims and payouts;
+- data retention and deletion;
+- provider termination;
+- public communication;
+- historical records;
+- and final governance decision.
+
+A closed or retired framework should not remain represented as active.
+
+## Separation from Adjacent FUZE Systems
+
+| Concept or process | Primary role | Why it remains separate |
+|---|---|---|
+| FUZE token | Canonical FUZE ecosystem token | Token holding may be one condition but is not the whole participation decision |
+| Wallet-based participation | Activation-gated ability under defined eligibility, value, claim, and payout rules | Specialist mechanism with separate gates and records |
+| Community Participation Round | Community and product-user participation under the 110,000,000 FUZE allocation | Allocation-access process rather than product-revenue participation |
+| BOARD / Surfboard Migration | Eligible legacy-holder continuity under the 25,000,000 FUZE allocation | Separate legacy evidence, conversion, claim, and release process |
+| Platform Credits | Product-consumption units | Credit purchase, grant, balance, or use does not create wallet eligibility |
+| Stablecoins | Approved payment and settlement rails | Payment activity does not create token-holding or participation status |
+| Product revenue | Commercial result before review | Must pass pool definition, reconciliation, deductions, reserves, and approval |
+| Approved distributable value | Reviewed and approved value for a defined period | Does not create a claim until the claim process is active |
+| Token utility | Approved product or ecosystem function involving FUZE token | Utility outside this framework does not create participation eligibility |
+| Claim | Approved request under an active process | Does not equal payout authorization or settlement |
+| Payout | Authorized transfer or settlement | Does not imply future payouts or permanent eligibility |
+| Market access | DEX or possible later CEX access under separate policies | Participation does not create listing or liquidity |
+
+Participation in one FUZE process does not establish eligibility in another unless both processes explicitly allow it.
+
+## Status and Evidence
+
+This paper defines the wallet-based participation model.
+
+It does not independently prove that the framework, a period, a product revenue pool, approved distributable value, snapshot, eligibility process, claim process, or payout process is active.
+
+| Status claim | Evidence direction |
 |---|---|
-| FUZE token | Ecosystem token connected to this framework under token-specific rules |
-| Wallet-based participation ability | Activation-gated ability under defined eligibility and operating rules |
-| Eligible FUZE-holding wallet | Wallet satisfying the requirements for a defined active process |
-| Approved distributable value | Reviewed and approved value from defined product revenue pools where activated |
-| Platform Credits | Product usage mechanism; credit purchase or use does not establish wallet eligibility |
-| Stablecoins | Operational payment, settlement, treasury, and compensation rails; payment activity does not establish participation status |
-| Product revenue | Business revenue before separate reconciliation, reserves, review, and approval |
-| Community Participation Round | Separate framework for eligible community access to its defined token allocation |
+| Framework designed | Versioned specification, scope, owners, dependencies, risks, and current status |
+| Activation gates under review | Gate matrix, owners, evidence, open conditions, and current status |
+| Framework approved for activation | Approval record, exact scope, conditions, support, monitoring, and pause readiness |
+| Framework active for stated scope | Activated notice, current systems, owners, support, reporting, and public status |
+| Product revenue pool defined | Approved pool scope, period, inclusions, exclusions, accounting method, and owner |
+| Approved distributable value recorded | Reconciliation, deductions, reserves, reviewers, approval, custody, and period record |
+| Snapshot specified | Network, contract, block or time, method, categories, custody, correction, and operator |
+| Snapshot completed | Finalized source data, report or hash, reviewer, exceptions, and current status |
+| Wallet control verified | Approved proof method, wallet, period, expiry, and result |
+| Wallet eligible | All active holding, snapshot, custody, jurisdiction, verification, category, conduct, and framework rules satisfied |
+| Claim open | Active notice, eligible scope, claim route, window, support, and current availability |
+| Claim approved | Claim record, eligibility reference, amount, reviewer, conditions, and current status |
+| Payout authorized | Approved-value source, amount, destination, asset, network, authority, and controls |
+| Payout submitted | Transaction or provider instruction, amount, destination, status, and monitoring |
+| Payout confirmed | Network or provider confirmation, finality state, and exception treatment |
+| Payout settled | Final participant treatment, accounting reconciliation, and closure state |
+| Period closed | Revenue, value, snapshot, eligibility, claims, payouts, disputes, corrections, and final reporting reconciled |
+| Framework paused | Approved pause, affected scope, obligations, support, communication, and reactivation conditions |
+| Record corrected | Original record, error, authority, corrected record, participant effect, and public update |
 
-The Community Participation Round has its own audience, allocation purpose, and access workflow in [FUZE Community Participation Round](./06-FUZE_COMMUNITY_PARTICIPATION_ROUND_PUBLIC.md). Participation in that round does not establish eligibility under this wallet model.
+The following do not independently establish eligibility, claim, or payout status:
 
----
+- this paper;
+- token holding;
+- a wallet balance;
+- a wallet screenshot;
+- a snapshot draft;
+- product usage;
+- Platform Credit activity;
+- stablecoin payment;
+- a revenue figure;
+- a deployed contract;
+- a dashboard;
+- code;
+- a repository;
+- an internal test;
+- a partner discussion;
+- an exchange discussion;
+- a public announcement without operating evidence;
+- or token price activity.
 
-## 14. Concise Risk and Disclosure Reference
+## Participation, Product, Value, Market, and Outcome Separation
 
-This framework depends on activation, approved rules, eligible-wallet status, available approved distributable value, custody support, jurisdiction, security, and continuing governance approval.
+The following remain separate:
 
-Token holding, snapshot inclusion, product usage, credit activity, stablecoin payment, exchange custody, or technical deployment alone does not establish eligibility or claim availability. The framework also creates no assurance regarding payout, income, token price, listing, liquidity, resale, or investment return.
+- FUZE holding;
+- wallet control;
+- beneficial ownership;
+- snapshot inclusion;
+- eligibility;
+- product use;
+- Platform Credit purchase;
+- Platform Credit consumption;
+- payment;
+- product revenue;
+- product revenue pool;
+- candidate distributable value;
+- approved distributable value;
+- claim availability;
+- claim submission;
+- claim approval;
+- payout authorization;
+- payout submission;
+- payout confirmation;
+- payout settlement;
+- product adoption;
+- product revenue growth;
+- DEX access;
+- CEX access;
+- liquidity;
+- market price;
+- and financial return.
 
-Detailed token and participation risks are maintained in:
+Eligibility for one period does not guarantee:
 
-- [FUZE Token Risk Boundaries](./29-FUZE_TOKEN_RISK_BOUNDARIES_PUBLIC.md)
-- [FUZE Risk and Disclosure Appendix](../WHITEPAPER-PAPERS/05-FUZE_RISK_AND_DISCLOSURE_APPENDIX_PUBLIC.md)
+- eligibility for another period;
+- an approved claim;
+- a payout;
+- a particular payout amount;
+- a particular payout asset;
+- continued framework activation;
+- exchange access;
+- liquidity;
+- price support;
+- income;
+- revenue share;
+- or financial return.
 
----
+## Public Boundary
 
-## 15. Key Takeaways
+This paper publishes the operating model for activation-gated wallet-based participation.
 
-- Wallet-based participation ability is an activation-gated part of the FUZE token framework.
-- An eligible FUZE-holding wallet must satisfy the active holding, wallet, snapshot, custody, jurisdiction, verification, and framework rules.
-- FUZE token holding is relevant but insufficient by itself.
-- Required legal, accounting, treasury, audit, reporting, technology, eligibility, custody, privacy, operational, and jurisdiction gates must be complete before operation.
-- Approved distributable value is reviewed value from defined product revenue pools, not an automatic result of product revenue.
-- Self-custody, exchange custody, institutional custody, and contract wallets require different evidence and technical treatment.
-- Snapshots and public status records support reviewability, while personal identity and sensitive evidence remain permissioned.
-- Claims, pauses, disputes, and corrections require governed processes and durable audit records where the framework is activated.
-- Platform Credits, stablecoin operations, product revenue, and the Community Participation Round remain separate from this model.
-- Detailed mechanism and risk treatment stays in the dedicated activation, value, privacy, custody, token-risk, and disclosure papers.
+It does not publish or establish current:
+
+- framework activation;
+- participation-period dates;
+- product revenue pools;
+- approved distributable value;
+- wallet eligibility;
+- balance threshold;
+- holding period;
+- snapshot block or time;
+- supported jurisdictions;
+- required identity or tax checks;
+- supported custody providers;
+- claim window;
+- claim amount;
+- payout asset;
+- payout date;
+- contract address;
+- vault address;
+- DEX activation;
+- CEX approval;
+- liquidity;
+- token demand;
+- token price;
+- income;
+- revenue share;
+- profitability;
+- or financial return
+
+unless those details are separately approved and supported by current evidence in an activated notice, approved-value record, snapshot report, claim process, payout report, specialist paper, or public status record.
+
+FUZE holding, product use, Platform Credit activity, stablecoin payment, community participation, legacy-token holding, exchange custody, or technical deployment do not by themselves establish eligibility or claim availability.
+
+## Key Takeaways
+
+- Wallet-based participation is an activation-gated ability within the FUZE token framework.
+- FUZE holding may be one condition, but holding alone does not create eligibility, claim rights, payout rights, income, or financial return.
+- Eligibility is specific to the active framework version, participation period, token rule, snapshot, wallet category, custody class, jurisdiction, verification, and conduct rules.
+- Product revenue must be defined, reconciled, reduced by applicable costs, fees, taxes, partner shares, and reserves, and formally approved before it becomes approved distributable value.
+- Snapshot inclusion, eligibility, claim availability, claim approval, payout authorization, payout confirmation, and settlement are separate states.
+- Self-custody, smart accounts, multisig wallets, exchange custody, institutional custody, omnibus custody, vesting contracts, and controlled wallets require different evidence and treatment.
+- Wallet-control proof does not establish legal identity, beneficial ownership, unique personhood, residency, tax status, or broad authority by itself.
+- Public reporting may show wallet and status evidence while private identity, account, tax, legal, custody, and support records remain permissioned.
+- Corrections, disputes, abuse reviews, incidents, pauses, reactivation, closure, and retirement require durable records and accountable authority.
+- Community Participation, BOARD / Surfboard Migration, Platform Credits, stablecoin operations, product revenue, token utility, market access, liquidity, price, and financial return remain separate from this model.

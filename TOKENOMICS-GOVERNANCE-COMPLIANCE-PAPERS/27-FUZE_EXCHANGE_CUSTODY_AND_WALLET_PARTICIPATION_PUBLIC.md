@@ -2,391 +2,358 @@
 
 ## Executive Summary
 
-Exchange and institutional custody separate the on-chain wallet from the customer who holds a beneficial account balance. A public exchange address can represent many users, while the exchange controls signing, deposits, withdrawals, internal transfers, and account records.
+Holding FUZE through an exchange or institutional custodian is operationally different from holding it in a self-custody wallet. In self-custody, the holder can usually prove control of a specific address and interact directly with an approved wallet-based process. In exchange or omnibus custody, the custodian controls the on-chain address while individual customer balances exist in a private internal ledger.
 
-This structure affects any FUZE process that relies on wallet control, snapshots, beneficial ownership, direct contract interaction, or user-level claims. Support therefore depends on an approved custody mode, exchange cooperation, account evidence, cutoff rules, jurisdiction treatment, reconciliation, and participant communication.
+This distinction matters whenever a FUZE process uses wallet signatures, snapshots, eligibility checks, contract interactions, migrations, claims, or other activation-gated participation. An exchange listing, deposit service, withdrawal service, or custody relationship does not by itself establish support for any such process.
 
-FUZE can support self-custody directly where the active rules permit wallet signatures and address-level evidence. Exchange-held or omnibus balances can require withdrawal before a cutoff, exchange-provided records, an intermediary distribution process, or an unsupported status.
+This paper defines the public framework for classifying custody, determining which evidence may be required, handling exchange-held balances, protecting customer identity, and communicating supported and unsupported routes. It describes an operating policy, not evidence that any exchange, custodian, claim process, or wallet-based participation mechanism is currently active.
 
-This paper defines those custody modes and operating records. Listing or custody availability alone does not establish participation support.
+## 1. Purpose and Primary Readers
 
----
+This paper is written primarily for FUZE holders, exchanges, custodians, and operators who need to understand how custody affects wallet-based processes.
 
-## 1. Custody Objective
+It answers five practical questions:
 
-The custody framework should answer:
+1. Who controls the on-chain wallet?
+2. Who holds the beneficial account balance?
+3. Which evidence can connect the beneficial holder to the custody record?
+4. Can the holder interact directly with the applicable FUZE process?
+5. What happens when the custodian cannot support the required evidence or action?
 
-1. Who controls the on-chain address?
-2. Who is the beneficial holder?
-3. Which record establishes the user-level balance?
-4. Can the holder sign or interact directly?
-5. How are snapshot cutoffs and transfers handled?
-6. Who submits or receives a claim?
-7. How are aggregate and user records reconciled?
-8. What happens if the custodian cannot support the process?
+The objective is consistent treatment across self-custody, exchange custody, institutional custody, omnibus accounts, smart-contract wallets, and other controlled structures.
 
-The objective is accurate user-level treatment where the custody model can support it.
+## 2. Current Public Position
 
----
+FUZE may use wallet-level records for eligibility, access, reporting, governance direction, or other ecosystem participation where a specific framework has been approved and activated.
 
-## 2. Custody Types
+At the public-documentation level, this paper defines the custody treatment that such a framework could apply. It does not establish that:
 
-| Type | Control and record model |
-|---|---|
-| Self-custody | User controls the address and can usually sign directly |
-| User multisignature | A defined signer group controls a contract or wallet |
-| Smart-contract wallet | Programmable wallet controls execution under its code and signers |
-| Exchange custody | Exchange controls wallets and maintains internal customer balances |
-| Omnibus custody | One or more on-chain addresses represent many beneficial accounts |
-| Institutional custody | Custodian maintains accounts and authority for clients |
-| Staking or protocol custody | Tokens sit in a contract with a receipt, share, or position record |
-| Vesting custody | Tokens remain under a vesting contract or controlled grant record |
-| Treasury or program custody | FUZE or an approved operator controls assets for a defined mandate |
+- a FUZE token contract is deployed or activated;
+- a snapshot or claim window is open;
+- an exchange or custodian supports FUZE participation;
+- exchange-held balances are eligible for a specific process;
+- a listing, liquidity venue, or withdrawal route is available;
+- token holding alone creates a payment, distribution, or participation right.
 
-The active process should define which types it supports and what evidence each requires.
+Any active process must publish its own dated rules, supported networks, custody modes, evidence requirements, cutoffs, privacy treatment, and support route.
 
----
+## 3. Why Custody Changes the Evidence
 
-## 3. Control and Beneficial Ownership
+A blockchain address proves where tokens are recorded on-chain. It does not always identify the person or entity with the economic interest in those tokens.
 
-On-chain control and beneficial ownership can differ.
+With self-custody, the user normally controls the private signing authority and can demonstrate control through a wallet signature. With exchange or omnibus custody:
 
-For self-custody, a valid signature can demonstrate address control. It does not by itself establish every legal, jurisdictional, or account fact.
-
-For exchange or omnibus custody:
-
-- the custodian signs transactions;
-- the public address can aggregate many users;
-- customer balances exist in an internal ledger;
-- deposit and withdrawal times can differ from internal trade times;
-- the customer may lack direct contract access;
+- the exchange or custodian controls the address;
+- one address may represent many customers;
+- customer balances are maintained in an internal ledger;
+- internal trades may not create on-chain transfers;
+- deposit and withdrawal timing may differ from trade timing;
+- the customer may be unable to sign from the custody address;
 - public chain data cannot allocate the omnibus balance among customers.
 
-Eligibility systems should record both custody control and the claimed beneficial position where relevant.
+For that reason, on-chain balance, wallet control, beneficial ownership, account eligibility, and direct interaction must remain separate concepts.
 
----
+## 4. Custody Categories
 
-## 4. Custody Support Modes
+| Custody category | Control and record model | Typical participation implication |
+|---|---|---|
+| Self-custody wallet | User controls the address and signing authority | Can support direct address proof where the active rules permit it |
+| User multisignature | A defined signer group controls the wallet | Requires compatible signing and authority evidence |
+| Smart-contract wallet | Contract code and authorized signers control execution | Requires technical compatibility with the active process |
+| Exchange custody | Exchange controls wallets and records customer balances internally | Usually requires withdrawal or exchange-supported evidence |
+| Omnibus custody | One or more addresses represent many beneficial accounts | Requires user-level allocation and aggregate reconciliation |
+| Institutional custody | Regulated or professional custodian acts for clients | Requires custodian records, authority, and process support |
+| Protocol custody | Tokens are held in staking, liquidity, bridge, vault, or other contracts | Requires a defined method for the underlying position |
+| Vesting custody | Tokens remain subject to a vesting contract or grant record | Requires treatment of locks, release conditions, and ownership |
+| Treasury or program custody | FUZE or an approved operator controls assets for a defined purpose | Must remain separate from ordinary participant balances |
 
-### Direct self-custody
+An active FUZE process should state which categories it supports rather than leaving users to infer support from token visibility alone.
 
-The participant uses a supported address, signs the required message, appears in the applicable snapshot, and interacts directly with the approved process.
+## 5. Supported Custody Modes
 
-### Withdraw-before-cutoff
+A specific FUZE process may use one or more of the following modes.
 
-An exchange user withdraws FUZE to a supported self-custody wallet before the stated snapshot or registration cutoff.
+### 5.1 Direct self-custody
 
-### Evidence-supported account
+The participant uses a supported wallet, provides the required address-level evidence, and interacts directly with the approved process.
 
-FUZE reviews exchange or custodian records that establish the user's eligible balance under the active method.
+### 5.2 Withdrawal before cutoff
 
-### Custodian-assisted
+A customer moves FUZE from an exchange or custodian to a supported self-custody wallet before the published registration, snapshot, or action cutoff.
 
-The custodian supplies user-level data, submits an aggregate record, or supports claims and internal distribution under an approved arrangement.
+### 5.3 Evidence-supported custody account
 
-### Omnibus representative
+The customer provides approved exchange or custodian evidence showing the beneficial balance under the active method. Review remains subject to authenticity, timing, jurisdiction, duplicate, and privacy controls.
 
-The custodian or another authorized representative participates for the omnibus position and remains responsible for user allocation under documented controls.
+### 5.4 Custodian-assisted participation
 
-### Unsupported
+The custodian supplies approved user-level records, supports verification, submits an aggregate position, facilitates direct delivery, or performs an internal allocation under a documented arrangement.
 
-The custody method lacks sufficient user-level evidence, cooperation, technical compatibility, jurisdiction support, or reconciliation capability.
+### 5.5 Authorized omnibus representation
 
-The active notice should identify the supported modes rather than asking users to infer them.
+The custodian or another approved representative acts for an omnibus position and remains responsible for the underlying customer allocation, reconciliation, communication, and exception handling.
 
----
+### 5.6 Unsupported custody
 
-## 5. Exchange Cooperation Record
+A custody route is unsupported when the process lacks sufficient evidence, cooperation, technical compatibility, jurisdiction coverage, data protection, or reconciliation capability.
 
-Where exchange support is used, the record should define:
+A custody provider can be supported for one FUZE process and unsupported for another.
 
-| Field | Required content |
+## 6. Process-Specific Support Record
+
+Before publicly describing an exchange or custodian as supported, the applicable record should define:
+
+| Record field | Required treatment |
 |---|---|
-| Venue and account model | Exchange, network, wallet, and omnibus structure |
-| Supported process | Snapshot, eligibility, migration, claim, or another defined route |
-| Customer evidence | Fields and statement or API method supplied |
-| Cutoff | Trade, ledger, deposit, withdrawal, or snapshot time |
-| Jurisdiction | Supported customer locations and restrictions |
-| Data transfer | Format, security, minimization, and retention |
-| Claim model | Direct customer, exchange aggregate, or internal distribution |
-| Reconciliation | On-chain, omnibus, and customer-ledger matching |
-| Exceptions | Frozen accounts, pending withdrawals, disputes, or unsupported balances |
-| Communication | Responsibilities for customer notices and support |
+| Process scope | Exact snapshot, migration, eligibility, claim, access, or reporting process |
+| Venue and network | Custodian, exchange, chain, contract, and address model |
+| Custody structure | Individual, omnibus, institutional, protocol, or another approved category |
+| Evidence method | Statement, authenticated record, signed confirmation, API record, or allocation file |
+| Controlling cutoff | Block number, timestamp, ledger time, trade time, deposit time, or withdrawal time |
+| Customer coverage | Supported account types, locations, and restrictions |
+| Interaction model | Direct wallet, reviewed destination, aggregate action, or internal allocation |
+| Reconciliation | On-chain position, custodian ledger, customer balances, and exceptions |
+| Data treatment | Minimum fields, secure transfer, reviewers, retention, and deletion |
+| Support ownership | Customer communication, disputes, corrections, and incident response |
+| Approval status | Owner, reviewer, effective date, and current status |
 
-Exchange cooperation should be confirmed before public claims of support.
+Support should not be announced before the cooperation and operating record is approved.
 
----
+## 7. Snapshot and Cutoff Rules
 
-## 6. Snapshot Cutoffs
+Custody systems can produce several different times:
 
-Custody systems can produce several relevant times:
-
-- on-chain block time;
+- blockchain block time;
 - exchange trade time;
 - internal ledger cutoff;
 - deposit credit time;
 - withdrawal debit time;
-- blockchain withdrawal completion;
-- statement generation time.
+- on-chain withdrawal completion time;
+- account-statement generation time.
 
-The active method should select the controlling time and explain pending transactions.
+An active process must select the controlling event and explain how pending transfers are treated.
 
-For example, a withdrawal requested before the snapshot but completed afterward can appear both as an internal debit and an on-chain exchange balance at the block. Reconciliation rules should prevent double counting or omission.
+For example, a withdrawal requested before a snapshot but completed afterward can appear as an internal account debit while the tokens remain inside the exchange's on-chain balance at the snapshot block. Without a reconciliation rule, the position could be counted twice or omitted.
 
-Cutoffs should use an explicit timezone or block number and a consistent treatment across participants.
+Cutoffs should therefore use an explicit block number or a timestamp with timezone, together with documented treatment for pending deposits, pending withdrawals, internal transfers, reversals, and corrections.
 
----
+## 8. Evidence for Exchange-Held Balances
 
-## 7. User-Level Evidence
+Depending on the active process, acceptable evidence may include:
 
-Potential evidence includes:
+- an official account statement;
+- authenticated balance history;
+- trade history relevant to the cutoff;
+- deposit or withdrawal records;
+- an exchange-signed or custodian-signed confirmation;
+- an authenticated API record;
+- a custodian allocation file;
+- an approved account identifier and ownership result;
+- later proof of withdrawal to a supported self-custody wallet.
 
-- official account statement;
-- transaction and trade history;
-- deposit or withdrawal record;
-- exchange-signed or custodian-signed confirmation;
-- authenticated API record;
-- account identifier and beneficial-owner verification;
-- custodian allocation file;
-- proof of a later self-custody withdrawal.
+Screenshots alone may omit context or be altered. Where they are accepted as supporting material, the process should define the required fields, period, authenticity checks, and additional corroboration.
 
-Screenshots alone can be altered or omit relevant context. The method should define authenticity, required fields, date range, and acceptable combinations.
+Customer evidence must remain permissioned. Public reporting may use aggregate custody categories, counts, balances, status totals, hashes, or methodology without publishing customer identity or account records.
 
-Evidence should remain permissioned. Public reports can show aggregate custody categories without exposing account identity.
+## 9. Self-Custody Proof
 
----
+A direct self-custody route may require:
 
-## 8. Self-Custody Proof
-
-A self-custody process can require:
-
-1. supported chain and verified FUZE contract;
+1. a supported network and verified FUZE contract reference;
 2. wallet connection or address submission;
-3. unique signed message;
-4. snapshot or balance check;
+3. a unique signed message;
+4. a balance or snapshot check;
 5. wallet-category and duplicate review;
 6. jurisdiction or private verification where required;
-7. destination compatibility;
-8. eligibility status.
+7. destination and contract compatibility;
+8. a final process-specific status.
 
-The signed message should contain the FUZE domain or process, nonce, purpose, network, and expiration to reduce replay and phishing risk.
+A signed message should identify the FUZE domain or process, purpose, network, nonce, and expiration. This reduces replay and phishing risk while demonstrating address control.
 
-Lost keys, compromised wallets, contract wallets, and multisignatures require their own support route where available.
+A signature proves control of the relevant address at the verification time. It does not by itself prove beneficial ownership, legal identity, jurisdiction, eligibility, or activation of a participation right.
 
----
+## 10. Deposits, Withdrawals, and Internal Transfers
 
-## 9. Exchange Deposits and Withdrawals
+An active custody method should state how it treats:
 
-Deposits and withdrawals can affect both evidence and status.
+- the latest withdrawal time for self-custody treatment;
+- deposits not yet credited internally;
+- withdrawals not yet completed on-chain;
+- internal exchange transfers;
+- subaccounts and institutional accounts;
+- withdrawal fees and the resulting net quantity;
+- wrong-network or unsupported-contract cases;
+- frozen, restricted, or disputed accounts;
+- replacement destination wallets;
+- exchange maintenance or withdrawal suspension.
 
-The method should define:
+Users should receive enough notice to account for third-party processing time. FUZE cannot control an exchange's maintenance, fees, account restrictions, processing speed, internal records, or withdrawal availability.
 
-- latest withdrawal time for self-custody treatment;
-- pending deposit and withdrawal treatment;
-- internal transfer treatment;
-- withdrawal fees and net quantity;
-- wrong-network or unsupported-asset cases;
-- frozen or restricted account cases;
-- replacement destination verification.
+## 11. Interaction and Delivery Models
 
-Users should receive enough notice to understand operational lead times. FUZE cannot control an exchange's processing speed, maintenance, fees, account restrictions, or withdrawal availability.
+Where an approved process requires an action or delivery, the operating model may be one of the following.
 
----
+### Direct wallet interaction
 
-## 10. Claim Models
+A supported self-custody or compatible contract wallet completes the action directly.
 
-### Direct wallet claim
+### Reviewed destination model
 
-An eligible self-custody or compatible contract wallet interacts with the approved claim process.
+A custody customer submits approved account evidence and, after review, provides a supported destination wallet for the applicable process.
 
-### Account-evidence claim
+### Custodian aggregate model
 
-The user provides supported custody evidence and receives an approved destination status after review.
+The custodian acts for an approved aggregate position and performs customer-level allocation through its own controlled ledger.
 
-### Custodian aggregate claim
+### Custodian attest-and-direct model
 
-The custodian claims or receives an aggregate amount and distributes internally according to the approved user-level ledger.
+The custodian confirms approved user-level amounts while eligible customers use verified destination wallets directly.
 
-### Custodian attest-and-direct
+### Controlled manual model
 
-The custodian attests eligible customer amounts while users receive directly to verified destination wallets.
+An authorized operator processes approved user-level records where direct contract interaction is unsuitable, subject to permission, approval, reconciliation, and audit controls.
 
-### Manual controlled distribution
+Each model should identify responsibility for custody, data, fees, corrections, disputes, uncompleted actions, customer support, and final reconciliation.
 
-An operator executes approved user-level records through a permissioned process when direct contract interaction is unsuitable.
+## 12. Omnibus Reconciliation
 
-Each model should identify liability, custody, data, fees, unclaimed amounts, correction, and user-support responsibilities.
+An omnibus process should reconcile the on-chain or custody position to the underlying customer ledger.
 
----
+    Verified omnibus position
+    = eligible customer balances
+    + excluded or unsupported balances
+    + pending and exception balances
 
-## 11. Omnibus Reconciliation
+Where an aggregate amount is processed:
 
-An intermediary process should reconcile three levels:
+    Aggregate amount processed
+    = completed customer amounts
+    + pending customer amounts
+    + returned or uncompleted amounts
+    +/- approved corrections
 
-```text
-Verified omnibus or custody position
-= eligible customer balances
-+ excluded or unsupported balances
-+ pending and exception balances
-```
+The custodian and FUZE should agree on identifiers, precision, timing, exception ownership, and completion evidence. An aggregate on-chain movement does not prove completion for each underlying customer.
 
-For a distribution:
-
-```text
-Aggregate amount received
-= customer amounts completed
-+ pending customer amounts
-+ returned or unclaimed amount
-+/- corrections
-```
-
-The custodian and FUZE should agree on identifiers, periods, precision, and exception ownership. Aggregate on-chain movement is insufficient evidence of customer-level completion.
-
----
-
-## 12. Eligibility Status
-
-Custody-related statuses can include:
+## 13. Process Statuses
 
 | Status | Meaning |
 |---|---|
-| Directly supported | Address-level proof and interaction are supported |
-| Evidence review | Account or beneficial-position evidence is under review |
-| Custodian supported | Approved intermediary process exists |
-| Withdrawal required | Self-custody is required before the cutoff |
-| Pending transfer | Deposit or withdrawal prevents final classification |
-| Unsupported custody | Required records or interaction are unavailable |
-| Restricted | Jurisdiction, account, lock, or policy condition prevents access |
-| Disputed | Ownership, balance, cutoff, or duplicate issue remains open |
+| Directly supported | The process supports address-level proof and direct interaction |
+| Evidence review | Custody or beneficial-position evidence remains under review |
+| Custodian supported | An approved intermediary process exists for the stated scope |
+| Withdrawal required | The user must move to supported self-custody before the cutoff |
+| Pending transfer | A deposit, withdrawal, or internal movement prevents final classification |
+| Unsupported custody | Required records, cooperation, or interaction are unavailable |
+| Restricted | A jurisdiction, account, lock, legal, or process condition prevents access |
+| Disputed | Ownership, balance, timing, allocation, or duplicate treatment remains unresolved |
+| Paused | Processing is temporarily suspended while an issue is reviewed |
+| Corrected | A previous custody decision has been superseded by an approved correction |
 
-Status should be process-specific. An exchange can support trading but remain unsupported for a particular snapshot or claim.
+These statuses are process-specific and time-sensitive. Trading support does not establish snapshot, migration, claim, governance, or participation support.
 
----
+## 14. Transfers, Private Transactions, and Historical Status
 
-## 13. OTC and Private Transfers
+Receiving FUZE through a private or off-market transaction can establish a current token position where the transfer is valid. It does not automatically transfer every historical or contractual status connected to the seller.
 
-An OTC transaction transfers FUZE under a private settlement, but related statuses may remain with the original record.
+A review may need to consider:
 
-Review can include:
-
-- source and destination transaction;
-- trade or agreement time;
+- source and destination transactions;
+- transfer or agreement time;
 - beneficial ownership;
-- lock or vesting;
-- snapshot cutoff;
-- prior claim or migration status;
-- jurisdiction and verification;
-- duplicate or related-party concerns.
+- lock or vesting conditions;
+- snapshot rules;
+- prior migration or claim status;
+- duplicate treatment;
+- jurisdiction and required verification;
+- private rights that do not travel with the token.
 
-The recipient's token balance is evidence of current ownership, not proof that historical eligibility, investor terms, contribution rights, or claim status transferred.
+A current wallet balance is therefore not proof that an earlier snapshot position, private agreement, contribution status, or completed action also transferred.
 
----
+## 15. Smart-Contract and Protocol Custody
 
-## 14. Contract and Protocol Custody
-
-Tokens in staking, liquidity, bridge, lending, vault, or other protocol contracts can be represented by:
+FUZE held in staking, liquidity, bridge, lending, vault, multisignature, or other contract structures may be represented through:
 
 - receipt tokens;
 - pool shares;
 - internal accounting;
 - claimable balances;
-- underlying contract state.
+- underlying contract state;
+- signer or role authority.
 
-The method should define which representation controls, how underlying FUZE is calculated, and how duplicate counting is prevented.
+The active process should define which representation controls, how underlying FUZE is calculated, how duplicate counting is prevented, and whether the contract can perform the required signature or transaction.
 
-Technical compatibility also matters. A contract can hold an eligible economic position while being unable to sign or call the claim interface directly.
+A contract can represent an economic position while remaining technically unable to interact with a particular wallet interface or claim contract.
 
----
+## 16. Privacy and Identity Protection
 
-## 15. Privacy and Data Sharing
-
-Custody records can contain identity, account balances, transaction history, jurisdiction, tax information, and verification data.
+Custody evidence can contain personal identity, account identifiers, balances, transaction history, jurisdiction, tax information, verification results, and support records.
 
 FUZE and any cooperating custodian should define:
 
-- minimum fields;
-- purpose and authority;
-- secure transfer;
+- the minimum required fields;
+- the purpose and authority for collection;
+- secure transfer and storage;
 - permitted reviewers;
+- access logging;
 - retention and deletion;
-- correction;
+- correction and dispute handling;
 - incident responsibilities;
-- public aggregation.
+- approved public aggregation.
 
-Public reporting should keep beneficial-owner identity and exchange account records private.
+Public wallet labels may identify a function such as exchange, custodian, treasury, contract, or program where approved. They should not expose the identity of individual customers or publish wallet-to-person mappings.
 
-The broader data model is defined in [FUZE Wallet-Based Privacy and Eligibility](26-FUZE_WALLET_BASED_PRIVACY_AND_ELIGIBILITY_PUBLIC.md).
+The broader privacy and eligibility model is defined in [FUZE Wallet-Based Privacy and Eligibility](26-FUZE_WALLET_BASED_PRIVACY_AND_ELIGIBILITY_PUBLIC.md).
 
----
+## 17. Incidents, Pauses, and Corrections
 
-## 16. Custody Incidents
-
-Relevant incidents include:
+Custody-related incidents may include:
 
 - exchange suspension or insolvency concern;
 - compromised account or wallet;
 - incorrect customer allocation;
 - delayed or failed withdrawal;
-- missing or corrupted custody records;
-- chain or network mismatch;
-- duplicate claim;
+- missing or corrupted records;
+- unsupported network or contract use;
+- duplicate processing;
 - unauthorized data disclosure;
 - frozen account or legal restriction.
 
-The response should preserve records, pause affected processing, identify balances and users, coordinate with the custodian, communicate status, and document recovery or correction.
+The response should preserve records, pause affected processing where necessary, identify impacted balances and accounts, coordinate with the custodian, communicate the public-safe status, and document recovery or correction.
 
-An exchange incident can affect support even when the FUZE contract and self-custody process remain healthy.
-
----
-
-## 17. Disputes and Corrections
-
-A custody dispute can concern:
-
-- beneficial ownership;
-- eligible balance;
-- trade or transfer timing;
-- account authenticity;
-- omnibus allocation;
-- duplicate records;
-- supported jurisdiction;
-- completed distribution.
-
-The case should preserve original records, active method, new evidence, reviewer decision, corrected amount or status, approval, and downstream report effect.
-
-Corrections should update both customer-level and aggregate reconciliation where applicable.
-
----
+A correction should update both the customer-level record and aggregate reconciliation where applicable while preserving the earlier decision and its reason.
 
 ## 18. Public Reporting
 
-Public custody reporting can include:
+Where a custody-supported process is active, public reporting may include:
 
 - supported custody modes;
-- participating exchange or custodian where authorized;
-- snapshot and cutoff method;
-- aggregate self-custody and intermediary amounts;
-- eligible, pending, unsupported, disputed, and completed categories;
-- claim model;
+- authorized participating custodians or exchanges;
+- applicable network, snapshot, and cutoff method;
+- aggregate self-custody and intermediary categories;
+- directly supported, pending, restricted, unsupported, disputed, and completed totals;
+- interaction or delivery model;
 - reconciliation status;
-- incidents, pauses, and corrections at an appropriate level.
+- public-safe incident, pause, and correction notices;
+- report hashes or methodology references.
 
-Public wallet labels should identify exchange, custodian, treasury, contract, or program function without identifying individual customers.
+Publication should remain proportional to the public purpose. Identity, contact details, account statements, jurisdiction evidence, private agreements, and customer-level custody records remain permissioned or restricted.
 
----
+## 19. Market-Access and Participation Boundary
 
-## 19. Boundaries
+Exchange listing, trading support, custody support, deposits, withdrawals, liquidity, snapshots, claims, and wallet-based participation are separate capabilities.
 
-Exchange listing, trading support, token custody, snapshot support, and participation support are separate capabilities.
+FUZE's public market-access direction is DEX-first, subject to readiness, approval, deployment, liquidity, legal, operational, and disclosure requirements. Possible later CEX access must move through distinct preparation, application, review, approval, and live-access stages. None of those stages should be inferred from this custody framework.
 
-FUZE can define its active rules and direct processes, but third-party custodians control their own accounts, systems, timing, customer records, and cooperation.
+FUZE can define the rules for its own approved processes, but third-party venues control their own accounts, customer ledgers, timing, fees, restrictions, technical support, and cooperation.
 
-Detailed custody and participation risks are maintained in [FUZE Token Risk Boundaries](29-FUZE_TOKEN_RISK_BOUNDARIES_PUBLIC.md).
+Detailed token and custody-related risks are maintained in [FUZE Token Risk Boundaries](29-FUZE_TOKEN_RISK_BOUNDARIES_PUBLIC.md). Market-access treatment is maintained in [FUZE Liquidity and Listing Policy](21-FUZE_LIQUIDITY_AND_LISTING_POLICY_PUBLIC.md).
 
----
+## Key Takeaways
 
-## Conclusion
-
-Custody determines which wallet records FUZE can verify and which party can act.
-
-Direct self-custody, evidence-supported accounts, custodian-assisted claims, omnibus distribution, and unsupported custody each require explicit rules. Cutoff discipline, user-level evidence, aggregate reconciliation, privacy controls, incident handling, and accurate public status prevent exchange-held balances from being mistaken for direct wallet records.
+- Self-custody and exchange custody produce different evidence and interaction capabilities.
+- An exchange address can represent many beneficial holders and cannot establish customer-level balances by itself.
+- Every active FUZE process must publish its own supported custody modes, evidence requirements, cutoffs, privacy treatment, and status.
+- Listing, trading, custody, withdrawal, snapshot, and participation support are separate capabilities.
+- Exchange-held balances may require withdrawal, approved account evidence, custodian cooperation, or an unsupported classification.
+- Customer identity and account records remain permissioned even when aggregate wallet or custody reporting is public.
+- This paper defines a controlled framework and does not establish that any exchange-supported participation process is currently active.

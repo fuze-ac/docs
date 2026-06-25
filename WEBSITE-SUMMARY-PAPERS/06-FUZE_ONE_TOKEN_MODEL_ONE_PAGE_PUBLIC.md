@@ -2,86 +2,341 @@
 
 ## Executive Summary
 
-The FUZE one-token model gives product users, community members, partners, and investors one clear token identity across the ecosystem.
+FUZE uses one public ecosystem token: **FUZE token**.
 
-Across FUZE, FUZE token is the only public ecosystem token. Products can connect to it through defined utility, access, alignment, or participation features without creating a different token for each application.
+Products can connect to FUZE token through approved utility, governance, alignment, or participation functions without creating a separate token for every application.
 
-That simplicity depends on clear separation. Platform Credits handle supported product usage. Stablecoins can support operational payments and settlement. Wallet-based participation, where activated, follows its own eligibility and approval controls. None of those systems becomes another FUZE ecosystem token.
+This simplicity depends on strong separation.
 
-The result is a model built for practical products first: users can access useful services, teams can operate familiar payment workflows, and Web3 features can develop around one consistent token framework.
+- Platform Credits support eligible product consumption.
+- Stablecoins can support approved payment and settlement flows.
+- Product revenue remains a commercial and accounting record.
+- Fundraising proceeds remain financing records.
+- Wallet-based participation, where activated, follows separate eligibility, value, custody, claim, and reporting controls.
+
+None of these adjacent systems becomes another FUZE ecosystem token.
+
+The model is product-first. Users can access useful services without first becoming token participants, while approved Web3 functions can develop around one consistent token identity.
+
+This page explains the public structure and boundaries. It does not establish that token contracts, utility, custody, participation, market access, or other token functions are deployed or active.
 
 ## Why One Token?
 
-An ecosystem becomes harder to understand when every product, reward system, payment method, or community feature introduces a new token-like asset. Users then have to interpret several supplies, utilities, balances, market contexts, and public claims.
+An ecosystem becomes harder to understand when every product, reward system, payment method, game, community feature, or partner program introduces a new token-like asset.
 
-FUZE takes a simpler approach. One token can connect the wider ecosystem while each product remains free to use the commercial model that fits its audience.
+Users then have to interpret multiple:
 
-This structure gives FUZE:
+- token identities;
+- supplies and allocation tables;
+- utility claims;
+- balances and custody routes;
+- market conditions;
+- participation rules;
+- public disclosures.
 
-- one recognizable token identity across products and communities;
-- simpler utility communication for users and partners;
-- clearer reporting and custody treatment;
-- less confusion between product spending and token ownership; and
-- a consistent base for future Web3 features that complete their required reviews.
+FUZE takes a simpler approach.
 
-The detailed policy basis is explained in the [FUZE One Token Model](../TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/03-FUZE_ONE_TOKEN_MODEL_PUBLIC.md).
+One ecosystem token can support approved token-specific functions, while each product remains free to use the commercial model that fits its audience.
 
-## What FUZE Token Connects
+This structure supports:
 
-FUZE token is designed to connect ecosystem-level activity rather than replace ordinary product billing.
+- one recognizable ecosystem token identity;
+- simpler utility communication;
+- clearer supply, custody, and reporting treatment;
+- less confusion between product spending and token ownership;
+- lower risk of multiplying speculative assets across products;
+- a consistent base for approved future Web3 functions.
 
-Depending on the product and its readiness, relevant utility can include product-connected access, community features, ZAGA utility surfaces, platform alignment, governance direction, and public wallet records. Each feature needs a defined purpose and operating rules before it becomes available.
+The detailed policy basis appears in [FUZE One Token Model](../TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/03-FUZE_ONE_TOKEN_MODEL_PUBLIC.md).
 
-This approach also lets products serve different audiences. A shop owner can use an AI service without first learning token mechanics. A Web3 user can engage with token-related features without confusing a product credit balance with token ownership. A partner can integrate selected FUZE rails without adopting every ecosystem component.
+## What FUZE Token Can Connect
 
-The wider set of current and planned utility surfaces is covered in the [FUZE Token Utility Model](../TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/04-FUZE_TOKEN_UTILITY_MODEL_PUBLIC.md).
+FUZE token is intended to connect ecosystem-level activity rather than replace ordinary product billing.
+
+Potential approved utility can include:
+
+- product-connected access or features;
+- ZAGA game and community utility;
+- approved loyalty or incentive programs;
+- community participation;
+- partner or ecosystem programs;
+- governance or signaling functions;
+- wallet-aware evidence and reporting;
+- other token-specific utility supported by current rules.
+
+Each function requires its own:
+
+- user or participant purpose;
+- eligibility;
+- source allocation;
+- technical implementation;
+- custody treatment;
+- economic and accounting treatment;
+- legal and compliance review;
+- security and abuse controls;
+- activation status;
+- reporting and correction process.
+
+A planned utility surface is not an active utility.
+
+A token balance is not proof that a product feature, claim, governance right, distribution, or participation function is available.
+
+The wider utility framework appears in [FUZE Token Utility Model](../TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/04-FUZE_TOKEN_UTILITY_MODEL_PUBLIC.md).
 
 ## What Remains Separate
 
 The one-token model works because adjacent systems retain distinct jobs.
 
-| System | Role in FUZE |
+| System | Primary role |
 |---|---|
-| FUZE token | Connects ecosystem utility and token-specific participation under defined rules |
-| Platform Credits | Measure and enable supported product actions, reports, modules, and AI workflows |
-| Stablecoins | Support selected payment, settlement, treasury, vendor, and contributor operations |
-| Product revenue | Records commercial activity under the relevant product and accounting treatment |
-| Wallet-based participation | Uses a separate activation, eligibility, value-approval, custody, and reporting process |
+| FUZE token | Approved ecosystem utility, governance, alignment, and participation functions |
+| Platform Credits | Eligible product actions, AI tasks, reports, modules, and workflow usage |
+| Stablecoins | Approved payment, settlement, treasury, refund, reserve, vendor, or compensation flows |
+| Product revenue | Commercial records supported by delivery and accounting treatment |
+| Fundraising proceeds | Capital received under the applicable financing process |
+| Wallet records | Address-linked evidence for approved token or participation activity |
+| Treasury records | Controlled assets, obligations, reserves, transfers, and reconciliation |
+| Wallet-based participation | A separately activated mechanism with eligibility, value, custody, claim, and reporting rules |
+| Market access | DEX or CEX availability under separately verified status |
 
-For example, buying credits for an AI report is a product transaction. It does not convert the credit balance into FUZE token. Likewise, paying a vendor in a stablecoin is an operational settlement event, not the creation of a new ecosystem asset.
+These systems can interact, but one does not automatically establish another.
 
-This separation supports both Web2-friendly products and Web3-aware infrastructure. Readers who need the full credit model can use the [FUZE Platform Credits Relationship](../TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/10-FUZE_PLATFORM_CREDITS_RELATIONSHIP_PUBLIC.md).
+For example:
+
+- buying Platform Credits for an AI report does not create FUZE token ownership;
+- a stablecoin payment does not create a new ecosystem token;
+- a customer payment is not automatically reconciled revenue;
+- a wallet balance is not automatic participation eligibility;
+- a token allocation is not circulation;
+- a public pool is not guaranteed liquidity;
+- a venue discussion is not a listing.
+
+The full credit relationship appears in [FUZE Platform Credits Relationship](../TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/10-FUZE_PLATFORM_CREDITS_RELATIONSHIP_PUBLIC.md).
 
 ## Product Usage Comes First
 
-The model starts with products that solve real operating problems. HerHelp supports practical AI SaaS workflows; ZAGA develops game and community utility; and other FUZE products address data, shops, training, communities, events, market intelligence, sponsored discovery, and supervised work execution.
+The one-token model starts with products that solve practical problems.
 
-Shared platform rails can then connect identity, credits, payments, AI orchestration, reporting, permissions, and wallet records where a product needs them. Token utility becomes more meaningful when it supports a working ecosystem instead of standing apart from product activity.
+HerHelp supports business and team workflows. ZAGA develops game and community experiences. Other FUZE products address data, shops, training, communities, events, market intelligence, utility discovery, sponsored visibility, and supervised work assistance.
 
-This order keeps the public message straightforward:
+Shared platform services can then connect:
 
-1. people use products for practical outcomes;
-2. products use shared rails where those rails improve the workflow; and
-3. token-related features connect the broader ecosystem where their rules and readiness support activation.
+- accounts and workspaces;
+- roles and permissions;
+- Platform Credits;
+- payments;
+- AI orchestration;
+- data controls;
+- reporting and evidence;
+- wallet-aware records.
 
-## Wallet Participation in Context
+Token utility becomes more meaningful when it supports a real product or ecosystem function instead of standing apart from product value.
 
-Wallet-based participation ability fits inside the same token framework, but it is a specialized mechanism rather than a default feature of ownership.
+The public sequence is:
 
-If activated for a defined scope, an eligible FUZE-holding wallet would also need to satisfy the applicable snapshot, custody, jurisdiction, verification, reporting, and governance requirements. Any value entering that process would first require reconciliation and approval from defined product revenue pools.
+```text
+useful product -> repeatable workflow -> evidence and controls
+-> approved token utility -> activation and reporting
+```
 
-These controls keep a wallet balance from being treated as a standing claim. They also allow wallet-level records to support transparency while personal identity and sensitive account evidence remain permissioned.
+A product can operate without FUZE token where token mechanics are unnecessary.
 
-The operating model, custody cases, claims, and correction process belong in the [FUZE Wallet-Based Participation Model](../TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/07-FUZE_WALLET_BASED_PARTICIPATION_MODEL_PUBLIC.md).
+A user should not be forced into a wallet or token journey simply to access ordinary product value.
+
+## Token Events Remain Separately Gated
+
+Using one token identity does not mean every token-related event occurs at the same time.
+
+The following events remain separate:
+
+```text
+contract design -> reviewed build -> deployment -> verification
+-> initialization -> allocation funding -> transfer activation
+-> utility -> distribution -> wallet support -> custody support
+-> market access -> wallet-based participation
+```
+
+Completion or preparation of one event does not establish the others.
+
+For example:
+
+- contract deployment does not establish utility;
+- utility design does not establish transfer activation;
+- allocation funding does not establish distribution;
+- wallet support does not establish exchange custody;
+- DEX access does not establish CEX access;
+- token ownership does not establish wallet-based participation.
+
+Each event requires current evidence for the exact network, contract, wallet, allocation, product, custody route, market, or mechanism being discussed.
+
+## Wallet-Based Participation in Context
+
+Wallet-based participation fits inside the FUZE token framework, but it is a specialized mechanism rather than a default feature of token ownership.
+
+If activated for a defined scope, a wallet may need to satisfy rules for:
+
+- eligible-wallet treatment;
+- snapshot inclusion;
+- self-custody or supported exchange custody;
+- jurisdiction and verification;
+- approved value;
+- claim availability;
+- corrections and disputes;
+- security and incident handling;
+- reporting and audit trail.
+
+Any value considered for participation would require source classification, completed paid delivery where relevant, period reconciliation, exclusions, approval, and governance treatment under the active framework.
+
+A wallet balance does not create a standing claim on:
+
+- product revenue;
+- treasury balances;
+- stablecoin balances;
+- reserves;
+- approved distributable value;
+- future distributions.
+
+Public wallet evidence can support reviewability while private identity and account evidence remain permissioned.
+
+The detailed model appears in [FUZE Wallet-Based Participation Model](../TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/07-FUZE_WALLET_BASED_PARTICIPATION_MODEL_PUBLIC.md).
+
+## Custody and Wallet Treatment
+
+Self-custody and exchange custody create different records and risks.
+
+### Self-Custody
+
+A self-custody user directly controls wallet credentials and transactions.
+
+Risks include:
+
+- lost keys or recovery phrases;
+- phishing or malicious approvals;
+- wrong network, address, token, or amount;
+- fake contracts and pools;
+- irreversible transactions;
+- limited recovery.
+
+FUZE should never ask users to reveal private keys or recovery phrases.
+
+### Exchange or Custodian Accounts
+
+A centralized venue or custodian can use omnibus wallets and internal account records.
+
+The visible on-chain address may belong to the venue rather than the individual user.
+
+FUZE may lack the data or authority needed to confirm individual balances, eligibility, claims, or custody disputes without a supported process.
+
+Detailed custody treatment appears in [FUZE Exchange Custody and Wallet Participation](../TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/27-FUZE_EXCHANGE_CUSTODY_AND_WALLET_PARTICIPATION_PUBLIC.md).
+
+## Supply, Allocation, and Circulation
+
+FUZE token has a fixed approved supply of **500,000,000 FUZE** across ten allocation categories.
+
+Allocation defines purpose. It does not establish:
+
+- release;
+- circulation;
+- recipient ownership;
+- market availability;
+- liquidity;
+- price.
+
+Tokens can remain reserved, planned, committed, locked, vesting, released, deployed, circulating, returned, cancelled, disputed, or suspended.
+
+A visible wallet or vault balance should be interpreted with its allocation category, custody status, restrictions, approval, transaction history, and reporting method.
+
+The concise allocation view appears in [FUZE Tokenomics One-Page](./03-FUZE_TOKENOMICS_ONE_PAGE_PUBLIC.md).
+
+## Market Access Remains Separate
+
+The one-token model does not create automatic market access.
+
+FUZE's public direction is DEX-first, with possible CEX consideration later.
+
+This does not establish:
+
+- a live route or pool;
+- deposits, withdrawals, or trading;
+- exchange application or approval;
+- reliable liquidity;
+- market-maker support;
+- price support;
+- resale or investor exit.
+
+A pool or listing does not guarantee depth, continuity, fair execution, price stability, or practical exit.
+
+The public market framework appears in [FUZE Exchange and Market Access Boundary](../INVESTOR-PARTNER-PAPERS/19-FUZE_EXCHANGE_AND_MARKET_ACCESS_BOUNDARY_PUBLIC.md).
+
+## Transparency and Privacy
+
+FUZE can use public allocation tables, labeled wallets or vaults, transaction references, supply summaries, report hashes, governance references, and mechanism-status reports to improve reviewability.
+
+Public reporting should distinguish:
+
+- allocated;
+- reserved;
+- committed;
+- locked or vesting;
+- released;
+- deployed;
+- circulating;
+- returned;
+- cancelled;
+- suspended.
+
+Public blockchain visibility does not remove privacy obligations.
+
+Names, contact details, identification records, private wallet associations, signer details, credentials, private agreements, custody records, and sensitive treasury procedures remain permissioned.
+
+A report hash supports file integrity only. It does not prove that the underlying data is complete, accurate, current, or properly interpreted.
+
+## Current Public Position
+
+The public corpus establishes the one-token policy, fixed supply, allocation structure, utility direction, separation rules, wallet framework, custody boundaries, and market-access direction.
+
+It does not by itself establish:
+
+- token contract deployment or verification;
+- transfer activation;
+- active product utility;
+- distribution;
+- wallet support;
+- custody support;
+- wallet-participation eligibility;
+- approved distributable value;
+- DEX or CEX access;
+- liquidity, price, resale, or investment return.
+
+Current conclusions should rely on dated, scoped evidence for the exact contract, network, allocation, product, wallet, custody route, market, or mechanism being discussed.
 
 ## Public Boundary
 
-The one-token model describes ecosystem structure and utility direction. It does not assure product adoption, wallet eligibility, distributions, token price, market access, liquidity, listing, resale, or investment results.
+The one-token model describes ecosystem structure and policy direction.
 
-Feature activation depends on the relevant product, technical, legal, accounting, security, governance, and operational readiness. Detailed token, market, wallet-participation, and financial boundaries are maintained in the [FUZE Risk and Disclosure Appendix](../WHITEPAPER-PAPERS/05-FUZE_RISK_AND_DISCLOSURE_APPENDIX_PUBLIC.md).
+It does not guarantee:
 
-## The Takeaway
+- product adoption or revenue;
+- token demand;
+- community or migration eligibility;
+- utility activation;
+- wallet eligibility or claims;
+- distributions or approved value;
+- governance influence;
+- custody support;
+- liquidity, listing, price, resale, or exit;
+- financing, acquisition, or investment performance.
 
-FUZE uses one public ecosystem token so products and Web3 features can connect without multiplying token identities. Platform Credits remain focused on product consumption, stablecoins support operational movement of value, and controlled wallet participation remains a separate process within the wider FUZE token framework.
+Token, wallet, custody, market, and participation mechanisms can be delayed, changed, narrowed, paused, restricted, or discontinued.
 
-For readers, the benefit is clarity: one token to understand, distinct systems for distinct jobs, and product value before broader ecosystem participation.
+Detailed token, wallet, market, and financial limitations appear in the [FUZE Risk and Disclosure Appendix](../WHITEPAPER-PAPERS/05-FUZE_RISK_AND_DISCLOSURE_APPENDIX_PUBLIC.md).
+
+## Key Takeaways
+
+- FUZE uses one public ecosystem token rather than creating a separate token for every product.
+- Product value comes first; ordinary product use does not require every user to hold FUZE token.
+- Platform Credits, stablecoins, product revenue, fundraising proceeds, wallet records, treasury records, and market access remain separate systems.
+- Token design, deployment, transfer activation, utility, distribution, custody, market access, and wallet-based participation are independently gated events.
+- A token or wallet balance does not create an automatic claim on revenue, treasury assets, stablecoins, reserves, or future distributions.
+- Public transparency supports review but must preserve privacy, custody security, and contextual reporting.
+- The one-token model improves clarity; it does not promise utility activation, liquidity, price, resale, or investment return.

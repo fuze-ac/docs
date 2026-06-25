@@ -2,265 +2,1361 @@
 
 ## Executive Summary
 
-CommunityLayer AI helps owners, administrators, moderators, and support teams organize work arising from active online communities. It can summarize approved message sets, group repeated questions, prepare support drafts, structure moderation review, record escalation context, assist with onboarding content, and produce public-safe operational reports.
+CommunityLayer AI helps community owners, administrators, moderators, support teams, product teams, event organizers, and other authorized operators turn approved community activity into structured, reviewable work.
 
-The product is intended for product, business, creator, learning, event, game, and Web3 communities that need more structure than a live chat feed provides. It gives human operators queues and review material rather than making final decisions about members.
+It may assist with:
 
-Moderator judgment, emergency response, platform enforcement, legal review, and specialist safety work remain human or organizational responsibilities. Community owners control rules, access, actions, appeals, and published communication.
+- recurring-question grouping;
+- support queues;
+- moderator handovers;
+- report organization;
+- announcement drafts;
+- onboarding material;
+- product-feedback summaries;
+- access-review queues;
+- appeal records;
+- safety escalation support;
+- public-safe reporting; and
+- operational follow-up.
 
----
+The product is designed for product, business, creator, learning, event, game, and Web3 communities that need more structure than a live message stream provides.
 
-## 1. Product Purpose
+CommunityLayer AI does not make final decisions about members. Human operators and the responsible organization retain authority over:
 
-As a community grows, important work becomes difficult to see inside a fast message stream. Questions repeat, product issues are mixed with general discussion, moderator handovers lose context, and public updates can accidentally include private information.
+- rules;
+- access;
+- moderation;
+- enforcement;
+- appeals;
+- safety response;
+- emergency escalation;
+- legal review;
+- public communication; and
+- platform actions.
 
-CommunityLayer AI creates operational structure around that activity. It may help a team:
+AI classifications, summaries, and suggested actions remain working assistance. They can be incomplete, biased, manipulated, outdated, or wrong when context is missing.
+
+The product does not guarantee detection of abuse, scams, threats, impersonation, policy violations, or emergencies.
+
+## Purpose of This Paper
+
+This paper explains:
+
+- the product purpose and intended users;
+- authorized-source intake;
+- support, moderation, safety, verification, and appeal workflows;
+- human review and member-impacting authority;
+- announcement and onboarding processes;
+- cross-product handoffs;
+- Platform Credit usage;
+- data, privacy, and retention controls;
+- anti-abuse and anti-manipulation safeguards;
+- reporting and evidence boundaries;
+- correction and support;
+- status and evidence requirements; and
+- public limitations.
+
+CommunityLayer AI is a specialist product inside [HerHelp AI SaaS](02-HERHELP_AI_SAAS_PUBLIC.md). The wider product family appears in the [FUZE AI SaaS Product Index](01-FUZE_AI_SAAS_PRODUCT_INDEX_PUBLIC.md).
+
+## Product Purpose
+
+As a community grows, important work becomes difficult to see inside a fast-moving message stream.
+
+Common problems include:
+
+- repeated questions;
+- unresolved support requests;
+- product issues mixed with general discussion;
+- moderator handovers without context;
+- reports without owners;
+- appeals without clear status;
+- outdated pinned information;
+- duplicate or coordinated reports;
+- public updates that expose private details;
+- support issues handled in public channels;
+- safety matters remaining in ordinary queues; and
+- community metrics being interpreted without context.
+
+CommunityLayer AI creates operational structure around approved community activity.
+
+It may help a team:
 
 - identify recurring support topics;
 - organize unanswered questions;
-- summarize a defined conversation period;
+- summarize a defined channel, topic, or period;
 - prepare moderator handover notes;
 - group reports by issue type;
-- draft responses or announcements for review;
-- route urgent or specialist matters;
-- maintain onboarding and FAQ material; and
-- report on community activity without publishing member identity.
+- draft replies and announcements for review;
+- route urgent, restricted, or specialist matters;
+- maintain onboarding and FAQ material;
+- organize access or eligibility reviews;
+- track appeals and corrections;
+- aggregate product feedback; and
+- report on community work without publishing member identity.
 
-The product assists the people responsible for a community through defined connections, permissions, and reviewable tasks.
+The product assists the people responsible for the community through defined sources, permissions, queues, review steps, and records.
 
----
-
-## 2. Intended Users
+## Intended Users
 
 | User | Operational need |
 |---|---|
-| Community owner | Rules, roles, oversight, and periodic review |
-| Administrator | Onboarding, announcements, access, and support coordination |
-| Moderator | Review queues, case context, actions, and handovers |
-| Support team | Question grouping, response drafts, and product escalation |
-| Product team | Aggregated feedback and recurring issue patterns |
-| Event organizer | Schedule updates, venue questions, and participant guidance |
-| Trainer | Learning material based on approved recurring questions |
-| Reporting reviewer | Public-safe summaries and operating evidence |
+| Community owner | Rules, roles, oversight, risk boundaries, escalation, and periodic review |
+| Administrator | Onboarding, announcements, access, member support, and workspace configuration |
+| Moderator | Review queues, source context, actions, appeals, and handovers |
+| Safety reviewer | Restricted safety cases, escalation, preservation, and follow-up |
+| Support team | Question grouping, response drafts, account or product escalation |
+| Product team | Aggregated feedback, recurring issues, and product-related trends |
+| Event organizer | Schedule updates, venue questions, registration, and participant guidance |
+| Trainer | Moderator, volunteer, and support-learning material based on approved sources |
+| Verification reviewer | Purpose-limited access or eligibility review |
+| Reporting reviewer | Internal operational reports and public-safe summaries |
+| Appeals reviewer | Independent or senior review of challenged moderation or access decisions |
 
-CommunityLayer AI can support a single group or several separated workspaces. Permissions should reflect each person's responsibility and the sensitivity of the underlying activity.
+CommunityLayer AI may support:
 
----
+- one community;
+- several separated communities;
+- several channels inside one community;
+- product-specific workspaces;
+- event workspaces;
+- language-specific queues; or
+- role-specific restricted workspaces.
 
-## 3. Operating Model
+Permissions should reflect each person's responsibility and the sensitivity of the underlying activity.
 
-Community work moves through six stages.
+## Community Source Model
 
-### 3.1 Intake
+CommunityLayer AI should receive information only from authorized sources.
 
-The workspace receives information from an authorized community connection, approved export, support form, or administrator entry. The owner defines which channels, time periods, and message types are in scope.
+Possible sources include:
 
-### 3.2 Classification
+- approved community connections;
+- selected channels;
+- selected topics;
+- selected time ranges;
+- approved message exports;
+- support forms;
+- report forms;
+- moderator entries;
+- event records;
+- approved product records;
+- appeal submissions;
+- verification submissions; and
+- administrator-supplied source material.
 
-CommunityLayer AI can group activity into categories such as onboarding, product question, bug report, account issue, event question, feedback, rule concern, suspected spam, safety report, or moderator review.
+A source configuration should identify:
 
-Classification is a routing aid. A label should not be treated as a final finding about a person or incident.
+- community or workspace;
+- channel or source;
+- purpose;
+- included message types;
+- excluded message types;
+- time range;
+- roles allowed to access it;
+- retention rule;
+- AI-processing permission;
+- export permission;
+- public-report eligibility; and
+- revocation method.
 
-### 3.3 Queue and assignment
+A connection to one channel should not grant access to every channel, direct message, private group, moderator room, or historical export.
 
-Items can enter support, moderation, announcement, content, or escalation queues. An owner and priority help the team understand who should act and when.
+Private messages should not be included unless the community process, user expectation, platform rules, and applicable authority permit that use.
 
-### 3.4 Human review
+## Operating Model
 
-An authorized operator reads the relevant source context, checks the AI summary, and decides whether to answer, escalate, close, or request more information.
+Community work moves through defined stages.
 
-### 3.5 Action and record
+### 1. Intake
 
-The operator may send an approved response, apply a platform action, update an FAQ, publish an announcement, or refer the matter to another responsible team. The record should distinguish an AI suggestion from the action actually taken.
+The workspace receives an authorized message set, report, support request, appeal, verification submission, event request, or administrator entry.
 
-### 3.6 Follow-up and reporting
+The source record should identify:
 
-Open items, repeated topics, response status, and significant changes can be reviewed over time. Public reporting uses aggregation and redaction appropriate to the audience.
+- source;
+- time;
+- author or reporter reference where permitted;
+- channel;
+- case type;
+- attached evidence;
+- sensitivity;
+- visibility; and
+- current status.
 
----
+### 2. Classification
 
-## 4. Core Workspaces
+CommunityLayer AI may suggest categories such as:
 
-### Community summaries
+- onboarding;
+- product question;
+- bug report;
+- account issue;
+- payment issue;
+- wallet issue;
+- event question;
+- feedback;
+- rule concern;
+- suspected spam;
+- suspected scam;
+- impersonation;
+- harassment;
+- safety report;
+- moderation review;
+- access request;
+- verification review;
+- appeal; or
+- specialist escalation.
 
-A summary can cover a defined channel, topic, or period. It may identify:
+Classification is a routing aid.
+
+A label should not be treated as a final finding about a person, intent, incident, or violation.
+
+### 3. Queue and Assignment
+
+Items may enter:
+
+- support queue;
+- moderation queue;
+- safety queue;
+- verification queue;
+- appeal queue;
+- announcement queue;
+- onboarding queue;
+- product-feedback queue;
+- event queue;
+- legal or compliance escalation; or
+- another approved specialist queue.
+
+A queue item may contain:
+
+- owner;
+- priority;
+- due state;
+- source references;
+- summary;
+- sensitivity;
+- member-impact level;
+- previous actions;
+- escalation path;
+- review status; and
+- correction history.
+
+### 4. Human Review
+
+An authorized operator inspects the relevant source context.
+
+The reviewer should be able to distinguish:
+
+- source message;
+- member report;
+- moderator note;
+- AI summary;
+- AI classification;
+- AI suggestion;
+- prior action;
+- current policy;
+- unresolved fact; and
+- final human decision.
+
+The reviewer decides whether to:
+
+- respond;
+- request more information;
+- move the case;
+- escalate;
+- apply an approved action;
+- close;
+- preserve evidence;
+- publish a general notice;
+- refer to another team; or
+- begin an appeal process.
+
+### 5. Action and Record
+
+An authorized operator may:
+
+- send a reviewed response;
+- update an FAQ;
+- publish an approved announcement;
+- apply a platform action;
+- restrict access;
+- restore access;
+- refer a case;
+- record a safety escalation;
+- request verification;
+- decide an appeal; or
+- take another authorized action.
+
+The record should identify:
+
+- actor;
+- authority;
+- action;
+- policy basis;
+- source reviewed;
+- time;
+- member impact;
+- notification state;
+- appeal availability;
+- correction state; and
+- follow-up requirement.
+
+### 6. Follow-Up
+
+The team may track:
+
+- open items;
+- unanswered items;
+- overdue items;
+- escalations;
+- repeated topics;
+- appeals;
+- restored access;
+- corrected actions;
+- safety follow-up;
+- policy changes;
+- FAQ updates; and
+- unresolved source conflicts.
+
+### 7. Reporting
+
+Internal and public-safe reports may summarize the work performed.
+
+Reporting should use aggregation, redaction, scope, delay, and access controls appropriate to the audience.
+
+## Core Workspaces
+
+### Community Summaries
+
+A summary may cover a defined:
+
+- channel;
+- topic;
+- campaign;
+- event;
+- language;
+- product area; or
+- time period.
+
+Possible outputs include:
 
 - major discussion themes;
 - common questions;
 - product feedback;
 - unresolved support items;
-- announced events or changes;
-- moderator follow-up; and
-- links to source context for authorized reviewers.
+- announced changes;
+- event topics;
+- moderation follow-up;
+- public-information gaps; and
+- source links for authorized reviewers.
 
-Summaries should distinguish observed conversation from interpretation and should avoid presenting general sentiment as a scientific measure.
+Summaries should distinguish:
 
-### Support queue
+- observed messages;
+- member reports;
+- AI interpretation;
+- user-provided context;
+- unresolved issues;
+- confirmed actions; and
+- general sentiment estimates.
 
-Repeated questions and help requests can be grouped by product or issue. CommunityLayer AI may suggest an existing guide, prepare a reply draft, or route the item to a support owner.
+General sentiment should not be presented as a scientific measure unless the method and limitations support that claim.
 
-Account, payment, wallet, safety, and legal matters may require restricted handling or specialist escalation rather than a general community reply.
+### Support Queue
 
-### Moderation review
+Repeated questions and help requests may be grouped by:
 
-The moderation workspace can organize reported messages, likely rule categories, relevant context, previous actions, and proposed next steps. Final action belongs to an authorized moderator.
+- product;
+- feature;
+- account type;
+- event;
+- language;
+- issue category;
+- urgency;
+- known answer;
+- unresolved dependency; or
+- destination team.
 
-Automated outputs can be incomplete or biased by missing context, language, humor, reclaimed terms, or coordinated reporting. Reviewers should be able to inspect the underlying material they are permitted to access.
+CommunityLayer AI may:
 
-### Safety and escalation
+- suggest an approved guide;
+- identify a possible duplicate;
+- draft a reply;
+- prepare a private-response route;
+- organize unresolved details; or
+- route the item to a support owner.
 
-CommunityLayer AI can help identify high-priority reports and preserve an escalation timeline. The community owner defines emergency, platform, security, legal, or wellbeing contacts outside the ordinary queue.
+Account, payment, wallet, identity, safety, legal, employment, tax, and security matters may require restricted handling or specialist escalation rather than a public reply.
 
-The product should not give users the impression that AI monitoring guarantees prevention or immediate response.
+### Moderation Review
 
-### Onboarding and knowledge
+The moderation workspace may organize:
 
-Administrators can turn approved rules, product guidance, and recurring questions into pinned messages, welcome sequences, or learning material. [TrainLayer AI](./06-HERHELP_TRAINLAYER_AI_PUBLIC.md) provides the dedicated workflow for longer guides and moderator training.
+- reported message;
+- relevant context;
+- likely policy category;
+- prior warnings or actions where permitted;
+- reporter information where permitted;
+- moderator notes;
+- proposed next steps;
+- member-impact level;
+- appeal availability; and
+- current status.
 
-### Announcement review
+Final action belongs to an authorized moderator.
 
-CommunityLayer AI can draft event notices, service updates, FAQ changes, rule reminders, and product communication. An authorized publisher checks facts, dates, links, claims, and audience before release.
+Automated outputs may be affected by:
 
----
+- missing context;
+- translation error;
+- sarcasm;
+- humor;
+- slang;
+- reclaimed terms;
+- code words;
+- quoting another person;
+- coordinated reporting;
+- forged evidence;
+- edited screenshots;
+- impersonation;
+- platform limitations; or
+- cultural context.
 
-## 5. Practical Workflows
+Moderators should inspect the underlying material they are authorized to access.
 
-### Product support community
+### Safety and Escalation
 
-The product team connects an approved support channel. CommunityLayer AI groups repeated questions and prepares a daily queue. Support staff answer account-specific matters privately, while recurring general questions become candidates for a reviewed FAQ update.
+CommunityLayer AI may help identify and organize high-priority reports.
 
-### Moderator handover
+The community owner should define restricted escalation paths for matters such as:
 
-At a shift change, the outgoing moderator selects open cases and unresolved reports. The product prepares a concise handover with status, source references, prior actions, and next review time. The incoming moderator confirms the context rather than relying on the summary alone.
+- credible threats;
+- account compromise;
+- scams;
+- impersonation;
+- targeted harassment;
+- doxxing;
+- child-safety concerns;
+- emergency reports;
+- platform abuse;
+- legal notices;
+- security incidents; and
+- specialist wellbeing concerns.
 
-### Scam or impersonation reports
+The workflow may preserve:
 
-Member reports are grouped into a restricted review queue. Moderators inspect relevant evidence, preserve necessary records, apply the community or platform process, and publish a general safety reminder if appropriate. The public notice does not expose reporter identity.
+- source references;
+- report time;
+- urgency;
+- escalation owner;
+- external platform report reference;
+- preservation status;
+- action taken;
+- follow-up; and
+- closure state.
 
-### Event community
+AI monitoring does not guarantee prevention, immediate detection, continuous coverage, or emergency response.
 
-An organizer uses CommunityLayer AI to group schedule, location, registration, accessibility, and support questions. Approved answers feed an event FAQ, while urgent venue changes enter an announcement workflow.
+CommunityLayer AI is not a substitute for platform reporting, emergency services, law enforcement, legal counsel, security specialists, or qualified safety professionals.
 
-### New-member onboarding
+### Access and Verification Review
 
-An administrator reviews the most common beginner questions and selects the material suitable for a welcome sequence. The content explains where to find official information, how to request help, and which conduct rules apply.
+Some communities use access or eligibility checks for:
 
-### Product-feedback review
-
-CommunityLayer AI groups feedback themes and links each theme to the authorized source context. The product team receives an aggregated report rather than a list that unnecessarily identifies individual members.
-
----
-
-## 6. Verification and Access
-
-Some communities use eligibility or access checks for private channels, events, roles, products, or contributor groups. CommunityLayer AI may organize a review queue where such a process is configured.
+- private channels;
+- contributor roles;
+- events;
+- products;
+- partner groups;
+- customer groups;
+- token-gated areas; or
+- other defined purposes.
 
 The community owner should define:
 
-- the legitimate purpose of the check;
-- the minimum required evidence;
-- who may review it;
-- how a decision can be corrected or appealed;
-- how long records are retained; and
-- what information, if any, is suitable for public reporting.
+- legitimate purpose;
+- eligibility rule;
+- minimum evidence;
+- accepted evidence type;
+- reviewer;
+- decision state;
+- expiry or renewal rule;
+- correction path;
+- appeal path;
+- retention rule; and
+- public-report treatment.
 
-A public wallet record may support a narrowly defined eligibility check, but it should not be used to reveal or infer a member's private identity. Exchange-custody and self-custody records may also require different evidence and review processes.
+Possible states include:
 
-Verification support does not make CommunityLayer AI an identity authority and does not justify collecting unrelated personal information.
+- not started;
+- awaiting evidence;
+- under review;
+- approved;
+- conditionally approved;
+- rejected;
+- expired;
+- revoked;
+- corrected; and
+- appealed.
 
----
+A public wallet record may support a narrowly defined check.
 
-## 7. HerHelp Connections
+It should not be used to reveal or infer a member's private identity.
 
-CommunityLayer AI is the community-operations module within [HerHelp AI SaaS](./02-HERHELP_AI_SAAS_PUBLIC.md). Authorized connections may include:
+Exchange-custody and self-custody records may require different evidence and review methods.
 
-- TrainLayer AI for onboarding and moderator learning;
-- [SpeakShop AI](./05-HERHELP_SPEAKSHOP_AI_PUBLIC.md) for approved public announcement scripts;
-- SheetLayer AI for reviewed event, campaign, or reporting data;
-- ShopOS AI for a separately authorized customer or local-business community; and
+Verification support does not make CommunityLayer AI an identity authority.
+
+It does not justify collecting unrelated personal information.
+
+### Appeals
+
+A member-impacting action may support an appeal where the community policy provides one.
+
+An appeal record may include:
+
+- challenged action;
+- action date;
+- policy basis;
+- member submission;
+- supporting evidence;
+- original reviewer;
+- appeal reviewer;
+- conflict-of-interest check;
+- decision;
+- reason;
+- restored or modified access;
+- notification; and
+- correction history.
+
+An appeal should not be decided solely by the same automated output that supported the original action.
+
+Where practical, higher-impact appeals should receive independent or senior human review.
+
+### Onboarding and Knowledge
+
+Administrators may turn approved:
+
+- rules;
+- product guidance;
+- support answers;
+- event instructions;
+- safety notices;
+- escalation paths; and
+- recurring questions
+
+into:
+
+- welcome sequences;
+- pinned messages;
+- FAQs;
+- moderator references;
+- volunteer guidance;
+- customer help; or
+- learning modules.
+
+[TrainLayer AI](06-HERHELP_TRAINLAYER_AI_PUBLIC.md) provides the dedicated workflow for longer learning material and moderator training.
+
+Live case records should be anonymized, redacted, synthesized, or excluded where private identity is unnecessary.
+
+### Announcement Review
+
+CommunityLayer AI may draft:
+
+- event notices;
+- service updates;
+- FAQ changes;
+- rule reminders;
+- product updates;
+- safety reminders;
+- schedule changes;
+- access changes; and
+- correction notices.
+
+An authorized publisher should review:
+
+- facts;
+- dates;
+- times;
+- links;
+- product status;
+- claims;
+- audience;
+- language;
+- personal data;
+- source authority;
+- legal or policy implications; and
+- expiry.
+
+[SpeakShop AI](05-HERHELP_SPEAKSHOP_AI_PUBLIC.md) may support approved public announcement scripts where the community authorizes the handoff.
+
+## Practical Workflows
+
+### Product Support Community
+
+A product team connects an approved support channel.
+
+CommunityLayer AI groups recurring questions and prepares a daily queue.
+
+Support staff handle account-specific, payment, wallet, identity, or security matters privately.
+
+Recurring general questions may become candidates for:
+
+- reviewed FAQ updates;
+- product documentation;
+- onboarding material; or
+- product-team escalation.
+
+### Moderator Handover
+
+At a shift change, the outgoing moderator selects open cases and unresolved reports.
+
+The product prepares a concise handover containing:
+
+- status;
+- source references;
+- previous actions;
+- member-impact state;
+- appeal state;
+- next review time; and
+- unresolved questions.
+
+The incoming moderator confirms the source context rather than relying on the summary alone.
+
+### Scam or Impersonation Reports
+
+Member reports enter a restricted review queue.
+
+Moderators inspect the relevant evidence, preserve necessary records, use the community and platform process, and publish a general safety reminder where appropriate.
+
+The public notice should not expose:
+
+- reporter identity;
+- victim identity;
+- private evidence;
+- security details;
+- internal detection methods; or
+- unverified accusations.
+
+### Event Community
+
+An organizer uses CommunityLayer AI to group:
+
+- schedule questions;
+- location questions;
+- registration issues;
+- accessibility questions;
+- volunteer needs;
+- sponsor questions; and
+- participant support.
+
+Approved answers may feed an event FAQ.
+
+Urgent venue or schedule changes enter an announcement workflow.
+
+Private participant, medical, identity, payment, or safety records remain restricted.
+
+### New-Member Onboarding
+
+An administrator reviews common beginner questions and selects approved material for a welcome sequence.
+
+The content may explain:
+
+- official information sources;
+- rules;
+- roles;
+- how to request help;
+- how to report abuse;
+- how appeals work;
+- which channels serve which purpose; and
+- what information should remain private.
+
+### Product-Feedback Review
+
+CommunityLayer AI groups feedback themes and links them to authorized source context.
+
+The product team may receive:
+
+- aggregated themes;
+- example references;
+- frequency ranges;
+- language or region context;
+- affected feature;
+- unresolved questions; and
+- known collection limitations.
+
+The report should not unnecessarily identify individual members.
+
+### Access Review
+
+A community uses a documented eligibility rule for a private contributor channel.
+
+The reviewer receives only the minimum evidence needed for that rule.
+
+The outcome records:
+
+- rule applied;
+- evidence type;
+- decision;
+- expiry;
+- correction route; and
+- appeal availability.
+
+The process should not collect unrelated identity, financial, or wallet information.
+
+### Appeal Review
+
+A member challenges a moderation action.
+
+The appeal reviewer examines:
+
+- original source;
+- policy version;
+- original action;
+- new evidence;
+- possible conflict of interest;
+- proportionality;
+- previous communication; and
+- correction options.
+
+The appeal outcome may:
+
+- uphold;
+- modify;
+- reverse;
+- restore access;
+- require further review; or
+- close without change.
+
+### Community Learning
+
+Approved recurring questions, moderator procedures, escalation paths, and anonymized scenarios may be sent to [TrainLayer AI](06-HERHELP_TRAINLAYER_AI_PUBLIC.md).
+
+Private live cases, member identities, verification evidence, and safety records should not be transferred unless specifically required and authorized.
+
+## Anti-Abuse and Anti-Manipulation Controls
+
+Community systems can be manipulated.
+
+Relevant risks include:
+
+- coordinated false reports;
+- mass-reporting campaigns;
+- brigading;
+- impersonation;
+- forged screenshots;
+- edited evidence;
+- duplicated reports;
+- bot-generated activity;
+- evasion through alternative accounts;
+- malicious translation;
+- selective quoting;
+- context removal;
+- prompt injection inside connected content;
+- attempts to expose moderator methods; and
+- attempts to influence AI classification.
+
+Controls may include:
+
+- source preservation;
+- duplicate detection;
+- report-rate review;
+- reporter and subject separation;
+- cross-source comparison;
+- restricted evidence handling;
+- reviewer conflict checks;
+- independent appeal review;
+- model-output labeling;
+- minimum-action thresholds;
+- manual confirmation for high-impact actions;
+- correction history;
+- connection revocation; and
+- incident review.
+
+A high report count should not automatically produce a severe action.
+
+A low report count should not automatically mean a matter is safe or insignificant.
+
+## Member-Impacting Actions
+
+Possible member-impacting actions include:
+
+- warning;
+- content removal;
+- message restriction;
+- channel restriction;
+- temporary mute;
+- temporary suspension;
+- role removal;
+- access denial;
+- verification rejection;
+- event removal;
+- ban;
+- restoration;
+- appeal decision; and
+- referral to a platform or specialist team.
+
+Before a material action, the reviewer should consider:
+
+- source reliability;
+- policy version;
+- context;
+- severity;
+- intent where relevant and reasonably assessable;
+- prior actions where permitted;
+- consistency;
+- proportionality;
+- member safety;
+- community safety;
+- reversible alternatives;
+- notification;
+- appeal; and
+- correction.
+
+AI should not directly execute high-impact member actions without the required human authority and product controls.
+
+## HerHelp Connections
+
+CommunityLayer AI may connect to other HerHelp products where the workspace authorizes the handoff.
+
+Possible connections include:
+
+- [TrainLayer AI](06-HERHELP_TRAINLAYER_AI_PUBLIC.md) for onboarding, support, moderator, volunteer, and escalation training;
+- [SpeakShop AI](05-HERHELP_SPEAKSHOP_AI_PUBLIC.md) for approved public announcement scripts;
+- [SheetLayer AI](03-HERHELP_SHEETLAYER_AI_PUBLIC.md) for reviewed event, campaign, support, or reporting data;
+- [ShopOS AI](04-HERHELP_SHOPOS_AI_PUBLIC.md) for a separately authorized customer, staff, volunteer, or local-business community; and
 - product teams that receive routed feedback or support issues.
 
-Each handoff should carry only the information needed by the destination workflow. A training module can use anonymized examples instead of private moderation records.
+Each handoff should carry only the information required for the destination workflow.
 
----
+A training task may use:
 
-## 8. Platform Credit Use
+- anonymized scenario;
+- redacted case;
+- synthetic example;
+- approved rule;
+- approved escalation path; or
+- aggregated pattern
+
+instead of private moderation records.
+
+A product-feedback handoff should not include unrelated:
+
+- member identity;
+- direct messages;
+- payment information;
+- verification evidence;
+- wallet-to-person mappings;
+- safety records;
+- moderator-only notes;
+- credentials; or
+- legal correspondence.
+
+A handoff should identify:
+
+- source product;
+- destination product;
+- selected records;
+- purpose;
+- sensitivity;
+- review status;
+- version;
+- destination permission;
+- retention rule; and
+- correction route.
+
+## AI Role and Human Authority
+
+AI may assist with:
+
+- summarization;
+- topic grouping;
+- duplicate detection;
+- queue routing;
+- reply drafts;
+- handover drafts;
+- announcement drafts;
+- onboarding drafts;
+- feedback aggregation;
+- public-safe report drafts;
+- source-link organization;
+- possible urgency indicators; and
+- possible policy-category suggestions.
+
+AI does not automatically:
+
+- determine truth;
+- determine intent;
+- determine guilt;
+- verify identity;
+- verify wallet ownership;
+- make final moderation decisions;
+- approve access;
+- deny access;
+- decide appeals;
+- make legal conclusions;
+- make emergency decisions;
+- guarantee safety;
+- contact authorities;
+- publish public accusations;
+- expose private evidence; or
+- override community governance.
+
+Review strength should match impact.
+
+| Output or action | Typical review |
+|---|---|
+| General summary | Authorized community operator |
+| Support reply draft | Support owner or administrator |
+| Public announcement | Authorized publisher |
+| Moderation suggestion | Authorized moderator with source review |
+| Access or verification decision | Authorized reviewer applying the defined rule |
+| Appeal decision | Independent or senior human review where appropriate |
+| Safety escalation | Restricted specialist or emergency process |
+| Legal or regulatory matter | Appropriate legal or compliance review |
+| Security or scam incident | Security, platform, or specialist review |
+
+## Platform Credit Use
 
 CommunityLayer AI may use Platform Credits for metered processing such as:
 
 - summarizing a selected discussion period;
-- grouping repeated questions;
+- grouping recurring questions;
 - preparing a support-response draft set;
 - organizing moderation reports;
 - generating a moderator handover;
-- drafting a reviewed announcement;
-- converting questions into onboarding material;
-- preparing an aggregated feedback report; or
-- producing a public-safe community summary.
+- drafting an announcement;
+- converting approved questions into onboarding material;
+- preparing an aggregated feedback report;
+- producing a public-safe community summary;
+- organizing an appeal record;
+- preparing an access-review summary;
+- reviewing duplicate or coordinated-report candidates; or
+- generating an operating report draft.
 
-Credits measure the requested processing action, not the moderator decision or the value of a member's participation. The product should show the applicable usage basis before a chargeable operation is confirmed.
+The product should show, where applicable:
 
-Platform Credits remain separate from the FUZE token.
+- task;
+- source scope;
+- channel or time range;
+- record count;
+- output type;
+- fixed amount, estimate, range, or maximum;
+- available balance;
+- authorization;
+- reservation state;
+- completion condition;
+- partial-completion treatment;
+- failure or reversal treatment; and
+- final usage record.
 
----
+A standard lifecycle may be:
 
-## 9. Data and Permission Controls
+```text
+quote -> authorize -> reserve if needed -> process
+-> complete, partially complete, fail, or cancel
+-> consume, release, reverse, or correct -> record
+```
 
-Community records may include usernames, messages, complaints, support details, safety reports, moderator notes, access evidence, product information, and staff decisions.
+Credits measure the requested processing action.
 
-Relevant controls can include:
+They do not measure:
+
+- moderator judgment;
+- member value;
+- community reputation;
+- severity of a case;
+- truth of a report;
+- validity of an appeal; or
+- quality of participation.
+
+Platform Credits are product usage credits.
+
+They remain separate from:
+
+- community roles;
+- loyalty points;
+- verification status;
+- wallet balances;
+- stablecoins;
+- FUZE token;
+- token participation;
+- claims;
+- payouts;
+- market access; and
+- investment rights.
+
+## Data and Permission Controls
+
+Community records may include:
+
+- usernames;
+- profile references;
+- public messages;
+- private messages where authorized;
+- complaints;
+- support details;
+- account issues;
+- payment issues;
+- wallet references;
+- safety reports;
+- moderator notes;
+- verification evidence;
+- appeal records;
+- product information;
+- staff decisions;
+- platform actions; and
+- legal or security correspondence.
+
+Controls should include, where appropriate:
 
 - channel and time-range selection;
+- workspace separation;
 - role-based access;
-- restricted moderation and safety queues;
+- restricted moderation, safety, verification, and appeal queues;
 - limited source-message visibility;
+- evidence access controls;
+- separation of reporter and subject information;
 - redaction before training or reporting use;
 - separate public and internal drafts;
 - approval before external publication;
+- export restrictions;
 - retention and deletion settings;
+- legal-hold or preservation handling where appropriate;
 - connection revocation;
-- action and correction records; and
-- controls against using private data for unrelated purposes.
+- activity and action records;
+- correction history;
+- provider-routing restrictions;
+- incident handling; and
+- controls against unrelated secondary use.
 
-Members should be informed through the community's appropriate notices and rules about relevant moderation and support processes. Sensitive cases should move into restricted channels rather than remain in public chat.
+Members should be informed through appropriate community notices, rules, policies, and platform processes about relevant moderation, support, verification, and reporting practices.
 
-The platform-wide treatment of authorized sources, retention, and AI processing appears in [FUZE Data, Privacy and AI Data Handling](../CORE-PLATFORM-PAPERS/07-FUZE_DATA_PRIVACY_AND_AI_DATA_HANDLING_PUBLIC.md).
+Sensitive cases should move into restricted channels rather than remain in public chat.
 
----
+Public reports should use aggregated, redacted, delayed, range-based, or otherwise public-safe information.
 
-## 10. Reporting
+Wallet addresses should not be used to expose private identity or create unsupported financial conclusions.
 
-Internal reports may cover:
+The [FUZE Data Privacy and AI Data Handling](../CORE-PLATFORM-PAPERS/07-FUZE_DATA_PRIVACY_AND_AI_DATA_HANDLING_PUBLIC.md) provides the wider model.
 
-- message sets or periods reviewed;
-- support topics and status;
-- repeated questions;
+## AI Provider and Connector Boundaries
+
+Where CommunityLayer AI uses an external model, storage provider, connector, translation service, or communication platform, the product should evaluate:
+
+- source data sent;
+- message scope;
+- personal data sent;
+- purpose;
+- provider retention;
+- model-training or service-improvement settings;
+- authentication;
+- processing location where relevant;
+- subcontractors;
+- deletion capability;
+- output logging;
+- incident handling;
+- service availability;
+- platform terms; and
+- contractual and security controls.
+
+A fallback provider should not silently weaken:
+
+- member privacy;
+- moderator confidentiality;
+- safety-case handling;
+- verification controls;
+- retention;
+- language quality;
+- appeal fairness;
+- publication controls; or
+- user-facing expectations.
+
+Connected content may contain malicious instructions or prompt injection.
+
+The product should treat community content as untrusted input and should not allow messages to override system, workspace, moderation, or privacy controls.
+
+## Reporting
+
+Internal reporting may include:
+
+- source channels or periods reviewed;
+- support topics;
+- unresolved questions;
 - moderation queue volume;
-- actions and appeals;
 - safety escalations;
+- verification queue volume;
+- appeal volume;
+- actions by category;
+- restored or corrected actions;
 - announcement history;
 - onboarding updates;
-- response or closure time; and
-- Platform Credit usage.
+- response or closure time;
+- open cases;
+- overdue cases;
+- duplicate-report candidates;
+- Platform Credit usage;
+- provider or connector incidents; and
+- correction history.
 
-Public-safe reports can describe aggregated activity, published changes, common topics, and completed operating work. They should exclude private messages, personal identity, restricted verification evidence, confidential complaints, and moderator-only analysis.
+Reports should distinguish:
 
-Metrics need context. A higher report count may reflect increased harm, stronger reporting awareness, a campaign, or a change in collection methods. CommunityLayer AI can organize evidence but should not assign a simplistic community-health conclusion.
+- message observed;
+- report received;
+- case opened;
+- case reviewed;
+- action suggested;
+- action taken;
+- appeal submitted;
+- action upheld;
+- action modified;
+- action reversed;
+- access restored;
+- case closed; and
+- public notice published.
 
----
+These states are not interchangeable.
 
-## 11. Product Status and Boundary
+Public-safe reports may describe:
 
-CommunityLayer AI is presented as a developing product. Connections, summaries, classification, moderation support, access review, announcements, and reports may have different release status.
+- aggregated activity;
+- published changes;
+- common topics;
+- support work;
+- resolved operating issues;
+- onboarding updates;
+- public event activity; and
+- reviewed policy changes.
 
-Human operators control member-impacting action. The product cannot guarantee detection of abuse, scams, threats, policy violations, or emergencies, and it is not a substitute for platform reporting, law enforcement, crisis services, legal counsel, or qualified safety specialists.
+They should exclude:
 
-Routine community use does not require FUZE token or wallet participation. Wallet information appears only where an independently authorized access or eligibility process makes it relevant.
+- private messages;
+- personal identity;
+- restricted verification evidence;
+- confidential complaints;
+- moderator-only analysis;
+- security methods;
+- legal correspondence;
+- private partner terms;
+- wallet-to-person mappings; and
+- details that create re-identification risk.
 
----
+Metrics require context.
 
-## 12. Conclusion
+A higher report count may reflect:
 
-CommunityLayer AI turns approved community activity into manageable queues, summaries, handovers, and reports. Its purpose is to help responsible teams see work, preserve context, and communicate consistently.
+- increased harm;
+- stronger awareness;
+- a campaign;
+- a platform change;
+- a reporting change;
+- brigading;
+- spam;
+- a larger community; or
+- better collection.
 
-The product works best when permissions are narrow, moderators inspect source context, escalation paths are defined, and public reporting protects the people behind the community activity.
+A lower report count may reflect:
+
+- lower harm;
+- under-reporting;
+- fear of reporting;
+- platform failure;
+- poor access;
+- collection gaps; or
+- an inactive community.
+
+CommunityLayer AI should not assign a simplistic community-health or trust conclusion from one metric.
+
+Reporting should follow the [FUZE Transparency and Reporting Rails](../CORE-PLATFORM-PAPERS/09-FUZE_TRANSPARENCY_AND_REPORTING_RAILS_PUBLIC.md).
+
+## Error, Correction, and Support Model
+
+CommunityLayer AI should support clear treatment for:
+
+- wrong classification;
+- missing context;
+- duplicate case;
+- coordinated false reporting;
+- forged evidence;
+- incorrect translation;
+- private information in a public draft;
+- unauthorized source access;
+- incorrect queue routing;
+- unsupported moderator suggestion;
+- wrong access decision;
+- wrong verification result;
+- missed appeal;
+- wrong member notification;
+- failed connector;
+- provider failure;
+- incomplete export;
+- Platform Credit mismatch;
+- missing action history; and
+- unresolved correction.
+
+A correction record should identify:
+
+- original source;
+- original case;
+- original classification or action;
+- correction reason;
+- reviewer;
+- corrected state;
+- member impact;
+- access-restoration requirement;
+- appeal impact;
+- public-notice requirement;
+- downstream report effect; and
+- support status.
+
+A corrected or reversed action should not remain represented as current without an explicit historical label.
+
+## Product Status and Evidence
+
+This paper defines the approved public product model.
+
+It does not independently prove that CommunityLayer AI currently has:
+
+- live community connectors;
+- production summarization;
+- classification;
+- moderation queues;
+- safety escalation;
+- verification workflows;
+- appeals;
+- automated announcements;
+- product integrations;
+- active customers;
+- paid delivery;
+- community adoption; or
+- confirmed revenue.
+
+Different functions may reach different stages.
+
+Possible evidence includes:
+
+| Status claim | Evidence direction |
+|---|---|
+| Product designed | Defined users, source model, queues, roles, controls, appeals, reporting, and boundary |
+| Prototype exists | Reviewable intake, support, moderation, handover, verification, appeal, or reporting workflow |
+| Internally tested | Tests for missing context, permissions, false reports, appeals, privacy, connector failure, and correction |
+| Limited release | Controlled communities, supported channels, current terms, support, monitoring, and known limitations |
+| Public beta | Public access route, supported scope, beta terms, support, and release notes |
+| Live | Production access, current functions, support, monitoring, and operating evidence |
+| Paid delivery | Pricing, payment, completed service, support, and customer evidence |
+| Revenue confirmed | Reconciled payment, completed service, accounting treatment, period, and review |
+
+The following do not independently prove a live product:
+
+- a public paper;
+- a sample summary;
+- a moderation mockup;
+- a screenshot;
+- a bot demonstration;
+- code;
+- a repository;
+- a pricing concept;
+- a community announcement; or
+- a roadmap date.
+
+Current status should be checked in the [FUZE Public Status and Roadmap Matrix](../PUBLIC-INDEX/02-FUZE_PUBLIC_STATUS_AND_ROADMAP_MATRIX.md).
+
+## Product and Token Separation
+
+CommunityLayer AI performs a community-operations role.
+
+Routine community use does not require wallet or token participation to explain the product purpose.
+
+The following remain separate:
+
+- community roles;
+- access status;
+- verification status;
+- moderation status;
+- Platform Credits;
+- payments;
+- stablecoins;
+- wallets;
+- FUZE token utility;
+- token participation;
+- claims;
+- payouts; and
+- market access.
+
+A community role, access decision, verification result, wallet link, token balance, payment, or Platform Credit event does not automatically establish:
+
+- personal identity;
+- beneficial ownership;
+- active token utility;
+- wallet eligibility beyond the defined rule;
+- approved distributable value;
+- a claim;
+- token circulation;
+- DEX liquidity;
+- CEX access;
+- token demand;
+- price support; or
+- financial return.
+
+Any product-to-token utility must be separately defined, implemented, authorized, activated, and reported under the relevant specialist papers.
+
+## Public Boundary
+
+CommunityLayer AI can assist with structuring community support, moderation, safety, verification, appeals, onboarding, announcements, and reporting.
+
+It cannot independently establish:
+
+- truth of a report;
+- member intent;
+- policy violation;
+- identity;
+- wallet ownership;
+- legal liability;
+- emergency status;
+- safety;
+- absence of abuse;
+- platform compliance;
+- fairness of every decision;
+- community health;
+- public trust;
+- adoption;
+- revenue;
+- token rights;
+- listing;
+- liquidity;
+- price support; or
+- financial return.
+
+Community owners and authorized operators remain responsible for:
+
+- rule design;
+- notices;
+- source authority;
+- moderator training;
+- human review;
+- member-impacting actions;
+- proportionality;
+- appeals;
+- safety escalation;
+- emergency processes;
+- legal and platform reporting;
+- evidence handling;
+- public communication;
+- privacy;
+- correction; and
+- compliance with applicable rules.
+
+Detailed product risks appear in [FUZE Product Risk Boundaries](16-FUZE_PRODUCT_RISK_BOUNDARIES_PUBLIC.md). Consolidated limitations appear in the [FUZE Risk and Disclosure Appendix](../WHITEPAPER-PAPERS/05-FUZE_RISK_AND_DISCLOSURE_APPENDIX_PUBLIC.md).
+
+## Key Takeaways
+
+- CommunityLayer AI turns approved community activity into queues, summaries, handovers, reviews, and reports.
+- Human operators retain authority over moderation, access, verification, appeals, safety, and public communication.
+- AI classifications and suggestions are routing aids, not final findings.
+- High-impact actions require source review, proportionality, authority, and appropriate appeal or correction paths.
+- Verification should use minimum necessary evidence and should not become general identity collection.
+- Community systems need anti-abuse controls for coordinated reports, forged evidence, impersonation, and prompt injection.
+- Platform Credits meter defined processing tasks and remain separate from roles, verification, wallets, and FUZE token.
+- Community metrics require context and should not be reduced to simplistic health or trust scores.
+- This paper does not prove implementation, live connectors, moderation automation, adoption, paid delivery, or revenue.
+- CommunityLayer AI succeeds only when it improves visibility and consistency without weakening privacy, fairness, human judgment, appeals, or safety processes.

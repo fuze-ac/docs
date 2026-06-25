@@ -2,308 +2,899 @@
 
 ## Executive Summary
 
-FUZE communicates token price and demand as market outcomes rather than operating targets under its control. Product use, utility, supply changes, liquidity, venue access, community activity, and public information can influence market perception, but none determines a specific price or level of demand.
+FUZE treats token price, demand, liquidity, market depth, trading volume, and venue access as market outcomes rather than operating results the project can promise or control.
 
-This paper establishes a public communications standard. It separates verified facts from interpretation, scenarios from forecasts, access-window prices from open-market prices, and operational progress from market-performance claims.
+Product progress, implemented utility, token releases, circulation changes, treasury activity, liquidity deployment, venue readiness, community participation, public information, and external market conditions may influence participant behavior. None of those factors independently establishes:
 
-Market reports should identify their source, pair, venue, observation time, methodology, and limitations. Product, revenue, supply, listing, participation, and partnership updates should describe the underlying event without adding an unsupported conclusion about buying pressure, appreciation, liquidity, or returns.
+- a particular market price;
+- increasing demand;
+- sustained trading volume;
+- continuous liquidity;
+- narrow spreads;
+- low slippage;
+- exchange acceptance;
+- price support;
+- price appreciation;
+- income;
+- revenue share;
+- or financial return.
 
-Detailed market-structure operations remain in the [FUZE Liquidity and Listing Policy](21-FUZE_LIQUIDITY_AND_LISTING_POLICY_PUBLIC.md). This paper governs how FUZE frames price and demand expectations.
+This paper controls how FUZE communicates market-sensitive information.
 
----
+It separates:
 
-## 1. Boundary Objective
+- verified facts from measured observations;
+- measured observations from interpretations;
+- interpretations from scenarios and forecasts;
+- access-window prices from open-market prices;
+- product and business progress from token-market claims;
+- allocation, release, and circulation from market availability;
+- venue preparation from venue approval;
+- venue approval from live trading;
+- liquidity deployment from usable liquidity;
+- and analytical assistance from authority to trade or move treasury assets.
 
-The standard should help writers, operators, partners, community teams, and readers distinguish:
+The controlling communication sequence is:
 
-1. what happened;
-2. what was measured;
-3. what interpretation is supportable;
-4. which factors remain unknown;
-5. which market conclusion the evidence cannot establish.
+```text
+underlying event or dataset
+-> source and timestamp verification
+-> terminology and status classification
+-> calculation or methodology review
+-> evidence-level assignment
+-> uncertainty and limitation review
+-> market-sensitive wording review
+-> approval
+-> publication with current-as-of information
+-> freshness monitoring
+-> correction, clarification, supersession, or archive
+```
 
-FUZE can report its own product, treasury, allocation, release, and readiness work. It can also report public market observations. It cannot control how buyers, sellers, venues, liquidity providers, regulators, or broader markets respond.
+Each state is separate.
 
----
+A product launch is not proof of token demand.
 
-## 2. Core Distinctions
+A revenue event is not automatic holder value.
 
-### Price
+An allocation or unlock is not automatic circulation.
 
-The exchange rate observed for FUZE on a stated venue, pair, and time basis.
+A token release is not proof of sale or market availability.
 
-### Demand
+A DEX pool is not proof of sufficient depth.
 
-Interest in acquiring or holding FUZE, expressed through behavior such as orders, trades, applications, transfers, or other measurable activity.
+A venue discussion is not an application.
 
-### Liquidity
+An application is not approval.
 
-The available depth and execution conditions for buying or selling at a given time, size, and venue.
+Approval is not live trading.
 
-### Utility
+A live pair is not a guarantee of liquidity, volume, demand, price stability, or continued support.
 
-An approved function or role for FUZE within the ecosystem.
+An approved Public Vault Access Window price is a bounded calculation for that window and validity interval. It is not a general FUZE market price, valuation floor, resale commitment, or forecast.
 
-### Access price
+QTB may support market research, interpretation, scenarios, and decision support.
 
-The calculation used for an approved Public Vault Access Window. It is governed by its pricing profile and is separate from general market value.
+AIMM may support authorized liquidity-operation intelligence, monitoring, alerts, controls, and reporting.
+
+Neither product should be described as:
+
+- predicting price with certainty;
+- guaranteeing demand;
+- protecting price;
+- guaranteeing spread, depth, volume, execution, or profit;
+- autonomously controlling treasury or market operations without approved authority;
+- or replacing accountable human or governance review.
+
+FUZE public materials should begin with what happened, show what was measured, explain the applicable evidence and methodology, and stop before an unsupported market conclusion.
+
+Market-structure operations remain governed by [FUZE Liquidity and Listing Policy](21-FUZE_LIQUIDITY_AND_LISTING_POLICY_PUBLIC.md).
+
+Access-window calculations remain governed by [FUZE Vault Access Pricing Mechanism](18-FUZE_VAULT_ACCESS_PRICING_MECHANISM_PUBLIC.md).
+
+Supply and circulation terminology remain governed by [FUZE Token Release and Circulation Clarity](13-FUZE_TOKEN_RELEASE_AND_CIRCULATION_CLARITY_PUBLIC.md).
+
+## Purpose of This Paper
+
+This paper explains:
+
+- the public market-communication position;
+- primary readers and responsibilities;
+- controlled market terminology;
+- evidence levels;
+- source and methodology requirements;
+- price-reporting standards;
+- demand-reporting standards;
+- liquidity, depth, spread, slippage, and volume reporting;
+- product-progress boundaries;
+- product-revenue boundaries;
+- supply, release, and circulation communication;
+- liquidity and venue status language;
+- access-window pricing boundaries;
+- wallet-based participation boundaries;
+- QTB and AIMM boundaries;
+- causal-claim controls;
+- scenarios, models, and forecasts;
+- charts, dashboards, headlines, and social-media controls;
+- third-party claims and rumor treatment;
+- conflicts and confidential information;
+- corrections, freshness, and historical records;
+- status and evidence requirements;
+- prohibited promises; and
+- public limitations.
+
+This paper does not replace:
+
+- live market data;
+- a venue announcement;
+- a liquidity report;
+- a circulating-supply report;
+- an access-window pricing record;
+- a treasury or market-operation approval;
+- legal, accounting, tax, compliance, sanctions, licensing, or jurisdiction review;
+- financial advice;
+- investment research prepared under applicable professional requirements;
+- venue rules;
+- or market-abuse procedures.
+
+## Public Position
+
+FUZE can control:
+
+- product execution;
+- utility design and activation;
+- allocation and release decisions;
+- treasury and custody actions;
+- market-structure proposals;
+- public reporting methods;
+- correction processes;
+- and its own communications.
+
+FUZE cannot control:
+
+- buyer or seller behavior;
+- market-maker performance;
+- third-party liquidity;
+- venue approval or continued support;
+- broader market cycles;
+- stablecoin or network incidents;
+- regulatory developments;
+- trading volume;
+- token demand;
+- market depth;
+- spread;
+- slippage;
+- market price;
+- or investment outcomes.
+
+Public communication should therefore describe FUZE-controlled facts and independently measurable market conditions without presenting external responses as guaranteed consequences.
+
+## Primary Readers and Responsibilities
+
+This paper is intended for:
+
+- founders and executives;
+- product and operations teams;
+- treasury and market-operation teams;
+- community and support teams;
+- writers and editors;
+- partner and business-development teams;
+- data and analytics teams;
+- QTB and AIMM operators;
+- legal, compliance, accounting, tax, and communications reviewers;
+- and external parties authorized to communicate on FUZE's behalf.
+
+### Content Owner
+
+The content owner confirms the underlying event, scope, status, date, and evidence.
+
+### Data Owner
+
+The data owner confirms sources, calculations, methodology, limitations, and freshness.
+
+### Market or Treasury Owner
+
+The market or treasury owner confirms venue, liquidity, custody, allocation, and operational status where relevant.
+
+### Reviewer
+
+The reviewer checks terminology, evidence level, causal language, confidentiality, risk statements, and prohibited implications.
+
+### Publisher
+
+The publisher ensures the approved version, timestamp, links, corrections, and current status are visible.
+
+No individual role should convert confidential preparation into a public market claim without authority.
+
+## Controlled Market Terms
+
+### Market Price
+
+The exchange rate observed for FUZE on a stated venue, pair, method, and time basis.
+
+A price report without venue, pair, quote asset, and timestamp is incomplete.
+
+### Reference Price
+
+A calculated value derived from stated sources and methodology for reporting, valuation, settlement, or another approved purpose.
+
+A reference price is not automatically executable in the market.
+
+### Access Price
+
+A calculation used for a specific approved Public Vault Access Window under an approved pricing profile and validity interval.
+
+It is not a general market price or resale condition.
 
 ### Valuation
 
-An analytical estimate based on assumptions and methodology. A valuation is neither a current market price nor a guaranteed future outcome.
+An analytical estimate based on stated assumptions and methodology.
 
-Using these terms interchangeably can create an inaccurate public impression.
+A valuation is not a current market price, guaranteed future value, or guaranteed exit value.
 
----
+### Demand
 
-## 3. Evidence Levels
+Observable interest in acquiring, holding, or using FUZE, evidenced through a defined behavior and measurement method.
 
-FUZE market communication should identify the evidence level behind a statement.
+Attention, impressions, followers, messages, or community growth may indicate interest but do not independently establish token demand.
 
-| Level | Description | Example treatment |
+### Liquidity
+
+The capacity to execute transactions at a stated venue, time, size, spread, and price impact.
+
+Liquidity is size-dependent and time-dependent.
+
+### Market Depth
+
+The quantity available across price levels in an order book or liquidity structure at a stated time.
+
+### Spread
+
+The difference between bid and ask prices under a stated method and observation time.
+
+### Slippage
+
+The difference between an expected or quoted execution level and actual or estimated execution for a stated trade size and route.
+
+### Trading Volume
+
+The quantity or value reported as traded during a stated period and source scope.
+
+Reported volume does not automatically establish unique demand, organic activity, or market quality.
+
+### Utility
+
+An approved function or role for FUZE within a product or ecosystem workflow.
+
+Product proximity, branding, or future planning does not by itself establish live token utility.
+
+### Circulating Supply
+
+The amount classified as circulating under the approved methodology and current evidence.
+
+Circulating supply does not equal available sell-side liquidity.
+
+### Market Support
+
+An ambiguous term that can imply price or liquidity intervention.
+
+FUZE should instead describe the exact approved action, such as:
+
+- liquidity deployment;
+- provider mandate;
+- pool rebalancing;
+- venue integration;
+- monitoring;
+- or withdrawal.
+
+## Evidence Levels
+
+Every material market-sensitive statement should fit an identifiable evidence level.
+
+| Evidence level | Meaning | Public treatment |
 |---|---|---|
-| Verified fact | Directly supportable by an authoritative record | A pool transaction, allocation report, or approved venue notice |
-| Measured observation | Derived from stated public data and methodology | A time-bounded volume, depth, spread, or price observation |
-| Interpretation | Reasoned explanation with uncertainty stated | Possible factors associated with a market movement |
-| Scenario | Conditional outcome used for planning | Effects that could follow under specified assumptions |
-| Forecast | Prediction about a future market result | Requires exceptional care and is outside normal FUZE public positioning |
-| Promise | Commitment to a market result | Prohibited for price, demand, listing, liquidity, exit, or return |
+| Verified fact | Directly supported by an authoritative record | State the record, scope, date, and current status |
+| Measured observation | Calculated from stated data and method | State source, period, method, freshness, and limitations |
+| Interpretation | Reasoned explanation of observations | State uncertainty and plausible alternatives |
+| Scenario | Conditional result based on explicit assumptions | State assumptions, dependencies, and sensitivity |
+| Forecast | Prediction about a future result | Use only with exceptional care, authority, and clear uncertainty |
+| Promise | Commitment to a market outcome | Prohibited for price, demand, listing, liquidity, exit, or return |
 
-Facts and observations should be presented before interpretation. A scenario should list its assumptions. Public materials should avoid turning an interpretation into a factual causal claim.
+### Evidence Ordering
 
----
+Public communication should generally present:
 
-## 4. Price Reporting
+1. verified facts;
+2. measured observations;
+3. interpretation;
+4. limitations;
+5. possible scenarios where necessary.
+
+The structure should not place a speculative headline above cautious evidence and expect the body text to correct the impression.
+
+### Mixed Evidence
+
+One report can contain several evidence levels.
+
+Each material chart, number, statement, and conclusion should make its own level clear.
+
+## Source and Methodology Requirements
+
+A quantitative market statement should identify, where applicable:
+
+- canonical FUZE contract;
+- network;
+- venue, protocol, pool, provider, or data source;
+- pair and quote asset;
+- observation start and end;
+- timestamp and timezone;
+- sample frequency;
+- aggregation method;
+- conversion method;
+- source weighting;
+- source exclusions;
+- stale-data treatment;
+- outlier treatment;
+- precision and rounding;
+- trade-size or depth assumption;
+- methodology version;
+- current-as-of date;
+- and limitations.
+
+### Source Hierarchy
+
+Possible sources include:
+
+- official venue or protocol data;
+- verified onchain contracts and events;
+- approved market-data providers;
+- approved internal reports;
+- provider or market-maker reports;
+- and independently reproducible public data.
+
+A screenshot, social-media post, unverified explorer label, or unsupported third-party chart should not outrank authoritative data.
+
+### Source Conflicts
+
+Where sources differ materially, the report should:
+
+- identify the difference;
+- explain the chosen source or aggregation method;
+- disclose material exclusions;
+- and avoid presenting one source as universally authoritative without basis.
+
+### Freshness
+
+Current-facing market information should show its measurement time and freshness state.
+
+Possible states include:
+
+- live;
+- recent;
+- delayed;
+- stale;
+- source unavailable;
+- under reconciliation;
+- corrected;
+- and archived.
+
+## Price Reporting Standard
 
 A reported market price should include:
 
-- token and verified contract;
-- venue and trading pair;
+- FUZE contract and network;
+- venue or protocol;
+- pair;
 - quote asset;
-- timestamp and timezone;
-- spot, close, average, TWAP, or other method;
-- source link or data provider;
-- any conversion path;
-- material liquidity or data limitation.
+- observation time and timezone;
+- spot, close, midpoint, average, TWAP, VWAP, median, or other method;
+- source;
+- conversion path where applicable;
+- material liquidity or routing limitations;
+- and current-as-of date.
 
-One venue's price can differ from another because of depth, routing, fees, custody, geography, or timing. A single trade can also be unrepresentative.
+### Single Trade Boundary
 
-When FUZE reports an aggregate or reference price, the methodology should state source inclusion, weighting, observation period, deviation handling, and freshness.
+One trade can be unrepresentative because of:
 
-Historical price is evidence of a past observation. It provides no direct basis for a future target.
+- low depth;
+- unusual size;
+- routing;
+- volatility;
+- stale quotes;
+- fees;
+- or venue-specific conditions.
 
----
+A single trade should not be presented as a broad market value without explaining the limitation.
 
-## 5. Demand Reporting
+### Cross-Venue Price
 
-Demand should be tied to observable behavior rather than inferred from attention alone.
+Prices can differ across venues because of:
 
-Potential indicators include:
+- depth;
+- custody;
+- geography;
+- fees;
+- routing;
+- deposit or withdrawal status;
+- quote asset;
+- market participants;
+- and timing.
 
-- qualified orders or executed trades;
+An aggregate price should state its source inclusion, weighting, period, deviation rules, and freshness.
+
+### Historical Price
+
+Historical price is evidence of a past observation.
+
+It does not establish:
+
+- a future target;
+- a floor;
+- a cap;
+- an expected recovery;
+- a fair future price;
+- or an investor return.
+
+### Market Capitalization
+
+A reported market capitalization should identify:
+
+- price source;
+- price time;
+- supply measure used;
+- whether the supply is circulating, total, fully diluted, or another definition;
+- and methodology limitations.
+
+A fully diluted value is not cash held by FUZE, liquidity available in markets, or realizable proceeds.
+
+## Demand Reporting Standard
+
+Demand should be connected to observable behavior and a stated period.
+
+### Possible Indicators
+
+- qualified orders;
+- executed trades;
 - unique active market participants where measurable;
-- approved access-window demand;
-- token transfers linked to a defined utility;
-- product or ecosystem actions that require FUZE;
-- retention or repeated utility activity;
-- venue search, watchlist, or community interest where the source is reliable.
+- approved access-window applications;
+- completed access-window settlements;
+- token transfers linked to a live utility;
+- repeated utility use requiring FUZE;
+- active holders under a defined methodology;
+- venue searches or watchlists from reliable sources;
+- and community or partner inquiries categorized as interest rather than acquisition.
 
-Each indicator has limits. Trading volume can include short-term or repeated activity. Wallet counts can include one person using multiple addresses. Community growth can reflect interest without acquisition. Product usage can occur through Platform Credits without FUZE ownership.
+### Indicator Limitations
 
-A report should describe the measured indicator rather than converting it into a broad claim that token demand is growing.
+Trading volume can include:
 
----
+- repeated activity;
+- arbitrage;
+- market making;
+- self-dealing;
+- wash trading;
+- short-term speculation;
+- or venue-reported data of uncertain quality.
 
-## 6. Market Factors
+Wallet counts can include:
 
-Price and demand can respond to interacting factors.
+- one person using multiple addresses;
+- contracts;
+- custodians;
+- exchanges;
+- internal transfers;
+- inactive dust positions;
+- and automated systems.
 
-### Product and utility
+Community growth can reflect attention without token acquisition.
 
-Product adoption, user experience, utility design, and integration quality can affect how the ecosystem is perceived.
+Product usage can occur through Platform Credits without FUZE ownership.
 
-### Supply and circulation
+### Appropriate Demand Language
 
-Releases, locks, claims, returns, burns, treasury movement, and circulating-supply methodology can affect available inventory and expectations.
+Use statements such as:
 
-### Market structure
+- `qualified order count increased during the stated period`;
+- `executed volume was higher on the identified venue`;
+- `access-window applications exceeded available capacity`;
+- `the number of wallets using the defined utility increased under the stated method`;
+- or `the indicators were mixed during the period`.
 
-Venue access, pool depth, order books, spreads, slippage, custody, routing, and liquidity-provider behavior affect execution.
+Avoid converting one indicator into a broad claim that demand is strong, guaranteed, permanent, or certain to increase.
 
-### Information
+## Liquidity, Depth, Spread, Slippage, and Volume Reporting
 
-Official updates, third-party coverage, rumors, corrections, security events, and reporting quality can affect confidence.
+### Liquidity Report
 
-### External conditions
+A liquidity report should identify:
 
-Crypto cycles, macroeconomic conditions, regulation, stablecoin events, network incidents, competing projects, and risk appetite can affect the market independently of FUZE execution.
+- venue or pool;
+- pair;
+- measurement time;
+- trade-size assumptions;
+- depth bands;
+- spread method;
+- estimated or realized slippage;
+- source;
+- provider involvement where relevant;
+- and limitations.
 
-These categories support analysis, but they do not prove that one event caused a specific market movement.
+### Size Dependency
 
----
+A market can appear liquid for a small trade and illiquid for a larger trade.
 
-## 7. Product Progress
+Reports should avoid describing liquidity without stating the relevant size or depth range.
 
-FUZE is product-first. Product updates should lead with:
+### Spread Boundary
 
-- user problem;
-- workflow or feature delivered;
+A narrow displayed spread does not guarantee execution at the displayed size or continued availability.
+
+### Volume Boundary
+
+High reported volume does not independently establish:
+
+- unique demand;
+- organic activity;
+- reliable liquidity;
+- low manipulation risk;
+- or future volume.
+
+### Pool Reserves
+
+DEX pool reserves do not equal usable liquidity at every price or trade size.
+
+Pool type, concentration, range, fee tier, routing, and price impact matter.
+
+## Product Progress and Market Interpretation
+
+FUZE is product-first.
+
+A product update should lead with:
+
+- the user problem;
+- the workflow or feature;
+- concept, design, prototype, test, release, or live status;
 - current availability;
 - usage or quality evidence;
-- operational limits;
-- next product milestone.
+- limitations;
+- and the next product milestone.
 
-Product progress can strengthen utility and ecosystem credibility. A release, usage increase, customer result, or product-revenue event should still be communicated as a product or business fact.
+Product progress can strengthen utility and ecosystem credibility.
 
-Writers should avoid attaching automatic market conclusions such as:
+It should not be presented as proof that:
 
-- the update will increase token price;
-- usage creates guaranteed buying pressure;
-- revenue protects market value;
-- adoption ensures liquidity;
-- a partnership proves future demand.
+- token price will increase;
+- buying pressure will occur;
+- token demand is guaranteed;
+- liquidity will improve;
+- a venue will list FUZE;
+- or holders will receive financial value.
 
-Platform Credits are product-usage units. Credit purchase and consumption should be reported in their own units rather than presented as token-market demand.
+### Utility Activation
 
----
+A utility should be described as live only when:
 
-## 8. Product Revenue
+- the relevant product is live;
+- the token function is implemented;
+- eligible users can access it;
+- transaction or usage evidence exists;
+- and current limitations are disclosed.
 
-Revenue reports should identify the product, period, accounting basis, gross or net treatment, reconciliation status, and relevant limitations.
+A planned utility is not live demand.
 
-Revenue can support product operations, infrastructure, compensation, reserves, treasury planning, and ecosystem development. It remains distinct from:
+### Platform Credits
+
+Platform Credits are product-consumption units.
+
+Credit purchases, grants, use, expiration, refunds, and balances should be reported in their own units.
+
+They should not be counted as FUZE token demand unless a separate approved and active mechanism directly connects the two and the report measures that connection.
+
+## Product Revenue and Market Claims
+
+A public revenue statement should identify:
+
+- product;
+- reporting period;
+- gross or net basis;
+- revenue-recognition basis;
+- refunds and reversals;
+- fees and costs where relevant;
+- reconciliation status;
+- currency or asset;
+- and limitations.
+
+Revenue may support:
+
+- product operations;
+- infrastructure;
+- compensation;
+- reserves;
+- treasury planning;
+- ecosystem development;
+- and other approved business purposes.
+
+Revenue remains separate from:
 
 - token price;
-- market demand;
+- token demand;
 - approved distributable value;
 - participant eligibility;
-- a token repurchase or market-support action.
+- token repurchase;
+- liquidity deployment;
+- market support;
+- and holder returns.
 
-Any connection between revenue and another mechanism requires its own approved policy and record. Revenue alone should never be described as automatic holder value or price protection.
+A connection between revenue and another mechanism requires its own approved policy, activation status, calculation, custody, accounting, and evidence.
 
----
+Revenue alone should not be described as automatic holder value or price protection.
 
-## 9. Supply Events
+## Supply, Release, and Circulation Communication
 
-Supply reporting should name the actual state change.
+Supply communication should name the actual state change.
 
-| Event | Appropriate market communication |
+| Event | Appropriate communication boundary |
 |---|---|
-| Allocation | Purpose assignment; circulation impact requires separate evidence |
-| Unlock | Restriction ended; transfer and market availability remain separate |
-| Vest | Grant condition satisfied; release may still be pending |
-| Release | Tokens moved under an approved instruction |
+| Allocation | Tokens are assigned to an approved category; custody, release, and circulation remain separate |
+| Commitment | Tokens are reserved for an approved obligation; execution remains separate |
+| Unlock | One restriction ended; vesting, release, transferability, and circulation remain separate |
+| Vesting | Grant conditions were satisfied; release may remain pending |
+| Claim funding | Tokens entered a claim structure; individual claims remain separate |
+| Claimable | An eligible amount can be claimed under an active route; claim completion remains separate |
+| Release | Tokens moved or became available under an approved release record |
+| Custody transfer | Control moved between approved addresses or entities; sale or circulation should not be inferred |
 | Liquidity deployment | Tokens entered a defined market operation |
 | Return | Tokens moved back to controlled custody |
-| Burn | Verified supply reduction under the stated method |
+| Recovery | Tokens were restored after an incident, error, or return process |
+| Burn | Supply was reduced through an approved and verified method |
 
-A lower release rate can improve supply predictability, while an unlock can affect expectations. Neither event determines price direction.
+### Unlock Boundary
 
-The classification standard is maintained in [FUZE Token Release and Circulation Clarity](13-FUZE_TOKEN_RELEASE_AND_CIRCULATION_CLARITY_PUBLIC.md).
+An unlock should identify which restriction ended.
 
----
+It should not imply that the tokens were:
 
-## 10. Liquidity and Venue Updates
+- transferred;
+- sold;
+- deposited on a venue;
+- or added to circulating supply.
 
-Market-access updates should use the current verified status:
+### Release Boundary
 
-- researching;
-- preparing;
-- in discussion;
-- submitted;
-- under review;
-- technically ready;
-- approved;
-- scheduled;
-- live;
-- paused;
-- ended.
+A release should identify:
 
-A DEX pool can be live with limited depth. An exchange can support trading while deposits or withdrawals are paused. A venue application can remain under review without a public outcome.
+- source;
+- destination;
+- amount;
+- restrictions;
+- custody;
+- and circulation treatment.
 
-Communication should avoid converting preparation into approval or approval into an assumption of market depth. DEX-first is FUZE's access direction where ready; possible later CEX support remains conditional on venue and project readiness.
+Transfer direction alone does not establish market availability.
 
----
+### Circulation Boundary
 
-## 11. Access-Window Pricing
+A circulating-supply change may affect market expectations but does not determine price direction.
 
-An approved vault-access price is produced for a specific window under a defined profile.
+## Liquidity and Venue Status Communication
 
-It can use:
+Market-access updates should use exact verified states.
+
+| Status | Public meaning |
+|---|---|
+| Researching | Fit and requirements are being assessed |
+| Preparing | Documentation, technical, custody, treasury, or operational work is underway |
+| In discussion | Communication with a venue or provider has begun |
+| Submitted | Required materials or an application were delivered |
+| Under review | The venue or authority is evaluating the request |
+| Technical integration | Integration work is underway |
+| Technically ready | FUZE-side technical conditions are complete for the stated scope |
+| Approved | Approval exists and can be communicated at the approved level |
+| Scheduled | A confirmed activation time can be publicly announced |
+| Live | The stated pool, pair, deposits, withdrawals, or trading route is operational and verified |
+| Limited | Access exists with stated restrictions or partial functionality |
+| Paused | Part or all of the activity is temporarily unavailable |
+| Ended | The activity has closed |
+| Delisted | A previously supported market was removed |
+| Archived | The record is historical and not current |
+
+### Status Separation
+
+A DEX pool can be live with limited depth.
+
+Trading can be live while deposits or withdrawals are paused.
+
+Deposits can be live before trading begins.
+
+A venue approval can remain confidential or conditional.
+
+A permissionless third-party pool can exist without FUZE support.
+
+### DEX-First Direction
+
+FUZE's public direction is DEX-first where ready.
+
+That direction does not establish:
+
+- a live pool;
+- a pair;
+- a date;
+- deployed liquidity;
+- routing support;
+- market depth;
+- or price.
+
+### Possible Later CEX Evaluation
+
+Possible later CEX evaluation remains conditional on project readiness, venue decisions, technical integration, custody, legal and compliance review, and authorized public confirmation.
+
+`Listing soon` should not be used for a discussion, preparation, application, or review state.
+
+## Access-Window Pricing Boundary
+
+An approved Public Vault Access Window may use:
 
 - a fixed approved reference;
-- qualified spot or multi-source data;
-- a TWAP;
+- qualified spot data;
+- multi-source data;
+- TWAP;
+- VWAP where supported;
+- a formula;
 - an adjustment factor;
 - an approved floor or cap;
-- explicit precision and validity.
+- conversion rules;
+- precision and rounding;
+- and a validity interval.
 
-These parameters govern the window calculation. They do not establish an exchange price, valuation floor, or resale condition.
+These parameters govern the specific window calculation.
 
-The calculation standard is maintained in the [FUZE Vault Access Pricing Mechanism](18-FUZE_VAULT_ACCESS_PRICING_MECHANISM_PUBLIC.md).
+They do not establish:
 
----
+- a general market price;
+- an external trading floor;
+- fair market value for all purposes;
+- a resale price;
+- a future token price;
+- or a guaranteed participant return.
 
-## 12. Wallet-Based Participation
+A pricing floor or cap applies only to the approved calculation unless another separately approved record says otherwise.
 
-Wallet-based participation, where activated, has its own eligibility, value, snapshot, claim, privacy, and correction records.
+## Wallet-Based Participation Boundary
 
-It should be communicated independently from:
+Wallet-based participation, where activated, has separate rules for:
+
+- eligibility;
+- snapshots;
+- approved value;
+- claims;
+- custody;
+- privacy;
+- corrections;
+- and reporting.
+
+Wallet-based participation should be communicated independently from:
 
 - market price;
 - trading demand;
-- listing status;
+- venue status;
 - liquidity depth;
 - token appreciation;
-- general holder entitlement.
+- and general holder entitlement.
 
-An active or proposed participation mechanism can affect expectations, but it does not remove market risk or establish a market value. Public statements should describe the actual activation and eligibility status.
+A wallet balance or signature can support a defined eligibility or control test.
 
----
+It does not independently establish natural-person identity, market demand, or financial value.
 
-## 13. Analytical Products
+## QTB and AIMM Boundaries
 
-QTB can provide market interpretation, research, summaries, and user-directed analysis. AIMM can support market-operation monitoring, reports, and operator workflows.
+### QTB
 
-Their outputs should identify:
+QTB may support:
 
-- data sources and time range;
-- analytical method;
+- market research;
+- data interpretation;
+- summaries;
+- comparative analysis;
+- scenarios;
+- risk identification;
+- and user-directed decision support.
+
+QTB should not be described as:
+
+- autonomous trading authority;
+- guaranteed prediction;
+- certain price targeting;
+- guaranteed demand forecasting;
+- or guaranteed investment performance.
+
+### AIMM
+
+AIMM may support:
+
+- authorized liquidity-operation intelligence;
+- monitoring;
+- alerts;
+- analytics;
+- controls;
+- execution preparation;
+- and reporting.
+
+AIMM should not be described as:
+
+- price protection;
+- guaranteed spread control;
+- guaranteed depth;
+- guaranteed volume;
+- guaranteed profitability;
+- autonomous authority over treasury assets without approval;
+- or permission to manipulate markets.
+
+### Output Record
+
+A material QTB or AIMM output should identify:
+
+- source data;
+- observation period;
+- method or model version where applicable;
+- assumptions;
 - confidence or limitations;
-- human-review requirement;
-- distinction between observation and action.
+- reviewer;
+- and whether an approved human or governance action followed.
 
-Neither product should be described as predicting price with certainty, protecting a market, guaranteeing execution, or replacing accountable treasury and market operators.
+An analysis, alert, or recommendation is not an execution approval.
 
----
+## Causal Claims
 
-## 14. Causal Claims
+A causal market statement requires stronger evidence than timing correlation.
 
-A causal market statement requires stronger evidence than a timing correlation.
-
-Before stating that an event caused a price or demand change, the writer should consider:
+Before stating that an event caused a price or demand change, the writer should assess:
 
 1. whether the event was public before the movement;
 2. whether other material events occurred;
-3. whether the movement appeared across venues;
-4. whether volume and liquidity support the observation;
-5. whether the time window was selected consistently;
-6. whether an alternative explanation is plausible.
+3. whether the movement appeared across relevant venues;
+4. whether volume, depth, liquidity, and trade size support the observation;
+5. whether the observation window and comparison basis were selected consistently;
+6. whether data quality is sufficient;
+7. whether market-maker, arbitrage, liquidation, bridge, stablecoin, or macro conditions were present; and
+8. whether plausible alternative explanations remain.
 
-Where causation remains uncertain, better wording is:
+### Appropriate Causal Language
 
-- “the movement occurred after the announcement”;
-- “the event may have contributed”;
-- “several market factors were present”;
-- “the available data does not establish a single cause.”
+Where causation is uncertain, use:
 
----
+- `the movement occurred after the announcement`;
+- `the event may have contributed`;
+- `several market factors were present`;
+- `the data is consistent with, but does not prove, the interpretation`;
+- or `the available evidence does not establish a single cause`.
 
-## 15. Scenarios and Models
+### Inappropriate Causal Language
 
-Internal planning can model adoption, circulation, liquidity, or demand scenarios.
+Avoid statements such as:
 
-A public scenario should show:
+- `the launch caused the price increase`;
+- `revenue drove buying pressure`;
+- `the partnership guaranteed demand`;
+- `the unlock caused the decline`;
+- or `the listing will increase price`
+
+without evidence sufficient for the claim.
+
+## Scenarios, Models, and Forecasts
+
+FUZE may model:
+
+- product adoption;
+- utility use;
+- token circulation;
+- liquidity;
+- venue access;
+- market depth;
+- access-window participation;
+- treasury needs;
+- or demand scenarios.
+
+A public scenario should identify:
 
 - purpose;
 - assumptions;
@@ -311,73 +902,422 @@ A public scenario should show:
 - time horizon;
 - methodology;
 - sensitivity;
-- factors outside FUZE control.
+- dependencies;
+- and factors outside FUZE's control.
 
-Scenario outputs should be labeled as conditional. Changing assumptions can materially change the result.
+### Scenario Labels
 
-The normal public corpus should not present token-price targets, guaranteed market capitalization, fixed return cases, or a required appreciation path.
+Use clear labels such as:
 
----
+- illustrative scenario;
+- planning scenario;
+- sensitivity case;
+- conditional model;
+- or hypothetical example.
 
-## 16. Communication Review
+### Forecast Boundary
 
-Market-sensitive content should be checked for:
+Numerical precision does not make a forecast certain.
 
-- verified source and date;
-- correct price, demand, liquidity, and utility terminology;
-- separation of fact, interpretation, and scenario;
-- accurate venue status;
-- explicit methodology for quantitative claims;
+FUZE public materials should not present:
+
+- guaranteed price targets;
+- guaranteed market capitalization;
+- fixed-return cases;
+- required appreciation paths;
+- guaranteed exit values;
+- guaranteed holder income;
+- or guaranteed liquidity outcomes.
+
+### Internal Models
+
+Internal models can be more detailed but should still retain:
+
+- assumptions;
+- versioning;
+- source data;
+- uncertainty;
+- reviewer;
+- and restrictions on external use.
+
+## Charts, Dashboards, Headlines, and Social Media
+
+Market-sensitive visual and short-form content requires the same evidence discipline as long-form papers.
+
+### Charts
+
+A chart should show:
+
+- asset and pair;
+- venue or source;
+- time period;
+- timezone;
+- units;
+- methodology;
+- data cutoff;
+- and material missing-data or liquidity limitations.
+
+Axes and time ranges should not be selected to create a misleading impression.
+
+### Dashboards
+
+A current-facing dashboard should show:
+
+- freshness;
+- source health;
+- current status;
+- methodology link;
+- correction state;
+- and current-as-of date.
+
+### Headlines
+
+A headline should not overstate what the body text qualifies.
+
+Avoid headlines implying:
+
+- guaranteed listing;
+- guaranteed growth;
+- price protection;
+- demand certainty;
+- or investor returns.
+
+### Social Media
+
+Short posts should still preserve:
+
+- exact status;
+- source or official link where relevant;
+- current-as-of date for time-sensitive claims;
+- and the boundary between event and market outcome.
+
+### Screenshots
+
+A screenshot should not replace a current source, methodology, or status check.
+
+## Third-Party Claims, Rumors, and Unofficial Markets
+
+FUZE may need to respond to:
+
+- unofficial pools;
+- unverified venue pages;
+- false listing claims;
+- fake token contracts;
+- price rumors;
+- target-price claims;
+- provider claims;
+- influencer statements;
+- or impersonation.
+
+### Response Standard
+
+A response should identify:
+
+- what is verified;
+- what is unverified or false;
+- the official contract, pool, venue, or status source where appropriate;
+- the date of verification;
+- and any user-safety action.
+
+### No Adoption of Third-Party Claims
+
+A third-party statement does not become an official FUZE claim because FUZE repeats it without qualification.
+
+### Unofficial Market Boundary
+
+An unofficial pool or pair may exist without:
+
+- FUZE treasury support;
+- FUZE monitoring;
+- official routing;
+- verified liquidity;
+- provider support;
+- or endorsement.
+
+## Conflicts and Confidential Information
+
+Market-sensitive communication should identify and manage conflicts involving:
+
+- treasury operators;
+- team members;
+- advisers;
+- investors;
+- venues;
+- market makers;
+- liquidity providers;
+- data providers;
+- partners;
+- and public communicators.
+
+### Confidential Information
+
+Public content should not disclose or imply confidential:
+
+- venue discussions;
+- applications;
+- approval conditions;
+- listing dates;
+- fee terms;
+- provider strategies;
+- order details;
+- treasury actions;
+- private wallet or account data;
+- API credentials;
+- security procedures;
+- legal advice;
+- or non-public counterparties.
+
+### Selective Disclosure
+
+Material market-sensitive information should not be selectively disclosed to create an unfair informational advantage or induce trading.
+
+Any disclosure process should follow the applicable legal, compliance, contractual, and communications review.
+
+## Communication Review Checklist
+
+Before publication, verify:
+
+- source and observation date;
+- canonical contract and network;
+- venue, protocol, pool, pair, and quote asset where relevant;
+- exact status;
+- correct use of price, demand, liquidity, depth, spread, slippage, volume, utility, valuation, and access-price terms;
+- evidence-level classification;
+- separation of fact, observation, interpretation, scenario, and forecast;
+- methodology for quantitative claims;
+- freshness and current-as-of information;
+- consistency with allocation, release, circulation, vault, and liquidity records;
 - removal of unsupported causal language;
-- consistency with allocation and circulation reports;
-- confidentiality of venue and counterparty discussions;
-- legal or compliance review where appropriate.
+- removal of guarantees and price-support implications;
+- disclosure of material limitations;
+- protection of confidential information;
+- conflict review;
+- and legal or compliance review where appropriate.
 
-Headlines, charts, captions, social posts, presentations, and FAQs require the same discipline as long-form papers. A cautious body paragraph cannot repair a misleading headline.
+The checklist applies to:
 
----
+- papers;
+- website copy;
+- dashboards;
+- charts;
+- press releases;
+- social posts;
+- AMAs;
+- FAQs;
+- presentations;
+- partner materials;
+- investor updates;
+- and support responses.
 
-## 17. Wording Guide
+## Wording Guide
 
 | Use | Avoid |
 |---|---|
-| “The product update expands an approved utility workflow.” | “The update will drive the token price.” |
-| “The pool is live; depth and execution vary with market conditions.” | “Liquidity is guaranteed.” |
-| “The venue is reviewing FUZE materials.” | “Listing soon.” |
-| “This is the approved access-window price for the stated interval.” | “This is FUZE's market value.” |
-| “Circulating supply changed under the published method.” | “Reduced supply guarantees appreciation.” |
-| “Revenue was recorded under the stated reporting basis.” | “Revenue protects holders.” |
-| “Demand indicators were mixed during the period.” | “Demand can only increase.” |
+| `The product update expands a defined utility workflow.` | `The update will drive the token price.` |
+| `The pool is live; depth and execution vary by size and market conditions.` | `Liquidity is guaranteed.` |
+| `The venue is reviewing FUZE materials.` | `Listing soon.` |
+| `This is the approved access-window price for the stated interval.` | `This is FUZE's market value.` |
+| `Circulating supply changed under the published methodology.` | `Reduced supply guarantees appreciation.` |
+| `Revenue was recorded under the stated reporting basis.` | `Revenue protects holders.` |
+| `Qualified order activity increased during the stated period.` | `Demand will keep increasing.` |
+| `The movement occurred after the announcement; the data does not establish one cause.` | `The announcement caused the price increase.` |
+| `A third-party pool exists, but FUZE has not verified it as official.` | `FUZE is trading there.` |
+| `AIMM provides authorized monitoring and decision support.` | `AIMM protects the price.` |
 
-The guide protects meaning rather than requiring one repeated disclaimer.
+The objective is precise meaning rather than repetitive disclaimer language.
 
----
+## Corrections, Clarifications, and Freshness
 
-## 18. Corrections
+A market-sensitive correction should identify:
 
-A market communication correction should identify:
+1. affected statement, chart, dashboard, dataset, post, or report;
+2. prior value or wording;
+3. corrected value or wording;
+4. source of the error;
+5. methodology or classification effect;
+6. effective time;
+7. affected downstream materials;
+8. reviewer and approval;
+9. publication time; and
+10. current status.
 
-- affected statement, chart, or report;
-- prior and revised value or wording;
-- source of the error;
-- methodology or classification impact;
-- effective time;
-- downstream materials updated.
+### Clarification
 
-Price and venue information can become stale quickly. A later market change is not an error in a correctly timestamped historical report, but current-facing pages should show freshness and status.
+A clarification may be appropriate when the original statement was technically correct but likely to be misunderstood.
 
----
+The clarification should preserve the original record and explain the intended boundary.
 
-## 19. Public Boundary
+### Market Change Versus Error
 
-FUZE can control product execution, policy, custody, reporting, allocation decisions, and its own communications. It cannot ensure token price, demand, venue approval, liquidity depth, trading volume, resale availability, or investment outcome.
+A later market change does not make a correctly timestamped historical observation erroneous.
 
-This paper is a communications boundary rather than a price forecast or trading guide. Detailed token risk categories are maintained in [FUZE Token Risk Boundaries](29-FUZE_TOKEN_RISK_BOUNDARIES_PUBLIC.md).
+Current-facing content should still be updated, expired, or archived when it no longer represents current conditions.
 
----
+### Supersession
 
-## Conclusion
+A new methodology or report should link to the prior version and explain whether historical values were recalculated.
 
-Credible FUZE market communication begins with the underlying evidence and stops before an unsupported market conclusion.
+## Status and Evidence
 
-Separating facts, observations, interpretations, scenarios, and promises allows FUZE to report product progress, supply events, venue work, access prices, and market data clearly while preserving the uncertainty inherent in price and demand.
+This paper defines the market-price and demand communication boundary.
+
+It does not independently prove any current price, demand, liquidity, depth, spread, volume, venue, pool, listing, or market outcome.
+
+| Status claim | Evidence direction |
+|---|---|
+| Market price reported | Contract, network, venue, pair, quote asset, time, method, source, and limitations |
+| Reference price reported | Source set, period, normalization, aggregation, weighting, exclusions, freshness, and result |
+| Demand indicator reported | Defined behavior, source, period, methodology, deduplication, limitations, and result |
+| Liquidity reported | Venue or pool, pair, time, trade size, depth, spread, slippage, source, and limitations |
+| Volume reported | Venue or source, period, unit, methodology, quality controls, and limitations |
+| Utility live | Product, live function, eligible users, transaction or usage evidence, limitations, and current status |
+| Revenue reported | Product, period, accounting basis, gross or net treatment, reconciliation, currency, and limitations |
+| Supply event reported | Allocation, unlock, vesting, release, custody, return, recovery, or burn evidence and circulation treatment |
+| DEX pool live | Official contracts, pair, liquidity transaction, custody, monitoring, and public verification |
+| Venue application submitted | Venue, submission reference, date, scope, owner, and current status |
+| Venue approved | Venue confirmation, asset, network, conditions, communication authority, and date |
+| Trading live | Official venue page, pair, trading status, time, and independent verification |
+| Market interpretation published | Underlying facts, observations, alternative explanations, limitations, reviewer, and date |
+| Scenario published | Assumptions, sources, model, horizon, sensitivity, dependencies, and conditional label |
+| Communication corrected | Original item, error, corrected item, source, impact, authority, and update time |
+
+The following do not independently establish market price, demand, liquidity, listing, or financial value:
+
+- this paper;
+- a token contract;
+- a wallet balance;
+- a pool address;
+- an unofficial pair;
+- a screenshot;
+- a single trade;
+- a chart without methodology;
+- a community post;
+- a venue discussion;
+- an application;
+- a provider proposal;
+- a partnership announcement;
+- a product roadmap;
+- an internal forecast;
+- code;
+- or a repository.
+
+## Prohibited Promises and Implications
+
+FUZE public communication should not promise or imply:
+
+- guaranteed token price;
+- guaranteed appreciation;
+- guaranteed demand;
+- guaranteed liquidity;
+- guaranteed depth;
+- guaranteed narrow spreads;
+- guaranteed low slippage;
+- guaranteed volume;
+- guaranteed DEX access;
+- guaranteed CEX approval or listing;
+- guaranteed deposits or withdrawals;
+- guaranteed market-maker performance;
+- guaranteed resale or exit;
+- guaranteed buybacks;
+- guaranteed price support;
+- guaranteed income;
+- guaranteed revenue share;
+- guaranteed profitability;
+- guaranteed capital protection;
+- or guaranteed financial return.
+
+Operational targets, scenarios, service levels, or internal plans should not be rewritten as market guarantees.
+
+## Market, Access, Utility, and Outcome Separation
+
+The following remain separate:
+
+- product concept;
+- product release;
+- product usage;
+- Platform Credit usage;
+- token utility design;
+- token utility activation;
+- token allocation;
+- commitment;
+- unlock;
+- vesting;
+- claim funding;
+- claimability;
+- token release;
+- circulation;
+- access-window pricing;
+- DEX pool creation;
+- liquidity deployment;
+- venue discussion;
+- venue application;
+- venue approval;
+- deposits enabled;
+- withdrawals enabled;
+- trading live;
+- usable liquidity;
+- depth;
+- spread;
+- slippage;
+- volume;
+- token demand;
+- market price;
+- revenue;
+- approved distributable value;
+- income;
+- revenue share;
+- and financial return.
+
+Evidence for one state does not automatically establish another.
+
+## Public Boundary
+
+This paper publishes the terminology, evidence-level, source, methodology, price, demand, liquidity, volume, product, revenue, supply, venue, access-price, wallet-participation, AI-analysis, causation, scenario, communication-review, third-party-claim, conflict, correction, freshness, and prohibited-promise framework.
+
+It does not publish or establish current:
+
+- FUZE market price;
+- reference price;
+- market capitalization;
+- token demand;
+- liquidity;
+- market depth;
+- spread;
+- slippage;
+- trading volume;
+- official DEX pool;
+- venue discussion;
+- venue application;
+- venue approval;
+- CEX listing;
+- deposits or withdrawals;
+- live trading;
+- market maker;
+- liquidity provider;
+- product revenue;
+- approved distributable value;
+- buyback;
+- price support;
+- income;
+- revenue share;
+- profitability;
+- or financial return
+
+unless those details are separately supported by current, dated, approved evidence in the applicable product, financial, vault, allocation, circulation, liquidity, venue, pricing, market-data, specialist, or public-status record.
+
+This paper is not a price forecast, trading recommendation, investment recommendation, listing announcement, liquidity promise, or financial guide.
+
+## Key Takeaways
+
+- FUZE treats price, demand, liquidity, depth, spread, slippage, volume, and venue access as market outcomes rather than promised operating results.
+- Market communication should identify the underlying event, evidence level, source, time, methodology, freshness, and limitations.
+- Product progress, utility, revenue, partnerships, supply changes, and venue work should be communicated as their underlying facts without unsupported conclusions about price or demand.
+- Platform Credits remain separate from FUZE token and should not be counted as token demand without a separate active mechanism and evidence.
+- Allocation, unlock, vesting, release, custody, circulation, liquidity deployment, venue approval, and live trading are separate states.
+- Access-window pricing is a bounded calculation and does not establish general market value, resale value, or a price floor.
+- QTB and AIMM can provide research, monitoring, and decision support, but neither creates autonomous authority or guaranteed market outcomes.
+- Causal claims require stronger evidence than timing correlation and should acknowledge plausible alternatives.
+- Charts, headlines, dashboards, social posts, AMAs, and partner materials require the same discipline as long-form papers.
+- Third-party pools, rumors, screenshots, applications, and provider claims do not become official FUZE market facts without verification.
+- Corrections should preserve history, while current-facing content should show freshness and status.
+- FUZE should not promise or imply guaranteed price, demand, liquidity, listing, exit, income, revenue share, or financial return.

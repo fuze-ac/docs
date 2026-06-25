@@ -2,98 +2,350 @@
 
 ## Executive Summary
 
-FUZE combines AI SaaS products, shared platform infrastructure, Web3 utility, payments, wallet records, and public reporting. Each area creates different questions, so FUZE uses topic-specific controls and dedicated disclosure papers instead of treating every risk as the same.
+FUZE combines AI SaaS products, shared platform services, payments, Platform Credits, token functions, wallet records, partner integrations, market-access direction, and public reporting.
 
-The public approach begins with clear product purpose. AI outputs require review, sensitive data stays permissioned, product credits remain distinct from token ownership, and token or wallet features follow their own readiness rules. Market-access language is presented as direction and dependency rather than an assured result.
+Each area creates different risks. FUZE therefore separates product, AI, data, commercial, token, wallet, custody, market, treasury, partner, investor, and communication risks rather than treating them as one category.
 
-This page helps product users, community members, partners, and investors understand the main risk categories, the controls FUZE intends to apply, and the deeper paper to consult for each topic.
+The public control model is built around:
+
+- clear purpose;
+- precise status;
+- least-privilege access;
+- human authority;
+- evidence proportional to the claim;
+- separation of product, payment, token, wallet, and treasury records;
+- specialist review where required;
+- visible correction, pause, and closure paths.
+
+This page helps users, communities, partners, and investors understand the main risk areas and the public boundaries that apply.
+
+It does not establish that every control is implemented, operating, independently reviewed, or legally sufficient for every jurisdiction or use case.
 
 ## Risk Starts With the Activity
 
-A useful risk review asks what a person is actually doing.
+A useful risk review begins with the actual workflow and consequence.
 
-A shop using AI-generated customer messages faces content, operational, and data risks. A community using moderation assistance faces context, fairness, escalation, and privacy questions. A token holder evaluating market access faces custody, liquidity, volatility, and execution risk. A partner integrating a platform rail needs clarity about permissions, responsibilities, service dependencies, and reporting.
+A shop using an AI-generated customer message faces content, operational, privacy, and reputational risk.
 
-FUZE therefore separates risk by product and mechanism. The goal is to place the strongest explanation in the paper that owns the topic while keeping normal product pages readable.
+A spreadsheet team faces source quality, permissions, sensitive-field, formula, and action risk.
+
+A community using moderation assistance faces fairness, context, escalation, safety, and privacy questions.
+
+A partner integrating a shared service faces responsibility, access, dependency, confidentiality, and service-level risk.
+
+A token holder evaluating market access faces custody, liquidity, volatility, fraud, execution, venue, and jurisdiction risk.
+
+FUZE therefore asks:
+
+1. What is the user or operator trying to do?
+2. Which data, assets, providers, or people are involved?
+3. What could go wrong?
+4. Who has authority to approve, pause, correct, or close the activity?
+5. Which evidence supports the current status?
+6. Which information can be public and which must remain protected?
 
 ## Main Risk Areas
 
 | Area | What readers should evaluate | FUZE control direction |
 |---|---|---|
-| Product delivery | Readiness, pricing, support, adoption, and operational fit | Status labels, evidence, scoped launches, monitoring, and product-specific reporting |
-| AI output | Accuracy, missing context, bias, stale information, and unsuitable recommendations | Human review, source awareness, permissions, logs, testing, and escalation |
-| Data and privacy | Collection, access, retention, sharing, and sensitive records | Role-based access, data minimization, permissioned evidence, and public/private separation |
-| Platform Credits | Usage rules, pricing, expiry, refunds, and product access | Product-level credit policies, usage records, billing controls, and reconciliation |
-| FUZE token | Utility scope, allocation, circulation, custody, and governance | Purpose-specific policies, controlled release, vault records, and public reporting |
-| Wallet participation | Activation, eligibility, custody, approved value, claims, and corrections | Readiness gates, snapshots, governed approvals, audit trails, pause, and dispute processes |
-| Market access | Venue access, liquidity, volatility, custody, trading, and external dependencies | DEX-first direction, conditional later expansion, operational review, and clear status reporting |
-| Partners and investors | Evidence quality, commercial assumptions, responsibilities, and disclosure | Diligence materials, review controls, scoped agreements, and non-promissory public language |
+| Product delivery | Readiness, usability, pricing, support, reliability, adoption, and operational fit | Scoped status, evidence, limited release, monitoring, incident handling, and product-specific reporting |
+| AI output | Accuracy, missing context, stale sources, bias, hallucination, unsuitable recommendations, and hidden uncertainty | Source awareness, testing, human review, bounded purpose, logs, correction, and escalation |
+| Data and privacy | Collection, purpose, access, sharing, retention, deletion, export, and sensitive records | Data minimization, role-based access, permissioned evidence, provider controls, and public/private separation |
+| Security and resilience | Account compromise, credential exposure, dependency failure, outage, recovery, and incident response | Least privilege, monitoring, backups, recovery, change control, and accountable incident ownership |
+| Commercial activity | Pricing, payment, fulfillment, refunds, support cost, revenue classification, and customer concentration | Separate commercial stages, source records, reconciliation, and clear accounting treatment |
+| Platform Credits | Eligibility, purchase, reservation, consumption, reversal, expiry, refund, and balance treatment | Product-level rules, usage records, billing controls, exception handling, and reconciliation |
+| FUZE token | Supply, allocation, release, circulation, utility, governance, custody, and market conditions | Purpose-specific policies, controlled release, vault records, approval, reconciliation, and public reporting |
+| Wallet participation | Activation, eligibility, snapshots, custody, approved value, claims, corrections, and disputes | Readiness gates, governed approvals, evidence, audit trails, pause, correction, and dispute processes |
+| Market access | DEX or CEX status, liquidity, volatility, deposits, withdrawals, custody, execution, and third-party dependency | DEX-first direction, exact status vocabulary, operational review, monitoring, incident handling, and non-promissory communication |
+| Partners and providers | Scope, access, service dependency, confidentiality, conflicts, performance, and exit | Due diligence, contracts, permissions, owner assignment, monitoring, fallback, and termination controls |
+| Investors and fundraising | Evidence quality, assumptions, rights, use of funds, disclosure, and transaction risk | Controlled diligence, private documents, milestone reporting, risk disclosure, and separation from product revenue |
+| Public communication | Accuracy, status inflation, outdated claims, privacy exposure, and misleading market language | Approved terminology, evidence references, review, correction, supersession, and withdrawal |
 
-## Product and AI Controls
+## Product, AI, and Human-Authority Controls
 
-FUZE products are built for specific workflows, but generated output can still omit facts, misunderstand context, or require specialist judgment.
+FUZE products are designed for defined workflows, but AI output can still be wrong, incomplete, stale, biased, unsafe, or unsuitable for the user's context.
 
 Practical controls can include:
 
 - clear product purpose and supported use cases;
-- user confirmation before sensitive actions;
+- approved source selection;
 - workspace roles and data-access boundaries;
+- human confirmation before sensitive or external actions;
 - review of source material and generated output;
-- incident, correction, and support workflows; and
+- provider and tool restrictions;
+- testing, monitoring, and incident handling;
+- correction, rejection, escalation, and fallback workflows;
 - evidence showing what the product can currently do.
 
-The required review depends on the task. A promotional draft, accounting interpretation, community safety decision, market summary, and customer-data workflow should not share the same approval standard.
+The required review should match the consequence.
 
-Product-specific limitations are maintained in [FUZE Product Risk Boundaries](../AI-SAAS-PRODUCT-PAPERS/16-FUZE_PRODUCT_RISK_BOUNDARIES_PUBLIC.md).
+A promotional draft, accounting interpretation, customer-data workflow, moderation decision, market report, and treasury-related action should not share the same approval standard.
 
-## Data, Wallets, and Public Reporting
+Human review reduces risk but does not guarantee that every error will be detected.
 
-Transparency works best when readers can verify the relevant event without exposing unrelated personal information.
+Product-specific limitations appear in [FUZE Product Risk Boundaries](../AI-SAAS-PRODUCT-PAPERS/16-FUZE_PRODUCT_RISK_BOUNDARIES_PUBLIC.md).
 
-Public-safe records can include product status, aggregate usage categories, wallet addresses, vault activity, transaction references, report hashes, snapshot status, or governance actions where relevant. Names, contact details, identification records, customer data, credentials, private agreements, account evidence, and sensitive operational procedures remain permissioned.
+## Data, Privacy, and Public Reporting
 
-The same distinction applies to corrections. FUZE can publish that a record changed, why the status changed, and which approval authorized the change without publishing the private evidence used in the review.
+Transparency should help readers verify the relevant event without exposing unrelated private information.
 
-The broader privacy model is explained in [FUZE Data Privacy and AI Data Handling](../CORE-PLATFORM-PAPERS/07-FUZE_DATA_PRIVACY_AND_AI_DATA_HANDLING_PUBLIC.md).
+Public-safe records may include:
 
-## Token, Credits, and Payment Separation
+- product status;
+- aggregate usage categories;
+- evidence references;
+- public wallet or vault addresses;
+- transaction references;
+- report hashes or signatures;
+- snapshot or mechanism status;
+- governance actions;
+- incidents, corrections, and supersession.
+
+Protected information may include:
+
+- personal identity;
+- customer, employee, contributor, investor, or partner records;
+- private wallet associations;
+- credentials, keys, and recovery material;
+- confidential agreements and pricing;
+- security-sensitive procedures;
+- privileged professional advice;
+- transaction-specific materials.
+
+Public blockchain visibility does not remove privacy obligations. An address should not be connected to a person without an authorized purpose and lawful basis.
+
+A report hash can support file integrity, but it does not prove that the underlying data is complete, accurate, current, or properly interpreted.
+
+The broader model appears in [FUZE Data Privacy and AI Data Handling](../CORE-PLATFORM-PAPERS/07-FUZE_DATA_PRIVACY_AND_AI_DATA_HANDLING_PUBLIC.md).
+
+## Commercial, Credit, Payment, and Treasury Separation
 
 Clear classification reduces misleading assumptions.
 
-Platform Credits support eligible product consumption under product rules. Stablecoins can support selected payments, settlements, treasury operations, vendors, and contributor compensation. FUZE token connects token-specific ecosystem utility and participation under dedicated policies.
+| Record type | Primary meaning |
+|---|---|
+| Platform Credit record | Eligible product usage, reservation, consumption, reversal, expiry, or adjustment |
+| Customer payment | Funds received for a stated commercial purpose |
+| Fulfillment record | Evidence that the promised product or service was delivered |
+| Product revenue | Commercial amount supported by delivery and accounting treatment |
+| Stablecoin transfer | Operational rail whose business purpose must still be identified |
+| Fundraising receipt | Capital received under a financing process |
+| Treasury transfer | Movement of controlled assets under an approved purpose |
+| FUZE token movement | Token allocation, release, transfer, utility, or other token event |
+| Wallet-participation record | Evidence for an approved participation mechanism |
 
-These records can interact while remaining different accounting and operating events. A credit purchase, stablecoin transfer, product-revenue entry, token allocation, treasury balance, and wallet-participation record should be identified according to its actual purpose.
+These records can interact while remaining different events.
 
-Token supply, utility, release, custody, governance, and market conditions carry their own uncertainties. Readers evaluating those subjects should use [FUZE Token Risk Boundaries](../TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/29-FUZE_TOKEN_RISK_BOUNDARIES_PUBLIC.md).
+A payment receipt, invoice, Platform Credit purchase, stablecoin transfer, token transaction, wallet balance, treasury balance, or investor receipt does not automatically establish completed delivery, revenue, ownership, approved distributable value, or holder entitlement.
 
-## Wallet Participation and Activation
+Commercial stages should remain separate:
 
-Wallet-based participation is a controlled mechanism within the FUZE token framework where activated. Operation depends on active rules, eligible-wallet treatment, custody support, jurisdiction, approved distributable value, reporting, security, and governance approval.
+```text
+offer -> order -> payment -> fulfillment -> adjustment
+-> completed paid delivery -> repeat use -> period reconciliation
+```
 
-Technical preparation can occur before public activation. A deployed contract, labeled vault, snapshot tool, or dashboard shows readiness work; the current framework status and governing approvals determine whether a participation or claim process is operating.
+Stablecoins are operational payment or settlement rails where supported. Their use does not change the underlying business classification.
 
-Public wallet evidence can support reviewability, while identity and account verification remain in protected systems. Claims, disputes, pauses, and corrections require durable records and accountable operators.
+## Token, Wallet, Custody, and Participation Boundaries
 
-## Market and Communication Boundaries
+FUZE token supply, allocation, utility, release, circulation, custody, governance, and market conditions carry separate risks.
 
-FUZE describes decentralized market access as the initial public direction. Liquidity, depth, volatility, custody support, buyer and seller activity, and technical execution depend on market conditions and third parties.
+Token-related events remain independently gated:
 
-A centralized-exchange path could be considered later when legal, exchange, custody, liquidity, operational, and strategic conditions support it. Public materials should distinguish exploration, readiness, application, approval, and live access rather than compressing them into a listing expectation.
+```text
+contract design -> reviewed build -> deployment -> verification
+-> initialization -> allocation funding -> transfer activation
+-> utility -> distribution -> wallet support -> custody support
+-> market access -> wallet-based participation
+```
 
-The same discipline applies across public communication. Product roadmaps describe direction, allocation tables organize supply, investor materials support review, and game values describe game systems. None of those documents should be read as an assurance of adoption, revenue, payout, price, liquidity, listing, or investment outcome.
+Completion or preparation of one event does not establish the others.
 
-## How FUZE Uses Compliance Review
+Wallet-based participation, if activated, requires approved rules for:
 
-Compliance work can include legal, accounting, tax, treasury, privacy, security, smart-contract, custody, market, product, and jurisdiction review where the activity requires it.
+- eligible wallets;
+- jurisdiction treatment;
+- custody support;
+- snapshots;
+- approved value;
+- claim process;
+- corrections and disputes;
+- security and monitoring;
+- reporting;
+- pause or closure.
 
-The appropriate reviewer and evidence depend on the decision. Public documentation supports clarity, but formal approvals, professional advice, audits, and regulatory treatment remain separate processes.
+Technical preparation can occur before activation. A deployed contract, labeled vault, snapshot tool, or dashboard shows readiness work only. The current framework status and governing approvals determine whether participation or claims are operating.
 
-## Where to Read the Full Disclosures
+Exchange custody may use omnibus addresses, meaning the visible on-chain address can belong to the venue rather than the individual user.
 
-The [FUZE Risk and Disclosure Appendix](../WHITEPAPER-PAPERS/05-FUZE_RISK_AND_DISCLOSURE_APPENDIX_PUBLIC.md) is the consolidated public source for detailed limitations across products, AI, credits, token utility, wallets, governance, market access, investors, and community communication.
+Readers evaluating these subjects should use [FUZE Token Risk Boundaries](../TOKENOMICS-GOVERNANCE-COMPLIANCE-PAPERS/29-FUZE_TOKEN_RISK_BOUNDARIES_PUBLIC.md).
 
-This one-page summary is informational. It does not provide legal, tax, accounting, financial, investment, or trading advice.
+## Market Access and Market Integrity
 
-## The Takeaway
+FUZE's public direction is DEX-first, with possible CEX consideration later.
 
-FUZE risk management is built around classification, permission, review, evidence, and honest status. Readers should be able to understand what a product or mechanism does, which conditions govern it, which records are public, which information stays protected, and where deeper review belongs.
+This direction does not establish:
+
+- a live DEX route or pool;
+- an exchange application or approval;
+- deposits, withdrawals, or trading;
+- reliable liquidity;
+- market-maker support;
+- price support;
+- resale or investor exit.
+
+Market status should distinguish:
+
+- design;
+- preparation;
+- funding;
+- live access;
+- deposits open;
+- trading live;
+- withdrawals open;
+- restricted, paused, suspended, or delisted.
+
+A pool or listing does not guarantee depth, continuity, fair execution, price stability, or practical exit.
+
+FUZE should avoid or control:
+
+- false or exaggerated announcements;
+- misleading listing or approval claims;
+- artificial activity or wash trading;
+- deceptive volume or liquidity presentation;
+- undisclosed conflicts or related-party activity;
+- misuse of confidential market information;
+- unauthorized market-sensitive token or treasury actions;
+- claims that AIMM or another provider protects price.
+
+The public market framework appears in [FUZE Exchange and Market Access Boundary](../INVESTOR-PARTNER-PAPERS/19-FUZE_EXCHANGE_AND_MARKET_ACCESS_BOUNDARY_PUBLIC.md).
+
+## Partners, Providers, and External Dependencies
+
+FUZE may depend on cloud services, AI providers, payment rails, wallet systems, custody providers, exchanges, implementation partners, data providers, and other third parties.
+
+Relevant risks include:
+
+- outage or service degradation;
+- pricing or policy change;
+- data handling or residency change;
+- access restriction;
+- vendor lock-in;
+- security incident;
+- provider insolvency or termination;
+- incomplete portability;
+- conflicting responsibilities;
+- concentration around one provider or partner.
+
+Controls can include:
+
+- due diligence and approval;
+- scoped contracts and responsibilities;
+- least-privilege access;
+- monitoring and service review;
+- fallback and recovery planning;
+- data export and portability;
+- incident and notification duties;
+- termination and offboarding controls.
+
+Partner announcements do not establish integration, delivery, revenue, adoption, endorsement, or continuing support.
+
+## Compliance and Specialist Review
+
+Compliance work can include legal, accounting, tax, treasury, privacy, security, smart-contract, custody, market, consumer, advertising, gaming, AI, sanctions, KYC, AML, and jurisdiction review where required.
+
+The appropriate reviewer depends on the decision.
+
+| Decision area | Typical specialist input |
+|---|---|
+| Product terms and customer use | Legal, privacy, product, security, consumer review |
+| AI workflow and data handling | Privacy, security, AI, product, and provider review |
+| Revenue and financial classification | Accounting, tax, finance, and legal review |
+| Token contract and release | Technical, security, legal, treasury, and governance review |
+| Wallet participation and custody | Legal, compliance, custody, security, tax, and accounting review |
+| DEX or CEX access | Legal, compliance, treasury, technical, custody, market, and venue review |
+| Financing | Corporate, legal, tax, accounting, governance, and investor-review processes |
+
+Public documentation supports clarity, but it does not replace formal approval, professional advice, technical review, audit, or regulatory treatment.
+
+A document, opinion, audit, application, or specialist review may also be limited by scope, date, assumptions, jurisdiction, evidence, and reliance terms.
+
+## Evidence, Status, and Corrections
+
+A stronger risk or compliance claim requires evidence for the exact scope being discussed.
+
+Useful records should identify:
+
+- claim or question;
+- product or mechanism;
+- environment and cohort;
+- date or reporting period;
+- owner and reviewer;
+- source and version;
+- control maturity;
+- limitations and exceptions;
+- next review trigger;
+- correction or supersession history.
+
+Control maturity should remain explicit:
+
+- designed;
+- configured;
+- tested;
+- operating;
+- independently reviewed.
+
+One level does not imply the next.
+
+If evidence no longer supports a public claim, FUZE should correct, downgrade, pause, withdraw, or archive the statement rather than leave stale language visible as current status.
+
+## Current Public Position
+
+The public corpus establishes FUZE's intended risk model, control direction, evidence standards, privacy boundaries, classification rules, and public-language requirements.
+
+It does not by itself establish:
+
+- completed controls;
+- operating effectiveness;
+- legal or regulatory approval;
+- audit assurance;
+- product safety or reliability;
+- error-free AI output;
+- secure token or wallet mechanisms;
+- compliant operation in every jurisdiction;
+- market integrity, liquidity, price stability, or investor protection.
+
+Current conclusions should rely on dated, scoped evidence and appropriate specialist review.
+
+## Public Boundary
+
+This one-page paper is informational.
+
+It does not provide:
+
+- legal advice;
+- tax advice;
+- accounting advice;
+- financial or investment advice;
+- trading advice;
+- regulatory approval;
+- audit assurance;
+- a guarantee of product delivery, security, compliance, token utility, wallet eligibility, market access, liquidity, or investment outcome.
+
+Risk controls reduce or manage exposure; they do not eliminate all risk.
+
+Products, providers, jurisdictions, mechanisms, laws, technical conditions, and market environments can change.
+
+Readers should use the [FUZE Risk and Disclosure Appendix](../WHITEPAPER-PAPERS/05-FUZE_RISK_AND_DISCLOSURE_APPENDIX_PUBLIC.md) as the consolidated public source for deeper limitations and the [FUZE Investor Risk Disclosure](../INVESTOR-PARTNER-PAPERS/17-FUZE_INVESTOR_RISK_DISCLOSURE_PUBLIC.md) for investor-focused review.
+
+## Key Takeaways
+
+- FUZE separates risk by product, workflow, asset, mechanism, and consequence.
+- Clear purpose, precise status, human authority, evidence, and least-privilege access are core controls.
+- Product, payment, Platform Credit, stablecoin, token, wallet, treasury, market, and investor records remain separate classifications.
+- Token deployment, utility, distribution, custody, market access, and wallet-based participation are independently gated events.
+- Public transparency should support verification without exposing private identity, credentials, customer data, or sensitive operations.
+- Designed, configured, tested, operating, and independently reviewed are different control states.
+- Compliance documentation does not replace professional advice, formal approval, technical review, or audit.
+- Risk management supports informed decisions; it does not guarantee safety, legality, liquidity, or investment performance.

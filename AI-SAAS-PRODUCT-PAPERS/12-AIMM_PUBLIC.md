@@ -2,272 +2,1431 @@
 
 ## Executive Summary
 
-AIMM, or AI Market Maker, is the FUZE workspace for supervised liquidity and market-operations support. It helps authorized teams organize venue data, spread and depth observations, inventory context, provider communication, operational thresholds, approval steps, incident notes, and public-safe reporting.
+AIMM, or AI Market Maker, is the FUZE product for authorized liquidity-operations intelligence, monitoring, review, and reporting.
 
-The product can turn fragmented monitoring into a reviewable workflow: observe a condition, explain why it matters, prepare bounded response options, route them to the appropriate operator, record the authorized decision, and reconcile what occurred.
+It helps approved teams organize selected:
 
-AIMM is not itself a market maker or autonomous trading system. It does not promise liquidity, price support, exchange access, execution quality, or market outcomes. QTB remains the separate product for market research and interpretation.
-
----
-
-## 1. Product Purpose
-
-Liquidity operations involve more than reading a dashboard. Teams often need to compare venues, monitor spreads and depth, review inventory, coordinate with service providers, assess token-release events, investigate anomalies, document decisions, and answer public questions.
-
-AIMM is intended to help with that operating discipline through:
-
-- liquidity-status reviews;
-- order-book and pool observations;
-- venue comparison;
-- threshold and anomaly queues;
-- provider and exchange communication records;
-- treasury and inventory context;
-- operational checklists;
-- approval-gated playbooks;
-- incident and post-event reviews; and
-- internal or public-safe reports.
-
-The product organizes information and workflow. Authority to move assets, place orders, change liquidity, sign provider terms, or publish market statements remains with designated people and approved systems.
-
----
-
-## 2. Intended Users
-
-| User | AIMM responsibility |
-|---|---|
-| Liquidity operator | Review conditions, prepare actions, and record outcomes |
-| Treasury reviewer | Assess inventory, reserve, settlement, and exposure context |
-| Project lead | Coordinate policy, providers, communications, and approvals |
-| Exchange-facing team | Track requirements, discussions, and follow-up |
-| Compliance or legal reviewer | Review venue, jurisdiction, communication, and conduct concerns |
-| Community or investor-relations team | Prepare accurate public explanations |
-| Auditor or governance reviewer | Examine approvals, actions, corrections, and reports |
-
-Workspace roles should determine who can view sensitive information, change thresholds, approve a playbook, or initiate an external action. AIMM operator authority comes from assigned roles rather than FUZE-token ownership.
-
----
-
-## 3. Operating Workflow
-
-### Step 1: Define the monitored scope
-
-The workspace identifies assets, pairs, venues, networks, pools, wallets, providers, timeframes, and source systems in scope.
-
-### Step 2: Observe
-
-AIMM can collect or accept supported information about:
-
-- spread;
-- depth;
+- venue data;
+- spreads;
+- visible depth;
 - pool reserves;
+- expected slippage;
+- inventory context;
+- settlement status;
+- provider communication;
+- token-release preparation;
+- threshold events;
+- incident records;
+- approval workflows;
+- post-action reconciliation; and
+- public-safe reporting.
+
+AIMM is designed around a controlled operational loop:
+
+```text
+observe -> validate the data -> classify the condition
+-> prepare bounded options -> review authority and limits
+-> approve, reject, or escalate -> act through an approved system
+-> reconcile -> report -> correct
+```
+
+AIMM provides operational intelligence and workflow discipline.
+
+It is not:
+
+- an autonomous market participant;
+- a broker;
+- an exchange;
+- a custodian;
+- a portfolio manager;
+- an investment adviser;
+- a guaranteed execution engine;
+- a price-support mechanism;
+- a wash-trading system;
+- a volume-manufacturing system;
+- a manipulation tool;
+- a guarantee of liquidity;
+- a guarantee of listing;
+- a guarantee of spread, depth, price, volume, profitability, or market outcome.
+
+Authority to move assets, place or cancel orders, change liquidity, sign transactions, approve provider terms, authorize custody actions, or publish market statements remains with designated people and approved destination systems.
+
+AIMM remains separate from [QTB](11-QTB_PUBLIC.md).
+
+QTB organizes market research and interpretation. AIMM supports authorized liquidity-operation monitoring, review, decision records, and reporting. A QTB observation does not become an AIMM instruction without an authorized handoff and independent operational approval.
+
+## Purpose of This Paper
+
+This paper explains:
+
+- the AIMM product purpose;
+- intended users and authority boundaries;
+- monitored scope and source controls;
+- the observation-to-reconciliation lifecycle;
+- order-book and DEX-pool review;
+- thresholds, alerts, anomalies, and incidents;
+- bounded playbooks and approval gates;
+- provider, venue, treasury, inventory, and settlement workflows;
+- token-release and market-access preparation;
+- DEX-first and possible later CEX status discipline;
+- public communication;
+- Platform Credit usage;
+- data, permissions, audit, and security controls;
+- reporting and correction;
+- separation from QTB, custody, and execution;
+- product status and evidence; and
+- public limitations.
+
+AIMM appears in the [FUZE AI SaaS Product Index](01-FUZE_AI_SAAS_PRODUCT_INDEX_PUBLIC.md).
+
+## Product Purpose
+
+Liquidity operations require more than reading a dashboard.
+
+Teams may need to:
+
+- compare venues;
+- monitor spreads and visible depth;
+- review pool reserves and expected slippage;
+- review inventory and settlement state;
+- coordinate with providers;
+- prepare for token releases or market events;
+- investigate data interruptions;
+- review operational anomalies;
+- preserve approval evidence;
+- distinguish intended action from completed action;
+- reconcile balances and outcomes;
+- prepare public explanations; and
+- correct inaccurate records.
+
+Without a controlled workspace, these activities can become fragmented across:
+
+- chats;
+- spreadsheets;
+- exchange dashboards;
+- wallet interfaces;
+- provider reports;
+- internal documents;
+- screenshots;
+- public announcements;
+- ticket systems;
+- personal notes; and
+- untracked verbal decisions.
+
+AIMM provides a reviewable path for:
+
+- defining the monitored scope;
+- preserving venue and source context;
+- validating freshness and units;
+- identifying configured conditions;
+- preparing bounded response options;
+- enforcing approval and authority boundaries;
+- sending approved instructions to an authorized destination where supported;
+- recording confirmations and failures;
+- reconciling intended and observed outcomes;
+- preserving incident and correction history; and
+- preparing internal or public-safe reports.
+
+The product does not convert an observation into automatic authority.
+
+## Intended Users and Roles
+
+| User or role | Typical responsibility |
+|---|---|
+| Liquidity operator | Review venue conditions, prepare bounded options, and record outcomes |
+| Treasury reviewer | Review inventory, reserve, transfer, settlement, and exposure context |
+| Project lead | Coordinate policy, providers, communication, approvals, and escalation |
+| Exchange-facing team | Track venue requirements, discussions, technical readiness, and follow-up |
+| DEX operations reviewer | Review pool, network, contract, liquidity-position, and slippage context |
+| Provider manager | Review service scope, obligations, reports, exceptions, and termination terms |
+| Compliance or legal reviewer | Review venue, jurisdiction, conduct, communication, and contractual concerns |
+| Security reviewer | Review credentials, wallet controls, incidents, access, and provider risk |
+| Community or investor-relations team | Prepare approved public explanations from reviewed facts |
+| Finance or reconciliation reviewer | Review costs, balances, transfers, settlements, invoices, and accounting handoff |
+| Auditor or governance reviewer | Examine authority, approvals, actions, reversals, corrections, and reporting |
+| Reporting reviewer | Prepare internal and public-safe operational summaries |
+
+Workspace roles should determine who may:
+
+- view sensitive balances;
+- view provider terms;
+- configure a source;
+- configure a threshold;
+- prepare a playbook;
+- approve a playbook;
+- approve an action;
+- initiate a destination request;
+- confirm execution evidence;
+- reconcile a record;
+- publish a public statement;
+- view incident evidence;
+- export records; and
+- correct or reverse a prior record.
+
+AIMM authority comes from assigned organizational roles and destination-system permissions.
+
+It does not come from FUZE-token ownership.
+
+## Monitored Scope
+
+Each AIMM workspace should define the exact operational scope.
+
+Possible scope fields include:
+
+- project;
+- asset;
+- base and quote currency;
+- market pair;
+- venue;
+- market type;
+- network;
+- pool;
+- contract;
+- wallet or account reference;
+- provider;
+- treasury or inventory bucket;
+- settlement path;
+- period;
+- timezone;
+- source system;
+- operational objective;
+- configured limits;
+- reporting audience; and
+- current activation state.
+
+The following should not be silently combined:
+
+- spot and derivatives markets;
+- one venue and another venue;
+- order-book and automated-market-maker liquidity;
+- centralized and decentralized custody;
+- last price and mark price;
+- visible depth and executable depth;
+- reported volume and independently observed volume;
+- pool reserve and available exit capacity;
+- treasury balance and deployable inventory;
+- provider obligation and observed provider action;
+- announced listing and approved listing;
+- approved listing and active trading;
+- trading enabled and deposit or withdrawal enabled;
+- token allocation and circulating supply;
+- unlocked supply and active sell-side inventory; and
+- intended transfer and settled transfer.
+
+## Source and Observation Model
+
+AIMM should identify the source and limitation of every observation.
+
+| Source type | Example use | Main limitation |
+|---|---|---|
+| Exchange market feed | Price, spread, visible depth, trade, volume, or market status | Venue-specific, delayed, incomplete, or unavailable |
+| DEX or blockchain source | Pool reserves, swaps, liquidity position, transfer, or contract event | Public data requires interpretation and does not prove private identity or intent |
+| Custody or wallet source | Balance, transfer, approval, or settlement status | Access-sensitive and may not show all obligations or offchain records |
+| Provider report | Service activity, venue status, inventory, incident, or performance report | Provider-authored and subject to scope, methodology, and verification |
+| Treasury or finance record | Approved balance, limit, invoice, cost, or settlement reference | May be delayed, restricted, or not yet reconciled |
+| Exchange communication | Requirement, technical issue, review, or commercial discussion | Discussion does not prove approval, scheduling, or listing |
+| Public project record | Token release, contract, roadmap, or announcement | Project-authored and not automatically independently verified |
+| QTB handoff | Reviewed market research or scenario context | Research context, not operational authority |
+| Operator entry | Manual note, confirmation, or exception | Requires source and reviewer context |
+| Calculated metric | Spread, depth, slippage, variance, imbalance, or threshold result | Depends on formula, units, window, and source quality |
+
+An observation record should preserve, where applicable:
+
+- asset and pair;
+- venue;
+- market type;
+- network;
+- pool or contract;
+- source;
+- provider;
+- observed time;
+- retrieval time;
+- timezone;
+- units;
+- decimal treatment;
+- source delay;
+- data quality;
+- calculation method;
+- account or inventory scope;
+- confidentiality level;
+- correction state; and
+- owner.
+
+AIMM should distinguish:
+
+- source observation;
+- calculated metric;
+- configured threshold result;
+- AI interpretation;
+- operator note;
+- provider statement;
+- unverified report;
+- approved decision;
+- destination request;
+- external confirmation;
+- reconciled outcome;
+- disputed record; and
+- corrected record.
+
+## Operating Lifecycle
+
+### 1. Define the Objective and Scope
+
+The workspace identifies:
+
+- operational objective;
+- assets and pairs;
+- venues and pools;
+- accounts, wallets, or inventory references;
+- providers;
+- period and timezone;
+- source systems;
+- authorized roles;
+- limits;
+- prohibited actions;
+- escalation routes;
+- reporting requirements; and
+- current activation status.
+
+An objective should be operationally specific.
+
+Examples include:
+
+- review spread and depth conditions for a defined pair and venue;
+- review a DEX pool before a scheduled release event;
+- identify an inventory imbalance for human review;
+- compare provider reports against observed venue data;
+- prepare an incident record after a settlement failure; or
+- prepare a public-safe liquidity update from approved evidence.
+
+The objective should not be expressed as guaranteeing price, volume, demand, profitability, or market direction.
+
+### 2. Observe
+
+AIMM receives or retrieves authorized data.
+
+Possible observations include:
+
+- bid and ask;
+- visible order-book depth;
+- spread;
+- pool reserves;
+- expected slippage at selected sizes;
+- fee tier;
 - volume;
 - volatility;
-- venue availability;
-- inventory;
-- settlement status;
-- public token events; and
-- operational errors.
+- market status;
+- provider status;
+- account or wallet balance;
+- inventory by approved bucket;
+- pending transfer;
+- settlement state;
+- token-release milestone;
+- public venue announcement;
+- data interruption;
+- reconciliation difference; and
+- operational error.
 
-Source, timestamp, units, and known delay should accompany the observation.
+### 3. Validate the Observation
 
-### Step 3: Classify
+Before classification, AIMM should check, where applicable:
 
-The product can group a condition as routine review, data issue, thin liquidity, venue imbalance, inventory concern, volatility event, provider follow-up, token-release preparation, incident, or another configured category.
+- asset and pair;
+- venue;
+- network and contract;
+- timestamp;
+- timezone;
+- units;
+- decimals;
+- source delay;
+- market status;
+- source availability;
+- duplicate record;
+- stale record;
+- impossible value;
+- calculation method;
+- aligned comparison time; and
+- known data gaps.
 
-### Step 4: Prepare response options
+A stale or methodologically incompatible value should not silently enter a current operational comparison.
 
-AIMM can produce a checklist, explanation, scenario comparison, communication draft, or bounded playbook. The output should state required authority and relevant constraints.
+### 4. Classify the Condition
 
-### Step 5: Approve
+AIMM may classify a validated condition as:
 
-An authorized operator, treasury reviewer, or other designated role accepts, modifies, rejects, or escalates the proposed response.
+- routine review;
+- data-quality issue;
+- venue outage;
+- market-status change;
+- spread condition;
+- depth condition;
+- slippage condition;
+- pool-reserve change;
+- inventory imbalance;
+- settlement exception;
+- provider follow-up;
+- token-release preparation;
+- unusual activity for review;
+- security incident;
+- reconciliation difference;
+- public-communication review; or
+- another configured category.
 
-### Step 6: Execute through an approved path
+Classification is a routing aid.
 
-Where a connected operational action exists, it occurs through the configured custody, exchange, DEX, wallet, provider, or internal process. The destination's controls continue to govern that action.
+It is not proof of manipulation, misconduct, provider failure, or the correct operational response.
 
-### Step 7: Reconcile and report
+### 5. Prepare Bounded Options
 
-The workspace records the decision, action reference, result, exception, cost, and follow-up. Later review can compare intended and observed outcomes.
+AIMM may prepare:
 
----
+- checklist;
+- explanation;
+- venue comparison;
+- scenario comparison;
+- provider question set;
+- incident packet;
+- transfer or settlement review;
+- communication draft;
+- playbook options;
+- stop conditions;
+- escalation recommendation; or
+- no-action review.
 
-## 4. Liquidity Observation
+Every option should state, where relevant:
 
-### Order-book venues
+- purpose;
+- source basis;
+- asset and venue scope;
+- assumptions;
+- authority required;
+- account or wallet required;
+- permitted action type;
+- maximum size or exposure;
+- operational limits;
+- prohibited behavior;
+- dependencies;
+- risks;
+- stop conditions;
+- expiry;
+- confirmation requirement; and
+- reconciliation requirement.
 
-For an order-book market, AIMM can help review:
+### 6. Review and Approve
 
-- bid-ask spread;
-- visible depth by level;
+An authorized reviewer may:
+
+- approve;
+- approve with modified limits;
+- request more evidence;
+- reject;
+- pause;
+- escalate;
+- defer; or
+- close with no action.
+
+The approval record should identify:
+
+- reviewer;
+- role authority;
+- evidence reviewed;
+- option selected;
+- approved limits;
+- destination system;
+- timing;
+- expiry;
+- required confirmations;
+- stop conditions;
+- communication restriction; and
+- follow-up owner.
+
+### 7. Act Through an Approved Destination
+
+Where a supported destination action exists, it occurs through the authorized:
+
+- exchange account;
+- custody platform;
+- wallet;
+- DEX interface;
+- multisig;
+- provider process;
+- settlement system;
+- treasury process; or
+- another approved system.
+
+The destination system's controls continue to govern:
+
+- credentials;
+- signing;
+- account access;
+- withdrawal rights;
+- transaction limits;
+- order controls;
+- network selection;
+- fees;
+- slippage limits;
+- approval thresholds;
+- execution state;
+- cancellation;
+- settlement; and
+- incident handling.
+
+AIMM approval is not a substitute for destination authorization.
+
+### 8. Confirm
+
+A destination request may result in:
+
+- submitted;
+- accepted;
+- partially completed;
+- completed;
+- rejected;
+- cancelled;
+- expired;
+- failed;
+- pending settlement;
+- reversed;
+- disputed; or
+- unknown.
+
+A request should not be presented as executed until reliable confirmation exists.
+
+### 9. Reconcile
+
+Reconciliation may compare:
+
+- approved action;
+- destination request;
+- external confirmation;
+- order or transaction result;
+- balance change;
+- inventory change;
+- pool change;
+- settlement state;
+- fee;
+- cost;
+- provider report;
+- exception;
+- accounting handoff; and
+- public-report treatment.
+
+The record should distinguish intended, requested, confirmed, settled, and reconciled states.
+
+### 10. Report and Correct
+
+AIMM prepares the relevant:
+
+- internal status;
+- provider follow-up;
+- incident review;
+- post-event report;
+- public-safe update;
+- correction notice;
+- next-review task; and
+- archive record.
+
+## Order-Book Venue Review
+
+For an order-book market, AIMM may review:
+
+- bid and ask;
+- quoted spread;
+- effective spread where methodologically supported;
+- visible depth by price level;
+- cumulative depth at selected ranges;
 - order concentration;
-- volume and volatility context;
-- venue differences;
+- trade size context;
+- volume;
+- volatility;
+- venue status;
+- market status;
+- deposit and withdrawal status where available;
 - data interruptions;
-- unusual placement or cancellation patterns; and
-- applicable provider notes.
+- unusual placement or cancellation patterns;
+- provider-reported activity;
+- observed provider obligation gaps; and
+- current incidents.
 
-Visible orders can change or disappear quickly. Order-book observations should not be presented as guaranteed executable liquidity.
+Visible orders can change, cancel, or disappear quickly.
 
-### DEX pools
+Visible depth is not guaranteed executable depth.
 
-For a decentralized pool, the review can include:
+A depth report should identify:
 
-- pair and network;
-- pool contract reference;
-- reserve composition;
-- depth and expected slippage at selected sizes;
+- venue;
+- pair;
+- side;
+- price range;
+- trade size;
+- timestamp;
+- data source;
+- latency;
+- exclusions;
+- methodology; and
+- known limitations.
+
+A spread observation should identify:
+
+- venue;
+- pair;
+- timestamp;
+- bid;
+- ask;
+- calculation method;
+- market status; and
+- data quality.
+
+One favorable observation does not establish continuous liquidity or future execution quality.
+
+## DEX Pool Review
+
+For a decentralized market, AIMM may review:
+
+- network;
+- token contracts;
+- pool contract;
+- pool type;
 - fee tier;
-- liquidity-provider position status;
-- smart-contract and bridge dependencies;
-- treasury exposure; and
-- recent material changes.
+- reserve composition;
+- liquidity distribution where applicable;
+- selected liquidity-position state;
+- expected slippage at selected sizes;
+- recent swaps;
+- material reserve changes;
+- oracle or pricing dependencies;
+- bridge dependencies;
+- treasury exposure;
+- smart-contract dependencies;
+- network fees;
+- transaction status;
+- ownership or control configuration where public and relevant; and
+- current incidents.
 
-Onchain visibility improves traceability but does not remove contract, custody, price, concentration, or execution risk.
+Onchain visibility can improve traceability.
 
-### Cross-venue context
+It does not remove:
 
-AIMM can compare differences in price, spread, depth, access, custody, settlement, fees, and operational readiness. Comparisons should use aligned timestamps and identify when venue data is incomplete or methodologically different.
+- smart-contract risk;
+- network risk;
+- bridge risk;
+- oracle risk;
+- custody risk;
+- concentration risk;
+- front-running or MEV risk;
+- slippage;
+- impermanent-loss risk;
+- price risk;
+- execution failure; or
+- legal and operational risk.
 
----
+Expected slippage is a modelled estimate based on selected data and assumptions.
 
-## 5. Thresholds, Anomalies, and Incidents
+It is not a guaranteed execution result.
 
-A workspace can define review conditions such as:
+## Cross-Venue Context
 
-- spread beyond a selected range;
-- depth below a stated level;
+AIMM may compare:
+
+- price;
+- spread;
+- visible depth;
+- expected slippage;
+- volume;
+- fee;
+- access;
+- custody;
+- network;
+- settlement;
+- provider status;
+- market status;
+- operational readiness; and
+- incident state.
+
+A comparison should use aligned timestamps where possible and disclose:
+
+- venue differences;
+- data delays;
+- different depth methods;
+- different volume methods;
+- different market types;
+- missing data;
+- currency-conversion method;
+- fee assumptions;
+- transfer delay; and
+- operational constraints.
+
+A price difference does not automatically represent an executable arbitrage opportunity.
+
+It may reflect:
+
+- timing;
+- fees;
+- transfer restrictions;
+- settlement delay;
+- custody constraints;
+- market type;
+- data error;
+- access limits;
+- liquidity differences;
+- regional restrictions;
+- withdrawal status; or
+- execution risk.
+
+## Thresholds and Alerts
+
+A workspace may define review conditions such as:
+
+- spread above a selected range;
+- visible depth below a selected level;
+- expected slippage above a selected level;
 - pool reserve change;
 - inventory imbalance;
 - venue outage;
+- market-status change;
+- deposit or withdrawal-status change;
 - unexpected transfer;
 - failed settlement;
-- unusual volume;
-- token-release milestone; or
-- repeated data-quality failure.
+- provider-report delay;
+- provider-obligation exception;
+- token-release milestone;
+- source outage;
+- repeated stale data;
+- reconciliation difference; or
+- another approved condition.
 
-When a condition occurs, AIMM can add source context, affected venues, recent changes, related procedures, and assigned reviewers.
+A threshold should identify:
 
-An alert is evidence that a configured condition was observed. It is not proof of manipulation, provider failure, or the correct response. Operators should preserve relevant evidence and follow the applicable incident process.
+- asset and pair;
+- venue or pool;
+- source;
+- metric;
+- formula;
+- unit;
+- threshold;
+- observation frequency;
+- timezone;
+- persistence requirement;
+- exclusion rule;
+- owner;
+- severity;
+- destination queue;
+- expiry;
+- review date; and
+- current activation state.
 
----
+An alert record may show:
 
-## 6. Playbooks and Approval
+- configured condition;
+- observed value;
+- observation time;
+- retrieval time;
+- data-quality state;
+- affected venue or pool;
+- persistence;
+- related incidents;
+- assigned owner;
+- acknowledgement;
+- review result;
+- correction state; and
+- closure state.
 
-AIMM can organize reusable playbooks for:
+An alert is evidence that a configured condition was observed under the stated method.
+
+It is not proof of:
+
+- manipulation;
+- provider failure;
+- insufficient liquidity for every trade size;
+- a required trade;
+- the correct response;
+- a future market move; or
+- a profitable opportunity.
+
+## Anomalies and Incidents
+
+An anomaly may relate to:
+
+- impossible or inconsistent data;
+- venue divergence;
+- unexpected inventory change;
+- unusual order or cancellation activity;
+- pool reserve change;
+- settlement delay;
+- transfer mismatch;
+- provider-report inconsistency;
+- source outage;
+- unauthorized access;
+- credential event;
+- account compromise;
+- transaction failure;
+- reconciliation difference;
+- public-report error; or
+- another configured condition.
+
+An anomaly is a review item.
+
+It is not automatically evidence of misconduct or market manipulation.
+
+An incident record may include:
+
+- incident identifier;
+- category;
+- severity;
+- affected asset, pair, venue, pool, account, wallet, or provider;
+- detection time;
+- source evidence;
+- data-quality state;
+- operational impact;
+- security impact;
+- financial or inventory context;
+- containment;
+- escalation;
+- decisions;
+- destination actions;
+- confirmations;
+- settlement state;
+- reconciliation;
+- communication state;
+- correction;
+- root-cause review;
+- follow-up; and
+- closure.
+
+AIMM should not expose exploitable security details, credentials, signing material, private provider instructions, or sensitive counterparty information in public incident reports.
+
+## Playbooks
+
+AIMM may organize reusable playbooks for:
 
 - routine liquidity review;
-- DEX pool review;
+- order-book review;
+- DEX-pool review;
 - volatility event;
+- spread condition;
+- depth condition;
+- expected-slippage condition;
 - inventory imbalance;
 - provider escalation;
 - venue outage;
-- token release or unlock;
-- public communication;
 - data-quality incident;
-- settlement exception; and
+- settlement exception;
+- token release or unlock;
+- DEX launch preparation;
+- possible later CEX preparation;
+- public communication;
+- security incident;
+- reconciliation difference; and
 - post-event review.
 
-A playbook can identify prerequisites, prohibited actions, approval roles, asset limits, venue scope, communication rules, evidence requirements, and stop conditions.
+A playbook should identify:
 
-The product can prepare execution context, but it should preserve separation between:
+- purpose;
+- scope;
+- trigger;
+- prerequisites;
+- source requirements;
+- role authority;
+- approval roles;
+- destination systems;
+- asset and venue limits;
+- prohibited actions;
+- communication rules;
+- evidence requirements;
+- stop conditions;
+- escalation conditions;
+- settlement requirements;
+- reconciliation requirements;
+- expiry;
+- review date; and
+- correction process.
 
-1. AI-generated observation or suggestion;
-2. human approval;
-3. external action;
-4. confirmation or failure; and
-5. reconciliation.
+Playbooks should preserve separation between:
 
-This separation is essential for accountability.
+1. source observation;
+2. AI or system interpretation;
+3. human review;
+4. approved decision;
+5. destination request;
+6. external confirmation;
+7. settlement;
+8. reconciliation; and
+9. reporting.
 
----
+A playbook is not standing authority beyond its approved scope and period.
 
-## 7. Provider and Venue Review
+## Prohibited or Restricted Conduct
 
-### Liquidity providers and market makers
+AIMM should not be designed or used to facilitate:
 
-AIMM can structure:
+- wash trading;
+- fake volume;
+- self-dealing intended to mislead;
+- spoofing;
+- layering;
+- deceptive order placement;
+- coordinated market manipulation;
+- false liquidity representation;
+- misleading public statements;
+- undisclosed price support;
+- evasion of venue rules;
+- evasion of legal or compliance controls;
+- unauthorized trading;
+- unauthorized asset movement;
+- unauthorized custody action;
+- use of stolen or compromised credentials;
+- concealment of conflicts;
+- concealment of losses or incidents; or
+- alteration of audit records to misrepresent events.
 
-- service descriptions;
-- commercial and operational terms;
+A provider, operator, or venue instruction that conflicts with approved conduct rules should be escalated rather than normalized inside a playbook.
+
+## Provider Review
+
+AIMM may structure provider records covering:
+
+- legal entity;
+- service description;
 - asset and venue scope;
+- account and custody model;
+- authority model;
+- permitted actions;
+- prohibited actions;
+- inventory responsibility;
+- settlement model;
+- reporting obligation;
+- service levels;
+- methodology;
+- fee and commercial terms;
+- conflicts of interest;
+- conduct controls;
+- information-security requirements;
+- incident obligations;
+- subcontractors;
+- termination;
+- transition assistance;
+- outstanding questions; and
+- internal review state.
+
+Provider status may include:
+
+- identified;
+- under review;
+- due diligence in progress;
+- commercially discussed;
+- legally reviewed;
+- technically reviewed;
+- approved;
+- contracted;
+- onboarding;
+- active;
+- limited;
+- paused;
+- terminated;
+- disputed; and
+- archived.
+
+These states are not interchangeable.
+
+A provider proposal does not prove suitability, approval, contract, funding, active service, performance, or future availability.
+
+Provider performance reporting should identify:
+
+- agreed metric;
+- venue;
+- pair;
+- period;
+- data source;
+- methodology;
+- exclusions;
+- provider report;
+- independent observation where available;
+- exception;
+- review state; and
+- correction history.
+
+A provider metric does not guarantee future performance.
+
+## Venue and Market-Access Review
+
+### DEX-First Direction
+
+FUZE may describe a DEX-first direction where that matches the approved launch and liquidity policy.
+
+AIMM may help document:
+
+- selected network;
+- token contract;
+- pool contract;
+- pool type;
+- paired asset;
+- fee tier;
+- initial or current liquidity source;
+- operational owner;
+- treasury approval;
+- contract review;
+- transaction status;
+- monitoring readiness;
+- incident route;
+- public reporting; and
+- current activation state.
+
+DEX planning is not DEX activation.
+
+A deployed contract is not necessarily an activated pool.
+
+An activated pool does not guarantee depth, liquidity, execution quality, price stability, or continuous availability.
+
+### Possible Later CEX Access
+
+A possible centralized-exchange path may require:
+
+- exchange outreach;
+- application;
+- due diligence;
+- legal and compliance review;
+- technical integration;
+- contract and commercial review;
+- custody planning;
+- deposit and withdrawal integration;
+- liquidity readiness;
+- provider readiness;
+- monitoring;
+- incident handling;
+- communication approval; and
+- market conditions.
+
+AIMM may track states such as:
+
+- research;
+- outreach;
+- discussion;
+- application preparation;
+- application submitted;
+- due diligence;
+- technical review;
+- commercial review;
+- approved;
+- scheduled;
+- live;
+- paused;
+- rejected;
+- withdrawn; and
+- archived.
+
+These states must not be collapsed into “listed.”
+
+Discussion, application, approval, scheduling, trading, deposits, and withdrawals are different states.
+
+No CEX listing, timing, liquidity, trading volume, deposit, withdrawal, or price outcome should be represented as guaranteed.
+
+## Treasury, Inventory, and Settlement Context
+
+AIMM may display or summarize approved information needed for operations, including:
+
+- treasury balance by approved category;
+- deployable inventory;
+- restricted inventory;
+- provider inventory;
+- venue inventory;
+- network inventory;
+- pending transfer;
+- pending settlement;
+- approved limit;
+- utilized limit;
+- reserve requirement;
+- fee;
+- cost;
+- provider invoice;
+- exception;
+- reconciliation difference; and
+- accounting handoff state.
+
+A balance should identify:
+
+- asset;
+- network;
+- account, wallet, provider, or venue scope;
 - custody model;
-- reporting obligations;
-- performance measures;
-- conflicts and conduct controls;
-- termination provisions;
-- unresolved questions; and
-- internal review status.
+- source;
+- as-of time;
+- available, pending, restricted, or reconciled state;
+- valuation method where applicable;
+- reviewer;
+- confidentiality level; and
+- correction history.
 
-The workspace supports comparison and documentation; provider suitability remains a decision for the organization's authorized reviewers.
+The following are not interchangeable:
 
-### DEX-first direction
+- total balance;
+- available balance;
+- deployable balance;
+- restricted balance;
+- provider-reported balance;
+- onchain balance;
+- exchange-account balance;
+- pending transfer;
+- settled balance;
+- accounting balance; and
+- approved operational limit.
 
-FUZE public language can describe a DEX-first approach where that reflects the approved launch and liquidity policy. AIMM can help document pool readiness, onchain references, operational ownership, and reporting.
+Stablecoins may support approved payment, settlement, treasury, or provider-compensation workflows.
 
-### Possible later CEX access
+Their use does not guarantee:
 
-A future centralized-exchange path can be evaluated, subject to exchange review, legal and compliance work, technical integration, commercial agreement, custody planning, liquidity readiness, and market conditions. AIMM can track that work without representing a listing as scheduled, approved, or guaranteed.
+- redemption under all conditions;
+- price stability under all conditions;
+- venue availability;
+- network availability;
+- settlement timing;
+- bank access;
+- exchange access;
+- liquidity; or
+- absence of issuer, counterparty, contract, bridge, or regulatory risk.
 
----
+AIMM should use references and states rather than exposing private keys, seed phrases, passwords, API secrets, withdrawal credentials, or signing material.
 
-## 8. Treasury and Settlement Context
+## Token-Release Preparation
 
-AIMM can display or summarize approved treasury and inventory information needed for liquidity operations. This can include available balances, allocation limits, settlement status, provider exposure, and pending movements.
+AIMM may support operational review around a defined token release, unlock, distribution, or circulation event.
 
-Stablecoins may serve payment, settlement, treasury, or compensation functions where approved. Their use does not create a guarantee of liquidity, redemption, price stability under all conditions, or availability on a particular venue.
+The review should distinguish:
 
-Sensitive balances, wallet controls, transaction approvals, and provider instructions should remain restricted. AIMM should use references and status records rather than exposing credentials or signing material.
+- allocation;
+- contractual release;
+- technical unlock;
+- transfer;
+- distribution;
+- recipient receipt;
+- circulating-supply treatment;
+- exchange deposit;
+- provider inventory;
+- liquidity inventory;
+- treasury inventory; and
+- actual market activity.
 
----
+Possible review items include:
 
-## 9. Practical Workflows
+- approved release schedule;
+- source and version;
+- affected amount;
+- recipient category;
+- network and contract;
+- operational timing;
+- timezone;
+- wallet or custody preparation;
+- venue status;
+- provider status;
+- monitoring thresholds;
+- public communication;
+- incident route;
+- reconciliation; and
+- correction.
 
-### Weekly liquidity review
+A release event does not by itself predict price, demand, selling, liquidity, volatility, or market outcome.
 
-The team selects current venues and pairs. AIMM prepares aligned spread, depth, pool, inventory, and incident context. Operators add provider updates, approve follow-up tasks, and issue an internal status report.
+AIMM should not prescribe deceptive or manipulative market intervention.
 
-### DEX pool event
+## Practical Workflows
 
-A configured pool crosses a depth threshold. AIMM records the onchain source, recent reserve movement, expected slippage ranges, and relevant playbook. Treasury and technical reviewers decide whether any authorized response is appropriate.
+### Routine Liquidity Review
 
-### Provider comparison
+The team selects assets, pairs, venues, pools, period, and timezone.
 
-The team imports proposals from several providers. AIMM structures scope, obligations, custody assumptions, reporting, costs, open questions, and termination terms for legal, treasury, and operational review.
+AIMM prepares aligned:
 
-### Token-release preparation
+- spread;
+- visible depth;
+- expected slippage;
+- pool context;
+- inventory context;
+- provider updates;
+- source-quality notes;
+- incidents;
+- exceptions; and
+- review tasks.
 
-The workspace links the approved release schedule to a review date. AIMM prepares inventory, venue, communication, and risk checklists without predicting price or prescribing market intervention.
+Operators record decisions and follow-up without implying that one review proves continuous liquidity.
 
-### Public liquidity update
+### DEX Pool Event
 
-Authorized staff use reviewed operational facts to prepare a concise update. [CommunityLayer AI](./07-HERHELP_COMMUNITYLAYER_AI_PUBLIC.md) may support the publication workflow, while AIMM retains the internal source and approval record.
+A configured pool crosses a selected threshold.
 
----
+AIMM records:
 
-## 10. Platform Credit Use
+- network;
+- contracts;
+- source;
+- reserve movement;
+- selected trade-size slippage estimates;
+- recent material changes;
+- relevant playbook;
+- treasury exposure;
+- incident context; and
+- assigned reviewers.
 
-Metered AIMM processing may use Platform Credits for actions such as:
+Authorized treasury, technical, compliance, and operational roles decide whether any response is appropriate.
+
+### Provider Comparison
+
+The team imports or records provider proposals.
+
+AIMM structures:
+
+- scope;
+- authority;
+- custody;
+- inventory model;
+- venue model;
+- methodology;
+- service levels;
+- conduct controls;
+- reporting;
+- fees;
+- legal terms;
+- security terms;
+- incident obligations;
+- termination;
+- conflicts; and
+- unresolved questions.
+
+Provider selection remains with authorized reviewers.
+
+### Token-Release Review
+
+AIMM links an approved release source to an operational review date.
+
+The workspace prepares:
+
+- supply-state distinctions;
+- inventory context;
+- venue status;
+- provider status;
+- threshold checks;
+- communication review;
+- settlement and reconciliation needs;
+- incident routes; and
+- public-report requirements.
+
+It does not predict price or authorize market intervention by itself.
+
+### Venue Outage
+
+A venue becomes unavailable or data becomes unreliable.
+
+AIMM records:
+
+- affected venue and pair;
+- market, deposit, and withdrawal state where available;
+- source status;
+- open operational dependencies;
+- affected provider;
+- affected inventory;
+- settlement impact;
+- communication need;
+- escalation; and
+- follow-up.
+
+### Settlement Exception
+
+A transfer, provider settlement, or venue movement does not reach the expected state.
+
+AIMM preserves:
+
+- approved instruction;
+- destination reference;
+- transaction or transfer reference;
+- timestamps;
+- asset and network;
+- source confirmations;
+- expected state;
+- observed state;
+- security review;
+- provider or venue follow-up;
+- accounting impact;
+- correction; and
+- closure.
+
+### Public Liquidity Update
+
+Authorized staff select reviewed operational facts.
+
+AIMM prepares a public-safe draft identifying:
+
+- asset and venue scope;
+- as-of time;
+- methodology;
+- current status;
+- limitations;
+- incidents or corrections suitable for disclosure;
+- source references; and
+- approval state.
+
+[CommunityLayer AI](07-HERHELP_COMMUNITYLAYER_AI_PUBLIC.md) may support publication, community moderation, and follow-up.
+
+AIMM retains the internal evidence and approval record.
+
+## Public Communication
+
+A public AIMM output should:
+
+- use approved facts;
+- identify asset, venue, pair, period, and as-of time;
+- identify whether the information concerns order-book or pool liquidity;
+- disclose relevant methodology;
+- distinguish observed depth from guaranteed execution;
+- distinguish estimate from completed transaction;
+- distinguish provider report from independent observation;
+- distinguish DEX planning, deployment, activation, and live operation;
+- distinguish CEX discussion, application, approval, scheduling, and live trading;
+- avoid undisclosed sensitive balances or strategy;
+- avoid exposing counterparties where disclosure is not authorized;
+- avoid guaranteed liquidity, price, volume, demand, listing, or return language;
+- avoid presenting historical conditions as current; and
+- receive authorized review before publication.
+
+Public reporting should not expose:
+
+- private keys;
+- credentials;
+- signing authority;
+- private wallet-person mappings;
+- withdrawal controls;
+- private provider instructions;
+- unpublished venue negotiations;
+- commercial terms;
+- security methods;
+- unpublished thresholds;
+- exploitable inventory information;
+- private legal analysis; or
+- incident details that increase operational risk.
+
+## AI Role and Human Authority
+
+AI may assist with:
+
+- source organization;
+- data-quality review;
+- venue comparison;
+- threshold explanation;
+- scenario drafting;
+- checklist drafting;
+- playbook drafting;
+- provider comparison;
+- incident summarization;
+- reconciliation support;
+- public-safe redrafting;
+- report formatting; and
+- follow-up-question generation.
+
+AI does not automatically:
+
+- verify every source;
+- determine manipulation;
+- determine provider breach;
+- determine legal compliance;
+- approve a playbook;
+- approve an asset movement;
+- approve a trade;
+- sign a transaction;
+- place or cancel an order;
+- move funds;
+- alter liquidity;
+- select leverage;
+- override treasury limits;
+- override custody controls;
+- approve public communication;
+- guarantee execution;
+- guarantee liquidity;
+- guarantee price;
+- guarantee listing;
+- guarantee profitability; or
+- replace authorized human review.
+
+Review strength should match the operational impact.
+
+| Output or action | Typical review |
+|---|---|
+| Routine observation | Authorized operator |
+| Data-quality exception | Operator and source owner |
+| Threshold review | Operator under configured rules |
+| Provider comparison | Operations, treasury, legal, compliance, and security as applicable |
+| Treasury or inventory action | Authorized treasury and destination-system approval |
+| DEX transaction | Authorized wallet or custody approval plus technical and operational controls |
+| Exchange order or transfer | Authorized exchange and custody roles under account limits |
+| Token-release preparation | Project, treasury, operations, communication, and compliance review |
+| Public liquidity statement | Authorized publisher and factual review |
+| Security incident | Restricted security and incident process |
+| Legal or regulatory interpretation | Appropriate legal or compliance review |
+
+## Platform Credit Use
+
+AIMM may use Platform Credits for metered processing such as:
 
 - generating a liquidity review;
 - comparing selected venues;
+- calculating or explaining selected spread, depth, or slippage context;
 - explaining a threshold event;
-- drafting a provider summary;
-- preparing a playbook or checklist;
+- preparing a provider summary;
+- preparing a bounded playbook or checklist;
 - organizing a token-release review;
-- producing a public-safe update;
-- analyzing selected incident records; or
-- creating a post-event report.
+- generating an incident summary;
+- comparing intended and observed outcomes;
+- producing a reconciliation summary;
+- generating a public-safe update;
+- analyzing selected operational records; or
+- producing a post-event report.
 
-Monitoring, data access, connected execution, or third-party services may follow separate commercial and entitlement rules. The workspace should make the relevant charge and scope visible before a paid processing task begins.
+The interface should show, where applicable:
 
-Platform Credits remain distinct from the FUZE token.
+- task;
+- source scope;
+- asset count;
+- venue or pool count;
+- period;
+- output type;
+- fixed amount, estimate, range, or maximum;
+- available balance;
+- authorization;
+- reservation state;
+- completion condition;
+- partial-completion treatment;
+- failure or reversal treatment; and
+- final usage record.
 
----
+A standard lifecycle may be:
 
-## 11. Data, Permissions, and Audit
+```text
+quote -> authorize -> reserve if needed -> process
+-> complete, partially complete, fail, or cancel
+-> consume, release, reverse, or correct -> record
+```
 
-AIMM can contain highly sensitive records:
+Monitoring, data feeds, provider services, execution venues, custody, settlement, gas, network fees, and third-party services may follow separate commercial, entitlement, and billing rules.
+
+Platform Credits are product usage credits.
+
+They remain separate from:
+
+- trading capital;
+- treasury assets;
+- provider inventory;
+- stablecoins;
+- wallets;
+- FUZE token;
+- token participation;
+- positions;
+- profits;
+- losses;
+- claims;
+- payouts;
+- DEX liquidity;
+- CEX access; and
+- investment rights.
+
+## Data, Permissions, and Security
+
+AIMM may contain highly sensitive records, including:
 
 - exchange and provider discussions;
 - treasury and inventory information;
@@ -275,49 +1434,568 @@ AIMM can contain highly sensitive records:
 - commercial terms;
 - alert thresholds;
 - operating playbooks;
-- proposed and completed actions;
+- proposed actions;
+- approved actions;
+- destination requests;
+- confirmations;
+- settlement records;
 - public communication drafts;
-- legal or compliance comments; and
-- incident evidence.
+- legal or compliance comments;
+- security records;
+- incident evidence;
+- reconciliation records;
+- invoices and cost references; and
+- audit history.
 
-Controls may include role separation, workspace isolation, source authorization, approval requirements, transaction limits, restricted exports, retention settings, connection revocation, and immutable or tamper-evident references where appropriate.
+Controls may include:
 
-Audit records should distinguish viewing, configuration, suggestion, approval, execution request, external confirmation, correction, and reversal. Public transparency can use aggregated or non-sensitive evidence; it should not expose private strategy, credentials, counterparties, or personal identity.
+- workspace isolation;
+- environment separation;
+- role separation;
+- least-privilege access;
+- source authorization;
+- provider authorization;
+- account and wallet scope restrictions;
+- approval thresholds;
+- transaction or action limits;
+- dual or multisig approval where required;
+- restricted exports;
+- secret separation;
+- credential rotation;
+- session revocation;
+- connection revocation;
+- retention settings;
+- legal-hold or preservation handling where appropriate;
+- tamper-evident references;
+- incident logging;
+- correction history; and
+- public-report de-identification.
 
----
+AIMM should not store or expose private keys, seed phrases, passwords, raw API secrets, withdrawal credentials, or signing material in ordinary reports or prompts.
 
-## 12. Reporting
+A connected model or provider should receive only the minimum information required for the approved task.
 
-Internal reporting may cover:
+The [FUZE Data Privacy and AI Data Handling](../CORE-PLATFORM-PAPERS/07-FUZE_DATA_PRIVACY_AND_AI_DATA_HANDLING_PUBLIC.md) provides the wider model.
+
+## Audit and Evidence Records
+
+Audit records should distinguish:
+
+- source viewed;
+- data retrieved;
+- threshold configured;
+- alert triggered;
+- suggestion generated;
+- playbook prepared;
+- approval requested;
+- approval granted;
+- approval rejected;
+- destination request created;
+- destination request submitted;
+- external confirmation received;
+- settlement pending;
+- settlement completed;
+- reconciliation completed;
+- public draft created;
+- public statement approved;
+- correction entered;
+- reversal entered; and
+- incident closed.
+
+An audit record should identify, where appropriate:
+
+- actor;
+- role;
+- time;
+- source;
+- asset and venue scope;
+- action;
+- authority;
+- destination;
+- limits;
+- result;
+- external reference;
+- correction state; and
+- retention class.
+
+An audit record documents a recorded event.
+
+It does not by itself prove that the event was authorized, correct, lawful, settled, or accurately reported unless the supporting evidence confirms those properties.
+
+## Provider, Feed, and Connector Boundaries
+
+Where AIMM uses an external model, market feed, exchange connector, DEX source, custody platform, wallet interface, provider report, storage system, or monitoring service, the product should evaluate:
+
+- source scope;
+- venue and pair coverage;
+- delay;
+- methodology;
+- data license;
+- historical coverage;
+- correction policy;
+- availability;
+- authentication;
+- transaction capability;
+- withdrawal capability;
+- personal and sensitive data sent;
+- provider retention;
+- model-training or service-improvement settings;
+- processing location where relevant;
+- subcontractors;
+- deletion capability;
+- output logging;
+- incident handling;
+- service levels;
+- termination; and
+- contractual and security controls.
+
+A fallback provider should not silently weaken:
+
+- freshness;
+- venue coverage;
+- pair accuracy;
+- data methodology;
+- security;
+- custody controls;
+- transaction limits;
+- privacy;
+- auditability;
+- retention;
+- reconciliation; or
+- user-facing expectations.
+
+Connected content may contain malicious instructions or prompt injection.
+
+AIMM should treat connected documents, messages, reports, and feeds as untrusted input and should not allow them to override system, permission, custody, approval, or security controls.
+
+## Reliability and Model-Risk Controls
+
+AIMM outputs may be affected by:
+
+- stale data;
+- feed outage;
+- venue outage;
+- wrong symbol;
+- wrong pair;
+- wrong contract;
+- wrong network;
+- decimal error;
+- timezone error;
+- delayed provider report;
+- inconsistent depth methodology;
+- incomplete order book;
+- hidden liquidity;
+- pool concentration;
+- bridge dependency;
+- oracle dependency;
+- incorrect slippage model;
+- model hallucination;
+- unsupported causation;
+- prompt injection;
+- compromised credential;
+- unauthorized source;
+- incomplete confirmation;
+- settlement delay;
+- accounting mismatch;
+- duplicate alert;
+- missed alert;
+- human confirmation bias; and
+- incorrect public interpretation.
+
+Controls may include:
+
+- source attribution;
+- freshness checks;
+- venue and pair confirmation;
+- network and contract confirmation;
+- decimal and unit validation;
+- aligned timestamps;
+- independent-source comparison;
+- calculation disclosure;
+- assumption labeling;
+- destination confirmation;
+- reconciliation;
+- bounded playbooks;
+- approval gates;
+- stop conditions;
+- incident escalation;
+- correction history;
+- model-output labeling; and
+- human review.
+
+## Reporting
+
+Internal reporting may include:
 
 - venue and pair status;
-- spread, depth, pool, and inventory observations;
-- alerts and incident status;
-- provider and exchange follow-up;
-- approvals and actions;
-- settlement exceptions;
+- pool status;
+- source availability;
+- data freshness;
+- spread observations;
+- depth observations;
+- slippage estimates;
+- inventory context;
+- settlement status;
+- provider status;
+- alerts;
+- incidents;
+- playbooks;
+- approvals;
+- destination requests;
+- external confirmations;
+- reconciliation;
 - token-release readiness;
-- public communication status;
+- DEX readiness;
+- CEX review status;
+- public-communication status;
 - corrections;
-- Platform Credit usage; and
-- source or workflow failures.
+- Platform Credit usage;
+- provider or feed failures;
+- support activity; and
+- operational exceptions.
 
-Public reporting should use approved facts and careful scope. Liquidity at one time, venue, or trade size does not establish continuous exit capacity or future market conditions.
+Reports should distinguish:
 
----
+- observed;
+- calculated;
+- threshold-triggered;
+- reviewed;
+- proposed;
+- approved;
+- requested;
+- submitted;
+- externally confirmed;
+- partially completed;
+- completed;
+- settled;
+- reconciled;
+- disputed;
+- corrected;
+- reversed; and
+- publicly reported.
 
-## 13. Product Status and Boundary
+These states are not interchangeable.
 
-AIMM is presented as a developing product. Data integrations, monitoring, threshold detection, playbooks, approvals, connected actions, provider workflows, and reporting may have different release status.
+Public reporting should identify:
 
-AIMM supports authorized liquidity operations; it is not an autonomous market participant, exchange, custodian, broker, investment manager, price-support mechanism, or guarantee of listing or liquidity.
+- asset and venue scope;
+- period;
+- timezone;
+- as-of time;
+- methodology;
+- whether data is order-book or pool based;
+- trade-size assumptions where relevant;
+- data delays;
+- source gaps;
+- current incident state where suitable for disclosure;
+- corrections; and
+- known limitations.
 
-[QTB](./11-QTB_PUBLIC.md) provides market interpretation and research support. Moving from QTB context into an AIMM operating decision requires AIMM permissions, evidence, and approval.
+A favorable spread, depth, slippage, pool, provider, or inventory observation does not independently prove:
 
----
+- continuous liquidity;
+- future execution quality;
+- exit capacity at another trade size;
+- provider performance in another period;
+- price stability;
+- token demand;
+- listing;
+- profitability;
+- market-making yield;
+- revenue; or
+- investment performance.
 
-## 14. Conclusion
+Reporting should follow the [FUZE Transparency and Reporting Rails](../CORE-PLATFORM-PAPERS/09-FUZE_TRANSPARENCY_AND_REPORTING_RAILS_PUBLIC.md).
 
-AIMM gives liquidity and market-operations teams a controlled path from observation to reviewed action and reconciliation. It creates value by making sources, thresholds, responsibilities, approvals, and outcomes visible.
+## Error, Correction, and Support Model
 
-The product's role is disciplined operational support. Market authority, custody, execution, provider selection, and public commitments remain with the responsible organization and its approved systems.
+AIMM should support clear treatment for:
+
+- wrong asset;
+- wrong symbol;
+- wrong pair;
+- wrong contract;
+- wrong network;
+- wrong venue;
+- wrong pool;
+- wrong timeframe;
+- wrong timezone;
+- wrong unit or decimal;
+- stale feed;
+- missing feed;
+- duplicate observation;
+- wrong threshold;
+- false-positive alert;
+- missed alert;
+- duplicate alert;
+- provider-report mismatch;
+- inventory mismatch;
+- unauthorized source;
+- unauthorized approval;
+- expired approval;
+- destination rejection;
+- failed transaction;
+- failed order;
+- partial completion;
+- settlement delay;
+- reconciliation difference;
+- custody or security incident;
+- failed connector;
+- provider failure;
+- private data in a public draft;
+- Platform Credit mismatch;
+- missing audit history; and
+- public-report error.
+
+A correction record should identify:
+
+- original observation, threshold, alert, decision, request, transaction, settlement, reconciliation, provider record, or report;
+- asset, pair, venue, pool, network, and period;
+- affected source;
+- affected calculation or action state;
+- correction reason;
+- reviewer;
+- corrected record;
+- approval effect;
+- destination effect;
+- settlement effect;
+- inventory or treasury effect;
+- provider effect;
+- public-communication effect;
+- withdrawal requirement;
+- downstream report effect; and
+- support status.
+
+A corrected or reversed record should not remain represented as current without an explicit historical label.
+
+## Separation from QTB
+
+QTB and AIMM serve different purposes.
+
+| Area | QTB | AIMM |
+|---|---|---|
+| Primary purpose | Market research and interpretation | Authorized liquidity-operations intelligence, monitoring, review, and reporting |
+| Main question | What does selected market evidence suggest or leave unresolved? | What condition was observed, what authority applies, what bounded operational response is available, and what outcome occurred? |
+| Core outputs | Research note, scenario, alert, journal, or public brief | Operational observation, threshold event, playbook, approval record, incident, reconciliation, or report |
+| Authority | Research-layer user or reviewer | Authorized operational, treasury, compliance, security, and destination roles |
+| Execution | No autonomous trade execution | Destination actions remain governed by approved external systems and human authority |
+| Main boundary | Not advice, execution, or guaranteed signal | Not price protection, manipulation, guaranteed liquidity, or guaranteed profitability |
+
+A QTB output may enter AIMM only through an authorized handoff.
+
+The handoff should identify:
+
+- source output;
+- asset and pair;
+- venue;
+- period and as-of time;
+- source set;
+- methodology;
+- assumptions;
+- conflicts;
+- reviewer;
+- operational purpose;
+- destination owner;
+- expiry; and
+- next-review condition.
+
+QTB interpretation should not silently become an AIMM instruction, approval, threshold, playbook, or destination request.
+
+## Separation from Custody and Execution
+
+AIMM may organize the context around an authorized action.
+
+It should not independently:
+
+- hold private keys;
+- expose seed phrases;
+- bypass multisig or custody controls;
+- create unauthorized withdrawal rights;
+- place or cancel orders without destination authorization;
+- sign transactions without the configured signer process;
+- move funds without treasury authority;
+- override venue limits;
+- override wallet limits;
+- override compliance controls;
+- select leverage without explicit authority;
+- conceal execution or settlement failure;
+- guarantee best execution;
+- guarantee a fill;
+- guarantee a price; or
+- guarantee a return.
+
+The destination system remains authoritative for execution and custody state.
+
+AIMM records should preserve the distinction between:
+
+- approved intent;
+- destination request;
+- external acceptance;
+- partial completion;
+- completion;
+- settlement;
+- reconciliation; and
+- correction.
+
+## Product Status and Evidence
+
+AIMM is presented as a developing product unless current evidence supports a stronger status.
+
+Different capabilities may have different statuses.
+
+Possible evidence includes:
+
+| Status claim | Evidence direction |
+|---|---|
+| Product designed | Defined monitored scope, observation lifecycle, approvals, playbooks, data controls, reporting, and boundaries |
+| Prototype exists | Reviewable observation, alert, playbook, approval, incident, reconciliation, or report workflow |
+| Feed connected | Working authorized feed with documented venue, pair, delay, freshness, error, and correction behavior |
+| DEX source connected | Working network, contract, pool, reserve, event, and error handling in the cited environment |
+| Thresholds implemented | Working configuration, observation, persistence, alert, acknowledgement, review, and correction behavior |
+| Approval workflow implemented | Working roles, limits, approve, reject, expire, revoke, and history behavior |
+| Destination integration implemented | Working authorized request, destination confirmation, failure, and audit behavior in the cited environment |
+| Reconciliation implemented | Working intended, requested, confirmed, settled, reconciled, exception, and correction states |
+| Provider workflow implemented | Working provider record, review, status, report, exception, and termination handling |
+| Internally tested | Test evidence for stale data, wrong pair, permissions, expired approval, destination failure, settlement, incident, and correction |
+| Limited release | Controlled users, supported sources, current terms, support, monitoring, and known limitations |
+| Public beta | Public access route, beta terms, supported features, support, and release notes |
+| Live | Production access, current features, support, monitoring, and operating evidence |
+| DEX liquidity active | Current network, contracts, pool state, transactions, monitoring, controls, and public evidence |
+| CEX trading live | Current exchange market, pair, trading state, deposit and withdrawal status, support, and public exchange evidence |
+| Paid delivery | Pricing, payment, active service, fulfillment, support, and customer evidence |
+| Revenue confirmed | Reconciled payment, completed service, accounting treatment, period, and review |
+
+The following do not independently prove a live product or active liquidity operation:
+
+- this paper;
+- a dashboard mockup;
+- a screenshot;
+- a sample alert;
+- code;
+- a repository;
+- a provider proposal;
+- a venue discussion;
+- a DEX plan;
+- a deployed token contract;
+- a pool design;
+- a CEX application;
+- a pricing concept; or
+- a roadmap date.
+
+Current status should be checked in the [FUZE Public Status and Roadmap Matrix](../PUBLIC-INDEX/02-FUZE_PUBLIC_STATUS_AND_ROADMAP_MATRIX.md).
+
+## Product, Token, Payment, and Market Separation
+
+The following remain separate:
+
+- market observation;
+- research;
+- operational review;
+- playbook approval;
+- destination request;
+- trade execution;
+- asset transfer;
+- settlement;
+- reconciliation;
+- treasury assets;
+- provider inventory;
+- Platform Credits;
+- payments;
+- stablecoins;
+- wallets;
+- FUZE token utility;
+- token participation;
+- claims;
+- payouts;
+- DEX access;
+- CEX access;
+- liquidity;
+- market price; and
+- profitability.
+
+An observation, alert, approval, provider report, wallet link, token balance, payment, or Platform Credit event does not automatically establish:
+
+- execution authority;
+- completed execution;
+- settled transfer;
+- active token utility;
+- wallet eligibility beyond a defined rule;
+- approved distributable value;
+- a claim;
+- a payout;
+- token circulation;
+- DEX liquidity;
+- CEX listing;
+- token demand;
+- price support;
+- market-making profitability; or
+- financial return.
+
+An AIMM paper or dashboard should not be used as evidence of exchange approval, listing, continuous liquidity, price support, execution quality, provider performance, or profitability unless current evidence supports that exact claim.
+
+## Public Boundary
+
+AIMM can help authorized teams organize liquidity observations, thresholds, providers, playbooks, approvals, destination requests, incidents, reconciliation, and reporting.
+
+It cannot independently establish:
+
+- truth of every source;
+- complete market coverage;
+- current executable liquidity for every trade size;
+- absence of manipulation;
+- provider suitability;
+- provider performance;
+- trade authorization;
+- completed execution;
+- settlement;
+- custody safety;
+- best execution;
+- continuous liquidity;
+- price stability;
+- token demand;
+- market access;
+- listing approval;
+- profitability;
+- revenue;
+- payout;
+- price support; or
+- financial return.
+
+Authorized organizations remain responsible for:
+
+- source selection;
+- venue and pair selection;
+- methodology;
+- provider selection;
+- legal and compliance review;
+- treasury authority;
+- custody;
+- wallet and exchange permissions;
+- transaction and order limits;
+- execution;
+- settlement;
+- reconciliation;
+- incident response;
+- public communication;
+- privacy;
+- security;
+- correction;
+- support; and
+- compliance with applicable rules.
+
+Detailed product risks appear in [FUZE Product Risk Boundaries](16-FUZE_PRODUCT_RISK_BOUNDARIES_PUBLIC.md). Consolidated limitations appear in the [FUZE Risk and Disclosure Appendix](../WHITEPAPER-PAPERS/05-FUZE_RISK_AND_DISCLOSURE_APPENDIX_PUBLIC.md).
+
+## Key Takeaways
+
+- AIMM is an authorized liquidity-operations intelligence, monitoring, review, and reporting product.
+- It is not an autonomous market maker, price-support mechanism, manipulation system, exchange, broker, or custodian.
+- Every observation should preserve asset, pair, venue, network, source, time, units, methodology, and data-quality context.
+- Visible order-book depth and estimated DEX slippage do not guarantee executable liquidity.
+- Thresholds and alerts are review triggers, not proof of misconduct or automatic trading instructions.
+- Bounded playbooks must preserve separation between observation, AI interpretation, human approval, destination action, confirmation, settlement, reconciliation, and reporting.
+- Provider proposals, venue discussions, DEX plans, and CEX applications do not prove active service, active liquidity, approval, listing, or performance.
+- QTB research does not become AIMM operational authority without an authorized handoff and independent approval.
+- Platform Credits meter defined AIMM processing and remain separate from treasury assets, provider inventory, wallets, stablecoins, and FUZE token.
+- This paper does not prove that feeds, thresholds, approvals, destination integrations, DEX liquidity, CEX access, paid delivery, adoption, or revenue are live.
+- AIMM succeeds only when it improves operational discipline without weakening authorization, custody, market-conduct controls, reconciliation, evidence quality, or honest public reporting.
+```
